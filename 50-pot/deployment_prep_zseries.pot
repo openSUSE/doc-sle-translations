@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,6 @@ msgstr ""
 msgid "Installation on IBM Z"
 msgstr ""
 
-#. (itstool) path: docmanager/translation
-#: xml/deployment_prep_zseries.xml:25
-msgid "yes"
-msgstr ""
-
 #. (itstool) path: abstract/para
 #: xml/deployment_prep_zseries.xml:28
 msgid "This chapter describes the procedure for preparing the installation of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase> on IBM Z. It provides all information needed to prepare the installation on the LPAR and z/VM side."
@@ -36,7 +31,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/deployment_prep_zseries.xml:41
-msgid "The installation process can be partly automated by specifying the crucial parameters in the <filename>parmfile</filename>. The <filename>parmfile</filename> contains all the data required for network setup and DASD configuration. In addition to that, it can be used to set up the connection method to the <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> installation system and the YaST instance running there. User interaction is thus limited to the actual YaST installation controlled by YaST dialogs."
+msgid "The installation process can be partly automated by specifying the crucial parameters in the <filename>parmfile</filename>. The <filename>parmfile</filename> contains all the data required for network setup and DASD configuration. In addition to that, it can be used to set up the connection method to the <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> installation system and the YaST instance running there. User interaction is thus limited to the actual YaST installation controlled by YaST dialogues."
 msgstr ""
 
 #. (itstool) path: sect1/para

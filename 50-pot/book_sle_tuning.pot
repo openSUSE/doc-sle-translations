@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:24+0200\n"
+"POT-Creation-Date: 2018-11-24 22:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,11 +32,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/book_sle_tuning.xml:50
 msgid "An administrator's guide for problem detection, resolution and optimization. Find how to inspect and optimize your system by means of monitoring tools and how to efficiently manage resources. Also contains an overview of common problems and solutions and of additional help and documentation resources."
-msgstr ""
-
-#. (itstool) path: bugtracker/assignee
-#: xml/book_sle_tuning.xml:54
-msgid "fs@suse.com"
 msgstr ""
 
 #. (itstool) path: part/title

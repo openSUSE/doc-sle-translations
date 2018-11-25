@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:23+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/deployment_prep_zseries_requirements.xml:21
 msgid "System Requirements"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_prep_zseries_requirements.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -338,7 +333,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/deployment_prep_zseries_requirements.xml:391
-msgid "For Linux, a VNC client called vncviewer is included in <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> as part of the <systemitem class=\"resource\">tightvnc</systemitem> package. For Windows, TightVNC is also available. Download it from <link xlink:href=\"http://www.tightvnc.com/\"/>."
+msgid "For Linux, a VNC client called <command>vncviewer</command> is included in <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> as part of the <systemitem class=\"resource\">tightvnc</systemitem> package. For Windows, TightVNC is also available. Download it from <link xlink:href=\"http://www.tightvnc.com/\"/>."
 msgstr ""
 
 #. (itstool) path: varlistentry/term

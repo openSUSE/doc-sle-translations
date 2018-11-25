@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,6 @@ msgstr ""
 #: xml/net_config_files.xml:9
 #: xml/net_config_files.xml:44
 msgid "Configuration Files"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_config_files.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect2/para

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:06+0200\n"
+"POT-Creation-Date: 2018-11-24 22:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,6 @@ msgstr ""
 #: xml/yast2_you.xml:9
 #: xml/yast2_you.xml:94
 msgid "YaST Online Update"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/yast2_you.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

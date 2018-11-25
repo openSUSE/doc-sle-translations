@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:18+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/net_slp.xml:12
 msgid "Configuring a network client requires detailed knowledge about services provided over the network (such as printing or LDAP, for example). To make it easier to configure such services on a network client, the <quote>service location protocol</quote> (SLP) was developed. SLP makes the availability and configuration data of selected services known to all clients in the local network. Applications that support SLP can use this information to be configured automatically."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_slp.xml:24
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -211,7 +206,7 @@ msgstr ""
 
 #. (itstool) path: tip/para
 #: xml/net_slp.xml:196
-msgid "Some services brokered by YaST, such as an installation server or YOU server, perform this registration automatically when you activate SLP in the module dialogs. YaST then creates registration files for these services."
+msgid "Some services brokered by YaST, such as an installation server or YOU server, perform this registration automatically when you activate SLP in the module dialogues. YaST then creates registration files for these services."
 msgstr ""
 
 #. (itstool) path: varlistentry/term

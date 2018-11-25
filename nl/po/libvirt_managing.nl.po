@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:46+0200\n"
+"POT-Creation-Date: 2018-11-24 22:40+0100\n"
 "PO-Revision-Date: 2018-09-30 01:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -840,7 +840,7 @@ msgid ""
 "VM Guest snapshots are snapshots of the complete virtual machine including "
 "the state of CPU, RAM, devices, and the content of all writable disks. To "
 "use virtual machine snapshots, all the attached hard disks need to use the "
-"qcow2 disk image format, and at least one of them needs to be writeable."
+"qcow2 disk image format, and at least one of them needs to be writable."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -2134,4 +2134,238 @@ msgstr ""
 msgid ""
 "Activate the graphs that should be displayed under <menuchoice> "
 "<guimenu>View</guimenu> <guimenu>Graph</guimenu> </menuchoice>."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1516
+msgid ""
+"Afterward, the disk and network statistics are also displayed in the main "
+"window of the Virtual Machine Manager."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1520
+msgid ""
+"More precise data is available from the VNC window. Open a VNC window as "
+"described in <xref linkend=\"sec.libvirt.managing.console.vnc\"/>. Choose "
+"<guimenu>Details</guimenu> from the toolbar or the <guimenu>View</guimenu> "
+"menu. The statistics are displayed from the <guimenu>Performance</guimenu> "
+"entry of the left-hand tree menu."
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: xml/libvirt_managing.xml:1530
+msgid "Monitoring with <command>virt-top</command>"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1531
+msgid ""
+"<command>virt-top</command> is a command line tool similar to the well-known "
+"process monitoring tool <command>top</command>. <command>virt-top</command> "
+"uses libvirt and therefore is capable of showing statistics for VM Guests "
+"running on different hypervisors. It is recommended to use <command>virt-"
+"top</command> instead of hypervisor-specific tools like <command>xentop</"
+"command>."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1539
+msgid ""
+"By default <command>virt-top</command> shows statistics for all running VM "
+"Guests. Among the data that is displayed is the percentage of memory used "
+"(<literal>%MEM</literal>) and CPU (<literal>%CPU</literal>) and the uptime "
+"of the guest (<literal>TIME</literal>). The data is updated regularly (every "
+"three seconds by default). The following shows the output on a VM Host "
+"Server with seven VM Guests, four of them inactive:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/libvirt_managing.xml:1547
+#, no-wrap
+msgid ""
+"virt-top 13:40:19 - x86_64 8/8CPU 1283MHz 16067MB 7.6% 0.5%\n"
+"7 domains, 3 active, 3 running, 0 sleeping, 0 paused, 4 inactive D:0 O:0 X:0\n"
+"CPU: 6.1%  Mem: 3072 MB (3072 MB by guests)\n"
+"\n"
+"   ID S RDRQ WRRQ RXBY TXBY %CPU %MEM    TIME   NAME\n"
+"    7 R  123    1  18K  196  5.8  6.0   0:24.35 sled12_sp1\n"
+"    6 R    1    0  18K    0  0.2  6.0   0:42.51 sles12_sp1\n"
+"    5 R    0    0  18K    0  0.1  6.0  85:45.67 opensuse_leap\n"
+"    -                                           (Ubuntu_1410)\n"
+"    -                                           (debian_780)\n"
+"    -                                           (fedora_21)\n"
+"    -                                           (sles11sp3)"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1559
+msgid ""
+"By default the output is sorted by ID. Use the following key combinations to "
+"change the sort field:"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1564
+msgid ""
+"<keycombo><keycap function=\"shift\"/><keycap>P</keycap></keycombo>: CPU "
+"usage"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1567
+msgid ""
+"<keycombo><keycap function=\"shift\"/><keycap>M</keycap></keycombo>: Total "
+"memory allocated by the guest"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1570
+msgid ""
+"<keycombo><keycap function=\"shift\"/><keycap>T</keycap></keycombo>: Time"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1572
+msgid "<keycombo><keycap function=\"shift\"/><keycap>I</keycap></keycombo>: ID"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1575
+msgid ""
+"To use any other field for sorting, press <keycombo> <keycap function=\"shift"
+"\"/> <keycap>F</keycap> </keycombo> and select a field from the list. To "
+"toggle the sort order, use <keycombo> <keycap function=\"shift\"/> "
+"<keycap>R</keycap> </keycombo>."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1583
+msgid ""
+"<command>virt-top</command> also supports different views on the VM Guests "
+"data, which can be changed on-the-fly by pressing the following keys:"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1588
+msgid "<keycap>0</keycap>: default view"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1589
+msgid "<keycap>1</keycap>: show physical CPUs"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1590
+msgid "<keycap>2</keycap>: show network interfaces"
+msgstr ""
+
+#. (itstool) path: simplelist/member
+#: xml/libvirt_managing.xml:1591
+msgid "<keycap>3</keycap>: show virtual disks"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1593
+msgid ""
+"<command>virt-top</command> supports more hot keys to change the view of the "
+"data and many command line switches that affect the behavior of the program. "
+"For more information, see <command>man 1 virt-top</command>."
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: xml/libvirt_managing.xml:1601
+msgid "Monitoring with <command>kvm_stat</command>"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1602
+msgid ""
+"<command>kvm_stat</command> can be used to trace KVM performance events. It "
+"monitors <filename>/sys/kernel/debug/kvm</filename>, so it needs the debugfs "
+"to be mounted. On <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
+"phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
+"it should be mounted by default. In case it is not mounted, use the "
+"following command:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/libvirt_managing.xml:1608
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt><command>sudo</command> mount -t debugfs none /sys/kernel/debug"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1609
+msgid "<command>kvm_stat</command> can be used in three different modes:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/libvirt_managing.xml:1612
+#, no-wrap
+msgid ""
+"kvm_stat                    # update in 1 second intervals\n"
+"kvm_stat -1                 # 1 second snapshot\n"
+"kvm_stat -l &gt; kvmstats.log  # update in 1 second intervals in log format\n"
+"                            # can be imported to a spreadsheet"
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/libvirt_managing.xml:1617
+msgid "Typical Output of <command>kvm_stat</command>"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/libvirt_managing.xml:1618
+#, no-wrap
+msgid ""
+"kvm statistics\n"
+"\n"
+" efer_reload                  0       0\n"
+" exits                 11378946  218130\n"
+" fpu_reload               62144     152\n"
+" halt_exits              414866     100\n"
+" halt_wakeup             260358      50\n"
+" host_state_reload       539650     249\n"
+" hypercalls                   0       0\n"
+" insn_emulation         6227331  173067\n"
+" insn_emulation_fail          0       0\n"
+" invlpg                  227281      47\n"
+" io_exits                113148      18\n"
+" irq_exits               168474     127\n"
+" irq_injections          482804     123\n"
+" irq_window               51270      18\n"
+" largepages                   0       0\n"
+" mmio_exits                6925       0\n"
+" mmu_cache_miss           71820      19\n"
+" mmu_flooded              35420       9\n"
+" mmu_pde_zapped           64763      20\n"
+" mmu_pte_updated              0       0\n"
+" mmu_pte_write           213782      29\n"
+" mmu_recycled                 0       0\n"
+" mmu_shadow_zapped       128690      17\n"
+" mmu_unsync                  46      -1\n"
+" nmi_injections               0       0\n"
+" nmi_window                   0       0\n"
+" pf_fixed               1553821     857\n"
+" pf_guest               1018832     562\n"
+" remote_tlb_flush        174007      37\n"
+" request_irq                  0       0\n"
+" signal_exits                 0       0\n"
+" tlb_flush               394182     148"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/libvirt_managing.xml:1652
+#, no-wrap
+msgid "?????"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/libvirt_managing.xml:1654
+msgid ""
+"See <link xlink:href=\"http://clalance.blogspot.com/2009/01/kvm-performance-"
+"tools.html\"/> for further information on how to interpret these values."
 msgstr ""

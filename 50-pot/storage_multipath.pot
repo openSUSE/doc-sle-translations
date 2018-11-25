@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:12+0200\n"
+"POT-Creation-Date: 2018-11-24 22:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/storage_multipath.xml:9
 msgid "Managing Multipath I/O for Devices"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/storage_multipath.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -3432,14 +3427,14 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/storage_multipath.xml:3687
-msgid "Add dm-multipath to <filename>/etc/dracut.conf.d/01-dist.conf</filename> by adding the following line:"
+msgid "Open or create <filename>/etc/dracut.conf.d/10-mp.conf</filename> and add the following line (mind the leading whitespace):"
 msgstr ""
 
 #. (itstool) path: step/screen
 #: xml/storage_multipath.xml:3691
 #, no-wrap
 msgid ""
-"force_drivers+=\"dm-multipath\""
+"force_drivers+=\" dm-multipath\""
 msgstr ""
 
 #. (itstool) path: step/para

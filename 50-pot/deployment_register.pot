@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,11 +27,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_register.xml:22
 msgid "Modules and extensions add features to your system and allow you to customize the system according to your needs. These components also need to be registered and can be managed with YaST or command line tools."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_register.xml:30
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: note/title

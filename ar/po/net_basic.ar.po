@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: 2018-09-30 01:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -28,11 +28,6 @@ msgid ""
 "can be configured with YaST. Manual configuration is also possible. In this "
 "chapter only the fundamental mechanisms and the relevant network "
 "configuration files are covered."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_basic.xml:22
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -1167,9 +1162,9 @@ msgid ""
 "To configure IPv6, you normally do not need to make any changes on the "
 "individual workstations. IPv6 is enabled by default. To disable or enable "
 "IPv6 on an installed system, use the YaST <guimenu>Network Settings</"
-"guimenu> module. On the <guimenu>Global Options</guimenu> tab, check or "
-"uncheck the <guimenu>Enable IPv6</guimenu> option as necessary. To enable it "
-"temporarily until the next reboot, enter <command>modprobe</command> "
+"guimenu> module. On the <guimenu>Global Options</guimenu> tab, select or "
+"deselect the <guimenu>Enable IPv6</guimenu> option as necessary. To enable "
+"it temporarily until the next reboot, enter <command>modprobe</command> "
 "<option>-i ipv6</option> as <systemitem class=\"username\">root</"
 "systemitem>. It is impossible to unload the IPv6 module after it has been "
 "loaded."

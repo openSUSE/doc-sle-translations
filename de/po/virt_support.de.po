@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:09+0200\n"
+"POT-Creation-Date: 2018-11-24 22:30+0100\n"
 "PO-Revision-Date: 2018-09-30 01:09+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -586,12 +586,12 @@ msgid "Feature Support—Host (<literal>Dom0</literal>)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:787 xml/virt_support.xml:926 xml/virt_support.xml:1092
+#: xml/virt_support.xml:787 xml/virt_support.xml:928 xml/virt_support.xml:1094
 msgid "Features"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:792 xml/virt_support.xml:931 xml/virt_support.xml:1097
+#: xml/virt_support.xml:792 xml/virt_support.xml:933 xml/virt_support.xml:1099
 msgid "Xen"
 msgstr ""
 
@@ -603,18 +603,18 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/virt_support.xml:806 xml/virt_support.xml:830 xml/virt_support.xml:842
 #: xml/virt_support.xml:854 xml/virt_support.xml:867 xml/virt_support.xml:880
-#: xml/virt_support.xml:893 xml/virt_support.xml:945 xml/virt_support.xml:957
-#: xml/virt_support.xml:969 xml/virt_support.xml:981 xml/virt_support.xml:993
-#: xml/virt_support.xml:1017 xml/virt_support.xml:1029
-#: xml/virt_support.xml:1041 xml/virt_support.xml:1116
-#: xml/virt_support.xml:1121 xml/virt_support.xml:1150
-#: xml/virt_support.xml:1155 xml/virt_support.xml:1167
-#: xml/virt_support.xml:1172 xml/virt_support.xml:1184
-#: xml/virt_support.xml:1189 xml/virt_support.xml:1207
-#: xml/virt_support.xml:1219 xml/virt_support.xml:1224
-#: xml/virt_support.xml:1236 xml/virt_support.xml:1241
-#: xml/virt_support.xml:1253 xml/virt_support.xml:1258
-#: xml/virt_support.xml:1270 xml/virt_support.xml:1275
+#: xml/virt_support.xml:893 xml/virt_support.xml:947 xml/virt_support.xml:959
+#: xml/virt_support.xml:971 xml/virt_support.xml:983 xml/virt_support.xml:995
+#: xml/virt_support.xml:1019 xml/virt_support.xml:1031
+#: xml/virt_support.xml:1043 xml/virt_support.xml:1118
+#: xml/virt_support.xml:1123 xml/virt_support.xml:1152
+#: xml/virt_support.xml:1157 xml/virt_support.xml:1169
+#: xml/virt_support.xml:1174 xml/virt_support.xml:1186
+#: xml/virt_support.xml:1191 xml/virt_support.xml:1209
+#: xml/virt_support.xml:1221 xml/virt_support.xml:1226
+#: xml/virt_support.xml:1238 xml/virt_support.xml:1243
+#: xml/virt_support.xml:1255 xml/virt_support.xml:1260
+#: xml/virt_support.xml:1272 xml/virt_support.xml:1277
 msgid "Yes"
 msgstr ""
 
@@ -624,12 +624,12 @@ msgid "Physical <xref linkend=\"gloss.vt.cpu.hotplug\"/>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:818 xml/virt_support.xml:1133 xml/virt_support.xml:1138
+#: xml/virt_support.xml:818 xml/virt_support.xml:1135 xml/virt_support.xml:1140
 msgid "No"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:825 xml/virt_support.xml:952 xml/virt_support.xml:1128
+#: xml/virt_support.xml:825 xml/virt_support.xml:954 xml/virt_support.xml:1130
 msgid "Virtual <xref linkend=\"gloss.vt.cpu.hotplug\"/>"
 msgstr ""
 
@@ -663,84 +663,84 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/virt_support.xml:908
+#: xml/virt_support.xml:910
 msgid "Adding or Removing Physical CPUs at Runtime Is Not Supported"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/virt_support.xml:909
+#: xml/virt_support.xml:911
 msgid ""
 "The addition or removal of physical CPUs at runtime is not supported. "
 "However, virtual CPUs can be added or removed for each VM Guest."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/virt_support.xml:917
+#: xml/virt_support.xml:919
 msgid "Paravirtualized Guest"
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/virt_support.xml:919
+#: xml/virt_support.xml:921
 msgid "Feature Support—Paravirtualized Guest"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:940 xml/virt_support.xml:1111
+#: xml/virt_support.xml:942 xml/virt_support.xml:1113
 msgid "Virtual network and virtual block device hotplugging"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:964 xml/virt_support.xml:1145
+#: xml/virt_support.xml:966 xml/virt_support.xml:1147
 msgid "Virtual <xref linkend=\"gloss.vt.cpu.overcommit\"/>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:976 xml/virt_support.xml:1162
+#: xml/virt_support.xml:978 xml/virt_support.xml:1164
 msgid "Dynamic virtual memory resize"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:988 xml/virt_support.xml:1179
+#: xml/virt_support.xml:990 xml/virt_support.xml:1181
 msgid "VM save and restore"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1000
+#: xml/virt_support.xml:1002
 msgid "VM live migration"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1005
+#: xml/virt_support.xml:1007
 msgid "Yes, between like virtual host systems with similar resources"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1012 xml/virt_support.xml:1231
+#: xml/virt_support.xml:1014 xml/virt_support.xml:1233
 msgid "Advanced debugging with GDBC"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1024 xml/virt_support.xml:1248
+#: xml/virt_support.xml:1026 xml/virt_support.xml:1250
 msgid "Dom0 metrics visible to VM"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1036
+#: xml/virt_support.xml:1038
 msgid "Memory ballooning"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1048 xml/virt_support.xml:1265
+#: xml/virt_support.xml:1050 xml/virt_support.xml:1267
 msgid "PCI pass-through"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1053
+#: xml/virt_support.xml:1055
 msgid "Yes (Netware guests are excluded)"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/virt_support.xml:1061
+#: xml/virt_support.xml:1063
 msgid ""
 "For live migration, both source and target system architectures need to "
 "match; that is, the processors (AMD* or Intel*) must be the same. Unless CPU "
@@ -755,56 +755,56 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/virt_support.xml:1074
+#: xml/virt_support.xml:1076
 msgid "Intel FlexMigration"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/virt_support.xml:1075
+#: xml/virt_support.xml:1077
 msgid ""
 "For machines that support Intel FlexMigration, CPU-ID masking and faulting "
 "allow more flexibility in cross-CPU migration."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/virt_support.xml:1083
+#: xml/virt_support.xml:1085
 msgid "Fully Virtualized Guest"
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/virt_support.xml:1085
+#: xml/virt_support.xml:1087
 msgid "Feature Support—Fully Virtualized Guest"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1102
+#: xml/virt_support.xml:1104
 msgid "KVM"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1196
+#: xml/virt_support.xml:1198
 msgid "VM Live Migration"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1201
+#: xml/virt_support.xml:1203
 msgid ""
 "Yes between like virtual host systems with similar resources (that is, from "
 "32-bit to 32-bit, 64-bit to 64-bit)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/virt_support.xml:1214
+#: xml/virt_support.xml:1216
 msgid "VM snapshot"
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/virt_support.xml:1284
+#: xml/virt_support.xml:1286
 msgid "Windows Guest"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/virt_support.xml:1285
+#: xml/virt_support.xml:1287
 msgid ""
 "Hotplugging of virtual network and virtual block devices, and resizing, "
 "shrinking, and restoring dynamic virtual memory are supported in Xen and KVM "
@@ -812,7 +812,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/virt_support.xml:1291
+#: xml/virt_support.xml:1293
 msgid ""
 "For KVM, a detailed description of supported limits, features, recommended "
 "settings and scenarios, and other useful information is maintained in "

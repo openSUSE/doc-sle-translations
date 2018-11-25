@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:28+0200\n"
+"POT-Creation-Date: 2018-11-24 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/apps_firefox.xml:12
 msgid "The Mozilla Firefox Web browser is included with <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase>. With features like tabbed browsing, pop-up window blocking and download management, Firefox combines the latest browsing and security technologies with an easy-to-use interface. Firefox gives you easy access to different search engines to help you find the information you need."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apps_firefox.xml:22
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -840,7 +835,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:953
-msgid "Add-ons"
+msgid "Add-Ons"
 msgstr ""
 
 #. (itstool) path: sect2/para

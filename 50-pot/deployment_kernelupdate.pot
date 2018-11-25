@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:23+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_kernelupdate.xml:14
 msgid "With some newer hardware, the installation medium of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> cannot boot. This can be the case when the hardware did not exist at the time of the release of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. For such a situation SUSE provides <emphasis>Kernel Update ISO</emphasis> (<emphasis>kISO</emphasis>) images. This chapter describes how to use the Kernel Update to install <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> on current hardware."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_kernelupdate.xml:25
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

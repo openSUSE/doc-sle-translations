@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:45+0200\n"
+"POT-Creation-Date: 2018-11-24 22:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/x11.xml:9
 msgid "Graphical User Interface"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/x11.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -51,12 +46,12 @@ msgstr ""
 
 #. (itstool) path: tip/title
 #: xml/x11.xml:44
-msgid "IBM Z: Configuring the Graphical User Interface"
+msgid "IBM Z: Configuring the Graphical User Interface"
 msgstr ""
 
 #. (itstool) path: tip/para
 #: xml/x11.xml:45
-msgid "IBM Z does not have any input or output devices supported by X.Org. Therefore, none of the configuration procedures described in this section apply. More relevant information for IBM Z can be found in <xref linkend=\"cha.zseries\"/>."
+msgid "IBM Z does not have any input or output devices supported by X.Org. Therefore, none of the configuration procedures described in this section apply. More relevant information for IBM Z can be found in <xref linkend=\"cha.zseries\"/>."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -185,3 +180,9 @@ msgstr ""
 #: xml/x11.xml:177
 msgid "More Information"
 msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/x11.xml:178
+msgid "For more information, see <link xlink:href=\"http://help.gnome.org/admin/\"/>."
+msgstr ""
+

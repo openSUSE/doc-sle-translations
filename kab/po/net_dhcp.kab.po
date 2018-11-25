@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: 2018-09-30 01:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kab\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -32,11 +32,6 @@ msgid ""
 "need to configure the client. This is useful if you have changing "
 "environments and only one interface active at a time. Never use "
 "NetworkManager on a machine that runs a DHCP server."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_dhcp.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: tip/title
@@ -352,7 +347,7 @@ msgid ""
 "part of the dialog displays a tree view with the declarations that have "
 "already been defined. Modify these with <guimenu>Add</guimenu>, "
 "<guimenu>Delete</guimenu>, and <guimenu>Edit</guimenu>. Selecting "
-"<guimenu>Advanced</guimenu> takes you to additional expert dialogs. See "
+"<guimenu>Advanced</guimenu> takes you to additional expert dialogues. See "
 "<xref linkend=\"fig.yast2.dhcp.chroot\"/>. After selecting <guimenu>Add</"
 "guimenu>, define the type of declaration to add. With <guimenu>Advanced</"
 "guimenu>, view the log file of the server, configure TSIG key management, "

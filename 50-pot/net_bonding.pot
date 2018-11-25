@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,6 @@ msgstr ""
 msgid "Setting Up Bonding Devices"
 msgstr ""
 
-#. (itstool) path: docmanager/translation
-#: xml/net_bonding.xml:14
-msgid "yes"
-msgstr ""
-
 #. (itstool) path: sect1/para
 #: xml/net_bonding.xml:18
 msgid "For some systems, there is a desire to implement network connections that comply to more than the standard data security or availability requirements of a typical Ethernet device. In these cases, several Ethernet devices can be aggregated to a single bonding device."
@@ -31,7 +26,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/net_bonding.xml:25
-msgid "The configuration of the bonding device is done by means of bonding module options. The behavior is mainly affected by the mode of the bonding device. By default, this is <systemitem>active-backup</systemitem> which means that a different slave device will become active if the active slave fails. The following bonding modes are avilable:"
+msgid "The configuration of the bonding device is done by means of bonding module options. The behavior is mainly affected by the mode of the bonding device. By default, this is <systemitem>active-backup</systemitem> which means that a different slave device will become active if the active slave fails. The following bonding modes are available:"
 msgstr ""
 
 #. (itstool) path: varlistentry/term

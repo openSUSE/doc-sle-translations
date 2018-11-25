@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:18+0200\n"
+"POT-Creation-Date: 2018-11-24 22:38+0100\n"
 "PO-Revision-Date: 2018-09-30 01:18+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -19,11 +19,6 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/net_yast.xml:9
 msgid "Configuring a Network Connection with YaST"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_yast.xml:14
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -627,11 +622,11 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: xml/net_yast.xml:532
 msgid ""
-"Multifunction devices that support LAN, iSCSI, and FCoE are supported. YaST "
-"FCoE client (<command>yast2 fcoe-client</command>) shows the private flags "
-"in additional columns to allow the user to select the device meant for FCoE. "
-"YaST network module (<command>yast2 lan</command>) excludes <quote>storage "
-"only devices</quote> for network configuration."
+"Multifunction devices that support LAN, iSCSI, and FCoE are supported. The "
+"YaST FCoE client (<command>yast2 fcoe-client</command>) shows the private "
+"flags in additional columns to allow the user to select the device meant for "
+"FCoE. The YaST network module (<command>yast2 lan</command>) excludes "
+"<quote>storage only devices</quote> for network configuration."
 msgstr ""
 
 #. (itstool) path: sect4/para

@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:16+0200\n"
+"POT-Creation-Date: 2018-11-24 22:37+0100\n"
 "PO-Revision-Date: 2018-09-30 01:16+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kab\n"
 
 #. (itstool) path: sect1/title
 #: xml/rmt_rmt-cli.xml:9
@@ -123,8 +123,8 @@ msgstr ""
 msgid ""
 "This command triggers the synchronization with the SUSE Customer Center "
 "instantly. The command has no further options. The synchronization is also "
-"triggered each night by th <systemitem class=\"daemon\">systemd</systemitem> "
-"timer <systemitem>rmt-server-sync.timer</systemitem>."
+"triggered each night by the <systemitem class=\"daemon\">systemd</"
+"systemitem> timer <systemitem>rmt-server-sync.timer</systemitem>."
 msgstr ""
 
 #. (itstool) path: sect2/para

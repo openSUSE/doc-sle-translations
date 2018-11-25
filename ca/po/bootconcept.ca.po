@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:24+0200\n"
+"POT-Creation-Date: 2018-11-24 22:44+0100\n"
 "PO-Revision-Date: 2018-09-30 01:24+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -31,11 +31,6 @@ msgid ""
 "<systemitem class=\"daemon\">systemd</systemitem> provides a set of "
 "<quote>targets</quote> that boot configurations for everyday usage, "
 "maintenance or emergencies."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/bootconcept.xml:24
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -354,41 +349,42 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:322
 msgid ""
-"Edit <filename>/etc/dracut.conf.d/01-dist.conf</filename> (or create it, if "
-"it does not exist) and add the following line."
+"Open or create <filename>/etc/dracut.conf.d/10-<replaceable>DRIVER</"
+"replaceable>.conf</filename> and add the following line (mind the leading "
+"whitespace):"
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/bootconcept.xml:326
+#: xml/bootconcept.xml:327
 #, no-wrap
-msgid "force_drivers+=\"<replaceable>DRIVER1</replaceable>\""
+msgid "force_drivers+=\" <replaceable>DRIVER1</replaceable>\""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:327
+#: xml/bootconcept.xml:328
 msgid ""
 "Replace <replaceable>DRIVER1</replaceable> with the module name of the "
 "driver. If you need to add more than one driver, list them space-separated:"
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/bootconcept.xml:332
+#: xml/bootconcept.xml:333
 #, no-wrap
-msgid "force_drivers+=\"<replaceable>DRIVER1</replaceable> <replaceable>DRIVER2</replaceable>\""
+msgid "force_drivers+=\" <replaceable>DRIVER1</replaceable> <replaceable>DRIVER2</replaceable>\""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:333 xml/bootconcept.xml:352 xml/bootconcept.xml:369
+#: xml/bootconcept.xml:334 xml/bootconcept.xml:353 xml/bootconcept.xml:370
 msgid "Proceed with <xref linkend=\"pro.generate.initramfs\"/>."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:339
+#: xml/bootconcept.xml:340
 msgid "Moving System Directories to a RAID or LVM"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:341
+#: xml/bootconcept.xml:342
 msgid ""
 "Whenever you move swap files, or system directories like <filename>/usr</"
 "filename> in a running system to a RAID or logical volume, you need to "
@@ -397,7 +393,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:347
+#: xml/bootconcept.xml:348
 msgid ""
 "To do so, create the respective entries in <filename>/etc/fstab</filename> "
 "and mount the new entries (for example with <command>mount -a</command> and/"
@@ -405,12 +401,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:358
+#: xml/bootconcept.xml:359
 msgid "Adding Disks to a LVM Group /Btrfs RAID Containing the Root File System"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:362
+#: xml/bootconcept.xml:363
 msgid ""
 "Whenever you add (or remove) a disk to a logical volume group or a Btrfs "
 "RAID containing the root file system, you need to create an "
@@ -420,12 +416,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:375
+#: xml/bootconcept.xml:376
 msgid "Changing Kernel Variables"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:377
+#: xml/bootconcept.xml:378
 msgid ""
 "If you change the values of kernel variables via the <command>sysctl</"
 "command> interface by editing related files (<filename>/etc/sysctl.conf</"
@@ -437,30 +433,30 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: procedure/title
-#: xml/bootconcept.xml:392
+#: xml/bootconcept.xml:393
 msgid "Generate an initramfs"
 msgstr ""
 
 #. (itstool) path: procedure/para
-#: xml/bootconcept.xml:393
+#: xml/bootconcept.xml:394
 msgid ""
 "Note that all commands in the following procedure need to be executed as "
 "user <systemitem class=\"username\">root</systemitem>."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/bootconcept.xml:398
+#: xml/bootconcept.xml:399
 msgid "Generate a new <systemitem>initramfs</systemitem> file by running"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/bootconcept.xml:401
+#: xml/bootconcept.xml:402
 #, no-wrap
 msgid "dracut <replaceable>MY_INITRAMFS</replaceable>"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/bootconcept.xml:402
+#: xml/bootconcept.xml:403
 msgid ""
 "Replace <replaceable>MY_INITRAMFS</replaceable> with a file name of your "
 "choice. The new <systemitem>initramfs</systemitem> will be created as "
@@ -468,14 +464,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/bootconcept.xml:407
+#: xml/bootconcept.xml:408
 msgid ""
 "Alternatively, run <command>dracut -f</command>. This will overwrite the "
 "currently used, existing file."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/bootconcept.xml:413
+#: xml/bootconcept.xml:414
 msgid ""
 "(Skip this step if you ran <command>dracut -f</command> in the previous "
 "step). Create a link to the <systemitem>initramfs</systemitem> file you "
@@ -483,25 +479,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/bootconcept.xml:418
+#: xml/bootconcept.xml:419
 #, no-wrap
 msgid "(cd /boot &amp;&amp; ln -sf <replaceable>MY_INITRAMFS</replaceable> initrd)"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/bootconcept.xml:421
+#: xml/bootconcept.xml:422
 msgid ""
 "On the IBM IBM Z architecture, additionally run <command>grub2-install</"
 "command>."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/bootconcept.xml:432
+#: xml/bootconcept.xml:433
 msgid "The init on initramfs Phase"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/bootconcept.xml:433
+#: xml/bootconcept.xml:434
 msgid ""
 "The temporary root file system mounted by the kernel from the "
 "<systemitem>initramfs</systemitem> contains the executable <systemitem class="
@@ -514,7 +510,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/bootconcept.xml:444
+#: xml/bootconcept.xml:445
 msgid ""
 "The main purpose of <systemitem>init</systemitem> on <systemitem>initramfs</"
 "systemitem> is to prepare the mounting of and access to the real root file "
@@ -524,12 +520,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:454
+#: xml/bootconcept.xml:455
 msgid "Loading Kernel Modules"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:456
+#: xml/bootconcept.xml:457
 msgid ""
 "Depending on your hardware configuration, special drivers may be needed to "
 "access the hardware components of your computer (the most important "
@@ -538,12 +534,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:465
+#: xml/bootconcept.xml:466
 msgid "Providing Block Special Files"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:467
+#: xml/bootconcept.xml:468
 msgid ""
 "The kernel generates device events depending on loaded modules. <systemitem "
 "class=\"service\">udev</systemitem> handles these events and generates the "
@@ -553,12 +549,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:477
+#: xml/bootconcept.xml:478
 msgid "Managing RAID and LVM Setups"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:479
+#: xml/bootconcept.xml:480
 msgid ""
 "If you configured your system to hold the root file system under RAID or "
 "LVM, <systemitem>init</systemitem> on <systemitem>initramfs</systemitem> "
@@ -566,12 +562,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:487
+#: xml/bootconcept.xml:488
 msgid "Managing the Network Configuration"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:489
+#: xml/bootconcept.xml:490
 msgid ""
 "If you configured your system to use a network-mounted root file system "
 "(mounted via NFS), <systemitem>init</systemitem> must make sure that the "
@@ -580,7 +576,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:495
+#: xml/bootconcept.xml:496
 msgid ""
 "If the file system resides on a network block device like iSCSI or SAN, the "
 "connection to the storage server is also set up by <systemitem>init</"
@@ -594,12 +590,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/bootconcept.xml:509
+#: xml/bootconcept.xml:510
 msgid "Handling of Mount Failures"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/bootconcept.xml:510
+#: xml/bootconcept.xml:511
 msgid ""
 "If the root file system fails to mount from within the boot environment, it "
 "must be checked and repaired before the boot can continue. The file system "
@@ -612,12 +608,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/bootconcept.xml:524
+#: xml/bootconcept.xml:525
 msgid "The init on initramfs Phase in the Installation Process"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/bootconcept.xml:525
+#: xml/bootconcept.xml:526
 msgid ""
 "When <systemitem>init</systemitem> on <systemitem>initramfs</systemitem> is "
 "called during the initial boot as part of the installation process, its "
@@ -628,12 +624,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:536
+#: xml/bootconcept.xml:537
 msgid "Finding the Installation Medium"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:538
+#: xml/bootconcept.xml:539
 msgid ""
 "When starting the installation process, your machine loads an installation "
 "kernel and a special <systemitem>init</systemitem> containing the YaST "
@@ -643,12 +639,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:548
+#: xml/bootconcept.xml:549
 msgid "Initiating Hardware Recognition and Loading Appropriate Kernel Modules"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:552
+#: xml/bootconcept.xml:553
 msgid ""
 "As mentioned in <xref linkend=\"sec.boot.initrd\"/>, the boot process starts "
 "with a minimum set of drivers that can be used with most hardware "
@@ -660,7 +656,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:561
+#: xml/bootconcept.xml:562
 msgid ""
 "These drivers are used to generate a custom <systemitem>initramfs</"
 "systemitem> that is needed to boot the system. If the modules are not needed "
@@ -670,12 +666,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:571
+#: xml/bootconcept.xml:572
 msgid "Loading the Installation System"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:573
+#: xml/bootconcept.xml:574
 msgid ""
 "When the hardware is properly recognized, the appropriate drivers are "
 "loaded. The <systemitem class=\"service\">udev</systemitem> program creates "
@@ -684,24 +680,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/bootconcept.xml:582
+#: xml/bootconcept.xml:583
 msgid "Starting YaST"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/bootconcept.xml:584
+#: xml/bootconcept.xml:585
 msgid ""
 "Finally, <command>linuxrc</command> starts YaST, which starts the package "
 "installation and the system configuration."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/bootconcept.xml:596
+#: xml/bootconcept.xml:597
 msgid "The systemd Phase"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/bootconcept.xml:597
+#: xml/bootconcept.xml:598
 msgid ""
 "After the <quote>real</quote> root file system has been found, it is checked "
 "for errors and mounted. If this is successful, the <systemitem>initramfs</"

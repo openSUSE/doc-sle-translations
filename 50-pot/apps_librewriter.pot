@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:28+0200\n"
+"POT-Creation-Date: 2018-11-24 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,11 +32,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/apps_librewriter.xml:26
 msgid "Much of the information in this chapter can also be applied to other LibreOffice modules. For example, other modules use styles similarly to how they are used in Writer."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apps_librewriter.xml:34
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

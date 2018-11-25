@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/net_dhcp.xml:12
 msgid "The purpose of the <emphasis>Dynamic Host Configuration Protocol</emphasis> (DHCP) is to assign network settings centrally (from a server) rather than configuring them locally on every workstation. A host configured to use DHCP does not have control over its own static address. It is enabled to configure itself completely and automatically according to directions from the server. If you use the NetworkManager on the client side, you do not need to configure the client. This is useful if you have changing environments and only one interface active at a time. Never use NetworkManager on a machine that runs a DHCP server."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_dhcp.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: tip/title
@@ -243,7 +238,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/net_dhcp.xml:279
-msgid "In this first dialog, make the existing configuration editable by selecting <guimenu>Start DHCP Server</guimenu>. An important feature of the behavior of the DHCP server is its ability to run in a chroot environment, or chroot jail, to secure the server host. If the DHCP server should ever be compromised by an outside attack, the attacker will still be in the chroot jail, which prevents them from accessing the rest of the system. The lower part of the dialog displays a tree view with the declarations that have already been defined. Modify these with <guimenu>Add</guimenu>, <guimenu>Delete</guimenu>, and <guimenu>Edit</guimenu>. Selecting <guimenu>Advanced</guimenu> takes you to additional expert dialogs. See <xref linkend=\"fig.yast2.dhcp.chroot\"/>. After selecting <guimenu>Add</guimenu>, define the type of declaration to add. With <guimenu>Advanced</guimenu>, view the log file of the server, configure TSIG key management, and adjust the configuration of the firewall according to the setup of the DHCP server."
+msgid "In this first dialog, make the existing configuration editable by selecting <guimenu>Start DHCP Server</guimenu>. An important feature of the behavior of the DHCP server is its ability to run in a chroot environment, or chroot jail, to secure the server host. If the DHCP server should ever be compromised by an outside attack, the attacker will still be in the chroot jail, which prevents them from accessing the rest of the system. The lower part of the dialog displays a tree view with the declarations that have already been defined. Modify these with <guimenu>Add</guimenu>, <guimenu>Delete</guimenu>, and <guimenu>Edit</guimenu>. Selecting <guimenu>Advanced</guimenu> takes you to additional expert dialogues. See <xref linkend=\"fig.yast2.dhcp.chroot\"/>. After selecting <guimenu>Add</guimenu>, define the type of declaration to add. With <guimenu>Advanced</guimenu>, view the log file of the server, configure TSIG key management, and adjust the configuration of the firewall according to the setup of the DHCP server."
 msgstr ""
 
 #. (itstool) path: figure/title

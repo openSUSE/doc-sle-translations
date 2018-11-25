@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:25+0200\n"
+"POT-Creation-Date: 2018-11-24 22:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/backup.xml:19
 msgid "The Backup tool is a simple framework to let users back up and restore their own data such as home directories or selected files. It is possible to create scheduled backups or backups on request, and to play back a previous state of this data."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/backup.xml:28
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

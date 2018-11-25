@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:47+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: 2018-09-30 01:22+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -506,4 +506,205 @@ msgid ""
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. "
 "To see installed modules or install additional modules, open YaST and select "
 "<guimenu>Add System Extensions or Modules</guimenu>."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:408
+msgid ""
+"Make sure the SUSE Linux Enterprise images from the SUSE Registry are "
+"installed, as described in <xref linkend=\"Building_Pre-build_Images\"/>."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:414
+msgid ""
+"Save the <filename>Dockerfile</filename> from <xref linkend=\"ex.docker."
+"dockerfile.apache2\"/> into the <filename class=\"directory\">docker</"
+"filename> directory."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:421
+msgid ""
+"Within the Docker container, you need access to software repositories and "
+"services that are registered on the host. To make them available, copy "
+"repositories and service files from the host to the <filename class="
+"\"directory\">docker/etc</filename> directory:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:427
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>cd docker\n"
+"<prompt>tux &gt; </prompt>mkdir etc\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> cp -a /etc/zypp/{repos.d,services.d} etc/"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:430
+msgid ""
+"Instead of copying all repository and service files, you can also copy only "
+"the subset that is required by the Docker container."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:439
+msgid ""
+"Add Web site data (such as HTML files) into the <filename>docker/data</"
+"filename> directory. The contents of this directory are copied to the Docker "
+"image and are thus published by the Web server."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:449
+msgid ""
+"Build the container. Set a tag for your image with the <option>-t</option> "
+"option (here <literal>tux/apache2</literal>, but you can use any name you "
+"want):"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:454
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt><command>sudo</command> docker build -t tux/apache2 ."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:455
+msgid ""
+"Docker Open Source Engine will now execute the instructions provided in "
+"<filename>Dockerfile</filename>: It will take the base image, copy content, "
+"refresh repositories and install the Apache2, etc."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:462
+msgid ""
+"Create a Docker container instance from the Docker image created in the "
+"previous step:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:466
+#: xml/docker_dockerizing_application.xml:530
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt>docker run --detach --interactive --tty tux/apache2"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:467
+msgid "Docker Open Source Engine returns the container ID, for example:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:470
+#, no-wrap
+msgid "7bd674eb196d330d50f8a3cfc2bc61a243a4a535390767250b11a7886134ab93"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:473
+msgid ""
+"Point a browser at <uri>http://localhost:80/test.html</uri>. You should see "
+"the message <literal>The Web server is running</literal>."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:479
+msgid "To see an overview of running containers, use:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:482
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>docker ps --latest\n"
+"CONTAINER ID        IMAGE               COMMAND                  [...]\n"
+"<emphasis role=\"bold\">7bd674eb196d</emphasis>        tux/apache2         \"/usr/sbin/httpd -...\"   [...]"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:485
+msgid "To stop and delete the Docker container, use the following command:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:488
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt>docker rm --force 7bd674eb196d"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/docker_dockerizing_application.xml:491
+msgid ""
+"The above procedure describes building an image containing the Apache2 Web "
+"server. You can use the resulting container to serve your data with the "
+"Apache2 Web server by following these steps:"
+msgstr ""
+
+#. (itstool) path: procedure/title
+#: xml/docker_dockerizing_application.xml:497
+msgid "Creating a Docker Container with your Own Data"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:499
+msgid "In <filename>Dockerfile</filename>:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/docker_dockerizing_application.xml:504
+msgid ""
+"Convert the line starting with <literal>RUN echo</literal> into a comment by "
+"adding a <literal>#</literal> character at its beginning (<xref linkend=\"co."
+"dockerfile.apache2.echo\"/> in <xref linkend=\"ex.docker.dockerfile."
+"apache2\"/>)."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/docker_dockerizing_application.xml:513
+msgid ""
+"Convert the line starting with <literal>COPY</literal> to a command by "
+"removing the leading <literal># </literal> in it (<xref linkend=\"co."
+"dockerfile.apache2.copy\"/> in <xref linkend=\"ex.docker.dockerfile."
+"apache2\"/>)."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:523
+msgid ""
+"Rebuild the image as described in <xref linkend=\"st.docker.apache2.build\"/"
+"> of <xref linkend=\"pro.docker.apache2\" xrefstyle=\"select:label\"/>."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:529
+msgid "Run the image in detached mode:"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/docker_dockerizing_application.xml:531
+msgid "Docker Open Source Engine responds with the container ID, for example:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/docker_dockerizing_application.xml:532
+#, no-wrap
+msgid "e43fff4ae9832ecdb7677c058a73039d7610c32145a1d9b6ad0a4ed52b5c4dc7"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/docker_dockerizing_application.xml:535
+msgid ""
+"View the published data, point a browser at <uri>http://localhost:80/test."
+"html</uri>."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/docker_dockerizing_application.xml:539
+msgid ""
+"To avoid copying Web site data into the Docker container, share a directory "
+"of the host with the container. For information, see <link xlink:href="
+"\"https://docs.docker.com/storage/volumes/\"/>."
 msgstr ""

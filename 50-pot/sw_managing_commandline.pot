@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:11+0200\n"
+"POT-Creation-Date: 2018-11-24 22:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,5 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/sw_managing_commandline.xml:12
 msgid "This chapter describes Zypper and RPM, two command line tools for managing software. For a definition of the terminology used in this context (for example, <literal>repository</literal>, <literal>patch</literal>, or <literal>update</literal>) refer to <xref linkend=\"sec.onlineupdate.terms\"/>."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/sw_managing_commandline.xml:22
-msgid "yes"
 msgstr ""
 

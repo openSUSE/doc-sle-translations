@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:20+0200\n"
+"POT-Creation-Date: 2018-11-24 22:40+0100\n"
 "PO-Revision-Date: 2018-09-30 01:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -108,7 +108,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/libvirt_guest_installation.xml:79
 msgid ""
-"Specify the path on the VM Host Server to an iso image containing the "
+"Specify the path on the VM Host Server to an ISO image containing the "
 "installation data. If it is available as a volume in a libvirt storage pool, "
 "you can also select it using <guimenu>Browse</guimenu>. For more "
 "information, see <xref linkend=\"cha.libvirt.storage\"/>."
@@ -399,7 +399,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/libvirt_guest_installation.xml:322
 msgid ""
-"If using vnc <command>virt-install</command> tries to launch <command>virt-"
+"If using VNC <command>virt-install</command> tries to launch <command>virt-"
 "viewer</command>. If it is not installed or cannot be run, connect to the VM "
 "Guest manually with you preferred viewer. To explicitly prevent "
 "<command>virt-install</command> from launching the viewer use <option>--"

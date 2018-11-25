@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_yast_installer.xml:14
 msgid "This chapter describes the procedure in which the data for <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> is copied to the target device. Some basic configuration parameters for the newly installed system are set during the procedure. A graphical user interface will guide you through the installation. <phrase os=\"sles;sled\">The procedure described in the following also applies to remote installation procedures as described in <xref linkend=\"cha.remote_installation\"/>.</phrase> The text mode installation has the same steps and only looks different. <phrase os=\"sles;osuse\">For information about performing non-interactive automated installations, see <xref linkend=\"book.autoyast\"/>.</phrase>"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_yast_installer.xml:31
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -1696,7 +1691,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/deployment_yast_installer.xml:1299
-msgid "If setting up a server, you probably do not need a graphical user interface. Choose <guimenu>Server (Text Mode)</guimenu> in this case. Alternatively, set up a server system with a read-only root partition and transactional updates by choosing <guimenu>Transactional Server</guimenu>. This selection aslo is a prerequisite for setting up openSUSE Kubic. See <link xlink:href=\"https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/\"/> for mor information on transactional updates."
+msgid "If setting up a server, you probably do not need a graphical user interface. Choose <guimenu>Server (Text Mode)</guimenu> in this case. Alternatively, set up a server system with a read-only root partition and transactional updates by choosing <guimenu>Transactional Server</guimenu>. This selection also is a prerequisite for setting up openSUSE Kubic. See <link xlink:href=\"https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/\"/> for more information on transactional updates."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -2015,7 +2010,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/deployment_yast_installer.xml:1644
-msgid "To adjust the proposal, choose <guimenu>Guided Setup</guimenu>. First, choose which hard disks and partitions to use. In the <guimenu>Partitioning Scheme</guimenu> screen, you can enable Logical Volume Management (LVM) and activate disk encryption. Afterwards specify the <guimenu>Filesystem Options</guimenu>. You can adjust the file system for the root partition and create a separate home and swap partitions. If ypu plan to suspend your machine, make sure to create a separate swap partition and check <guimenu>Enlarge to RAM Size for Suspend</guimenu>. If the root file system format is Btrfs, you can also enable or disable Btrfs snapshots here."
+msgid "To adjust the proposal, choose <guimenu>Guided Setup</guimenu>. First, choose which hard disks and partitions to use. In the <guimenu>Partitioning Scheme</guimenu> screen, you can enable Logical Volume Management (LVM) and activate disk encryption. Afterwards specify the <guimenu>Filesystem Options</guimenu>. You can adjust the file system for the root partition and create a separate home and swap partitions. If you plan to suspend your machine, make sure to create a separate swap partition and check <guimenu>Enlarge to RAM Size for Suspend</guimenu>. If the root file system format is Btrfs, you can also enable or disable Btrfs snapshots here."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -2614,7 +2609,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/deployment_yast_installer.xml:2249
-msgid "After configuring all installation settings, click <guimenu>Install</guimenu> in the Installation Settings window to start the installation. Some software may require a license confirmation. If your software selection includes such software, license confirmation dialogs are displayed. Click <guimenu>Accept</guimenu> to install the software package. When not agreeing to the license, click <guimenu>I Disagree</guimenu> and the software package will not be installed. In the dialog that follows, confirm with <guimenu>Install</guimenu> again."
+msgid "After configuring all installation settings, click <guimenu>Install</guimenu> in the Installation Settings window to start the installation. Some software may require a license confirmation. If your software selection includes such software, license confirmation dialogues are displayed. Click <guimenu>Accept</guimenu> to install the software package. When not agreeing to the license, click <guimenu>I Disagree</guimenu> and the software package will not be installed. In the dialog that follows, confirm with <guimenu>Install</guimenu> again."
 msgstr ""
 
 #. (itstool) path: sect1/para

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:27+0200\n"
+"POT-Creation-Date: 2018-11-24 22:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -576,7 +576,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:634
-msgid "Configuration options from SuSEfirewall2 that are no longer available either have no equivalent mapping in <systemitem class=\"daemon\">firewalld</systemitem> or will be supported in future releases of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Some <systemitem class=\"daemon\">firewalld</systemitem> features are not yet supportes by YaST and AutoYaST—you can make use of them with post installation scripts in your AutoYaST profile. See <xref linkend=\"createprofile.scripts\"/> for more information."
+msgid "Configuration options from SuSEfirewall2 that are no longer available either have no equivalent mapping in <systemitem class=\"daemon\">firewalld</systemitem> or will be supported in future releases of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Some <systemitem class=\"daemon\">firewalld</systemitem> features are not yet supported by YaST and AutoYaST—you can make use of them with post installation scripts in your AutoYaST profile. See <xref linkend=\"createprofile.scripts\"/> for more information."
 msgstr ""
 
 #. (itstool) path: note/title

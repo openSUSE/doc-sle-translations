@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/net_nfs.xml:11
 msgid "The <emphasis>Network File System</emphasis> (<emphasis>NFS</emphasis>) is a protocol that allows access to files on a server ima a manner very similar to accessing local files."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_nfs.xml:19
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -133,7 +128,7 @@ msgstr ""
 
 #. (itstool) path: important/para
 #: xml/net_nfs.xml:128
-msgid "In principle, all exports can be made using IP addresses only. To avoid time-outs, you need a working DNS system. DNS is necessary at least for logging purposes, because the mountd daemon does reverse lookups."
+msgid "In principle, all exports can be made using IP addresses only. To avoid time-outs, you need a working DNS system. DNS is necessary at least for logging purposes, because the <systemitem class=\"daemon\">mountd</systemitem> daemon does reverse lookups."
 msgstr ""
 
 #. (itstool) path: sect1/title

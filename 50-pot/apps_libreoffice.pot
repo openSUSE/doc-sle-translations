@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:28+0200\n"
+"POT-Creation-Date: 2018-11-24 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/apps_libreoffice.xml:20
 msgid "LibreOffice is an open source office suite that provides tools for all types of office tasks such as writing texts, working with spreadsheets, or creating graphics and presentations. With LibreOffice, you can use the same data across different computing platforms. You can also open and edit files in other formats, including Microsoft* Office* formats, then save them back to this format, if needed. This chapter contains information that applies to all LibreOffice modules."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apps_libreoffice.xml:32
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -268,7 +263,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:338
-msgid "The statusbar is displayed at the bottom of the window. It mainly shows information about the document, such as the number of words (in Writer) or the sum of values of selected cells (in Calc). However, it can also be used to change the zoom or language settings. Many elements open additional menus or dialogs on left click, right click, or double click."
+msgid "The statusbar is displayed at the bottom of the window. It mainly shows information about the document, such as the number of words (in Writer) or the sum of values of selected cells (in Calc). However, it can also be used to change the zoom or language settings. Many elements open additional menus or dialogues on left click, right click, or double click."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -814,7 +809,7 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:987
-msgid "Settings related to the opening and saving of several file types. There is a dialog for general settings and several special dialogs to define how external formats should be handled."
+msgid "Settings related to the opening and saving of several file types. There is a dialog for general settings and several special dialogues to define how external formats should be handled."
 msgstr ""
 
 #. (itstool) path: entry/para

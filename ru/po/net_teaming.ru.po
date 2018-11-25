@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:18+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: 2018-09-30 01:18+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -20,20 +20,6 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/net_teaming.xml:15
 msgid "Setting Up Team Devices for Network Teaming"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#. (itstool) path: row/entry
-#: xml/net_teaming.xml:19 xml/net_teaming.xml:65 xml/net_teaming.xml:66
-#: xml/net_teaming.xml:70 xml/net_teaming.xml:71 xml/net_teaming.xml:75
-#: xml/net_teaming.xml:76 xml/net_teaming.xml:80 xml/net_teaming.xml:81
-#: xml/net_teaming.xml:86 xml/net_teaming.xml:90 xml/net_teaming.xml:91
-#: xml/net_teaming.xml:96 xml/net_teaming.xml:100 xml/net_teaming.xml:101
-#: xml/net_teaming.xml:105 xml/net_teaming.xml:106 xml/net_teaming.xml:111
-#: xml/net_teaming.xml:116 xml/net_teaming.xml:121 xml/net_teaming.xml:126
-#: xml/net_teaming.xml:131 xml/net_teaming.xml:135 xml/net_teaming.xml:136
-#: xml/net_teaming.xml:140 xml/net_teaming.xml:141
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -90,6 +76,19 @@ msgstr ""
 #. (itstool) path: row/entry
 #: xml/net_teaming.xml:64
 msgid "broadcast, round-robin TX policy"
+msgstr ""
+
+#. (itstool) path: row/entry
+#: xml/net_teaming.xml:65 xml/net_teaming.xml:66 xml/net_teaming.xml:70
+#: xml/net_teaming.xml:71 xml/net_teaming.xml:75 xml/net_teaming.xml:76
+#: xml/net_teaming.xml:80 xml/net_teaming.xml:81 xml/net_teaming.xml:86
+#: xml/net_teaming.xml:90 xml/net_teaming.xml:91 xml/net_teaming.xml:96
+#: xml/net_teaming.xml:100 xml/net_teaming.xml:101 xml/net_teaming.xml:105
+#: xml/net_teaming.xml:106 xml/net_teaming.xml:111 xml/net_teaming.xml:116
+#: xml/net_teaming.xml:121 xml/net_teaming.xml:126 xml/net_teaming.xml:131
+#: xml/net_teaming.xml:135 xml/net_teaming.xml:136 xml/net_teaming.xml:140
+#: xml/net_teaming.xml:141
+msgid "yes"
 msgstr ""
 
 #. (itstool) path: row/entry

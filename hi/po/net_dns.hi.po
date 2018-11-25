@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: 2018-09-30 01:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -29,11 +29,6 @@ msgid ""
 "setting up your own name server, read the general information about DNS in "
 "<xref linkend=\"sec.network.nameres\"/>. The following configuration "
 "examples refer to BIND, the default DNS server."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_dns.xml:23
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -207,8 +202,8 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/net_dns.xml:164
 msgid ""
-"The wizard consists of three steps or dialogs. At the appropriate places in "
-"the dialogs, you can enter the expert configuration mode."
+"The wizard consists of three steps or dialogues. At the appropriate places "
+"in the dialogues, you can enter the expert configuration mode."
 msgstr ""
 
 #. (itstool) path: step/para

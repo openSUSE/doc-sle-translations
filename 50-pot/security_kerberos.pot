@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:15+0200\n"
+"POT-Creation-Date: 2018-11-24 22:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,7 +148,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/security_kerberos.xml:154
-msgid "Kerberos ensures that both client and server can be sure of each other's identity. They share a session key, which they can use to communicate securely."
+msgid "Kerberos ensures that both client and server can be sure of each others identity. They share a session key, which they can use to communicate securely."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -1345,7 +1345,7 @@ msgstr ""
 
 #. (itstool) path: sect2/para
 #: xml/security_kerberos.xml:1462
-msgid "To use Kerberos authentication with protocol version 2, enable it on the client side as well. Do this either in the systemwide configuration file <filename>/etc/ssh/ssh_config</filename> or on a per-user level by editing <filename>~/.ssh/config</filename>. In both cases, add the option <literal>GSSAPIAuthentication yes</literal>."
+msgid "To use Kerberos authentication with protocol version 2, enable it on the client side as well. Do this either in the system wide configuration file <filename>/etc/ssh/ssh_config</filename> or on a per-user level by editing <filename>~/.ssh/config</filename>. In both cases, add the option <literal>GSSAPIAuthentication yes</literal>."
 msgstr ""
 
 #. (itstool) path: sect2/para

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/gnome_start.xml:8
 msgid "Getting Started with the GNOME Desktop"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/gnome_start.xml:12
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -242,7 +237,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_start.xml:213
-msgid "A minimalistic desktop designed to consume as little hardware ressources as possible."
+msgid "A minimalist desktop designed to consume as little hardware resources as possible."
 msgstr ""
 
 #. (itstool) path: step/para

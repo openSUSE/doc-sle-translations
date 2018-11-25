@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:23+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: 2018-09-30 01:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -19,11 +19,6 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/deployment_prep_zseries_prep_i.xml:21
 msgid "Preparing for Installation"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_prep_zseries_prep_i.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -1877,15 +1872,17 @@ msgid ""
 "After the installation option <literal>VNC</literal> has been chosen, the "
 "VNC server starts. A short note displayed in the console provides "
 "information about which IP address and display number is needed for a "
-"connection with vncviewer. Alternatively, a URL is given here for your "
-"JavaScript-enabled browser to connect to the installation system."
+"connection with <command>vncviewer</command>. Alternatively, a URL is given "
+"here for your JavaScript-enabled browser to connect to the installation "
+"system."
 msgstr ""
 
 #. (itstool) path: step/para
 #: xml/deployment_prep_zseries_prep_i.xml:1389
 msgid ""
-"Start a VNC client application on your client system. Either use vncviewer, "
-"or the VNC JavaScript client and a JavaScript-enabled Web browser."
+"Start a VNC client application on your client system. Either use "
+"<command>vncviewer</command>, or the VNC JavaScript client and a JavaScript-"
+"enabled Web browser."
 msgstr ""
 
 #. (itstool) path: step/para
