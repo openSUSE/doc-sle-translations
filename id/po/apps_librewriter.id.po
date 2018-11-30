@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:28+0200\n"
+"POT-Creation-Date: 2018-11-24 22:48+0100\n"
 "PO-Revision-Date: 2018-09-30 01:28+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -44,11 +44,6 @@ msgid ""
 "Much of the information in this chapter can also be applied to other "
 "LibreOffice modules. For example, other modules use styles similarly to how "
 "they are used in Writer."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apps_librewriter.xml:34
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

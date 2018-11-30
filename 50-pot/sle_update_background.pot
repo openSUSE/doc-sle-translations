@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:14+0200\n"
+"POT-Creation-Date: 2018-11-24 22:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/sle_update_background.xml:14
 msgid "This chapter provides background information on terminology, SUSE product lifecycles and Service Pack releases, and recommended upgrade policies."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/sle_update_background.xml:21
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

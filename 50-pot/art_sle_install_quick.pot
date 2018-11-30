@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:27+0200\n"
+"POT-Creation-Date: 2018-11-24 22:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/art_sle_install_quick.xml:20
 msgid "This Quick Start guides you step-by-step through the installation of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase> <phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/art_sle_install_quick.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

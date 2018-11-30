@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:49+0200\n"
+"POT-Creation-Date: 2018-11-24 22:50+0100\n"
 "PO-Revision-Date: 2018-09-30 01:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -28,11 +28,6 @@ msgid ""
 "GNOME. Although GUIs offer many features, they're limited when performing "
 "automated task execution. Shells complement GUIs well, and this chapter "
 "gives an overview of some aspects of shells, in this case the Bash shell."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/adm_shell.xml:26
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -951,4 +946,186 @@ msgid ""
 "following line creates only a directory in <filename>/home/wilber/bar</"
 "filename> when the creation of the directory in <filename>/home/tux/foo</"
 "filename> has failed:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/adm_shell.xml:892
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt>mkdir /home/tux/foo || mkdir /home/wilber/bar"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/adm_shell.xml:903
+msgid "<literal>funcname(){ ... }</literal>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:906
+msgid ""
+"creates a shell function. You can use the positional parameters to access "
+"its arguments. The following line defines the function <literal>hello</"
+"literal> to print a short message:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/adm_shell.xml:911
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt>hello() { echo \"Hello $1\"; }"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:912
+msgid "You can call this function like this:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/adm_shell.xml:915
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt>hello Tux"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:916
+msgid "which prints:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/adm_shell.xml:919
+#, no-wrap
+msgid "Hello Tux"
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/adm_shell.xml:925
+msgid "Working with Common Flow Constructs"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/adm_shell.xml:927
+msgid ""
+"To control the flow of your script, a shell has <command>while</command>, "
+"<command>if</command>, <command>for</command> and <command>case</command> "
+"constructs."
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: xml/adm_shell.xml:936
+msgid "The if Control Command"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/adm_shell.xml:937
+msgid ""
+"The <command>if</command> command is used to check expressions. For example, "
+"the following code tests whether the current user is Tux:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/adm_shell.xml:941
+#, no-wrap
+msgid ""
+"if test $USER = \"tux\"; then\n"
+"  echo \"Hello Tux.\"\n"
+"else\n"
+"  echo \"You are not Tux.\"\n"
+"fi"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/adm_shell.xml:946
+msgid ""
+"The test expression can be as complex or simple as possible. The following "
+"expression checks if the file <filename>foo.txt</filename> exists:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/adm_shell.xml:950
+#, no-wrap
+msgid ""
+"if test -e /tmp/foo.txt ; then\n"
+"  echo \"Found foo.txt\"\n"
+"fi"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/adm_shell.xml:953
+msgid "The test expression can also be abbreviated in square brackets:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/adm_shell.xml:956
+#, no-wrap
+msgid ""
+"if [ -e /tmp/foo.txt ] ; then\n"
+"  echo \"Found foo.txt\"\n"
+"fi"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/adm_shell.xml:959
+msgid ""
+"Find more useful expressions at <link xlink:href=\"https://bash.cyberciti."
+"biz/guide/If..else..fi\"/>."
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: xml/adm_shell.xml:966
+msgid "Creating Loops with the <command>for</command> Command"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: xml/adm_shell.xml:967
+msgid ""
+"The <command>for</command> loop allows you to execute commands to a list of "
+"entries. For example, the following code prints some information about PNG "
+"files in the current directory:"
+msgstr ""
+
+#. (itstool) path: sect2/screen
+#: xml/adm_shell.xml:972
+#, no-wrap
+msgid ""
+"for i in *.png; do\n"
+" ls -l $i\n"
+"done"
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/adm_shell.xml:978
+msgid "For More Information"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/adm_shell.xml:980
+msgid ""
+"Important information about Bash is provided in the man pages <command>man "
+"bash</command>. More about this topic can be found in the following list:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:987
+msgid ""
+"<link xlink:href=\"http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html"
+"\"/>—Bash Guide for Beginners"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:993
+msgid ""
+"<link xlink:href=\"http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html\"/>—BASH "
+"Programming - Introduction HOW-TO"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:999
+msgid ""
+"<link xlink:href=\"http://tldp.org/LDP/abs/html/index.html\"/>—Advanced Bash-"
+"Scripting Guide"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/adm_shell.xml:1005
+msgid ""
+"<link xlink:href=\"http://www.grymoire.com/Unix/Sh.html\"/>—Sh - the Bourne "
+"Shell"
 msgstr ""

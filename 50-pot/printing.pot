@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:17+0200\n"
+"POT-Creation-Date: 2018-11-24 22:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/printing.xml:9
 msgid "Printer Operation"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/printing.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -435,7 +430,7 @@ msgstr ""
 
 #. (itstool) path: sect2/para
 #: xml/printing.xml:483
-msgid "CUPS servers regularly announce the availability and status information of shared printers over the network. Clients can access this information to display a list of available printers in printing dialogs, for example. This is called <quote>browsing</quote>."
+msgid "CUPS servers regularly announce the availability and status information of shared printers over the network. Clients can access this information to display a list of available printers in printing dialogues, for example. This is called <quote>browsing</quote>."
 msgstr ""
 
 #. (itstool) path: sect2/para

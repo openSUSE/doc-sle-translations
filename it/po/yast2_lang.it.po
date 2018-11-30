@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:06+0200\n"
+"POT-Creation-Date: 2018-11-24 22:28+0100\n"
 "PO-Revision-Date: 2018-09-30 01:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -19,11 +19,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/yast2_lang.xml:13
 msgid "Changing Language and Country Settings with YaST"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/yast2_lang.xml:17
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -241,7 +236,7 @@ msgid ""
 "For advanced keyboard or time zone settings, select <menuchoice> "
 "<guimenu>Hardware</guimenu> <guimenu>System Keyboard Layout</guimenu> </"
 "menuchoice> or <menuchoice> <guimenu>System</guimenu> <guimenu>Date and "
-"Time</guimenu> </menuchoice> in YaST to start the respective dialogs. For "
+"Time</guimenu> </menuchoice> in YaST to start the respective dialogues. For "
 "more information, refer to <xref linkend=\"sec.yast.hw.keym\"/> and <xref "
 "linkend=\"sec.yast.country\"/>."
 msgstr ""
@@ -278,9 +273,9 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/yast2_lang.xml:219
 msgid ""
-"Confirm your changes in the dialogs with <guimenu>OK</guimenu>. If you have "
-"selected secondary languages, YaST installs the localized software packages "
-"for the additional languages."
+"Confirm your changes in the dialogues with <guimenu>OK</guimenu>. If you "
+"have selected secondary languages, YaST installs the localized software "
+"packages for the additional languages."
 msgstr ""
 
 #. (itstool) path: sect2/para

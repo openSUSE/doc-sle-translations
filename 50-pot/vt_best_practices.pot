@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:45+0200\n"
+"POT-Creation-Date: 2018-11-24 22:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1852,7 +1852,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/vt_best_practices.xml:1993
-msgid "The qcow2 format offers the capability to change the cluster size. The value must be between 512 KB and 2 MB. Smaller cluster sizes can improve the image file size whereas larger cluster sizes generally provide better performance."
+msgid "The qcow2 format offers the capability to change the cluster size. The value must be between 512 KB and 2 MB. Smaller cluster sizes can improve the image file size whereas larger cluster sizes generally provide better performance."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -3742,43 +3742,43 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/vt_best_practices.xml:4013
-msgid "On SLES 12, open or create <filename>/etc/dracut.conf.d/01-dist.conf</filename> and add the modules with <literal>force_drivers</literal> by adding a line as in the example below:"
+msgid "On SLES 12, open or create <filename>/etc/dracut.conf.d/10-virt.conf</filename> and add the modules with <literal>force_drivers</literal> by adding a line as in the example below (mind the leading whitespace):"
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/vt_best_practices.xml:4018
+#: xml/vt_best_practices.xml:4019
 #, no-wrap
 msgid ""
-"force_drivers+=\"xen-vbd xen-vnif\""
+"force_drivers+=\" xen-vbd xen-vnif\""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/vt_best_practices.xml:4019
-msgid "Run <command>dracut -f --kver [KERNEL_VERSION]-default</command> to build a new initrd (for the -default version of the kernel) which contains the required modules."
+#: xml/vt_best_practices.xml:4020
+msgid "Run <command>dracut -f --kver <replaceable>KERNEL_VERSION</replaceable>-default</command> to build a new initrd (for the -default version of the kernel) which contains the required modules."
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/vt_best_practices.xml:4024
+#: xml/vt_best_practices.xml:4026
 msgid "Find your Kernel version"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/vt_best_practices.xml:4024
+#: xml/vt_best_practices.xml:4026
 msgid "Use the <command>uname -r</command> command to get the current version used on your system."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/vt_best_practices.xml:4030
+#: xml/vt_best_practices.xml:4032
 msgid "Before shutting down the guest, set the default boot parameter to the <literal>-default</literal> kernel using <command>yast bootloader</command>."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/vt_best_practices.xml:4036
+#: xml/vt_best_practices.xml:4038
 msgid "Under <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 11, if you have an X server running on your guest, you need to adjust the <filename>/etc/X11/xorg.conf</filename> file to adjust the X driver. Search for <literal>fbdev</literal> and change to <literal>cirrus</literal>."
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/vt_best_practices.xml:4040
+#: xml/vt_best_practices.xml:4042
 #, no-wrap
 msgid ""
 "Section \"Device\"\n"
@@ -3788,26 +3788,245 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/vt_best_practices.xml:4044
+#: xml/vt_best_practices.xml:4046
 msgid "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 12 and Xorg"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/vt_best_practices.xml:4044
+#: xml/vt_best_practices.xml:4046
 msgid "Under <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 12, Xorg will automatically adjust the driver needed to be able to get a working X server."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/vt_best_practices.xml:4047
+#: xml/vt_best_practices.xml:4049
 msgid "Shut down the guest."
 msgstr ""
 
 #. (itstool) path: procedure/title
-#: xml/vt_best_practices.xml:4053
+#: xml/vt_best_practices.xml:4055
 msgid "Host Side"
 msgstr ""
 
 #. (itstool) path: procedure/para
-#: xml/vt_best_practices.xml:4054
+#: xml/vt_best_practices.xml:4056
 msgid "The following steps explain the action you have to do on the host."
 msgstr ""
+
+#. (itstool) path: step/para
+#: xml/vt_best_practices.xml:4060
+msgid "To start the guest in FV mode, the configuration of the VM must be modified to match an FV configuration. Editing the configuration of the VM can easily be done using <command>virsh edit [DOMAIN]</command>. The following changes are recommended:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4067
+msgid "Make sure the machine, the type and the <literal>loader</literal> entries in the OS section are changed from <literal>xenpv</literal> to <literal>xenfv</literal>. The updated OS section should look similar to:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4071
+#, no-wrap
+msgid ""
+"&lt;os&gt;\n"
+"          &lt;type arch='x86_64' machine='xenfv'&gt;hvm&lt;/type&gt;\n"
+"          &lt;loader&gt;/usr/lib/xen/boot/hvmloader&lt;/loader&gt;\n"
+"          &lt;boot dev='hd'/&gt;\n"
+"&lt;/os&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4078
+msgid "In the OS section remove anything which is specific to PV guest:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4081
+#, no-wrap
+msgid ""
+"&lt;bootloader&gt;pygrub&lt;/bootloader&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4084
+#, no-wrap
+msgid ""
+"&lt;kernel&gt;/usr/lib/grub2/x86_64-xen/grub.xen&lt;/kernel&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4087
+#, no-wrap
+msgid ""
+"&lt;cmdline&gt;xen-fbfront.video=4,1024,768&lt;/cmdline&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4092
+msgid "In the devices section, add the qemu emulator as:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4095
+#, no-wrap
+msgid ""
+"&lt;emulator&gt;/usr/lib/xen/bin/qemu-system-i386&lt;/emulator&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4098
+msgid "Update the disk configuration so the target device and bus use the FV syntax. This requires replacing the <literal>xen</literal> disk bus with <literal>ide</literal>, and the <literal>vda</literal> target device with <literal>hda</literal>. The changes should look similar to:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4104
+#, no-wrap
+msgid ""
+"&lt;target dev='hda' bus='ide'/&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4107
+msgid "Change the bus for the mouse and keyboard from <literal>xen</literal> to <literal>ps2</literal>. Also add a new USB tablet device:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4111
+#, no-wrap
+msgid ""
+"&lt;input type='mouse' bus='ps2'/&gt;\n"
+"          &lt;input type='keyboard' bus='ps2'/&gt;\n"
+"&lt;input type='tablet' bus='usb'/&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4116
+msgid "Change the console target type from <literal>xen</literal> to <literal>serial</literal>:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4119
+#, no-wrap
+msgid ""
+"&lt;console type='pty'&gt;\n"
+"          &lt;target type='serial' port='0'/&gt;\n"
+"&lt;/console&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4124
+msgid "Change the video configuration from <literal>xen</literal> to <literal>cirrus</literal>, with 8M of VRAM:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4128
+#, no-wrap
+msgid ""
+"&lt;video&gt;\n"
+"          &lt;model type='cirrus' vram='8192' heads='1' primary='yes'/&gt;\n"
+"&lt;/video&gt;"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4133
+msgid "If desired, add <literal>acpi</literal> and <literal>apic</literal> to the features of the VM:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/vt_best_practices.xml:4136
+#, no-wrap
+msgid ""
+"&lt;features&gt;\n"
+"          &lt;acpi/&gt;\n"
+"          &lt;apic/&gt;\n"
+"&lt;/features&gt;"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/vt_best_practices.xml:4144
+msgid "Start the guest (using <command>virsh</command> or <command>virt-manager</command>). If the guest is running kernel-default (as verified through <command>uname -a</command>), the machine is running in Fully Virtual mode."
+msgstr ""
+
+#. (itstool) path: note/title
+#: xml/vt_best_practices.xml:4152
+msgid "guestfs-tools"
+msgstr ""
+
+#. (itstool) path: note/para
+#: xml/vt_best_practices.xml:4153
+msgid "To script this process, or work on disk images directly, you can use the <link xlink:href=\"https://www.suse.com/documentation/sles-12/book_virt/data/sec_guestfs_tools.html\">guestfs-tools</link> suite. Numerous tools exist there to help modify disk images."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/vt_best_practices.xml:4163
+msgid "External References"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4169
+msgid "<link xlink:href=\"https://kernel.org/doc/ols/2009/ols2009-pages-19-28.pdf\">Increasing memory density using KSM</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4175
+msgid "<link xlink:href=\"http://www.linux-kvm.org/page/KSM\">linux-kvm.org KSM</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4181
+msgid "<link xlink:href=\"https://www.kernel.org/doc/Documentation/vm/ksm.txt\">KSM's kernel documentation</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4187
+msgid "<link xlink:href=\"https://lwn.net/Articles/329123/\">ksm - dynamic page sharing driver for linux v4</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4193
+msgid "<link xlink:href=\"http://www.espenbraastad.no/post/memory-ballooning/\">Memory Ballooning</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4199
+msgid "<link xlink:href=\"http://wiki.libvirt.org/page/Virtio\">libvirt virtio</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4205
+msgid "<link xlink:href=\"https://www.kernel.org/doc/Documentation/block/cfq-iosched.txt\">CFQ's kernel documentation</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4211
+msgid "<link xlink:href=\"https://www.kernel.org/doc/Documentation/sysctl/kernel.txt\">Documentation for sysctl</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4218
+msgid "<link xlink:href=\"https://lwn.net/Articles/525459/\">LWN Random Number</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4224
+msgid "<link xlink:href=\"http://wiki.mikejung.biz/KVM_/_Xen\">KVM / Xen tweaks</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4230
+msgid "<link xlink:href=\"http://events.linuxfoundation.org/sites/events/files/slides/CloudOpen2013_Khoa_Huynh_v3.pdf\">Dr. Khoa Huynh, IBM Linux Technology Center</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4237
+msgid "<link xlink:href=\"https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/plain/Documentation/admin-guide/kernel-parameters.txt\">Kernel Parameters</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4244
+msgid "<link xlink:href=\"http://lwn.net/Articles/374424/\">Huge pages Administration (Mel Gorman)</link>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/vt_best_practices.xml:4250
+msgid "<link xlink:href=\"https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt\">kernel hugetlbpage</link>"
+msgstr ""
+

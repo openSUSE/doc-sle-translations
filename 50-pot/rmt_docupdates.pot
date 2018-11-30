@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:16+0200\n"
+"POT-Creation-Date: 2018-11-24 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,5 +27,20 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/rmt_docupdates.xml:24
 msgid "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15 SP0"
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: xml/rmt_docupdates.xml:28
+msgid "October 2018"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/rmt_docupdates.xml:31
+msgid "Bugfixes"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/rmt_docupdates.xml:35
+msgid "In <xref linkend=\"sec.rmt_client.clientsetupscript\"/>, fixed a typo in a command (<literal>http</literal> instead of <literal>https</literal>)."
 msgstr ""
 

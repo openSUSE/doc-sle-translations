@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:30+0200\n"
+"POT-Creation-Date: 2018-11-24 22:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/adm_sudo.xml:11
 msgid "sudo"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/adm_sudo.xml:16
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -379,7 +374,7 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:332
-msgid "If set, <command>sudo</command> will prompt for the <systemitem class=\"username\">root</systemitem> password instead of the target user's or the invoker's. The default is OFF."
+msgid "If set, <command>sudo</command> will prompt for the <systemitem class=\"username\">root</systemitem> password instead of the target user's or the one of user that invoked the command. The default is OFF."
 msgstr ""
 
 #. (itstool) path: entry/screen

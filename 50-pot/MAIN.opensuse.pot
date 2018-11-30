@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,35 +32,5 @@ msgstr ""
 #. (itstool) path: info/productnumber
 #: xml/MAIN.opensuse.xml:19
 msgid "<phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>"
-msgstr ""
-
-#. (itstool) path: bugtracker/url
-#: xml/MAIN.opensuse.xml:22
-msgid "https://bugzilla.opensuse.org/enter_bug.cgi"
-msgstr ""
-
-#. (itstool) path: bugtracker/product
-#: xml/MAIN.opensuse.xml:23
-msgid "openSUSE Distribution"
-msgstr ""
-
-#. (itstool) path: bugtracker/component
-#: xml/MAIN.opensuse.xml:25
-msgid "Documentation"
-msgstr ""
-
-#. (itstool) path: bugtracker/version
-#: xml/MAIN.opensuse.xml:26
-msgid "Leap 42.2"
-msgstr ""
-
-#. (itstool) path: bugtracker/assignee
-#: xml/MAIN.opensuse.xml:27
-msgid "fs@suse.com"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/MAIN.opensuse.xml:29
-msgid "yes"
 msgstr ""
 

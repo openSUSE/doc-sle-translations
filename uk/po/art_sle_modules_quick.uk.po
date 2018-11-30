@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:49+0200\n"
+"POT-Creation-Date: 2018-11-24 22:47+0100\n"
 "PO-Revision-Date: 2018-09-30 01:27+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -55,11 +55,6 @@ msgid ""
 "how to manage them."
 msgstr ""
 
-#. (itstool) path: docmanager/translation
-#: xml/art_sle_modules_quick.xml:25
-msgid "no"
-msgstr ""
-
 #. (itstool) path: sect1/title
 #: xml/art_sle_modules_quick.xml:30
 msgid "Modules &amp; Extensions Explained"
@@ -72,7 +67,7 @@ msgid ""
 "Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
 "15, the installation medium only consists of the Installer, a minimal system "
-"for depoying, updating and registering <phrase role=\"productname\"><phrase "
+"for deploying, updating and registering <phrase role=\"productname\"><phrase "
 "os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
 "Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></"
 "phrase>. During deployment you can add functionality by selecting modules "
@@ -160,8 +155,8 @@ msgid ""
 "Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></"
 "phrase>. They are offered as subscriptions and require a registration key "
 "that is liable for costs. Usually, extensions have their own release notes "
-"documents that are available from <link xlink:href=\"https://www.suse.com/"
-"releasenotes\"/>."
+"that are available from <link xlink:href=\"https://www.suse.com/releasenotes"
+"\"/>."
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -726,4 +721,131 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:940
 msgid "Group the search results by modules rather than by package name."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/art_sle_modules_quick.xml:946
+msgid "<option>-d</option>, <option>--details</option>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/art_sle_modules_quick.xml:950
+msgid ""
+"Additionally lists version numbers and repositories containing the package."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/art_sle_modules_quick.xml:957
+msgid "<option>--xmlout</option>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/art_sle_modules_quick.xml:959
+msgid "Generate XML output."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/art_sle_modules_quick.xml:965
+msgid ""
+"The following shows a few examples on how to use <command>zypper search-"
+"packages</command>."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:970
+msgid "Simple Search"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:971
+msgid ""
+"The following command searches for the packages <package>nodejs</package> "
+"and <package>hawk</package>. The first one is available in the <literal>Web "
+"and Scripting</literal> module, while the second one is part of the SUSE "
+"Linux Enterprise High Availability Extension Extension. Both packages are "
+"not yet installed:"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:977
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages hawk2 nodejs\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package        Module or Repository\n"
+"-------------  --------------------------------------------------------------------\n"
+"hawk2          SUSE Linux Enterprise High Availability Extension (sle-ha/15/x86_64)\n"
+"nodejs8        Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs8-devel  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs8-docs   Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"nodejs-common  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"\n"
+"To activate the respective module or product, use SUSEConnect --product.\n"
+"Use SUSEConnect --help for more details."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:992
+msgid "Searching for Exact Matches"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:993
+msgid ""
+"If you know the exact package names, you can narrow the results down to "
+"exact matches by using the option <option>-x</option>:"
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:997
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages -x hawk2 nodejs8\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  --------------------------------------------------------------------\n"
+"hawk2    SUSE Linux Enterprise High Availability Extension (sle-ha/15/x86_64)\n"
+"nodejs8  Web and Scripting Module (sle-module-web-scripting/15/x86_64)\n"
+"\n"
+"To activate the respective module or product, use SUSEConnect --product.\n"
+"Use SUSEConnect --help for more details."
+msgstr ""
+
+#. (itstool) path: example/title
+#: xml/art_sle_modules_quick.xml:1009
+msgid "Searching for Packages That Are Already Installed or Available"
+msgstr ""
+
+#. (itstool) path: example/para
+#: xml/art_sle_modules_quick.xml:1012
+msgid ""
+"If you search for packages that are already installed or are available in "
+"one of the modules that are available on your system, the search results "
+"differ. In the following example, the package <package>vim</package> is "
+"already installed. The package <package>emacs</package> is not installed, "
+"but is available for installation without having to add a module."
+msgstr ""
+
+#. (itstool) path: example/screen
+#: xml/art_sle_modules_quick.xml:1019
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>zypper search-packages -x vim\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  ---------------------------------------------------\n"
+"vim      Basesystem Module (sle-module-basesystem/15/x86_64)\n"
+"vim      Installed\n"
+"vim      Available\n"
+"\n"
+"<prompt>tux &gt; </prompt>zypper search-packages -x emacs\n"
+"Following packages were found in following modules:\n"
+"\n"
+"Package  Module or Repository\n"
+"-------  ---------------------------------------------------\n"
+"emacs    Basesystem Module (sle-module-basesystem/15/x86_64)\n"
+"emacs    Available"
 msgstr ""

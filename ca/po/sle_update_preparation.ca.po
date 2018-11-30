@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:14+0200\n"
+"POT-Creation-Date: 2018-11-24 22:35+0100\n"
 "PO-Revision-Date: 2018-09-30 01:14+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -26,11 +26,6 @@ msgid ""
 "Before starting the upgrade procedure, make sure your system is properly "
 "prepared. Among others, preparation involves backing up data and checking "
 "the release notes."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/sle_update_preparation.xml:21
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -487,7 +482,7 @@ msgstr ""
 #: xml/sle_update_preparation.xml:343
 msgid ""
 "If you have changed your configuration files in the old version, consider "
-"transfering these changes to the new configuration files. This may affect "
+"transferring these changes to the new configuration files. This may affect "
 "the files <filename>postgresql.auto.conf</filename>, <filename>postgresql."
 "conf</filename>,<filename>pg_hba.conf</filename> and <filename>pg_ident."
 "conf</filename>. The old version of these files is located in <filename>/var/"
@@ -646,29 +641,151 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:458
-msgid "Check the <command>clientSetup4SMT.sh</command> Script on RMT Clients"
+#: xml/sle_update_preparation.xml:469
+msgid "Adjust Your SMT Client Setup"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:459
+#: xml/sle_update_preparation.xml:470
 msgid ""
-"If you are migrating your client OS that is registered against an SMT "
-"server, you need to check if the version of the <command>clientSetup4SMT.sh</"
-"command> script on your host is up to date. <command>clientSetup4SMT.sh</"
-"command> from older versions of SMT cannot manage SMT 12 clients. If you "
-"apply software patches regularly on your RMT server, you can always find the "
-"latest version of <command>clientSetup4SMT.sh</command> at <filename>&lt;"
-"SMT_HOSTNAME&gt;/repo/tools/clientSetup4SMT.sh</filename>."
+"If the machine you want to upgrade is registered as a client against an SMT "
+"server, take care of the following:"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/sle_update_preparation.xml:474
+msgid ""
+"Check if the version of the <command>clientSetup4SMT.sh</command> script on "
+"your host is up to date. <command>clientSetup4SMT.sh</command> from older "
+"versions of SMT cannot manage SMT 12 clients. If you apply software patches "
+"regularly on your SMT server, you can always find the latest version of "
+"<command>clientSetup4SMT.sh</command> at <filename>&lt;SMT_HOSTNAME&gt;/repo/"
+"tools/clientSetup4SMT.sh</filename>."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/sle_update_preparation.xml:483
+msgid ""
+"In case upgrading your machine to a higher version of <phrase role="
+"\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles"
+"\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> fails, de-register the machine from the "
+"SMT server as described in <xref linkend=\"pro.sec.update.prep.smt.de-"
+"register\" xrefstyle=\"select:label\"/>. Afterward, re-start the upgrade "
+"process."
+msgstr ""
+
+#. (itstool) path: procedure/title
+#: xml/sle_update_preparation.xml:489
+msgid "De-registering a SUSE Linux Enterprise Client from an SMT Server"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:491
+msgid "Log in to the client machine."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:496
+msgid ""
+"The following step depends on the current operating system of the client:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/sle_update_preparation.xml:499
+msgid "For SUSE Linux Enterprise 11, execute the following commands:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/sle_update_preparation.xml:502
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt><command>sudo</command> suse_register -E\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/SUSEConnect\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -rf /etc/zypp/credentials.d/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -rf /etc/zypp/repos.d/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/zypp/services.d/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /var/cache/SuseRegister/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/suseRegister*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /var/cache/SuseRegister/lastzmdconfig.cache\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/zmd/deviceid\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/zmd/secret"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/sle_update_preparation.xml:514
+msgid "For SUSE Linux Enterprise 12, execute the following commands:"
+msgstr ""
+
+#. (itstool) path: listitem/screen
+#: xml/sle_update_preparation.xml:517
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt><command>sudo</command> SUSEConnect --de-register\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> SUSEConnect --cleanup\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/SUSEConnect\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -rf /etc/zypp/credentials.d/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -rf /etc/zypp/repos.d/*\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> rm -f /etc/zypp/services.d/*"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:527
+msgid "Log in to the SMT server."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:532
+msgid ""
+"Check if the client has successfully been de-registered by listing all "
+"client registrations:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/sle_update_preparation.xml:536 xml/sle_update_preparation.xml:561
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt><command>sudo</command> smt-list-registrations"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:539
+msgid ""
+"If the client's host name is still listed in the output of this command, get "
+"the client's <literal>Unique ID</literal> from the first column. (The client "
+"might be listed with multiple IDs)."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:546
+msgid "Delete the registration for this client:"
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/sle_update_preparation.xml:549
+#, no-wrap
+msgid "<prompt>tux &gt; </prompt><command>sudo</command> smt-delete-registration -g <replaceable>UNIQUE_ID</replaceable>"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:552
+msgid ""
+"If the client is listed with multiple IDs, repeat the step above for each of "
+"its unique IDs."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/sle_update_preparation.xml:558
+msgid ""
+"Check if the client has now successfully been de-registered by re-running:"
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:469
+#: xml/sle_update_preparation.xml:567
 msgid "Disk Space"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:471
+#: xml/sle_update_preparation.xml:569
 msgid ""
 "Software tends to grow from version to version. Therefore, take a look at "
 "the available partition space before updating. If you suspect you are "
@@ -679,12 +796,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/sle_update_preparation.xml:481
+#: xml/sle_update_preparation.xml:579
 msgid "Automatic Check for Enough Space in YaST"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/sle_update_preparation.xml:482
+#: xml/sle_update_preparation.xml:580
 msgid ""
 "During the update procedure, YaST will check how much free disk space is "
 "available and display a warning to the user if the installation may exceed "
@@ -695,12 +812,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/sle_update_preparation.xml:493
+#: xml/sle_update_preparation.xml:591
 msgid "Checking Disk Space on Non-Btrfs File Systems"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/sle_update_preparation.xml:494
+#: xml/sle_update_preparation.xml:592
 msgid ""
 "Use the <command>df</command> command to list available disk space. For "
 "example, in <xref linkend=\"ex.update.df\"/>, the root partition is "
@@ -708,12 +825,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/title
-#: xml/sle_update_preparation.xml:500
+#: xml/sle_update_preparation.xml:598
 msgid "List with <command>df -h</command>"
 msgstr ""
 
 #. (itstool) path: example/screen
-#: xml/sle_update_preparation.xml:501
+#: xml/sle_update_preparation.xml:599
 #, no-wrap
 msgid ""
 "Filesystem     Size  Used Avail Use% Mounted on\n"
@@ -725,7 +842,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/screen
-#: xml/sle_update_preparation.xml:507
+#: xml/sle_update_preparation.xml:605
 #, no-wrap
 msgid ""
 "Filesystem     Size  Used Avail Use% Mounted on\n"
@@ -736,12 +853,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/sle_update_preparation.xml:516
+#: xml/sle_update_preparation.xml:614
 msgid "Checking Disk Space on Btrfs Root File Systems"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/sle_update_preparation.xml:517
+#: xml/sle_update_preparation.xml:615
 msgid ""
 "If you use Btrfs as root file systems on your machine, make sure there is "
 "enough free space. In the worst case, an upgrade needs as much disk space as "
@@ -750,20 +867,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/sle_update_preparation.xml:523
+#: xml/sle_update_preparation.xml:621
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>df</command> -h /"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/sle_update_preparation.xml:524
+#: xml/sle_update_preparation.xml:622
 msgid ""
 "Check the available space on all other mounted partitions as well. The "
 "following recommendations have been proven:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_preparation.xml:530
+#: xml/sle_update_preparation.xml:628
 msgid ""
 "For all file systems including Btrfs you need enough free disk space to "
 "download and install big RPMs. The space of old RPMs are only freed after "
@@ -771,7 +888,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_preparation.xml:537
+#: xml/sle_update_preparation.xml:635
 msgid ""
 "For Btrfs with snapshots, you need at minimum as much free space as your "
 "current installation takes. We recommend to have twice as much free space as "
@@ -779,14 +896,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_preparation.xml:542
+#: xml/sle_update_preparation.xml:640
 msgid ""
 "If you do not have enough free space, you can try to delete old snapshots "
 "with <command>snapper</command>:"
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/sle_update_preparation.xml:546
+#: xml/sle_update_preparation.xml:644
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>snapper</command> list\n"
@@ -794,19 +911,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_preparation.xml:548
+#: xml/sle_update_preparation.xml:646
 msgid ""
 "However, this may not help in all cases. Before migration, most snapshots "
 "occupy only little space."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:557
+#: xml/sle_update_preparation.xml:655
 msgid "Upgrading a Subscription Management Tool (SMT) Server"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:558
+#: xml/sle_update_preparation.xml:656
 msgid ""
 "A server running SMT requires a special upgrade procedure. Please refer to "
 "<xref linkend=\"cha.rmt_migrate\"/> in the <citetitle>Repository Management "
@@ -814,12 +931,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:564
+#: xml/sle_update_preparation.xml:662
 msgid "Temporarily Disabling Kernel Multiversion Support"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:565
+#: xml/sle_update_preparation.xml:663
 msgid ""
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
@@ -833,7 +950,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/sle_update_preparation.xml:574
+#: xml/sle_update_preparation.xml:672
 #, no-wrap
 msgid ""
 "#multiversion = provides:multiversion(kernel)\n"
@@ -841,7 +958,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:576
+#: xml/sle_update_preparation.xml:674
 msgid ""
 "To re-activate this feature after a successful update, remove the comment "
 "signs. For more information about multiversion support, refer to <xref "
@@ -849,12 +966,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:583
+#: xml/sle_update_preparation.xml:681
 msgid "Upgrading on IBM Z"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:584
+#: xml/sle_update_preparation.xml:682
 msgid ""
 "Upgrading a SUSE Linux Enterprise installation on IBM Z requires the "
 "<command>Upgrade=1</command> kernel parameter, for example via the parmfile. "
@@ -862,12 +979,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_preparation.xml:590
+#: xml/sle_update_preparation.xml:688
 msgid "IBM POWER: Starting an X Server"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:591
+#: xml/sle_update_preparation.xml:689
 msgid ""
 "On SLES 12 for IBM POWER the display manager is configured not to start a "
 "local X Server by default. This setting was reversed on SLES 12 SP1—the "
@@ -875,7 +992,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_preparation.xml:596
+#: xml/sle_update_preparation.xml:694
 msgid ""
 "To avoid problems during upgrade, the <phrase role=\"productname\"><phrase "
 "os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
@@ -887,7 +1004,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/sle_update_preparation.xml:603
+#: xml/sle_update_preparation.xml:701
 #, no-wrap
 msgid "DISPLAYMANAGER_STARTS_XSERVER=\"yes\""
 msgstr ""

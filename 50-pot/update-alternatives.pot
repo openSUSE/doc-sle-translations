@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:09+0200\n"
+"POT-Creation-Date: 2018-11-24 22:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/update-alternatives.xml:20
 msgid "Often, there are several versions of the same tool installed on a system. To give administrators a choice and to make it possible to install and use different versions side by side, the alternatives system allows managing such versions consistently."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/update-alternatives.xml:30
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/gnome_crypto.xml:21
 msgid "Passwords and Keys: Signing and Encrypting Data"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/gnome_crypto.xml:25
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -941,7 +936,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/gnome_crypto.xml:1052
-msgid "You can keep your keys up-to-date by synchronizing keys periodically with remote keyservers. Synchronizing will ensure that you have the latest signatures made on all of your keys, so that the Web of trust will be effective."
+msgid "You can keep your keys up-to-date by synchronizing keys periodically with remote key servers. Synchronizing will ensure that you have the latest signatures made on all of your keys, so that the Web of trust will be effective."
 msgstr ""
 
 #. (itstool) path: step/para
@@ -963,7 +958,7 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/gnome_crypto.xml:1082
-msgid "<guimenu>Passwords and Keys</guimenu> provides support for HKP and LDAP keyservers."
+msgid "<guimenu>Passwords and Keys</guimenu> provides support for HKP and LDAP key servers."
 msgstr ""
 
 #. (itstool) path: formalpara/title
@@ -993,7 +988,7 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/gnome_crypto.xml:1109
-msgid "Set whether you want to automatically publish your public keys and which keyserver to use. Set whether you want to automatically retrieve keys from key servers and whether to synchronize modified keys with keyservers."
+msgid "Set whether you want to automatically publish your public keys and which key server to use. Set whether you want to automatically retrieve keys from key servers and whether to synchronize modified keys with key servers."
 msgstr ""
 
 #. (itstool) path: sect1/title

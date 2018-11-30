@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:30+0200\n"
+"POT-Creation-Date: 2018-11-24 22:49+0100\n"
 "PO-Revision-Date: 2018-09-30 01:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -33,11 +33,6 @@ msgid ""
 "version 2.4. In this chapter, learn how to install, configure and set up a "
 "Web server; how to use SSL, CGI, and additional modules; and how to "
 "troubleshoot Apache."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/apache2.xml:24
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -163,11 +158,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:121
 msgid ""
-"For more information about the systemd targets in <phrase role=\"productname"
-"\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
-"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</"
-"phrase></phrase> and a description of the YaST <guimenu>Services Manager</"
-"guimenu>, refer to <xref linkend=\"sec.boot.runlevel.edit\"/>."
+"For more information about the <systemitem class=\"daemon\">systemd</"
+"systemitem> targets in <phrase role=\"productname\"><phrase os=\"osuse"
+"\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
+"phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
+"and a description of the YaST <guimenu>Services Manager</guimenu>, refer to "
+"<xref linkend=\"sec.boot.runlevel.edit\"/>."
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -742,8 +738,8 @@ msgstr ""
 #: xml/apache2.xml:578
 msgid ""
 "This alternative virtual host configuration requires the setup of multiple "
-"IPs for a machine. One instance of Apache hosts several domains, each of "
-"which is assigned a different IP."
+"IP addresses for a machine. One instance of Apache hosts several domains, "
+"each of which is assigned a different IP."
 msgstr ""
 
 #. (itstool) path: sect4/para
@@ -759,10 +755,10 @@ msgstr ""
 msgid ""
 "The following example shows Apache running on a machine with the IP "
 "<systemitem class=\"ipaddress\">192.168.3.100</systemitem>, hosting two "
-"domains on the additional IPs <systemitem class=\"ipaddress\">192.168.3.101</"
-"systemitem> and <systemitem class=\"ipaddress\">192.168.3.102</systemitem>. "
-"A separate <systemitem>VirtualHost</systemitem> block is needed for every "
-"virtual server."
+"domains on the additional IP addresses <systemitem class=\"ipaddress"
+"\">192.168.3.101</systemitem> and <systemitem class=\"ipaddress"
+"\">192.168.3.102</systemitem>. A separate <systemitem>VirtualHost</"
+"systemitem> block is needed for every virtual server."
 msgstr ""
 
 #. (itstool) path: example/title
@@ -1411,7 +1407,8 @@ msgstr ""
 msgid ""
 "Controls the environment that is passed to CGI scripts or SSI pages. "
 "Environment variables can be set or unset or passed from the shell that "
-"invoked the httpd process. This module is enabled by default."
+"invoked the <systemitem class=\"daemon\">httpd</systemitem> process. This "
+"module is enabled by default."
 msgstr ""
 
 #. (itstool) path: varlistentry/term

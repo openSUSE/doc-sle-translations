@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:13+0200\n"
+"POT-Creation-Date: 2018-11-24 22:34+0100\n"
 "PO-Revision-Date: 2018-09-30 01:13+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -18,11 +18,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/storage_filesystems.xml:9
 msgid "Overview of File Systems in Linux"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/storage_filesystems.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -151,7 +146,7 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:109 xml/storage_filesystems.xml:1555
+#: xml/storage_filesystems.xml:109 xml/storage_filesystems.xml:1556
 msgid "Btrfs"
 msgstr ""
 
@@ -354,7 +349,7 @@ msgid ""
 "or equal to the uncompressed size, Btrfs will skip compression for future "
 "write operations forever for this file. If you do not like this behavior, "
 "use the <option>compress-force</option> option. This can be useful for files "
-"that have some initial uncompressible data."
+"that have some initial non-compressable data."
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -1201,7 +1196,7 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:814 xml/storage_filesystems.xml:1624
+#: xml/storage_filesystems.xml:814 xml/storage_filesystems.xml:1625
 msgid "XFS"
 msgstr ""
 
@@ -1378,7 +1373,7 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:955 xml/storage_filesystems.xml:1572
+#: xml/storage_filesystems.xml:955 xml/storage_filesystems.xml:1573
 msgid "Ext3"
 msgstr ""
 
@@ -1503,33 +1498,33 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/storage_filesystems.xml:1053
 msgid ""
-"adding the following line to <filename>/etc/dracut.conf.d/01-dist.conf</"
-"filename>:"
+"opening or creating <filename>/etc/dracut.conf.d/10-filesystem.conf</"
+"filename> and adding the following line (mind the leading whitespace):"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/storage_filesystems.xml:1057
+#: xml/storage_filesystems.xml:1058
 #, no-wrap
-msgid "force_drivers+=\"ext3 jbd\""
+msgid "force_drivers+=\" ext3 jbd\""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1060
+#: xml/storage_filesystems.xml:1061
 msgid "and running the <command>dracut</command> <option>-f</option> command."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1067
+#: xml/storage_filesystems.xml:1068
 msgid "Reboot the system."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/storage_filesystems.xml:1075
+#: xml/storage_filesystems.xml:1076
 msgid "Ext3 File System Inode Size and Number of Inodes"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1076
+#: xml/storage_filesystems.xml:1077
 msgid ""
 "An inode stores information about the file and its block location in the "
 "file system. To allow space in the inode for extended attributes and ACLs, "
@@ -1543,7 +1538,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1087
+#: xml/storage_filesystems.xml:1088
 msgid ""
 "When you create a new Ext3 file system, the space in the inode table is "
 "preallocated for the total number of inodes that can be created. The bytes-"
@@ -1553,13 +1548,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/storage_filesystems.xml:1094
+#: xml/storage_filesystems.xml:1095
 #, no-wrap
 msgid "number of inodes = total size of the file system divided by the number of bytes per inode"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1095
+#: xml/storage_filesystems.xml:1096
 msgid ""
 "The number of inodes controls the number of files you can have in the file "
 "system: one inode for each file. To address the increased inode size and "
@@ -1570,12 +1565,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/storage_filesystems.xml:1105
+#: xml/storage_filesystems.xml:1106
 msgid "Changing the Inode Size of an Existing Ext3 File System"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/storage_filesystems.xml:1106
+#: xml/storage_filesystems.xml:1107
 msgid ""
 "After the inodes are allocated, you cannot change the settings for the inode "
 "size or bytes-per-inode ratio. No new inodes are possible without re-"
@@ -1585,7 +1580,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1114
+#: xml/storage_filesystems.xml:1115
 msgid ""
 "When you make a new Ext3 file system, you can specify the inode size and "
 "bytes-per-inode ratio to control inode space usage and the number of files "
@@ -1596,17 +1591,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1122
+#: xml/storage_filesystems.xml:1123
 msgid "Use the following guidelines:"
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1128
+#: xml/storage_filesystems.xml:1129
 msgid "Inode size:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1129
+#: xml/storage_filesystems.xml:1130
 msgid ""
 "The default inode size is 256 bytes. Specify a value in bytes that is a "
 "power of 2 and equal to 128 or larger in bytes and up to the block size, "
@@ -1615,12 +1610,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1139
+#: xml/storage_filesystems.xml:1140
 msgid "Bytes-per-inode ratio:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1140
+#: xml/storage_filesystems.xml:1141
 msgid ""
 "The default bytes-per-inode ratio is 16384 bytes. Valid bytes-per-inode "
 "ratio values must be a power of 2 equal to 1024 or greater in bytes, such as "
@@ -1631,7 +1626,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1149
+#: xml/storage_filesystems.xml:1150
 msgid ""
 "In addition, consider the number of files and the size of files you need to "
 "store. For example, if your file system will have many small files, you can "
@@ -1641,7 +1636,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1157
+#: xml/storage_filesystems.xml:1158
 msgid ""
 "Generally, it is better to have too many inodes than to run out of them. If "
 "you have too few inodes and very small files, you could reach the maximum "
@@ -1652,7 +1647,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1167
+#: xml/storage_filesystems.xml:1168
 msgid ""
 "If you do not use extended attributes or ACLs on your Ext3 file systems, you "
 "can restore the SLES 10 behavior specifying 128 bytes as the inode size and "
@@ -1661,12 +1656,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1177
+#: xml/storage_filesystems.xml:1178
 msgid "Modifying the default settings for all new Ext3 files:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1178
+#: xml/storage_filesystems.xml:1179
 msgid ""
 "In a text editor, modify the <literal>defaults</literal> section of the "
 "<filename>/etc/mke2fs.conf</filename> file to set the <literal>inode_size</"
@@ -1675,7 +1670,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/storage_filesystems.xml:1186
+#: xml/storage_filesystems.xml:1187
 #, no-wrap
 msgid ""
 "blocksize = 4096\n"
@@ -1684,12 +1679,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1192
+#: xml/storage_filesystems.xml:1193
 msgid "At the command line:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1193
+#: xml/storage_filesystems.xml:1194
 msgid ""
 "Pass the inode size (<literal>-I 128</literal>) and the bytes-per-inode "
 "ratio (<literal>-i 8192</literal>) to the <command>mkfs.ext3(8)</command> "
@@ -1698,7 +1693,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/storage_filesystems.xml:1201
+#: xml/storage_filesystems.xml:1202
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> mkfs.ext3 -b 4096 -i 8092 -I 128 /dev/sda2\n"
@@ -1706,12 +1701,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1206
+#: xml/storage_filesystems.xml:1207
 msgid "During installation with YaST:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1207
+#: xml/storage_filesystems.xml:1208
 msgid ""
 "Pass the inode size and bytes-per-inode ratio values when you create a new "
 "Ext3 file system during the installation. In the YaST Partitioner on the "
@@ -1724,7 +1719,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1220
+#: xml/storage_filesystems.xml:1221
 msgid ""
 "For example, select 4096 for the <guimenu>Block Size in Bytes</guimenu> drop-"
 "down box, select 8192 from the <guimenu>Bytes per inode</guimenu> drop-down "
@@ -1737,18 +1732,18 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: xml/storage_filesystems.xml:1229 xml/storage_filesystems.xml:1232
+#: xml/storage_filesystems.xml:1230 xml/storage_filesystems.xml:1233
 msgctxt "_"
 msgid "external ref='ext3_inode_yast_a.png' md5='__failed__'"
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/storage_filesystems.xml:1239
+#: xml/storage_filesystems.xml:1240
 msgid "During installation with AutoYaST:"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/storage_filesystems.xml:1240
+#: xml/storage_filesystems.xml:1241
 msgid ""
 "In an AutoYaST profile, you can use the <literal>fs_options </literal>tag to "
 "set the <literal>opt_bytes_per_inode</literal> ratio value of 8192 for -i "
@@ -1756,7 +1751,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/storage_filesystems.xml:1246
+#: xml/storage_filesystems.xml:1247
 #, no-wrap
 msgid ""
 "\n"
@@ -1789,7 +1784,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1275
+#: xml/storage_filesystems.xml:1276
 msgid ""
 "For information, see <link xlink:href=\"http://www.suse.com/support/kb/doc."
 "php?id=7009075\"/> (<citetitle>SLES11 ext3 partitions can only store 50% of "
@@ -1799,12 +1794,12 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1284 xml/storage_filesystems.xml:1589
+#: xml/storage_filesystems.xml:1285 xml/storage_filesystems.xml:1590
 msgid "Ext4"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1286
+#: xml/storage_filesystems.xml:1287
 msgid ""
 "In 2006, Ext4 started as a fork from Ext3. It eliminates some storage "
 "limitations of Ext3 by supporting volumes with a size of up to 1 exbibyte, "
@@ -1817,12 +1812,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1298
+#: xml/storage_filesystems.xml:1299
 msgid "ReiserFS"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1300
+#: xml/storage_filesystems.xml:1301
 msgid ""
 "ReiserFS support was completely removed with <phrase role=\"productname"
 "\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
@@ -1832,12 +1827,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1308
+#: xml/storage_filesystems.xml:1309
 msgid "Other Supported File Systems"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1310
+#: xml/storage_filesystems.xml:1311
 msgid ""
 "<xref linkend=\"tab.filesystems.other\" xrefstyle=\"TableXRef\"/> summarizes "
 "some other file systems supported by Linux. They are supported mainly to "
@@ -1846,60 +1841,60 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/storage_filesystems.xml:1318
+#: xml/storage_filesystems.xml:1319
 msgid "File System Types in Linux"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1325
+#: xml/storage_filesystems.xml:1326
 msgid "File System Type"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1330
+#: xml/storage_filesystems.xml:1331
 msgid "Description"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1339
+#: xml/storage_filesystems.xml:1340
 msgid "<systemitem>cramfs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1344
+#: xml/storage_filesystems.xml:1345
 msgid ""
 "Compressed ROM file system: A compressed read-only file system for ROMs."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1352
+#: xml/storage_filesystems.xml:1353
 msgid "<systemitem>hpfs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1357
+#: xml/storage_filesystems.xml:1358
 msgid ""
 "High Performance File System: The IBM OS/2 standard file system. Only "
 "supported in read-only mode."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1365
+#: xml/storage_filesystems.xml:1366
 msgid "<systemitem>iso9660</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1370
+#: xml/storage_filesystems.xml:1371
 msgid "Standard file system on CD-ROMs."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1377
+#: xml/storage_filesystems.xml:1378
 msgid "<systemitem>minix</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1382
+#: xml/storage_filesystems.xml:1383
 msgid ""
 "This file system originated from academic projects on operating systems and "
 "was the first file system used in Linux. Today, it is used as a file system "
@@ -1907,79 +1902,79 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1391
+#: xml/storage_filesystems.xml:1392
 msgid "<systemitem>msdos</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1396
+#: xml/storage_filesystems.xml:1397
 msgid ""
 "<filename>fat</filename>, the file system originally used by DOS, is today "
 "used by various operating systems."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1404
+#: xml/storage_filesystems.xml:1405
 msgid "<systemitem>nfs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1409
+#: xml/storage_filesystems.xml:1410
 msgid ""
 "Network File System: Here, data can be stored on any machine in a network "
 "and access might be granted via a network."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1417
+#: xml/storage_filesystems.xml:1418
 msgid "<systemitem>ntfs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1422
+#: xml/storage_filesystems.xml:1423
 msgid "Windows NT file system; read-only."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1429
+#: xml/storage_filesystems.xml:1430
 msgid "<systemitem>smbfs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1434
+#: xml/storage_filesystems.xml:1435
 msgid ""
 "Server Message Block is used by products such as Windows to enable file "
 "access over a network."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1442
+#: xml/storage_filesystems.xml:1443
 msgid "<systemitem>sysv</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1447
+#: xml/storage_filesystems.xml:1448
 msgid ""
 "Used on SCO Unix, Xenix, and Coherent (commercial Unix systems for PCs)."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1455
+#: xml/storage_filesystems.xml:1456
 msgid "<systemitem>ufs</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1460
+#: xml/storage_filesystems.xml:1461
 msgid "Used by BSD, SunOS, and NextStep. Only supported in read-only mode."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1467
+#: xml/storage_filesystems.xml:1468
 msgid "<systemitem>umsdos</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1472
+#: xml/storage_filesystems.xml:1473
 msgid ""
 "Unix on MS-DOS: Applied on top of a standard <filename>fat</filename> file "
 "system, achieves Unix functionality (permissions, links, long file names) by "
@@ -1987,24 +1982,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1481
+#: xml/storage_filesystems.xml:1482
 msgid "<systemitem>vfat</systemitem>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1486
+#: xml/storage_filesystems.xml:1487
 msgid ""
 "Virtual FAT: Extension of the <literal>fat</literal> file system (supports "
 "long file names)."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1497
+#: xml/storage_filesystems.xml:1498
 msgid "Large File Support in Linux"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1499
+#: xml/storage_filesystems.xml:1500
 msgid ""
 "Originally, Linux supported a maximum file size of 2 GiB (2<superscript>31</"
 "superscript> bytes). Unless a file system comes with large file support, the "
@@ -2012,7 +2007,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1505
+#: xml/storage_filesystems.xml:1506
 msgid ""
 "Currently, all of our standard file systems have LFS (large file support), "
 "which gives a maximum file size of 2<superscript>63</superscript> bytes in "
@@ -2026,12 +2021,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/storage_filesystems.xml:1518
+#: xml/storage_filesystems.xml:1519
 msgid "Binary Multiples"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/storage_filesystems.xml:1519
+#: xml/storage_filesystems.xml:1520
 msgid ""
 "In this document: 1024 Bytes = 1 KiB; 1024 KiB = 1 MiB; 1024 MiB = 1 GiB; "
 "1024 GiB = 1 TiB; 1024 TiB = 1 PiB; 1024 PiB = 1 EiB (see also <link xlink:"
@@ -2040,83 +2035,83 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/storage_filesystems.xml:1528
+#: xml/storage_filesystems.xml:1529
 msgid ""
 "Maximum Sizes of Files and File Systems (On-Disk Format, 4 KiB Block Size)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1536
+#: xml/storage_filesystems.xml:1537
 msgid "File System (4 KiB Block Size)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1541
+#: xml/storage_filesystems.xml:1542
 msgid "Maximum File System Size"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1546
+#: xml/storage_filesystems.xml:1547
 msgid "Maximum File Size"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1560 xml/storage_filesystems.xml:1565
+#: xml/storage_filesystems.xml:1561 xml/storage_filesystems.xml:1566
 msgid "16 EiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1577 xml/storage_filesystems.xml:1599
-#: xml/storage_filesystems.xml:1612
+#: xml/storage_filesystems.xml:1578 xml/storage_filesystems.xml:1600
+#: xml/storage_filesystems.xml:1613
 msgid "16 TiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1582
+#: xml/storage_filesystems.xml:1583
 msgid "2 TiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1594 xml/storage_filesystems.xml:1617
+#: xml/storage_filesystems.xml:1595 xml/storage_filesystems.xml:1618
 msgid "1 EiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1606
+#: xml/storage_filesystems.xml:1607
 msgid ""
 "OCFS2 (a cluster-aware file system available in the High Availability "
 "Extension)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1629 xml/storage_filesystems.xml:1634
-#: xml/storage_filesystems.xml:1646 xml/storage_filesystems.xml:1663
-#: xml/storage_filesystems.xml:1668
+#: xml/storage_filesystems.xml:1630 xml/storage_filesystems.xml:1635
+#: xml/storage_filesystems.xml:1647 xml/storage_filesystems.xml:1664
+#: xml/storage_filesystems.xml:1669
 msgid "8 EiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1641
+#: xml/storage_filesystems.xml:1642
 msgid "NFSv2 (client side)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1651
+#: xml/storage_filesystems.xml:1652
 msgid "2 GiB"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1658
+#: xml/storage_filesystems.xml:1659
 msgid "NFSv3/NFSv4 (client side)"
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/storage_filesystems.xml:1678
+#: xml/storage_filesystems.xml:1679
 msgid "Limitations"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/storage_filesystems.xml:1679
+#: xml/storage_filesystems.xml:1680
 msgid ""
 "<xref linkend=\"tab.filesystems.maxsize\" xrefstyle=\"TableXRef\"/> "
 "describes the limitations regarding the on-disk format. The Linux kernel "
@@ -2125,24 +2120,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/storage_filesystems.xml:1687
+#: xml/storage_filesystems.xml:1688
 msgid "File Size"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1689
+#: xml/storage_filesystems.xml:1690
 msgid ""
 "On 32-bit systems, files cannot exceed 2 TiB (2<superscript>41</superscript> "
 "bytes)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/storage_filesystems.xml:1696
+#: xml/storage_filesystems.xml:1697
 msgid "File System Size"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1698
+#: xml/storage_filesystems.xml:1699
 msgid ""
 "File systems can be up to 2<superscript>73</superscript> bytes in size. "
 "However, this limit is still out of reach for the currently available "
@@ -2150,12 +2145,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1709
+#: xml/storage_filesystems.xml:1710
 msgid "Linux Kernel Storage Limitations"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1711
+#: xml/storage_filesystems.xml:1712
 msgid ""
 "<xref linkend=\"tab.filesystems.stor_limits\" xrefstyle=\"TableXRef\"/> "
 "summarizes the kernel limits for storage associated with <phrase role="
@@ -2165,68 +2160,68 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/storage_filesystems.xml:1717
+#: xml/storage_filesystems.xml:1718
 msgid "Storage Limitations"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1724
+#: xml/storage_filesystems.xml:1725
 msgid "Storage Feature"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1729
+#: xml/storage_filesystems.xml:1730
 msgid "Limitation"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1738
+#: xml/storage_filesystems.xml:1739
 msgid "Maximum number of LUNs supported"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1743
+#: xml/storage_filesystems.xml:1744
 msgid "16384 LUNs per target."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1750
+#: xml/storage_filesystems.xml:1751
 msgid "Maximum number of paths per single LUN"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1755
+#: xml/storage_filesystems.xml:1756
 msgid "No limit by default. Each path is treated as a normal LUN."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1758
+#: xml/storage_filesystems.xml:1759
 msgid ""
 "The actual limit is given by the number of LUNs per target and the number of "
 "targets per HBA (16777215 for a Fibre Channel HBA)."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1766
+#: xml/storage_filesystems.xml:1767
 msgid "Maximum number of HBAs"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1771
+#: xml/storage_filesystems.xml:1772
 msgid ""
 "Unlimited. The actual limit is determined by the amount of PCI slots of the "
 "system."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1779
+#: xml/storage_filesystems.xml:1780
 msgid ""
 "Maximum number of paths with device-mapper-multipath (in total) per "
 "operating system"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1785
+#: xml/storage_filesystems.xml:1786
 msgid ""
 "Approximately 1024. The actual number depends on the length of the device "
 "number strings for each multipath device. It is a compile-time variable "
@@ -2234,34 +2229,34 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1795
+#: xml/storage_filesystems.xml:1796
 msgid "Maximum size per block device"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/storage_filesystems.xml:1800
+#: xml/storage_filesystems.xml:1801
 msgid "Up to 8 EiB."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1810
+#: xml/storage_filesystems.xml:1811
 msgid "Troubleshooting File Systems"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1812
+#: xml/storage_filesystems.xml:1813
 msgid ""
 "This section describes some known issues and possible solutions for file "
 "systems."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/storage_filesystems.xml:1818
+#: xml/storage_filesystems.xml:1819
 msgid "Btrfs Error: No space is left on device"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1819
+#: xml/storage_filesystems.xml:1820
 msgid ""
 "The root (<filename>/</filename>) partition using the Btrfs file system "
 "stops accepting data. You receive the error <quote><literal>No space left on "
@@ -2269,19 +2264,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1824
+#: xml/storage_filesystems.xml:1825
 msgid ""
 "See the following sections for information about possible causes and "
 "prevention of this issue."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/storage_filesystems.xml:1829
+#: xml/storage_filesystems.xml:1830
 msgid "Disk Space Consumed by Snapper Snapshots"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1830
+#: xml/storage_filesystems.xml:1831
 msgid ""
 "If Snapper is running for the Btrfs file system, the <quote><literal>No "
 "space left on device</literal></quote> problem is typically caused by having "
@@ -2289,31 +2284,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1835
+#: xml/storage_filesystems.xml:1836
 msgid ""
 "You can remove some snapshots from Snapper, however, the snapshots are not "
 "deleted immediately and might not free up as much space as you need."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1839
+#: xml/storage_filesystems.xml:1840
 msgid "To delete files from Snapper:"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1844
+#: xml/storage_filesystems.xml:1845
 msgid "Open a terminal console."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1849
+#: xml/storage_filesystems.xml:1850
 msgid ""
 "At the command prompt, enter <command>btrfs filesystem show</command>, for "
 "example:"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/storage_filesystems.xml:1853
+#: xml/storage_filesystems.xml:1854
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> btrfs filesystem show\n"
@@ -2323,18 +2318,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1859
+#: xml/storage_filesystems.xml:1860
 msgid "Enter"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/storage_filesystems.xml:1862
+#: xml/storage_filesystems.xml:1863
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> btrfs fi balance start <replaceable>MOUNTPOINT</replaceable> -dusage=5"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1863
+#: xml/storage_filesystems.xml:1864
 msgid ""
 "This command attempts to relocate data in empty or near-empty data chunks, "
 "allowing the space to be reclaimed and reassigned to metadata. This can take "
@@ -2343,36 +2338,36 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1871
+#: xml/storage_filesystems.xml:1872
 msgid "List the snapshots in Snapper. Enter"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/storage_filesystems.xml:1874
+#: xml/storage_filesystems.xml:1875
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> snapper -c root list"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1877
+#: xml/storage_filesystems.xml:1878
 msgid "Delete one or more snapshots from Snapper. Enter"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/storage_filesystems.xml:1880
+#: xml/storage_filesystems.xml:1881
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> snapper -c root delete <replaceable>SNAPSHOT_NUMBER(S)</replaceable>"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/storage_filesystems.xml:1881
+#: xml/storage_filesystems.xml:1882
 msgid ""
 "Ensure that you delete the oldest snapshots first. The older a snapshot is, "
 "the more disk space it occupies."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1887
+#: xml/storage_filesystems.xml:1888
 msgid ""
 "To help prevent this problem, you can change the Snapper cleanup algorithms. "
 "See <xref linkend=\"sec.snapper.manage.metadata.cleanup\"/> for details. The "
@@ -2381,7 +2376,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1894
+#: xml/storage_filesystems.xml:1895
 msgid ""
 "If you use Snapper with Btrfs on the file system disk, it is advisable to "
 "reserve twice the amount of disk space than the standard storage proposal. "
@@ -2390,12 +2385,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/storage_filesystems.xml:1902
+#: xml/storage_filesystems.xml:1903
 msgid "Disk Space Consumed by Log, Crash, and Cache Files"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1903
+#: xml/storage_filesystems.xml:1904
 msgid ""
 "If the system disk is filling up with data, you can try deleting files from "
 "<filename>/var/log</filename>, <filename>/var/crash</filename>, <filename>/"
@@ -2403,7 +2398,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1909
+#: xml/storage_filesystems.xml:1910
 msgid ""
 "The Btrfs <systemitem class=\"username\">root</systemitem> file system "
 "subvolumes <filename>/var/log</filename>, <filename>/var/crash</filename> "
@@ -2417,7 +2412,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/storage_filesystems.xml:1917
+#: xml/storage_filesystems.xml:1918
 msgid ""
 "On test and development machines, especially if you have frequent crashes of "
 "applications, you may also want to have a look at <filename>/var/lib/systemd/"
@@ -2425,12 +2420,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/storage_filesystems.xml:1927
+#: xml/storage_filesystems.xml:1928
 msgid "Freeing Unused File System Blocks"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1928
+#: xml/storage_filesystems.xml:1929
 msgid ""
 "On solid-state drives (SSDs) and thinly provisioned volumes it is useful to "
 "trim blocks not in use by the file system. <phrase role=\"productname"
@@ -2441,7 +2436,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1934
+#: xml/storage_filesystems.xml:1935
 msgid ""
 "The recommended way to trim a supported file system (except Btrfs) on "
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
@@ -2456,12 +2451,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: warning/title
-#: xml/storage_filesystems.xml:1944
+#: xml/storage_filesystems.xml:1945
 msgid "Do Not Use <command>wiper.sh</command> on Btrfs"
 msgstr ""
 
 #. (itstool) path: warning/para
-#: xml/storage_filesystems.xml:1945
+#: xml/storage_filesystems.xml:1946
 msgid ""
 "The <command>wiper.sh</command> script trims read-write mounted Ext4 and XFS "
 "file systems, read-only mounted/unmounted Ext2, Ext3, Ext4, and XFS file "
@@ -2472,12 +2467,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/storage_filesystems.xml:1958
+#: xml/storage_filesystems.xml:1959
 msgid "No Defragmentation on SSDs"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1959
+#: xml/storage_filesystems.xml:1960
 msgid ""
 "Linux file systems contain mechanisms to avoid data fragmentation and "
 "usually it is not necessary to defragment. However, there are use cases, "
@@ -2486,7 +2481,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1965
+#: xml/storage_filesystems.xml:1966
 msgid ""
 "This only applies to conventional hard disks. On solid state disks (SSDs) "
 "which use flash memory to store data, the firmware provides an algorithm "
@@ -2497,7 +2492,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/storage_filesystems.xml:1973
+#: xml/storage_filesystems.xml:1974
 msgid ""
 "For the reasons mentioned above, SUSE explicitly recommends <emphasis>not</"
 "emphasis> to defragment SSDs. Some vendors also warn about defragmenting "
@@ -2505,64 +2500,64 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1981
+#: xml/storage_filesystems.xml:1982
 msgid "HPE 3PAR StoreServ All-Flash"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:1986
+#: xml/storage_filesystems.xml:1987
 msgid "HPE 3PAR StoreServ Converged Flash"
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/storage_filesystems.xml:1995
+#: xml/storage_filesystems.xml:1996
 msgid "Additional Information"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:1997
+#: xml/storage_filesystems.xml:1998
 msgid ""
 "Each of the file system projects described above maintains its own home page "
 "on which to find mailing list information, further documentation, and FAQs:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:2004
+#: xml/storage_filesystems.xml:2005
 msgid ""
 "The Btrfs Wiki on Kernel.org: <link xlink:href=\"https://btrfs.wiki.kernel."
 "org/\"/>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:2010
+#: xml/storage_filesystems.xml:2011
 msgid ""
 "E2fsprogs: Ext2/3/4 File System Utilities: <link xlink:href=\"http://"
 "e2fsprogs.sourceforge.net/\"/>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:2016
+#: xml/storage_filesystems.xml:2017
 msgid ""
 "Introducing Ext3: <link xlink:href=\"http://www.ibm.com/developerworks/linux/"
 "library/l-fs7/\"/>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:2022
+#: xml/storage_filesystems.xml:2023
 msgid ""
 "XFS: A High-Performance Journaling File System: <link xlink:href=\"http://"
 "oss.sgi.com/projects/xfs/\"/>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/storage_filesystems.xml:2028
+#: xml/storage_filesystems.xml:2029
 msgid ""
 "The OCFS2 Project: <link xlink:href=\"http://oss.oracle.com/projects/ocfs2/"
 "\"/>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:2035
+#: xml/storage_filesystems.xml:2036
 msgid ""
 "A comprehensive multi-part tutorial about Linux file systems can be found at "
 "IBM developerWorks in the <citetitle>Advanced File System Implementor’s "
@@ -2571,7 +2566,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/storage_filesystems.xml:2042
+#: xml/storage_filesystems.xml:2043
 msgid ""
 "An in-depth comparison of file systems (not only Linux file systems) is "
 "available from the Wikipedia project in Comparison of File Systems (<link "

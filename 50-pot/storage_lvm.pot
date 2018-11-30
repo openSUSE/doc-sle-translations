@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:13+0200\n"
+"POT-Creation-Date: 2018-11-24 22:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/storage_lvm.xml:9
 msgid "LVM Configuration"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/storage_lvm.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -843,7 +838,7 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/storage_lvm.xml:1034
-msgid "Depending on your choice warning dialogs are shown. Confirm them with <guimenu>Yes</guimenu>."
+msgid "Depending on your choice warning dialogues are shown. Confirm them with <guimenu>Yes</guimenu>."
 msgstr ""
 
 #. (itstool) path: step/para

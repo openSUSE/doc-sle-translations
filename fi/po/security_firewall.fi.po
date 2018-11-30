@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:15+0200\n"
+"POT-Creation-Date: 2018-11-24 22:36+0100\n"
 "PO-Revision-Date: 2018-09-30 01:15+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -500,17 +500,17 @@ msgid ""
 "activated on the system, YaST can adjust the firewall rules via the options "
 "<guimenu>Open Ports on Selected Interface in Firewall</guimenu> or "
 "<guimenu>Open Ports on Firewall</guimenu> in the server configuration "
-"modules. Some server module dialogs include a <guimenu>Firewall Details</"
+"modules. Some server module dialogues include a <guimenu>Firewall Details</"
 "guimenu> button for activating additional services and ports."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:398
+#: xml/security_firewall.xml:397
 msgid "Runtime Versus Permanent Configuration"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:400
+#: xml/security_firewall.xml:399
 msgid ""
 "By default all <command>firewall-cmd</command> commands operate on the "
 "runtime configuration. You can apply most operations to the permanent "
@@ -524,13 +524,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:413
+#: xml/security_firewall.xml:412
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --runtime-to-permanent</command>"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:415
+#: xml/security_firewall.xml:414
 msgid ""
 "This will write all current runtime rules into the permanent configuration. "
 "Any temporary modifications you or other programs may have made to the "
@@ -541,7 +541,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/security_firewall.xml:425
+#: xml/security_firewall.xml:424
 msgid ""
 "Some configuration items, like the default zone, are shared by both the "
 "runtime and permanent configurations. Changing them will reflect in both "
@@ -549,7 +549,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:432
+#: xml/security_firewall.xml:431
 msgid ""
 "To revert the runtime configuration to the permanent configuration and "
 "thereby discard any temporary changes, two possibilities exist, either via "
@@ -558,19 +558,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:438
+#: xml/security_firewall.xml:437
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --reload</command>"
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:440
+#: xml/security_firewall.xml:439
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>systemctl reload firewalld</command>"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:442
+#: xml/security_firewall.xml:441
 msgid ""
 "For brevity the examples in the following sections will always operate on "
 "the runtime configuration, if applicable. Adjust them accordingly if you "
@@ -578,18 +578,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:450
+#: xml/security_firewall.xml:449
 msgid "Assignment of Interfaces to Zones"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:452
+#: xml/security_firewall.xml:451
 msgid ""
 "You can list all network interfaces currently assigned to a zone like this:"
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:455
+#: xml/security_firewall.xml:454
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --zone=public --list-interfaces</command>\n"
@@ -597,12 +597,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:458
+#: xml/security_firewall.xml:457
 msgid "Similarly you can query which zone a specific interface is assigned to:"
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:462
+#: xml/security_firewall.xml:461
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --get-zone-of-interface=eth0</command>\n"
@@ -610,7 +610,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:465
+#: xml/security_firewall.xml:464
 msgid ""
 "The following command lines assign an interface to a zone. The variant using "
 "<literal>--add-interface</literal> will only work if <literal>eth0</literal> "
@@ -620,7 +620,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:473
+#: xml/security_firewall.xml:472
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --zone=internal --add-interface=eth0</command>\n"
@@ -628,7 +628,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:476
+#: xml/security_firewall.xml:475
 msgid ""
 "Any operations without an explicit <literal>--zone</literal> argument will "
 "implicitly operate on the default zone. This pair of commands can be used "
@@ -636,7 +636,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:482
+#: xml/security_firewall.xml:481
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --get-default-zone</command>\n"
@@ -645,7 +645,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/security_firewall.xml:487
+#: xml/security_firewall.xml:486
 msgid ""
 "Any network interfaces not explicitly assigned to a zone will be "
 "automatically part of the default zone. Changing the default zone will "
@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/security_firewall.xml:498
+#: xml/security_firewall.xml:497
 msgid ""
 "Also note that interfaces that are not explicitly part of any zone will not "
 "appear in the zone interface list. There is currently no command to list "
@@ -667,12 +667,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:508
+#: xml/security_firewall.xml:507
 msgid "Making Network Services Accessible"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:510
+#: xml/security_firewall.xml:509
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> has a concept of "
 "<emphasis>services</emphasis>. A service consists of definitions of ports "
@@ -683,7 +683,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:518
+#: xml/security_firewall.xml:517
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --get-services</command>\n"
@@ -698,7 +698,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:528
+#: xml/security_firewall.xml:527
 msgid ""
 "These service definitions can be used for easily making the associated "
 "network functionality accessible in a zone. This command line will open the "
@@ -706,13 +706,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:534
+#: xml/security_firewall.xml:533
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --add-service=http --zone=internal</command>"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:536
+#: xml/security_firewall.xml:535
 msgid ""
 "The removal of a service from a zone is performed using the counterpart "
 "command <literal>--remove-service</literal>. You can also define custom "
@@ -722,31 +722,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:544
+#: xml/security_firewall.xml:543
 msgid ""
 "If you just want to open a single port by number, you can use the following "
 "approach. This will open TCP port 8000 in the internal zone:"
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:549
+#: xml/security_firewall.xml:548
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --add-port=8000/tcp --zone=internal</command>"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:551
+#: xml/security_firewall.xml:550
 msgid ""
 "For removal use the counterpart command <literal>--remove-port</literal>."
 msgstr ""
 
 #. (itstool) path: tip/title
-#: xml/security_firewall.xml:556
+#: xml/security_firewall.xml:555
 msgid "Temporarily Opening a Service or Port"
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/security_firewall.xml:557
+#: xml/security_firewall.xml:556
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> supports a <literal>--"
 "timeout</literal> parameter that allows to open a service or port for a "
@@ -757,18 +757,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/screen
-#: xml/security_firewall.xml:564
+#: xml/security_firewall.xml:563
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --add-service=imap --zone=internal --timeout=5m</command>"
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:570
+#: xml/security_firewall.xml:569
 msgid "Lockdown Mode"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:572
+#: xml/security_firewall.xml:571
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> offers a "
 "<emphasis>lockdown mode</emphasis> that prevents changes to the firewall "
@@ -781,7 +781,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:582
+#: xml/security_firewall.xml:581
 msgid ""
 "It is important to understand that the lockdown mode feature provides no "
 "real security, but merely protection against accidental or benign attempts "
@@ -792,12 +792,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:594
+#: xml/security_firewall.xml:593
 msgid "Adding Custom <command>iptables</command> Rules"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:596
+#: xml/security_firewall.xml:595
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> claims exclusive control "
 "over the host's <systemitem>netfilter</systemitem> rules. You should never "
@@ -807,7 +807,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:603
+#: xml/security_firewall.xml:602
 msgid ""
 "If you need to add custom firewall rules that aren't covered by <systemitem "
 "class=\"daemon\">firewalld</systemitem> features then there are two ways to "
@@ -819,7 +819,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:613
+#: xml/security_firewall.xml:612
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd  --direct --add-rule ipv4 filter FORWARD 0 -i eth0 -o eth1 \\\n"
@@ -827,7 +827,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:616
+#: xml/security_firewall.xml:615
 msgid ""
 "Additionally, <systemitem class=\"daemon\">firewalld</systemitem> implements "
 "so called <emphasis>rich rules</emphasis>, an extended syntax for specifying "
@@ -838,7 +838,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/screen
-#: xml/security_firewall.xml:626
+#: xml/security_firewall.xml:625
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --zone=public --add-rich-rule='rule family=\"ipv4\" \\\n"
@@ -846,12 +846,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:631
+#: xml/security_firewall.xml:630
 msgid "Routing, Forwarding, and Masquerading"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:633
+#: xml/security_firewall.xml:632
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> is not designed to run "
 "as a fully fledged router. The basic functionality for typical home router "
@@ -863,27 +863,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/security_firewall.xml:643
+#: xml/security_firewall.xml:642
 msgid ""
 "First of all IP forwarding needs to be enabled as outlined in <xref linkend="
 "\"sec.security.firewall.masq\"/>."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/security_firewall.xml:649
+#: xml/security_firewall.xml:648
 msgid ""
 "To enable IPv4 masquerading, for example in the <literal>internal</literal> "
 "zone, issue the following command."
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/security_firewall.xml:653
+#: xml/security_firewall.xml:652
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>firewall-cmd --zone=internal --add-masquerade</command>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/security_firewall.xml:656
+#: xml/security_firewall.xml:655
 msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> can also enable port "
 "forwarding. The following command will forward local TCP connections on port "
@@ -891,7 +891,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/screen
-#: xml/security_firewall.xml:660
+#: xml/security_firewall.xml:659
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --zone=public \\\n"
@@ -899,12 +899,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/security_firewall.xml:668
+#: xml/security_firewall.xml:667
 msgid "Accessing Services Listening on Dynamic Ports"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/security_firewall.xml:670
+#: xml/security_firewall.xml:669
 msgid ""
 "Some network services do not listen on predefined port numbers. Instead they "
 "operate based on the <literal>portmapper</literal> or <literal>rpcbind</"
@@ -920,12 +920,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/security_firewall.xml:686
+#: xml/security_firewall.xml:685
 msgid "About NFSv4"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/security_firewall.xml:687
+#: xml/security_firewall.xml:686
 msgid ""
 "The newer NFSv4 only requires the single well known TCP port 2049. For "
 "protocol version 4.0 the kernel parameter <literal>fs.nfs."
@@ -935,7 +935,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/security_firewall.xml:697
+#: xml/security_firewall.xml:696
 msgid ""
 "The dynamic nature of the <literal>rpcbind</literal> protocol makes it "
 "difficult to make the affected services behind the firewall accessible. "
@@ -949,12 +949,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:707
+#: xml/security_firewall.xml:706
 msgid "Configuring Static Ports"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:708
+#: xml/security_firewall.xml:707
 msgid ""
 "One possibility is to configure all involved network services to use fixed "
 "port numbers. Once this is done, the fixed ports can be opened in "
@@ -968,127 +968,127 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: table/title
-#: xml/security_firewall.xml:720
+#: xml/security_firewall.xml:719
 msgid "Important Sysconfig Variables for Static Port Configuration"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/security_firewall.xml:728
+#: xml/security_firewall.xml:727
 msgid "File Path"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/security_firewall.xml:733
+#: xml/security_firewall.xml:732
 msgid "Variable Name"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/security_firewall.xml:738
+#: xml/security_firewall.xml:737
 msgid "Example Value"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:746
+#: xml/security_firewall.xml:745
 msgid "<filename> /etc/sysconfig/nfs </filename>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:751
+#: xml/security_firewall.xml:750
 msgid "MOUNTD_PORT"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:754
+#: xml/security_firewall.xml:753
 msgid "21001"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:759
+#: xml/security_firewall.xml:758
 msgid "STATD_PORT"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:762
+#: xml/security_firewall.xml:761
 msgid "21002"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:767
+#: xml/security_firewall.xml:766
 msgid "LOCKD_TCPPORT"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:770 xml/security_firewall.xml:778
+#: xml/security_firewall.xml:769 xml/security_firewall.xml:777
 msgid "21003"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:775
+#: xml/security_firewall.xml:774
 msgid "LOCKD_UDPPORT"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:783
+#: xml/security_firewall.xml:782
 msgid "RQUOTAD_PORT"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:786
+#: xml/security_firewall.xml:785
 msgid "21004"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:791
+#: xml/security_firewall.xml:790
 msgid "<filename> /etc/sysconfig/ypbind </filename>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:796
+#: xml/security_firewall.xml:795
 msgid "YPBIND_OPTIONS"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:799
+#: xml/security_firewall.xml:798
 msgid "-p 24500"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:804
+#: xml/security_firewall.xml:803
 msgid "<filename> /etc/sysconfig/ypserv </filename>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:809
+#: xml/security_firewall.xml:808
 msgid "YPXFRD_ARGS"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:812
+#: xml/security_firewall.xml:811
 msgid "-p 24501"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:817
+#: xml/security_firewall.xml:816
 msgid "YPSERV_ARGS"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:820
+#: xml/security_firewall.xml:819
 msgid "-p 24502"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:825
+#: xml/security_firewall.xml:824
 msgid "YPPASSWDD_ARGS"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: xml/security_firewall.xml:828
+#: xml/security_firewall.xml:827
 msgid "--port 24503"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:836
+#: xml/security_firewall.xml:835
 msgid ""
 "You will need to restart any related services that are affected by these "
 "static port configurations for the changes to take effect. You can see the "
@@ -1098,7 +1098,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:844
+#: xml/security_firewall.xml:843
 msgid ""
 "Apart from the port configuration for network services running in userspace "
 "there are also ports that are used by the Linux kernel directly when it "
@@ -1112,20 +1112,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/title
-#: xml/security_firewall.xml:858
+#: xml/security_firewall.xml:857
 msgid ""
 "Callback Port Configuration for the <literal>nfs</literal> Kernel Module in "
 "<filename>/etc/modprobe.d/60-nfs.conf</filename>"
 msgstr ""
 
 #. (itstool) path: example/screen
-#: xml/security_firewall.xml:859
+#: xml/security_firewall.xml:858
 #, no-wrap
 msgid "options nfs callback_tcpport=21005\n"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:863
+#: xml/security_firewall.xml:862
 msgid ""
 "To make this change effective it is easiest to reboot the machine. Otherwise "
 "all NFS services need to be stopped and the <literal>nfs</literal> kernel "
@@ -1135,7 +1135,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:871
+#: xml/security_firewall.xml:870
 msgid ""
 "For easy handling of the now statically configured RPC ports, it is useful "
 "to create a new <systemitem class=\"daemon\">firewalld</systemitem> service "
@@ -1146,14 +1146,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/title
-#: xml/security_firewall.xml:881
+#: xml/security_firewall.xml:880
 msgid ""
 "Commands to Define a new <systemitem class=\"daemon\">firewalld</systemitem> "
 "RPC Service for NFS"
 msgstr ""
 
 #. (itstool) path: example/screen
-#: xml/security_firewall.xml:882
+#: xml/security_firewall.xml:881
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt><command>firewall-cmd --permanent --new-service=nfs-rpc</command>\n"
@@ -1184,13 +1184,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: xml/security_firewall.xml:912
+#: xml/security_firewall.xml:911
 msgid ""
 "Using <package>firewall-rpcbind-helper</package> for Configuring Static Ports"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:913
+#: xml/security_firewall.xml:912
 msgid ""
 "The steps to configure static ports as shown in the previous section can be "
 "simplified by using the SUSE helper tool <command>firewall-rpc-helper.py</"
@@ -1199,7 +1199,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: xml/security_firewall.xml:919
+#: xml/security_firewall.xml:918
 msgid ""
 "The tool allows interactive configuration of the service patterns discussed "
 "in the previous section. It can also display current port assignments and "
@@ -1208,12 +1208,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/security_firewall.xml:930
+#: xml/security_firewall.xml:929
 msgid "For More Information"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/security_firewall.xml:932
+#: xml/security_firewall.xml:931
 msgid ""
 "The most up-to-date information and other documentation about the "
 "<systemitem class=\"daemon\">firewalld</systemitem> package is found in "

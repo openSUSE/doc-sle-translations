@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:24+0200\n"
+"POT-Creation-Date: 2018-11-24 22:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/book_sles_storage.xml:26
 msgid "Provides information about how to manage storage devices on a SUSE Linux Enterprise Server."
-msgstr ""
-
-#. (itstool) path: bugtracker/assignee
-#: xml/book_sles_storage.xml:32
-msgid "fs@suse.com"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/book_sles_storage.xml:34
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: part/title

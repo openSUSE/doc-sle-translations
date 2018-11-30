@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:27+0200\n"
+"POT-Creation-Date: 2018-11-24 22:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,11 +42,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/art_sles_rpi_quick.xml:26
 msgid "This guide contains an overview of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> for ARM on the Raspberry Pi* platform and will guide you through the setup procedure."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/art_sles_rpi_quick.xml:33
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

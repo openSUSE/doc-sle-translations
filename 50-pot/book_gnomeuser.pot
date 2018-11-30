@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:25+0200\n"
+"POT-Creation-Date: 2018-11-24 22:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/book_gnomeuser.xml:26
 msgid "Introduces the GNOME desktop of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. It guides you through using and configuring the desktop and helps you perform key tasks. It is intended mainly for end users who want to make efficient use of GNOME as their default desktop."
-msgstr ""
-
-#. (itstool) path: bugtracker/assignee
-#: xml/book_gnomeuser.xml:32
-msgid "fs@suse.com"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/book_gnomeuser.xml:34
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: part/title

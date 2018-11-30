@@ -1,24 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:41+0100\n"
 "PO-Revision-Date: 2018-09-30 01:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
-
-#. (itstool) path: bugtracker/assignee
-#: xml/hardening.xml:19
-msgid "fs@suse.com"
 msgstr ""
 
 #. (itstool) path: info/title
@@ -783,12 +778,12 @@ msgid ""
 "Under the above condition, the package is merely a collection of files, and "
 "their use shall not be automatically assumed if you do not have any local "
 "users on your system. Since the installation of such packages does not have "
-"any influence on the security value of the system, the uninstallation of "
-"them should not either."
+"any influence on the security value of the system, uninstallaing them should "
+"neither."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:627
+#: xml/hardening.xml:626
 msgid ""
 "However, a fairly simple reason to keep to a minimal set of packages in your "
 "installation is that something that is not present cannot get used. Binaries "
@@ -796,7 +791,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:632
+#: xml/hardening.xml:631
 msgid ""
 "A straight forward way of keeping to a minimal set of packages begins with "
 "the installation of the system. You can start the installation of your "
@@ -810,12 +805,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:647
+#: xml/hardening.xml:646
 msgid "Service Isolation—Run Different Services on Separate Systems"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:650
+#: xml/hardening.xml:649
 msgid ""
 "Whenever possible, a server should be dedicated to serving exactly one "
 "service or application. This limits the number of other services that could "
@@ -824,7 +819,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:657
+#: xml/hardening.xml:656
 msgid ""
 "This point can lead to healthy and robust dialog on system sizing and even "
 "further to consolidation or virtualization. The intent with this guidance is "
@@ -832,7 +827,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:662
+#: xml/hardening.xml:661
 msgid ""
 "The use of AppArmor for services that are provided on a system is an "
 "effective means of containment. Refer to the AppArmor documentation on your "
@@ -841,7 +836,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:668
+#: xml/hardening.xml:667
 msgid ""
 "The use of virtualization technology with KVM or with Xen is supported with "
 "the <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
@@ -858,41 +853,41 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:680
+#: xml/hardening.xml:679
 msgid ""
 "Virtualization technology cannot match or substitute the separation strength "
 "that is given by running services on different physical machines!"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:689
+#: xml/hardening.xml:688
 msgid "System fingerprinting and backups"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:693
+#: xml/hardening.xml:692
 msgid ""
 "In the case of the suspicion of an attack against the system, nothing can "
 "provide more comfort than"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:699
+#: xml/hardening.xml:698
 msgid "a backup"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:704
+#: xml/hardening.xml:703
 msgid "a fingerprint of your system to detect modifications"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:709
+#: xml/hardening.xml:708
 msgid "having done your homework."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:714
+#: xml/hardening.xml:713
 msgid ""
 "Several tools exist on <phrase role=\"productname\"><phrase os=\"osuse"
 "\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
@@ -905,7 +900,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:721
+#: xml/hardening.xml:720
 msgid ""
 "In particular, the use of <systemitem class=\"resource\">AIDE</systemitem> "
 "is strongly encouraged. <systemitem class=\"resource\">AIDE</systemitem>, "
@@ -915,7 +910,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:730
+#: xml/hardening.xml:729
 msgid ""
 "You need to copy the hash database that AIDE creates to a place that is "
 "inaccessible for potential attackers. Otherwise, the attacker may modify the "
@@ -924,7 +919,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:738
+#: xml/hardening.xml:737
 msgid ""
 "An attacker may have planted a backdoor in the kernel. This has an entire "
 "variety of consequences: Apart from being very hard to detect, the kernel-"
@@ -936,7 +931,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:749
+#: xml/hardening.xml:748
 msgid ""
 "Security is a lively process. Essentially, in this context, this means that "
 "the application of security updates invalidates the integrity database. "
@@ -949,7 +944,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:761
+#: xml/hardening.xml:760
 msgid ""
 "A fast and directly accessible backup adds distinct confidence about the "
 "integrity of your system and can substitute an integrity check such as "
@@ -962,19 +957,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:773
+#: xml/hardening.xml:772
 msgid ""
 "Make it an integral part of your security routine to verify that your "
 "backups work."
 msgstr ""
 
 #. (itstool) path: chapter/title
-#: xml/hardening.xml:785
+#: xml/hardening.xml:784
 msgid "Linux Security and Service Protection Methods"
 msgstr ""
 
 #. (itstool) path: abstract/para
-#: xml/hardening.xml:788
+#: xml/hardening.xml:787
 msgid ""
 "In <xref linkend=\"cha.common_criteria\"/> we mentioned the Common Criteria "
 "EAL 4+ certified installation and setup that was sponsored by IBM for a "
@@ -985,7 +980,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: abstract/para
-#: xml/hardening.xml:796
+#: xml/hardening.xml:795
 msgid ""
 "This next part will present a more general view and give recommendations and "
 "guidance for <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
@@ -998,7 +993,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: chapter/para
-#: xml/hardening.xml:805
+#: xml/hardening.xml:804
 msgid ""
 "This portion of the guide will only give basic recommendations instead of "
 "strict rules. The procedures and examples here should give you the ability "
@@ -1007,7 +1002,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: chapter/para
-#: xml/hardening.xml:811
+#: xml/hardening.xml:810
 msgid ""
 "Some subjects of this chapter have been discussed before. However, you will "
 "find more details and explanations in this chapter. Selected general topics "
@@ -1015,26 +1010,26 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:818
+#: xml/hardening.xml:817
 msgid ""
 "Physical Security – Protection of the server from environmental threats "
 "(people, places, things)."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:824
+#: xml/hardening.xml:823
 msgid ""
 "Security Policies and Procedures – Server lifecycle management, disk/media "
 "reclamation, backup and archive security."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:830
+#: xml/hardening.xml:829
 msgid "Systems Monitoring – Procedures around event notification/management."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:835
+#: xml/hardening.xml:834
 msgid ""
 "Systems Automation – Mechanisms and/or procedures for automatic security "
 "measures. Heuristics, account control, security reporting and remediation, "
@@ -1042,73 +1037,73 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:842
+#: xml/hardening.xml:841
 msgid ""
 "Systems Management – Methods to obtaining packages, verification and signing "
 "keys, patching procedures and recommendations."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:848
+#: xml/hardening.xml:847
 msgid ""
 "Securing Network – Addition programs, ports and service wrappers – iptables, "
 "tcpwrappers, services."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:854
+#: xml/hardening.xml:853
 msgid ""
 "Remote Access – extra SSH information and key federation. CA integration."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:860
+#: xml/hardening.xml:859
 msgid "Common Services – mail, NFS and automount."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:865
+#: xml/hardening.xml:864
 msgid ""
-"Securing the kernel and Init Process – parameters, systemd targets, and boot "
+"Securing the kernel and init Process – parameters, systemd targets, and boot "
 "scripts."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:871
+#: xml/hardening.xml:870
 msgid "Access Control – user/groups/permissions."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:876
+#: xml/hardening.xml:875
 msgid "Password Security and Warnings – Proper setup of passwords and banners."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:881
+#: xml/hardening.xml:880
 msgid "Miscellaneous Security – Assorted security settings and miscellany."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:886
+#: xml/hardening.xml:885
 msgid ""
 "Resources – Web links, documentation and example references, howtos and "
 "general information, product links."
 msgstr ""
 
 #. (itstool) path: chapter/para
-#: xml/hardening.xml:892
+#: xml/hardening.xml:891
 msgid ""
 "The sections will again be organized by a topical hierarchy for continuity-"
 "sake. Refer to the main table of contents for easy reference."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:897
+#: xml/hardening.xml:896
 msgid "Physical Security"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:899
+#: xml/hardening.xml:898
 msgid ""
 "Physical security should be one of the utmost concerns. Linux production "
 "servers should be in locked data centers where only people have access that "
@@ -1117,39 +1112,39 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:906
+#: xml/hardening.xml:905
 msgid "Additionally, consider questions like:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:912
+#: xml/hardening.xml:911
 msgid "Who has direct physical access to the host?"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:917
+#: xml/hardening.xml:916
 msgid "Of those that do, should they?"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:922
+#: xml/hardening.xml:921
 msgid "Can the host be protected from tampering and should it be?"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:928
+#: xml/hardening.xml:927
 msgid ""
 "The amount of physical security needed on a particular system depends on the "
 "situation, and can also vary widely by available funds."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:934
+#: xml/hardening.xml:933
 msgid "System Locks"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:935
+#: xml/hardening.xml:934
 msgid ""
 "Most server racks in data centers include a locking feature. Usually this "
 "will be a hasp/cylinder lock on the front of the rack that allows you to "
@@ -1162,7 +1157,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:945
+#: xml/hardening.xml:944
 msgid ""
 "Some servers also have case locks. These locks can do different things "
 "according to the designs of the system vendor and construction. Many systems "
@@ -1173,17 +1168,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:957
+#: xml/hardening.xml:956
 msgid "Locking Down the BIOS"
 msgstr ""
 
 #. (itstool) path: tip/title
-#: xml/hardening.xml:960
+#: xml/hardening.xml:959
 msgid "Secure Boot"
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/hardening.xml:961
+#: xml/hardening.xml:960
 msgid ""
 "This section describes only basic methods to secure the boot process. To "
 "find out about more advanced boot protection using UEFI and the secure boot "
@@ -1191,7 +1186,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:968
+#: xml/hardening.xml:967
 msgid ""
 "The BIOS (Basic Input/Output System) or its successor UEFI (Unified "
 "Extensible Firmware Interface) is the lowest level of software/firmware on "
@@ -1204,7 +1199,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:981
+#: xml/hardening.xml:980
 msgid ""
 "Most BIOS implementations can be configured to prevent unauthorized users "
 "from manipulating system and boot settings. This is typically done by "
@@ -1219,7 +1214,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:994
+#: xml/hardening.xml:993
 msgid ""
 "Many BIOS firmwares have various other security related settings. Check with "
 "the system vendor, the system documentation or examine the BIOS during a "
@@ -1227,12 +1222,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:1001
+#: xml/hardening.xml:1000
 msgid "Booting when a BIOS Boot Password Is Set"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:1002
+#: xml/hardening.xml:1001
 msgid ""
 "If a system has been set up with a boot password, the host will not boot up "
 "unattended (for example in case of a system reboot or power failure). This "
@@ -1240,12 +1235,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:1009
+#: xml/hardening.xml:1008
 msgid "Losing the BIOS Admin Password"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:1010
+#: xml/hardening.xml:1009
 msgid ""
 "Once a system is set up for the first time, the BIOS admin password will not "
 "be required often. Don't forget the password or you will need to clear the "
@@ -1253,12 +1248,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1018
+#: xml/hardening.xml:1017
 msgid "Security via the Boot Loaders"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1020
+#: xml/hardening.xml:1019
 msgid ""
 "The Linux boot loader GRUB 2, which is used by default in <phrase role="
 "\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles"
@@ -1272,12 +1267,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1030
+#: xml/hardening.xml:1029
 msgid "You can refer to the GRUB 2 man page for examples."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1034
+#: xml/hardening.xml:1033
 msgid ""
 "It is very important to keep in mind that when setting these passwords they "
 "will need to be remembered! Also, enabling these passwords might merely slow "
@@ -1289,7 +1284,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1044
+#: xml/hardening.xml:1043
 msgid ""
 "Also keep in mind that the boot loader configuration files will need to be "
 "protected by changing their mode to <literal>600</literal> (read/write for "
@@ -1298,12 +1293,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1051
+#: xml/hardening.xml:1050
 msgid "Verifying Security Action with <command>seccheck</command>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1053
+#: xml/hardening.xml:1052
 msgid ""
 "It is highly recommended to have scripts in place which can verify that "
 "security actions or procedures have been run. Even the best systems "
@@ -1313,7 +1308,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1061
+#: xml/hardening.xml:1060
 msgid ""
 "<command>seccheck</command> is the SUSE Security Checker. It is a set of "
 "several shell scripts designed to check the local security of the system on "
@@ -1334,12 +1329,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1082
+#: xml/hardening.xml:1081
 msgid "Seccheck Configuration"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1083
+#: xml/hardening.xml:1082
 msgid ""
 "Note that you can change the receiver of the seccheck mails from root to "
 "anyone else if you add an entry like this one to <filename>/etc/sysconfig/"
@@ -1347,13 +1342,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1088
+#: xml/hardening.xml:1087
 #, no-wrap
 msgid "SECCHK_USER=\"firewall\" # exchange firewall is an admin user's account name"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1089
+#: xml/hardening.xml:1088
 msgid ""
 "Also note that the <envar>START_SECCHK</envar> variable from <filename>/etc/"
 "sysconfig/seccheck</filename> controls whether the security check will be "
@@ -1362,233 +1357,233 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1095
+#: xml/hardening.xml:1094
 msgid "The following daily checks are done:"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1105
+#: xml/hardening.xml:1104
 msgid "<filename>/etc/passwd</filename> check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1110
+#: xml/hardening.xml:1109
 msgid ""
-"length/number/contents of fields, accounts with same uid accounts with uid/"
-"gid of 0 or 1 beside root and bin"
+"length/number/contents of fields, accounts with same UID accounts with UID/"
+"GID of 0 or 1 beside root and bin"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1118
+#: xml/hardening.xml:1117
 msgid "<filename>/etc/shadow</filename> check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1123
+#: xml/hardening.xml:1122
 msgid "length/number/contents of fields, accounts with no password"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1130
+#: xml/hardening.xml:1129
 msgid "<filename>/etc/group</filename> check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1135
+#: xml/hardening.xml:1134
 msgid "length/number/contents of fields"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1142
+#: xml/hardening.xml:1141
 msgid "user root checks"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1147
+#: xml/hardening.xml:1146
 msgid "secure umask and <envar>PATH</envar>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1154
+#: xml/hardening.xml:1153
 msgid "<filename>/etc/ftpusers</filename>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1159
+#: xml/hardening.xml:1158
 msgid "checks if important system users are put there"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1166
+#: xml/hardening.xml:1165
 msgid "<filename>/etc/aliases</filename>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1171
+#: xml/hardening.xml:1170
 msgid "checks for mail aliases which execute programs"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1178
+#: xml/hardening.xml:1177
 msgid "<filename>.rhosts</filename> check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1183
+#: xml/hardening.xml:1182
 msgid "checks if users' <filename>.rhosts</filename> file contain + signs"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1190
-msgid "homedirectory"
+#: xml/hardening.xml:1189
+msgid "home directory"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1195
+#: xml/hardening.xml:1194
 msgid "checks if home directories are writable or owned by someone else"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1202
+#: xml/hardening.xml:1201
 msgid "dot-files check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1207
+#: xml/hardening.xml:1206
 msgid ""
 "checks many dot-files in the home directories if they are writable or owned "
 "by someone else"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1215
+#: xml/hardening.xml:1214
 msgid "mailbox check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1220
+#: xml/hardening.xml:1219
 msgid "checks if user mailboxes are owned by user and are readable"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1227
+#: xml/hardening.xml:1226
 msgid "NFS export check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1232
+#: xml/hardening.xml:1231
 msgid "exports should not be exported globally"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1239
+#: xml/hardening.xml:1238
 msgid "NFS import check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1244
+#: xml/hardening.xml:1243
 msgid "NFS mounts should have the <option>nosuid</option> option set"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1251
+#: xml/hardening.xml:1250
 msgid "promisc check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1256
+#: xml/hardening.xml:1255
 msgid "checks if network cards are in promiscuous mode"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1263
+#: xml/hardening.xml:1262
 msgid "list modules"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1268
+#: xml/hardening.xml:1267
 msgid "lists loaded modules"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1275
+#: xml/hardening.xml:1274
 msgid "list sockets"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1280
+#: xml/hardening.xml:1279
 msgid "lists open ports"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1287
+#: xml/hardening.xml:1286
 msgid "Weekly Checks are as follows:"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1294
+#: xml/hardening.xml:1293
 msgid "password check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1299
+#: xml/hardening.xml:1298
 msgid ""
 "runs <command>john</command> to crack the password file, user will receive "
 "an e-mail notice to change their password"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1307
+#: xml/hardening.xml:1306
 msgid "RPM md5 check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1312
+#: xml/hardening.xml:1311
 msgid "checks for changed files via RPM's MD5 checksum feature"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1319
+#: xml/hardening.xml:1318
 msgid "suid/sgid check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1324
+#: xml/hardening.xml:1323
 msgid "lists all suid and sgid files"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1331
+#: xml/hardening.xml:1330
 msgid "exec group write"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1336
+#: xml/hardening.xml:1335
 msgid "lists all executables which are group/world-writable"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1343
+#: xml/hardening.xml:1342
 msgid "writable check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1348
+#: xml/hardening.xml:1347
 msgid "lists all files which are world-writable (including executables)"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1355
+#: xml/hardening.xml:1354
 msgid "device check"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:1360
+#: xml/hardening.xml:1359
 msgid "lists all devices"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1368
+#: xml/hardening.xml:1367
 msgid ""
 "Additional monthly checks are also run, however the key difference is mainly "
 "that the monthly file is not a diff like the daily/weekly ones but the full "
@@ -1596,12 +1591,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:1374
+#: xml/hardening.xml:1373
 msgid "Auditing Passwords with <command>john</command>"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:1375
+#: xml/hardening.xml:1374
 msgid ""
 "To enable password auditing, it is necessary to first install the package "
 "<package>john</package>. The package is available on the openSUSE Build "
@@ -1610,12 +1605,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1384
+#: xml/hardening.xml:1383
 msgid "Automatic Logout"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1385
+#: xml/hardening.xml:1384
 msgid ""
 "The <systemitem>seccheck</systemitem> package provides an automatic logout "
 "feature. It is a script that runs every 10 minutes and checks both remote or "
@@ -1624,7 +1619,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1391
+#: xml/hardening.xml:1390
 msgid ""
 "You can configure the functionality in the <filename>/etc/security/"
 "autologout.conf</filename> file. Parameters include default idle and logout "
@@ -1634,7 +1629,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/hardening.xml:1400
+#: xml/hardening.xml:1399
 msgid ""
 "The automatic logout feature is not enabled by default. To enable it, edit "
 "<filename>/etc/cron.d/autologout</filename> and uncomment the example cron "
@@ -1642,12 +1637,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1409
+#: xml/hardening.xml:1408
 msgid "Retiring Linux Servers with Sensitive Data"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1411
+#: xml/hardening.xml:1410
 msgid ""
 "Security policies usually contain some procedures for the treatment of "
 "storage media that is going to be retired or disposed of. Disk and media "
@@ -1666,12 +1661,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:1431
+#: xml/hardening.xml:1430
 msgid "Wiping Wear Leveling Devices"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:1432
+#: xml/hardening.xml:1431
 msgid ""
 "Some devices, like SSDs, use wear leveling and do not necessarily write new "
 "data in the same physical locations. Such devices usually provide their own "
@@ -1679,12 +1674,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1440
+#: xml/hardening.xml:1439
 msgid "scrub: Disk Overwrite Utility"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1441
+#: xml/hardening.xml:1440
 msgid ""
 "<command>scrub</command> overwrites hard disks, files, and other devices "
 "with repeating patterns intended to make recovering data from these devices "
@@ -1694,17 +1689,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: variablelist/title
-#: xml/hardening.xml:1449
+#: xml/hardening.xml:1448
 msgid "Supported Scrub Methods"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1451
+#: xml/hardening.xml:1450
 msgid "nnsa"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1453
+#: xml/hardening.xml:1452
 msgid ""
 "4-pass NNSA Policy Letter NAP-14.1-C (XVI-8) for sanitizing removable and "
 "non-removable hard disks, which requires overwriting all locations with a "
@@ -1713,12 +1708,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1462
+#: xml/hardening.xml:1461
 msgid "dod"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1464
+#: xml/hardening.xml:1463
 msgid ""
 "4-pass DoD 5220.22-M section 8-306 procedure (d) for sanitizing removable "
 "and non-removable rigid disks which requires overwriting all addressable "
@@ -1728,12 +1723,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1474
+#: xml/hardening.xml:1473
 msgid "bsi"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1476
+#: xml/hardening.xml:1475
 msgid ""
 "9-pass method recommended by the German Center of Security in Information "
 "Technologies (<link xlink:href=\"http://www.bsi.bund.de\"/>): 0xff, 0xfe, "
@@ -1741,140 +1736,140 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1485
+#: xml/hardening.xml:1484
 msgid "gutmann"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1487
+#: xml/hardening.xml:1486
 msgid ""
 "The canonical 35-pass sequence described in Gutmann's paper cited below."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1494
+#: xml/hardening.xml:1493
 msgid "schneier"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1496
+#: xml/hardening.xml:1495
 msgid ""
 "7-pass method described by Bruce Schneier in \"Applied Cryptography"
 "\" (1996): 0x00, 0xff, random(x5)"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1503
+#: xml/hardening.xml:1502
 msgid "pfitzner7"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1505
+#: xml/hardening.xml:1504
 msgid "Roy Pfitzner's 7-random-pass method: random(x7)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1511
+#: xml/hardening.xml:1510
 msgid "pfitzner33"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1513
+#: xml/hardening.xml:1512
 msgid "Roy Pfitzner's 33-random-pass method: random(x33)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1519
+#: xml/hardening.xml:1518
 msgid "usarmy"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1521
+#: xml/hardening.xml:1520
 msgid ""
 "US Army AR380-19 method: 0x00, 0xff, random. (Note: identical to DoD 522.22-"
 "M section 8-306 procedure (e) for sanitizing magnetic core memory)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1529
+#: xml/hardening.xml:1528
 msgid "fillzero"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1531
+#: xml/hardening.xml:1530
 msgid "1-pass pattern: 0x00."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1537
+#: xml/hardening.xml:1536
 msgid "fillff"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1539
+#: xml/hardening.xml:1538
 msgid "1-pass pattern: 0xff."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1545
+#: xml/hardening.xml:1544
 msgid "random"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1547
+#: xml/hardening.xml:1546
 msgid "1-pass pattern: random(x1)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1553
+#: xml/hardening.xml:1552
 msgid "random2"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1555
+#: xml/hardening.xml:1554
 msgid "2-pass pattern: random(x2)."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1561
+#: xml/hardening.xml:1560
 msgid "old"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1563
+#: xml/hardening.xml:1562
 msgid ""
 "6-pass pre-version 1.7 scrub method: 0x00, 0xff, 0xaa, 0x00, 0x55, verify."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1570
+#: xml/hardening.xml:1569
 msgid "fastold"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1572
+#: xml/hardening.xml:1571
 msgid "5-pass pattern: 0x00, 0xff, 0xaa, 0x55, verify."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: xml/hardening.xml:1578
+#: xml/hardening.xml:1577
 msgid "custom=string"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1580
+#: xml/hardening.xml:1579
 msgid ""
 "1-pass custom pattern. String may contain C-style numerical escapes: \\nnn "
 "(octal) or \\xnn (hex)."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1590
+#: xml/hardening.xml:1589
 msgid "Backups"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1592
+#: xml/hardening.xml:1591
 msgid ""
 "If your system is compromised, backups can be used to restore a prior system "
 "state. When bugs or accidents occur, backups can also be used to compare the "
@@ -1884,7 +1879,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1601
+#: xml/hardening.xml:1600
 msgid ""
 "For legal reasons, some firms and organizations must be careful about "
 "backing up too much information and holding it too long. If your environment "
@@ -1893,7 +1888,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1608
+#: xml/hardening.xml:1607
 msgid ""
 "The rules about physical security of servers apply to backups as well. "
 "Additionally it is advisable to encrypt backup data. This can be done either "
@@ -1908,7 +1903,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1621
+#: xml/hardening.xml:1620
 msgid ""
 "If a system is known to be compromised or suspected to be compromised, then "
 "it is vital to determine the integrity status of backups. If a system "
@@ -1919,7 +1914,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1630
+#: xml/hardening.xml:1629
 msgid ""
 "Even in the absence of any known security breach, a regular inspection of "
 "differences among important configuration files in backups can help with "
@@ -1929,12 +1924,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1639
+#: xml/hardening.xml:1638
 msgid "Disk Partitions"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1641
+#: xml/hardening.xml:1640
 msgid ""
 "Servers should have separate file systems for at least <filename>/</"
 "filename>, <filename>/boot</filename>, <filename>/usr</filename>, <filename>/"
@@ -1946,7 +1941,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1652
+#: xml/hardening.xml:1651
 msgid ""
 "Another advantage of separate file systems is the possibility to choose "
 "special mount options that are only suitable for certain regions in the file "
@@ -1954,32 +1949,32 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1660
+#: xml/hardening.xml:1659
 msgid "<literal>noexec</literal>: prevents execution of files."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1665
+#: xml/hardening.xml:1664
 msgid ""
 "<literal>nodev</literal>: prevents character or block special devices from "
 "being usable."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1671
+#: xml/hardening.xml:1670
 msgid ""
 "<literal>nosuid</literal>: prevents the <literal>set-user-ID</literal> or "
 "<literal>set-group-ID</literal> bits from being effective."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:1677
+#: xml/hardening.xml:1676
 msgid ""
 "<literal>ro</literal>: mounts the file system <literal>read-only</literal>."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1684
+#: xml/hardening.xml:1683
 msgid ""
 "Each of these options needs to be carefully considered before applying it to "
 "a partition mount. Applications may stop working, or the support status may "
@@ -1990,7 +1985,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1693
+#: xml/hardening.xml:1692
 msgid ""
 "You are advised to review <xref linkend=\"cha.common_criteria\"/>. It is "
 "important to understand the need to separate the partitions that could "
@@ -2003,7 +1998,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1704
+#: xml/hardening.xml:1703
 msgid ""
 "Another capability in <phrase role=\"productname\"><phrase os=\"osuse"
 "\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
@@ -2013,12 +2008,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1711
+#: xml/hardening.xml:1710
 msgid "Firewall (iptables)"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1713
+#: xml/hardening.xml:1712
 msgid ""
 "Setting up a Linux firewall from scratch will not be covered in detail in "
 "this guide. Most companies use dedicated firewalls or appliances to protect "
@@ -2027,7 +2022,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1720
+#: xml/hardening.xml:1719
 msgid ""
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
@@ -2043,7 +2038,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1730
+#: xml/hardening.xml:1729
 msgid ""
 "If you are also interested in directly scripting firewall rules using "
 "<command>iptables</command>, there are many guides on the Internet. See the "
@@ -2057,12 +2052,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:1744
+#: xml/hardening.xml:1743
 msgid "Security Features in the Kernel"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1746
+#: xml/hardening.xml:1745
 msgid ""
 "The following list shows tunable kernel parameters you can use to secure "
 "your Linux server against attacks. Some are defaults already within the SLE "
@@ -2074,7 +2069,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1757
+#: xml/hardening.xml:1756
 msgid ""
 "For each tunable kernel parameter shown, the change to the entry that needs "
 "to be affected can be modified or added to the <filename>/etc/sysctl.conf</"
@@ -2082,18 +2077,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1764
+#: xml/hardening.xml:1763
 msgid "You can get a list of current kernel settings by using the command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:1768
+#: xml/hardening.xml:1767
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sysctl -a"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1770
+#: xml/hardening.xml:1769
 msgid ""
 "It is even a very good idea to store the output of the kernel settings (for "
 "comparison or reference) by redirecting the output of the sysctl command to "
@@ -2101,13 +2096,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:1776
+#: xml/hardening.xml:1775
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sysctl -A &gt; /root/sysctl.settings.store"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1778
+#: xml/hardening.xml:1777
 msgid ""
 "Because <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
@@ -2123,7 +2118,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:1791
+#: xml/hardening.xml:1790
 msgid ""
 "Many third-party applications like Oracle, SAP, DB2, Websphere, etc. "
 "recommend changing kernel parameters to ensure high performance for I/O or "
@@ -2132,7 +2127,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1799
+#: xml/hardening.xml:1798
 msgid ""
 "Enable TCP SYN Cookie Protection (default in <phrase role=\"productname"
 "\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
@@ -2142,7 +2137,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1800
+#: xml/hardening.xml:1799
 msgid ""
 "A SYN attack is a denial of service attack that consumes all the resources "
 "on a machine. Any server that is connected to a network is potentially "
@@ -2152,20 +2147,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1807
+#: xml/hardening.xml:1806
 #, no-wrap
 msgid "net.ipv4.tcp_syncookies = 1"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:1809
+#: xml/hardening.xml:1808
 msgid ""
 "Despite the name of the configuration option, it applies to IP version 6 as "
 "well."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1817
+#: xml/hardening.xml:1816
 msgid ""
 "Disable IP Source Routing (default in <phrase role=\"productname\"><phrase "
 "os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
@@ -2175,7 +2170,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1818
+#: xml/hardening.xml:1817
 msgid ""
 "Source Routing is used to specify a path or route through the network from "
 "source to destination. This feature can be used by network people for "
@@ -2186,29 +2181,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1826
+#: xml/hardening.xml:1825
 #, no-wrap
 msgid "net.ipv4.conf.all.accept_source_route = 0"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1827 xml/hardening.xml:1844
+#: xml/hardening.xml:1826 xml/hardening.xml:1843
 msgid "or"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1830
+#: xml/hardening.xml:1829
 #, no-wrap
 msgid "net.ipv6.conf.all.accept_source_route = 0"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1834
+#: xml/hardening.xml:1833
 msgid "Disable ICMP Redirect Acceptance"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1835
+#: xml/hardening.xml:1834
 msgid ""
 "ICMP redirects are used by routers to tell the server that there is a better "
 "path to other networks than the one chosen by the server. However, an "
@@ -2219,19 +2214,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1843
+#: xml/hardening.xml:1842
 #, no-wrap
 msgid "net.ipv4.conf.all.accept_redirects = 0"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1847
+#: xml/hardening.xml:1846
 #, no-wrap
 msgid "net.ipv6.conf.all.accept_redirects = 0"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1851
+#: xml/hardening.xml:1850
 msgid ""
 "Enable IP Spoofing Protection (default in <phrase role=\"productname"
 "\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
@@ -2241,7 +2236,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1853
+#: xml/hardening.xml:1852
 msgid ""
 "IP spoofing is a technique where an intruder sends out packets which claim "
 "to be from another host by manipulating the source address. IP spoofing is "
@@ -2251,31 +2246,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1860
+#: xml/hardening.xml:1859
 #, no-wrap
 msgid "net.ipv4.conf.all.rp_filter = 1"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1864
+#: xml/hardening.xml:1863
 msgid "Enable Ignoring to ICMP Requests"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1865
+#: xml/hardening.xml:1864
 msgid ""
 "If you want or need Linux to ignore <command>ping</command> requests, edit "
 "the <filename>/etc/sysctl.conf</filename> file and add the following line:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1870
+#: xml/hardening.xml:1869
 #, no-wrap
 msgid "net.ipv4.icmp_echo_ignore_all = 1"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1871
+#: xml/hardening.xml:1870
 msgid ""
 "This cannot be done in many environments, as some monitoring systems use a "
 "rudimentary ICMP (ping) to determine the health of the device on the network "
@@ -2283,7 +2278,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1879
+#: xml/hardening.xml:1878
 msgid ""
 "Enable Ignoring Broadcasts Request (default in <phrase role=\"productname"
 "\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
@@ -2293,18 +2288,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1880
+#: xml/hardening.xml:1879
 msgid "If you want or need Linux to ignore broadcast requests."
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1883
+#: xml/hardening.xml:1882
 #, no-wrap
 msgid "net.ipv4.icmp_echo_ignore_broadcasts = 1"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1887
+#: xml/hardening.xml:1886
 msgid ""
 "Enable Bad Error Message Protection (default in <phrase role=\"productname"
 "\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
@@ -2314,24 +2309,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1888
+#: xml/hardening.xml:1887
 msgid "To alert you about bad error messages in the network."
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1891
+#: xml/hardening.xml:1890
 #, no-wrap
 msgid "net.ipv4.icmp_ignore_bogus_error_responses = 1"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1895
+#: xml/hardening.xml:1894
 msgid ""
 "Enable Logging of Spoofed Packets, Source Routed Packets, Redirect Packets"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1896
+#: xml/hardening.xml:1895
 msgid ""
 "To turn on logging for Spoofed Packets, Source Routed Packets, and Redirect "
 "Packets, edit the <filename>/etc/sysctl.conf</filename> file and add the "
@@ -2339,13 +2334,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1901
+#: xml/hardening.xml:1900
 #, no-wrap
 msgid "net.ipv4.conf.all.log_martians = 1"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:1903
+#: xml/hardening.xml:1902
 msgid ""
 "Because of the way <phrase role=\"productname\"><phrase os=\"osuse"
 "\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
@@ -2355,12 +2350,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1912
+#: xml/hardening.xml:1911
 msgid "Buffer Overflow Attack Mitigation"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1913
+#: xml/hardening.xml:1912
 msgid ""
 "Starting with the 2.6.x kernel releases, Linux offers <emphasis>Address "
 "Space Layout Randomization</emphasis> (ASLR) and the <emphasis>No-eXecute</"
@@ -2369,7 +2364,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1936
+#: xml/hardening.xml:1935
 msgid ""
 "Since version 12, <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
 "Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
@@ -2379,14 +2374,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1940
+#: xml/hardening.xml:1939
 msgid ""
 "ASLR is enabled by default. This can be verified with the output of the "
 "following command. The expected result is 2:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1944
+#: xml/hardening.xml:1943
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>cat /proc/sys/kernel/randomize_va_space\n"
@@ -2394,7 +2389,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1946
+#: xml/hardening.xml:1945
 msgid ""
 "This randomizes the heap, stack, and load addresses of dynamically linked "
 "libraries. Programs that run privileged or process network data are already "
@@ -2403,7 +2398,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1953
+#: xml/hardening.xml:1952
 msgid ""
 "Executable space protection prevents the execution of memory space that is "
 "not intended for execution. Linux makes use of the <emphasis>No eXecute bit</"
@@ -2416,7 +2411,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1961
+#: xml/hardening.xml:1960
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>dmesg | grep '[NX|DX]*protection'\n"
@@ -2424,14 +2419,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1963
+#: xml/hardening.xml:1962
 msgid ""
 "If NX is disabled, check your BIOS or UEFI for a setting that enables it and "
 "make sure that it is supported by your CPU."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1967
+#: xml/hardening.xml:1966
 msgid ""
 "Furthermore, since version 12, <phrase role=\"productname\"><phrase os="
 "\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
@@ -2441,7 +2436,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1972
+#: xml/hardening.xml:1971
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>cat /proc/sys/kernel/kptr_restrict\n"
@@ -2449,7 +2444,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1974
+#: xml/hardening.xml:1973
 msgid ""
 "On CPU's that support it (newer AMD64/Intel 64 CPUs) the kernel also uses "
 "the SMEP protection by default that prevents direct execution of user space "
@@ -2458,12 +2453,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:1983
+#: xml/hardening.xml:1982
 msgid "File system hardening"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1984
+#: xml/hardening.xml:1983
 msgid ""
 "To mitigate vulnerabilities based on insecure file system access by "
 "privileged programs (tmp-races, TOCTOU) the Linux kernel offers two "
@@ -2478,7 +2473,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:1993
+#: xml/hardening.xml:1992
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>cat /proc/sys/fs/protected_hardlinks\n"
@@ -2486,7 +2481,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:1995
+#: xml/hardening.xml:1994
 msgid ""
 "By setting this to <literal>1</literal>, users can no longer create soft or "
 "hard links to files which they do not own. This mitigates a commonly used "
@@ -2495,7 +2490,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2001
+#: xml/hardening.xml:2000
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>cat /proc/sys/fs/protected_symlinks\n"
@@ -2503,7 +2498,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2003
+#: xml/hardening.xml:2002
 msgid ""
 "By setting this to <literal>1</literal>, symbolic links are permitted to be "
 "followed only when outside a sticky world-writable directory, or when the "
@@ -2512,12 +2507,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2012
+#: xml/hardening.xml:2011
 msgid "Increased <command>dmesg</command> Restrictions"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2013
+#: xml/hardening.xml:2012
 msgid ""
 "<command>dmesg</command> provides all kinds of system internal information, "
 "such as kernel addresses, crashes of services, and similar things that could "
@@ -2529,7 +2524,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2025
+#: xml/hardening.xml:2024
 msgid ""
 "Filter access to <filename>/dev/mem</filename> (default in <phrase role="
 "\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles"
@@ -2538,7 +2533,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2026
+#: xml/hardening.xml:2025
 msgid ""
 "<filename>/dev/mem</filename> hosts an image of the system's main memory, "
 "including kernel and user space memory. Allowing unfiltered access to this "
@@ -2551,12 +2546,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2037
+#: xml/hardening.xml:2036
 msgid "<phrase>AppArmor</phrase>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2039
+#: xml/hardening.xml:2038
 msgid ""
 "Included with <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
 "Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
@@ -2577,17 +2572,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2054
+#: xml/hardening.xml:2053
 msgid "<phrase>AppArmor</phrase> consists of:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2060
+#: xml/hardening.xml:2059
 msgid "A kernel extension which enforces the security profiles."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2065
+#: xml/hardening.xml:2064
 msgid ""
 "A collection of RPMs, also shipped with <phrase role=\"productname\"><phrase "
 "os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
@@ -2596,7 +2591,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2070
+#: xml/hardening.xml:2069
 msgid ""
 "A set of <phrase>AppArmor</phrase> profiles for numerous programs that ship "
 "with <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
@@ -2605,32 +2600,32 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2076
+#: xml/hardening.xml:2075
 msgid ""
 "Tools to create and manage new and existing <phrase>AppArmor</phrase> "
 "profiles."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2081
+#: xml/hardening.xml:2080
 msgid ""
 "A YaST user interface to manage reports and notification of security events."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2087
+#: xml/hardening.xml:2086
 msgid "Documentation about the <phrase>AppArmor</phrase> tools."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2094
+#: xml/hardening.xml:2093
 msgid ""
 "It is best to reboot a system after completing installation, so that "
 "<phrase>AppArmor</phrase> can confine all system daemons."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2098
+#: xml/hardening.xml:2097
 msgid ""
 "For additional details and step-by-step instructions on the usage and "
 "configuration of <phrase>AppArmor</phrase> you can also refer to <xref "
@@ -2638,12 +2633,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2106
+#: xml/hardening.xml:2105
 msgid "SELinux"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2108
+#: xml/hardening.xml:2107
 msgid ""
 "SELinux is an advanced technology for securing Linux systems. It is included "
 "with <quote>basic enablement</quote> in <phrase role=\"productname\"><phrase "
@@ -2668,12 +2663,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2125
+#: xml/hardening.xml:2124
 msgid "FTP, <command>telnet</command>, and <command>rlogin</command> (rsh)"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2127
+#: xml/hardening.xml:2126
 msgid ""
 "The programs/protocols of FTP, <command>telnet</command>, and "
 "<command>rlogin</command> (<command>rsh</command>) are vulnerable to "
@@ -2689,12 +2684,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2143
+#: xml/hardening.xml:2142
 msgid "Removing Unnecessary Software Packages (RPMs)"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2145
+#: xml/hardening.xml:2144
 msgid ""
 "A very important step in securing a Linux system is to determine the primary "
 "function(s) or role(s) of the Linux server. Otherwise, it can be difficult "
@@ -2705,7 +2700,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2154
+#: xml/hardening.xml:2153
 msgid ""
 "Doing this will result in fewer packages that require updates and will "
 "simplify maintenance efforts when security alerts and patches are released. "
@@ -2716,12 +2711,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:2164
+#: xml/hardening.xml:2163
 msgid "Requirements of Third-party Installers"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:2165
+#: xml/hardening.xml:2164
 msgid ""
 "Many third-party vendors like Oracle and IBM require a desktop environment "
 "and development libraries to run installers. To avoid this from having an "
@@ -2731,7 +2726,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2174
+#: xml/hardening.xml:2173
 msgid ""
 "Also, other packages like FTP and Telnet daemons should not be installed as "
 "well unless there is a justified business reason for it. <command>ssh</"
@@ -2740,7 +2735,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2182
+#: xml/hardening.xml:2181
 msgid ""
 "One of the first action items should be to create a Linux image that "
 "<emphasis>only</emphasis> contains RPMs needed by the system and "
@@ -2751,12 +2746,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/title
-#: xml/hardening.xml:2192
+#: xml/hardening.xml:2191
 msgid "Just Enough Operating System (JeOS)"
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/hardening.xml:2193
+#: xml/hardening.xml:2192
 msgid ""
 "The SUSE Appliance Program includes a component called JeOS (Just Enough "
 "Operating System). JeOS has a very small footprint and can be customized to "
@@ -2767,50 +2762,50 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/hardening.xml:2201
+#: xml/hardening.xml:2200
 msgid ""
 "If JeOS is not an option for you, a good choice is the minimal installation "
 "pattern."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2207
+#: xml/hardening.xml:2206
 msgid ""
 "To generate a list of all installed packages, use the following command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2211
+#: xml/hardening.xml:2210
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>zypper packages -i"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2213
+#: xml/hardening.xml:2212
 msgid "To retrieve details about a particular package, run:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2217
+#: xml/hardening.xml:2216
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>zypper info <replaceable>PACKAGE_NAME</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2219
+#: xml/hardening.xml:2218
 msgid ""
 "To check for and report potential conflicts and dependencies when deleting a "
 "package, run:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2224
+#: xml/hardening.xml:2223
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>zypper rm -D <replaceable>PACKAGE_NAME</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2226
+#: xml/hardening.xml:2225
 msgid ""
 "This can be very useful, as running the removal command without a test can "
 "often yield a lot of complaints and require manual recursive dependency "
@@ -2818,12 +2813,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:2233
+#: xml/hardening.xml:2232
 msgid "Removal of Essential System Packages"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:2234
+#: xml/hardening.xml:2233
 msgid ""
 "When removing packages, be careful not to remove any essential system "
 "packages. This could put your system into a broken state in which it can no "
@@ -2833,7 +2828,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2243
+#: xml/hardening.xml:2242
 msgid ""
 "For the final removal of one or more packages use the following "
 "<command>zypper</command> command with the added <quote>-u</quote> switch, "
@@ -2842,25 +2837,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2250
+#: xml/hardening.xml:2249
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>zypper rm -u <replaceable>PACKAGE_NAME</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2254
+#: xml/hardening.xml:2253
 msgid "Patching Linux Systems"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2256
+#: xml/hardening.xml:2255
 msgid ""
 "Building an infrastructure for patch management is another very important "
 "part of a proactive and secure production Linux environment."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2261
+#: xml/hardening.xml:2260
 msgid ""
 "It is recommended to have a written security policy and procedure to handle "
 "Linux security updates and issues. For example, a security policy should "
@@ -2872,7 +2867,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2271
+#: xml/hardening.xml:2270
 msgid ""
 "A separate security log file should contain details on which Linux security "
 "announcements have been received, which patches have been researched and "
@@ -2880,7 +2875,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2277
+#: xml/hardening.xml:2276
 msgid ""
 "SUSE releases their patches in three categories, security, recommended and "
 "optional. There are a few options that can be used to keep systems patched, "
@@ -2895,12 +2890,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2291
+#: xml/hardening.xml:2290
 msgid "YaST Online Update"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2292
+#: xml/hardening.xml:2291
 msgid ""
 "On a per-server basis, installation of important updates and improvements is "
 "possible using the YaST Online Update tool. Current updates for the SUSE "
@@ -2914,12 +2909,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2306
+#: xml/hardening.xml:2305
 msgid "Automatic Online Update"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2307
+#: xml/hardening.xml:2306
 msgid ""
 "YaST also offers the possibility to set up an automatic update. Select "
 "<menuchoice> <guimenu>Software</guimenu> <guimenu> Automatic Online Update</"
@@ -2930,14 +2925,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2316
+#: xml/hardening.xml:2315
 msgid ""
 "In this case, run a manual Online Update from time to install patches that "
 "require interaction."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2320
+#: xml/hardening.xml:2319
 msgid ""
 "When <guimenu>Only Download Patches</guimenu> is checked, the patches are "
 "downloaded at the specified time but not installed. They must be installed "
@@ -2945,12 +2940,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2329
+#: xml/hardening.xml:2328
 msgid "Repository Mirroring Tool—RMT"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2330
+#: xml/hardening.xml:2329
 msgid ""
 "The Repository Mirroring Tool for SUSE Linux Enterprise goes one step "
 "further than the Online Update process by establishing a proxy system with "
@@ -2960,7 +2955,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2337
+#: xml/hardening.xml:2336
 msgid ""
 "The downloadable RMT (<link xlink:href=\"http://download.suse.com/\"/>) is "
 "integrated with SUSE Customer Center (<link xlink:href=\"https://scc.suse."
@@ -2973,7 +2968,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2346
+#: xml/hardening.xml:2345
 msgid ""
 "The RMT provides an alternative to the default configuration, which requires "
 "opening the firewall to outbound connections for each device to receive "
@@ -2985,7 +2980,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2355
+#: xml/hardening.xml:2354
 msgid ""
 "The RMT also enables customers to locally track their SUSE Linux Enterprise "
 "devices (that is servers, desktops, or Point of Service terminals) "
@@ -2996,7 +2991,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2362
+#: xml/hardening.xml:2361
 msgid ""
 "The RMT informs the SUSE Linux Enterprise devices of any available software "
 "updates. Each device then obtains the required software updates from the "
@@ -3009,59 +3004,59 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2371
+#: xml/hardening.xml:2370
 msgid ""
 "In a nutshell, the Repository Mirroring Tool for SUSE Linux Enterprise "
 "provides customers with:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2376
+#: xml/hardening.xml:2375
 msgid "Assurance of firewall and regulatory compliance"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2381
+#: xml/hardening.xml:2380
 msgid "Reduced bandwidth usage during software updates"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2386
+#: xml/hardening.xml:2385
 msgid "Full support under active subscription from SUSE"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2391
+#: xml/hardening.xml:2390
 msgid "Maintenance of existing customer interface with SUSE Customer Center"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2396
+#: xml/hardening.xml:2395
 msgid ""
 "Accurate server entitlement tracking and effective measurement of "
 "subscription usage"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2402
+#: xml/hardening.xml:2401
 msgid ""
 "Automated process to easily tally entitlement totals (no more spreadsheets!)"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2408
+#: xml/hardening.xml:2407
 msgid ""
 "Simple installation process that automatically synchronizes server "
 "entitlement with SUSE Customer Center"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2417
+#: xml/hardening.xml:2416
 msgid "SUSE Manager"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2418
+#: xml/hardening.xml:2417
 msgid ""
 "SUSE Manager automates Linux server management, allowing you to provision "
 "and maintain your servers faster and more accurately. It monitors the health "
@@ -3073,49 +3068,49 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2429
+#: xml/hardening.xml:2428
 msgid "Asset management"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2434
+#: xml/hardening.xml:2433
 msgid "Provisioning"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2439
+#: xml/hardening.xml:2438
 msgid "Package management"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2444
+#: xml/hardening.xml:2443
 msgid "Patch management"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2449
+#: xml/hardening.xml:2448
 msgid "Configuration management"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2454
+#: xml/hardening.xml:2453
 msgid "Redeployment"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2459
+#: xml/hardening.xml:2458
 msgid ""
 "For more information on SUSE Manager refer to <link xlink:href=\"https://www."
 "suse.com/products/suse-manager/\"/>."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2467
+#: xml/hardening.xml:2466
 msgid "Securing the Network—Open Network Ports Detection"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2469
+#: xml/hardening.xml:2468
 msgid ""
 "Securing a server requires that you know what it is serving; what services "
 "are running. Default server installations may have services running that "
@@ -3126,13 +3121,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2479
+#: xml/hardening.xml:2478
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>ss -tulpn"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2481
+#: xml/hardening.xml:2480
 msgid ""
 "Be aware that <command>ss</command> output can be wider than a default "
 "terminal screen. If the screen is too narrow, the options described above "
@@ -3140,12 +3135,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2487
+#: xml/hardening.xml:2486
 msgid "Below is an example of output from the above command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2491
+#: xml/hardening.xml:2490
 #, no-wrap
 msgid ""
 "Netid  State  Recv-Q Send-Q Local Address:Port  Peer Address:Port\n"
@@ -3157,7 +3152,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2498
+#: xml/hardening.xml:2497
 msgid ""
 "From the output above you can see that 2 TCP-based and 1 UDP-based services "
 "are running and listening: master, sshd, and wickedd. Not required services "
@@ -3167,19 +3162,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:2507
+#: xml/hardening.xml:2506
 msgid ""
 "Some organizations consider port scans without permission a security offense."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2513
+#: xml/hardening.xml:2512
 msgid ""
 "Using the <command>nmap</command> command, such a scan can be conducted:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2517
+#: xml/hardening.xml:2516
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>nmap -sS -sU <replaceable>REMOTE_HOST</replaceable>\n"
@@ -3194,7 +3189,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2527
+#: xml/hardening.xml:2526
 msgid ""
 "Note that running the <command>nmap</command> command will only scan certain "
 "well-known ports by default. If you want to scan all ports you need to "
@@ -3205,7 +3200,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2537
+#: xml/hardening.xml:2536
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>masscan <replaceable>REMOTE_HOST</replaceable>/32 -p 1-65535\n"
@@ -3223,7 +3218,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2550
+#: xml/hardening.xml:2549
 msgid ""
 "If you want to scan UDP, specify the ports with a <command>U:</command> "
 "prefix: <command>masscan <replaceable>REMOTE_HOST</replaceable>/32 -p "
@@ -3231,14 +3226,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2556
+#: xml/hardening.xml:2555
 msgid ""
 "The results of the scans can vary widely and might not show all listening "
 "network sockets, depending on the status of the firewall."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2562
+#: xml/hardening.xml:2561
 msgid ""
 "From the first sample run above, you see that the <systemitem class=\"daemon"
 "\">tftpd</systemitem> daemon is listening on port auth (port 69) for "
@@ -3247,7 +3242,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2569
+#: xml/hardening.xml:2568
 msgid ""
 "Another method to list all of the TCP and UDP sockets to which programs are "
 "listening (on a host) is to use the <command>lsof</command> command – which "
@@ -3255,7 +3250,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2575
+#: xml/hardening.xml:2574
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>lsof -i -n | egrep 'COMMAND|LISTEN|UDP'\n"
@@ -3266,19 +3261,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2581
+#: xml/hardening.xml:2580
 msgid ""
 "You should always check the results you get from a command run on a machine "
 "with an external scan."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2588
+#: xml/hardening.xml:2587
 msgid "Securing Postfix"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2590
+#: xml/hardening.xml:2589
 msgid ""
 "Postfix is a replacement for Sendmail and has several security advantages "
 "over Sendmail. Postfix is the default mail system in <phrase role="
@@ -3290,7 +3285,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2598
+#: xml/hardening.xml:2597
 msgid ""
 "Linux servers that are not dedicated mail or relay servers should not accept "
 "external e-mails. However, it is important for production servers to send "
@@ -3300,7 +3295,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2606
+#: xml/hardening.xml:2605
 msgid ""
 "Verify the following parameters in <filename>/etc/postfix/main.cf</filename> "
 "are set to ensure that Postfix accepts only local e-mails for delivery (look "
@@ -3309,7 +3304,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2614
+#: xml/hardening.xml:2613
 #, no-wrap
 msgid ""
 "mydestination = $myhostname, localhost.$mydomain, localhost\n"
@@ -3317,7 +3312,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2617
+#: xml/hardening.xml:2616
 msgid ""
 "The <literal>mydestination</literal> parameter lists all domains to receive "
 "e-mails for. The <literal>inet_interfaces</literal> parameter specifies the "
@@ -3326,20 +3321,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2624
+#: xml/hardening.xml:2623
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>systemctl restart postfix"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2626
+#: xml/hardening.xml:2625
 msgid ""
 "Verify that Postfix is not listening for network requests (incoming) by "
 "running one of these commands from another host:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2631
+#: xml/hardening.xml:2630
 #, no-wrap
 msgid ""
 "nmap -sT -p 25 <replaceable>REMOTE_HOST</replaceable>\n"
@@ -3347,7 +3342,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:2635
+#: xml/hardening.xml:2634
 msgid ""
 "Running these commands on the local host will provide inaccurate results "
 "because Postfix is supposed to accept connections from the local node. Use "
@@ -3355,88 +3350,88 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2643
+#: xml/hardening.xml:2642
 msgid "File Systems: Securing NFS"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2645
+#: xml/hardening.xml:2644
 msgid ""
 "NFS (Network File System) allows servers to share files over a network. But "
 "like all network services using NFS involves risks."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2650
+#: xml/hardening.xml:2649
 msgid "Here are some basic rules:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2656
+#: xml/hardening.xml:2655
 msgid "NFS should not be enabled if not needed."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2661
+#: xml/hardening.xml:2660
 msgid "If NFS is truly needed, use a TCP wrapper to restrict remote access."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2666
+#: xml/hardening.xml:2665
 msgid "Ensure to export only to those hosts that really need access."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2671
+#: xml/hardening.xml:2670
 msgid "Use a fully qualified domain name to diminish any spoofing attempts."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2676
+#: xml/hardening.xml:2675
 msgid "Export only as read-only whenever possible."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:2681
+#: xml/hardening.xml:2680
 msgid "Use NFS only over TCP."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2687
+#: xml/hardening.xml:2686
 msgid ""
 "If you do not have shared directories to export, then ensure that the NFS "
 "service is <emphasis>not</emphasis> enabled nor running on the system:"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2692
+#: xml/hardening.xml:2691
 msgid "Check the NFS service status:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2696
+#: xml/hardening.xml:2695
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>systemctl status nfsserver"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2698
+#: xml/hardening.xml:2697
 msgid "Check the current targets:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2702
+#: xml/hardening.xml:2701
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>ls /etc/systemd/system/*.wants/nfsserver.service"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2705
+#: xml/hardening.xml:2704
 msgid "Enabling and Starting NFS Server"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2706
+#: xml/hardening.xml:2705
 msgid ""
 "If NFS must be used, it can be activated using the following commands on "
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
@@ -3448,7 +3443,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2713
+#: xml/hardening.xml:2712
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>systemctl enable nfs\n"
@@ -3456,12 +3451,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2715
+#: xml/hardening.xml:2714
 msgid "Portmapper information:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2718
+#: xml/hardening.xml:2717
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>rpcinfo -p <replaceable>SERVERNAME</replaceable>\n"
@@ -3481,14 +3476,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2732
+#: xml/hardening.xml:2731
 msgid ""
 "If you run it from an \"untrusted\" server or network, you should get the "
 "following output:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2736
+#: xml/hardening.xml:2735
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>rpcinfo -p <replaceable>SERVERNAME</replaceable>\n"
@@ -3496,12 +3491,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2741
+#: xml/hardening.xml:2740
 msgid "Exporting NFS"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2742
+#: xml/hardening.xml:2741
 msgid ""
 "To allow a client access to a file system or directory, the <filename>/etc/"
 "exports</filename> file serves as the access control list. To give the "
@@ -3511,13 +3506,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2749
+#: xml/hardening.xml:2748
 #, no-wrap
 msgid "      /pub *.network.example.com(ro,sync)"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2750
+#: xml/hardening.xml:2749
 msgid ""
 "It is very important <emphasis>not</emphasis> to give write access to NFS "
 "clients if not absolutely needed! Entries in <filename>/etc/exports</"
@@ -3530,13 +3525,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2761
+#: xml/hardening.xml:2760
 #, no-wrap
 msgid "/data/MYSQL sles-ha1.example.com(rw,sync) sles-ha2.example.com(rw,sync) sles-ha3.example.com(rw,sync)"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2762
+#: xml/hardening.xml:2761
 msgid ""
 "Note that the options <emphasis>must not</emphasis> be separated from the "
 "host names or networks with whitespace(s). Also, fully qualified domain "
@@ -3552,29 +3547,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2775
+#: xml/hardening.xml:2774
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>exportfs -a"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2776
+#: xml/hardening.xml:2775
 msgid "To unexport all shared file systems/directories, run:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2779
+#: xml/hardening.xml:2778
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>exportfs -ua"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2780
+#: xml/hardening.xml:2779
 msgid "To see all shared file systems/directories, run:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2783
+#: xml/hardening.xml:2782
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>showmount -e localhost\n"
@@ -3585,12 +3580,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:2791
+#: xml/hardening.xml:2790
 msgid "Using NFS over TCP"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2792
+#: xml/hardening.xml:2791
 msgid ""
 "If you need NFS, it is recommended to use NFS only over TCP since NFS over "
 "UDP is not secure. All 2.4 and later kernels support NFS over TCP on the "
@@ -3600,7 +3595,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2799
+#: xml/hardening.xml:2798
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>mount -o proto=tcp <replaceable>SERVERNAME</replaceable>:/pub /usr/local/pub\n"
@@ -3608,14 +3603,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2801
+#: xml/hardening.xml:2800
 msgid ""
 "Verify that the target directory, in this case <filename>/usr/local/pub</"
 "filename>, exists on the client:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2805
+#: xml/hardening.xml:2804
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>mount [...] <replaceable>SERVERNAME</replaceable>:/pub on\n"
@@ -3623,7 +3618,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:2807
+#: xml/hardening.xml:2806
 msgid ""
 "To have the shared directory mounted on the client at boot time, use the "
 "<filename>/etc/fstab</filename> file. For the above example, the <filename>/"
@@ -3631,7 +3626,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:2812
+#: xml/hardening.xml:2811
 #, no-wrap
 msgid ""
 "<replaceable>SERVERNAME</replaceable>:/pub /usr/local/pub nfs rsize=8192,wsize=8192,timeo=14,intr,tcp 0 0\n"
@@ -3639,12 +3634,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2817
+#: xml/hardening.xml:2816
 msgid "Copying Files Using SSH Without Providing Login Prompts"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2819
+#: xml/hardening.xml:2818
 msgid ""
 "This example is needed in some cases to enable files to be copied over the "
 "network using SSH without providing an interactive login prompt. This allows "
@@ -3652,7 +3647,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2825
+#: xml/hardening.xml:2824
 msgid ""
 "SSH can allow a forced command using the <quote>command</quote> option. "
 "Using this option it is possible to disable scp (secure copy) and enforce "
@@ -3666,32 +3661,32 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2838
+#: xml/hardening.xml:2837
 #, no-wrap
 msgid "command=\"/bin/cat ~/&lt;file_name&gt;\" ssh-rsa AAAAB3N...{etc}"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2840
+#: xml/hardening.xml:2839
 msgid "To copy now the file from the remote server, run the following command:"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2844
+#: xml/hardening.xml:2843
 msgid ""
 "ssh <replaceable>USER</replaceable>@<replaceable>SERVERNAME</replaceable> "
 "<replaceable>LOCAL_FILE</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2849
+#: xml/hardening.xml:2848
 msgid ""
 "Since <command>/bin/cat</command> is run on the server side, its output "
 "needs to be redirected to the local file."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2854
+#: xml/hardening.xml:2853
 msgid ""
 "Another approach is to replace the <command>/bin/cat</command> (referenced "
 "above) with your own script that checks the passed SSH commands by reading "
@@ -3699,7 +3694,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2861
+#: xml/hardening.xml:2860
 #, no-wrap
 msgid ""
 "#!/bin/ksh\n"
@@ -3714,7 +3709,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2871
+#: xml/hardening.xml:2870
 msgid ""
 "So you replace the <command>/bin/cat</command> portion with the script name "
 "in <filename>~/.ssh/authorized_keys</filename>, and run the following "
@@ -3722,36 +3717,36 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2877
+#: xml/hardening.xml:2876
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ssh <replaceable>USER</replaceable>@<replaceable>SERVERNAME</replaceable> Foo1 &gt; <replaceable>LOCAL_FILE</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2879
+#: xml/hardening.xml:2878
 msgid "To copy <filename>Foo 2</filename>, run:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2883
+#: xml/hardening.xml:2882
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ssh <replaceable>USER</replaceable>@<replaceable>SERVERNAME</replaceable> Foo2 &gt; <replaceable>LOCAL_FILE</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2885
+#: xml/hardening.xml:2884
 msgid ""
 "With the modifications above, every other variety of passed parameters will "
 "return errors."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2891
+#: xml/hardening.xml:2890
 msgid "Checking File Permissions and Ownership"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2893
+#: xml/hardening.xml:2892
 msgid ""
 "The following sections deal with some ways the default permissions and file "
 "settings can be modified to enhance the security of a host. It is important "
@@ -3764,7 +3759,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2902
+#: xml/hardening.xml:2901
 msgid ""
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
@@ -3780,7 +3775,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2914
+#: xml/hardening.xml:2913
 msgid ""
 "Administrators can use the file <filename>/etc/permissions.local</filename> "
 "to add their own settings. The easiest way to implement one of the default "
@@ -3789,19 +3784,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2921
+#: xml/hardening.xml:2920
 msgid ""
 "Each of the following topics will be modified by a selected rule-set, but "
 "the information is important to understand on its own."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2927
+#: xml/hardening.xml:2926
 msgid "Default umask"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2929
+#: xml/hardening.xml:2928
 msgid ""
 "The <command>umask</command> (user file-creation mode mask) command is a "
 "shell built-in command which determines the default file permissions for "
@@ -3813,13 +3808,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2939
+#: xml/hardening.xml:2938
 msgid ""
 "To determine the active umask, use the <command>umask</command> command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2944
+#: xml/hardening.xml:2943
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>umask\n"
@@ -3827,21 +3822,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2947
+#: xml/hardening.xml:2946
 msgid ""
 "The umask is subtracted from the access mode <literal>777</literal> if at "
 "least one bit is set."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2952
+#: xml/hardening.xml:2951
 msgid ""
 "With the default umask you see the behavior most users expect to see on a "
 "Linux system."
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2956
+#: xml/hardening.xml:2955
 #, no-wrap
 msgid ""
 "\n"
@@ -3854,12 +3849,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2965
+#: xml/hardening.xml:2964
 msgid "You can specify arbitrary umask values, depending on your needs."
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2968
+#: xml/hardening.xml:2967
 #, no-wrap
 msgid ""
 "\n"
@@ -3873,14 +3868,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2978
+#: xml/hardening.xml:2977
 msgid ""
 "Based on your thread model you can use a stricter umask like <literal>037</"
-"literal> to prevent accidential data leakage."
+"literal> to prevent accidental data leakage."
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:2982
+#: xml/hardening.xml:2981
 #, no-wrap
 msgid ""
 "\n"
@@ -3894,12 +3889,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:2994
+#: xml/hardening.xml:2993
 msgid "SUID/SGID Files"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:2996
+#: xml/hardening.xml:2995
 msgid ""
 "When the SUID (set user ID) or SGID (set group ID) bits are set on an "
 "executable, it executes with the UID or GID of the owner of the executable "
@@ -3913,7 +3908,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3006
+#: xml/hardening.xml:3005
 msgid ""
 "But SUID/SGID bits can be misused when the executable has a security hole. "
 "Therefore, you should search the entire system for SUID/SGID executables and "
@@ -3922,20 +3917,20 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3013
+#: xml/hardening.xml:3012
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>find /bin /boot /etc /home /lib /lib64 /opt /root /sbin /srv /tmp /usr /var -type f -perm '/6000' -ls"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3015 xml/hardening.xml:3061 xml/hardening.xml:3108
+#: xml/hardening.xml:3014 xml/hardening.xml:3060 xml/hardening.xml:3107
 msgid ""
 "You might need to extend the list of directories that are searched if you "
 "have a different file system structure."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3021
+#: xml/hardening.xml:3020
 msgid ""
 "SUSE only sets the SUID/SGID bit on binary if it is really necessary. Ensure "
 "that code developers do not set SUID/SGID bits on their programs if it is "
@@ -3945,7 +3940,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3030
+#: xml/hardening.xml:3029
 msgid ""
 "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
@@ -3956,7 +3951,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3035
+#: xml/hardening.xml:3034
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>getcap -v /usr/bin/ping\n"
@@ -3964,7 +3959,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3038
+#: xml/hardening.xml:3037
 msgid ""
 "The previous command only grants the CAP_NET_RAW capability to whoever "
 "executes <command>ping</command>. In case of vulnerabilities inside "
@@ -3977,12 +3972,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3050
+#: xml/hardening.xml:3049
 msgid "World-Writable Files"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3052
+#: xml/hardening.xml:3051
 msgid ""
 "World-writable files are a security risk since they can be modified by any "
 "user on the system. Additionally, world-writable directories allow anyone to "
@@ -3991,13 +3986,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3059
+#: xml/hardening.xml:3058
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>find /bin /boot /etc /home /lib /lib64 /opt /root /sbin /srv /tmp /usr /var -type f -perm -2 ! -type l -ls"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3066
+#: xml/hardening.xml:3065
 msgid ""
 "The <option>! -type l</option> parameter skips all symbolic links since "
 "symbolic links are always world-writable. However, this is not a problem as "
@@ -4006,7 +4001,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3073
+#: xml/hardening.xml:3072
 msgid ""
 "World-writable directories with the sticky bit such as the <filename>/tmp</"
 "filename> directory do not allow anyone except the owner of a file to delete "
@@ -4018,7 +4013,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3083
+#: xml/hardening.xml:3082
 #, no-wrap
 msgid ""
 "<prompt>tux &gt; </prompt>ls -ld /tmp\n"
@@ -4026,17 +4021,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3086
+#: xml/hardening.xml:3085
 msgid "The <literal>t</literal> mode bit in the output denotes the sticky bit."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3092
+#: xml/hardening.xml:3091
 msgid "Orphaned or Unowned Files"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3094
+#: xml/hardening.xml:3093
 msgid ""
 "Files not owned by any user or group might not necessarily be a security "
 "problem in itself. However, unowned files could pose a security problem in "
@@ -4046,19 +4041,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3102
+#: xml/hardening.xml:3101
 msgid ""
 "To locate files not owned by any user or group, use the following command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3106
+#: xml/hardening.xml:3105
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>find /bin /boot /etc /home /lib /lib64 /opt /root /sbin /srv /tmp /usr /var -nouser -o -nogroup"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3113
+#: xml/hardening.xml:3112
 msgid ""
 "A different problem is files that were not installed via the packaging "
 "system and therefore don't receive updates. You can check for such files "
@@ -4066,13 +4061,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3119
+#: xml/hardening.xml:3118
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>find /bin /lib /lib64 /usr -path /usr/local -prune -o -type f -a -exec /bin/sh -c \"rpm -qf {} &amp;&gt; /dev/null || echo {}\" \\;"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3121
+#: xml/hardening.xml:3120
 msgid ""
 "Run this command as an untrusted user (for example nobody) since crafted "
 "file names might lead to command execution. This shouldn't be a problem "
@@ -4081,7 +4076,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3128
+#: xml/hardening.xml:3127
 msgid ""
 "This will show you all files under <filename>/bin</filename>, <filename>/"
 "lib</filename>, <filename>/lib64</filename> and <filename>/usr</filename> "
@@ -4092,12 +4087,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3140
+#: xml/hardening.xml:3139
 msgid "Restricting Access to Removable Media"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3144
+#: xml/hardening.xml:3143
 msgid ""
 "In some environments it is required to restrict access to removable media "
 "such as USB storage or optical devices. The tools coming with the "
@@ -4105,14 +4100,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/hardening.xml:3152
+#: xml/hardening.xml:3151
 msgid ""
 "Create a rules file <filename>/etc/polkit-1/rules.d/01-restrict-removable-"
 "media.rules</filename> similar to the following:"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/hardening.xml:3157
+#: xml/hardening.xml:3156
 #, no-wrap
 msgid ""
 "// Allow users in group 'mmedia_all' to mount/unmount all type of drives\n"
@@ -4138,12 +4133,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:3178
+#: xml/hardening.xml:3177
 msgid "Naming of the Rules File"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:3179
+#: xml/hardening.xml:3178
 msgid ""
 "Rules files are processed in alphabetical order. Functions are called in the "
 "order they were added until one of the functions returns a value. Hence, to "
@@ -4154,36 +4149,36 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:3188
+#: xml/hardening.xml:3187
 msgid ""
 "The name of a rules file must start with a digit, otherwise it will be "
 "ignored."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/hardening.xml:3196
+#: xml/hardening.xml:3195
 msgid "Restart <systemitem>udisks2</systemitem>:"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/hardening.xml:3199
+#: xml/hardening.xml:3198
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>systemctl restart udisks2"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/hardening.xml:3202
+#: xml/hardening.xml:3201
 msgid "Restart <systemitem>polkit</systemitem>"
 msgstr ""
 
 #. (itstool) path: step/screen
-#: xml/hardening.xml:3205
+#: xml/hardening.xml:3204
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>systemctl restart polkit"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/hardening.xml:3208
+#: xml/hardening.xml:3207
 msgid ""
 "In YaST, click <menuchoice><guimenu>Security and Users</"
 "guimenu><guimenu>User and Group Management</guimenu><guimenu>Groups</"
@@ -4193,17 +4188,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3222
+#: xml/hardening.xml:3221
 msgid "Various Account Checks"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3227
+#: xml/hardening.xml:3226
 msgid "Unlocked Accounts"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3228
+#: xml/hardening.xml:3227
 msgid ""
 "It is important that all system and vendor accounts that are not used for "
 "logins are locked. To get a list of unlocked accounts on your system, you "
@@ -4222,13 +4217,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3245
+#: xml/hardening.xml:3244
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>egrep -v ':\\*|:\\!' /etc/shadow | awk -F: '{print $1}'"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3246
+#: xml/hardening.xml:3245
 msgid ""
 "Also make sure all accounts have a <literal>x</literal> in the password "
 "field in <filename>/etc/passwd</filename>. The following command lists all "
@@ -4236,13 +4231,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3252
+#: xml/hardening.xml:3251
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>grep -v ':x:' /etc/passwd"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3253
+#: xml/hardening.xml:3252
 msgid ""
 "An <literal>x</literal> in the password fields means that the password has "
 "been shadowed, for example the encrypted password needs to be looked up in "
@@ -4253,12 +4248,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3264
+#: xml/hardening.xml:3263
 msgid "Unused Accounts"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3265
+#: xml/hardening.xml:3264
 msgid ""
 "All system or vendor accounts that are not being used by users, "
 "applications, by the system or by daemons should be removed from the system. "
@@ -4267,13 +4262,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3271
+#: xml/hardening.xml:3270
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>find / -path /proc -prune -o -user <replaceable>ACCOUNT</replaceable> -ls"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3272
+#: xml/hardening.xml:3271
 msgid ""
 "The <option>-prune</option> option in this example is used to skip the /proc "
 "file system. If you are sure that an account can be deleted, you can remove "
@@ -4281,13 +4276,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3277
+#: xml/hardening.xml:3276
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>userdel -r <replaceable>ACCOUNT</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3278
+#: xml/hardening.xml:3277
 msgid ""
 "Without the <option>-r</option> option <command>userdel</command> will not "
 "delete the user's home directory and mail spool (<filename>/var/spool/mail/"
@@ -4296,21 +4291,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3287
+#: xml/hardening.xml:3286
 msgid "Enabling Password Aging"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3289
+#: xml/hardening.xml:3288
 msgid ""
-"Password expirations are a general best practice—but might need to be "
-"excluded for some system and shared accounts (for example Oracle, etc.). "
-"Expiring password on those accounts could lead to system outages if the "
-"application account expires."
+"Password expiration is a general best practice—but might need to be excluded "
+"for some system and shared accounts (for example Oracle, etc.). Expiring "
+"password on those accounts could lead to system outages if the application "
+"account expires."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3296
+#: xml/hardening.xml:3295
 msgid ""
 "Typically a corporate policy should be developed that dictates rules/"
 "procedures regarding password changes for system and shared accounts. "
@@ -4320,7 +4315,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3304
+#: xml/hardening.xml:3303
 msgid ""
 "The following files and parameters in the table can be used when a new "
 "account is created with the <command>useradd</command> command. Settings "
@@ -4333,74 +4328,74 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3321 xml/hardening.xml:3338 xml/hardening.xml:3356
+#: xml/hardening.xml:3320 xml/hardening.xml:3337 xml/hardening.xml:3355
 msgid "<filename>/etc/login.defs</filename>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3326
+#: xml/hardening.xml:3325
 msgid "<literal>PASS_MAX_DAYS</literal>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3331
+#: xml/hardening.xml:3330
 msgid "Maximum number of days a password is valid."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3343
+#: xml/hardening.xml:3342
 msgid "<literal>PASS_MIN_DAYS</literal>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3348
+#: xml/hardening.xml:3347
 msgid ""
 "Minimum number of days before a user can change the password since the last "
 "change."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3361
+#: xml/hardening.xml:3360
 msgid "<literal>PASS_WARN_AGE</literal>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3366
+#: xml/hardening.xml:3365
 msgid "Number of days when the password change reminder starts."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3373 xml/hardening.xml:3390
+#: xml/hardening.xml:3372 xml/hardening.xml:3389
 msgid "<filename>/etc/default/useradd</filename>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3378
+#: xml/hardening.xml:3377
 msgid "<literal>INACTIVE</literal>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3383
+#: xml/hardening.xml:3382
 msgid "Number of days after password expiration that account is disabled."
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3395
+#: xml/hardening.xml:3394
 msgid "<literal>EXPIRE</literal>"
 msgstr ""
 
 #. (itstool) path: entry/para
-#: xml/hardening.xml:3400
+#: xml/hardening.xml:3399
 msgid "Account expiration date in the format YYYY-MM-DD."
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:3410
+#: xml/hardening.xml:3409
 msgid "Users created prior to these modifications will not be affected."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3415
+#: xml/hardening.xml:3414
 msgid ""
 "Ensure that the above parameters are changed in the <filename>/etc/login."
 "defs</filename> and <filename>/etc/default/useradd</filename> files. Review "
@@ -4409,24 +4404,24 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3423
+#: xml/hardening.xml:3422
 msgid "To create a new user account, execute the following command:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3427
+#: xml/hardening.xml:3426
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>useradd -c \"<replaceable>TEST_USER</replaceable>\" -g <replaceable>USERS</replaceable> <replaceable>TEST</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3429
+#: xml/hardening.xml:3428
 msgid ""
 "The <option>-g</option> option specifies the primary group for this account:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3434
+#: xml/hardening.xml:3433
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>id <replaceable>TEST</replaceable>\n"
@@ -4434,7 +4429,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3437
+#: xml/hardening.xml:3436
 msgid ""
 "The settings in <filename>/etc/login.defs</filename> and <filename>/etc/"
 "default/useradd</filename> are recorded for the test user in the <filename>/"
@@ -4442,7 +4437,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3443
+#: xml/hardening.xml:3442
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>grep <replaceable>TEST</replaceable> /etc/shadow\n"
@@ -4450,7 +4445,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3446
+#: xml/hardening.xml:3445
 msgid ""
 "Password aging can be modified at any time by use of the <command>chage</"
 "command> command. To disable password aging for system and shared accounts, "
@@ -4458,29 +4453,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3453
+#: xml/hardening.xml:3452
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>chage -M -1 <replaceable>SYSTEM_ACCOUNT_NAME</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3455
+#: xml/hardening.xml:3454
 msgid "To get password expiration information:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3459
+#: xml/hardening.xml:3458
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>chage -l <replaceable>SYSTEM_ACCOUNT_NAME</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3461
+#: xml/hardening.xml:3460
 msgid "For example:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3465
+#: xml/hardening.xml:3464
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>chage -l <replaceable>TEST</replaceable>\n"
@@ -4495,12 +4490,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3476
+#: xml/hardening.xml:3475
 msgid "Stronger Password Enforcement"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3478
+#: xml/hardening.xml:3477
 msgid ""
 "On an audited system it is important to restrict people from using simple "
 "passwords that can be cracked too easily. Writing down complex passwords is "
@@ -4513,7 +4508,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3489
+#: xml/hardening.xml:3488
 msgid ""
 "At any rate, it is important to practice effective password management "
 "safety. Most companies require that passwords have at the very least a "
@@ -4523,12 +4518,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3499
+#: xml/hardening.xml:3498
 msgid "Preventing Accidental Denial of Service"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3501
+#: xml/hardening.xml:3500
 msgid ""
 "Linux allows you to set limits on the amount of system resources that users "
 "and groups can consume. This is also very handy if bugs in programs cause "
@@ -4544,12 +4539,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3516
+#: xml/hardening.xml:3515
 msgid "Example for Restricting System Resources"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3517
+#: xml/hardening.xml:3516
 msgid ""
 "The following example demonstrates the practical usage of setting or "
 "restricting system resource consumption for an Oracle user account. For a "
@@ -4558,7 +4553,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3524
+#: xml/hardening.xml:3523
 msgid ""
 "Most shells like Bash provide control over various resources (for example "
 "the maximum allowable number of open file descriptors or the maximum number "
@@ -4567,25 +4562,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3530
+#: xml/hardening.xml:3529
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>ulimit -a"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3531
+#: xml/hardening.xml:3530
 msgid ""
 "For more information on <command>ulimit</command> for the Bash shell, "
 "examine the Bash man pages."
 msgstr ""
 
 #. (itstool) path: important/title
-#: xml/hardening.xml:3536
+#: xml/hardening.xml:3535
 msgid "Setting Limits for SSH Sessions"
 msgstr ""
 
 #. (itstool) path: important/para
-#: xml/hardening.xml:3537
+#: xml/hardening.xml:3536
 msgid ""
 "Setting \"hard\" and \"soft\" limits might not behave as expected when using "
 "an SSH session. To see valid behavior it may be necessary to login as root "
@@ -4600,12 +4595,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/title
-#: xml/hardening.xml:3552
+#: xml/hardening.xml:3551
 msgid "Disabling Password Logins via <command>ssh</command>"
 msgstr ""
 
 #. (itstool) path: tip/para
-#: xml/hardening.xml:3553
+#: xml/hardening.xml:3552
 msgid ""
 "You can add some extra security to your server by disabling password "
 "authentication for SSH. Remember that you need to have SSH keys configured, "
@@ -4614,7 +4609,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: tip/screen
-#: xml/hardening.xml:3560
+#: xml/hardening.xml:3559
 #, no-wrap
 msgid ""
 "UseLogin no\n"
@@ -4624,7 +4619,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3565
+#: xml/hardening.xml:3564
 msgid ""
 "In this example, a change to the number of file handles or open files that "
 "the user <literal>oracle</literal> can use is made by editing <filename>/etc/"
@@ -4633,7 +4628,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3571
+#: xml/hardening.xml:3570
 #, no-wrap
 msgid ""
 "oracle           soft    nofile          4096\n"
@@ -4641,7 +4636,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3573
+#: xml/hardening.xml:3572
 msgid ""
 "The soft limit in the first line defines the limit on the number of file "
 "handles (open files) that the <systemitem class=\"username\">oracle</"
@@ -4652,18 +4647,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3581
+#: xml/hardening.xml:3580
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>ulimit -n 63536"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3582
+#: xml/hardening.xml:3581
 msgid "You can set the soft and hard limits higher if necessary."
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:3586
+#: xml/hardening.xml:3585
 msgid ""
 "It is important to be judicious with the usage of ulimits. Allowing a \"hard"
 "\" limit for <quote>nofile</quote> for a user that equals the kernel limit "
@@ -4674,7 +4669,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3595
+#: xml/hardening.xml:3594
 msgid ""
 "You also need to ensure that <literal>pam_limits</literal> is either "
 "configured globally in <filename>/etc/pam.d/common-auth</filename>, or for "
@@ -4682,22 +4677,22 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: simplelist/member
-#: xml/hardening.xml:3601
+#: xml/hardening.xml:3600
 msgid "<filename>/etc/pam.d/sshd</filename> (for SSH)"
 msgstr ""
 
 #. (itstool) path: simplelist/member
-#: xml/hardening.xml:3602
+#: xml/hardening.xml:3601
 msgid "<filename>/etc/pam.d/su</filename> (for su)"
 msgstr ""
 
 #. (itstool) path: simplelist/member
-#: xml/hardening.xml:3603
+#: xml/hardening.xml:3602
 msgid "<filename>/etc/pam.d/login</filename> (local logins and telnet)"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3605
+#: xml/hardening.xml:3604
 msgid ""
 "If you do not want to enable it for all logins, there is a specific PAM "
 "module that will read the <filename>/etc/security/limits.conf</filename> "
@@ -4705,7 +4700,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3610
+#: xml/hardening.xml:3609
 #, no-wrap
 msgid ""
 "session     required      /lib/security/pam_limits.so\n"
@@ -4713,14 +4708,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3612
+#: xml/hardening.xml:3611
 msgid ""
 "It is important to note that changes are not immediate and require a new "
 "login session:"
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3616
+#: xml/hardening.xml:3615
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>su – oracle\n"
@@ -4729,7 +4724,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3619
+#: xml/hardening.xml:3618
 msgid ""
 "Note that these examples are specific to the Bash shell - <command>ulimit</"
 "command> options are different for other shells. The default limit for the "
@@ -4739,7 +4734,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3626
+#: xml/hardening.xml:3625
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>su – oracle\n"
@@ -4751,7 +4746,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3632
+#: xml/hardening.xml:3631
 msgid ""
 "Making this permanent requires the addition of the setting, <literal>ulimit -"
 "n 63536</literal>, (again, for Bash) to the users profile (<filename>~/."
@@ -4766,7 +4761,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: xml/hardening.xml:3642
+#: xml/hardening.xml:3641
 #, no-wrap
 msgid ""
 "<prompt role=\"root\">root # </prompt>su - oracle\n"
@@ -4776,19 +4771,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3649
+#: xml/hardening.xml:3648
 msgid "Displaying Login Banners"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3651
+#: xml/hardening.xml:3650
 msgid ""
 "It is often necessary to place a banner on login screens on all servers for "
 "legal/audit policy reasons or to give security instructions to users."
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3657
+#: xml/hardening.xml:3656
 msgid ""
 "If you want to print a login banner <emphasis>after</emphasis> a user logs "
 "in on a text based terminal for example using SSH or on a local console, you "
@@ -4801,12 +4796,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/title
-#: xml/hardening.xml:3667
+#: xml/hardening.xml:3666
 msgid "Banner Length"
 msgstr ""
 
 #. (itstool) path: note/para
-#: xml/hardening.xml:3668
+#: xml/hardening.xml:3667
 msgid ""
 "Try to keep the login banner content to a single terminal page (or less), as "
 "it will scroll the screen if it does not fit, making it more difficult to "
@@ -4814,7 +4809,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3675
+#: xml/hardening.xml:3674
 msgid ""
 "You can also have a login banner printed <emphasis>before</emphasis> a user "
 "logs in on a text based terminal. For local console logins you can edit the "
@@ -4826,7 +4821,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3685
+#: xml/hardening.xml:3684
 msgid ""
 "For graphical logins via GDM, you can follow <link xlink:href=\"https://help."
 "gnome.org/admin/system-admin-guide/stable/login-banner.html.en\"> the GNOME "
@@ -4838,7 +4833,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/hardening.xml:3695
+#: xml/hardening.xml:3694
 #, no-wrap
 msgid ""
 "if ! /usr/bin/gdialog --yesno '\\n<replaceable>This system is classified...</replaceable>\\n' 10 10; then\n"
@@ -4848,7 +4843,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/hardening.xml:3700
+#: xml/hardening.xml:3699
 msgid ""
 "The text <replaceable>This system is classified...</replaceable> needs to be "
 "replaced with the desired banner text. It is important to note that this "
@@ -4858,17 +4853,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/hardening.xml:3711
+#: xml/hardening.xml:3710
 msgid "Miscellaneous"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3716
+#: xml/hardening.xml:3715
 msgid "Host-Based Linux Monitoring and Intrusion Detection"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3717
+#: xml/hardening.xml:3716
 msgid ""
 "Before you place a host into production or even on a network, consider the "
 "use of a system integrity checker, like <command>seccheck</command> (already "
@@ -4879,7 +4874,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3725
+#: xml/hardening.xml:3724
 msgid ""
 "AIDE is a GPL licensed and open source intrusion detection system. It could "
 "be considered a system fingerprinting mechanism. AIDE works by creating a "
@@ -4891,7 +4886,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3735
+#: xml/hardening.xml:3734
 msgid ""
 "By leveraging AIDE—storing a copy of the host's database in a secure location"
 "—and comparing it (on a scheduled basis or as part of a forensic effort), "
@@ -4903,7 +4898,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3745
+#: xml/hardening.xml:3744
 msgid ""
 "It is outside the scope of this article to cover Linux Monitoring and "
 "detailed Intrusion Detection systems (IDS) or solutions, however there is a "
@@ -4912,78 +4907,78 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3754
+#: xml/hardening.xml:3753
 msgid "Connect Accounting Utilities"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3755
+#: xml/hardening.xml:3754
 msgid "Here is a list of commands you can use to get data about user logins:"
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3759
+#: xml/hardening.xml:3758
 msgid "<command>who</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3760
+#: xml/hardening.xml:3759
 msgid "Lists currently logged in users."
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3765
+#: xml/hardening.xml:3764
 msgid "<command>w</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3766
+#: xml/hardening.xml:3765
 msgid "Shows who is logged in and what they are doing."
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3771
+#: xml/hardening.xml:3770
 msgid "<command>last</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3772
+#: xml/hardening.xml:3771
 msgid ""
 "Shows a list of last logged in users, including login time, logout time, "
 "login IP address, etc."
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3778
+#: xml/hardening.xml:3777
 msgid "<command>lastb</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3779
+#: xml/hardening.xml:3778
 msgid ""
 "Same as <command>last</command>, except that by default it shows <filename>/"
 "var/log/btmp</filename>, which contains all the bad login attempts."
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3786
+#: xml/hardening.xml:3785
 msgid "<command>lastlog</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3787
+#: xml/hardening.xml:3786
 msgid ""
 "This command reports data maintained in <filename>/var/log/lastlog</"
 "filename>, which is a record of the last time a user logged in."
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3794
+#: xml/hardening.xml:3793
 msgid "<command>ac</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3795
+#: xml/hardening.xml:3794
 msgid ""
 "Available after installing the <systemitem>acct</systemitem> package. Prints "
 "the connect time in hours on a per-user basis or daily basis, etc. This "
@@ -4991,19 +4986,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: formalpara/title
-#: xml/hardening.xml:3802
+#: xml/hardening.xml:3801
 msgid "<command>dump-utmp</command>"
 msgstr ""
 
 #. (itstool) path: formalpara/para
-#: xml/hardening.xml:3803
+#: xml/hardening.xml:3802
 msgid ""
 "Converts raw data from /var/run/utmp or <filename>/var/log/wtmp</filename> "
 "into ASCII-parseable format."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3808
+#: xml/hardening.xml:3807
 msgid ""
 "Also check the <filename>/var/log/messages</filename> file, or the output of "
 "<command>journalctl</command> if no logging facility is running. See <xref "
@@ -5012,25 +5007,25 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: xml/hardening.xml:3817
+#: xml/hardening.xml:3816
 msgid "Other"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: xml/hardening.xml:3818
+#: xml/hardening.xml:3817
 msgid ""
 "Finally, the following items are relevant to the system security as well, "
 "and misconfiguration can cause many problems – and should be reviewed:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:3824
+#: xml/hardening.xml:3823
 msgid ""
 "Resolver (<filename>/etc/hosts</filename>, <filename>/etc/resolv.conf</"
 "filename>, <filename>/etc/nsswitch.conf</filename>)."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/hardening.xml:3831
+#: xml/hardening.xml:3830
 msgid "NTP configuration (<filename>/etc/chrony.conf</filename>)."
 msgstr ""

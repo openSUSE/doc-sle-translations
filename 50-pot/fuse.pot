@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/fuse.xml:33
 msgid "FUSE is the acronym for <emphasis>file system in user space</emphasis>. This means you can configure and mount a file system as an unprivileged user. Normally, you need to be <systemitem class=\"username\">root</systemitem> for this task. FUSE alone is a kernel module. Combined with plug-ins, it allows you to extend FUSE to access almost all file systems like remote SSH connections, ISO images, and more."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/fuse.xml:45
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

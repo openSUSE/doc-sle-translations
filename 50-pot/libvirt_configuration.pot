@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:47+0200\n"
+"POT-Creation-Date: 2018-11-24 22:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,7 +236,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/libvirt_configuration.xml:208
-msgid "Maximum number of allocable CPUs for the current session. Any change to this value will take effect after the next VM Guest reboot."
+msgid "Maximum number of allocatable CPUs for the current session. Any change to this value will take effect after the next VM Guest reboot."
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -740,7 +740,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/libvirt_configuration.xml:822
-msgid "By default, when installing with the <command>virt-install</command> tool, the machine type for VM Guest is <emphasis>pc-i440fx</emphasis>. The machine type is stored in the VM Guest's xml configuration file in <filename>/etc/libvirt/qemu/</filename> in the tag <tag>type</tag>:"
+msgid "By default, when installing with the <command>virt-install</command> tool, the machine type for VM Guest is <emphasis>pc-i440fx</emphasis>. The machine type is stored in the VM Guest's XML configuration file in <filename>/etc/libvirt/qemu/</filename> in the tag <tag>type</tag>:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
@@ -1208,7 +1208,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/libvirt_configuration.xml:1271
-msgid "An AMD64/Intel 64 host supporting hardware virtualization (AMD-V or Intel VT-x)<phrase os=\"sles;sled\">, see <xref linkend=\"sec.kvm.requires.hardware\"/> for more information</phrase>"
+msgid "An AMD64/Intel 64 host supporting hardware virtualization (AMD-V or Intel VT-x)<phrase os=\"sles;sled\">, see <xref linkend=\"sec.kvm.requires.hardware\"/> for more information</phrase>"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -1780,3 +1780,75 @@ msgid ""
 "  &lt;/forward&gt;\n"
 "  &lt;/network&gt;"
 msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/libvirt_configuration.xml:1764
+msgid "Using Macvtap to Share VM Host Server Network Interfaces"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/libvirt_configuration.xml:1766
+msgid "Macvtap provides direct attachment of a VM Guest virtual interface to a host network interface. The macvtap-based interface extends the VM Host Server network interface and has its own MAC address on the same Ethernet segment. Typically, this is used to make both the VM Guest and the VM Host Server show up directly on the switch that the VM Host Server is connected to."
+msgstr ""
+
+#. (itstool) path: note/title
+#: xml/libvirt_configuration.xml:1776
+msgid "Macvtap Cannot Be Used with a Linux Bridge"
+msgstr ""
+
+#. (itstool) path: note/para
+#: xml/libvirt_configuration.xml:1777
+msgid "Macvtap cannot be used with network interfaces already connected to a Linux bridge. Before attempting to create the macvtap interface, remove the interface from the bridge."
+msgstr ""
+
+#. (itstool) path: note/title
+#: xml/libvirt_configuration.xml:1784
+msgid "VM Guest to VM Host Server Communication with Macvtap"
+msgstr ""
+
+#. (itstool) path: note/para
+#: xml/libvirt_configuration.xml:1785
+msgid "When using macvtap, a VM Guest can communicate with other VM Guests, and with other external hosts on the network. But it cannot communicate with the VM Host Server on which the VM Guest runs. This is the defined behavior of macvtap, because of the way the VM Host Server's physical Ethernet is attached to the macvtap bridge. Traffic from the VM Guest into that bridge that is forwarded to the physical interface cannot be bounced back up to the VM Host Server's IP stack. Similarly, traffic from the VM Host Server's IP stack that is sent to the physical interface cannot be bounced back up to the macvtap bridge for forwarding to the VM Guest."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/libvirt_configuration.xml:1799
+msgid "Virtual network interfaces based on macvtap are supported by libvirt by specifying an interface type of <literal>direct</literal>. For example:"
+msgstr ""
+
+#. (itstool) path: sect1/screen
+#: xml/libvirt_configuration.xml:1804
+#, no-wrap
+msgid ""
+"&lt;interface type='direct'&gt;\n"
+"  &lt;mac address='aa:bb:cc:dd:ee:ff'/&gt;\n"
+"  &lt;source dev='eth0' mode='bridge'/&gt;\n"
+"  &lt;model type='virtio'/&gt;\n"
+"  &lt;/interface&gt;"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/libvirt_configuration.xml:1810
+msgid "The operation mode of the macvtap device can be controlled with the <literal>mode</literal> attribute. The following lists show its possible values and a description for each:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/libvirt_configuration.xml:1817
+msgid "<literal>vepa</literal>: All VM Guest packets are sent to an external bridge. Packets whose destination is a VM Guest on the same VM Host Server as where the packet originates from are sent back to the VM Host Server by the VEPA capable bridge (today's bridges are typically not VEPA capable)."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/libvirt_configuration.xml:1825
+msgid "<literal>bridge</literal>: Packets whose destination is on the same VM Host Server as where they originate from are directly delivered to the target macvtap device. Both origin and destination devices need to be in <literal>bridge</literal> mode for direct delivery. If either one of them is in <literal>vepa</literal> mode, a VEPA capable bridge is required."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/libvirt_configuration.xml:1834
+msgid "<literal>private</literal>: All packets are sent to the external bridge and will only be delivered to a target VM Guest on the same VM Host Server if they are sent through an external router or gateway and that device sends them back to the VM Host Server. This procedure is followed if either the source or destination device is in private mode."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/libvirt_configuration.xml:1843
+msgid "<literal>passthrough</literal>: A special mode that gives more power to the network interface. All packets will be forwarded to the interface, allowing virtio VM Guests to change the MAC address or set promiscuous mode to bridge the interface or create VLAN interfaces on top of it. Note that a network interface is not shareable in <literal>passthrough</literal> mode. Assigning an interface to a VM Guest will disconnect it from the VM Host Server. For this reason SR-IOV virtual functions are often assigned to the VM Guest in <literal>passthrough</literal> mode."
+msgstr ""
+

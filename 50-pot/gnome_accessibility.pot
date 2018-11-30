@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/gnome_accessibility.xml:11
 msgid "The GNOME desktop includes assistive technologies to support users with various impairments and special needs, and to interact with common assistive devices. This chapter describes several assistive technology applications designed to meet the needs of users with physical disabilities like low vision or impaired motor skills."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/gnome_accessibility.xml:21
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -71,7 +66,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_accessibility.xml:70
-msgid "By customizing the <guimenu>Cursor Size</guimenu> you can increase the visibility of the mousecursor."
+msgid "By customizing the <guimenu>Cursor Size</guimenu> you can increase the visibility of the mouse cursor."
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -121,7 +116,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_accessibility.xml:131
-msgid "Under <guimenu>Cursor Blinking</guimenu> you can configure if and at which speed the cursor blinks in text fileds (for example in a terminal)."
+msgid "Under <guimenu>Cursor Blinking</guimenu> you can configure if and at which speed the cursor blinks in text fields (for example in a terminal)."
 msgstr ""
 
 #. (itstool) path: listitem/para

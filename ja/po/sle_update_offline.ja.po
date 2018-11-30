@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:14+0200\n"
+"POT-Creation-Date: 2018-11-24 22:35+0100\n"
 "PO-Revision-Date: 2018-09-30 01:14+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -19,11 +19,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/sle_update_offline.xml:20
 msgid "Upgrading Offline"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/sle_update_offline.xml:24
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -454,13 +449,21 @@ msgid ""
 "uninstalled safely."
 msgstr ""
 
+#. (itstool) path: sect1/para
+#: xml/sle_update_offline.xml:374
+msgid ""
+"If the machine to upgrade is an SMT client, and the upgrade should fail, see "
+"<xref linkend=\"pro.sec.update.prep.smt.de-register\"/> and restart the "
+"upgrade procedure afterward."
+msgstr ""
+
 #. (itstool) path: sect1/title
-#: xml/sle_update_offline.xml:376
+#: xml/sle_update_offline.xml:381
 msgid "Upgrading with SUSE Manager"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:377
+#: xml/sle_update_offline.xml:382
 msgid ""
 "SUSE Manager is a server solution for providing updates, patches, and "
 "security fixes for SUSE Linux Enterprise clients. It comes with a set of "
@@ -470,7 +473,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:384
+#: xml/sle_update_offline.xml:389
 msgid ""
 "With SUSE Manager you can perform a system upgrade. With the integrated "
 "AutoYaST technology, upgrades from one major version to the next are "
@@ -479,19 +482,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:390
+#: xml/sle_update_offline.xml:395
 msgid ""
 "<link xlink:href=\"https://www.suse.com/documentation/suse-manager/\"/>, "
 "version 3.1."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_offline.xml:397
+#: xml/sle_update_offline.xml:402
 msgid "Updating Registration Status after Rollback"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:399
+#: xml/sle_update_offline.xml:404
 msgid ""
 "When performing a service pack upgrade, it is necessary to change the "
 "configuration on the registration server to provide access to the new "
@@ -503,7 +506,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:409
+#: xml/sle_update_offline.xml:414
 msgid ""
 "When a rollback is done via Snapper, the system will notify the registration "
 "server to ensure access to the correct repositories is set up during the "
@@ -515,38 +518,38 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/sle_update_offline.xml:419
+#: xml/sle_update_offline.xml:424
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>snapper</command> rollback"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:421
+#: xml/sle_update_offline.xml:426
 msgid ""
 "We suggest always checking that the correct repositories are set up on the "
 "system, especially after refreshing the service using:"
 msgstr ""
 
 #. (itstool) path: sect1/screen
-#: xml/sle_update_offline.xml:426
+#: xml/sle_update_offline.xml:431
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>zypper</command> ref -s"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:428
+#: xml/sle_update_offline.xml:433
 msgid ""
 "This functionality is available in the <package>rollback-helper</package> "
 "package."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: xml/sle_update_offline.xml:437
+#: xml/sle_update_offline.xml:442
 msgid "Registering Your System"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:439
+#: xml/sle_update_offline.xml:444
 msgid ""
 "If the system was not registered before running the upgrade you can register "
 "your system at any time using the <guimenu>Product Registration</guimenu> "
@@ -554,27 +557,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: xml/sle_update_offline.xml:445
+#: xml/sle_update_offline.xml:450
 msgid "Registering your systems has these advantages:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_offline.xml:451
+#: xml/sle_update_offline.xml:456
 msgid "Eligibility for support"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_offline.xml:456
+#: xml/sle_update_offline.xml:461
 msgid "Availability of security updates and bug fixes"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: xml/sle_update_offline.xml:461
+#: xml/sle_update_offline.xml:466
 msgid "Access to SUSE Customer Center"
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:469
+#: xml/sle_update_offline.xml:474
 msgid ""
 "Start YaST and select <menuchoice> <guimenu>Software</guimenu> "
 "<guimenu>Product Registration</guimenu> </menuchoice> to open the "
@@ -582,7 +585,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:476
+#: xml/sle_update_offline.xml:481
 msgid ""
 "Provide the <guimenu>E-mail</guimenu> address associated with the SUSE "
 "account you or your organization uses to manage subscriptions. In case you "
@@ -592,7 +595,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:484
+#: xml/sle_update_offline.xml:489
 msgid ""
 "Enter the <guimenu>Registration Code</guimenu> you received with your copy "
 "of <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
@@ -601,19 +604,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:490
+#: xml/sle_update_offline.xml:495
 msgid ""
 "If one or more local registration servers are available on your network, you "
 "can choose one of them from a list."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:496
+#: xml/sle_update_offline.xml:501
 msgid "To start the registration, proceed with <guimenu>Next</guimenu>."
 msgstr ""
 
 #. (itstool) path: step/para
-#: xml/sle_update_offline.xml:499
+#: xml/sle_update_offline.xml:504
 msgid ""
 "After successful registration, YaST lists extensions, add-ons, and modules "
 "that are available for your system. To select and install them, proceed with "

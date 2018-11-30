@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:24+0200\n"
+"POT-Creation-Date: 2018-11-24 22:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_boot_parameters.xml:14
 msgid "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> allows setting several parameters during boot, for example choosing the source of the installation data or setting the network configuration."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_boot_parameters.xml:23
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

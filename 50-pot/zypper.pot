@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:05+0200\n"
+"POT-Creation-Date: 2018-11-24 22:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/zypper.xml:11
 msgid "Using Zypper"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/zypper.xml:16
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/para

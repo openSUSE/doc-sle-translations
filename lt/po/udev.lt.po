@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:45+0200\n"
+"POT-Creation-Date: 2018-11-24 22:31+0100\n"
 "PO-Revision-Date: 2018-09-30 01:09+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,11 +22,6 @@ msgstr ""
 msgid ""
 "Dynamic Kernel Device Management with <systemitem class=\"service\">udev</"
 "systemitem>"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/udev.xml:13
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -990,4 +985,248 @@ msgid ""
 "\"ioerr_cnt\"</literal> informs <systemitem class=\"service\">udev</"
 "systemitem> to wait until the <filename>ioerr_cnt</filename> file has been "
 "created."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:834
+msgid "<literal>OPTIONS</literal>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:837
+msgid "The <literal>OPTION</literal> key may have several values:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:842
+msgid ""
+"<literal>last_rule</literal> tells <systemitem class=\"service\">udev</"
+"systemitem> to ignore all later rules."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:849
+msgid ""
+"<literal>ignore_device</literal> tells <systemitem class=\"service\">udev</"
+"systemitem> to ignore this event completely."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:856
+msgid ""
+"<literal>ignore_remove</literal> tells <systemitem class=\"service\">udev</"
+"systemitem> to ignore all later remove events for the device."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:863
+msgid ""
+"<literal>all_partitions</literal> tells <systemitem class=\"service\">udev</"
+"systemitem> to create device nodes for all available partitions on a block "
+"device."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/udev.xml:876
+msgid "Persistent Device Naming"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/udev.xml:878
+msgid ""
+"The dynamic device directory and the <systemitem class=\"service\">udev</"
+"systemitem> rules infrastructure make it possible to provide stable names "
+"for all disk devices—regardless of their order of recognition or the "
+"connection used for the device. Every appropriate block device the kernel "
+"creates is examined by tools with special knowledge about certain buses, "
+"drive types or file systems. Along with the dynamic kernel-provided device "
+"node name, <systemitem class=\"service\">udev</systemitem> maintains classes "
+"of persistent symbolic links pointing to the device:"
+msgstr ""
+
+#. (itstool) path: sect1/screen
+#: xml/udev.xml:890
+#, no-wrap
+msgid ""
+"/dev/disk\n"
+"|-- by-id\n"
+"|   |-- scsi-SATA_HTS726060M9AT00_MRH453M4HWHG7B -&gt; ../../sda\n"
+"|   |-- scsi-SATA_HTS726060M9AT00_MRH453M4HWHG7B-part1 -&gt; ../../sda1\n"
+"|   |-- scsi-SATA_HTS726060M9AT00_MRH453M4HWHG7B-part6 -&gt; ../../sda6\n"
+"|   |-- scsi-SATA_HTS726060M9AT00_MRH453M4HWHG7B-part7 -&gt; ../../sda7\n"
+"|   |-- usb-Generic_STORAGE_DEVICE_02773 -&gt; ../../sdd\n"
+"|   `-- usb-Generic_STORAGE_DEVICE_02773-part1 -&gt; ../../sdd1\n"
+"|-- by-label\n"
+"|   |-- Photos -&gt; ../../sdd1\n"
+"|   |-- SUSE10 -&gt; ../../sda7\n"
+"|   `-- devel -&gt; ../../sda6\n"
+"|-- by-path\n"
+"|   |-- pci-0000:00:1f.2-scsi-0:0:0:0 -&gt; ../../sda\n"
+"|   |-- pci-0000:00:1f.2-scsi-0:0:0:0-part1 -&gt; ../../sda1\n"
+"|   |-- pci-0000:00:1f.2-scsi-0:0:0:0-part6 -&gt; ../../sda6\n"
+"|   |-- pci-0000:00:1f.2-scsi-0:0:0:0-part7 -&gt; ../../sda7\n"
+"|   |-- pci-0000:00:1f.2-scsi-1:0:0:0 -&gt; ../../sr0\n"
+"|   |-- usb-02773:0:0:2 -&gt; ../../sdd\n"
+"|   |-- usb-02773:0:0:2-part1 -&gt; ../../sdd1\n"
+"`-- by-uuid\n"
+"    |-- 159a47a4-e6e6-40be-a757-a629991479ae -&gt; ../../sda7\n"
+"    |-- 3e999973-00c9-4917-9442-b7633bd95b9e -&gt; ../../sda6\n"
+"    `-- 4210-8F8C -&gt; ../../sdd1"
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/udev.xml:916
+msgid "Files used by <systemitem class=\"service\">udev</systemitem>"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:920
+msgid "<filename>/sys/*</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:923
+msgid ""
+"Virtual file system provided by the Linux kernel, exporting all currently "
+"known devices. This information is used by <systemitem class=\"service"
+"\">udev</systemitem> to create device nodes in <filename>/dev</filename>"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:932
+msgid "<filename>/dev/*</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:935
+msgid ""
+"Dynamically created device nodes and static content created with systemd-"
+"tmpfiles; for more information, see the <systemitem>systemd-tmpfiles(8)</"
+"systemitem> man page."
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/udev.xml:944
+msgid ""
+"The following files and directories contain the crucial elements of the "
+"<systemitem class=\"service\">udev</systemitem> infrastructure:"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:951
+msgid "<filename>/etc/udev/udev.conf</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:954
+msgid ""
+"Main <systemitem class=\"service\">udev</systemitem> configuration file."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:960
+msgid "<filename>/etc/udev/rules.d/*</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:963
+msgid ""
+"System-specific <systemitem class=\"service\">udev</systemitem> event "
+"matching rules. You can add custom rules here to modify or override the "
+"default rules from <filename>/usr/lib/udev/rules.d/*</filename>."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:968
+msgid ""
+"Files are parsed in alphanumeric order. Rules from files with a higher "
+"priority modify or override rules with lower priority. The lower the number, "
+"the higher the priority."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:976
+msgid "<filename>/usr/lib/udev/rules.d/*</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:979
+msgid ""
+"Default <systemitem class=\"service\">udev</systemitem> event matching "
+"rules. The files in this directory are owned by packages and will be "
+"overwritten by updates. Do not add, remove or edit files here, use "
+"<filename>/etc/udev/rules.d</filename> instead."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:988
+msgid "<filename>/usr/lib/udev/*</filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:991
+msgid ""
+"Helper programs called from <systemitem class=\"service\">udev</systemitem> "
+"rules."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:998
+msgid ""
+"<filename>/usr/lib/tmpfiles.d/</filename> and <filename>/etc/tmpfiles.d/</"
+"filename>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:1002
+msgid "Responsible for static <filename>/dev</filename> content."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: xml/udev.xml:1010
+msgid "For More Information"
+msgstr ""
+
+#. (itstool) path: sect1/para
+#: xml/udev.xml:1012
+msgid ""
+"For more information about the <systemitem class=\"service\">udev</"
+"systemitem> infrastructure, refer to the following man pages:"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:1019
+msgid "<systemitem class=\"service\">udev</systemitem>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:1022
+msgid ""
+"General information about <systemitem class=\"service\">udev</systemitem>, "
+"keys, rules and other important configuration issues."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:1029
+msgid "<command>udevadm</command>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:1032
+msgid ""
+"<command>udevadm</command> can be used to control the runtime behavior of "
+"<systemitem class=\"service\">udev</systemitem>, request kernel events, "
+"manage the event queue and provide simple debugging mechanisms."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: xml/udev.xml:1040
+msgid "<systemitem class=\"daemon\">udevd</systemitem>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: xml/udev.xml:1043
+msgid ""
+"Information about the <systemitem class=\"daemon\">udev</systemitem> event "
+"managing daemon."
 msgstr ""

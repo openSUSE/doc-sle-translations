@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/gnome_custom.xml:8
 msgid "Customizing Your Settings"
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/gnome_custom.xml:12
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -111,7 +106,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/gnome_custom.xml:120
-msgid "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> can be configured to use any of several languages. The language setting determines the language of dialogs and menus and can also determine the keyboard and clock layout."
+msgid "<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> can be configured to use any of several languages. The language setting determines the language of dialogues and menus and can also determine the keyboard and clock layout."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -232,7 +227,7 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/gnome_custom.xml:257
-msgid "Depending on the device type, it will now be availbe in other applications, for example as a storage device in GNOME Files, or a sound device in play back applications."
+msgid "Depending on the device type, it will now be available in other applications, for example as a storage device in GNOME Files, or a sound device in play back applications."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -252,7 +247,7 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: xml/gnome_custom.xml:281
-msgid "Settinmgs available in this dialog depend on your hardware. In the following we describe options that are typically available when using a laptop. On a workstation, many of the described options are not available."
+msgid "Settings available in this dialog depend on your hardware. In the following we describe options that are typically available when using a laptop. On a workstation, many of the described options are not available."
 msgstr ""
 
 #. (itstool) path: step/para
@@ -349,7 +344,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_custom.xml:408
-msgid "In the <guimenu>Mouse</guimenu> section of the dialog, use <guimenu>Mouse Speed</guimenu> to adjust the sensitivity of the mouse pointer. With <guimenu>Natural Scrolling</guimenu> you can set the direction in which the content moves, when scrolling with the mouse. When natural scrolling is turned off, the content moves <emphasis>up</emphasis> when pushing the scroll whell <emphasis>down</emphasis>. When natural scrolling is turned on, the content moves in the same direction as the mouse wheel."
+msgid "In the <guimenu>Mouse</guimenu> section of the dialog, use <guimenu>Mouse Speed</guimenu> to adjust the sensitivity of the mouse pointer. With <guimenu>Natural Scrolling</guimenu> you can set the direction in which the content moves, when scrolling with the mouse. When natural scrolling is turned off, the content moves <emphasis>up</emphasis> when pushing the scroll wheel <emphasis>down</emphasis>. When natural scrolling is turned on, the content moves in the same direction as the mouse wheel."
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -405,7 +400,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/gnome_custom.xml:473
 #: xml/gnome_custom.xml:531
-msgid "Singfle Monitor Settings Dialog"
+msgid "Single Monitor Settings Dialog"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata
@@ -426,7 +421,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_custom.xml:489
-msgid "If you use a monitor which can change its orientation, you need to adjust the display before turning the monitor. Use <guimenu>Orientation</guimenu> to do this. Choose the orientation your monotor supports, close the selection box and click <guimenu>Apply</guimenu>. You have 20 seconds to <guimenu>Revert Settings</guimenu>, otherwise they will automatically be applied."
+msgid "If you use a monitor which can change its orientation, you need to adjust the display before turning the monitor. Use <guimenu>Orientation</guimenu> to do this. Choose the orientation your monitor supports, close the selection box and click <guimenu>Apply</guimenu>. You have 20 seconds to <guimenu>Revert Settings</guimenu>, otherwise they will automatically be applied."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -446,7 +441,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_custom.xml:514
-msgid "If you are working in a dark environment, your eyes can easily be strained by the monitor. To prevent this, chnage the screen's color palette to a warmer tone by turing on <guimenu>Night Light</guimenu>. Under <guimenu>Schedule</guimenu> you can automate this setting by specifying at which time <guimenu>Night Light</guimenu> should be turned on and off."
+msgid "If you are working in a dark environment, your eyes can easily be strained by the monitor. To prevent this, change the screen's color palette to a warmer tone by turning on <guimenu>Night Light</guimenu>. Under <guimenu>Schedule</guimenu> you can automate this setting by specifying at which time <guimenu>Night Light</guimenu> should be turned on and off."
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -477,7 +472,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_custom.xml:553
-msgid "Choose how to use the monitors. With <guimenu>Join Displays</guimenu> you gat a single desktop that stretches across all monitors. <guimenu>Mirror</guimenu> displays the same content on each monitor. <guimenu>Single Display</guimenu> deactivates all monitors but the one chosen."
+msgid "Choose how to use the monitors. With <guimenu>Join Displays</guimenu> you get a single desktop that stretches across all monitors. <guimenu>Mirror</guimenu> displays the same content on each monitor. <guimenu>Single Display</guimenu> deactivates all monitors but the one chosen."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -611,7 +606,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/gnome_custom.xml:738
-msgid "To share files via the WebDAV protocol click <guimenu>File Sharing</guimenu> and enable this option. Optionally set a password required to acces the files and choose a network from which others can access your files."
+msgid "To share files via the WebDAV protocol click <guimenu>File Sharing</guimenu> and enable this option. Optionally set a password required to access the files and choose a network from which others can access your files."
 msgstr ""
 
 #. (itstool) path: listitem/para

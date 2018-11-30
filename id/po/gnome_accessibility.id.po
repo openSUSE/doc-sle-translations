@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:21+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: 2018-09-30 01:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -28,11 +28,6 @@ msgid ""
 "devices. This chapter describes several assistive technology applications "
 "designed to meet the needs of users with physical disabilities like low "
 "vision or impaired motor skills."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/gnome_accessibility.xml:21
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -96,7 +91,7 @@ msgstr ""
 #: xml/gnome_accessibility.xml:70
 msgid ""
 "By customizing the <guimenu>Cursor Size</guimenu> you can increase the "
-"visibility of the mousecursor."
+"visibility of the mouse cursor."
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -169,7 +164,7 @@ msgstr ""
 #: xml/gnome_accessibility.xml:131
 msgid ""
 "Under <guimenu>Cursor Blinking</guimenu> you can configure if and at which "
-"speed the cursor blinks in text fileds (for example in a terminal)."
+"speed the cursor blinks in text fields (for example in a terminal)."
 msgstr ""
 
 #. (itstool) path: listitem/para

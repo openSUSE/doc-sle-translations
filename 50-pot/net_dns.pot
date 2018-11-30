@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:19+0200\n"
+"POT-Creation-Date: 2018-11-24 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/net_dns.xml:12
 msgid "DNS (domain name system) is needed to resolve the domain names and host names into IP addresses. In this way, the IP address 192.168.2.100 is assigned to the host name <literal>jupiter</literal>, for example. Before setting up your own name server, read the general information about DNS in <xref linkend=\"sec.network.nameres\"/>. The following configuration examples refer to BIND, the default DNS server."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/net_dns.xml:23
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -163,7 +158,7 @@ msgstr ""
 
 #. (itstool) path: sect2/para
 #: xml/net_dns.xml:164
-msgid "The wizard consists of three steps or dialogs. At the appropriate places in the dialogs, you can enter the expert configuration mode."
+msgid "The wizard consists of three steps or dialogues. At the appropriate places in the dialogues, you can enter the expert configuration mode."
 msgstr ""
 
 #. (itstool) path: step/para

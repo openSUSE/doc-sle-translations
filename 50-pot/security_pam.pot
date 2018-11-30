@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:15+0200\n"
+"POT-Creation-Date: 2018-11-24 22:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. (itstool) path: abstract/para
 #: xml/security_pam.xml:12
-msgid "Linux uses PAM (pluggable authentication modules) in the authentication process as a layer that mediates between user and application. PAM modules are available on a systemwide basis, so they can be requested by any application. This chapter describes how the modular authentication mechanism works and how it is configured."
+msgid "Linux uses PAM (pluggable authentication modules) in the authentication process as a layer that mediates between user and application. PAM modules are available on a system wide basis, so they can be requested by any application. This chapter describes how the modular authentication mechanism works and how it is configured."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -314,7 +314,7 @@ msgstr ""
 
 #. (itstool) path: callout/para
 #: xml/security_pam.xml:380
-msgid "Sets the login uid process attribute for the process that was authenticated."
+msgid "Sets the login UID process attribute for the process that was authenticated."
 msgstr ""
 
 #. (itstool) path: callout/para

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-15 19:46+0200\n"
+"POT-Creation-Date: 2018-11-24 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -537,7 +537,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/qemu_guest_installation.xml:498
-msgid "To increase the size of an existing disk image by 2 gigabytes, use:"
+msgid "To increase the size of an existing disk image by 2 gigabytes, use:"
 msgstr ""
 
 #. (itstool) path: sect3/screen
@@ -554,12 +554,12 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/qemu_guest_installation.xml:510
-msgid "The image now contains an empty space of 2 GB after the final partition. You can resize the existing partitions or add new ones."
+msgid "The image now contains an empty space of 2 GB after the final partition. You can resize the existing partitions or add new ones."
 msgstr ""
 
 #. (itstool) path: figure/title
 #: xml/qemu_guest_installation.xml:515
-msgid "New 2 GB Partition in Guest YaST Partitioner"
+msgid "New 2 GB Partition in Guest YaST Partitioner"
 msgstr ""
 
 #. (itstool) path: imageobject/imagedata
@@ -585,7 +585,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/qemu_guest_installation.xml:533
-msgid "A qcow2 formatted file is organized in units of constant size. These units are called <emphasis>clusters</emphasis>. Viewed from the guest side, the virtual disk is also divided into clusters of the same size. QEMU defaults to 64 kB clusters, but you can specify a different value when creating a new image:"
+msgid "A qcow2 formatted file is organized in units of constant size. These units are called <emphasis>clusters</emphasis>. Viewed from the guest side, the virtual disk is also divided into clusters of the same size. QEMU defaults to 64 kB clusters, but you can specify a different value when creating a new image:"
 msgstr ""
 
 #. (itstool) path: sect3/screen
@@ -624,7 +624,7 @@ msgstr ""
 
 #. (itstool) path: sect4/para
 #: xml/qemu_guest_installation.xml:559
-msgid "With the default 64 kB of cluster size, that is"
+msgid "With the default 64 kB of cluster size, that is"
 msgstr ""
 
 #. (itstool) path: sect4/screen
@@ -648,7 +648,7 @@ msgstr ""
 
 #. (itstool) path: sect4/para
 #: xml/qemu_guest_installation.xml:569
-msgid "QEMU uses 1 MB (1048576 bytes) of L2 cache by default. Following the above formulas, 1 MB of L2 cache covers 8 GB (1048576 / 131072) of virtual disk. This means that the performance is fine with the default L2 cache size if your virtual disk size is up to 8 GB. For larger disks, you can speed up the disk access by increasing the L2 cache size."
+msgid "QEMU uses 1 MB (1048576 bytes) of L2 cache by default. Following the above formulas, 1 MB of L2 cache covers 8 GB (1048576 / 131072) of virtual disk. This means that the performance is fine with the default L2 cache size if your virtual disk size is up to 8 GB. For larger disks, you can speed up the disk access by increasing the L2 cache size."
 msgstr ""
 
 #. (itstool) path: sect4/title
@@ -1004,3 +1004,193 @@ msgid ""
 "backing file: /images/sles_base.raw \\\n"
 "(actual path: /images/sles_base.raw)"
 msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:892
+msgid "Although the reserved size of the derived image is the same as the size of the base image (4 GB), the actual size is 140 KB only. The reason is that only changes made to the system inside the derived image are saved. Run the derived virtual machine, register it, if needed, and apply the latest patches. Do any other changes in the system such as removing unneeded or installing new software packages. Then shut the VM Guest down and examine its details once more:"
+msgstr ""
+
+#. (itstool) path: sect3/screen
+#: xml/qemu_guest_installation.xml:901
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>qemu-img info /images/sles_derived.qcow2\n"
+"image: /images/sles_derived.qcow2\n"
+"file format: qcow2\n"
+"virtual size: 4.0G (4294967296 bytes)\n"
+"disk size: 1.1G\n"
+"cluster_size: 65536\n"
+"backing file: /images/sles_base.raw \\\n"
+"(actual path: /images/sles_base.raw)"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:909
+msgid "The <literal>disk size</literal> value has grown to 1.1 GB, which is the disk space occupied by the changes on the file system compared to the base image."
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: xml/qemu_guest_installation.xml:916
+msgid "Rebasing Derived Images"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:917
+msgid "After you have modified the derived image (applied patches, installed specific applications, changed environment settings, etc.), it reaches the desired state. At that point, you can merge the original base image and the derived image to create a new base image."
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:923
+msgid "Your original base image (<filename>/images/sles_base.raw</filename>) holds a freshly installed system. It can be a template for new modified base images, while the new one can contain the same system as the first one plus all security and update patches applied, for example. After you have created this new base image, you can use it as a template for more specialized derived images as well. The new base image becomes independent of the original one. The process of creating base images from derived ones is called <emphasis>rebasing</emphasis>:"
+msgstr ""
+
+#. (itstool) path: sect3/screen
+#: xml/qemu_guest_installation.xml:933
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>qemu-img convert /images/sles_derived.qcow2 \\\n"
+"-O raw /images/sles_base2.raw"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:935
+msgid "This command created the new base image <filename>/images/sles_base2.raw</filename> using the <literal>raw</literal> format."
+msgstr ""
+
+#. (itstool) path: sect3/screen
+#: xml/qemu_guest_installation.xml:940
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>qemu-img info /images/sles_base2.raw\n"
+"image: /images/sles11_base2.raw\n"
+"file format: raw\n"
+"virtual size: 4.0G (4294967296 bytes)\n"
+"disk size: 2.8G"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:945
+msgid "The new image is 0.4 gigabytes bigger than the original base image. It uses no backing file, and you can easily create new derived images based upon it. This lets you create a sophisticated hierarchy of virtual disk images for your organization, saving a lot of time and work."
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: xml/qemu_guest_installation.xml:953
+msgid "Mounting an Image on a VM Host Server"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:954
+msgid "It can be useful to mount a virtual disk image under the host system. It is strongly recommended to read <xref linkend=\"chap.guestfs\"/> and use dedicated tools to access a virtual machine image. However, if you need to do this manually, follow this guide."
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: xml/qemu_guest_installation.xml:960
+msgid "Linux systems can mount an internal partition of a <literal>raw</literal> disk image using a loopback device. The first example procedure is more complex but more illustrative, while the second one is straightforward:"
+msgstr ""
+
+#. (itstool) path: procedure/title
+#: xml/qemu_guest_installation.xml:966
+msgid "Mounting Disk Image by Calculating Partition Offset"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:968
+msgid "Set a <emphasis>loop</emphasis> device on the disk image whose partition you want to mount."
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/qemu_guest_installation.xml:972
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>losetup /dev/loop0 /images/sles_base.raw"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:975
+msgid "Find the <emphasis>sector size</emphasis> and the starting <emphasis>sector number</emphasis> of the partition you want to mount."
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/qemu_guest_installation.xml:979
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>fdisk -lu /dev/loop0\n"
+"\n"
+"Disk /dev/loop0: 4294 MB, 4294967296 bytes\n"
+"255 heads, 63 sectors/track, 522 cylinders, total 8388608 sectors\n"
+"Units = sectors of 1 * 512 = 512<co xml:id=\"co.qemu_img.loopback.sector_size\"/> bytes\n"
+"Disk identifier: 0x000ceca8\n"
+"\n"
+"       Device Boot      Start         End      Blocks   Id  System\n"
+"/dev/loop0p1              63     1542239      771088+  82  Linux swap\n"
+"/dev/loop0p2   *     1542240<co xml:id=\"co.qemu_img.loopback.sector_start\"/>    8385929     3421845   83  Linux"
+msgstr ""
+
+#. (itstool) path: callout/para
+#: xml/qemu_guest_installation.xml:991
+msgid "The disk sector size."
+msgstr ""
+
+#. (itstool) path: callout/para
+#: xml/qemu_guest_installation.xml:996
+msgid "The starting sector of the partition."
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:1003
+msgid "Calculate the partition start offset:"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:1006
+msgid "<literal>sector_size * sector_start = 512 * 1542240 = 789626880 </literal>"
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:1012
+msgid "Delete the loop and mount the partition inside the disk image with the calculated offset on a prepared directory."
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/qemu_guest_installation.xml:1016
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>losetup -d /dev/loop0\n"
+"<prompt>tux &gt; </prompt>mount -o loop,offset=789626880 \\\n"
+"/images/sles_base.raw /mnt/sles/\n"
+"<prompt>tux &gt; </prompt>ls -l /mnt/sles/\n"
+"total 112\n"
+"drwxr-xr-x   2 root root  4096 Nov 16 10:02 bin\n"
+"drwxr-xr-x   3 root root  4096 Nov 16 10:27 boot\n"
+"drwxr-xr-x   5 root root  4096 Nov 16 09:11 dev\n"
+"[...]\n"
+"drwxrwxrwt  14 root root  4096 Nov 24 09:50 tmp\n"
+"drwxr-xr-x  12 root root  4096 Nov 16 09:16 usr\n"
+"drwxr-xr-x  15 root root  4096 Nov 16 09:22 var\n"
+""
+msgstr ""
+
+#. (itstool) path: step/para
+#: xml/qemu_guest_installation.xml:1031
+msgid "Copy one or more files onto the mounted partition and unmount it when finished."
+msgstr ""
+
+#. (itstool) path: step/screen
+#: xml/qemu_guest_installation.xml:1035
+#, no-wrap
+msgid ""
+"<prompt>tux &gt; </prompt>cp /etc/X11/xorg.conf /mnt/sles/root/tmp\n"
+"<prompt>tux &gt; </prompt>ls -l /mnt/sles/root/tmp\n"
+"<prompt>tux &gt; </prompt>umount /mnt/sles/"
+msgstr ""
+
+#. (itstool) path: warning/title
+#: xml/qemu_guest_installation.xml:1041
+msgid "Do not Write to Images Currently in Use"
+msgstr ""
+
+#. (itstool) path: warning/para
+#: xml/qemu_guest_installation.xml:1042
+msgid "Never mount a partition of an image of a running virtual machine in a <literal>read-write</literal> mode. This could corrupt the partition and break the whole VM Guest."
+msgstr ""
+

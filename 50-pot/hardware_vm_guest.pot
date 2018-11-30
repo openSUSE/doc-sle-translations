@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:20+0200\n"
+"POT-Creation-Date: 2018-11-24 22:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/hardware_vm_guest.xml:12
 msgid "This chapter contains additional information when <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> is used in a virtual machine."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/hardware_vm_guest.xml:19
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:23+0200\n"
+"POT-Creation-Date: 2018-11-24 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_installserver.xml:15
 msgid "This chapter describes how to create a server that provides the data required for installing <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> over the network."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_installserver.xml:22
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: chapter/para

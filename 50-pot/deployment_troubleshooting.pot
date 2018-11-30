@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-30 01:22+0200\n"
+"POT-Creation-Date: 2018-11-24 22:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: xml/deployment_troubleshooting.xml:15
 msgid "This section highlights some typical problems you may run into during installation and offers possible solutions or workarounds."
-msgstr ""
-
-#. (itstool) path: docmanager/translation
-#: xml/deployment_troubleshooting.xml:22
-msgid "yes"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -379,7 +374,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/deployment_troubleshooting.xml:406
-msgid "Try to select another screen resolution for the installation dialogs."
+msgid "Try to select another screen resolution for the installation dialogues."
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -486,7 +481,7 @@ msgstr ""
 
 #. (itstool) path: step/para
 #: xml/deployment_troubleshooting.xml:508
-msgid "Provide the IP address and password to your VNC viewer when prompted. A window opens, displaying the installation dialogs. Proceed with the installation as usual."
+msgid "Provide the IP address and password to your VNC viewer when prompted. A window opens, displaying the installation dialogues. Proceed with the installation as usual."
 msgstr ""
 
 #. (itstool) path: sect1/title
