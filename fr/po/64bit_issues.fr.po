@@ -5,14 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2018-11-24 22:50+0100\n"
-"PO-Revision-Date: 2019-06-22 23:52+0200\n"
+"PO-Revision-Date: 2019-06-24 08:02+0200\n"
 "Last-Translator: Sébastien 'sogal' Poher <sogal@opensuse.org>\n"
 "Language-Team: français <opensuse-translation-fr@opensuse.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Report-Msgid-Bugs-To: opensuse-translation-fr@opensuse.org\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
@@ -77,11 +77,27 @@ msgid ""
 "current POWER system runs most applications in 32-bit mode, but you can run "
 "64-bit applications.</phrase>"
 msgstr ""
+"<phrase os=\"sles\"><phrase role=\"productname\"><phrase os=\"osuse"
+"\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
+"phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
+"pour plate-formes 64 bits POWER, IBM Z et AMD64/Intel 64</phrase><phrase os="
+"\"sled;osuse\"><phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
+"phrase><phrase os=\"sled\">et SUSE Linux Enterprise Desktop</phrase></"
+"phrase> pour plate-formes 64 bits AMD64 et Intel 64</phrase> sont conçus "
+"pour qu'une application en 32 bits puisse s'exécuter dans l'environnement 64 "
+"bits nativement. <phrase os=\"sles\">Les plate-formes 32 bits correspondante "
+"sont pcc pour POWER et x86 pour AMD64 et Intel 64.</phrase> Cette prise en "
+"charge signifie que vous pouvez continuer à utiliser vos applications 32 "
+"bits favorites sans avoir à attendre qu'une version 64 bits soit disponible."
+"<phrase os=\"sles\"> Le système POWER actuel exécute la plupart des "
+"applications en mode 32 bits mais vous pouvez lancer des applications 64 "
+"bits.</phrase>"
 
 #. (itstool) path: note/title
 #: xml/64bit_issues.xml:42
 msgid "No Support for Building 32-bit Applications"
-msgstr ""
+msgstr "Absence de prise en charge de la compilation d'applications 32 bits"
 
 #. (itstool) path: note/para
 #: xml/64bit_issues.xml:43
@@ -92,16 +108,21 @@ msgid ""
 "compilation of 32-bit applications. It only offers runtime support for 32-"
 "bit binaries."
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
+"phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
+"\"sled\">et SUSE Linux Enterprise Desktop</phrase></phrase> ne prend pasen "
+"charge la compilation d'applications 32 bits. Seule l'exécution desbinaires "
+"32 bits est gérée."
 
 #. (itstool) path: sect1/title
 #: xml/64bit_issues.xml:51
 msgid "Runtime Support"
-msgstr ""
+msgstr "Prise en charge de l'exécution"
 
 #. (itstool) path: important/title
 #: xml/64bit_issues.xml:54
 msgid "Conflicts Between Application Versions"
-msgstr ""
+msgstr "Conflits entre versions d'une application"
 
 #. (itstool) path: important/para
 #: xml/64bit_issues.xml:55
@@ -110,6 +131,10 @@ msgid ""
 "installing both versions may cause problems. In such cases, decide on one "
 "version to install to avoid potential runtime errors."
 msgstr ""
+"Si une application est disponible à la fois pour les environnements 23 et 64 "
+"bits, l'installation des deux versions peut cause des problèmes. Dans un tel "
+"cas, il convient de n'installer qu'une seule version afin d'éviter des "
+"possibles erreurs au lancement."
 
 #. (itstool) path: important/para
 #: xml/64bit_issues.xml:60
