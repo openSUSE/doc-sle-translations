@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2018-11-24 22:50+0100\n"
-"PO-Revision-Date: 2019-06-24 08:02+0200\n"
+"PO-Revision-Date: 2019-07-08 08:01+0200\n"
 "Last-Translator: Sébastien 'sogal' Poher <sogal@opensuse.org>\n"
 "Language-Team: français <opensuse-translation-fr@opensuse.org>\n"
 "Language: fr\n"
@@ -146,6 +146,14 @@ msgid ""
 "as a layer that mediates between user and application. Always install both "
 "PAM versions on 64-bit operating systems that also run 32-bit applications."
 msgstr ""
+"PAM (pluggable authentication modules) est une exception à cette règle. "
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</"
+"phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
+"\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> utilise PAM au "
+"cours du processus d'authentification en tant que couche intermédiaire entre "
+"l'utilisateur et l'application. Il faut donc toujours installer les deux "
+"versions de PAM sur système 64 bits exécutant également des applications 32 "
+"bits."
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:68
@@ -154,6 +162,10 @@ msgid ""
 "Unfortunately, the names are identical for the 32-bit and 64-bit versions of "
 "these libraries. They must be differentiated from each other in another way."
 msgstr ""
+"Afin de s'exécuter correctement, chaque application requiert un certain "
+"nombre de bibliothèque. Malheureusement, les noms identiques pour les "
+"version 32 et 64 bits de ces bibliothèques. Elles doivent donc être "
+"différenciées l'une de l'autre par un autre moyen."
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:75
@@ -163,6 +175,10 @@ msgid ""
 "filename> is located under <filename>/lib/libc.so.6</filename> in both 32-"
 "bit and 64-bit environments."
 msgstr ""
+"Afin d'assurer la compatibilité avec les versions 32 bits, les bibliothèques "
+"32 et 64 bits sont placées au même endroit. La version 32 bit de "
+"<filename>libc.so.6</filename> se trouve dans <filename>/lib/libc.so.6</"
+"filename> dans les environnements 32 ou 64 bits."
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:83
@@ -175,6 +191,14 @@ msgid ""
 "filename> and <filename>/usr/lib</filename>, so the file name for both "
 "versions can remain unchanged."
 msgstr ""
+"Toutes les bibliothèques et fichiers objet sont situés dans un répertoire "
+"nommé <filename>lib64</filename>. Les fichiers objet pour environnement 64 "
+"bits, normalement situé dans <filename>/lib</filename> et <filename>/usr/"
+"lib</filename> sont désormais placé dans <filename>/lib64</filename> et </"
+"filename>/usr/lib64</filename>. Cet emplacement est ainsi disponible pour "
+"les bibliothèques 32 bits dans <filename>/lib</filename> et <filename>/usr/"
+"lib</filename>, de telle sorte que le nom des fichiers des deux versions "
+"reste inchangé."
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:94
@@ -183,11 +207,15 @@ msgid ""
 "does not depend on word size, they are not moved. This scheme conforms to "
 "LSB (Linux Standards Base) and FHS (File System Hierarchy Standard)."
 msgstr ""
+"Si les données d'un sous-dossier 32 bits situé sous <filename>/lib</"
+"filename> ne dépend pas de la taille du mot machine, elles ne sont pas "
+"déplacées. Cela est conforme aux standards LSB (Linux Standards Base) et FHS "
+"(File System Hierarchy Standard)."
 
 #. (itstool) path: sect1/title
 #: xml/64bit_issues.xml:101
 msgid "Kernel Specifications"
-msgstr ""
+msgstr "Caractéristiques du noyau"
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:103
@@ -198,6 +226,11 @@ msgid ""
 "kernel. This means that communication between both 32-bit and 64-bit "
 "applications with 64-bit kernels are identical."
 msgstr ""
+"Les noyaux 64 bits pour AMD64/Intel 64<phrase os=\"sles\">, POWER et IBM Z</"
+"phrase> fournissent une ABI (interface binaire d'application) du noyau pour "
+"32 et 64 bits. Cette dernière est identique à l'ABI du noyau 32 bits "
+"correspondant. Cela signifie que les communications entre applications 32 ou "
+"64 bits sur un noyau 64 bits sont identiques."
 
 #. (itstool) path: sect1/para
 #: xml/64bit_issues.xml:111
