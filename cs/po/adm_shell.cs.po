@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_shell-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/adm_shell.xml:13
 msgid "Bash and Bash Scripts"
-msgstr ""
+msgstr "Bash a skripty Bash"
 
 #. (itstool) path: abstract/para
 #: xml/adm_shell.xml:16
@@ -29,16 +33,21 @@ msgid ""
 "automated task execution. Shells complement GUIs well, and this chapter "
 "gives an overview of some aspects of shells, in this case the Bash shell."
 msgstr ""
+"Mnoho lidí dnes používá počítače s grafickým uživatelským rozhraním (GUI), "
+"jako je GNOME. Ačkoli GUI nabízejí mnoho funkcí, jsou při provádění "
+"automatizovaného provádění úkolů omezené. Shells (mušle) dobře doplňují GUI "
+"a tato kapitola poskytuje přehled některých aspektů shellů, v tomto případě "
+"shellu Bash."
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_shell.xml:26
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:31
 msgid "What is <quote>The Shell</quote>?"
-msgstr ""
+msgstr "Co je to <quote>Shell</quote> (mušle)?"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:38
@@ -49,21 +58,26 @@ msgid ""
 "features and characteristics. If you need further information about other "
 "shells, search for <emphasis>shell</emphasis> in YaST."
 msgstr ""
+"Tradičně je mušlí (<emphasis>shellem</emphasis>) míněn Bash (Bourne again "
+"Shell). Když tato kapitola mluví o <quote>shellu</quote>, znamená to Bash. K "
+"dispozici je více mušlí (ash, csh, ksh, zsh,…), z nichž každá má různé "
+"vlastnosti a charakteristiky. Pokud potřebujete další informace o jiných "
+"shellech (mušlích), vyhledejte <emphasis>shell</emphasis> v YaST."
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:48
 msgid "Knowing the Bash Configuration Files"
-msgstr ""
+msgstr "Znalost konfiguračních souborů Bash"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:49
 msgid "A shell can be invoked as an:"
-msgstr ""
+msgstr "Shell může být vyvolán jako:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:55
 msgid "Interactive login shell"
-msgstr ""
+msgstr "Interaktivní login"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:56
@@ -71,11 +85,13 @@ msgid ""
 "This is used when logging in to a machine, invoking Bash with the <option>--"
 "login</option> option or when logging in to a remote machine with SSH."
 msgstr ""
+"Používá se při přihlášení k počítači, vyvolání Bash volbou <option> --login "
+"</option> nebo při přihlášení ke vzdálenému počítači pomocí SSH."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:65
 msgid "<quote>Ordinary</quote> interactive shell"
-msgstr ""
+msgstr "<quote>Běžný</quote> interaktivní shell"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:66
@@ -83,16 +99,18 @@ msgid ""
 "This is normally the case when starting xterm, konsole, gnome-terminal or "
 "similar tools."
 msgstr ""
+"Normální varianta při startu xterm, konzole, gnome-terminálu nebo podobných "
+"nástrojů."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:74
 msgid "Non-interactive shell"
-msgstr ""
+msgstr "Neinteraktivní shell"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:75
 msgid "This is used when invoking a shell script at the command line."
-msgstr ""
+msgstr "Používá se při volání skriptu shellu z příkazového řádku."
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:81
@@ -101,26 +119,29 @@ msgid ""
 "be read. The following tables show the login and non-login shell "
 "configuration files."
 msgstr ""
+"V závislosti na typu shellu, který používáte, budou načteny různé "
+"konfigurační soubory. Následující tabulky ukazují konfigurační soubory "
+"přihlašovacího (login) a nepřihlašovacího (běžného) shellu."
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:87
 msgid "Bash Configuration Files for Login Shells"
-msgstr ""
+msgstr "Konfigurační soubory Bash pro přihlašovací (login) shelly"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:92 xml/adm_shell.xml:214
 msgid "File"
-msgstr ""
+msgstr "Soubor"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:97 xml/adm_shell.xml:219
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:106
 msgid "<filename>/etc/profile</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:111 xml/adm_shell.xml:172
@@ -128,36 +149,38 @@ msgid ""
 "Do not modify this file, otherwise your modifications may be destroyed "
 "during your next update!"
 msgstr ""
+"Tento soubor neupravujte, vaše úpravy mohou být během příští aktualizace "
+"zničeny!"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:119
 msgid "<filename>/etc/profile.local</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile.local</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:124
 msgid "Use this file if you extend <filename>/etc/profile</filename>"
-msgstr ""
+msgstr "Použijte tento soubor, rozšiřujete-li <filename>/etc/profile</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:131
 msgid "<filename>/etc/profile.d/</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile.d/</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:136
 msgid "Contains system-wide configuration files for specific programs"
-msgstr ""
+msgstr "Obsahuje celosystémové konfigurační soubory pro specifické programy"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:143
 msgid "<filename>~/.profile</filename>"
-msgstr ""
+msgstr "<filename>~/.profile</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:148
 msgid "Insert user specific configuration for login shells here"
-msgstr ""
+msgstr "Sem vložte uživatelské nastavení pro přihlašovací shelly"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:157
@@ -165,71 +188,74 @@ msgid ""
 "Note that the login shell also sources the configuration files listed under "
 "<xref linkend=\"tab.adm.shell.configs.nonloginshells\"/>."
 msgstr ""
+"Všimněte si, že přihlašovací shell také poskytuje konfigurační soubory "
+"uvedené v <xref linkend=\"tab.adm.shell.configs.nonloginshells\"/>."
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:162
 msgid "Bash Configuration Files for Non-Login Shells"
-msgstr ""
+msgstr "Konfigurační soubory Bash pro nepřihlašovací (běžné) shelly"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:167
 msgid "<filename>/etc/bash.bashrc</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:180
 msgid "<filename>/etc/bash.bashrc.local</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc.local</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:185
 msgid "Use this file to insert your system-wide modifications for Bash only"
 msgstr ""
+"Tento soubor použijte k vložení svých celosystémových modifikací jen pro Bash"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:192
 msgid "<filename>~/.bashrc</filename>"
-msgstr ""
+msgstr "<filename>~/.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:197
 msgid "Insert user specific configuration here"
-msgstr ""
+msgstr "Sem vložte uživatelsky specifickou konfiguraci"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:205
 msgid "Additionally, Bash uses some more files:"
-msgstr ""
+msgstr "Bash používá tyto další soubory:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:209
 msgid "Special Files for Bash"
-msgstr ""
+msgstr "Zvláštní soubory pro Bash"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:228
 msgid "<filename>~/.bash_history</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_history</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:233
 msgid "Contains a list of all commands you have typed"
-msgstr ""
+msgstr "Obsahuje seznam všech vámi napsaných příkazů"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:240
 msgid "<filename>~/.bash_logout</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_logout</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:245
 msgid "Executed when logging out"
-msgstr ""
+msgstr "Vykoná se při odhlášení"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:252
 msgid "<filename>~/.alias</filename>"
-msgstr ""
+msgstr "<filename>~/.alias</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:257
@@ -237,11 +263,13 @@ msgid ""
 "User defined aliases of frequently used commands. See <command>man 1 alias</"
 "command> for more details about defining aliases."
 msgstr ""
+"Uživatelem definované aliasy nebo často používané příkazy. Další podrobnosti "
+"o definování aliasů viz příkaz <command>man 1 alias</command>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:272
 msgid "Writing Shell Scripts"
-msgstr ""
+msgstr "Psaní skriptů pro shell"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:274
@@ -250,11 +278,14 @@ msgid ""
 "collecting data, searching for a word or phrase in a text and other useful "
 "things. The following example shows a small shell script that prints a text:"
 msgstr ""
+"Skripty shellu poskytují pohodlný způsob, jak provádět širokou škálu úkolů: "
+"sběr dat, vyhledávání slova nebo fráze v textu a další užitečné věci. "
+"Následující příklad ukazuje malý skript, který tiskne text:"
 
 #. (itstool) path: example/title
 #: xml/adm_shell.xml:281
 msgid "A Shell Script Printing a Text"
-msgstr ""
+msgstr "Skript shellu tisknoucí text"
 
 #. (itstool) path: example/screen
 #: xml/adm_shell.xml:282
@@ -264,6 +295,9 @@ msgid ""
 "# Output the following line: <co xml:id=\"co.adm.shell.comment\"/>\n"
 "echo \"Hello World\" <co xml:id=\"co.adm.shell.echo\"/>"
 msgstr ""
+"#!/bin/sh <co xml:id=\"co.adm.shell.shebang\"/>\n"
+"# Výpis tohoto řádku: <co xml:id=\"co.adm.shell.comment\"/>\n"
+"echo \"Hello World - ahoj světe\" <co xml:id=\"co.adm.shell.echo\"/>"
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:287
@@ -274,6 +308,10 @@ msgid ""
 "script. In this case, the specified interpreter is <command>/bin/sh</"
 "command>."
 msgstr ""
+"První řádek začíná znaky <emphasis>Shebang</emphasis> (<literal>#!</literal>)"
+" indikujích, že tento soubor je skript. Skript provede interpret uvedený za "
+"znaky <emphasis>Shebang</emphasis>. V tomto případě to je <command>/bin/"
+"sh</command>."
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:295
@@ -284,6 +322,10 @@ msgid ""
 "understand your script. Commenting is considered good practice in the "
 "development community."
 msgstr ""
+"Druhý řádek je komentář začínající znakem \"zahrádka\" (dvojkřížek, hash). "
+"Doporučujeme obtížné řádky okomentovat. Při správném komentování si můžete "
+"pamatovat účel a funkci řádku. I jiní čtenáři lépe pochopí váš skript. "
+"Komentování je v komunitě vývojářů považováno za dobrou praxi."
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:303
@@ -291,11 +333,13 @@ msgid ""
 "The third line uses the built-in command <command>echo</command> to print "
 "the corresponding text."
 msgstr ""
+"Třetí řádek používá zabudovaný příkaz <command>echo</command> pro tisk "
+"uvedeného textu."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:311
 msgid "Before you can run this script, there are a few prerequisites:"
-msgstr ""
+msgstr "Několik předpokladů před spuštěním tohoto skriptu:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:317
@@ -303,6 +347,8 @@ msgid ""
 "Every script should contain a Shebang line (as in the example above). If the "
 "line is missing, you need to call the interpreter manually."
 msgstr ""
+"Každý skript by měl obsahovat řádek Shebang (jako v uvedeném příkladu). Když "
+"tento řádek chybí, musíte vyvolat interpret ručně."
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:323
@@ -315,31 +361,37 @@ msgid ""
 "<filename>~/bin/</filename>. The above example gets the name <filename>hello."
 "sh</filename>."
 msgstr ""
+"Skript můžete uložit, kamkoli budete chtít. Je však dobré uložit jej do "
+"adresáře, kde ho shell najde. Cesta hledání pro shell je určena proměnnou "
+"prostředí <envar>PATH</envar>. Normální uživatel nemá právo zápisu do "
+"<filename>/usr/bin</filename>. Proto se doporučuje ukládat skripty do "
+"uživatelského adresáře <filename>~/bin/</filename>. Uvedený příklad má název "
+"<filename>hello.sh</filename>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:334
 msgid ""
 "The script needs executable permissions. Set the permissions with the "
 "following command:"
-msgstr ""
+msgstr "Skript potřebuje právo spustitelnosti. Nastavte jeho práva takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:338
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>chmod +x ~/bin/hello.sh"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>chmod +x ~/bin/hello.sh"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:342
 msgid ""
 "If you have fulfilled all of the above prerequisites, you can execute the "
 "script in the following ways:"
-msgstr ""
+msgstr "Jsou-li uvedené předpoklady splněny, spustíte skript takto:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:350
 msgid "As Absolute Path"
-msgstr ""
+msgstr "Jako absolutní cestu"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:351
@@ -347,11 +399,13 @@ msgid ""
 "The script can be executed with an absolute path. In our case, it is "
 "<command>~/bin/hello.sh</command>."
 msgstr ""
+"Skript lze spustit s absolutní cestou. V našem případě to je <command>~/bin/"
+"hello.sh</command>."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:359
 msgid "Everywhere"
-msgstr ""
+msgstr "Všude"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:360
@@ -360,21 +414,23 @@ msgid ""
 "the script is located, you can execute the script with <command>hello.sh</"
 "command>."
 msgstr ""
+"Obsauje-li proměnná prostředí <envar>PATH</envar> adresář se skriptem, lze "
+"skript spustit příkazem <command>hello.sh</command>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:370
 msgid "Redirecting Command Events"
-msgstr ""
+msgstr "Přesměrování událostí příkazu"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:372
 msgid "Each command can use three channels, either for input or output:"
-msgstr ""
+msgstr "Každý příkaz může používat tři kanály, jak vstupní, tak výstupní:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:379
 msgid "Standard Output"
-msgstr ""
+msgstr "Standardní výstup"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:380
@@ -382,37 +438,41 @@ msgid ""
 "This is the default output channel. Whenever a command prints something, it "
 "uses the standard output channel."
 msgstr ""
+"Standardní výstupní kanál. Kdykoli příkaz něco vytiskne, použije standardní "
+"výstupní kanál."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:388
 msgid "Standard Input"
-msgstr ""
+msgstr "Standardní vstup"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:389
 msgid ""
 "If a command needs input from users or other commands, it uses this channel."
 msgstr ""
+"Potřebuje-li příkaz vstupní údaj od uživatele nebo z jiných příkazů, používá "
+"tento kanál."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:397
 msgid "Standard Error"
-msgstr ""
+msgstr "Standardní chybový kanál"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:398
 msgid "Commands use this channel for error reporting."
-msgstr ""
+msgstr "Tento kanál používají příkazy pro hlášení chyb."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:405
 msgid "To redirect these channels, there are the following possibilities:"
-msgstr ""
+msgstr "Tyto kanály lze přesměrovat těmito způsoby:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:411
 msgid "<literal>Command &gt; File</literal>"
-msgstr ""
+msgstr "<literal>Příkaz &gt; Soubor</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:414
@@ -421,17 +481,20 @@ msgid ""
 "deleted. For example, the <command>ls</command> command writes its output "
 "into the file <filename>listing.txt</filename>:"
 msgstr ""
+"Uloží výstup příkazu do souboru; pokud takový soubor už existoval, bude "
+"přepsán. Například příkaz <command>ls</command> zapíše svůj výstup do "
+"souboru <filename>listing.txt</filename>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:419
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ls &gt; listing.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>ls &gt; listing.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:423
 msgid "<literal>Command &gt;&gt; File</literal>"
-msgstr ""
+msgstr "<literal>Příkaz &gt;&gt; Soubor</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:426
@@ -440,17 +503,19 @@ msgid ""
 "command> command appends its output to the file <filename>listing.txt</"
 "filename>:"
 msgstr ""
+"Přidá výstup příkazu k souboru. Například příkaz <command>ls</command> "
+"připojí svůj výstup na konec souboru <filename>listing.txt</filename>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:431
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ls &gt;&gt; listing.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>ls &gt;&gt; listing.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:435
 msgid "<literal>Command &lt; File</literal>"
-msgstr ""
+msgstr "<literal>Příkaz &lt; Soubor</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:438
@@ -459,17 +524,19 @@ msgid ""
 "<command>read</command> command reads in the content of the file into the "
 "variable:"
 msgstr ""
+"Přečte soubor jako vstup pro daný příkaz. Například příkaz "
+"<command>read</command> načte obsah souboru do proměnné:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:443
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>read a &lt; foo"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>read a &lt; foo"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:447
 msgid "<literal>Command1 | Command2</literal>"
-msgstr ""
+msgstr "<literal>Příkaz1 | Příkaz2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:450
@@ -480,12 +547,16 @@ msgid ""
 "<command>grep</command> to filter only those lines which contain "
 "<literal>cpu</literal>:"
 msgstr ""
+"Přesměruje výstup příkazu 1 na vstup příkazu 2. Například příkaz "
+"<command>cat</command> vypíše obsah souboru <filename>/proc/"
+"cpuinfo</filename>. Tento výstup použije příkaz <command>grep</command> k "
+"výběru pouze řádků obsahujících <literal>cpu</literal>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:457
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:462
@@ -497,17 +568,23 @@ msgid ""
 "for a file starting with <filename>foo</filename>, but suppresses its errors "
 "by redirecting it to <filename>/dev/null</filename>:"
 msgstr ""
+"Každý kanál má <emphasis>popisovač souboru</emphasis>: 0 (nula) - standardní "
+"vstup, 1 - standarcní výstup, 2 - standardní hlášení chyb. Je možno vložit "
+"popisovač souboru před znak <literal>&lt;</literal> nebo "
+"<literal>&gt;</literal>. Například tento řádek hledá soubory s názvy "
+"začínajícími <filename>foo</filename>, ale potlačí chybová hlášení jejich "
+"přesměrováním na <filename>/dev/null</filename>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:471
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:474
 msgid "Using Aliases"
-msgstr ""
+msgstr "Použití aliasů"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:476
@@ -515,12 +592,15 @@ msgid ""
 "An alias is a shortcut definition of one or more commands. The syntax for an "
 "alias is:"
 msgstr ""
+"Alias je definice zkratky jednoho nebo více příkazů. Syntaxe pro alias je "
+"tato:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:481
 #, no-wrap
 msgid "alias <replaceable>NAME</replaceable>=<replaceable>DEFINITION</replaceable>"
 msgstr ""
+"alias <replaceable>NÁZEV</replaceable>=<replaceable>DEFINICE</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:483
@@ -530,12 +610,16 @@ msgid ""
 "modification time (<option>-t</option>), and prints it in reverse sorted "
 "order (<option>-r</option>):"
 msgstr ""
+"Například následující řádek definuje alias <command>lt</command>, který "
+"vypíše dluhý seznam (volbou <option>-l</option>), seřadí ho podle času "
+"modifikace (<option>-t</option>) a vypíše ho v opačném řazení "
+"(<option>-r</option>):"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:489
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:491
@@ -543,11 +627,13 @@ msgid ""
 "To view all alias definitions, use <command>alias</command>. Remove your "
 "alias with <command>unalias</command> and the corresponding alias name."
 msgstr ""
+"Všechny definované aliasy vypíše příkaz <command>alias</command>. Alias "
+"odstraníte příkazem <command>unalias</command> a názvem aliasu."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:497
 msgid "Using Variables in Bash"
-msgstr ""
+msgstr "Použití proměnných v Bash"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:499
@@ -556,6 +642,9 @@ msgid ""
 "variables, can be accessed in all shells. In contrast, local variables are "
 "visible in the current shell only."
 msgstr ""
+"Proměnná prostředí může být globální nebo lokální. Globální proměnné, čili "
+"proměnné prostředí, jsou dostupné ve všech shellech. Naopak lokální proměnné "
+"jsou viditelné pouze v aktuálním shellu."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:505
@@ -564,12 +653,15 @@ msgid ""
 "command. If you need to know the value of a variable, insert the name of "
 "your variable as an argument:"
 msgstr ""
+"Ke zobrazení všech proměnných prostředí použijte příkaz "
+"<command>printenv</command>. Hodnotu jedné proměnné zobrazíte zadáním jejího "
+"názvu do argumentu:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:511
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>printenv PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>printenv PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:513
@@ -577,12 +669,14 @@ msgid ""
 "A variable, be it global or local, can also be viewed with <command>echo</"
 "command>:"
 msgstr ""
+"Proměnnou, ať globální či lokální, lze též zobrazit příkazem "
+"<command>echo</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:518
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>echo $PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>echo $PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:520
@@ -590,12 +684,13 @@ msgid ""
 "To set a local variable, use a variable name followed by the equal sign, "
 "followed by the value:"
 msgstr ""
+"K nastavení hodnoty lokální proměnné použijte její název, rovnítko a hodnotu:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:525
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>PROJECT=\"SLED\""
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>PROJECT=\"SLEĎ\""
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:527
@@ -603,23 +698,25 @@ msgid ""
 "Do not insert spaces around the equal sign, otherwise you get an error. To "
 "set an environment variable, use <command>export</command>:"
 msgstr ""
+"Okolo rovnítka nevkládejte mezery, jinak se ohlásí chyba. Pro nastavení "
+"proměnné prostředí (tedy globální) použijte příkaz <command>export</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:532
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>export NAME=\"tux\""
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>export NAME=\"tux\""
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:534
 msgid "To remove a variable, use <command>unset</command>:"
-msgstr ""
+msgstr "K odstranění proměnné použijte příkaz <command>unset</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:538
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>unset NAME"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>unset NAME"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:540
@@ -627,36 +724,38 @@ msgid ""
 "The following table contains some common environment variables which can be "
 "used in you shell scripts:"
 msgstr ""
+"Následující tabulka obsahuje některé běžné proměnné prostředí použitelné ve "
+"skriptech pro shell:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:546
 msgid "Useful Environment Variables"
-msgstr ""
+msgstr "Užitečné proměnné prostředí (globální)"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:551
 msgid "<envar>HOME</envar>"
-msgstr ""
+msgstr "<envar>HOME</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:556
 msgid "the home directory of the current user"
-msgstr ""
+msgstr "domovský adresář aktuálně přihlášeného uživatele"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:563
 msgid "<envar>HOST</envar>"
-msgstr ""
+msgstr "<envar>HOST</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:568
 msgid "the current host name"
-msgstr ""
+msgstr "aktuální název počítače v síti"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:575
 msgid "<envar>LANG</envar>"
-msgstr ""
+msgstr "<envar>LANG</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:580
@@ -664,62 +763,64 @@ msgid ""
 "when a tool is localized, it uses the language from this environment "
 "variable. English can also be set to <literal>C</literal>"
 msgstr ""
+"je-li nástroj lokalizován, používá jazyk z této proměnné prostředí; "
+"angličtinu lze také nastavit na <literal>C</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:588
 msgid "<envar>PATH</envar>"
-msgstr ""
+msgstr "<envar>PATH</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:593
 msgid "the search path of the shell, a list of directories separated by colon"
-msgstr ""
+msgstr "hledací cesta shellu - seznam adresářů oddělených dvojtečkami"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:600
 msgid "<envar>PS1</envar>"
-msgstr ""
+msgstr "<envar>PS1</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:605
 msgid "specifies the normal prompt printed before each command"
-msgstr ""
+msgstr "udává normální výzvu tištěnou před každým příkazem (končívá &gt;)"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:612
 msgid "<envar>PS2</envar>"
-msgstr ""
+msgstr "<envar>PS2</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:617
 msgid ""
 "specifies the secondary prompt printed when you execute a multi-line command"
-msgstr ""
+msgstr "udává druhotnou výzvu tištěnou, když zadáváte víceřádkový příkaz"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:625
 msgid "<envar>PWD</envar>"
-msgstr ""
+msgstr "<envar>PWD</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:630
 msgid "current working directory"
-msgstr ""
+msgstr "aktuální pracovní adresář"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:637
 msgid "<envar>USER</envar>"
-msgstr ""
+msgstr "<envar>USER</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:642
 msgid "the current user"
-msgstr ""
+msgstr "aktuálně přihlášený uživatel"
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:652
 msgid "Using Argument Variables"
-msgstr ""
+msgstr "Použití proměnných v argumentu"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:659
@@ -727,12 +828,13 @@ msgid ""
 "For example, if you have the script <command>foo.sh</command> you can "
 "execute it like this:"
 msgstr ""
+"Máte-li například skript <command>foo.sh</command>, můžete ho spustit takto:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:663
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>foo.sh \"Tux Penguin\" 2000 "
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>foo.sh \"Tučňák Tux\" 2000 "
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:664
@@ -742,6 +844,10 @@ msgid ""
 "<envar>$2</envar> for the second, and so on. You can have up to nine "
 "parameters. To get the script name, use <envar>$0</envar>."
 msgstr ""
+"Pro přístup ke všem argumentům, které jsou předávány skriptu, potřebujete "
+"poziční parametry. Je to <envar>$1</envar> pro první argument, "
+"<envar>$2</envar> pro druhý, atd. - můžete mít až devět parametrů. Chcete-li "
+"jako argument získat název skriptu, použijte <envar>$0</envar>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:670
@@ -749,6 +855,7 @@ msgid ""
 "The following script <command>foo.sh</command> prints all arguments from 1 "
 "to 4:"
 msgstr ""
+"Tento skript, <command>foo.sh</command>, tiskne své argumenty číslo 1 až 4:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:674
@@ -757,22 +864,24 @@ msgid ""
 "#!/bin/sh\n"
 "echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 msgstr ""
+"#!/bin/sh\n"
+"echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:676
 msgid "If you execute this script with the above arguments, you get:"
-msgstr ""
+msgstr "Provedete-li tento skript s uvedenými argumenty, vypíše se:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:679
 #, no-wrap
 msgid "\"Tux Penguin\" \"2000\" \"\" \"\""
-msgstr ""
+msgstr "\"Tučňák Tux\" \"2000\" \"\" \"\""
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:756
 msgid "Using Variable Substitution"
-msgstr ""
+msgstr "Použití substituce proměnných"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:757
@@ -781,16 +890,18 @@ msgid ""
 "from the left or right side. The following list contains the possible syntax "
 "forms:"
 msgstr ""
+"Substituce proměnných aplikují na obsah proměnné vzorek, a to buď z levé "
+"nebo pravé strany. Následující seznam obsahuje možné tvary syntaxe:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:764
 msgid "<literal>${VAR#pattern}</literal>"
-msgstr ""
+msgstr "<literal>${PROMĚNNÁ#vzorek}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:767
 msgid "removes the shortest possible match from the left:"
-msgstr ""
+msgstr "odstraní nejkratší možný výskyt vzorku zleva:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:770
@@ -800,16 +911,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file#*/}\n"
 "home/tux/book/book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file#*/}\n"
+"home/tux/book/book.tar.bz2"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:776
 msgid "<literal>${VAR##pattern}</literal>"
-msgstr ""
+msgstr "<literal>${PROMĚNNÁ##vzorek}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:779
 msgid "removes the longest possible match from the left:"
-msgstr ""
+msgstr "odstraní nejdelší možný výskyt vzorku zleva:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:782
@@ -819,16 +933,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file##*/}\n"
 "book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file##*/}\n"
+"book.tar.bz2"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:788
 msgid "<literal>${VAR%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${PROMĚNNÁ%vzorek}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:791
 msgid "removes the shortest possible match from the right:"
-msgstr ""
+msgstr "odstraní nejkratší možný výskyt vzorku zprava:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:794
@@ -838,16 +955,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file%.*}\n"
 "/home/tux/book/book.tar"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file%.*}\n"
+"/home/tux/book/book.tar"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:800
 msgid "<literal>${VAR%%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${PROMĚNNÁ%%vzorek}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:803
 msgid "removes the longest possible match from the right:"
-msgstr ""
+msgstr "odstraní nejdelší možný výskyt vzorku zprava:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:806
@@ -857,11 +977,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file%%.*}\n"
 "/home/tux/book/book"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file%%.*}\n"
+"/home/tux/book/book"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:812
 msgid "<literal>${VAR/pattern_1/pattern_2}</literal>"
-msgstr ""
+msgstr "<literal>${PROMĚNNÁ/vzorek_1/vzorek_2}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:815
@@ -870,6 +993,8 @@ msgid ""
 "<replaceable>PATTERN_1</replaceable> with <replaceable>PATTERN_2</"
 "replaceable>:"
 msgstr ""
+"nahradí obsah <replaceable>PROMĚNNÉ</replaceable> - namísto "
+"<replaceable>VZOREK_1</replaceable> dá <replaceable>VZOREK_2</replaceable>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:820
@@ -879,11 +1004,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file/tux/wilber}\n"
 "/home/wilber/book/book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file/tux/wilber}\n"
+"/home/wilber/book/book.tar.bz2"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:842
 msgid "Grouping and Combining Commands"
-msgstr ""
+msgstr "Seskupování a kombinování příkazů"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:844
@@ -893,16 +1021,20 @@ msgid ""
 "failure of its operation. If it is 0 (zero) the command was successful, "
 "everything else marks an error which is specific to the command."
 msgstr ""
+"Shell vám umožní zřetězit a seskupit příkazy pro podmíněné provedení. Každý "
+"příkaz vrací návratový (výstupní) kód, který určuje úspěch nebo selhání své "
+"činnosti. Pokud je návratový kód 0 (nula), příkaz byl úspěšný, všechno "
+"ostatní znamená chybu, která je pro každý příkaz specifická."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:851
 msgid "The following list shows, how commands can be grouped:"
-msgstr ""
+msgstr "Tento seznam ukazuje, jak lze příkazy seskupit:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:857
 msgid "<literal>Command1 ; Command2</literal>"
-msgstr ""
+msgstr "<literal>Příkaz1 ; Příkaz2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:860
@@ -912,17 +1044,20 @@ msgid ""
 "and then prints its file properties with <command>ls</command> regardless of "
 "their exit codes:"
 msgstr ""
+"provede příkazy postupně, návratový kód se nekontroluje. Další řádek ukazuje "
+"obsah souboru příkazem <command>cat</command> a pak vypíše vlastnosti toho "
+"souboru příkazem <command>ls</command> nehledě na jeho návratové kódy:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:866
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat filelist.txt ; ls -l filelist.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>cat filelist.txt ; ls -l filelist.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:870
 msgid "<literal>Command1 &amp;&amp; Command2</literal>"
-msgstr ""
+msgstr "<literal>Příkaz1 &amp;&amp; Příkaz2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:873
@@ -932,17 +1067,22 @@ msgid ""
 "properties only, when the previous command was successful (compare it with "
 "the previous entry in this list):"
 msgstr ""
+"spustí druhý příkaz, pokud byl první příkaz úspěšný (logické AND/A). "
+"Následující řádek zobrazuje obsah souboru a vytiskne jeho vlastnosti pouze v "
+"případě, že předchozí příkaz byl úspěšný (porovnejte s předchozí položkou "
+"tohoto seznamu):"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:879
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat filelist.txt &amp;&amp; ls -l filelist.txt"
 msgstr ""
+"<prompt>tux &gt; </prompt>cat filelist.txt &amp;&amp; ls -l filelist.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:883
 msgid "<literal>Command1 || Command2</literal>"
-msgstr ""
+msgstr "<literal>Příkaz1 || Příkaz2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:886
@@ -952,3 +1092,6 @@ msgid ""
 "filename> when the creation of the directory in <filename>/home/tux/foo</"
 "filename> has failed:"
 msgstr ""
+"spustí Příkaz2, když Příkaz1 selhal (logické OR/NEBO). Následující řádek "
+"vytvoří adresář v <filename>/home/wilber/bar</filename>, jen když vytvoření "
+"adresáře v <filename>/home/tux/foo</filename> selhalo:"
