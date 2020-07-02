@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_ekiga-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_ekiga.xml:11
 msgid "Ekiga: Using Voice over IP"
-msgstr ""
+msgstr "Ekiga: Použití Voice over IP"
 
 #. (itstool) path: abstract/para
 #: xml/apps_ekiga.xml:14
@@ -27,16 +31,18 @@ msgid ""
 "Ekiga is an application you can use for making phone calls via Voice over IP "
 "(VoIP), for video conferencing and for instant messaging."
 msgstr ""
+"Ekiga je aplikace používaná k telefonování cestou Voice over IP (hlas přes "
+"IP, VoIP) pro videokonference a rychlé zasílání zpráv."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_ekiga.xml:21
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: note/title
 #: xml/apps_ekiga.xml:25
 msgid "Ekiga May Not Be Installed"
-msgstr ""
+msgstr "Ekiga nemusí být nainstalována"
 
 #. (itstool) path: note/para
 #: xml/apps_ekiga.xml:26
@@ -44,21 +50,25 @@ msgid ""
 "Before proceeding, make sure that the package <package>ekiga</package> is "
 "installed."
 msgstr ""
+"Před pokračováním se ujistěte, že je nainstalován balíček "
+"<package>ekiga</package>."
 
 #. (itstool) path: chapter/para
 #: xml/apps_ekiga.xml:32
 msgid "Before starting, make sure that the following requirements are met:"
-msgstr ""
+msgstr "Před spuštěním se ujistěte, že jsou splněny tyto požadavky:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:37
 msgid "Your sound card is properly configured."
-msgstr ""
+msgstr "Je správně zkonfigurována Vaše zvuková karta."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:42
 msgid "A headset or a microphone and speakers are connected to your computer."
 msgstr ""
+"K počítači jsou připojena sluchátka s mikrofonem (headset) nebo mikrofon a "
+"reproduktory."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:47
@@ -68,6 +78,9 @@ msgid ""
 "protocol used to establish sessions for audio and video conferencing or call "
 "forwarding."
 msgstr ""
+"Pro vytáčení do běžných telefonních sítí je nutný účet SIP. SIP (<emphasis>"
+"SIgnaling Protocol for Internet Telephony</emphasis>) je protokol používaný "
+"k vytvoření relací pro audio- a videokonference nebo přesměrování hovorů."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:53
@@ -75,16 +88,19 @@ msgid ""
 "There are many VoIP providers all over the world. One provider is the Ekiga "
 "project itself, go to <link xlink:href=\"https://ekiga.im\"/> to learn more."
 msgstr ""
+"Existuje mnoho poskytovatelů VoIP po celém světě. Jedním z poskytovatelů je "
+"samotný projekt Ekiga. Další informace naleznete na <link xlink:href=\""
+"https://ekiga.im\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:59
 msgid "For video conferencing: A Web cam is connected to your computer."
-msgstr ""
+msgstr "Pro videokonference: K Vašemu počítači je připojena webová kamera."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:65
 msgid "Starting Ekiga"
-msgstr ""
+msgstr "Ekiga - spuštění"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:67
@@ -92,11 +108,13 @@ msgid ""
 "To start Ekiga, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>ekiga</literal>."
 msgstr ""
+"Chcete-li spustit Ekigu, otevřete Přehled činností stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>ekiga</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:73
 msgid "Configuring Ekiga"
-msgstr ""
+msgstr "Ekiga - konfigurace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:75
@@ -104,17 +122,20 @@ msgid ""
 "On first start, Ekiga opens a configuration assistant that requests all data "
 "needed to configure Ekiga. Proceed as follows:"
 msgstr ""
+"Při prvním spuštění otevře Ekiga asistenta, který si vyžádá všechny údaje "
+"potřebné pro konfiguraci Ekigy. Postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:82
 msgid "Click <guimenu>Forward</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:87
 msgid ""
 "Enter your full name (name and surname). Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Zadejte své celé jméno (jméno a příjmení). Klikněte <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:92
@@ -123,6 +144,9 @@ msgid ""
 "register with <link xlink:href=\"http://www.ekiga.net\"/>. Click "
 "<guimenu>Forward</guimenu>."
 msgstr ""
+"Zadejte data svého účtu <literal>ekiga.net</literal> nebo zvolte "
+"neregistrovat se na <link xlink: href=\"http://www.ekiga.net\"/>. Klikněte "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:99
@@ -130,11 +154,14 @@ msgid ""
 "Enter your Ekiga Call Out Account data or choose not to register with <link "
 "xlink:href=\"http://www.ekiga.net\"/>. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Zadejte data svého účtu Ekiga Call Out nebo se rozhodněte, že se "
+"nezaregistrujete na <link xlink:href=\"http://www.ekiga.net\"/>. Klikněte "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:106
 msgid "Set your connection type and speed. Click <guimenu>Forward</guimenu>."
-msgstr ""
+msgstr "Nastavte typ a rychlost připojení. Klikněte <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:118
@@ -143,17 +170,22 @@ msgid ""
 "input device driver. In general, you can keep the <guimenu>Default</guimenu> "
 "setting. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Nakonfigurujte zvuková zařízení, která mají být použita, výběrem zvukového "
+"vyzvánění, výstupu a ovladače vstupního zařízení. Obecně si můžete ponechat "
+"<guimenu>Výchozí</guimenu> nastavení. Klikněte <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:125
 msgid ""
 "Choose a video input device, if available. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Vyberte vstupní video zařízení, pokud je k dispozici. Klikněte "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:131
 msgid "Check the summary of your settings and apply them."
-msgstr ""
+msgstr "Zkontrolujte souhrn nastavení a použijte je."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:136
@@ -161,6 +193,8 @@ msgid ""
 "If registration fails after making changes to your configuration, restart "
 "Ekiga."
 msgstr ""
+"Pokud se registrace po provedení změn ve vaší konfiguraci nezdaří, "
+"restartujte Ekigu."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:143
@@ -168,6 +202,8 @@ msgid ""
 "Ekiga allows you to maintain multiple accounts. To configure an additional "
 "account, proceed as follows:"
 msgstr ""
+"Ekiga vám umožňuje spravovat více účtů. Chcete-li nakonfigurovat další účet, "
+"postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:150
@@ -175,6 +211,8 @@ msgid ""
 "Open <menuchoice> <guimenu>Edit</guimenu> <guimenu>Accounts</guimenu></"
 "menuchoice>."
 msgstr ""
+"Otevřete <menuchoice> <guimenu>Úpravy</guimenu> - "
+"<guimenu>Účty</guimenu></menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:156
@@ -183,6 +221,9 @@ msgid ""
 "type&gt;</guimenu></menuchoice>. If you are unsure, select <guimenu>Add a "
 "SIP Account</guimenu>."
 msgstr ""
+"Vyberte <menuchoice><guimenu>Účty</guimenu> <guimenu>Přidat &lt;účet "
+"typu&gt;</guimenu></menuchoice>. Jste-li na pochybách, zvolte <guimenu>"
+"Přidat účet SIP</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:163
@@ -192,6 +233,11 @@ msgid ""
 "Internet Telephony Service Provider. Enter <guimenu>User</guimenu>, and "
 "<guimenu>Password</guimenu> according to the data provided by your provider."
 msgstr ""
+"Zvolte <guimenu>Registrátor</guimenu>, kam jste se registrovali. Je to "
+"obvykle IP adresa nebo název počítače, který Vám sdělí Váš poskytovatel "
+"služby internetové telefonie (Internet Telephony Service Provider). Zadejte "
+"<guimenu>uživatele</guimenu> a <guimenu>heslo</guimenu> dle údajů, které "
+"jste od něj dostali."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:172
@@ -201,11 +247,15 @@ msgid ""
 "the Ekiga main window, including its <guimenu>Status</guimenu>, which should "
 "change to <literal>Registered</literal>."
 msgstr ""
+"Pomocí <guimenu>Aktivovat účet</guimenu> zajistěte, aby byl aktivován účet a "
+"ukončete konfigurační dialog tlačítkem <guimenu>OK</guimenu>. Účet je "
+"zobrazen v hlavním okně Ekiga, včetně jeho údaje <guimenu>Stav</guimenu>, "
+"který by se měl změnit na <literal>Registrován</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:182
 msgid "The Ekiga User Interface"
-msgstr ""
+msgstr "Ekiga - uživatelské rozhraní"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:184
@@ -217,11 +267,17 @@ msgid ""
 "It displays images from your local Web cam (or from a remote Web cam during "
 "a call)."
 msgstr ""
+"Uživatelské rozhraní má různé režimy. Chcete-li mezi nimi přepínat, použijte "
+"panel nástrojů. První režim je <guimenu>Kontakty</guimenu>, druhý je "
+"<guimenu>Číselník</guimenu> a poslední režim je <guimenu>Historie "
+"hovorů</guimenu>. Kliknutím na ikonu kamery otevřete <guimenu>Okno "
+"volání</guimenu>. Zobrazuje obrázky z místní webové kamery (nebo ze vzdálené "
+"webové kamery během hovoru)."
 
 #. (itstool) path: figure/title
 #: xml/apps_ekiga.xml:194
 msgid "Ekiga User Interface"
-msgstr ""
+msgstr "Ekiga - uživatelské rozhraní"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -231,7 +287,7 @@ msgstr ""
 #: xml/apps_ekiga.xml:197 xml/apps_ekiga.xml:200
 msgctxt "_"
 msgid "external ref='ekiga_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='ekiga_main.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:205
@@ -240,6 +296,9 @@ msgid ""
 "shows you a local address book which lets you quickly open connections to "
 "often-used numbers."
 msgstr ""
+"Ve výchozím nastavení se Ekiga otevře v režimu <guimenu>Kontakty</guimenu>. "
+"Toto zobrazení vám ukáže místní adresář, který vám umožní rychle otevřít "
+"spojení k často používaným číslům."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:211
@@ -247,191 +306,194 @@ msgid ""
 "Many of the functions of Ekiga are available with key combinations. <xref "
 "linkend=\"tab.ekiga.shortcut\"/> summarizes the most important ones."
 msgstr ""
+"Mnoha funkcím Ekigy je přiřazena kombinace kláves. <xref linkend=\"tab.ekiga."
+"shortcut\"/> uvádí nejdůležitější z nich."
 
 #. (itstool) path: table/title
 #: xml/apps_ekiga.xml:217
 msgid "Key Combinations for Ekiga"
-msgstr ""
+msgstr "Klávesové kombinace pro Ekigu"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:222
 msgid "Key Combination"
-msgstr ""
+msgstr "Klávesová kombinace"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:227
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:236
 msgid "<keycombo><keycap function=\"control\"/><keycap>O</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>O</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:241
 msgid "Initiate a call with the current number."
-msgstr ""
+msgstr "Zahájí hovor s aktuálním číslem."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:253
 msgid "Hang up."
-msgstr ""
+msgstr "Zavěsí."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:260
 msgid "<keycombo><keycap function=\"control\"/><keycap>N</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>N</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:265
 msgid "Add a contact to your address book."
-msgstr ""
+msgstr "Přidá kontakt do Vašeho adresáře."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:272
 msgid "<keycombo><keycap function=\"control\"/><keycap>B</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>B</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:277
 msgid "Open the <guimenu>Address Book</guimenu> dialog."
-msgstr ""
+msgstr "Otevře dialog <guimenu>Adresář</guimenu>."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:284
 msgid "<keycap>H</keycap>"
-msgstr ""
+msgstr "<keycap>H</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:289
 msgid "Hold the current call."
-msgstr ""
+msgstr "Přidrží probíhající hovor."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:296
 msgid "<keycap>T</keycap>"
-msgstr ""
+msgstr "<keycap>T</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:301
 msgid "Transfer the current call to another party."
-msgstr ""
+msgstr "Převede aktuální hovor na jiného účastníka."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:308
 msgid "<keycap>M</keycap>"
-msgstr ""
+msgstr "<keycap>M</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:313
 msgid "Suspend the audio stream of the current call."
-msgstr ""
+msgstr "Pozastaví zvukový proud aktuálního hovoru."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:320
 msgid "<keycap>P</keycap>"
-msgstr ""
+msgstr "<keycap>P</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:325
 msgid "Suspend the video stream of the current call."
-msgstr ""
+msgstr "Pozastaví tok videa aktuálního hovoru."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:332
 msgid "<keycombo><keycap function=\"control\"/><keycap>W</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>W</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:337
 msgid "Close the Ekiga user interface."
-msgstr ""
+msgstr "Uzavře uživatelské rozhraní Ekigy."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:344
 msgid "<keycombo><keycap function=\"control\"/><keycap>Q</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>Q</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:349
 msgid "Quit Ekiga."
-msgstr ""
+msgstr "Ukončí Ekigu."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:356
 msgid "<keycombo><keycap function=\"control\"/><keycap>E</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>E</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:361
 msgid "Start the account manager."
-msgstr ""
+msgstr "Spustí Správce účtů."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:368
 msgid "<keycombo><keycap function=\"control\"/><keycap>J</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>J</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:373
 msgid "Activate <guimenu>Call Panel</guimenu> on the main user interface."
 msgstr ""
+"Aktivuje<guimenu>Panel volání</guimenu> v hlavním uživatelském rozhraní."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:380
 msgid "<keycombo><keycap function=\"control\"/><keycap>+</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>+</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:385
 msgid "Zoom in to the picture from the Web cam."
-msgstr ""
+msgstr "Zvětší/přiblíží obraz webové kamery."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:392
 msgid "<keycombo><keycap function=\"control\"/><keycap>-</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>-</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:397
 msgid "Zoom out on the picture from the Web cam."
-msgstr ""
+msgstr "Zmenší/oddálí obraz webové kamery."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:404
 msgid "<keycombo><keycap function=\"control\"/><keycap>0</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>0</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:409
 msgid "Return to the normal size of the Web cam display."
-msgstr ""
+msgstr "Vrátí normální velikost obrazu webové kamery."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:416
 msgid "<keycap>F11</keycap>"
-msgstr ""
+msgstr "<keycap>F11</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:421
 msgid "Use full screen for the Web cam."
-msgstr ""
+msgstr "Celá obrazovka pro webovou kameru."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:431
 msgid "Making a Call"
-msgstr ""
+msgstr "Zavolat"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:433
 msgid "After Ekiga is properly configured, making a call is easy."
-msgstr ""
+msgstr "Je-li Ekiga správně konfigurována, zavolat je snadné."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:439
 msgid "Switch to the <guimenu>Dialpad</guimenu> mode."
-msgstr ""
+msgstr "Přepnout do režimu <guimenu>Číselnice</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:444
@@ -439,6 +501,8 @@ msgid ""
 "Enter the SIP address of the party to call at the bottom of the window. The "
 "address should look like:"
 msgstr ""
+"Ve spodní části okna zadejte SIP adresu účastníka, kterého chcete volat. "
+"Adresa by měla vypadat takto:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:450
@@ -446,6 +510,8 @@ msgid ""
 "for direct local calls: <literal>sip:username@domainname</literal> or "
 "<literal>username@hostname</literal>"
 msgstr ""
+"pro přímé místní hovory: <literal>sip:username@domainname</literal> nebo "
+"<literal>username@hostname</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:456
@@ -453,6 +519,8 @@ msgid ""
 "<literal>sip:username@domainname</literal> or <literal>userid@sipserver</"
 "literal>"
 msgstr ""
+"<literal>sip:username@domainname</literal> nebo "
+"<literal>userid@sipserver</literal>"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:470
@@ -461,6 +529,9 @@ msgid ""
 "\"/><keycap>O</keycap></keycombo> and wait for the other party to pick up "
 "the phone."
 msgstr ""
+"Klikněte <guimenu>Volat</guimenu> nebo stiskněte <keycombo><keycap function="
+"\"control\"/><keycap>O</keycap></keycombo> a počkejte, až volaný přijme "
+"hovor."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:477
@@ -468,6 +539,8 @@ msgid ""
 "To end the call, click <guimenu>Hang up</guimenu> or press <keycap function="
 "\"escape\"/>."
 msgstr ""
+"Hovor ukončíte kliuknutím <guimenu>Zavěsit</guimenu> nebo stisknutím <keycap "
+"function=\"escape\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:484
@@ -475,11 +548,14 @@ msgid ""
 "If you need to tweak the sound parameters, click <menuchoice><guimenu>Edit</"
 "guimenu><guimenu>Preferences</guimenu> </menuchoice>."
 msgstr ""
+"Potřebujete-li vylepšit zvukové parametry, klikněte na "
+"<menuchoice><guimenu>Upravit</guimenu><guimenu>Preference</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:491
 msgid "Answering a Call"
-msgstr ""
+msgstr "Přijmout hovor"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:493
@@ -490,11 +566,16 @@ msgid ""
 "VoIP account. Depending on the mode in which you use Ekiga, there are "
 "several ways in which you are alerted to an incoming call:"
 msgstr ""
+"Ekiga může přijímat hovory dvěma různými způsoby. Lze ji volat přímo pomocí "
+"<literal>sip:user@host</literal>, nebo prostřednictvím poskytovatele SIP. "
+"Většina poskytovatelů SIP umožňuje přijímat hovory z normální pevné linky na "
+"Váš účet VoIP. V závislosti na režimu, ve kterém používáte službu Ekiga, "
+"existuje několik způsobů, jak Vás upozorní na příchozí hovor:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_ekiga.xml:503
 msgid "Normal Application"
-msgstr ""
+msgstr "Normální aplikace"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:505
@@ -503,11 +584,14 @@ msgid ""
 "started. You can hear the ring sound on your headset or your speakers. If "
 "Ekiga is not started, the call cannot be received."
 msgstr ""
+"Příchozí hovory lze přijímat a přijímat, pouze pokud je již spuštěna Ekiga. "
+"Zvuk vyzvánění můžete slyšet v náhlavní soupravě nebo z reproduktorů. Pokud "
+"Ekiga neběží, nelze hovor přijmout."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_ekiga.xml:513
 msgid "Panel Applet"
-msgstr ""
+msgstr "Aplet Panel"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:515
@@ -516,6 +600,9 @@ msgid ""
 "its existence. This changes when a call comes in. The main window of Ekiga "
 "opens and you hear a ringing sound on your headset or speakers."
 msgstr ""
+"Za normálních okolností aplet panelu Ekiga běží tiše, tj. nevidíte známky "
+"jeho existence, dokud nepřijde hovor. Otevře se hlavní okno Ekigy a v "
+"náhlavní soupravě nebo reproduktorech uslyšíte vyzváněcí zvuk."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:529
@@ -525,11 +612,15 @@ msgid ""
 "click <guimenu>Reject</guimenu>. It is also possible to transfer the call to "
 "another SIP address."
 msgstr ""
+"Jakmile si všimnete příchozího hovoru, klikněte na "
+"<guimenu>Přijmout</guimenu> a přijměte hovor, poté začněte mluvit. Pokud "
+"tento hovor nechcete přijmout, klikněte na <guimenu>Odmítnout</guimenu>. Je "
+"také možné přesměrovat hovor na jinou adresu SIP."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:537
 msgid "Using the Address Book"
-msgstr ""
+msgstr "Používání adresáře"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:539
@@ -539,6 +630,11 @@ msgid ""
 "add a contact or a new contact group, select <menuchoice><guimenu>Chat</"
 "guimenu><guimenu>Add Contact</guimenu></menuchoice>."
 msgstr ""
+"Ekiga může spravovat Vaše kontakty SIP. Všechny kontakty jsou zobrazeny na "
+"kartě <guimenu>Kontakty</guimenu>, kterou vidíte v hlavním okně po spuštění. "
+"Nový kontakt nebo kontaktní skupinu přidáte pomocí menu "
+"<menuchoice><guimenu>Chat</guimenu> - <guimenu>Přidat "
+"kontakt</guimenu></menuchoice>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:547
@@ -547,16 +643,19 @@ msgid ""
 "box and click <guimenu>Add</guimenu>. The new group is then added to the "
 "group list and preselected."
 msgstr ""
+"Pokud chcete přidat novou skupinu, zadejte název skupiny do spodního "
+"textového pole a klikněte na <guimenu>Přidat</guimenu>. Nová skupina je poté "
+"přidána do seznamu skupin a předvolena."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:553
 msgid "The following entries are required for a valid contact:"
-msgstr ""
+msgstr "Pro platný nový kontakt zadejte následující údaje:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_ekiga.xml:559
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:561
@@ -564,26 +663,27 @@ msgid ""
 "Enter the name of your contact. This may be a full name, but you can also "
 "use a nickname here."
 msgstr ""
+"Zadejte jméno kontaktu. Může to být celé jméno osoby, ale také přezdívka."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_ekiga.xml:568
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:570
 msgid "Enter a valid SIP address for your contact."
-msgstr ""
+msgstr "Zadejte platnou adresu SIP Vašeho kontaktu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_ekiga.xml:576
 msgid "Groups"
-msgstr ""
+msgstr "Skupiny"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:578
 msgid "If you have many contacts, add your own groups."
-msgstr ""
+msgstr "Máte-li mnoho kontaktů, přidejte si vlastní skupiny."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:585
@@ -591,11 +691,13 @@ msgid ""
 "To call a contact from the address book, double-click the contact. The call "
 "is initiated immediately."
 msgstr ""
+"Chcete-li volat kontakt z adresáře, poklepejte na kontakt. Hovor je zahájen "
+"okamžitě."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:591
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:593
@@ -604,6 +706,9 @@ msgid ""
 "\"/>. This site offers answers to frequently asked questions and more "
 "detailed documentation."
 msgstr ""
+"Oficiální domovská stránka Ekigy: <link xlink:href=\"http://www.ekiga.org/\""
+"/>. Tento web nabízí podrobnější dokumentaci a odpovědi na často kladené "
+"otázky."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:599
@@ -613,6 +718,10 @@ msgid ""
 "info.org/wiki/view/H.323\"/>. This is also a good starting point when "
 "searching for projects supporting VoIP."
 msgstr ""
+"Informace o podpoře telekonferenčního protokolu <literal>H323</literal> v "
+"systému Linux viz <link xlink: href=\"http://www.voip-info.org/wiki/view/H."
+"323\"/>. To je také dobrý výchozí bod při hledání projektů podporujících "
+"VoIP."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:606
@@ -622,3 +731,7 @@ msgid ""
 "asterisk.org/\"/>. Find information about it at <link xlink:href=\"http://"
 "www.voip-info.org/wiki-Asterisk\"/>."
 msgstr ""
+"Chcete-li založit soukromou telefonní síť, možná vás bude zajímat software "
+"<literal>PBX</literal>Asterisk<link xlink:href=\"http://www.asterisk.org/\"/>"
+". Informace o něm naleznete na <link xlink:href=\"http://www.voip-info.org/"
+"wiki-Asterisk\"/>."
