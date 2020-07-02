@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/art_sles_rpi_quick-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: info/title
 #: xml/art_sles_rpi_quick.xml:17
 msgid "Raspberry Pi Quick Start"
-msgstr ""
+msgstr "Rychlý start Raspberry Pi"
 
 #. (itstool) path: info/productname
 #: xml/art_sles_rpi_quick.xml:17
@@ -30,6 +34,11 @@ msgid ""
 "\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled"
 "\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase>"
 
 #. (itstool) path: info/author
 #: xml/art_sles_rpi_quick.xml:18
@@ -37,6 +46,8 @@ msgid ""
 "<personname><firstname>Fabian</firstname><surname>Vogt, Release Engineer, "
 "SUSE</surname></personname>"
 msgstr ""
+"Autor: <personname><firstname>Fabian</firstname><surname>Vogt, Release "
+"Engineer, SUSE</surname></personname>"
 
 #. (itstool) path: info/author
 #: xml/art_sles_rpi_quick.xml:20
@@ -44,6 +55,8 @@ msgid ""
 "<personname><firstname>Jay</firstname><surname>Kruemcke, Product Manager, "
 "SUSE</surname></personname>"
 msgstr ""
+"Autor: <personname><firstname>Jay</firstname><surname>Kruemcke, Product "
+"Manager, SUSE</surname></personname>"
 
 #. (itstool) path: info/author
 #: xml/art_sles_rpi_quick.xml:22
@@ -51,6 +64,8 @@ msgid ""
 "<personname><firstname>Andreas</firstname><surname>Faerber, Project Manager, "
 "SUSE</surname></personname>"
 msgstr ""
+"Autor: <personname><firstname>Andreas</firstname><surname>Faerber, Project "
+"Manager, SUSE</surname></personname>"
 
 #. (itstool) path: abstract/para
 #: xml/art_sles_rpi_quick.xml:26
@@ -61,16 +76,21 @@ msgid ""
 "phrase> for ARM on the Raspberry Pi* platform and will guide you through the "
 "setup procedure."
 msgstr ""
+"Tento průvodce obsahuje přehled <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> pro ARM na platformě Raspberry Pi*; provede Vás "
+"instalační procedurou."
 
 #. (itstool) path: docmanager/translation
 #: xml/art_sles_rpi_quick.xml:33
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/art_sles_rpi_quick.xml:37
 msgid "Platform Overview"
-msgstr ""
+msgstr "Přehled platformy"
 
 #. (itstool) path: sect1/para
 #: xml/art_sles_rpi_quick.xml:39
@@ -86,11 +106,21 @@ msgid ""
 "\">15</phrase></phrase> for ARM is tested to work on Raspberry Pi 3 Model B "
 "and Model B+ boards."
 msgstr ""
+"Abyste mohli používat <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> pro ARM na Raspberry Pi, je vyžadován Raspberry Pi*"
+" kompatibilní s Arm. <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> <phrase role=\"productnumber\"><phrase os=\"osuse\""
+">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase> pro ARM je "
+"testován pro práci na deskách Raspberry Pi 3 Model B a Model B +."
 
 #. (itstool) path: sect2/title
 #: xml/art_sles_rpi_quick.xml:46
 msgid "Technical Details of the Raspberry Pi 3 Model B"
-msgstr ""
+msgstr "Technické detaily Raspberry Pi 3 modelu B"
 
 #. (itstool) path: sect2/para
 #: xml/art_sles_rpi_quick.xml:47
@@ -99,6 +129,8 @@ msgid ""
 "System on a Chip (SoC) by Broadcom*, featuring various peripherals on the "
 "board."
 msgstr ""
+"Raspberry Pi je řada malých jednodeskových počítačů založených na systému na "
+"čipu (SoC) od společnosti Broadcom*, s různými periferiemi na desce."
 
 #. (itstool) path: figure/title
 #: xml/art_sles_rpi_quick.xml:52
@@ -106,6 +138,8 @@ msgid ""
 "Overview of the Raspberry Pi 3 Model B Connectors, © Efa / English "
 "Wikipedia / CC BY-SA 3.0"
 msgstr ""
+"Přehled konektorů Raspberry Pi 3 model B, © Efa / English Wikipedia / CC BY-"
+"SA 3.0"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -115,7 +149,7 @@ msgstr ""
 #: xml/art_sles_rpi_quick.xml:56 xml/art_sles_rpi_quick.xml:60
 msgctxt "_"
 msgid "external ref='rpi-3b-overview-2.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='rpi-3b-overview-2.png' md5='__failed__'"
 
 #. (itstool) path: figure/mediaobject
 #: xml/art_sles_rpi_quick.xml:53
@@ -126,6 +160,11 @@ msgid ""
 "</imageobject> <textobject><phrase>Overview of the Raspberry Pi 3 Model B "
 "connectors © Efa / English Wikipedia / CC BY-SA 3.0</phrase> </textobject>"
 msgstr ""
+"<imageobject role=\"fo\"> <imagedata fileref=\"rpi-3b-overview-2.png\" width="
+"\"80%\" format=\"PNG\"/> </imageobject> <imageobject role=\"html\"> <"
+"imagedata fileref=\"rpi-3b-overview-2.png\" width=\"80%\" format=\"PNG\"/> "
+"</imageobject> <textobject><phrase>Přehled konektorů Raspberry Pi 3, model "
+"B, © Efa / English Wikipedia / CC BY-SA 3.0</phrase> </textobject>"
 
 #. (itstool) path: figure/title
 #: xml/art_sles_rpi_quick.xml:68
@@ -133,6 +172,8 @@ msgid ""
 "Photo of the Raspberry Pi 3 Model B Connectors, © Evan-Amos / Own work / "
 "Public Domain"
 msgstr ""
+"Fotografie konektorů Raspberry Pi 3, model B, © Evan-Amos / Vlastní práce / "
+"Public Domain"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -142,7 +183,7 @@ msgstr ""
 #: xml/art_sles_rpi_quick.xml:72 xml/art_sles_rpi_quick.xml:76
 msgctxt "_"
 msgid "external ref='rpi-3b-photo.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='rpi-3b-photo.png' md5='__failed__'"
 
 #. (itstool) path: figure/mediaobject
 #: xml/art_sles_rpi_quick.xml:69
@@ -153,16 +194,21 @@ msgid ""
 "<textobject><phrase>Photo of the Raspberry Pi 3 Model B connectors © Evan-"
 "Amos / Own work / Public Domain</phrase> </textobject>"
 msgstr ""
+"<imageobject role=\"fo\"> <imagedata fileref=\"rpi-3b-photo.png\" width=\"80%"
+"\" format=\"PNG\"/> </imageobject> <imageobject role=\"html\"> <imagedata "
+"fileref=\"rpi-3b-photo.png\" width=\"80%\" format=\"PNG\"/> </imageobject> "
+"<textobject><phrase>Fotografie konektorů Raspberry Pi 3, model B © Evan-Amos "
+"/ Vlastní práce / Public Domain</phrase> </textobject>"
 
 #. (itstool) path: variablelist/title
 #: xml/art_sles_rpi_quick.xml:84
 msgid "Selected Features of the Raspberry Pi 3 Model B/B+"
-msgstr ""
+msgstr "Vybrané vlastnosti Raspberry Pi 3 modelu B/B+"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:86
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:88
@@ -171,21 +217,24 @@ msgid ""
 "Processor supporting the ARMv8 32-bit and 64-bit instruction sets. With the "
 "default configuration, it is clocked up to 1.2 GHz."
 msgstr ""
+"Broadcom BCM2837 SoC obsahuje čtyřjádrový aplikační procesor Arm* Cortex*-"
+"A53 podporující 32bitové a 64bitové instrukční sady ARMv8. Ve výchozí "
+"konfiguraci je nastaven na 1,2 GHz."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:96
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:98
 msgid "1024 MiB DDR2 memory mounted on the back of the board."
-msgstr ""
+msgstr "Paměť 1024 MiB DDR2 umístěná na zadní straně desky."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:104
 msgid "Graphics"
-msgstr ""
+msgstr "Grafika"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:106
@@ -193,11 +242,13 @@ msgid ""
 "Broadcom* VideoCore* IV providing OpenGL* ES 2.0 support. Displays can be "
 "connected over HDMI or composite (TRRS jack)."
 msgstr ""
+"Broadcom* VideoCore* IV podporující OpenGL* ES 2.0. Displeje lze připojit "
+"přes HDMI nebo kompozit (konektor TRRS)."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:113
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:115
@@ -206,11 +257,14 @@ msgid ""
 "B) or 10/100/1000 MBit/s Ethernet with maximum throughput of 300 MBit/s "
 "(Model B+)."
 msgstr ""
+"Adaptér USB Ethernet na desce poskytuje Ethernet 10/100 MBit/s (model B) "
+"nebo Ethernet 10/100/1000 MBit/s s maximální propustností 300 MBit/s (model "
+"B+)."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:123
 msgid "WLAN"
-msgstr ""
+msgstr "WLAN"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:125
@@ -221,11 +275,16 @@ msgid ""
 "IEEE-802.11n and IEEE-802.11ac in the 2.4 GHz and 5 GHz bands. It provides "
 "Bluetooth 4.2 (Low Energy)."
 msgstr ""
+"Čip BCM43438 na modelu B podporuje IEEE-802.11b, IEEE-802.11g a IEEE-802.11n "
+"v pásmu 2,4 GHz. Poskytuje také Bluetooth 2.0 až 4.1 (nízkoenergetický). Čip "
+"BCM43455 na modelu B+ podporuje IEEE-802.11b, IEEE-802.11g, IEEE-802.11n a "
+"IEEE-802.11ac v pásmech 2,4 GHz a 5 GHz. Poskytuje Bluetooth 4.2 "
+"(nízkoenergetický)."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:135
 msgid "Storage"
-msgstr ""
+msgstr "Paměť"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:137
@@ -233,11 +292,13 @@ msgid ""
 "The microSDHC card slot allows for a memory card to be inserted as primary "
 "boot medium."
 msgstr ""
+"Slot pro kartu microSDHC umožňuje vložení paměťové karty jako primárního "
+"bootovacího média."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:144
 msgid "Power"
-msgstr ""
+msgstr "Napájení"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:146
@@ -246,21 +307,24 @@ msgid ""
 "Raspberry Pi comes with a power supply, it is recommended to use the bundled "
 "power supply only."
 msgstr ""
+"Hlavním zdrojem napájení Raspberry Pi je konektor Micro USB. Pokud je "
+"Raspberry Pi dodáván s napájecím zdrojem, doporučuje se používat pouze "
+"dodávaný napájecí zdroj."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:154
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:156
 msgid "A total of four USB 2.0 ports is available."
-msgstr ""
+msgstr "K dispozici jsou celkem čtyři porty USB 2.0."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:162
 msgid "Connectors"
-msgstr ""
+msgstr "Konektory"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:164
@@ -272,6 +336,12 @@ msgid ""
 "phrase></phrase> for ARM <phrase role=\"productnumber\"><phrase os=\"osuse"
 "\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
 msgstr ""
+"K dispozici je také multifunkční záhlaví kolíku 0,1 palce. POZOR, ne všechny "
+"funkce tohoto záhlaví jsou viditelné v <phrase role=\"productname\"><phrase "
+"os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> pro ARM <phrase role=\"productnumber\"><phrase os="
+"\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
 
 #. (itstool) path: sect2/title
 #: xml/art_sles_rpi_quick.xml:175
@@ -282,6 +352,11 @@ msgid ""
 "role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;"
 "sled\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> pro ARM <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase>"
 
 #. (itstool) path: sect2/para
 #: xml/art_sles_rpi_quick.xml:176
@@ -299,11 +374,23 @@ msgid ""
 "id=SUSE_Linux_Enterprise_Server\"> https://www.suse.com/support/programs/"
 "subscriptions/?id=SUSE_Linux_Enterprise_Server</link>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> for ARM <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase> je první plně podporovaná komerční verze operačního "
+"systému Linux dostupná pro Raspberry Pi. Můžete si zakoupit předplatné, "
+"které vás opravňuje k přijímání všech vydaných oprav chyb a zabezpečení, "
+"aktualizací funkcí a technické pomoci od celosvětové podpory SUSE. Další "
+"informace o možnostech předplatného a podpory najdete na adrese <link "
+"xlink:href=\"https://www.suse.com/support/programs/subscriptions/?id="
+"SUSE_Linux_Enterprise_Server\"> https://www.suse.com/support/programs/"
+"subscriptions/?id=SUSE_Linux_Enterprise_Server</link>"
 
 #. (itstool) path: note/title
 #: xml/art_sles_rpi_quick.xml:188
 msgid "Trial Version"
-msgstr ""
+msgstr "Zkušební verze"
 
 #. (itstool) path: note/para
 #: xml/art_sles_rpi_quick.xml:189
@@ -320,41 +407,53 @@ msgid ""
 "receive this free offer. If you do not have a Customer Center account, you "
 "must create one to take advantage of the trial version."
 msgstr ""
+"Chcete-li vyzkoušet <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> pro ARM <phrase role=\"productnumber\"><phrase os="
+"\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase> na "
+"Raspberry Pi vám SUSE poskytne zkušební verzi. Tím získáte přístup k "
+"bezplatným opravám a aktualizacím po dobu 60 dnů. Musíte se přihlásit do "
+"Zákaznického centra SUSE na adrese <link xlink:href=\"https://scc.suse.com/"
+"login\">https://scc.suse.com/login</link> s použitím přihlašovacích údajů k "
+"účtu zákaznického centra k získání této bezplatné nabídky. Nemáte-li účet "
+"zákaznického centra, musíte si ho vytvořit, abyste mohli využívat zkušební "
+"verzi."
 
 #. (itstool) path: sect2/bridgehead
 #: xml/art_sles_rpi_quick.xml:202
 msgid "Minimum System Requirements for Installation"
-msgstr ""
+msgstr "Minimální systémové požadavky pro instalaci"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:205
 msgid "Raspberry Pi 3 Model B or Raspberry Pi 3 Model B+"
-msgstr ""
+msgstr "Raspberry Pi 3 Model B nebo Raspberry Pi 3 Model B+"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:210
 msgid "MicroSD card with at least 8 GB capacity"
-msgstr ""
+msgstr "Karta MicroSD s kapacitou nejméně 8 GB"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:215
 msgid "USB keyboard, mouse"
-msgstr ""
+msgstr "USB klávesnice a myš"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:220
 msgid "HDMI cable and monitor"
-msgstr ""
+msgstr "HDMI kabel a monitor"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:225
 msgid "Power supply with at least 2.5 A capacity"
-msgstr ""
+msgstr "Napájecí zdroj s kapacitou nejméně 2,5 A"
 
 #. (itstool) path: sect3/title
 #: xml/art_sles_rpi_quick.xml:231
 msgid "Differences Compared to Raspbian"
-msgstr ""
+msgstr "Rozdíly v porovnání s Raspbian"
 
 #. (itstool) path: sect3/para
 #: xml/art_sles_rpi_quick.xml:232
@@ -366,11 +465,16 @@ msgid ""
 "Enterprise Desktop</phrase></phrase> for ARM on the Raspberry Pi and "
 "Raspbian."
 msgstr ""
+"Raspbian je de-facto výchozí distribuce pro Raspberry Pi. Následující "
+"odstavce poskytují stručný přehled rozdílů mezi <phrase role=\"productname\""
+"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> pro ARM na Raspberry Pi a Raspbian."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:239
 msgid "Based on Upstream Kernel"
-msgstr ""
+msgstr "Založeno na originálním jádru (Upstream Kernel)"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:241
@@ -382,11 +486,17 @@ msgid ""
 "default SUSE Linux Enterprise kernel for AArch64 which is derived from the "
 "official mainline kernel."
 msgstr ""
+"Raspbian používá jádro s úpravami zejména pro Raspberry Pi. <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> pro ARM používá výchozí jádro SUSE "
+"Linux Enterprise pro AArch64 odvozené z oficiálního jádra hlavní řady ("
+"mainline kernel)."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:250
 msgid "AArch64 Instruction Set"
-msgstr ""
+msgstr "Sada instrukcí AArch64"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:252
@@ -397,11 +507,15 @@ msgid ""
 "Raspberry Pi is the first distribution for the Raspberry Pi using the "
 "AArch64 instruction set."
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> pro ARM na Raspberry Pi je "
+"první distribuce pro Raspberry Pi používající instrukční sadu AArch64."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:259
 msgid "Boot Process"
-msgstr ""
+msgstr "Bootovací proces"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:261
@@ -413,11 +527,17 @@ msgid ""
 "is used to provide an EFI boot environment. A GRUB2 EFI binary is "
 "chainloaded to provide a graphical boot screen."
 msgstr ""
+"V Raspbian je jádro načteno přímo. Toto není podporováno systémy <phrase "
+"role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> pro ARM, kde se zavaděč U-Boot používá "
+"k zajištění spouštěcího prostředí EFI - je zde zařazen binární soubor GRUB2 "
+"EFI, aby poskytl grafickou spouštěcí obrazovku."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sles_rpi_quick.xml:270
 msgid "Root Filesystem"
-msgstr ""
+msgstr "Kořenový systém souborů"
 
 #. (itstool) path: listitem/para
 #: xml/art_sles_rpi_quick.xml:272
@@ -597,7 +717,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/art_sles_rpi_quick.xml:386
 msgid "Installation"
-msgstr ""
+msgstr "Instalace"
 
 #. (itstool) path: sect1/para
 #: xml/art_sles_rpi_quick.xml:390
