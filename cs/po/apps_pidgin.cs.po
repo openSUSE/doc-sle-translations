@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_pidgin-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_pidgin.xml:9
 msgid "Pidgin: Instant Messaging"
-msgstr ""
+msgstr "Pidgin: Okamžité zprávy"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_pidgin.xml:13
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:16
@@ -33,6 +37,9 @@ msgid ""
 "multiple accounts simultaneously. Chat live with your contacts, regardless "
 "of which IM system they use."
 msgstr ""
+"Pidgin je klient pro rychlé zasílání zpráv (IM), který vám umožňuje připojit "
+"se k více účtům současně. Besedujte živě se svými kontakty, bez ohledu na "
+"to, který systém chatu používají."
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:21
@@ -42,6 +49,10 @@ msgid ""
 "Microsoft Office Communicator is also supported if you install the "
 "additional package <package>pidgin-plugin-sipe</package>."
 msgstr ""
+"Pidgin podporuje následující protokoly pro rychlé zasílání zpráv: AIM, "
+"Bonjour, Gadu-Gadu, Google Talk, Groupwise, ICQ, IRC, SIMPLE, XMPP a Zephyr. "
+"Microsoft Office Communicator je také podporován, když nainstalujete "
+"přídavný balíček <package>pidgin-plugin-sipe</package>."
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:27
@@ -49,11 +60,13 @@ msgid ""
 "In the following, learn how to set up Pidgin and how to communicate with "
 "your contacts."
 msgstr ""
+"V následující části se dozvíte, jak nastavit Pidgin a jak komunikovat se "
+"svými kontakty."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:32
 msgid "Starting Pidgin"
-msgstr ""
+msgstr "Spuštění Pidgin"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:34
@@ -61,11 +74,13 @@ msgid ""
 "To start Pidgin, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>pid</literal>."
 msgstr ""
+"Chcete-li spustit Pidgin, otevřete Přehled aktivit stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>pid</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:40
 msgid "Configuring Accounts"
-msgstr ""
+msgstr "Konfigurace účtů"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:42
@@ -74,11 +89,14 @@ msgid ""
 "you want to use. For example, to use Pidgin to chat via AIM, you must first "
 "have an AIM account."
 msgstr ""
+"Chcete-li používat Pidgin, musíte již mít účet pro službu zasílání zpráv, "
+"kterou chcete použít. Chcete-li například použít Pidgin pro chatování přes "
+"AIM, musíte mít nejprve účet AIM."
 
 #. (itstool) path: procedure/title
 #: xml/apps_pidgin.xml:49
 msgid "Adding and Editing Accounts in Pidgin"
-msgstr ""
+msgstr "Přidávání a úpravy účtů v Pidgin"
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:51
@@ -87,6 +105,8 @@ msgid ""
 "configure an account. Proceed with <guimenu>Add</guimenu> to add a new "
 "account."
 msgstr ""
+"Spustíte-li Pidgin poprvé, zobrazí se zpráva s výzvou ke konfiguraci účtu. "
+"Chcete-li přidat nový účet, pokračujte pomocí <guimenu>Přidat</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:56
@@ -97,6 +117,11 @@ msgid ""
 "<guimenu>Add</guimenu> a new account, or <guimenu>Modify</guimenu> or "
 "<guimenu>Delete</guimenu> existing ones."
 msgstr ""
+"Jestliže jste již nakonfigurovali účet a chcete přidat nový nebo upravit "
+"stávající, otevřete tento dialog pomocí <menuchoice> <guimenu>Účty</guimenu> "
+"<guimenu>Spravovat účty</guimenu> </menuchoice>. Můžete "
+"<guimenu>Přidat</guimenu> nový účet, nebo <guimenu>Upravit</guimenu> nebo "
+"<guimenu>Odstranit</guimenu> existující účty."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:66
@@ -104,6 +129,9 @@ msgid ""
 "The Add/Modify Account dialog opens. Use the <guimenu>Basic</guimenu> tab to "
 "select a protocol and enter or modify your login credentials."
 msgstr ""
+"Otevře se dialogové okno Přidat/Upravit účet. Na kartě "
+"<guimenu>Základní</guimenu> vyberte protokol a zadejte nebo změňte své "
+"přihlašovací údaje."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:70
@@ -113,6 +141,9 @@ msgid ""
 "as address and port number need to be entered on the <guimenu>Advanced</"
 "guimenu> tab."
 msgstr ""
+"Dostupnost dalších karet a data, která musíte zadat, závisí na zvoleném "
+"protokolu. Ve většině případů je třeba na kartě <guimenu>Upřesnit</guimenu> "
+"zadat podrobnosti o serveru, jako je adresa a číslo portu."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:76
@@ -122,6 +153,10 @@ msgid ""
 "(<guimenu>Use Global Proxy Settings</guimenu>) are preselected. This default "
 "should be sufficient for most users."
 msgstr ""
+"Na kartě <guimenu>Proxy</guimenu> můžete zadat vlastní konfiguraci serveru "
+"proxy pro vybraný protokol. Ve výchozím nastavení jsou předvolena nastavení "
+"systému (<guimenu>Použít globální nastavení proxy</guimenu>). Tato výchozí "
+"hodnota by měla být dostatečná pro většinu uživatelů."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:84
@@ -131,11 +166,15 @@ msgid ""
 "resulting <guimenu>Accounts</guimenu> window. If you want to temporarily "
 "disable an account, deselect it in the <guimenu>Enabled</guimenu> column."
 msgstr ""
+"Pokračujte akcí <guimenu>Přidat</guimenu> nebo <guimenu>Uložit</guimenu>. Ve "
+"výsledném okně <guimenu>Účty</guimenu> zkontrolujte, zda jsou všechny účty, "
+"které chcete použít, nastaveny na <guimenu>Povoleno</guimenu>. Chcete-li "
+"účet dočasně zakázat, zrušte výběr ve sloupci <guimenu>Povoleno</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:95
 msgid "Managing Contacts"
-msgstr ""
+msgstr "Správa kontaktů"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:97
@@ -144,11 +183,14 @@ msgid ""
 "<quote>Buddies</quote>). You can add and remove contacts and organize them "
 "in groups, so they are easy to find."
 msgstr ""
+"Pomocí <guimenu>Seznamu kontaktů</guimenu> můžete spravovat své kontakty ("
+"tzv. <quote>Kamarádi</quote>). Můžete přidat a odebrat kontakty a uspořádat "
+"je do skupin, aby je bylo možné snadno najít."
 
 #. (itstool) path: procedure/title
 #: xml/apps_pidgin.xml:104
 msgid "Adding Contacts"
-msgstr ""
+msgstr "Přidávání kontaktů"
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:106
@@ -156,12 +198,14 @@ msgid ""
 "To add a contact, click <menuchoice> <guimenu>Buddies</guimenu> <guimenu>Add "
 "Buddy</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li přidat kontakt, klikněte na <menuchoice> "
+"<guimenu>Kamarádi</guimenu> <guimenu>Přidat kamaráda</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:112
 msgid ""
 "Select the <guimenu>Account</guimenu> for which you want to add a contact."
-msgstr ""
+msgstr "Vyberte <guimenu>Účet</guimenu>, pro který chcete přidat kontakt."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:117
@@ -170,6 +214,9 @@ msgid ""
 "your contact for this name prior to adding the contact—this data is required "
 "and usually depends on the protocol."
 msgstr ""
+"Zadejte uživatelské jméno kontaktu do <guimenu>Uživatelské jméno "
+"kamaráda</guimenu>. Před přidáním kontaktu požádejte svůj kontakt o toto "
+"jméno - tato data jsou vyžadována a obvykle závisí na protokolu."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:124
@@ -179,6 +226,10 @@ msgid ""
 "contact with a custom name. With some protocols you can also send the "
 "contact an invite message with <guimenu>(Optional): Invite Message</guimenu>."
 msgstr ""
+"Ve výchozím nastavení je kontakt zobrazen pod jménem, které poskytl ke svému "
+"účtu. Pomocí <guimenu>(Volitelné): Alias</guimenu> zobrazte kontakt s "
+"vlastním jménem. U některých protokolů můžete kontaktu také odeslat zprávu s "
+"výzvou <guimenu>(Volitelné): Uvítací zpráva</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:132
@@ -186,11 +237,13 @@ msgid ""
 "If you have sorted your contacts by group, choose an existing group from the "
 "drop-down text box or enter a new group name."
 msgstr ""
+"Pokud jste kontakty seřadili podle skupiny, vyberte existující skupinu z "
+"rozevíracího pole nebo zadejte nový název skupiny."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:138
 msgid "Proceed with <guimenu>Add</guimenu>."
-msgstr ""
+msgstr "Pokračujte akcí <guimenu>Přidat</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:144
@@ -201,6 +254,12 @@ msgid ""
 "<guimenu>Offline Buddies</guimenu> and <guimenu>Empty Groups</guimenu> to "
 "make all contacts and groups appear in the <guimenu>Contact List</guimenu>."
 msgstr ""
+"V případě, že se skupiny nebo nově přidané kontakty nezobrazí v seznamu "
+"kontaktů, zkontrolujte předvolby zobrazení kliknutím na <menuchoice> "
+"<guimenu>Kamarádi</guimenu> <guimenu>Zobrazit</guimenu> </menuchoice>. "
+"Aktivujte <guimenu>Kamarádi offline</guimenu> a <guimenu>Prázdné "
+"skupiny</guimenu>, aby se všechny kontakty a skupiny zobrazily v <guimenu>"
+"Seznamu kontaktů</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:153
@@ -208,11 +267,13 @@ msgid ""
 "To remove a contact from the list, right-click the name of that contact, "
 "select <guimenu>Remove</guimenu> and confirm your choice."
 msgstr ""
+"Chcete-li odebrat kontakt ze seznamu, klepněte pravým tlačítkem myši na jeho "
+"jméno, vyberte <guimenu>Odstranit</guimenu> a potvrďte svůj výběr."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:159
 msgid "Chatting with Friends"
-msgstr ""
+msgstr "Chatování (plkání) s přáteli"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:161
@@ -223,6 +284,11 @@ msgid ""
 "To change your status, click the drop-down box at the bottom of the "
 "<guimenu>Contact List</guimenu> and select another option."
 msgstr ""
+"Chcete-li chatovat s ostatními účastníky, musíte být připojeni k internetu. "
+"Po úspěšném přihlášení jste obvykle označeni jako <guimenu>Dostupný</guimenu>"
+" v <guimenu>Seznamu kontaktů</guimenu> a ostatní jsou viditelní. Chcete-li "
+"změnit svůj stav, klikněte na rozbalovací pole v dolní části <guimenu>"
+"Seznamu kontaktů</guimenu> a vyberte jinou možnost."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:169
@@ -231,6 +297,9 @@ msgid ""
 "List</guimenu>. The chat screen opens. Type your message, then press <keycap "
 "function=\"enter\"/> to send."
 msgstr ""
+"Chcete-li otevřít relaci chatu, dvakrát klikněte na jméno kontaktu v "
+"<guimenu>Seznamu kontaktů</guimenu>. Otevře se obrazovka chatu. Napište "
+"zprávu a poté stiskněte <keycap function=\"enter\"/> pro odeslání."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:175
@@ -241,16 +310,20 @@ msgid ""
 "by side, use the mouse to drag a tab out of the window. A second window will "
 "open."
 msgstr ""
+"Pokud otevřete více než jednu relaci chatu, nová relace se zobrazí jako "
+"karta v existujícím okně chatu. Chcete-li zobrazit všechny zprávy relace a "
+"napsat odpověď, klikněte na kartu této relace. Chcete-li zobrazit více "
+"relací vedle sebe, přetáhněte kartu z okna myší. Otevře se druhé okno."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:183
 msgid "To close a chat session, close the tab or window for it."
-msgstr ""
+msgstr "Chcete-li relaci chatu zavřít, zavřete pro ni kartu nebo okno."
 
 #. (itstool) path: tip/title
 #: xml/apps_pidgin.xml:188
 msgid "Finding a Contact"
-msgstr ""
+msgstr "Nalezení kontaktu"
 
 #. (itstool) path: tip/para
 #: xml/apps_pidgin.xml:189
@@ -261,11 +334,17 @@ msgid ""
 "letters to find a contact. Use <keycap function=\"down\"/> to move to the "
 "next result, or <keycap function=\"up\"/> to move to the previous result."
 msgstr ""
+"V případě, že je seznam kontaktů velmi dlouhý, je obtížné najít kontakty. "
+"Pomocí <keycombo> <keycap function=\"control\"/> <keycap>F</keycap> "
+"</keycombo> otevřete vyhledávací pole v dolní části seznamu kontaktů. "
+"Zadejte jedno nebo více písmen a vyhledejte kontakt. Pomocí <keycap function="
+"\"down\"/> přejděte na další výsledek, nebo <keycap function=\"up\"/> "
+"přejděte na předchozí výsledek."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:200
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:202
@@ -274,6 +353,10 @@ msgid ""
 "Pidgin. For more information, click <menuchoice> <guimenu>Help</guimenu> "
 "<guimenu>Online Help</guimenu> </menuchoice> to open the FAQs in a browser."
 msgstr ""
+"Tato kapitola vysvětluje pouze základní konfiguraci a možnosti použití "
+"programu Pidgin. Další informace získáte kliknutím na <menuchoice> "
+"<guimenu>Nápověda</guimenu> <guimenu>Online nápověda</guimenu> </menuchoice> "
+"a otevřete Často kladené otázky (FAQ) v prohlížeči."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:207
@@ -281,3 +364,5 @@ msgid ""
 "For updates about new features and for the latest information, refer to the "
 "home page of the project at <link xlink:href=\"https://pidgin.im/\"/>."
 msgstr ""
+"Aktualizace nových funkcí a nejnovější informace najdete na domovské stránce "
+"projektu na <link xlink:href=\"https://pidgin.im/\"/>."
