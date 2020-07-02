@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_librecalc-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_librecalc.xml:8
 msgid "LibreOffice Calc"
-msgstr ""
+msgstr "LibreOffice Calc"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_librecalc.xml:12
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/apps_librecalc.xml:15
@@ -37,6 +41,13 @@ msgid ""
 "present it graphically. Using pivot tables, you can combine, analyze or "
 "compare larger amounts of data."
 msgstr ""
+"Calc je modul tabulkového procesoru LibreOffice. Tabulky se skládají z "
+"několika listů, které obsahují buňky, které lze vyplnit prvky, jako je text, "
+"čísla nebo vzorce. Vzorec může manipulovat s daty z jiných buněk, aby "
+"vygeneroval hodnotu pro buňku, do které je vložen. Calc také umožňuje "
+"definovat rozsahy, filtrovat a třídit data, vytvářet z dat grafy a "
+"prezentovat je. Pomocí kontingenčních tabulek můžete kombinovat, analyzovat "
+"nebo porovnávat větší množství dat."
 
 #. (itstool) path: chapter/para
 #: xml/apps_librecalc.xml:24
@@ -45,11 +56,14 @@ msgid ""
 "information and for complete instructions, see the LibreOffice application "
 "help and the sources listed in <xref linkend=\"sec.oo.oview.help\"/>."
 msgstr ""
+"Tato kapitola může představit pouze některé nejzákladnější funkce Calc. "
+"Další informace a úplné pokyny naleznete v nápovědě k aplikaci LibreOffice a "
+"ve zdrojích uvedených v <xref linkend=\"sec.oo.oview.help\"/>."
 
 #. (itstool) path: note/title
 #: xml/apps_librecalc.xml:30
 msgid "VBA Macros"
-msgstr ""
+msgstr "Makra VBA"
 
 #. (itstool) path: note/para
 #: xml/apps_librecalc.xml:31
@@ -58,21 +72,24 @@ msgid ""
 "VBA macros is not complete. When opening an Excel spreadsheet that makes "
 "heavy use of macros, you might discover that some do not work."
 msgstr ""
+"Aplikace Calc dokáže zpracovat mnoho maker VBA v dokumentech aplikace Excel. "
+"Podpora maker VBA však není úplná. Při otevírání tabulky aplikace Excel, "
+"která intenzivně využívá makra, můžete zjistit, že některá nefungují."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:38
 msgid "Creating a New Document"
-msgstr ""
+msgstr "Vytvoření nového dokumentu"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:40
 msgid "There are two ways to create a new Calc document:"
-msgstr ""
+msgstr "Nový dokument Calc můžete vytvořit dvěma způsoby:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librecalc.xml:47
 msgid "From Scratch"
-msgstr ""
+msgstr "Od nuly"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librecalc.xml:48
@@ -80,11 +97,14 @@ msgid ""
 "To create a new empty document, click <menuchoice> <guimenu>File</guimenu> "
 "<guimenu>New</guimenu> <guimenu>Spreadsheet</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li vytvořit nový prázdný dokument, klikněte na <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Nový</guimenu> <guimenu>Tabulka</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librecalc.xml:57
 msgid "From a Template"
-msgstr ""
+msgstr "Ze šablony"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librecalc.xml:58
@@ -95,6 +115,11 @@ msgid ""
 "template from the list and proceed with <guimenu>Open</guimenu>. Note that "
 "by default, LibreOffice does not ship with predefined templates for Calc."
 msgstr ""
+"Chcete-li použít šablonu, klikněte na <menuchoice> <guimenu>Soubor</guimenu> "
+"<guimenu>Nový</guimenu> <guimenu>Šablony</guimenu> </menuchoice> a nastavte "
+"<guimenu>Filtr</guimenu> na <guimenu>Tabulky</guimenu>. Vyberte šablonu ze "
+"seznamu a pokračujte klávesou <guimenu>Otevřít</guimenu>. Ve výchozím "
+"nastavení se LibreOffice nedodává s předdefinovanými šablonami pro Calc."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:70
@@ -102,6 +127,8 @@ msgid ""
 "Access the individual sheets by clicking their respective tabs at the bottom "
 "of the window."
 msgstr ""
+"Přístup k jednotlivým listům získáte kliknutím na příslušné karty ve spodní "
+"části okna."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:75
@@ -112,11 +139,17 @@ msgid ""
 "linkend=\"sec.oo.calc.styles\"/>. Use the <guimenu>File</guimenu> menu or "
 "the relevant buttons in the toolbar to print and save your document."
 msgstr ""
+"Podle potřeby zadejte data do buněk. Chcete-li upravit vzhled, použijte buď "
+"panel nástrojů <guimenu>Formátování</guimenu> nebo postranní panel, nebo "
+"použijte menu <guimenu>Formát</guimenu> - nebo definujte styly, jak je "
+"popsáno v <xref linkend=\"sec.oo. calc.styles\"/>. Chcete-li dokument "
+"vytisknout a uložit, použijte nabídku <guimenu>Soubor</guimenu> nebo "
+"příslušná tlačítka na panelu nástrojů."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:84
 msgid "Using Formatting and Styles in Calc"
-msgstr ""
+msgstr "Použití formátování a stylů v aplikaci Calc"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:86
@@ -126,11 +159,15 @@ msgid ""
 "are adequate for many uses, you will probably find it useful to create "
 "styles for your own frequently used formatting preferences."
 msgstr ""
+"Calc obsahuje několik vestavěných stylů buněk a stránek, které zlepšují "
+"vzhled tabulek a sestav. Přestože tyto vestavěné styly jsou vhodné pro mnohá "
+"použití, pravděpodobně bude užitečné vytvořit styly pro vaše vlastní často "
+"používané předvolby formátování."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:94
 msgid "Creating a Style"
-msgstr ""
+msgstr "Vytvoření stylu"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:96
@@ -139,6 +176,9 @@ msgid ""
 "<guimenu>Styles and Formatting</guimenu> </menuchoice> or press <keycap>F11</"
 "keycap>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Formát</guimenu> <guimenu>Styly</guimenu> "
+"<guimenu>Styly a formátování</guimenu> </menuchoice>, nebo stiskněte "
+"<keycap>F11</keycap>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:103 xml/apps_librecalc.xml:137
@@ -147,6 +187,9 @@ msgid ""
 "either <guimenu>Cell Styles</guimenu> (a green cell) or <guimenu>Page "
 "Styles</guimenu> (a document)."
 msgstr ""
+"V horní části panelu <guimenu>Styly a formátování</guimenu> klikněte na "
+"<guimenu>Styly buněk</guimenu> (zelená buňka) nebo <guimenu>Styly "
+"stránek</guimenu> (dokument)."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:110
@@ -154,6 +197,8 @@ msgid ""
 "Right-click anywhere in the list of styles in the panel <guimenu>Styles and "
 "Formatting</guimenu>. Then click <guimenu>New</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši kdekoli v seznamu stylů na panelu <guimenu>"
+"Styly a formátování</guimenu>. Potom klikněte na <guimenu>Nový</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:116
@@ -161,16 +206,18 @@ msgid ""
 "Specify a name for the style and use the various tabs to set the desired "
 "formatting options."
 msgstr ""
+"Zadejte název stylu a v různých záložkách nastavte požadované možnosti "
+"formátování."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:122 xml/apps_librecalc.xml:155
 msgid "When you are done configuring the style, click <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Když dokončíte konfiguraci stylu, klikněte na <guimenu>OK</guimenu>."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:129
 msgid "Modifying a Style"
-msgstr ""
+msgstr "Úprava stylu"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:131
@@ -178,6 +225,8 @@ msgid ""
 "Click <menuchoice> <guimenu>Format</guimenu> <guimenu>Styles</guimenu> "
 "<guimenu>Styles and Formatting</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Formát</guimenu> <guimenu>Styly</guimenu> "
+"<guimenu>Styly a formátování</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:144
@@ -185,11 +234,13 @@ msgid ""
 "Right-click the name of the style you want to change, then click "
 "<guimenu>Modify</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši na název stylu, který chcete změnit, a potom "
+"klepněte na příkaz <guimenu>Upravit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:150
 msgid "Change the desired formatting options."
-msgstr ""
+msgstr "Změňte možnosti formátování na požadované."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:161
@@ -198,11 +249,14 @@ msgid ""
 "Then double-click the style you want to apply in the <guimenu>Styles and "
 "Formatting</guimenu> window."
 msgstr ""
+"Chcete-li použít styl na konkrétní buňky, vyberte buňky, které chcete "
+"formátovat. Poté v okně <guimenu>Styly a formátování</guimenu> poklepejte na "
+"styl, který chcete použít."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:168
 msgid "Working With Sheets"
-msgstr ""
+msgstr "Práce s listy"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:170
@@ -211,6 +265,9 @@ msgid ""
 "have a business, accounting might be much clearer if you create a sheet for "
 "each month."
 msgstr ""
+"Listy jsou dobrou metodou pro organizaci vašich výpočtů. Pokud například "
+"podnikáte, účetnictví může být mnohem jasnější, když vytvoříte list pro "
+"každý měsíc."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:176
@@ -218,6 +275,8 @@ msgid ""
 "To insert a new sheet after the last sheet, click the button <guimenu>+</"
 "guimenu> next to the sheet tabs."
 msgstr ""
+"Chcete-li vložit nový list za poslední list, klikněte na tlačítko "
+"<guimenu>+</guimenu> vedle záložek listů."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:181
@@ -225,11 +284,13 @@ msgid ""
 "To insert one or more new sheets into your spreadsheet from a file or at a "
 "specific position at once, do the following:"
 msgstr ""
+"Chcete-li do tabulky vložit jeden nebo více nových listů ze souboru nebo na "
+"určité místo najednou, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:187
 msgid "Inserting New Sheets"
-msgstr ""
+msgstr "Vkládání nových listů"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:189
@@ -237,13 +298,15 @@ msgid ""
 "Right-click a sheet tab and select <guimenu>Insert Sheet</guimenu>. A dialog "
 "opens."
 msgstr ""
+"Klepněte pravým tlačítkem myši na záložku listu a vyberte <guimenu>Vložit "
+"list</guimenu>. Otevře se dialog."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:195
 msgid ""
 "Decide whether the new sheet should be positioned before or after the "
 "selected sheet."
-msgstr ""
+msgstr "Rozhodněte, zda má být nový list umístěn před nebo za vybraným listem."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:201
@@ -252,17 +315,22 @@ msgid ""
 "button is activated. Enter the number of sheets and the sheet name. Skip the "
 "rest of this step."
 msgstr ""
+"Chcete-li vytvořit nový list, ujistěte se, že je aktivován přepínač <guimenu>"
+"Nový list</guimenu>. Zadejte počet listů a název listu. Přeskočte zbytek "
+"tohoto kroku."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:206
 msgid "Alternatively, to import a sheet from another file, do the following:"
-msgstr ""
+msgstr "Chcete-li importovat list z jiného souboru, proveďte toto:"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:211
 msgid ""
 "Select <guimenu>From file</guimenu> and click <guimenu>Browse</guimenu>."
 msgstr ""
+"Vyberte <guimenu>Ze souboru</guimenu> a klikněte na "
+"<guimenu>Procházet</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:216
@@ -270,6 +338,8 @@ msgid ""
 "Select the file name and confirm with <guimenu>OK</guimenu>. All the sheet "
 "names are now displayed in the list."
 msgstr ""
+"Vyberte název souboru a potvrďte pomocí <guimenu>OK</guimenu>. Všechny názvy "
+"listů jsou nyní zobrazeny v seznamu."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:222
@@ -277,11 +347,14 @@ msgid ""
 "Select the sheet names you want to import by holding the <keycap function="
 "\"shift\"/> key and clicking them."
 msgstr ""
+"Vyberte názvy listů, které chcete importovat, podržením klávesy <keycap "
+"function=\"shift\"/> a kliknutím na ně."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:230
 msgid "To add the sheet or sheets, confirm with <guimenu>OK</guimenu>."
 msgstr ""
+"Chcete-li přidat list nebo listy, potvrďte pomocí <guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:236
@@ -290,6 +363,9 @@ msgid ""
 "<guimenu>Rename Sheet</guimenu>. Alternatively, you can also double-click "
 "the sheet tab."
 msgstr ""
+"Chcete-li list přejmenovat, klepněte pravým tlačítkem myši na záložku listu "
+"a vyberte <guimenu>Přejmenovat list</guimenu>. Případně můžete také poklepat "
+"na záložku listu."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:242
@@ -300,11 +376,16 @@ msgid ""
 "sheet, choose <guimenu>Delete Sheet</guimenu> and confirm with <guimenu>Yes</"
 "guimenu>."
 msgstr ""
+"Chcete-li odstranit jeden nebo více listů, postupujte takto: Vyberte list, "
+"který chcete odstranit. Chcete-li vybrat více než jeden list, při výběru "
+"držte stisknuté tlačítko <keycap function=\"shift\"/>. Poté klepněte pravým "
+"tlačítkem myši na kartu listu, vyberte <guimenu>Odstranit list</guimenu> a "
+"potvrďte <guimenu>Ano</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:251
 msgid "Conditional Formatting"
-msgstr ""
+msgstr "Podmíněné formátování"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:253
@@ -314,11 +395,15 @@ msgid ""
 "<literal>true</literal>, a style is applied to each cell that fulfills this "
 "condition."
 msgstr ""
+"Podmíněné formátování je užitečná funkce pro zvýraznění určitých hodnot v "
+"tabulce. Například definujte podmínku a pokud je pravdivá "
+"(<literal>true</literal>), použije se styl na každou buňku, která tuto "
+"podmínku splňuje."
 
 #. (itstool) path: note/title
 #: xml/apps_librecalc.xml:261
 msgid "Enable AutoCalculate"
-msgstr ""
+msgstr "Jak zapnout AutoCalculate"
 
 #. (itstool) path: note/para
 #: xml/apps_librecalc.xml:262
@@ -328,11 +413,15 @@ msgid ""
 "menuchoice>. You should see a check mark in front of <guimenu>AutoCalculate</"
 "guimenu>."
 msgstr ""
+"Před použitím podmíněného formátování vyberte <menuchoice> "
+"<guimenu>Nástroje</guimenu> <guimenu>Obsah buňky</guimenu> "
+"<guimenu>AutoCalculate</guimenu> </menuchoice>. Před "
+"<guimenu>AutoCalculate</guimenu> byste měli vidět zaškrtnutí."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:271
 msgid "Using Conditional Formatting"
-msgstr ""
+msgstr "Použití podmíněného formátování"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:273
@@ -343,11 +432,17 @@ msgid ""
 "<keycap>F11</keycap>. For more information, see <xref linkend=\"pro.oo.calc."
 "createstyle\"/>. Confirm with <guimenu>OK</guimenu>."
 msgstr ""
+"Nejprve definujte styl. Tento styl se aplikuje na každou buňku, když je "
+"podmínka pravdivá (<literal>true</literal>). Použijte <menuchoice> "
+"<guimenu>Formát</guimenu> <guimenu>Styly a formátování</guimenu> "
+"</menuchoice> nebo stiskněte klávesu <keycap>F11</keycap>. Další informace "
+"viz <xref linkend=\"pro.oo.calc.createstyle\"/>. Potvrďte pomocí "
+"<guimenu>OK</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:283
 msgid "Select the cell range where you want to apply your condition."
-msgstr ""
+msgstr "Vyberte oblast buněk, ve které chcete použít svou podmínku."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:288
@@ -356,6 +451,9 @@ msgid ""
 "Formatting</guimenu> <guimenu>Condition</guimenu> </menuchoice> from the "
 "menu. A dialog opens."
 msgstr ""
+"V nabídce vyberte <menuchoice> <guimenu>Formát</guimenu> <guimenu>Podmíněné "
+"formátování</guimenu> <guimenu>Podmínka</guimenu> </menuchoice>. Otevře se "
+"dialog."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:295
@@ -363,11 +461,13 @@ msgid ""
 "You now see a template for a new condition. Conditions can operate in "
 "multiple modes:"
 msgstr ""
+"Nyní uvidíte šablonu pro novou podmínku. Podmínky mohou fungovat ve více "
+"režimech:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:301
 msgid "<guimenu>Cell value is</guimenu>"
-msgstr ""
+msgstr "<guimenu>Hodnota buňky je</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:304
@@ -376,32 +476,37 @@ msgid ""
 "drop-down box, select an operator such as <guimenu>equal to</guimenu>, "
 "<guimenu>less than</guimenu>, or <guimenu>greater than</guimenu>."
 msgstr ""
+"Podmínka testuje, zda obsah buňky odpovídá určité hodnotě. Vedle prvního "
+"rozbalovacího seznamu vyberte operátor, například <guimenu>rovno</guimenu>, "
+"<guimenu>menší než</guimenu> nebo <guimenu>větší než</guimenu>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:313
 msgid "<guimenu>Formula is</guimenu>"
-msgstr ""
+msgstr "<guimenu>Vzorec je</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:316
 msgid ""
 "The condition tests if a certain formula returns <literal>true</literal>."
 msgstr ""
+"Podmínka otestuje, zda určitý vzorec vrací pravdivý stav "
+"(<literal>true</literal>)."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:323
 msgid "<guimenu>Date is</guimenu>"
-msgstr ""
+msgstr "<guimenu>Datum je</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:326
 msgid "The condition tests if a certain date value is reached."
-msgstr ""
+msgstr "Podmínka testuje, zda je dosaženo určité hodnoty data."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:332
 msgid "<guimenu>All Cells</guimenu>"
-msgstr ""
+msgstr "<guimenu>Všechny buňky</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:335
@@ -411,6 +516,10 @@ msgid ""
 "<guimenu>All Cells</guimenu>, you can use one condition to apply an entire "
 "range of styles."
 msgstr ""
+"Tento režim umožňuje vytvářet vizualizace dat, které závisí na hodnotě "
+"buňky, podobně jako hodnota <guimenu>Hodnota buňky je</guimenu>. V případě "
+"<guimenu>Všechny buňky</guimenu> však můžete použít jednu podmínku k použití "
+"celé řady stylů."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:341
@@ -419,6 +528,8 @@ msgid ""
 "color), data bars (bars with changing width in the cell) and icon sets (an "
 "icon in the cell)."
 msgstr ""
+"Typy stylů, které lze použít, jsou barevné škály (barva pozadí buňky), "
+"datové pruhy (pruhy se změnou šířky v buňce) a sady ikon (ikona v buňce)."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:346
@@ -428,16 +539,20 @@ msgid ""
 "between are calculated automatically. For example, <literal>50</literal> "
 "receives a dark green background."
 msgstr ""
+"Například barevná stupnice umožňuje přiřadit <literal>0</literal> černé "
+"pozadí a <literal>100</literal> zelené pozadí. Všechny hodnoty mezi se "
+"vypočítají automaticky. Například <literal>50</literal> dostává tmavozelené "
+"pozadí."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:357
 msgid "For this example, keep the default: <guimenu>Cell value is</guimenu>."
-msgstr ""
+msgstr "V tomto příkladu ponechte výchozí: <guimenu>Hodnota buňky je</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:362
 msgid "Select an operator and the value of the cell you want to test for."
-msgstr ""
+msgstr "Vyberte operátor a hodnotu buňky, kterou chcete testovat."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:367
@@ -445,6 +560,9 @@ msgid ""
 "Choose the style you want to apply when this condition is <literal>true</"
 "literal> or click <guimenu>New Style</guimenu> to define a new appearance."
 msgstr ""
+"Vyberte styl, který chcete použít, když je tato podmínka pravdivá "
+"(<literal>true</literal>), nebo kliknutím na <guimenu>New Style</guimenu> "
+"definujte nový vzhled."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:374
@@ -452,17 +570,21 @@ msgid ""
 "If you need additional conditions, click <guimenu>Add</guimenu>. Then repeat "
 "the previous steps."
 msgstr ""
+"Potřebujete-li další podmínky, klikněte na <guimenu>Přidat</guimenu>. Pak "
+"opakujte předchozí kroky."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:380
 msgid ""
 "Confirm with <guimenu>OK</guimenu>. Now the style of your cells has changed."
 msgstr ""
+"Potvrďte pomocí <guimenu>OK</guimenu>. Až nyní se změní styl vyhovujících "
+"buněk."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:393
 msgid "Grouping and Ungrouping Cells"
-msgstr ""
+msgstr "Seskupování a vyčleňování buněk"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:395
@@ -472,21 +594,25 @@ msgid ""
 "currently interested in. It is possible to group rows or columns and nest "
 "groups in other groups."
 msgstr ""
+"Seskupení rozsahu buněk umožňuje skrýt části tabulky. Díky tomu jsou tabulky "
+"čitelnější, protože můžete skrýt všechny části, které vás momentálně "
+"nezajímají. Je možné seskupovat řádky nebo sloupce a skupiny vnořit do "
+"jiných skupin."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:402
 msgid "To group a range, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li seskupit rozsah, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:407
 msgid "Grouping a Selected Cell Range"
-msgstr ""
+msgstr "Seskupení vybraného rozsahu buněk"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:409
 msgid "Select a cell range in your spreadsheet."
-msgstr ""
+msgstr "Vyberte rozsah buněk v tabulce."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:414
@@ -494,6 +620,8 @@ msgid ""
 "Select <menuchoice> <guimenu>Data</guimenu> <guimenu>Group and Outline</"
 "guimenu> <guimenu>Group</guimenu> </menuchoice>. A dialog appears."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Data</guimenu> <guimenu>Skupina a "
+"Obrys</guimenu> <guimenu>Skupina</guimenu> </menuchoice>. Zobrazí se dialog."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:421
@@ -501,6 +629,8 @@ msgid ""
 "Decide if you want to group your selected range by rows or by columns. "
 "Confirm with <guimenu>OK</guimenu>."
 msgstr ""
+"Rozhodněte se, zda chcete seskupit vybraný rozsah podle řádků nebo sloupců. "
+"Potvrďte pomocí <guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:428
@@ -510,6 +640,10 @@ msgid ""
 "<guimenu>+</guimenu> and <guimenu>–</guimenu> icons. The numbers at the top "
 "left of the margins display the depth of your groups and can be clicked too."
 msgstr ""
+"Po seskupení vybraných buněk se v levém horním okraji objeví čára označující "
+"seskupený rozsah buněk. Pomocí ikon <guimenu>+</guimenu> a "
+"<guimenu>-</guimenu> složte nebo rozložte oblast buněk. Čísla v levém horním "
+"rohu okrajů zobrazují hloubku vašich skupin a lze na ně také kliknout."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:435
@@ -519,11 +653,15 @@ msgid ""
 "guimenu> <guimenu>Ungroup</guimenu> </menuchoice>. The line in the margin "
 "disappears. The innermost group is always deleted first."
 msgstr ""
+"Chcete-li rozdělit oblast buněk, klikněte do buňky, která patří do skupiny, "
+"a vyberte <menuchoice> <guimenu>Data</guimenu> <guimenu>Skupina a "
+"obrys</guimenu> <guimenu>Oddělit</guimenu> </menuchoice> . Řádek na okraji "
+"zmizí. Nejvnitřnější skupina je vždy odstraněna nejprve."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:443
 msgid "Freezing Rows or Columns as Headers"
-msgstr ""
+msgstr "Upevnění řádků nebo sloupců jako záhlaví"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:445
@@ -532,16 +670,19 @@ msgid ""
 "header disappear. LibreOffice can lock rows or columns or both, so they "
 "remain fixed as you scroll around."
 msgstr ""
+"Máte-li tabulku se spoustou dat, rolování obvykle způsobí, že záhlaví zmizí. "
+"LibreOffice může upevnit řádky nebo sloupce nebo obojí, takže při rolování "
+"zůstanou na místě."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:451
 msgid "To freeze a single row or a single column, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li zmrazit jeden řádek nebo jeden sloupec, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:456
 msgid "Freezing a Single Row or Column"
-msgstr ""
+msgstr "Upevnění jednoho řádku nebo sloupce"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:458
@@ -549,6 +690,8 @@ msgid ""
 "To create a frozen area before a row, click the header of the row "
 "(<literal>1</literal>, <literal>2</literal>, <literal>3</literal>, ...)."
 msgstr ""
+"Chcete-li vytvořit upevněnou oblast před řádkem, klikněte na záhlaví řádku "
+"(<literal>1</literal>, <literal>2</literal>, <literal>3</literal>, ...)."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:462
@@ -557,6 +700,9 @@ msgid ""
 "the column (<literal>A</literal>, <literal>B</literal>, <literal>C</"
 "literal>, ...)."
 msgstr ""
+"Chcete-li vytvořit upevněnou oblast nad sloupcem, klikněte na záhlaví "
+"sloupce (<literal>A</literal>, <literal>B</literal>, <literal>C</literal>, "
+"...)."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:469
@@ -565,16 +711,19 @@ msgid ""
 "Columns</guimenu> </menuchoice>. A dark line appears, indicating the frozen "
 "area."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Zobrazit</guimenu> <guimenu>Ukotvit řádky a "
+"sloupce</guimenu> </menuchoice>. Objeví se tmavá čára označující pevnou "
+"oblast."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:477
 msgid "It is also possible to freeze both rows and columns:"
-msgstr ""
+msgstr "Lze také upevnit řádky i sloupce:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:482
 msgid "Freezing Row and Column"
-msgstr ""
+msgstr "Ukotvení řádku a sloupce"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:484
@@ -583,6 +732,8 @@ msgid ""
 "frozen. For example, if your header occupies the space from A1 to B3, click "
 "cell C4."
 msgstr ""
+"Klikněte do buňky napravo od sloupce a pod řádkem, který chcete ukotvit. "
+"Pokud například záhlaví zabírá místo od A1 do B3, klikněte na buňku C4."
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:491
@@ -591,6 +742,9 @@ msgid ""
 "Columns</guimenu></menuchoice>. A dark line appears, indicating which area "
 "is frozen."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Zobrazit</guimenu> <guimenu>Ukotvit řádky a "
+"sloupce</guimenu> </menuchoice>. Objeví se tmavá čára označující ukotvenou "
+"oblast."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:499
@@ -599,3 +753,6 @@ msgid ""
 "and Columns</guimenu></menuchoice>. The check mark before the menu item "
 "disappears."
 msgstr ""
+"Chcete-li uvolnit upevnění, vyberte <menuchoice> <guimenu>Zobrazit</guimenu> "
+"<guimenu>Ukotvit řádky a sloupce</guimenu> </menuchoice>. Zaškrtávací značka "
+"před položkou nabídky zmizí."
