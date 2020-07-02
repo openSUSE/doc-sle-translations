@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/audit_components-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/audit_components.xml:22
 msgid "Understanding Linux Audit"
-msgstr ""
+msgstr "Linux Audit - výklad"
 
 #. (itstool) path: abstract/para
 #: xml/audit_components.xml:25
@@ -33,6 +37,14 @@ msgid ""
 "examined to determine whether any violation of the security policies has "
 "been committed, and by whom."
 msgstr ""
+"Rámec pro audit systému Linux dodávaný s touto verzí systému <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> poskytuje auditovací systém "
+"kompatibilní s CAPP (Controlled Access Protection Profiles), který "
+"spolehlivě shromažďuje informace o jakékoli události související s "
+"bezpečností. Auditní záznamy mohou být prozkoumány, aby se zjistilo, zda "
+"došlo k jakémukoli porušení bezpečnostních zásad a kým."
 
 #. (itstool) path: abstract/para
 #: xml/audit_components.xml:33
@@ -44,6 +56,13 @@ msgid ""
 "evaluations. Common Criteria helps customers judge the security level of any "
 "IT product they intend to deploy in mission-critical setups."
 msgstr ""
+"Poskytování auditního rámce je důležitým požadavkem pro certifikaci CC-CAPP/"
+"EAL (Common Criteria-Controlled Access Protection Profiles/Evaluation "
+"Assurance Level). Společná kritéria (Common Criteria, CC) pro informace o "
+"bezpečnosti informačních technologií je mezinárodní standard pro nezávislá "
+"hodnocení bezpečnosti. Společná kritéria pomáhají zákazníkům posoudit úroveň "
+"zabezpečení jakéhokoli produktu IT, který hodlají nasadit do kritických "
+"sestav."
 
 #. (itstool) path: abstract/para
 #: xml/audit_components.xml:42
@@ -58,6 +77,15 @@ msgid ""
 "Examples for activities of this kind include documenting the developers' "
 "search for security vulnerabilities, the patch process, and testing."
 msgstr ""
+"Hodnocení bezpečnosti podle společných kritérií mají dvě sady požadavků na "
+"hodnocení, funkční a záruční požadavky. Funkční požadavky popisují "
+"bezpečnostní atributy hodnoceného produktu a jsou shrnuty pod profily CAPP ("
+"Controlled Access Protection Profiles). Požadavky na zaručení jsou shrnuty v "
+"části Úroveň zajištění hodnocení (Evaluation Assurance Level, EAL). EAL "
+"popisuje veškeré činnosti, které musí hodnotitelé provést, aby si byli "
+"jistí, že bezpečnostní atributy jsou přítomné, efektivní a implementované. "
+"Mezi příklady aktivit tohoto druhu patří dokumentace vývojářů o hledání "
+"bezpečnostních zranitelností, proces opravy a testování."
 
 #. (itstool) path: abstract/para
 #: xml/audit_components.xml:54
@@ -67,6 +95,10 @@ msgid ""
 "xlink:href=\"https://www.commoncriteriaportal.org/\">the Common Criteria Web "
 "site</link>."
 msgstr ""
+"Tato příručka poskytuje základní pochopení toho, jak audit funguje a jak jej "
+"lze nastavit. Další informace o samotných Common Criteria naleznete na <link "
+"xlink:href=\"https://www.commoncriteriaportal.org/\">Common Criteria "
+"Web</link>."
 
 #. (itstool) path: chapter/para
 #: xml/audit_components.xml:66
@@ -78,6 +110,12 @@ msgid ""
 "tracking these issues and helps you take additional security measures, like "
 "<phrase>AppArmor</phrase>, to prevent them."
 msgstr ""
+"Linuxový audit pomáhá zvýšit bezpečnost vašeho systému poskytnutím "
+"prostředků k podrobné analýze toho, co se ve vašem systému děje. Neposkytuje "
+"však sám o sobě další zabezpečení - nechrání váš systém před chybnými "
+"funkcemi kódu nebo jakýmkoli druhem zneužití. Audit je však užitečný pro "
+"sledování těchto problémů a pomáhá vám podniknout další bezpečnostní "
+"opatření, například nasazení <phrase>AppArmor</phrase>, abyste jim zabránili."
 
 #. (itstool) path: chapter/para
 #: xml/audit_components.xml:74
@@ -89,16 +127,22 @@ msgid ""
 "Various command line utilities take care of displaying, querying, and "
 "archiving the audit trail."
 msgstr ""
+"Audit se skládá z několika složek, z nichž každá přispívá k celkovému rámci "
+"zásadní funkčnosti. Modul jádra auditu zachycuje systémová volání a "
+"zaznamenává příslušné události. Démon <systemitem class=\"daemon\""
+">auditd</systemitem> zapisue zprávy o auditu na disk. Různé utility "
+"příkazového řádku se starají o zobrazení, dotazování a archivaci revizního "
+"záznamu."
 
 #. (itstool) path: chapter/para
 #: xml/audit_components.xml:82
 msgid "Audit enables you to do the following:"
-msgstr ""
+msgstr "Audit umožňuje provádět následující akce:"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:87
 msgid "Associate Users with Processes"
-msgstr ""
+msgstr "Přidružovat uživatele k procesům"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:89
@@ -108,11 +152,14 @@ msgid ""
 "user owns which process and is potentially doing malicious operations on the "
 "system."
 msgstr ""
+"Audit mapuje procesy na ID uživatele, který je spustil. To umožňuje správci "
+"nebo bezpečnostnímu důstojníkovi přesně sledovat, který uživatel vlastní "
+"daný proces a možná provádí škodlivé operace v systému."
 
 #. (itstool) path: important/title
 #: xml/audit_components.xml:96
 msgid "Renaming User IDs"
-msgstr ""
+msgstr "Pozor na přejmenování uživatelských ID"
 
 #. (itstool) path: important/para
 #: xml/audit_components.xml:97
@@ -124,11 +171,17 @@ msgid ""
 "command> data (audit rules) and would have problems retrieving old data "
 "correctly."
 msgstr ""
+"Audit neobsluhuje přejmenování UID. Proto se vyhněte přejmenování UID ("
+"například změny <literal>tux</literal> z <literal>uid=1001</literal> na "
+"<literal>uid=2000</literal>) a nechte UID raději zastarat než ho "
+"přejmenovat. V opačném případě budete muset změnit data "
+"<command>auditctl</command> (pravidla auditu) a měli byste problémy se "
+"správným načtením starých dat."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:109
 msgid "Review the Audit Trail"
-msgstr ""
+msgstr "Zkontrolovat stopu auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:111
@@ -136,11 +189,13 @@ msgid ""
 "Linux audit provides tools that write the audit reports to disk and "
 "translate them into human readable format."
 msgstr ""
+"Linux audit poskytuje nástroje, které zapisují zprávy o auditu na disk a "
+"převádějí je do formátu čitelného pro člověka."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:118
 msgid "Review Particular Audit Events"
-msgstr ""
+msgstr "Zkontrolujte konkrétní události auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:120
@@ -148,61 +203,63 @@ msgid ""
 "Audit provides a utility that allows you to filter the audit reports for "
 "certain events of interest. You can filter for:"
 msgstr ""
+"Audit poskytuje nástroj, který umožňuje filtrovat zprávy o auditu pro určité "
+"události, které nás zajímají. Můžete filtrovat:"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:126
 msgid "User"
-msgstr ""
+msgstr "Uživatel"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:131
 msgid "Group"
-msgstr ""
+msgstr "Skupina"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:136
 msgid "Audit ID"
-msgstr ""
+msgstr "ID auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:141
 msgid "Remote Host Name"
-msgstr ""
+msgstr "Název vzdáleného počítače"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:146
 msgid "Remote Host Address"
-msgstr ""
+msgstr "Adresa vzdáleného počítače"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:151
 msgid "System Call"
-msgstr ""
+msgstr "Volání systému"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:156
 msgid "System Call Arguments"
-msgstr ""
+msgstr "Argumenty volání systému"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:161
 msgid "File"
-msgstr ""
+msgstr "Soubor"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:166
 msgid "File Operations"
-msgstr ""
+msgstr "Operace se soubory"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:171
 msgid "Success or Failure"
-msgstr ""
+msgstr "Úspěch nebo selhání"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:179
 msgid "Apply a Selective Audit"
-msgstr ""
+msgstr "Aplikování selektivního auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:181
@@ -211,11 +268,15 @@ msgid ""
 "and to tune audit to record only selected events. You can create your own "
 "set of rules and have the audit daemon record only those of interest to you."
 msgstr ""
+"Audit poskytuje prostředky pro filtrování auditních zpráv pro události, "
+"které jsou předmětem zájmu, a pro vyladění auditu tak, aby zaznamenával "
+"pouze vybrané události. Můžete si vytvořit svůj vlastní soubor pravidel a "
+"nechat démona auditu zaznamenat pouze události, které vás zajímají."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:190
 msgid "Guarantee the Availability of the Report Data"
-msgstr ""
+msgstr "Zaručení dostupnosti dat sestavy"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:192
@@ -224,11 +285,15 @@ msgid ""
 "and therefore only removable by <systemitem class=\"username\">root</"
 "systemitem>. Unauthorized users cannot remove the audit logs."
 msgstr ""
+"Výkazy auditu jsou vlastněny superuživatelem <systemitem class=\"username\""
+">root</systemitem>, a proto je může odstranit pouze uživatel <systemitem "
+"class=\"username\">root</systemitem>. Neautorizovaní uživatelé nemohou "
+"protokoly auditu odebrat."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:199
 msgid "Prevent Audit Data Loss"
-msgstr ""
+msgstr "Zabránění ztrátě dat auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:201
@@ -240,6 +305,12 @@ msgid ""
 "synchronizing the latest logs to disk. The default configuration is to log a "
 "warning to syslog rather than to halt the system."
 msgstr ""
+"Dojde-li jádru paměť, auditnímu démonu dojde paměť pro záznam nebo je "
+"překročen limit jeho tempa, může audit spustit vypnutí systému, aby se "
+"zabránilo úniku kontroly nad událostmi. Toto vypnutí by znamenalo okamžité "
+"zastavení systému spuštěného komponentou jádra auditu bez synchronizace "
+"nejnovějších protokolů na disk. Výchozí konfigurace je protokolovat varování "
+"do syslogu, namísto zastavení systému."
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:210
@@ -248,12 +319,16 @@ msgid ""
 "configured to perform clean shutdown. The default configuration tells the "
 "audit daemon to stop logging when it runs out of disk space."
 msgstr ""
+"Pokud systém při protokolování vyčerpá místo na disku, lze auditní systém "
+"konfigurovat tak, aby provedl čisté vypnutí. Výchozí konfigurace říká "
+"démonovi auditu, aby zastavil protokolování, když je nedostatek místa na "
+"disku."
 
 #. (itstool) path: sect1/title
 #. (itstool) path: figure/title
 #: xml/audit_components.xml:219 xml/audit_components.xml:227
 msgid "Introducing the Components of Linux Audit"
-msgstr ""
+msgstr "Představujeme komponenty systému Linux Audit"
 
 #. (itstool) path: sect1/para
 #: xml/audit_components.xml:221
@@ -261,6 +336,7 @@ msgid ""
 "The following figure illustrates how the various components of audit "
 "interact with each other:"
 msgstr ""
+"Následující obrázek ukazuje, jak různé složky auditu vzájemně spolupracují:"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -270,7 +346,7 @@ msgstr ""
 #: xml/audit_components.xml:230
 msgctxt "_"
 msgid "external ref='audit_components.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='audit_components.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -280,7 +356,7 @@ msgstr ""
 #: xml/audit_components.xml:233
 msgctxt "_"
 msgid "external ref='audit_components.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='audit_components.svg' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/audit_components.xml:238
@@ -288,11 +364,13 @@ msgid ""
 "Straight arrows represent the data flow between components while dashed "
 "arrows represent lines of control between components."
 msgstr ""
+"Přímé šipky představují tok dat mezi součástmi, zatímco přerušované šipky "
+"představují řídicí spoje mezi součástmi."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:245
 msgid "auditd"
-msgstr ""
+msgstr "auditd"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:247
@@ -306,11 +384,18 @@ msgid ""
 "\">auditd</systemitem> and its configuration, refer to <xref linkend=\"sec."
 "audit.auditd\"/>."
 msgstr ""
+"Auditní démon (auditd) je zodpovědný za zápis auditních zpráv, které byly "
+"vygenerovány rozhraním jádra auditu a spuštěny aktivitou aplikace a systému "
+"na disk. Způsob spuštění auditního démona je řízen <systemitem class=\""
+"daemon\">systemd</systemitem>. Funkce auditního systému (při spuštění) jsou "
+"ovládány z <filename>/etc/audit/auditd.conf</filename>. Další informace o "
+"démonu <systemitem class=\"daemon\">auditd</systemitem> a jeho konfiguraci "
+"najdete v <xref linkend=\"sec.audit.auditd\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:260
 msgid "<command>auditctl</command>"
-msgstr ""
+msgstr "<command>auditctl</command>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:263
@@ -321,11 +406,15 @@ msgid ""
 "more information about <command>auditctl</command>, refer to <xref linkend="
 "\"sec.audit.auditctl\"/>."
 msgstr ""
+"Obslužný program <command>auditctl</command> řídí systém auditu - parametry "
+"generování protokolu, nastavení jádra kontrolního rozhraní a sady pravidel, "
+"které určují, které události jsou sledovány. Další informace o "
+"<command>auditctl</command> najdete v <xref linkend=\"sec.audit.auditctl\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:273
 msgid "audit rules"
-msgstr ""
+msgstr "pravidla auditu"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:275
@@ -335,11 +424,15 @@ msgid ""
 "immediately after the audit daemon is started. For more information about "
 "audit rules, refer to <xref linkend=\"sec.audit.rules\"/>."
 msgstr ""
+"Soubor <filename>/etc/audit/audit.rules</filename> obsahuje posloupnost "
+"příkazů <command>auditctl</command>, které jsou načteny v době spuštění "
+"systému ihned po spuštění démona auditu. Další informace o pravidlech auditu "
+"najdete v <xref linkend=\"sec.audit.rules\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:285
 msgid "aureport"
-msgstr ""
+msgstr "aureport"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:287
@@ -350,11 +443,16 @@ msgid ""
 "these results. For more information about <command>aureport</command>, refer "
 "to <xref linkend=\"sec.audit.aureport\"/>."
 msgstr ""
+"Obslužný program <command>aureport</command> vám umožňuje vytvářet vlastní "
+"zprávy z protokolu událostí auditu. Toto generování sestavy lze snadno "
+"skriptovat a výstup lze použít různými jinými aplikacemi, například pro "
+"vykreslení těchto výsledků. Další informace o <command>aureport</command> "
+"najdete v <xref linkend=\"sec.audit.aureport\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:298
 msgid "ausearch"
-msgstr ""
+msgstr "ausearch"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:300
@@ -364,11 +462,15 @@ msgid ""
 "format. For more information about <command>ausearch</command>, refer to "
 "<xref linkend=\"sec.audit.ausearch\"/>."
 msgstr ""
+"Obslužný program <command>ausearch</command> může v souboru protokolu auditu "
+"vyhledat určité události pomocí různých vzorků nebo jiných charakteristik "
+"protokolovaného formátu. Další informace o <command>ausearch</command> "
+"najdete v <xref linkend=\"sec.audit.ausearch\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:309
 msgid "audispd"
-msgstr ""
+msgstr "audispd"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:311
@@ -379,11 +481,16 @@ msgid ""
 "more information about <systemitem class=\"daemon\">audispd</systemitem>, "
 "refer to <xref linkend=\"sec.audit.audisp\"/>."
 msgstr ""
+"Dispečerský démon auditu (<systemitem class=\"daemon\">audispd</systemitem>) "
+"lze použít k přenosu oznámení událostí do jiných aplikací namísto (nebo "
+"navíc k) jejich zápisu na disk v protokolu auditu. Další informace o <"
+"systemitem class=\"daemon\">audispd</systemitem> najdete v <xref linkend=\""
+"sec.audit.audisp\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:322
 msgid "autrace"
-msgstr ""
+msgstr "autrace"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:324
@@ -394,11 +501,16 @@ msgid ""
 "about <command>autrace</command>, refer to <xref linkend=\"sec.audit.autrace"
 "\"/>."
 msgstr ""
+"Obslužný program <command>autrace</command> sleduje jednotlivé procesy "
+"podobným způsobem, jako <command>strace</command>. Výstup "
+"<command>autrace</command> je zaznamenán do protokolu auditu. Další "
+"informace o <command> autrace </command> najdete v <xref linkend=\"sec.audit."
+"autrace\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:334
 msgid "aulast"
-msgstr ""
+msgstr "aulast"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:336
@@ -408,11 +520,16 @@ msgid ""
 "the given audit log file) and displays a list of all users logged in and out "
 "based on the range of time in the audit logs."
 msgstr ""
+"Vytiskne seznam naposledy přihlášených uživatelů, podobně jako "
+"<command>last</command>; <command>aulast</command> zpětně prohledává "
+"protokoly auditu (nebo daný soubor protokolu auditu) a zobrazuje seznam "
+"všech přihlášených a odhlášených uživatelů na základě rozsahu času v "
+"protokolech auditu."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:346
 msgid "aulastlog"
-msgstr ""
+msgstr "aulastlog"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:348
@@ -421,11 +538,14 @@ msgid ""
 "<command>lastlog</command> does. The login name, port, and last login time "
 "will be printed."
 msgstr ""
+"Vytiskne poslední přihlášení pro všechny uživatele počítače podobně jako "
+"<command>lastlog</command>. Bude vytištěno přihlašovací jméno, port a čas "
+"posledního přihlášení."
 
 #. (itstool) path: sect1/title
 #: xml/audit_components.xml:358
 msgid "Configuring the Audit Daemon"
-msgstr ""
+msgstr "Konfigurace auditního démona"
 
 #. (itstool) path: sect1/para
 #: xml/audit_components.xml:360
@@ -440,6 +560,15 @@ msgid ""
 "should suffice. For CAPP environments, most of these parameters need "
 "tweaking. The following list briefly introduces the parameters available:"
 msgstr ""
+"Než budete moci skutečně začít generovat protokoly auditu a zpracovávat je, "
+"nakonfigurujte samotný démon auditu. Konfigurační soubor <filename>/etc/"
+"audit/auditd.conf</filename> určuje, jak auditovací systém funguje při "
+"spuštění démona. Ve většině případů jsou výchozí nastavení dodaná s <phrase "
+"role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> postačující. V prostředích CAPP "
+"vyžaduje většina těchto parametrů vyladění. Následující seznam stručně "
+"představuje dostupné parametry:"
 
 #. (itstool) path: sect1/screen
 #: xml/audit_components.xml:415
@@ -472,6 +601,32 @@ msgid ""
 "tcp_client_max_idle = 0\n"
 "cp_client_max_idle = 0"
 msgstr ""
+"log_file = /var/log/audit/audit.log\n"
+"log_format = BEZ_ÚPRAV\n"
+"log_group = root\n"
+"priority_boost = 4\n"
+"flush = PŘÍRŮSTKOVÝ\n"
+"freq = 20\n"
+"num_logs = 5\n"
+"disp_qos = lossy\n"
+"dispatcher = /sbin/audispd\n"
+"name_format = ŽÁDNÝ\n"
+"##název = moje_doména\n"
+"max_log_file = 6\n"
+"max_log_file_action = ROTACE\n"
+"space_left = 75\n"
+"space_left_action = SYSLOG\n"
+"action_mail_acct = root\n"
+"admin_space_left = 50\n"
+"admin_space_left_action = POZASTAVIT\n"
+"disk_full_action = POZASTAVIT\n"
+"disk_error_action = POZASTAVIT\n"
+"##otevřený_port_tcp =\n"
+"tcp_listen_queue = 5\n"
+"tcp_max_per_addr = 1\n"
+"##klientské_porty_tcp = 1024-65535\n"
+"tcp_client_max_idle = 0\n"
+"cp_client_max_idle = 0"
 
 #. (itstool) path: sect1/para
 #: xml/audit_components.xml:442
@@ -482,6 +637,10 @@ msgid ""
 "<quote>CAPP Environment</quote> note tells you how to adjust the "
 "configuration."
 msgstr ""
+"Chcete-li, aby vaše prostředí splňovalo požadavky CAPP, musíte být při "
+"konfiguraci auditorského démona zvlášť restriktivní. Pokud potřebujete "
+"použít konkrétní nastavení, abyste splnili požadavky CAPP, poznámka <quote>"
+"CAPP Environment</quote> vám řekne, jak upravit konfiguraci."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:452
@@ -489,6 +648,8 @@ msgid ""
 "<literal>log_file</literal>, <literal>log_format</literal> and "
 "<literal>log_group</literal>"
 msgstr ""
+"<literal>log_file</literal>, <literal>log_format</literal> a "
+"<literal>log_group</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:456
@@ -507,6 +668,18 @@ msgid ""
 "for <literal>log_group</literal> can either be specified literally or using "
 "the group's ID."
 msgstr ""
+"<literal>log_file</literal> určuje umístění, kam mají být protokoly auditu "
+"uloženy. <literal>log_format</literal> určuje, jak se informace o auditu "
+"zapisují na disk, a <literal>log_group</literal> definuje skupinu, která "
+"vlastní soubory protokolu. Možné hodnoty pro <literal>log_format</literal> "
+"jsou <literal>raw</literal> (zprávy jsou uloženy přesně tak, jak je odesílá "
+"jádro) nebo <literal>nolog</literal> (zprávy jsou zahozeny a nezapisovány na "
+"disk). Používáte-li režim <literal>nolog</literal>, data odeslaná "
+"dispečerovi auditu nebudou ovlivněna. Výchozí nastavení je "
+"<literal>raw</literal> a měli byste ho ponechat, pokud chcete být schopni "
+"vytvářet zprávy a dotazy z protokolů auditu pomocí nástroje "
+"<command>aureport</command>, resp. <command>ausearch</command>. Hodnotu "
+"<literal>log_group</literal> lze zadat doslovně nebo pomocí ID skupiny."
 
 #. (itstool) path: note/title
 #: xml/audit_components.xml:473 xml/audit_components.xml:514
@@ -514,7 +687,7 @@ msgstr ""
 #: xml/audit_components.xml:688 xml/audit_components.xml:711
 #: xml/audit_components.xml:732
 msgid "CAPP Environment"
-msgstr ""
+msgstr "Prostředí CAPP"
 
 #. (itstool) path: note/para
 #: xml/audit_components.xml:474
@@ -523,11 +696,14 @@ msgid ""
 "doing so, you can be sure that the space detection of the audit daemon is "
 "accurate and that you do not have other processes consuming this space."
 msgstr ""
+"V prostředí CAPP nechte protokol auditu umístit do jeho vlastního oddílu. "
+"Tak si můžete být jisti, že detekce prostoru auditního démona je přesná a že "
+"nemáte další procesy, které tento prostor spotřebovávají."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:484 xml/audit_components.xml:2662
 msgid "<literal>priority_boost</literal>"
-msgstr ""
+msgstr "<literal>priority_boost</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:487
@@ -536,11 +712,13 @@ msgid ""
 "values are 0 to 20. The resulting nice value calculates like this: 0 - "
 "priority_boost"
 msgstr ""
+"Určete, jak velkou prioritu má auditní démon získat. Možné hodnoty jsou 0 až "
+"20. Výsledná kulantní hodnota se vypočítá takto: 0 - priority_boost"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:495
 msgid "<literal>flush</literal> and <literal>freq</literal>"
-msgstr ""
+msgstr "<literal>flush</literal> a <literal>freq</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:498
@@ -558,6 +736,18 @@ msgid ""
 "disk file synchronized at all times while the <literal>sync</literal> option "
 "takes care of both metadata and data."
 msgstr ""
+"Určuje, zda, jak a jak často mají být protokoly auditu zapsány na disk. "
+"Platné hodnoty pro <literal>flush</literal> jsou <literal>none</literal>, "
+"<literal>incremental</literal>, <literal>data</literal> a "
+"<literal>sync</literal>. <literal>none</literal> říká démonovi auditu, aby "
+"nevynakládal žádné zvláštní úsilí na zápis auditních dat na disk. "
+"<literal>incremental</literal> říká démonovi auditu, aby data přidával na "
+"disk pravidelně. Je-li použit <literal>incremental</literal>, musí být "
+"zadána frekvence -  <literal>freq</literal> hodnota <literal>20</literal> "
+"říká démonu auditu, aby po každých 20 záznamech požadoval, aby jádro zapsalo "
+"data na disk. Možnost <literal>data</literal> udržuje vždy synchronizovanou "
+"jen datovou část diskového souboru, zatímco volba <literal>sync</literal> se "
+"stará jak o metadata, tak o data."
 
 #. (itstool) path: note/para
 #: xml/audit_components.xml:515
@@ -566,11 +756,14 @@ msgid ""
 "date and complete. Therefore, use <literal>sync</literal> or <literal>data</"
 "literal> with the <literal>flush</literal> parameter."
 msgstr ""
+"V prostředí CAPP zajistěte, aby byl záznam auditu vždy plně aktuální a "
+"úplný. Použijte tedy <literal>sync</literal> nebo <literal>data</literal> s "
+"parametrem <literal>flush</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:524
 msgid "<literal>num_logs</literal>"
-msgstr ""
+msgstr "<literal>num_logs</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:527
@@ -589,11 +782,24 @@ msgid ""
 "the value of the <literal>-b</literal> parameter in the <filename>/etc/audit/"
 "audit.rules</filename> file."
 msgstr ""
+"Určete počet souborů protokolu, které se mají zachovat, pokud jste zadali "
+"<literal>rotate</literal> jako <literal>max_log_file_action</literal>. Možné "
+"hodnoty se pohybují od <literal>0</literal> do <literal>99</literal>. "
+"Hodnota menší než <literal>2</literal> znamená, že soubory protokolu nejsou "
+"rotovány. Jak zvětšujete počet souborů, které mají rotovat, zvětšujete "
+"množství práce potřebné pro démona auditu. Zatímco provádí tuto rotaci, "
+"nemůže <systemitem class=\"daemon\">auditd</systemitem> vždy obsluhovat nová "
+"data přicházející z jádra tak rychle, což může mít za následek vznik "
+"nevyřízených položek (spustí <systemitem class=\"daemon\">auditd</systemitem>"
+", aby reagoval na příznak selhání, popsaný v <xref linkend=\"sec.audit."
+"auditctl\"/>). V této situaci se doporučuje zvýšit limit nevyřízených "
+"položek. To provedete změnou hodnoty parametru <literal>-b</literal> v "
+"souboru <filename>/etc/audit/audit.rules</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_components.xml:547
 msgid "<literal>disp_qos</literal> and <literal>dispatcher</literal>"
-msgstr ""
+msgstr "<literal>disp_qos</literal> a <literal>dispatcher</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/audit_components.xml:550
