@@ -2,24 +2,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_firefox-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_firefox.xml:9
 msgid "Firefox: Browsing the Web"
 msgstr ""
+"Firefox: prohlížení webu (ver=79.0 (x64) z 20200801 jak Linux tak Windows, "
+"přesto se liší; zde je popsána verze pro openSUSE Linux)"
 
 #. (itstool) path: abstract/para
 #: xml/apps_firefox.xml:12
@@ -32,16 +38,24 @@ msgid ""
 "security technologies with an easy-to-use interface. Firefox gives you easy "
 "access to different search engines to help you find the information you need."
 msgstr ""
+"Webový prohlížeč Firefox je součástí <phrase role=\"productname\"><phrase os="
+"\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE® Linux Enterprise "
+"Desktop</phrase></phrase>. Díky funkcím, jako je procházení v záložkách, "
+"blokování vyskakovacích oken a správa stahování, kombinuje Firefox "
+"nejnovější technologie prohlížení a zabezpečení se snadno použitelným "
+"rozhraním. Firefox vám poskytuje snadný přístup k různým vyhledávacím "
+"nástrojům, které vám pomohou najít potřebné informace."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_firefox.xml:22
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:26
 msgid "Starting Firefox"
-msgstr ""
+msgstr "Spouštění Firefoxu"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:28
@@ -49,11 +63,13 @@ msgid ""
 "To start Firefox, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>fire</literal>."
 msgstr ""
+"Chcete-li spustit Firefox, otevřete Přehled aktivit stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>fire</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:34
 msgid "Navigating Web Sites"
-msgstr ""
+msgstr "Navigace po webech"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:36
@@ -65,11 +81,16 @@ msgid ""
 "information about the various Firefox features, use the <guimenu>Help</"
 "guimenu> menu in the menu bar."
 msgstr ""
+"Vzhled Firefoxu je podobný vzhledu jiných prohlížečů. Je zobrazen v <xref "
+"linkend=\"fig.firefox.main\"/>. V horní části okna najdete lištu pro webovou "
+"adresu a lištu vyhledávání. Jsou také k dispozici záložky pro rychlý přístup "
+"z lišty nástrojů záložek. Další informace o různých funkcích Firefoxu "
+"najdete v menu <guimenu>Nápověda</guimenu> na liště/panelu nabídek."
 
 #. (itstool) path: note/title
 #: xml/apps_firefox.xml:46
 msgid "Using the Menu Bar"
-msgstr ""
+msgstr "Použití lišty nabídek"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -79,7 +100,7 @@ msgstr ""
 #: xml/apps_firefox.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -89,7 +110,7 @@ msgstr ""
 #: xml/apps_firefox.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:47
@@ -102,6 +123,14 @@ msgid ""
 "fallback.png\" width=\"1em\" format=\"PNG\"/></imageobject></"
 "inlinemediaobject>), some are only available from the menu bar."
 msgstr ""
+"Většina funkcí Firefoxu je k dispozici prostřednictvím tlačítka se třemi "
+"řádky (\"hamburger\" - vpravo nahoře, <inlinemediaobject><textobject role=\""
+"description\"><phrase>Tlačítko se třemi řádky</phrase></textobject><"
+"imageobject role=\"fo\"><imagedata fileref=\"hamburger_button.svg\" width=\""
+"0.8em\" format=\"SVG\"/></imageobject><imageobject role=\"html\"><imagedata "
+"fileref=\"hamburger_button-fallback.png\" width=\"1em\" format=\"PNG\""
+"/></imageobject></inlinemediaobject>), některé jsou k dispozici pouze z "
+"hlavního menu."
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:51
@@ -110,6 +139,9 @@ msgid ""
 "<keycap function=\"alt\"/>. It will then be displayed until you click "
 "elsewhere in the Firefox window."
 msgstr ""
+"Lišta nabídek Firefoxu je ve výchozím nastavení skrytá. Chcete-li ji dočasně "
+"zobrazit, stiskněte <keycap function=\"alt\"/>. Poté se lišta zobrazí, dokud "
+"nekliknete na jiné místo v okně Firefoxu."
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:56
@@ -118,11 +150,16 @@ msgid ""
 "\"alt\"/>, then choose <menuchoice><guimenu>View</guimenu><guimenu>Toolbars</"
 "guimenu></menuchoice> and activate <guimenu>Menu Bar</guimenu>."
 msgstr ""
+"Chcete-li trvale zobrazit lištu nabídek Firefox, nejprve stiskněte <keycap "
+"function=\"alt\"/>, poté zvolte "
+"<menuchoice><guimenu>Zobrazit</guimenu><guimenu>Nástrojové "
+"lišty</guimenu></menuchoice> a aktivujte položku <guimenu>Hlavní "
+"nabídka</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:65
 msgid "The Browser Window of Firefox"
-msgstr ""
+msgstr "Okno prohlížeče Firefox"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -132,12 +169,12 @@ msgstr ""
 #: xml/apps_firefox.xml:68 xml/apps_firefox.xml:71
 msgctxt "_"
 msgid "external ref='firefox_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_main.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:77
 msgid "The Location Bar"
-msgstr ""
+msgstr "Lišta umístění"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:78
@@ -147,6 +184,10 @@ msgid ""
 "characters you type. The matching phrase is highlighted in bold. Entries "
 "visited most frequently and recently are listed first."
 msgstr ""
+"Při psaní na panelu umístění se otevře rozbalovací nabídka automatického "
+"dokončení. Zobrazuje všechny předchozí adresy a záložky, které obsahují "
+"zadané znaky. Odpovídající fráze je zvýrazněna tučně. Nejnavštěvovanější a "
+"naposledy zobrazené položky jsou uvedeny jako první."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:84
@@ -157,6 +198,11 @@ msgid ""
 "bookmarks only, type <keycap>*</keycap> as the first character of your "
 "search."
 msgstr ""
+"Položky seznamu ze seznamu záložek jsou označeny hvězdičkou (modrou, v ikoně)"
+". Záložky se značkami jsou označeny dalším štítkem následovaným názvy "
+"značek. Položky seznamu z historie procházení nejsou označeny. Chcete-li "
+"hledat pouze ve svých záložkách, zadejte jako první znak hledání "
+"<keycap>*</keycap>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:91
@@ -167,11 +213,16 @@ msgid ""
 "entry from the list if it is an entry from the history. Bookmarked entries "
 "can only be removed by deleting the associated bookmark."
 msgstr ""
+"K procházení seznamem použijte <keycap function=\"up\"/> a <keycap function="
+"\"down\"/> nebo kolečko myši. Stisknutím klávesy <keycap function=\"enter\"/>"
+" nebo kliknutím na položku přejdete na vybranou stránku. <keycap function=\""
+"delete\"/> odebere záznam ze seznamu (pouze záznam z historie; záznam ze "
+"záložky lze odstranit pouze odstraněním příslušné záložky)."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:101
 msgid "Zooming"
-msgstr ""
+msgstr "Změny velikosti (zoom)"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:102
@@ -181,6 +232,10 @@ msgid ""
 "including graphics, expanding equally while text zoom only changes the text "
 "size."
 msgstr ""
+"Firefox nabízí dvě možnosti přiblížení: přiblížení stránky (výchozí) a "
+"přiblížení textu. Zvětšení stránky zvětšuje celou stránku tak, že se všechny "
+"prvky stránky, včetně grafiky, rovnoměrně zvětšují/zmenšují, zatímco "
+"zvětšení textu mění pouze velikost písma."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:108
@@ -194,11 +249,19 @@ msgid ""
 "with <keycombo> <keycap function=\"control\"/> <keycap>0</keycap> </"
 "keycombo>."
 msgstr ""
+"Chcete-li přepínat mezi přiblížením stránky a textu, zvolte v hlavní nabídce "
+"<menuchoice><guimenu>Zobrazení</guimenu> <guimenu>Velikost "
+"stránky</guimenu><guimenu>Pouze velikost textu</guimenu></menuchoice>. Pro "
+"přiblížení nebo oddálení použijte kolečko myši, zatímco držíte klávesu <"
+"keycap function=\"control\"/>, nebo použijte <keycombo> <keycap function=\""
+"control\"/> <keycap>+</keycap> </keycombo> and <keycombo> <keycap function=\""
+"control\"/> <keycap>-</keycap></keycombo>. Vraťte velikost na 100% klávesami "
+"<keycombo> <keycap function=\"control\"/> <keycap>0</keycap> </keycombo>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:121
 msgid "Tabbed Browsing"
-msgstr ""
+msgstr "Prohlížení v záložkách"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:122
@@ -208,11 +271,15 @@ msgid ""
 "often use more than one Web page at a time, tabbed browsing makes it easier "
 "to switch between pages."
 msgstr ""
+"Prohlížení v záložkách umožňuje načíst více webů v jednom okně. Chcete-li "
+"přepínat mezi používanými stránkami, použijte karty v horní části okna. "
+"Pokud často používáte více než jednu webovou stránku najednou, procházení "
+"mezi kartami usnadňuje přepínání mezi stránkami."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:130
 msgid "Opening Tabs"
-msgstr ""
+msgstr "Otevírání záložek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:132
@@ -226,11 +293,21 @@ msgid ""
 "location bar in a new tab with a middle-click or by pressing <keycombo> "
 "<keycap function=\"control\"/> <keycap function=\"enter\"/> </keycombo>."
 msgstr ""
+"Chcete-li otevřít novou kartu, na liště nabídek vyberte možnost <menuchoice> "
+"<guimenu>Soubor</guimenu><guimenu>Nový panel</guimenu> </menuchoice> nebo "
+"stiskněte <keycombo> <keycap function=\"control\"/> <keycap>T</keycap> "
+"</keycombo>. Otevře se prázdná karta (panel) v okně Firefoxu. Chcete-li "
+"otevřít odkaz na webové stránce nebo záložku na kartě, klikněte na ni "
+"prostředním tlačítkem myši. Případně klepněte pravým tlačítkem myši na odkaz "
+"a vyberte <guimenu>Otevřít odkaz v novém panelu</guimenu>. Adresu můžete "
+"také otevřít na panelu umístění na nové kartě kliknutím prostředního "
+"tlačítka myši nebo stisknutím <keycombo> <keycap function=\"control\"/> <"
+"keycap function=\"enter\"/> </keycombo>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:146
 msgid "Closing Tabs"
-msgstr ""
+msgstr "Zavírání panelů"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:148
@@ -245,11 +322,21 @@ msgid ""
 "menu or press <keycombo> <keycap function=\"control\"/> <keycap function="
 "\"shift\"/> <keycap>T</keycap></keycombo>."
 msgstr ""
+"Klepnutím pravým tlačítkem na záložku karty otevřete kontextovou nabídku, "
+"která vám umožní přístup k možnostem správy karet, jako je uzavření, "
+"opětovné načtení nebo práce se záložkou. Chcete-li kartu zavřít, můžete také "
+"použít <keycombo> <keycap function=\"control\"/> <keycap>W</keycap> "
+"</keycombo> nebo kliknout na tlačítko Zavřít. Libovolnou uzavřenou kartu lze "
+"obnovit výběrem z panelu nabídek <menuchoice> <guimenu>Historie</guimenu> "
+"<guimenu>Nedávno uzavřené karty</guimenu> </menuchoice>. Chcete-li znovu "
+"otevřít poslední uzavřenou kartu, vyberte z kontextové nabídky <guimenu>"
+"Obnovit zavřený panel</guimenu> nebo stiskněte <keycombo> <keycap function=\""
+"control\"/> <keycap function=\"shift\"/> <keycap>T</keycap> </keycombo>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:163
 msgid "Sorting Tabs"
-msgstr ""
+msgstr "Seřazení panelů"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:165
@@ -261,11 +348,17 @@ msgid ""
 "right-click the down arrow at the right end of the tab bar to get a list of "
 "all tabs."
 msgstr ""
+"Ve výchozím nastavení jsou panely seřazeny v pořadí, v jakém jste je "
+"otevřeli. Uspořádejte pořadí panelů přetažením záložky panelu do požadované "
+"polohy. Pokud jste otevřeli velký počet panelů, nelze všechny jejich záložky "
+"zobrazit na liště panelů současně. Pomocí šipek na koncích lišty se "
+"pohybujte doleva nebo doprava - klikněte šipku dolů na pravém konci lišty "
+"panelů, abyste získali seznam všech panelů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:176
 msgid "Dragging and Dropping"
-msgstr ""
+msgstr "Drag a Drop (přetažení a položení)"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:178
@@ -275,11 +368,15 @@ msgid ""
 "open a new tab. Drag and drop a tab outside of the tab bar to open it in a "
 "new browser window."
 msgstr ""
+"Drag and drop funguje také s kartami. Přetažením odkazu na existující kartu "
+"jej otevřete na této kartě nebo přetažením odkazu na prázdné místo na panelu "
+"karet otevřete novou kartu. Přetáhněte kartu mimo panel karet a otevřete ji "
+"v novém okně prohlížeče."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:190
 msgid "Using the Sidebar"
-msgstr ""
+msgstr "Použití postranní lišty"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:191
@@ -289,11 +386,16 @@ msgid ""
 "the sidebar, from the menu bar, select <menuchoice> <guimenu>View</guimenu> "
 "<guimenu>Sidebar</guimenu> </menuchoice> and select the desired contents."
 msgstr ""
+"K prohlížení záložek nebo historie procházení použijte levou stranu okna "
+"prohlížeče. Rozšíření mohou přidat nové způsoby použití postranního panelu. "
+"Chcete-li zobrazit postranní panel, na panelu nabídek vyberte <menuchoice> "
+"<guimenu>Zobrazit</guimenu> <guimenu>Postranní panel</guimenu> </menuchoice> "
+"a vyberte požadovaný obsah."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:200
 msgid "Finding Information"
-msgstr ""
+msgstr "Hledání informací"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:202
@@ -302,11 +404,14 @@ msgid ""
 "with a search engine, use the search bar. To search the page currently "
 "displayed, use the find bar."
 msgstr ""
+"Ve Firefoxu lze najít informace dvěma způsoby: Chcete-li hledat na internetu "
+"pomocí vyhledávače, použijte vyhledávací lištu. Chcete-li prohledat aktuálně "
+"zobrazenou stránku, použijte prohledávací lištu."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:209
 msgid "Finding Information on the Web"
-msgstr ""
+msgstr "Nalezení informace na webu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:210
@@ -317,6 +422,11 @@ msgid ""
 "literal>, and press <keycap function=\"enter\"/>. The results appear in your "
 "window."
 msgstr ""
+"Firefox má vyhledávací lištu, která umožňuje přístup k různým vyhledávačům, "
+"jako je Google, Yahoo nebo Amazon. Chcete-li například najít informace o "
+"SUSE pomocí aktuálního vyhledávače, klikněte do vyhledávací lišty, zadejte "
+"<literal>SUSE</literal> a stiskněte <keycap function=\"enter\"/>. Výsledky "
+"se zobrazí v okně."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:217
@@ -324,11 +434,13 @@ msgid ""
 "To choose a different search engine, type your search term, then click one "
 "of the search provider icons at the bottom of the appearing pop-up."
 msgstr ""
+"Chcete-li zvolit jiný vyhledávač, zadejte hledaný výraz a poté klikněte na "
+"jednu z ikon vyhledávačů ve spodní části zobrazené rozbalovací nabídky."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:222
 msgid "Customizing the Search Bar"
-msgstr ""
+msgstr "Přizpůsobení vyhledávací lišty"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:223
@@ -336,11 +448,12 @@ msgid ""
 "If you want to change the order, add, or delete a search engine, proceed as "
 "follows."
 msgstr ""
+"Chcete-li změnit pořadí, přidat nebo odstranit vyhledávač, postupujte takto."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:229
 msgid "Click the icon to the left of the search bar."
-msgstr ""
+msgstr "Klikněte na ikonu vlevo od vyhledávacího pole (musí být zobrazeno)."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:234
@@ -349,16 +462,21 @@ msgid ""
 "<guimenu>Search</guimenu> dialog shows the engine that is currently set as "
 "default search engine and other available search engines."
 msgstr ""
+"V rozbalovací nabídce vyberte možnost <guimenu>Změnit nastavení "
+"vyhledávání</guimenu>. Dialogové okno <guimenu>Vyhledávání</guimenu> "
+"zobrazuje aktuálně nastavený výchozí vyhledávač a další dostupné vyhledávače."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:241
 msgid "To change the order of entries, use the mouse to drag them."
-msgstr ""
+msgstr "Chcete-li změnit pořadí položek, přetahejte je myší."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:244
 msgid "To delete an entry, select it and click <guimenu>Remove</guimenu>."
 msgstr ""
+"Chcete-li položku odstranit, vyberte ji a klikněte na "
+"<guimenu>Odstranit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:247
@@ -367,11 +485,15 @@ msgid ""
 "Firefox displays a Web page with available search plug-ins. To install a "
 "search plug-in, select it and click <guimenu>Add to Firefox</guimenu>."
 msgstr ""
+"Chcete-li přidat vyhledávač, klikněte na <guimenu>Přidat další "
+"vyhledávače</guimenu>. Firefox zobrazí webovou stránku s dostupnými "
+"vyhledávacími pluginy. Chcete-li nainstalovat vyhledávací zásuvný modul, "
+"vyberte jej a klikněte na <guimenu>Přidat do Firefoxu</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:264
 msgid "Firefox—Manage Search Engines"
-msgstr ""
+msgstr "Firefox - Správa vyhledávačů"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -381,7 +503,7 @@ msgstr ""
 #: xml/apps_firefox.xml:267 xml/apps_firefox.xml:270
 msgctxt "_"
 msgid "external ref='firefox_manage_searchengines.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_manage_searchengines.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:274
@@ -391,11 +513,15 @@ msgid ""
 "search bar gains a <literal>+</literal> sign. Click the icon and select "
 "<guimenu>Add</guimenu>."
 msgstr ""
+"Některé weby nabízejí vyhledávače, které můžete přidat přímo do "
+"vyhledávacího pole. Kdykoli navštívíte takový web, ikona vlevo od "
+"vyhledávacího panelu získá znaménko <literal>+</literal>. Klepněte na ikonu "
+"a vyberte možnost <guimenu>Přidat</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:282
 msgid "Adding Keywords to Your Online Searches"
-msgstr ""
+msgstr "Přidání klíčových slov do online vyhledávání"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:283
@@ -407,6 +533,12 @@ msgid ""
 "the location bar to search Wikipedia for <replaceable>SEARCHTERM</"
 "replaceable>."
 msgstr ""
+"Firefox vám umožňuje definovat vlastní <emphasis>klíčová slova</emphasis>: "
+"zkratky, které se mají použít jako zkratka URL pro konkrétní vyhledávač. "
+"Pokud jste jako klíčové slovo pro vyhledávání například na Wikipedii "
+"definovali <literal>ws</literal>, můžete do panelu umístění zadat <literal>"
+"ws <replaceable>VZOREK</replaceable></literal> a vyhledat "
+"<replaceable>VZOREK</replaceable>."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:291
@@ -416,6 +548,11 @@ msgid ""
 "guimenu>. Select a search engine, double-click its <guimenu>Keyword</"
 "guimenu> column, enter a keyword and press <keycap function=\"enter\"/>."
 msgstr ""
+"Chcete-li přiřadit zkratku vyhledávacímu nástroji z vyhledávacího panelu, "
+"klikněte na ikonu vlevo od vyhledávacího panelu a vyberte <guimenu>Změnit "
+"nastavení vyhledávání</guimenu>. Vyberte vyhledávač, dvakrát klikněte na "
+"jeho sloupec <guimenu>Klíčové slovo</guimenu>, zadejte klíčové slovo a "
+"stiskněte klávesu <keycap function=\"enter\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:299
@@ -423,6 +560,8 @@ msgid ""
 "It is also possible to define a keyword for any search field on a Web site. "
 "Proceed as follows:"
 msgstr ""
+"Je také možné definovat klíčové slovo pro libovolné vyhledávací pole na "
+"webu. Postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:305
@@ -431,26 +570,31 @@ msgid ""
 "Search</guimenu> from the menu that opens. The <guimenu>Add Bookmark</"
 "guimenu> dialog appears."
 msgstr ""
+"Klepněte pravým tlačítkem myši na vyhledávací pole a z nabídky, která se "
+"otevře, vyberte <guimenu>Přidat klíčové slovo pro toto vyhledávání</guimenu>"
+". Zobrazí se dialogové okno <guimenu>Přidat záložku</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:312
 msgid "In <guimenu>Name</guimenu>, enter a descriptive name for this keyword."
 msgstr ""
+"Do pole <guimenu>Název</guimenu> zadejte popisný název tohoto klíčového "
+"slova."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:317
 msgid "Enter your <guimenu>Keyword</guimenu> for this search."
-msgstr ""
+msgstr "Zadejte <guimenu>klíčové slovo</guimenu> pro toto vyhledávání."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:322
 msgid "<guimenu>Save</guimenu> this keyword."
-msgstr ""
+msgstr "<guimenu>Uložte</guimenu> toto klíčové slovo."
 
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:328
 msgid "Keywords for Regular Web Sites"
-msgstr ""
+msgstr "Klíčová slova pro běžné webové stránky"
 
 #. (itstool) path: tip/para
 #: xml/apps_firefox.xml:329
@@ -460,11 +604,15 @@ msgid ""
 "assign <literal>suse</literal> to the SUSE home page bookmark, you can open "
 "it by typing <literal>suse</literal> into the location bar."
 msgstr ""
+"Používání klíčových slov není omezeno na vyhledávače. K záložce můžete také "
+"přidat klíčové slovo (ve vlastnostech záložky). Pokud například přiřadíte "
+"<literal>suse</literal> k záložce domovské stránky SUSE, můžete ji otevřít "
+"zadáním <literal>suse</literal> do panelu umístění."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:340
 msgid "Searching in the Current Page"
-msgstr ""
+msgstr "Hledání na aktuální stránce"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:341
@@ -480,6 +628,17 @@ msgid ""
 "occurrences of the phrase. Checking the <guimenu>Match Case</guimenu> option "
 "makes the query case-sensitive."
 msgstr ""
+"Chcete-li hledat uvnitř webové stránky, klikněte na panelu nabídek na ikonu "
+"<menuchoice> <guimenu>Úpravy</guimenu> <guimenu>Najít</guimenu> </menuchoice>"
+" nebo stiskněte klávesu <keycombo> <keycap function=\"control\"/> "
+"<keycap>F</keycap> </keycombo>. Otevře se prohledávací lišta. Obvykle se "
+"zobrazuje v dolní části okna. Do textového pole zadejte dotaz. Při psaní "
+"najde Firefox první výskyt této fráze. Další/předešlé (cyklicky) výskyty "
+"fráze můžete najít stisknutím <keycap>F3</keycap> nebo tlačítka "
+"<guimenu>Další</guimenu> na panelu hledání. Kliknutím na tlačítko <guimenu>"
+"Zvýraznit vše</guimenu> zvýrazníte všechny výskyty fráze. Zaškrtnutím "
+"možnosti <guimenu>Rozlišovat velikost</guimenu> bude dotaz rozlišovat "
+"písmena velké a malé abecedy."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:353
@@ -491,11 +650,18 @@ msgid ""
 "occurrence. It is also possible to limit quick-find to links only. This "
 "search option is available by typing the key <keycap>'</keycap>."
 msgstr ""
+"Firefox také nabízí dvě možnosti rychlého vyhledávání. Klepnutím na "
+"libovolné místo, kde chcete spustit vyhledávání na webové stránce, zadejte "
+"klíč <keycap>/</keycap>, za nímž následuje hledaný výraz. První výskyt "
+"hledaného výrazu bude při psaní zvýrazněn. Pomocí <keycap>F3</keycap> "
+"vyhledejte další výskyt. Je také možné omezit rychlé vyhledávání pouze na "
+"odkazy. Tato možnost vyhledávání je dostupná zadáním klávesy "
+"<keycap>'</keycap> a hledaného výrazu."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:364
 msgid "Managing Bookmarks"
-msgstr ""
+msgstr "Správa záložek"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:366
@@ -506,6 +672,11 @@ msgid ""
 "You can sort bookmarks into folders, classify them with tags, or filter them "
 "with smart bookmark folders."
 msgstr ""
+"Záložky nabízejí pohodlný způsob uložení odkazů na vaše oblíbené webové "
+"stránky. Firefox nejen velmi usnadňuje přidávání nových záložek jediným "
+"kliknutím myši, ale také nabízí několik způsobů, jak spravovat velké sbírky "
+"záložek. Můžete třídit záložky do složek, třídit je pomocí značek nebo "
+"filtrovat pomocí inteligentních složek se záložkami."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:374
@@ -516,6 +687,11 @@ msgid ""
 "the name and folder of your bookmark or add tags, after bookmarking, click "
 "the star again. This will open a pop-up where you can make your changes."
 msgstr ""
+"Přidejte záložku kliknutím na hvězdičku na panelu umístění. Hvězda se změní "
+"na modrou, což znamená, že stránka byla označena záložkou. Záložka bude "
+"uložena do složky <guimenu>Ostatní záložky</guimenu> pod názvem stránky. "
+"Chcete-li změnit název a složku záložky nebo přidat značky, klikněte znovu "
+"na záložku. Otevře se vyskakovací okno, ve kterém můžete provést změny."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:382
@@ -524,6 +700,9 @@ msgid ""
 "All Tabs</guimenu>. Firefox asks you to create a new folder for the tab "
 "links."
 msgstr ""
+"Chcete-li uložit do záložek všechny otevřené karty, klepněte na kartu pravým "
+"tlačítkem myši a vyberte příkaz <guimenu>Přidat všechny záložky</guimenu>. "
+"Firefox vás požádá o vytvoření nové složky záložek pro odkazy na karty."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:388
@@ -531,11 +710,13 @@ msgid ""
 "To remove a bookmark, open the bookmarked location. Then, click the star and "
 "click <guimenu>Remove Bookmark</guimenu>."
 msgstr ""
+"Chcete-li záložku odebrat, otevřete umístění označené záložkou. Poté "
+"klikněte na hvězdičku a klikněte na <guimenu>Odstranit záložku</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:394
 msgid "Organizing Bookmarks"
-msgstr ""
+msgstr "Správa záložek"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:395
@@ -544,11 +725,14 @@ msgid ""
 "and address location) for each bookmark and organize the bookmarks into "
 "folders and sections. It resembles <xref linkend=\"fig.firefox.library\"/>."
 msgstr ""
+"Menu <guimenu>Knihovna</guimenu> lze použít ke správě vlastností (umístění "
+"jména a adresy) pro každou záložku a uspořádání záložek do složek a oddílů. "
+"Připomíná <xref linkend=\"fig.firefox.library\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:401
 msgid "The Firefox Bookmark Library"
-msgstr ""
+msgstr "Knihovna záložek Firefox"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -558,7 +742,7 @@ msgstr ""
 #: xml/apps_firefox.xml:404 xml/apps_firefox.xml:407
 msgctxt "_"
 msgid "external ref='firefox_library.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_library.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:411
@@ -570,11 +754,17 @@ msgid ""
 "selected folder. Use <guimenu>Views</guimenu> to customize the right pane. "
 "The left pane contains three main folders:"
 msgstr ""
+"Chcete-li otevřít <guimenu>Knihovnu</guimenu>, klepněte v hlavním menu na "
+"<menuchoice> <guimenu>Záložky</guimenu> a <guimenu>Zobrazit všechny "
+"záložky</guimenu> </menuchoice>. Okno knihovny je rozděleno na dvě části: v "
+"levém podokně je zobrazeno stromové zobrazení složek, v pravém podokně "
+"podsložky a záložky vybrané složky. K přizpůsobení pravého panelu použijte "
+"<guimenu>Pohledy</guimenu>. Levý panel obsahuje tři hlavní složky:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:421
 msgid "History"
-msgstr ""
+msgstr "Historie"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:423
@@ -582,12 +772,14 @@ msgid ""
 "Contains your complete browsing history. You cannot alter this list other "
 "than by deleting entries from it."
 msgstr ""
+"Obsahuje úplnou historii prohlížení. Tento seznam nemůžete změnit jinak než "
+"odstraněním jeho položek."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:430 xml/apps_firefox.xml:498
 msgid "Tags"
-msgstr ""
+msgstr "Štítky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:432
@@ -595,21 +787,23 @@ msgid ""
 "Lists bookmarks for each tag you have specified. See <xref linkend=\"sec."
 "firefox.bookmarks.tags\"/> for more information on tags."
 msgstr ""
+"Uvádí záložky pro každý štítek, který jste zadali. Další informace o "
+"štítcích najdete v <xref linkend=\"sec.firefox.bookmarks.tags\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:440
 msgid "All Bookmarks"
-msgstr ""
+msgstr "Všechny záložky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:442
 msgid "This category contains the three main bookmark folders:"
-msgstr ""
+msgstr "Tato kategorie obsahuje tři hlavní složky záložek:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:447
 msgid "Bookmarks Toolbar"
-msgstr ""
+msgstr "Lišta nástrojů záložek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:449
@@ -617,11 +811,13 @@ msgid ""
 "Contains the bookmarks and folders displayed beneath the location bar. See "
 "<xref linkend=\"sec.firefox.bookmarks.toolbar\"/> for more information."
 msgstr ""
+"Obsahuje záložky a složky zobrazené pod panelem umístění. Další informace "
+"viz <xref linkend=\"sec.firefox.bookmarks.toolbar\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:457
 msgid "Bookmarks Menu"
-msgstr ""
+msgstr "Nabídka (menu) záložek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:459
@@ -629,11 +825,13 @@ msgid ""
 "Holds the bookmarks and folder accessible via the <guimenu>Bookmarks</"
 "guimenu> entry in the main menu or the bookmarks side menu."
 msgstr ""
+"Uchovává záložky a složku přístupnou prostřednictvím položky "
+"<guimenu>Záložky</guimenu> v hlavní nabídce nebo v postranní nabídce záložek."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:467
 msgid "Unsorted Bookmarks"
-msgstr ""
+msgstr "Ostatní záložky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:469
@@ -641,6 +839,8 @@ msgid ""
 "Contains all bookmarks created with a single click the star in the location "
 "bar. This folder is only visible in the library and the bookmarks sidebar."
 msgstr ""
+"Obsahuje všechny záložky vytvořené kliknutím na hvězdičku v panelu umístění. "
+"Tato složka je viditelná pouze v knihovně a na postranním panelu záložek."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:480
@@ -653,6 +853,14 @@ msgid ""
 "and <guimenu>Tags</guimenu> are displayed for a bookmark. Click the arrow "
 "next to <guimenu>More</guimenu> to gain access to all properties."
 msgstr ""
+"Uspořádejte si záložky pomocí pravého panelu. Vyberte akce pro složky nebo "
+"záložky buď z místní nabídky, která se otevře, když kliknete pravým "
+"tlačítkem myši na položku, nebo z nabídky <guimenu>Uspořádat</guimenu>. "
+"Vlastnosti vybrané složky nebo záložky lze upravit v dolní části pravého "
+"panelu. Ve výchozím nastavení se pro záložku zobrazí pouze "
+"<guimenu>Název</guimenu>, <guimenu>Umístění</guimenu> a "
+"<guimenu>Štítky</guimenu>. Kliknutím šipky vedle <guimenu>Další</guimenu> "
+"získáte přístup ke všem vlastnostem."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:490
@@ -661,6 +869,9 @@ msgid ""
 "move a bookmark or a folder to a different folder, or to change the order of "
 "bookmarks in a folder."
 msgstr ""
+"Chcete-li změnit uspořádání záložek, přetahejte je myší. Můžete ji použít k "
+"přesunutí či kopii (s Ctrl) záložky nebo složky do jiné složky, nebo ke "
+"změně pořadí záložek ve složce."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:499
@@ -672,6 +883,13 @@ msgid ""
 "<systemitem>Recent Tags</systemitem> folder of the library. Drag and drop an "
 "item for a tag onto the bookmark toolbar to easily access it."
 msgstr ""
+"Štítky nabízejí pohodlný způsob, jak uložit záložku do několika kategorií. "
+"Záložky můžete označit libovolným počtem výrazů. Chcete-li například "
+"přistupovat ke všem webům označeným <literal>suse</literal>, zadejte do "
+"panelu umístění <literal>suse</literal>. Pro každý štítek se automaticky "
+"vytvoří položka ve složce <systemitem>Poslední štítky</systemitem> v "
+"knihovně. Chcete-li k ní snadno přistupovat, přetáhněte položku štítku na "
+"panel nástrojů záložek."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:508
@@ -682,11 +900,17 @@ msgid ""
 "to add tags via the bookmark's properties dialog which you can open in the "
 "library or by right-clicking a bookmark in the menu or the toolbar."
 msgstr ""
+"Chcete-li k záložce přidat značky, otevřete záložku v prohlížeči Firefox a "
+"klikněte na žlutou hvězdu na panelu umístění. Otevře se dialogové okno "
+"<guimenu>Úprava této záložky</guimenu>, kde můžete přidat seznam značek "
+"oddělených čárkami. Značky lze také přidat prostřednictvím dialogu "
+"vlastností záložky, který můžete otevřít v knihovně nebo klepnutím pravým "
+"tlačítkem myši na záložku v nabídce nebo na panelu nástrojů."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:519
 msgid "Importing and Exporting Bookmarks"
-msgstr ""
+msgstr "Import a export záložek"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:524
@@ -699,6 +923,14 @@ msgid ""
 "import location. Start the import by clicking <guimenu>Next</guimenu>. "
 "Imports from an HTML file are imported as is."
 msgstr ""
+"Chcete-li importovat záložky z jiného prohlížeče nebo ze souboru ve formátu "
+"HTML, otevřete knihovnu výběrem z panelu nabídek <menuchoice> "
+"<guimenu>Záložky</guimenu> <guimenu>Zobrazit všechny záložky</guimenu> "
+"</menuchoice>. Chcete-li spustit Průvodce importem, klikněte v okně knihovny "
+"na <menuchoice> <guimenu>Import a záloha</guimenu> <guimenu>Importovat "
+"záložky z HTML</guimenu> </menuchoice> a vyberte umístění importu. Zahajte "
+"import kliknutím na <guimenu>Další</guimenu>. Vstup ze souboru HTML se "
+"importuje bez úprav."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:534
@@ -709,6 +941,11 @@ msgid ""
 "bookmarks, choose <guimenu>Backup</guimenu>. Firefox uses a JavaScript "
 "Object Notation file format (<filename>.json</filename>) for backups."
 msgstr ""
+"Export záložek se provádí také pomocí <guimenu>Import a záloha</guimenu> v "
+"okně knihovny. Chcete-li uložit záložky jako soubor HTML, zvolte <guimenu>"
+"Exportovat záložky do HTML</guimenu>. Chcete-li vytvořit zálohu záložek, "
+"zvolte <guimenu>Záloha</guimenu>. Firefox používá pro zálohování formát "
+"souboru JavaScript Object Notation (<filename>.json</filename>)."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:541
@@ -717,11 +954,14 @@ msgid ""
 "guimenu> <guimenu>Restore</guimenu></menuchoice>. Then locate the backup you "
 "want to restore from."
 msgstr ""
+"Chcete-li obnovit zálohu záložek, klikněte na <menuchoice><guimenu>Import a "
+"záloha</guimenu> <guimenu>Obnova</guimenu></menuchoice>. Vyhledejte soubor "
+"zálohy, ze které chcete obnovit."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:549
 msgid "Live Bookmarks"
-msgstr ""
+msgstr "Živé záložky"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:550
@@ -731,6 +971,10 @@ msgid ""
 "your favorite sites. Live bookmarks update automatically. Many sites and "
 "blogs support this format."
 msgstr ""
+"Živé záložky zobrazují titulky zpráv v nabídce záložek a průběžně vás "
+"informují o nejnovějších zprávách. To vám umožní ušetřit čas jediným "
+"pohledem na vašich oblíbených webech. Živé záložky se aktualizují "
+"automaticky. Tento formát podporuje mnoho webů a blogů."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:559
@@ -744,11 +988,20 @@ msgid ""
 "you choose alternative applications to subscribe with, such as <guimenu>My "
 "Yahoo</guimenu>."
 msgstr ""
+"Chcete-li vytvořit živou záložku, podívejte se na oranžová tlačítka na "
+"webech buď s nápisem <literal>RSS</literal>, nebo s ikonou tečky a tří "
+"vnořených čtvrtkruhů. Klikněte na ikonu. To obvykle vede na stránku, kde "
+"jsou zobrazeny všechny nadpisy stránky. Na této stránce zvolte <guimenu>"
+"Přihlásit se nyní</guimenu>. Otevře se dialogové okno, ve kterém můžete "
+"vybrat název a umístění živé záložky. Potvrďte pomocí "
+"<guimenu>Přidat</guimenu>. Tato stránka vám také umožňuje zvolit "
+"alternativní aplikace, k jejichž odběru se můžete přihlásit, například "
+"<guimenu>Moje Yahoo</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:572
 msgid "Smart Bookmark Folders"
-msgstr ""
+msgstr "Složky inteligentních záložek"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:573
@@ -759,11 +1012,16 @@ msgid ""
 "Bookmarked</guimenu> links and <guimenu>Recent Tags</guimenu> are located in "
 "the bookmarks menu."
 msgstr ""
+"Složky inteligentních záložek jsou virtuální složky záložek, které jsou "
+"dynamicky aktualizovány. Existují tři složky inteligentních záložek: Odkazy "
+"<guimenu>Nejnavštěvovanější</guimenu> jsou k dispozici na panelu nástrojů "
+"záložek. Odkazy <guimenu>Naposledy přidané</guimenu> a <guimenu>Poslední "
+"štítky</guimenu> jsou umístěny v nabídce záložek."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:583
 msgid "The Bookmarks Toolbar"
-msgstr ""
+msgstr "(Nástrojová) Lišta záložek"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:584
@@ -774,6 +1032,11 @@ msgid ""
 "literal> is populated with a predefined set of bookmarks organized into "
 "several folders (see <xref linkend=\"fig.firefox.main\"/>)."
 msgstr ""
+"Pod panelem umístění se zobrazí <literal>Lišta záložek</literal>, která "
+"umožňuje rychlý přístup k záložkám. Můžete také přidávat, organizovat a "
+"upravovat záložky přímo. Ve výchozím nastavení je <literal>Lišta "
+"záložek</literal> naplněna předem definovanou sadou záložek uspořádaných do "
+"několika složek (viz <xref linkend=\"fig.firefox.main\"/>)."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:591
@@ -789,6 +1052,16 @@ msgid ""
 "bookmark folder will automatically open it, enabling you to place the "
 "bookmark within this folder."
 msgstr ""
+"Chcete-li spravovat <literal>Lištu záložek</literal>, můžete použít "
+"knihovnu, jak je popsáno v <xref linkend=\"sec.firefox.bookmarks.organise\"/>"
+". Její obsah je umístěn ve složce <guimenu>Bookmarks Toolbar</guimenu> ("
+"Panel nástrojů záložek). Je také možné spravovat panel nástrojů přímo. "
+"Chcete-li přidat složku, záložku nebo oddělovač, klepněte pravým tlačítkem "
+"myši na prázdné místo na panelu nástrojů a vyberte příslušnou položku z "
+"rozbalovací nabídky. Chcete-li přidat aktuální stránku na lištu, klikněte na "
+"ikonu webové stránky na panelu umístění a přetáhněte ji na požadované místo "
+"na panelu nástrojů záložek. Umístěním kurzoru na existující složku záložek "
+"se ta automaticky otevře, což vám umožní umístit záložku do této složky."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:603
@@ -799,11 +1072,17 @@ msgid ""
 "<guimenu>Copy</guimenu> and <guimenu>Paste</guimenu> it to the desired "
 "position."
 msgstr ""
+"Chcete-li spravovat určitou složku nebo záložku, klepněte na ni pravým "
+"tlačítkem. Otevře se nabídka, která vám umožní <guimenu>Odstranit</guimenu> "
+"nebo změnit její <guimenu>Vlastnosti</guimenu>. Chcete-li položku přesunout "
+"nebo zkopírovat, vyberte <guimenu>Vyjmout</guimenu> nebo "
+"<guimenu>Kopírovat</guimenu> a pak <guimenu>Vložit</guimenu> na požadované "
+"místo."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:614
 msgid "Using the Download Manager"
-msgstr ""
+msgstr "Použití Správce stahování"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:616
@@ -819,6 +1098,16 @@ msgid ""
 "entry from the download manager, however, it does not delete the file from "
 "the hard disk."
 msgstr ""
+"Sledujte své aktuální a minulé stahování pomocí správce stahování. Chcete-li "
+"spustit Správce stahování, klikněte na panelu nabídek na ikonu <menuchoice> "
+"<guimenu>Nástroje</guimenu> <guimenu>Stahování</guimenu> </menuchoice>. "
+"Během stahování souboru zobrazuje indikátor průběhu stav stahování. V "
+"případě potřeby pozdržte stahování a pokračujte později. Chcete-li otevřít "
+"stažený soubor přidruženou aplikací, klikněte na <guimenu>Otevřít</guimenu>. "
+"Chcete-li otevřít umístění, kam byl soubor uložen, zvolte <guimenu>Otevřít "
+"obsahující složku</guimenu>. <guimenu>Odstranit z historie</guimenu> "
+"odstraní položku pouze ze Správce stahování, ale neodstraní soubor z pevného "
+"disku."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:629
@@ -830,11 +1119,17 @@ msgid ""
 "choose another location or <guimenu>Always ask me where to save files</"
 "guimenu>."
 msgstr ""
+"Výchozí cíl ukládání stahovaných souborů je <filename>~/Downloads</filename> "
+"(Stažené). To lze změnit v hlavním menu: klikněte <menuchoice> "
+"<guimenu>Úpravy</guimenu>, <guimenu>Předvolby</guimenu> </menuchoice>. "
+"Najděte menu <guimenu>Obecné</guimenu>. Pod nadpisem "
+"<guimenu>Stahování</guimenu> buď zvolte jiný cíl nebo <guimenu>U každého "
+"souboru se zeptat, kam ho uložit</guimenu>."
 
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:639
 msgid "Resuming Downloads"
-msgstr ""
+msgstr "Pokračovat ve stahování"
 
 #. (itstool) path: tip/para
 #: xml/apps_firefox.xml:640
@@ -844,11 +1139,15 @@ msgid ""
 "Firefox the next time. A download that was paused before the browser was "
 "closed can manually be resumed via the download manager."
 msgstr ""
+"Pokud během stahování prohlížeč havaruje nebo se ukončí, budou při příštím "
+"spuštění aplikace Firefox automaticky obnovena všechna čekající stahování. "
+"Stahování, které bylo pozastaveno před zavřením prohlížeče, lze ručně "
+"obnovit správcem stahování."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:649
 msgid "Security"
-msgstr ""
+msgstr "Zabezpečení"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:651
@@ -862,11 +1161,20 @@ msgid ""
 "security. With Private Browsing, you can surf the Internet without Firefox "
 "recording data on your computer."
 msgstr ""
+"Protože se procházení Internetu stalo rizikovějším, nabízí Firefox různá "
+"opatření, která zvyšují bezpečnost procházení. Automaticky zkontroluje, zda "
+"se pokoušíte vstoupit na web, o kterém je známo, že obsahuje škodlivý "
+"software (malware) nebo na web, o kterém je známo, že krade citlivá data "
+"(phishing), a zabrání vám v přístupu na tyto stránky. Okamžitý ID webového "
+"serveru (Instant Web Site ID) umožňuje snadno zkontrolovat legitimitu webu; "
+"správce hesel a blokování vyskakovacích oken nabízejí další zabezpečení. Se "
+"soukromým prohlížením (Private Browsing) surfujete po internetu, aniž "
+"Firefox zapisuje jakákoli data do počítače."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:663
 msgid "Instant Web Site ID"
-msgstr ""
+msgstr "Instant Web Site ID"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:664
@@ -875,11 +1183,14 @@ msgid ""
 "The icon in the location bar next to the address indicates which identity "
 "information is available and whether communication is encrypted:"
 msgstr ""
+"Firefox vám umožňuje zkontrolovat identitu webové stránky jediným pohledem. "
+"Ikona v panelu umístění vedle adresy označuje, které informace o identitě "
+"jsou k dispozici a zda je komunikace šifrována:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:671
 msgid "Gray Globe"
-msgstr ""
+msgstr "Šedý glóbus"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:673
@@ -888,11 +1199,14 @@ msgid ""
 "Web server and browser is not encrypted. Do not exchange sensitive "
 "information with such sites."
 msgstr ""
+"Stránka neposkytuje žádné informace o totožnosti a komunikace mezi webovým "
+"serverem a prohlížečem není šifrována. S těmito weby si nevyměňujte citlivé "
+"informace."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:681
 msgid "Gray Triangle"
-msgstr ""
+msgstr "Šedý trojúhelník"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:683
@@ -903,11 +1217,16 @@ msgid ""
 "scripts over an insecure connection. Firefox has blocked these items. "
 "Therefore, the page can look broken."
 msgstr ""
+"Tento web pochází z domény, která byla ověřena certifikátem, takže si můžete "
+"být jisti, že jste skutečně připojeni k tomu webu, za který se prohlašuje. "
+"Web se však pokusil načíst další prvky, například obrázky nebo skripty, přes "
+"nezabezpečené připojení. Firefox tyto položky zablokoval. Stránka proto může "
+"vypadat rozbitá."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:693
 msgid "Gray Padlock"
-msgstr ""
+msgstr "Šedý visací zámek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:695
@@ -916,11 +1235,15 @@ msgid ""
 "can be sure that you are really connected to the very site it claims to be. "
 "Communication with a <quote>gray-padlock</quote> site is always encrypted."
 msgstr ""
+"Tento web pochází z domény, která byla ověřena certifikátem, takže si můžete "
+"být jisti, že jste skutečně připojeni k tomu webu, za který se sám "
+"prohlašuje. Komunikace s webem s označením <quote>šedý zámek</quote> je vždy "
+"šifrována."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:704
 msgid "Green Padlock"
-msgstr ""
+msgstr "Zelený visací zámek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:706
@@ -932,6 +1255,12 @@ msgid ""
 "Web site of your bank when it sends complete identity information. "
 "Communication with a <quote>green-padlock</quote> server is always encrypted."
 msgstr ""
+"Tato stránka se zcela identifikuje certifikátem, který zajišťuje, že je web "
+"ve vlastnictví osoby nebo organizace, za niž se prohlašuje. To je zvláště "
+"důležité při výměně velmi citlivých dat (například při provádění peněžních "
+"transakcí přes internet - v takovém případě si můžete být jisti, že jste při "
+"odesílání úplných informací o totožnosti na webu své banky.) Komunikace se "
+"serverem <quote>zelený zámek</quote> je vždy šifrována."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:718
@@ -942,6 +1271,11 @@ msgid ""
 "the site's certificate, the encryption level, and information about stored "
 "passwords and cookies."
 msgstr ""
+"Chcete-li zobrazit podrobné informace o identitě, klikněte na ikonu webu na "
+"liště umístění. V úvodním vyskakovacím okně klikněte <guimenu>Další "
+"informace</guimenu> a otevřete okno <guimenu>Informace o stránce</guimenu>. "
+"Zde si můžete prohlédnout certifikát webu, úroveň šifrování a informace o "
+"uložených heslech a cookies."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:725
@@ -952,11 +1286,17 @@ msgid ""
 "graphics and embedded objects from a site and displays further information "
 "on each item together with a preview. It also lets you save individual items."
 msgstr ""
+"V zobrazení <guimenu>Oprávnění</guimenu> můžete nastavit oprávnění pro "
+"jednotlivé stránky pro načítání obrázků, vyskakovací okna, soubory cookie a "
+"oprávnění k instalaci. Zobrazení <guimenu>Média</guimenu> uvádí všechny "
+"obrázky, grafiku na pozadí a vložené objekty z webu a zobrazuje další "
+"informace o každé položce spolu s náhledem. Umožňuje také ukládat jednotlivé "
+"položky."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:734
 msgid "The Firefox Page Info Window"
-msgstr ""
+msgstr "Firefox - okno informací o stránce"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -966,12 +1306,12 @@ msgstr ""
 #: xml/apps_firefox.xml:737 xml/apps_firefox.xml:740
 msgctxt "_"
 msgid "external ref='firefox_page_info.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_page_info.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:747
 msgid "Importing Certificates"
-msgstr ""
+msgstr "Import certifikátů"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:748
@@ -983,6 +1323,12 @@ msgid ""
 "certificate store, it is not trusted. This ensures that no spoofed "
 "certificates are accepted."
 msgstr ""
+"Firefox je dodáván s úložištěm certifikátů pro identifikaci certifikačních "
+"autorit (CA). Použití těchto certifikátů umožňuje prohlížeči automaticky "
+"ověřovat certifikáty vydané webovými servery. Pokud webový server vydá "
+"certifikát, který nebyl podepsán jedním z certifikačních autorit z úložiště "
+"certifikátů, není důvěryhodný. Tím je zajištěno, že nebudou přijímány žádné "
+"falešné certifikáty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:756
@@ -995,12 +1341,19 @@ msgid ""
 "variable. For example, you can add the following line to <filename>~/."
 "bashrc</filename>:"
 msgstr ""
+"Velké organizace obvykle používají vlastní interní certifikační autority a "
+"distribuují příslušné certifikáty prostřednictvím úložiště certifikátů pro "
+"celý systém, umístěného na <filename>/etc/pki/nssdb</filename>. Chcete-li "
+"zkonfigurovat Firefox (a další nástroje Mozilla, například Thunderbird) tak, "
+"aby používal toto systémové úložiště CA kromě svého vlastního, exportujte "
+"proměnnou <envar>NSS_USE_SHARED_DB</envar>. Můžete například přidat "
+"následující řádek do <filename>~/.bashrc</filename>:"
 
 #. (itstool) path: sect2/screen
 #: xml/apps_firefox.xml:765
 #, no-wrap
 msgid "export NSS_USE_SHARED_DB=1"
-msgstr ""
+msgstr "export NSS_USE_SHARED_DB=1"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:766
@@ -1014,11 +1367,19 @@ msgid ""
 "and select the certificate to import. Only import certificates you "
 "absolutely trust!"
 msgstr ""
+"Alternativně nebo navíc můžete certifikáty importovat ručně. Chcete-li tak "
+"učinit, otevřete v panelu nabídek dialogové okno <guimenu>Předvolby</guimenu>"
+" kliknutím na <menuchoice><guimenu>Úpravy</guimenu> "
+"<guimenu>Předvolby</guimenu> </menuchoice>. Vyberte <menuchoice> "
+"<guimenu>Upřesnit</guimenu> <guimenu>Certifikáty</guimenu> <guimenu>Zobrazit "
+"certifikáty</guimenu> <guimenu>Vaše certifikáty</guimenu> "
+"<guimenu>Importovat</guimenu> </menuchoice> a vyberte certifikát, který "
+"chcete importovat. Importujte pouze certifikáty, kterým naprosto důvěřujete!"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:779
 msgid "Password Management"
-msgstr ""
+msgstr "Správa hesel"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:780
@@ -1030,6 +1391,12 @@ msgid ""
 "in an encrypted format. The next time you access this site, Firefox will "
 "automatically fill in the login data."
 msgstr ""
+"Při každém zadání uživatelského jména a hesla na webu nabízí Firefox uložení "
+"těchto údajů. V horní části stránky se otevře vyskakovací okno s dotazem, "
+"zda chcete, aby si Firefox zapamatoval heslo. Pokud souhlasíte kliknutím na "
+"<guimenu>Zapamatovat</guimenu>, heslo bude uloženo na pevný disk v "
+"šifrovaném formátu. Při příštím přístupu na tento web Firefox automaticky "
+"vyplní přihlašovací údaje."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:788
@@ -1043,6 +1410,15 @@ msgid ""
 "single or all entries from the list, click <guimenu>Remove</guimenu> or "
 "<guimenu>Remove All</guimenu>, respectively."
 msgstr ""
+"Chcete-li zkontrolovat nebo spravovat svá hesla, otevřete správce hesel "
+"kliknutím na <menuchoice> <guimenu>Úpravy</guimenu> "
+"<guimenu>Předvolby</guimenu> <guimenu>Zabezpečení</guimenu> <guimenu>Uložená "
+"hesla</guimenu></menuchoice> v panelu nabídek. Otevře se správce hesel se "
+"seznamem webů a jejich odpovídajícími uživatelskými jmény. Ve výchozím "
+"nastavení se hesla nezobrazují. Kliknutím na <guimenu>Ukázat hesla</guimenu> "
+"hesla zobrazíte. Chcete-li odstranit jednotlivé nebo všechny položky ze "
+"seznamu, klikněte na <guimenu>Odstranit</guimenu> nebo <guimenu>Odstranit "
+"vše</guimenu>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:798
@@ -1053,11 +1429,17 @@ msgid ""
 "guimenu></menuchoice>, choose the category <guimenu>Security</guimenu> and "
 "activate <guimenu>Use a Master Password</guimenu>."
 msgstr ""
+"Chcete-li chránit svá hesla před neoprávněným přístupem, můžete nastavit "
+"hlavní heslo, které je vyžadováno při správě nebo přidávání hesel. Na panelu "
+"nabídek klikněte na <menuchoice> <guimenu>Úpravy</guimenu> "
+"<guimenu>Předvolby</guimenu> </menuchoice>, vyberte kategorii "
+"<guimenu>Zabezpečení</guimenu> a aktivujte <guimenu>Použít hlavní "
+"heslo</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:809
 msgid "Private Browsing"
-msgstr ""
+msgstr "Soukromé prohlížení"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:810
@@ -1070,6 +1452,13 @@ msgid ""
 "mode Firefox will not keep track of your browsing history nor will it cache "
 "the content of pages you have visited."
 msgstr ""
+"Ve výchozím nastavení Firefox sleduje vaši historii prohlížení ukládáním "
+"obsahu a odkazů navštěvovaných webových stránek, souborů cookie, stahování, "
+"hesel, hledaných výrazů a vzorců. Shromažďování a ukládání těchto údajů "
+"umožňuje rychlejší a pohodlnější prohlížení. Pokud například používáte "
+"veřejný terminál nebo počítač přítele, můžete toto chování vypnout. V režimu "
+"soukromého prohlížení nebude Firefox sledovat vaši historii prohlížení ani "
+"nebude ukládat do mezipaměti obsah stránek, které jste navštívili."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:819
@@ -1081,11 +1470,17 @@ msgid ""
 "mode, the string <literal>(Private Browsing)</literal> will be displayed in "
 "the titlebar of the window."
 msgstr ""
+"Chcete-li povolit režim soukromého prohlížení, v panelu nabídek klikněte na "
+"<menuchoice> <guimenu>Soubor</guimenu> <guimenu>Nové soukromé okno</guimenu> "
+"</menuchoice>. Aktuální web a všechny otevřené karty budou nahrazeny "
+"obrazovkou s informacemi o soukromém prohlížení. Pokud budete brouzdat v "
+"soukromém režimu, zobrazí se v záhlaví okna řetězec <literal>(Soukromé "
+"prohlížení)</literal>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:827
 msgid "Disable Private Browsing by closing the private window."
-msgstr ""
+msgstr "Soukromé prohlížení ukončíte zavřením soukromého okna."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:830
@@ -1096,53 +1491,60 @@ msgid ""
 "<guimenu>Use custom settings for history</guimenu> and then choose "
 "<guimenu>Always use private browsing mode</guimenu>."
 msgstr ""
+"Chcete-li nastavit soukromé prohlížení jako výchozí režim, otevřete kartu "
+"<guimenu>Soukromí</guimenu> v okně Předvolby, jak je popsáno v <xref linkend="
+"\"sec.firefox.preferences\"/> a nastavte možnost <guimenu>Firefox "
+"bude:</guimenu> na <guimenu>Používat přizpůsobení pro historii</guimenu> a "
+"pak zvolte <guimenu>Vždy použít režim soukromého prohlížení</guimenu>."
 
 #. (itstool) path: warning/title
 #: xml/apps_firefox.xml:838
 msgid "Bookmarks and Downloads"
-msgstr ""
+msgstr "Záložky a stahování"
 
 #. (itstool) path: warning/para
 #: xml/apps_firefox.xml:839
 msgid ""
 "Downloads and bookmarks you made during Private Browsing mode will be kept."
 msgstr ""
+"Stažené soubory a záložky, které jste vytvořili v režimu soukromého "
+"prohlížení, zůstanou zachovány."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:847
 msgid "Customizing Firefox"
-msgstr ""
+msgstr "Přizpůsobení Firefoxu"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:849
 msgid "Firefox can be customized extensively."
-msgstr ""
+msgstr "Firefox lze rozsáhle přizpůsobit."
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:855
 msgid "Change the way Firefox behaves by altering its preferences."
-msgstr ""
+msgstr "Změňte chování Firefoxu změnou jeho preferencí."
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:860
 msgid "Add functionality by installing extensions."
-msgstr ""
+msgstr "Přidejte funkčnost instalací doplňků."
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:865
 msgid "Change the look and feel by installing themes."
-msgstr ""
+msgstr "Instalací motivů změňte vzhled a dojem."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:871
 msgid ""
 "To manage extensions, themes and plug-ins, Firefox has an add-on manager."
-msgstr ""
+msgstr "Na správu rozšíření, motivů a doplňků má Firefox správce přídavků."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:876
 msgid "Preferences"
-msgstr ""
+msgstr "Předvolby"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:877
@@ -1153,11 +1555,16 @@ msgid ""
 "online help, which can be accessed by clicking the question mark icon in the "
 "dialog."
 msgstr ""
+"Firefox nabízí širokou škálu možností konfigurace. Jsou k dispozici výběrem "
+"položky <menuchoice> <guimenu>Úpravy</guimenu> <guimenu>Předvolby</guimenu> "
+"</menuchoice> na panelu nabídek. Možnosti jsou podrobně popsány v online "
+"nápovědě, ke které se dostanete kliknutím na ikonu otazníku (Nápověda "
+"Firefoxu) v dialogu."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:885
 msgid "The Preferences Window"
-msgstr ""
+msgstr "Okno předvoleb"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1167,12 +1574,12 @@ msgstr ""
 #: xml/apps_firefox.xml:888 xml/apps_firefox.xml:891
 msgctxt "_"
 msgid "external ref='firefox_preferences.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_preferences.png' md5='__failed__'"
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:896
 msgid "Session management"
-msgstr ""
+msgstr "Správa relace"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:897
@@ -1185,6 +1592,13 @@ msgid ""
 "option <guimenu>When Firefox Starts:</guimenu> to <guimenu>Show My Windows "
 "and Tabs from Last Time</guimenu>."
 msgstr ""
+"Ve výchozím nastavení Firefox automaticky obnoví vaši relaci - okna a karty -"
+" pouze po havárii nebo po restartu kvůli rozšíření. Lze ho však "
+"nakonfigurovat tak, aby relaci obnovoval při každém spuštění: Otevřete "
+"dialogové okno Předvolby, jak je popsáno v <xref linkend=\"sec.firefox."
+"preferences\"/> a přejděte do kategorie <guimenu>Obecné</guimenu>. Nastavte "
+"možnost <guimenu>Při spuštění Firefoxu</guimenu> na <guimenu>Otevřít okna a "
+"záložky od posledně</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:907
@@ -1195,11 +1609,16 @@ msgid ""
 "<keycap function=\"control\"/> <keycap>Q</keycap> </keycombo>. If you close "
 "the windows one by one, only the last window will be restored."
 msgstr ""
+"Máte-li otevřeno více oken, budou obnovena až příště, když všechna zavřete "
+"najednou pomocí <menuchoice> <guimenu>Soubor</guimenu> "
+"<guimenu>Ukončit</guimenu> </menuchoice> (z lišty hlavního menu) nebo pomocí "
+"<keycombo> <keycap function=\"control\"/> <keycap>Q</keycap> </keycombo>. "
+"Pokud okna zavřete jedno po druhém, obnoví se pouze poslední okno."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:917
 msgid "Language Preferences for Web Sites"
-msgstr ""
+msgstr "Jazykové preference pro webové stránky"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:918
@@ -1217,11 +1636,23 @@ msgid ""
 "the category <guimenu>Content</guimenu> and <guimenu>Choose</guimenu> your "
 "preferred language."
 msgstr ""
+"Při odesílání požadavku na webový server prohlížeč vždy odešle informace o "
+"tom, který jazyk je uživatelem preferován. Webové stránky, které jsou k "
+"dispozici ve více než jednom jazyce (a jsou konfigurovány pro vyhodnocení "
+"tohoto parametru jazyka), zobrazí své stránky v jazyce, který požaduje "
+"prohlížeč. Na <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> je "
+"preferovaný jazyk předkonfigurován tak, aby byl stejný jako jazyk desktopu. "
+"Chcete-li toto nastavení změnit, otevřete okno <guimenu>Předvolby</guimenu>, "
+"jak je popsáno v <xref linkend=\"sec.firefox.preferences\"/>, přejděte do "
+"kategorie <guimenu>Obsah</guimenu> a <guimenu>Zvolte</guimenu> preferovaný "
+"jazyk."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:932
 msgid "Spell Checking"
-msgstr ""
+msgstr "Kontrola pravopisu"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:933
@@ -1231,6 +1662,11 @@ msgid ""
 "right-click it and select the correct spelling from the context menu. You "
 "may also add the word to the dictionary, if it is correct."
 msgstr ""
+"Ve výchozím nastavení Firefox při psaní do víceřádkových textových polí "
+"kontroluje pravopis. Chybně napsaná slova jsou podtržena červeně. Chcete-li "
+"opravit slovo, klepněte na ně pravým tlačítkem a z kontextové nabídky "
+"vyberte správný pravopis. Můžete také přidat slovo do slovníku, pokud je "
+"správné."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:940
@@ -1243,11 +1679,18 @@ msgid ""
 "<guimenu>Advanced</guimenu>. Deactivate <guimenu>Check My Spelling As I "
 "Type</guimenu>."
 msgstr ""
+"Chcete-li změnit nebo přidat slovník, klepněte pravým tlačítkem myši kdekoli "
+"ve víceřádkovém textovém poli a vyberte příslušnou možnost z místní nabídky. "
+"Zde můžete také zakázat kontrolu pravopisu pro toto textové pole. Pokud "
+"chcete globálně zakázat kontrolu pravopisu, otevřete okno "
+"<guimenu>Předvolby</guimenu>, jak je popsáno v <xref linkend=\"sec.firefox."
+"preferences\"/> a přejděte do kategorie <guimenu>Upřesnit</guimenu>. "
+"Deaktivujte <guimenu>Při psaní kontrolovat pravopis</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:953
 msgid "Add-ons"
-msgstr ""
+msgstr "Přídavné funkce"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:954
@@ -1258,6 +1701,12 @@ msgid ""
 "show the weather, or control Web music players. Other extensions assist Web "
 "developers or increase security by blocking content such as ads or scripts."
 msgstr ""
+"Rozšíření umožňují přizpůsobit Firefox tak, aby vyhovoval vašim potřebám. "
+"Pomocí rozšíření můžete změnit vzhled a dojem z Firefoxu, vylepšit stávající "
+"funkce a přidat funkce. Rozšíření mohou například vylepšit správce "
+"stahování, ukázat počasí nebo ovládat webové hudební přehrávače. Další "
+"rozšíření pomáhají webovým vývojářům nebo zvyšují zabezpečení blokováním "
+"obsahu, jako jsou reklamy nebo skripty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:962
@@ -1265,6 +1714,8 @@ msgid ""
 "There are thousands of extensions available for Firefox. With the add-ons "
 "manager, you can install, enable, disable, update, and remove extensions."
 msgstr ""
+"Pro Firefox jsou k dispozici tisíce rozšíření. Pomocí Správce doplňků můžete "
+"instalovat, aktivovat, deaktivovat, aktualizovat a odebírat rozšíření."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:966
@@ -1273,11 +1724,13 @@ msgid ""
 "<emphasis>theme</emphasis>. Themes do not change the functionality, only the "
 "appearance of the browser."
 msgstr ""
+"Pokud se vám nelíbí standardní vzhled a dojem z Firefoxu, nainstalujte nový "
+"<emphasis>motiv</emphasis>. Motivy nemění funkčnost, pouze vzhled prohlížeče."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:972
 msgid "Installing Add-ons"
-msgstr ""
+msgstr "Instalace přídavků"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:973
@@ -1288,6 +1741,11 @@ msgid ""
 "displaying a choice of recommended add-ons or the results of your last "
 "search."
 msgstr ""
+"Chcete-li přidat rozšíření nebo motiv, spusťte správce doplňků z nabídky "
+"<menuchoice> <guimenu>Nástroje</guimenu> <guimenu>Doplňky</guimenu> "
+"</menuchoice>. Otevře se na kartě <guimenu>Najít další doplňky</guimenu>, "
+"kde se zobrazí výběr doporučených doplňků nebo výsledky posledního "
+"vyhledávání."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:980
@@ -1297,11 +1755,16 @@ msgid ""
 "add-on by clicking <guimenu>Install</guimenu> or open a Web page with "
 "detailed information by clicking the <guimenu>More</guimenu> link."
 msgstr ""
+"Chcete-li vyhledat konkrétní doplňky, použijte pole <guimenu>Prohledat "
+"všechny doplňky</guimenu>. Kliknutím na položku v seznamu na webu zobrazíte "
+"krátký popis. Nainstalujte doplněk kliknutím na <guimenu>Instalovat</guimenu>"
+" nebo otevřete webovou stránku s podrobnými informacemi kliknutím na odkaz "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:987
 msgid "Installing Firefox Extensions"
-msgstr ""
+msgstr "Instalace rozšíření Firefoxu"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1311,7 +1774,7 @@ msgstr ""
 #: xml/apps_firefox.xml:990 xml/apps_firefox.xml:993
 msgctxt "_"
 msgid "external ref='firefox_addon_manager.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_addon_manager.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1004
@@ -1321,11 +1784,15 @@ msgid ""
 "manager. Restart this way to make sure that your browsing session will be "
 "restored."
 msgstr ""
+"Chcete-li aktivovat čerstvě nainstalovaná rozšíření nebo motivy, je někdy "
+"třeba Firefox restartovat kliknutím na <guimenu>Restartovat hned</guimenu> "
+"ve správci doplňků. Restartujte tímto způsobem a ujistěte se, že vaše relace "
+"procházení bude obnovena."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:1012
 msgid "Managing Add-ons"
-msgstr ""
+msgstr "Správa přídavků"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1013
@@ -1341,6 +1808,16 @@ msgid ""
 "install <guimenu>Plug-Ins</guimenu> as a user, you may disable or enable "
 "them with the Add-ons manager."
 msgstr ""
+"Správce doplňků také nabízí pohodlné rozhraní pro správu rozšíření, témat a "
+"doplňků. <guimenu>Rozšíření</guimenu> lze povolit, zakázat nebo "
+"odinstalovat. Pokud lze rozšíření konfigurovat, lze k jeho konfiguračním "
+"možnostem přistupovat pomocí tlačítka <guimenu>Předvolby</guimenu>. Na kartě "
+"<guimenu>Vzhled</guimenu> můžete <guimenu>Odinstalovat</guimenu> motiv nebo "
+"aktivovat jiný motiv kliknutím na <guimenu>Povolit</guimenu>. V seznamu jsou "
+"také čekající instalace rozšíření a motivů. Chcete-li instalaci zastavit, "
+"vyberte <guimenu>Zrušit</guimenu>. Přestože <guimenu>Zásuvné moduly</guimenu>"
+" (Plug-Ins) nemůžete nainstalovat jako uživatel, můžete je zakázat nebo "
+"povolit pomocí Správce doplňků."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1026
@@ -1349,11 +1826,14 @@ msgid ""
 "disable them. In such cases, after clicking either of these actions, a "
 "<guimenu>Restart now</guimenu> link appears in the add-ons manager."
 msgstr ""
+"Některé doplňky vyžadují restartování prohlížeče, když je odinstalujete nebo "
+"zakážete. V takových případech se po kliknutí na některou z těchto akcí ve "
+"správci doplňků zobrazí odkaz <guimenu>Restartovat hned</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1048
 msgid "Printing from Firefox"
-msgstr ""
+msgstr "Tisk z Firefoxu"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1050
@@ -1364,6 +1844,11 @@ msgid ""
 "menuchoice>. Configure paper size and orientation per printer with "
 "<guimenu>Page Setup</guimenu>."
 msgstr ""
+"Před vlastním tiskem webové stránky můžete pomocí funkce náhledu tisku "
+"určit, jak bude vytištěná stránka vypadat. Na panelu nabídek vyberte "
+"<menuchoice> <guimenu>Soubor</guimenu> <guimenu>Náhled tisku</guimenu> "
+"</menuchoice>. Konfigurujte velikost a orientaci papíru (pro každou tiskárnu "
+"zvlášť) pomocí <guimenu>Nastavení stránky</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1058
@@ -1374,6 +1859,12 @@ msgid ""
 "<guimenu>Printer</guimenu> dialog opens. To print with the default options "
 "click <guimenu>Print</guimenu>."
 msgstr ""
+"Chcete-li vytisknout webovou stránku, vyberte z panelu nabídek <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Vytisknout stránku...</guimenu> "
+"</menuchoice> nebo stiskněte klávesu <keycombo> <keycap function=\"control\""
+"/> <keycap>P</keycap> </keycombo>. Otevře se dialogové okno "
+"<guimenu>Tiskárna</guimenu>. Chcete-li tisknout s výchozími možnostmi, "
+"klikněte na <guimenu>Tisk</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1066
@@ -1386,16 +1877,23 @@ msgid ""
 "double-sided printing here. Control how frames, backgrounds, header and "
 "footer are printed on the <guimenu>Options</guimenu> tab."
 msgstr ""
+"Dialogové okno Tiskárna také nabízí rozsáhlé možnosti konfigurace pro jemné "
+"doladění vzhledu tisku. Na kartě <guimenu>Obecné</guimenu> vyberte tiskárnu, "
+"rozsah pro tisk, počet kopií a pořadí. <guimenu>Nastavení stránky</guimenu> "
+"umožňuje určit počet stránek na stranu, faktor změny měřítka a zdroj a typ "
+"papíru. Pokud to tiskárna podporuje, můžete zde také aktivovat oboustranný "
+"tisk. Určete, jak budou rámečky, pozadí, záhlaví a zápatí tisknuty, na kartě "
+"<guimenu>Možnosti</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1110
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1112
 msgid "To get more information about Firefox see the following links:"
-msgstr ""
+msgstr "Další informace o Firefoxu najdete na následujících odkazech:"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1117
@@ -1403,6 +1901,8 @@ msgid ""
 "<emphasis>Mozilla forums</emphasis>: <link xlink:href=\"https://www.mozilla."
 "org/about/forums/\"/>"
 msgstr ""
+"<emphasis>Fóra Mozilly</emphasis>: <link xlink:href=\"https://www.mozilla."
+"org/about/forums/\"/>"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1119
@@ -1410,6 +1910,8 @@ msgid ""
 "<emphasis>Main Menu reference</emphasis>: <link xlink:href=\"http://support."
 "mozilla.org/kb/Menu+reference\"/>"
 msgstr ""
+"<emphasis>Popis Hlavního menu</emphasis>: <link xlink:href=\""
+"http://support.mozilla.org/kb/Menu+reference\"/>"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1121
@@ -1417,6 +1919,8 @@ msgid ""
 "<emphasis>Preferences reference</emphasis>: <link xlink:href=\"http://"
 "support.mozilla.org/kb/Options+window\"/>"
 msgstr ""
+"<emphasis>Popis předvoleb</emphasis>: <link xlink:href=\""
+"http://support.mozilla.org/kb/Options+window\"/>"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1123
@@ -1424,3 +1928,5 @@ msgid ""
 "<emphasis>Keyboard shortcuts</emphasis>: <link xlink:href=\"http://support."
 "mozilla.org/kb/Keyboard+shortcuts\"/>"
 msgstr ""
+"<emphasis>Klávesové zkratky</emphasis>: <link xlink:href=\""
+"http://support.mozilla.org/kb/Keyboard+shortcuts\"/>"
