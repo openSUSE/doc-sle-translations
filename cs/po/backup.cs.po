@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2018-09-30 01:25+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/backup-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/backup.xml:16
 msgid "Backing Up User Data"
-msgstr ""
+msgstr "Zálohování uživatelských dat"
 
 #. (itstool) path: abstract/para
 #: xml/backup.xml:19
@@ -29,11 +33,15 @@ msgid ""
 "create scheduled backups or backups on request, and to play back a previous "
 "state of this data."
 msgstr ""
+"Nástroj Zálohování je jednoduchý prostředek umožňující uživatelům zálohovat "
+"a obnovovat svá vlastní data, jako jsou domovské adresáře nebo vybrané "
+"soubory. Lze vytvořit plánované zálohy nebo zálohy na vyžádání a obnovit "
+"předchozí stav těchto dat."
 
 #. (itstool) path: docmanager/translation
 #: xml/backup.xml:28
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/backup.xml:31
@@ -42,6 +50,9 @@ msgid ""
 "Overview by pressing <keycap function=\"meta\"/> and search for "
 "<literal>back</literal>."
 msgstr ""
+"Chcete-li spustit aplikaci <guimenu>Zálohy</guimenu>, otevřete Přehled "
+"aktivit stisknutím <keycap function=\"meta\"/> a vyhledejte "
+"<literal>back</literal>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -51,12 +62,12 @@ msgstr ""
 #: xml/backup.xml:40 xml/backup.xml:43
 msgctxt "_"
 msgid "external ref='gnome_backup.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='gnome_backup.png' md5='__failed__'"
 
 #. (itstool) path: sect1/title
 #: xml/backup.xml:49
 msgid "Configuring Backups"
-msgstr ""
+msgstr "Konfigurace Záloh"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:50
@@ -64,6 +75,8 @@ msgid ""
 "Before you can start to backup data, configure which files to back up, which "
 "ones to ignore and where to store the backup."
 msgstr ""
+"Než začnete zálohovat data, konfigurujte, které soubory se mají zálohovat, "
+"které ignorovat a kam uložit zálohu."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:56
@@ -72,6 +85,10 @@ msgid ""
 "guimenu>. By default, your home directory is preconfigured. Use the plus and "
 "minus signs to add or delete folders."
 msgstr ""
+"Kliknutím na <guimenu>Složky k uložení</guimenu> můžete nastavit, které "
+"složky se mají zálohovat. Ve výchozím nastavení je předem konfigurován váš "
+"domovský adresář. K přidávání nebo mazání složek použijte znaménka plus a "
+"minus."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:63
@@ -81,6 +98,11 @@ msgid ""
 "the <filename>Download</filename> directory are preconfigured. Use the plus "
 "and minus signs to add or delete folders."
 msgstr ""
+"Kliknutím na <guimenu> Ignorovat složky </guimenu> můžete případně "
+"konfigurovat složky, které mají být při zálohování dat vynechány. Ve "
+"výchozím nastavení jsou předem konfigurovány koš a adresář <filename>Stažené "
+"soubory</filename> (Download). K přidávání nebo mazání složek použijte "
+"znaménka plus a minus."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:71
@@ -93,6 +115,14 @@ msgid ""
 "provided your login credentials for the respective online service via "
 "<guimenu>Open Online Account Settings</guimenu>."
 msgstr ""
+"Chcete-li definovat umístění, kam chcete zálohu uložit, klikněte na <guimenu>"
+"Umístění úložiště</guimenu>. Můžete si vybrat <guimenu>Místní "
+"složku</guimenu>, <guimenu>Síťový server</guimenu> nebo cloudové úložiště. "
+"Pokud se rozhodnete pro druhou možnost, vyberte ze seznamu existující službu "
+"nebo přidejte službu kliknutím na <guimenu>Otevřít nastavení online "
+"účtu</guimenu>. Ujistěte se, že jste zadali své přihlašovací údaje pro "
+"příslušnou službu online prostřednictvím <guimenu>Otevřít nastavení online "
+"účtu</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:80
@@ -101,11 +131,14 @@ msgid ""
 "backup(s) will be stored. It is recommended to choose a name that can easily "
 "be associated with backups for the respective machine and data."
 msgstr ""
+"Bez ohledu na umístění úložiště uveďte název adresáře, pod kterým budou "
+"zálohy uloženy. Doporučuje se zvolit název, který lze snadno spojit se "
+"zálohami pro příslušný stroj a data."
 
 #. (itstool) path: sect1/title
 #: xml/backup.xml:90
 msgid "Creating Backups"
-msgstr ""
+msgstr "Vytváření záloh"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:91
@@ -116,6 +149,11 @@ msgid ""
 "Now</guimenu>. Choose whether you want to protect the backup with a password "
 "or not. Proceed with <guimenu>Forward</guimenu>."
 msgstr ""
+"Jakmile nakonfigurujete, které složky se mají zálohovat a kam je uložit, "
+"máte dvě možnosti zálohování. Nejprve ručním spuštěním zálohy. Přepněte na "
+"obrazovku <guimenu>Přehled</guimenu> a klikněte na <guimenu>Zálohovat "
+"teď</guimenu>. Vyberte, zda chcete zálohu chránit heslem nebo ne. Pokračujte "
+"<guimenu>Vpřed</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:98
@@ -125,11 +163,16 @@ msgid ""
 "decide how long to keep backups. Enable scheduled backups by turning the "
 "<guimenu>Automatic Backup</guimenu> switch <guimenu>On</guimenu>."
 msgstr ""
+"Druhou možností je naplánovat automatické zálohy: Kliknutím na "
+"<guimenu>Plánování</guimenu> vytvořte plán zálohování. Zadejte frekvenci "
+"zálohování a rozhodněte se, jak dlouho chcete zálohy uchovávat. Povolte "
+"plánované zálohy přepnutím přepínače <guimenu>Automatické "
+"zálohování</guimenu> na <guimenu>Zapnuto</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/backup.xml:107
 msgid "Restoring Data"
-msgstr ""
+msgstr "Obnovení dat"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:109
@@ -137,6 +180,8 @@ msgid ""
 "To restore a previous state of your data, switch to the <guimenu>Overview</"
 "guimenu> screen and click <guimenu>Restore</guimenu>."
 msgstr ""
+"Chcete-li obnovit předchozí stav svých dat, přepněte na obrazovku "
+"<guimenu>Přehled</guimenu> a klikněte na <guimenu>Obnovit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:117
@@ -144,6 +189,8 @@ msgid ""
 "Choose a backup location, a directory name and proceed with "
 "<guimenu>Forward</guimenu>."
 msgstr ""
+"Vyberte umístění zálohy, název adresáře a pokračujte "
+"<guimenu>Vpřed</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:123
@@ -151,6 +198,8 @@ msgid ""
 "Select the backup date which you want to restore and proceed with "
 "<guimenu>Forward</guimenu>."
 msgstr ""
+"Vyberte datum zálohy, které chcete obnovit, a pokračujte "
+"<guimenu>Vpřed</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:129
@@ -159,6 +208,8 @@ msgid ""
 "location or to a different directory. Proceed with <guimenu>Forward</"
 "guimenu>."
 msgstr ""
+"Vyberte, zda chcete obnovit soubory ze zálohy do původního umístění nebo do "
+"jiného adresáře. Pokračujte <guimenu>Vpřed</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/backup.xml:136
@@ -167,3 +218,6 @@ msgid ""
 "them. To start restoring data from the backup, click <guimenu>Restore</"
 "guimenu>."
 msgstr ""
+"Zkontrolujte nastavení. V případě potřeby je můžete změnit po návratu "
+"<guimenu>Zpět</guimenu>. Chcete-li začít obnovovat data ze zálohy, klikněte "
+"na <guimenu>Obnovit</guimenu>."
