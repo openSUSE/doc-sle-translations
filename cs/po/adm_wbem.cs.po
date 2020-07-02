@@ -2,34 +2,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_wbem-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/adm_wbem.xml:12
 msgid "Web Based Enterprise Management Using SFCB"
 msgstr ""
+"Webová správa podniku (Web Based Enterprise Management, WBEM) pomocí SFCB"
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_wbem.xml:16
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:21
 msgid "Introduction and Basic Concept"
-msgstr ""
+msgstr "Úvod a základní koncepce"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:23
@@ -40,6 +45,11 @@ msgid ""
 "the Distributed Management Task Force. The following paragraphs describe "
 "their basic components."
 msgstr ""
+"SUSE® Linux Enterprise Server (SLES) poskytuje kolekci nástrojů založených "
+"na otevřených standardech pro jednotnou správu různých výpočetních systémů a "
+"prostředí. Naše podniková řešení implementují standardy navržené pracovní "
+"skupinou pro distribuovanou správu. Následující odstavce popisují jejich "
+"základní součásti."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:31
@@ -54,6 +64,14 @@ msgid ""
 "emphasis> and <emphasis>Common Information Model </emphasis> are one of "
 "their key technologies."
 msgstr ""
+"Distributed Management Task Force, Inc (DMTF) je průmyslová organizace, "
+"která vede vývoj standardů správy pro podniková a internetová prostředí. "
+"Jejich cílem je sjednotit standardy a iniciativy správy a umožnit "
+"integrovanější, nákladově efektivnější a interoperabilní řešení pro správu. "
+"Standardy DMTF poskytují společné komponenty pro správu systému pro řízení a "
+"komunikaci. Jejich řešení jsou nezávislá na platformách a technologiích. "
+"<emphasis>Webová správa podniku</emphasis> a <emphasis>Společný informační "
+"model</emphasis> jsou dvě z jejich klíčových technologií."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:43
@@ -64,21 +82,26 @@ msgid ""
 "to deliver a well-integrated collection of management tools using Web "
 "technologies. WBEM consists of the following standards:"
 msgstr ""
+"Web Based Enterprise Management (WBEM) je sada standardních technologií pro "
+"správu a internet. WBEM byl vyvinut za účelem sjednocení správy podnikových "
+"výpočetních prostředí. Poskytuje průmyslu schopnost dodávat dobře "
+"integrovanou kolekci nástrojů pro správu pomocí webových technologií. WBEM "
+"se skládá z následujících standardů:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:53
 msgid "A data model: the Common Information Model (CIM) standard"
-msgstr ""
+msgstr "Datový model: standard Common Information Model (CIM)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:58
 msgid "An encoding specification: CIM-XML Encoding Specification"
-msgstr ""
+msgstr "Specifikace kódování: Specifikace kódování CIM-XML"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:63
 msgid "A transport mechanism: CIM operations over HTTP"
-msgstr ""
+msgstr "Transportní mechanismus: provoz CIM přes HTTP"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:69
@@ -89,6 +112,10 @@ msgid ""
 "systems, networks, services and applications. There are two parts to CIM — "
 "the CIM Specification and the CIM Schema."
 msgstr ""
+"Společný informační model je koncepční informační model, který popisuje "
+"správu systému. Není vázán na konkrétní implementaci a umožňuje výměnu "
+"informací o správě mezi systémy správy, sítěmi, službami a aplikacemi. CIM "
+"má dvě části - specifikaci CIM a schéma CIM."
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:79
@@ -103,6 +130,14 @@ msgid ""
 "and <emphasis>references</emphasis> as types of <emphasis>properties</"
 "emphasis>."
 msgstr ""
+"<emphasis>Specifikace CIM</emphasis> popisuje jazyk, pojmenovávání a "
+"metaschéma. Metaschéma je formální definicí modelu. Definuje pojmy použité k "
+"popisu modelu a jejich použití a sémantiku. Prvky metaschématu jsou "
+"<emphasis>třídy</emphasis>, <emphasis>vlastnosti</emphasis> a "
+"<emphasis>metody</emphasis>. Metaschéma také podporuje "
+"<emphasis>indikace</emphasis> a <emphasis>asociace</emphasis> jako typy "
+"<emphasis>tříd</emphasis> a <emphasis>odkazy</emphasis> jako typy "
+"<emphasis>vlastností</emphasis>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:92
@@ -112,6 +147,10 @@ msgid ""
 "well understood conceptual framework within which it is possible to organize "
 "the available information about the managed environment."
 msgstr ""
+"<emphasis>Schéma CIM</emphasis> poskytuje popisy skutečných modelů. Dodává "
+"sadu tříd s vlastnostmi a asociacemi, které poskytují dobře srozumitelný "
+"koncepční rámec, v němž je možno uspořádat dostupné informace o spravovaném "
+"prostředí."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:102
@@ -121,6 +160,10 @@ msgid ""
 "CIM standard. CIMOM manages communication between CIMOM providers and a CIM "
 "client, where the administrator manages the system."
 msgstr ""
+"Správce objektů Common Information Model Object (CIMOM) je správce objektů "
+"CIM nebo konkrétněji aplikace, která spravuje objekty podle standardu CIM. "
+"CIMOM spravuje komunikaci mezi poskytovateli CIMOM a klientem CIM, kde "
+"správce spravuje systém."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:109
@@ -130,6 +173,10 @@ msgid ""
 "instruments one or more aspects of the CIMOM's schema. These providers "
 "interact directly with the hardware."
 msgstr ""
+"<emphasis>Poskytovatelé CIMOM</emphasis> jsou softwary provádějící "
+"specifické úkoly v rámci CIMOM, které jsou vyžadovány klientskými "
+"aplikacemi. Každý poskytovatel instrumentuje jeden nebo více aspektů "
+"schématu CIMOM. Tito poskytovatelé interagují přímo s hardwarem."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:116
@@ -140,6 +187,11 @@ msgid ""
 "(or CIM server) from the SBLIM project called <emphasis>Small Footprint CIM "
 "Broker</emphasis> ."
 msgstr ""
+"<emphasis>Standards Based Linux Instrumentation for Manageability "
+"(SBLIM)</emphasis> je kolekce nástrojů určených k podpoře Web-Based "
+"Enterprise Management (WBEM). Server SUSE® Linux Enterprise Server používá "
+"open source CIMOM (neboli CIM server) z projektu SBLIM s názvem <emphasis>"
+"Small Footprint CIM Broker</emphasis>."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:124
@@ -153,11 +205,20 @@ msgid ""
 "various transport protocols, such as HTTP, HTTPS, Unix domain sockets, "
 "Service Location Protocol (SLP), and Java Database Connectivity (JDBC)."
 msgstr ""
+"<emphasis>Small Footprint CIM Broker</emphasis> je server CIM určený pro "
+"použití v prostředích s omezenými zdroji nebo ve vestavěném prostředí. Je "
+"navržen tak, aby byl modulární a zároveň úsporný. Je založen na otevřených "
+"standardech a podporuje poskytovatele CMPI, kódování CIM-XML a <emphasis>"
+"Managed Object Format (MOF)</emphasis>. Je vysoce konfigurovatelný a "
+"zajišťuje stabilitu, i když poskytovatel havaruje. Je také snadno přístupný, "
+"protože podporuje různé transportní protokoly, jako jsou HTTP, HTTPS, "
+"doménové sokety Unixu, Service Location Protocol (SLP) a Java Database "
+"Connectivity (JDBC)."
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:136
 msgid "Setting Up SFCB"
-msgstr ""
+msgstr "Nastavení SFCB"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:138
@@ -171,11 +232,19 @@ msgid ""
 "that is already running. Make sure the following packages are installed on "
 "your system:"
 msgstr ""
+"Chcete-li nastavit prostředí Small Footprint CIM Broker (SFCB), ujistěte se, "
+"že je během <guimenu>Web-Based Enterprise Management</guimenu> vybrána v "
+"YaST šablona instalace <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Případně jej vyberte jako součást k instalaci na "
+"již spuštěný server. Zkontrolujte, jsou-li ve vašem systému nainstalovány "
+"tyto balíčky:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:148
 msgid "cim-schema, Common Information Model (CIM) Schema"
-msgstr ""
+msgstr "cim-schema, schéma Common Information Model (CIM)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:150
@@ -186,11 +255,15 @@ msgid ""
 "details for integration with other management models. The schema provides "
 "the actual model descriptions."
 msgstr ""
+"Obsahuje Common Information Model (CIM). CIM je model pro popis celkových "
+"informací o správě v síťovém nebo podnikovém prostředí. CIM se skládá ze "
+"specifikace a schématu. Specifikace definuje podrobnosti pro integraci s "
+"jinými modely správy. Schéma poskytuje popisy skutečných modelů."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:160
 msgid "python2-pywbem"
-msgstr ""
+msgstr "python2-pywbem"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:162
@@ -198,11 +271,14 @@ msgid ""
 "Contains a Python module for making CIM operation calls through the WBEM "
 "protocol to query and update managed objects."
 msgstr ""
+"Obsahuje modul Pythonu pro volání operací CIM protokolem WBEM k dotazování a "
+"aktualizaci spravovaných objektů."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:169
 msgid "cmpi-provider-register, CIMOM neutral provider registration utility"
 msgstr ""
+"cmpi-provider-register, registrační program neutrálního poskytovatele CIMOM"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:172
@@ -210,11 +286,13 @@ msgid ""
 "Contains a utility allowing CMPI provider packages to register with whatever "
 "CIMOM happens to be present on the system."
 msgstr ""
+"Obsahuje nástroj, který umožňuje balíčkům poskytovatelů CMPI registrovat se "
+"u jakéhokoli CIMOM, který je v systému přítomen."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:179
 msgid "sblim-sfcb, Small Footprint CIM Broker"
-msgstr ""
+msgstr "sblim-sfcb, Small Footprint (nenáročný) CIM Broker"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:181
@@ -225,21 +303,27 @@ msgid ""
 "constrained environments. SFCB supports providers written against the Common "
 "Manageability Programming Interface (CMPI)."
 msgstr ""
+"Obsahuje Small Footprint CIM Broker. Je to server CIM vyhovující operacím "
+"CIM přes protokol HTTP. Je robustní, s nízkou spotřebou zdrojů, a proto je "
+"speciálně vhodný pro vestavěná prostředí a prostředí s omezenými prostředky. "
+"SFCB podporuje poskytovatele zapsané na Common Manageability Programming "
+"Interface (CMPI)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:191
 msgid "sblim-sfcc"
-msgstr ""
+msgstr "sblim-sfcc"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:193
 msgid "Contains Small Footprint CIM Client library runtime libraries."
 msgstr ""
+"Obsahuje knihovny pro běh (runtime) z klientské knihovny Small Footprint CIM."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:199
 msgid "sblim-wbemcli"
-msgstr ""
+msgstr "sblim-wbemcli"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:201
@@ -247,11 +331,14 @@ msgid ""
 "Contains WBEM command line interface. It is a stand-alone command line WBEM "
 "client especially suited for basic systems management tasks."
 msgstr ""
+"Obsahuje rozhraní příkazového řádku WBEM. Je to samostatný klient "
+"příkazového řádku WBEM, který je vhodný zejména pro základní úlohy správy "
+"systémů."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:210
 msgid "Starting, Stopping and Checking Status for SFCB"
-msgstr ""
+msgstr "Spuštění, zastavení a kontrola stavu SFCB"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:211
@@ -260,26 +347,30 @@ msgid ""
 "Management software and is started by default at system start-up. The "
 "following table explains how to start, stop and check status for sfcbd."
 msgstr ""
+"Démon sfcbd serveru CIM se instaluje společně s webovým softwarem pro správu "
+"podniku (Web-based Enterprise Management) a standardně se spouští při "
+"spuštění systému. Následující tabulka vysvětluje, jak spustit, zastavit a "
+"zkontrolovat stav sfcbd."
 
 #. (itstool) path: table/title
 #: xml/adm_wbem.xml:217
 msgid "Commands for Managing sfcbd"
-msgstr ""
+msgstr "Příkazy pro správu sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:224
 msgid "Task"
-msgstr ""
+msgstr "Úkol"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:229
 msgid "Linux Command"
-msgstr ""
+msgstr "Příkaz Linuxu"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:238
 msgid "Start sfcbd"
-msgstr ""
+msgstr "Start sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:243
@@ -287,11 +378,13 @@ msgid ""
 "Enter <command>systemctl start sfcb</command> as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Zadejte příkaz <command>systemctl start sfcb</command> na příkazovém řádku "
+"jako superuživatel <systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:251
 msgid "Stop sfcbd"
-msgstr ""
+msgstr "Stop sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:256
@@ -299,11 +392,13 @@ msgid ""
 "Enter <command>systemctl stop sfcb</command> as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Zadejte příkaz <command>systemctl stop sfcb</command> na příkazovém řádku "
+"jako superuživatel <systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:264
 msgid "Check sfcbd status"
-msgstr ""
+msgstr "Zkontrolujte stav sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:269
@@ -311,11 +406,13 @@ msgid ""
 "Enter <command>systemctl status sfcb</command>as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Zadejte příkaz <command>systemctl status sfcb</command> na příkazovém řádku "
+"jako superuživatel <systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:281
 msgid "Ensuring Secure Access"
-msgstr ""
+msgstr "Zajištění zabezpečeného přístupu"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:282
@@ -323,11 +420,13 @@ msgid ""
 "The default setup of SFCB is relatively secure. However, check that the "
 "access to SFCB components is as secure as required for your organization."
 msgstr ""
+"Výchozí nastavení SFCB je relativně bezpečné. Zkontrolujte však, zda je "
+"přístup ke komponentám SFCB tak bezpečný, jak to vyžaduje vaše organizace."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:287
 msgid "Certificates"
-msgstr ""
+msgstr "Certifikáty"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:288
@@ -336,6 +435,9 @@ msgid ""
 "communication to occur. When SFCB is installed, it has a self-signed "
 "certificate generated."
 msgstr ""
+"Transporty SSL (Secure Socket Layers) vyžadují certifikát, aby mohla "
+"probíhat zabezpečená komunikace. Když je nainstalován SFCB, má vygenerovaný "
+"certifikát podepsaný sám sebou."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:293
@@ -346,21 +448,25 @@ msgid ""
 "literal> setting in <filename>/etc/sfcb/sfcb.cfg</filename>. The file must "
 "be in PEM format."
 msgstr ""
+"Cestu k výchozímu certifikátu můžete nahradit cestou ke komerčnímu nebo s "
+"vlastním podpisem změnou nastavení <literal>sslCertificateFilePath: "
+"<replaceable>CESTA_A_SOUBOR</replaceable> </literal> v <filename>/etc/sfcb/"
+"sfcb.cfg</filename>. Soubor musí být ve formátu PEM."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:300
 msgid "The default generated server certificate is in the following location:"
-msgstr ""
+msgstr "Výchozí vygenerovaný certifikát serveru je umístěn zde:"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:303
 msgid "<filename>/etc/sfcb/server.pem</filename>"
-msgstr ""
+msgstr "<filename>/etc/sfcb/server.pem</filename>"
 
 #. (itstool) path: note/title
 #: xml/adm_wbem.xml:307
 msgid "Paths to SSL Certificates"
-msgstr ""
+msgstr "Cesty k certifikátům SSL"
 
 #. (itstool) path: note/para
 #: xml/adm_wbem.xml:308
@@ -371,6 +477,11 @@ msgid ""
 "filename>, <filename>/etc/sfcb/file.pem</filename> and <filename>/etc/sfcb/"
 "server.pem</filename> are symbolic links to these files."
 msgstr ""
+"Výchozí generované soubory certifikátů <filename>servercert.pem</filename> a "
+"<filename>serverkey.pem</filename> jsou uloženy v adresáři <filename>/etc/"
+"ssl/servercerts</filename>. Soubory <filename>/etc/sfcb/client.pem</filename>"
+", <filename>/etc/sfcb/file.pem</filename> a <filename>/etc/sfcb/"
+"server.pem</filename> jsou symbolické odkazy na tyto soubory."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:319
@@ -378,6 +489,8 @@ msgid ""
 "To generate a new certificate, enter the following command as <systemitem "
 "class=\"username\">root</systemitem> in the command line:"
 msgstr ""
+"Chcete-li vygenerovat nový certifikát, zadejte jako <systemitem class=\""
+"username\">root</systemitem> do příkazového řádku následující příkaz:"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:323
@@ -391,6 +504,15 @@ msgid ""
 "writing new private key to '/var/tmp/sfcb.0Bjt69/key.pem'\n"
 "-----"
 msgstr ""
+"<prompt>tux &gt; </prompt>sh /usr/share/sfcb/genSslCert.sh\n"
+"Generating SSL certificates in .  [Generuji certifikáty SSL v .]\n"
+"Generating a 2048 bit RSA private key  [Generuji 2048-bitový privátní klíč "
+"RSA]\n"
+"...................................................................+++\n"
+".+++\n"
+"writing new private key to '/var/tmp/sfcb.0Bjt69/key.pem'  [zapisuji nový "
+"privátní klíč do ...]\n"
+"-----"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:330
@@ -402,6 +524,12 @@ msgid ""
 "need to append it to the command. If these files already exist, a warning "
 "message is displayed and the old certificates are not overwritten."
 msgstr ""
+"Ve výchozím nastavení skript generuje certifikáty "
+"<filename>client.pem</filename>, <filename>file.pem</filename> a "
+"<filename>server.pem</filename> v aktuálním pracovním adresáři. Pokud "
+"chcete, aby skript generoval certifikáty v adresáři <filename>/etc/"
+"sfcb</filename>, musíte jej připojit k příkazu. Pokud tyto soubory již "
+"existují, zobrazí se varovná zpráva a staré certifikáty nebudou přepsány."
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:339
@@ -414,6 +542,16 @@ msgid ""
 "WARNING: client.pem SSL Certificate trust store already exists.\n"
 "         old file will be kept intact."
 msgstr ""
+"<prompt>tux &gt; </prompt>sh /usr/share/sfcb/genSslCert.sh /etc/sfcb\n"
+"Generating SSL certificates in .  [Generuji SSL certifikáty v .]\n"
+"WARNING: server.pem SSL Certificate file already exists.  [POZOR: soubor SSL "
+"certifikátu server.pem již existuje.]\n"
+"         old file will be kept intact.  [starý soubor bude zachován beze "
+"změn.]\n"
+"WARNING: client.pem SSL Certificate trust store already exists.  [POZOR: "
+"důvěryhodné úložiště SSL certifikátu client.pem již existuje.]\n"
+"         old file will be kept intact.  [starý soubor bude zachován beze "
+"změn.]."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:345
@@ -421,6 +559,7 @@ msgid ""
 "You must remove the old certificates from the file system and run the "
 "command again."
 msgstr ""
+"Musíte odebrat staré certifikáty ze systému souborů a spustit příkaz znovu."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:349
@@ -428,11 +567,13 @@ msgid ""
 "To change the way SFCB uses certificates, see <xref linkend=\"sec.wbem."
 "setting.secure.auth\"/>."
 msgstr ""
+"Chcete-li změnit způsob, jakým SFCB používá certifikáty, přečtěte si <xref "
+"linkend=\"sec.wbem.setting.secure.auth\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:355
 msgid "Ports"
-msgstr ""
+msgstr "Porty"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:356
@@ -441,11 +582,14 @@ msgid ""
 "secure port 5989. The following paragraphs explain the communication port "
 "setup and recommended configuration."
 msgstr ""
+"Ve výchozím nastavení je SFCB konfigurován tak, aby přijímal veškerou "
+"komunikaci přes zabezpečený port 5989. Následující odstavce vysvětlují "
+"nastavení komunikačního portu a doporučenou konfiguraci."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:363
 msgid "Port 5989 (secure)"
-msgstr ""
+msgstr "Port 5989 (zabezpečený)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:365
@@ -459,11 +603,19 @@ msgid ""
 "routers and firewalls if they are present between the client application and "
 "the nodes being monitored."
 msgstr ""
+"Zabezpečený port, který využívá komunikaci SFCB přes služby HTTPS. S tímto "
+"výchozím nastavením je veškerá komunikace mezi CIMOM a klientskými "
+"aplikacemi šifrována při průchodu přes Internet mezi servery a pracovními "
+"stanicemi. Uživatelé musí být ověřeni klientskou aplikací, aby se dostali na "
+"server SFCB. Doporučujeme toto nastavení zachovat. Aby SFCB CIMOM mohl "
+"komunikovat s potřebnými aplikacemi, musí být tento port otevřen na všech "
+"směrovačích a branách firewall, které jsou v cestě mezi klientskou aplikací "
+"a sledovanými uzly."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:379
 msgid "Port 5988 (insecure)"
-msgstr ""
+msgstr "Port 5988 (nezabezpečený)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:381
@@ -479,6 +631,15 @@ msgid ""
 "open in routers and firewalls between the client application and the nodes "
 "being monitored."
 msgstr ""
+"Nezabezpečený port, který používá komunikace SFCB pomocí služeb HTTP. Toto "
+"nastavení je ve výchozím nastavení zakázáno. S tímto nastavením lze veškerou "
+"komunikaci mezi CIMOM a klientskými aplikacemi otevřeně číst, když kdokoli "
+"odesílá zprávy přes Internet mezi servery a pracovními stanicemi bez "
+"jakéhokoli ověřování. Doporučujeme použít toto nastavení pouze při pokusu o "
+"ladění problému s CIMOM. Po vyřešení problému možnost nezabezpečeného portu "
+"znovu zakažte. Aby SFCB CIMOM mohl komunikovat s nezbytnými aplikacemi, "
+"které vyžadují nezabezpečený přístup, musí být tento port otevřený ve "
+"směrovačích a branách firewall mezi klientskou aplikací a sledovanými uzly."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:396
@@ -486,11 +647,13 @@ msgid ""
 "To change the default port assignments, see <xref linkend=\"sec.wbem.setting."
 "secure.ports\"/>."
 msgstr ""
+"Chcete-li změnit výchozí přiřazení portů, přečtěte si <xref linkend=\""
+"sec.wbem.setting.secure.ports\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:402
 msgid "Authentication"
-msgstr ""
+msgstr "Ověření"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:403
@@ -503,6 +666,13 @@ msgid ""
 "Authentication Modules (PAM) approach; therefore the local root user can "
 "authenticate to the SFCB CIMOM with local root user credentials."
 msgstr ""
+"SFCB podporuje základní ověřování HTTP a ověřování na základě klientských "
+"certifikátů (HTTP přes připojení SSL). Základní ověřování HTTP je povoleno "
+"zadáním <literal>doBasicAuth=true</literal> v konfiguračním souboru SFCB "
+"(<filename>/etc/sfcb/sfcb.cfg</filename> ve výchozím nastavení). Instalace "
+"SUSE® Linux Enterprise Server na SFCB podporuje přístup PAM (Pluggable "
+"Authentication Modules); proto se místní uživatel root může ověřit na SFCB "
+"CIMOM pomocí svého pověření, tj. \"root\" a hesla místního uživatele root."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:412
@@ -516,6 +686,14 @@ msgid ""
 "<literal>sslClientTrustStore</literal>). If the client fails to do so, the "
 "connection will be rejected by the CIM server."
 msgstr ""
+"Je-li konfigurační vlastnost <literal>sslClientCertificate</literal> "
+"nastavena na <literal>accept</literal> nebo <literal>require</literal>, "
+"adaptér HTTP SFCB bude vyžadovat certifikát od klientů při připojení přes "
+"HTTP přes SSL (HTTPS). Pokud je zadán <literal>require</literal>, <emphasis "
+"role=\"bold\">musí</emphasis> klient poskytnout platný certifikát (podle "
+"úložiště důvěryhodnosti klienta zadaného v "
+"<literal>sslClientTrustStore</literal>). Pokud to klient neučiní, bude "
+"připojení serverem CIM odmítnuto."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:422
@@ -527,11 +705,16 @@ msgid ""
 "will not be executed. If this function cannot verify the certificate, the "
 "HTTP basic authentication will take place instead."
 msgstr ""
+"Nastavení <literal>sslClientCertificate=accept</literal> nemusí být zřejmé. "
+"Je velmi užitečné, pokud je povoleno základní i klientské ověřování "
+"certifikátu. Pokud klient může poskytnout platný certifikát, bude navázáno "
+"připojení HTTPS a nebude proveden základní postup ověřování. Pokud tato "
+"funkce nemůže ověřit certifikát, proběhne místo toho základní ověřování HTTP."
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:434
 msgid "SFCB CIMOM Configuration"
-msgstr ""
+msgstr "Konfigurace SFCB CIMOM"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:436
@@ -540,26 +723,29 @@ msgid ""
 "highly configurable. Several options can control its behavior. You can "
 "control the SFCB server in three ways:"
 msgstr ""
+"SFCB je odlehčená implementace serveru CIM, ale je také vysoce "
+"konfigurovatelná. Její chování může ovládat několik možností. Server SFCB "
+"můžete ovládat třemi způsoby:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:444
 msgid "by setting appropriate environment variables"
-msgstr ""
+msgstr "nastavením vhodných proměnných prostředí"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:449
 msgid "by using command line options"
-msgstr ""
+msgstr "pomocí možností příkazového řádku"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:454
 msgid "by changing its configuration file"
-msgstr ""
+msgstr "změnou jeho konfiguračního souboru"
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:461
 msgid "Environment Variables"
-msgstr ""
+msgstr "Proměnné prostředí"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:462
@@ -568,11 +754,14 @@ msgid ""
 "to restart the SFCB daemon by <command>systemctl restart sfcb</command> for "
 "these changes to take effect."
 msgstr ""
+"Chování SFCB je přímo ovlivněno několika proměnnými prostředí. Aby se tyto "
+"změny projevily, musíte restartovat démona SFCB příkazem <command>systemctl "
+"restart sfcb</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:469
 msgid "<literal>PATH</literal>"
-msgstr ""
+msgstr "<literal>PATH</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:472
@@ -580,11 +769,12 @@ msgid ""
 "Specifies the path to the <systemitem>sfcbd</systemitem> daemon and "
 "utilities."
 msgstr ""
+"Určuje cestu k démonu a obslužným programům <systemitem>sfcbd</systemitem>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:479
 msgid "<literal>LD_LIBRARY_PATH</literal>"
-msgstr ""
+msgstr "<literal>LD_LIBRARY_PATH</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:482
@@ -593,11 +783,14 @@ msgid ""
 "this path to the system-wide dynamic loader configuration file <filename>/"
 "etc/ld.so.conf</filename> ."
 msgstr ""
+"Určuje cestu k běhovým knihovnám sfcb. Alternativně můžete tuto cestu přidat "
+"do systémového konfiguračního souboru dynamického zavaděče <filename>/etc/"
+"ld.so.conf</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:490
 msgid "<literal>SFCB_PAUSE_PROVIDER</literal>"
-msgstr ""
+msgstr "<literal>SFCB_PAUSE_PROVIDER</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:493
@@ -606,11 +799,14 @@ msgid ""
 "loaded for the first time. You can then attach a runtime debugger to the "
 "provider's process for debugging purposes."
 msgstr ""
+"Určuje název poskytovatele. Server SFCB se pozastaví po prvním načtení "
+"poskytovatele. Potom můžete k procesu poskytovatele připojit ladicí modul "
+"runtime pro účely ladění."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:501
 msgid "<literal>SFCB_PAUSE_CODEC</literal>"
-msgstr ""
+msgstr "<literal>SFCB_PAUSE_CODEC</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:504
@@ -619,11 +815,14 @@ msgid ""
 "literal>. The SFCB server pauses after the codec is loaded for the first "
 "time. You can then attach a runtime debugger to the process."
 msgstr ""
+"Určuje název kodeku SFCB (aktuálně podporuje pouze <literal>http</literal>. "
+"Server SFCB se po prvním načtení kodeku pozastaví. Potom můžete k procesu "
+"připojit program pro ladění za běhu."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:513
 msgid "<literal>SFCB_TRACE</literal>"
-msgstr ""
+msgstr "<literal>SFCB_TRACE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:516
@@ -631,11 +830,14 @@ msgid ""
 "Specifies the level of debug messages for SFCB. Valid values are 0 (no debug "
 "messages), or 1 (key debug messages) to 4 (all debug messages). Default is 1."
 msgstr ""
+"Určuje úroveň ladicích zpráv pro SFCB. Platné hodnoty jsou 0 (žádné ladicí "
+"zprávy) nebo 1 (klíčové ladicí zprávy) až 4 (všechny ladicí zprávy). Výchozí "
+"hodnota je 1."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:524
 msgid "<literal>SFCB_TRACE_FILE</literal>"
-msgstr ""
+msgstr "<literal>SFCB_TRACE_FILE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:527
@@ -644,11 +846,14 @@ msgid ""
 "(STDERR). Setting this variable causes the debug messages to be written to a "
 "specified file instead."
 msgstr ""
+"Ve výchozím nastavení SFCB vydává své ladicí zprávy na standardní chybový "
+"výstup (STDERR). Nastavení této proměnné způsobí, že se ladicí zprávy místo "
+"toho zapíší do zadaného souboru."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:535
 msgid "<literal>SBLIM_TRACE</literal>"
-msgstr ""
+msgstr "<literal>SBLIM_TRACE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:538
@@ -656,11 +861,14 @@ msgid ""
 "Specifies the level of debug messages for SBLIM providers. Valid values are "
 "0 (no debug messages), or 1 (key debug messages) to 4 (all debug messages)."
 msgstr ""
+"Určuje úroveň ladicích zpráv pro poskytovatele SBLIM. Platné hodnoty jsou 0 ("
+"žádné ladicí zprávy) nebo 1 (klíčové ladicí zprávy) až 4 (všechny ladicí "
+"zprávy)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:546
 msgid "<literal>SBLIM_TRACE_FILE</literal>"
-msgstr ""
+msgstr "<literal>SBLIM_TRACE_FILE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:549
@@ -669,11 +877,14 @@ msgid ""
 "this variable causes the trace messages to be written to a specified file "
 "instead."
 msgstr ""
+"Ve výchozím nastavení poskytuje poskytovatel SBLIM své trasovací zprávy do "
+"STDERR. Nastavení této proměnné způsobí, že se trasovací zprávy místo toho "
+"zapíší do zadaného souboru."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:560
 msgid "Command Line Options"
-msgstr ""
+msgstr "Možnosti příkazového řádku"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:561
@@ -682,11 +893,14 @@ msgid ""
 "options that switch particular runtime features on or off. Enter these "
 "options when SFCB daemon starts."
 msgstr ""
+"<systemitem>sfcbd</systemitem>, démon SFCB, má několik možností příkazového "
+"řádku, které zapínají a vypínají konkrétní běhové funkce. Tyto možnosti "
+"zadejte při spuštění démona SFCB."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:568
 msgid "<literal>-c, --config-file</literal>=<replaceable>FILE</replaceable>"
-msgstr ""
+msgstr "<literal>-c, --config-file</literal>=<replaceable>SOUBOR</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:571
@@ -695,21 +909,24 @@ msgid ""
 "sfcb.cfg</filename> by default. With this option, you can specify an "
 "alternative configuration file."
 msgstr ""
+"Když se spustí démon SFCB, načte ve výchozím nastavení svou konfiguraci z "
+"<filename>/etc/sfcb/sfcb.cfg</filename>. Pomocí této možnosti můžete určit "
+"alternativní konfigurační soubor."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:579
 msgid "<literal>-d, --daemon</literal>"
-msgstr ""
+msgstr "<literal>-d, --daemon</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:582
 msgid "Forces sfcbd and its child processes to run in the background."
-msgstr ""
+msgstr "Vynutí spuštění sfcbd a jeho podřízených procesů na pozadí."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:588
 msgid "<literal>-s, --collect-stats</literal>"
-msgstr ""
+msgstr "<literal>-s, --collect-stats</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:591
@@ -718,12 +935,16 @@ msgid ""
 "will be written to the <filename>sfcbStat</filename> file in the current "
 "working directory. By default, no statistics are collected."
 msgstr ""
+"Zapne shromažďování statistik za běhu. Různé statistiky runtime sfcbd budou "
+"zapsány do souboru <filename>sfcbStat</filename> v aktuálním pracovním "
+"adresáři. Ve výchozím nastavení nejsou shromažďovány žádné statistiky."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:599
 msgid ""
 "<literal>-l, --syslog-level</literal>=<replaceable>LOGLEVEL</replaceable>"
 msgstr ""
+"<literal>-l, --syslog-level</literal>=<replaceable>LOG-ÚROVEŇ</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:602
@@ -732,24 +953,29 @@ msgid ""
 "<replaceable>LOGLEVEL</replaceable> can be one of LOG_INFO, LOG_DEBUG, or "
 "LOG_ERR, which is the default."
 msgstr ""
+"Určuje úroveň podrobnosti protokolovacího zařízení systému. <replaceable>LOG-"
+"ÚROVEŇ</replaceable> může být jedno z LOG_INFO, LOG_DEBUG nebo LOG_ERR, což "
+"je výchozí nastavení."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:610
 msgid ""
 "<literal>-k, --color-trace</literal>=<replaceable>LOGLEVEL</replaceable>"
 msgstr ""
+"<literal>-k, --color-trace</literal>=<replaceable>LOG-ÚROVEŇ</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:613
 msgid ""
 "Prints trace output in a different color per process for easier debugging."
-msgstr ""
+msgstr "Vytiskne výstup trasování - různobarevné procesy pro snazší ladění."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:620
 msgid ""
 "<literal>-t, --trace-components</literal>=<replaceable>NUM</replaceable>"
 msgstr ""
+"<literal>-t, --trace-components</literal>=<replaceable>NUM</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:623
@@ -759,6 +985,10 @@ msgid ""
 "trace. After you specify <option>-t ?</option>, it lists all the components "
 "and their associated integer bitmask:"
 msgstr ""
+"Aktivuje trasovací zprávy na úrovni komponenty, kde <replaceable> NUM "
+"</replaceable> je celé číslo - bitová maska v logickém součtu, definující, "
+"kterou komponentu je třeba sledovat. Po zadání <option> -t? </option> se "
+"zobrazí seznam všech komponent a jejich přidružená celočíselná bitová maska:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_wbem.xml:629
@@ -851,7 +1081,7 @@ msgstr ""
 #: xml/adm_wbem.xml:1335 xml/adm_wbem.xml:1350 xml/adm_wbem.xml:1363
 #: xml/adm_wbem.xml:1376
 msgid "Purpose"
-msgstr ""
+msgstr "Účel"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:688
@@ -908,7 +1138,7 @@ msgstr ""
 #: xml/adm_wbem.xml:971 xml/adm_wbem.xml:1043 xml/adm_wbem.xml:1177
 #: xml/adm_wbem.xml:1283
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:727 xml/adm_wbem.xml:839 xml/adm_wbem.xml:908
@@ -2169,7 +2399,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:1885
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: variablelist/title
 #: xml/adm_wbem.xml:1888
