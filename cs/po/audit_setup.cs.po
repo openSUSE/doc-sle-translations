@@ -2,25 +2,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/audit_setup-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #. (itstool) path: procedure/title
 #: xml/audit_setup.xml:9 xml/audit_setup.xml:27
 msgid "Setting Up the Linux Audit Framework"
-msgstr ""
+msgstr "Nastavení Linux Audit Framework"
 
 #. (itstool) path: chapter/para
 #: xml/audit_setup.xml:16
@@ -30,6 +34,10 @@ msgid ""
 "have learned to set up audit, consider a real-world example scenario in "
 "<xref linkend=\"cha.audit.scenarios\"/>."
 msgstr ""
+"Tato kapitola ukazuje, jak nastavit jednoduchý scénář auditu. Každý krok "
+"související s konfigurací a umožněním auditu je podrobně vysvětlen. Poté, co "
+"jste se naučili nastavovat audit, prohlédněte si ukázkový scénář z reálného "
+"světa v <xref linkend=\"cha.audit.scenarios\"/>."
 
 #. (itstool) path: chapter/para
 #: xml/audit_setup.xml:22
@@ -39,6 +47,10 @@ msgid ""
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>, "
 "you need to complete the following steps:"
 msgstr ""
+"Chcete-li nastavit audit na <phrase role=\"productname\"> <phrase os=\""
+"osuse\">openSUSE Leap</phrase> <phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase> <phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase> "
+"</phrase>, musíte provést následující kroky:"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:29
@@ -53,6 +65,16 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> media."
 msgstr ""
+"Ujistěte se, že jsou nainstalovány všechny požadované balíčky: <systemitem "
+"class=\"resource\">audit</systemitem>, <systemitem class=\"resource\">audit-"
+"libs</systemitem> a volitelně <systemitem class=\"resource\">audit-libs-"
+"python</systemitem>. Chcete-li použít vizualizaci protokolu, jak je popsáno "
+"v <xref linkend=\"sec.audit.viz\"/>, instalujte <systemitem class=\""
+"resource\">gnuplot</systemitem> a <systemitem class=\"resource\""
+">graphviz</systemitem> z média <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:41
@@ -60,6 +82,8 @@ msgid ""
 "Determine the components to audit. Refer to <xref linkend=\"sec.audit.choose"
 "\"/> for details."
 msgstr ""
+"Určete komponenty k auditu. Podrobnosti viz <xref linkend=\"sec.audit."
+"choose\"/>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:47
@@ -67,6 +91,8 @@ msgid ""
 "Check or modify the basic audit daemon configuration. Refer to <xref linkend="
 "\"sec.audit.config\"/> for details."
 msgstr ""
+"Zkontrolujte nebo upravte základní konfiguraci démona auditu. Podrobnosti "
+"viz <xref linkend=\"sec.audit.config\"/>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:53
@@ -74,6 +100,8 @@ msgid ""
 "Enable auditing for system calls. Refer to <xref linkend=\"sec.audit.syscall"
 "\"/> for details."
 msgstr ""
+"Povolit auditování systémových volání. Podrobnosti viz <xref linkend=\""
+"sec.audit.syscall\"/>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:59
@@ -81,6 +109,8 @@ msgid ""
 "Compose audit rules to suit your scenario. Refer to <xref linkend=\"sec."
 "audit.aurules\"/> for details."
 msgstr ""
+"Vytvořte pravidla auditu podle svého scénáře. Podrobnosti najdete v <xref "
+"linkend=\"sec.audit.aurules\"/>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:65
@@ -88,6 +118,8 @@ msgid ""
 "Generate logs and configure tailor-made reports. Refer to <xref linkend="
 "\"sec.audit.aurepo\"/> for details."
 msgstr ""
+"Vytvářejte protokoly a konfigurujte sestavy šité na míru. Podrobnosti "
+"najdete v <xref linkend=\"sec.audit.aurepo\"/>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:71
@@ -95,11 +127,13 @@ msgid ""
 "Configure optional log visualization. Refer to <xref linkend=\"sec.audit.viz"
 "\"/> for details."
 msgstr ""
+"Konfigurujte volitelnou vizualizaci protokolu. Podrobnosti najdete v <xref "
+"linkend=\"sec.audit.viz\"/>."
 
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:78
 msgid "Controlling the Audit Daemon"
-msgstr ""
+msgstr "Ovládání auditního démona"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:79
@@ -114,11 +148,19 @@ msgid ""
 "stop auditd</command>. Start the daemon after configuring it with "
 "<command>systemctl start auditd</command>."
 msgstr ""
+"Před konfigurací jakékoli součásti auditovacího systému se ujistěte, že "
+"démon auditu není spuštěn, zadáním<command>systemctl status auditd</command> "
+"jako <systemitem class=\"username\">root</systemitem>. Na výchozím systému <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> je audit spuštěn při bootu, "
+"takže ho musíte vypnout zadáním <command>systemctl stop auditd</command>. Po "
+"konfiguraci spusťte démon příkazem <command>systemctl start auditd</command>."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:90
 msgid "Determining the Components to Audit"
-msgstr ""
+msgstr "Určení komponent k auditu"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:92
@@ -127,6 +169,9 @@ msgid ""
 "degree you want to use it. Check the following general rules to determine "
 "which use case best applies to you and your requirements:"
 msgstr ""
+"Před vytvořením vlastní konfigurace auditu určete, do jaké míry ji chcete "
+"použít. Podle následujících obecných pravidel můžete určit, který případ "
+"použití je pro Vás a Vaše požadavky nejvhodnější:"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:100
@@ -136,6 +181,10 @@ msgid ""
 "and directories, similar to the rule set featured in <xref linkend=\"cha."
 "audit.scenarios\"/>."
 msgstr ""
+"Pokud požadujete úplný audit zabezpečení pro certifikaci CAPP/EAL, povolte "
+"úplný audit systémových volání a nakonfigurujte hlídáčky v různých "
+"konfiguračních souborech a adresářích, podobně jako u sady pravidel "
+"obsažených v <xref linkend=\"cha.audit.scenarios\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:108
@@ -143,6 +192,8 @@ msgid ""
 "If you need to trace a process based on the audit rules, use "
 "<command>autrace</command>."
 msgstr ""
+"Potřebujete-li odsledovat proces na základě pravidel auditu, použijte "
+"<command>autrace</command>."
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:114
@@ -152,11 +203,15 @@ msgid ""
 "Enable audit as described in <xref linkend=\"sec.audit.syscall\"/> and "
 "proceed to <xref linkend=\"sec.audit.aurules\"/>."
 msgstr ""
+"Pokud požadujete, aby adresářové a souborové hlídáčky sledovaly přístup k "
+"důležitým nebo citlivým datům, vytvořte sadu pravidel odpovídající těmto "
+"požadavkům. Aktivujte audit, jak je popsáno v <xref linkend=\"sec.audit."
+"syscall\"/>, a přejděte na <xref linkend=\"sec.audit.aurules\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:125
 msgid "Configuring the Audit Daemon"
-msgstr ""
+msgstr "Konfigurace auditního démona"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:127
@@ -168,6 +223,12 @@ msgid ""
 "menuchoice>. Use the tabs <guimenu>Log File</guimenu> and <guimenu>Disk "
 "Space</guimenu> for configuration."
 msgstr ""
+"Základní nastavení démona auditu se provádí úpravou <filename>/etc/audit/"
+"auditd.conf</filename>. Můžete také použít YaST ke konfiguraci základních "
+"nastavení voláním <menuchoice> <guimenu>YaST</guimenu> <guimenu>Zabezpečení "
+"a uživatelé</guimenu> <guimenu>Linux Audit Framework (LAF)</guimenu> "
+"</menuchoice>. Ke konfiguraci použijte karty <guimenu>Soubor "
+"protokolu</guimenu> a <guimenu>Místo na disku</guimenu>."
 
 #. (itstool) path: sect1/screen
 #: xml/audit_setup.xml:137
@@ -200,6 +261,32 @@ msgid ""
 "tcp_client_max_idle = 0\n"
 "cp_client_max_idle = 0"
 msgstr ""
+"log_file = /var/log/audit/audit.log\n"
+"log_format = BEZ_ÚPRAV\n"
+"log_group = root\n"
+"priority_boost = 4\n"
+"flush = PŘÍRŮSTKOVÝ\n"
+"freq = 20\n"
+"num_logs = 5\n"
+"disp_qos = lossy\n"
+"dispatcher = /sbin/audispd\n"
+"name_format = ŽÁDNÝ\n"
+"##název = moje_doména\n"
+"max_log_file = 6\n"
+"max_log_file_action = ROTACE\n"
+"space_left = 75\n"
+"space_left_action = SYSLOG\n"
+"action_mail_acct = root\n"
+"admin_space_left = 50\n"
+"admin_space_left_action = POZASTAVIT\n"
+"disk_full_action = POZASTAVIT\n"
+"disk_error_action = POZASTAVIT\n"
+"##otevřený_port_tcp =\n"
+"tcp_listen_queue = 5\n"
+"tcp_max_per_addr = 1\n"
+"##klientské_porty_tcp = 1024-65535\n"
+"tcp_client_max_idle = 0\n"
+"cp_client_max_idle = 0"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:164
@@ -219,6 +306,21 @@ msgid ""
 "linkend=\"sec.audit.auditd\"/>. An example CAPP-compliant configuration "
 "looks like this:"
 msgstr ""
+"Výchozí nastavení funguje pro mnoho nastavení celkem dobře. Některé hodnoty, "
+"například <literal>num_logs</literal>, <literal>max_log_file</literal>, "
+"<literal>space_left</literal> a <literal>admin_space_left</literal> závisí "
+"na velikosti vašeho nasazení. Je-li místo na disku omezené, měli byste "
+"snížit počet souborů protokolu, které se mají zachovat, pokud jsou otočené, "
+"a pokud dojde místo na disku, měli byste obdržet dřívější varování. U "
+"nastavení kompatibilního s CAPP upravte hodnoty pro "
+"<literal>log_file</literal>, <literal>flush</literal>, "
+"<literal>max_log_file</literal>, <literal>max_log_file_action</literal>, "
+"<literal>space_left</literal>, <literal>space_left_action</literal>, "
+"<literal>admin_space_left</literal>, "
+"<literal>admin_space_left_action</literal>, "
+"<literal>disk_full_action</literal> a <literal>disk_error_action</literal>, "
+"jak je popsáno v <xref linkend=\"sec.audit.auditd\"/>. Příklad konfigurace "
+"kompatibilní s CAPP vypadá takto:"
 
 #. (itstool) path: sect1/screen
 #: xml/audit_setup.xml:183
@@ -242,6 +344,23 @@ msgid ""
 "disk_full_action = SUSPEND         ### or HALT\n"
 "disk_error_action = SUSPEND        ### or HALT"
 msgstr ""
+"log_file = <replaceable>CESTA_K_SEPARÁTNÍMU_ODDÍLU</replaceable>/audit.log\n"
+"log_format = RAW\n"
+"priority_boost = 4\n"
+"flush = SYNC                       ### nebo DATA\n"
+"freq = 20\n"
+"num_logs = 4\n"
+"dispatcher = /sbin/audispd\n"
+"disp_qos = lossy\n"
+"max_log_file = 5\n"
+"max_log_file_action = KEEP_LOGS  [zachovat protokoly]\n"
+"space_left = 75\n"
+"space_left_action = EMAIL\n"
+"action_mail_acct = root\n"
+"admin_space_left = 50\n"
+"admin_space_left_action = SINGLE   ### nebo HALT\n"
+"disk_full_action = SUSPEND         ### nebo HALT\n"
+"disk_error_action = SUSPEND        ### nebo HALT"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:201
@@ -249,11 +368,13 @@ msgid ""
 "The <literal>###</literal> precedes comments where you can choose from "
 "several options. Do not add the comments to your actual configuration files."
 msgstr ""
+"<literal>###</literal> předchází komentářům, kde si můžete vybrat z několika "
+"možností. Nepřidávejte komentáře k vašim skutečným konfiguračním souborům."
 
 #. (itstool) path: tip/title
 #: xml/audit_setup.xml:208
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: tip/para
 #: xml/audit_setup.xml:209
@@ -262,11 +383,14 @@ msgid ""
 "information about the <filename>auditd.conf</filename> configuration "
 "parameters."
 msgstr ""
+"Podrobnější informace o konfiguračních parametrech "
+"<filename>auditd.conf</filename> najdete v <xref linkend=\"sec.audit.auditd\""
+"/>."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:217
 msgid "Enabling Audit for System Calls"
-msgstr ""
+msgstr "Povolení auditu pro systémová volání"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:219
@@ -277,22 +401,28 @@ msgid ""
 "Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></"
 "phrase> system does not have auditd running by default. Enable it with:"
 msgstr ""
+"Pokud není nainstalován podsystém auditu, nainstalujte balíček <systemitem> "
+"audit </systemitem>. Standardní systém <phrase role=\"productname\"><phrase "
+"os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> nemá standardně spuštěn audit. Povolte ho:"
 
 #. (itstool) path: sect1/screen
 #: xml/audit_setup.xml:225
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl enable auditd"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl enable auditd"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:227
 msgid "There are different levels of auditing activity available:"
-msgstr ""
+msgstr "K dispozici jsou různé úrovně činnosti auditu:"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:233
 msgid "Basic Logging"
-msgstr ""
+msgstr "Základní protokolování"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:235
@@ -306,11 +436,20 @@ msgid ""
 "log. By default, the only module that generates audit events is "
 "<phrase>AppArmor</phrase>."
 msgstr ""
+"Čerstvě instalovaný (bez jakékoli další konfigurace) démon auditd "
+"zaznamenává pouze události týkající se změn jeho vlastní konfigurace ve "
+"<filename>/var/log/audit/audit.log</filename>. Komponenta auditu jádra "
+"nevygeneruje žádné události (přístup k souborům, systémové volání atd.), "
+"dokud to nevyžádá <command>auditctl</command>. Jiné součásti a moduly jádra "
+"však mohou protokolovat události auditu mimo ovládání "
+"<command>auditctl</command> a ty se objeví v protokolu auditu. Ve výchozím "
+"nastavení je jediným modulem, který generuje auditní události, "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:248
 msgid "Advanced Logging with System Call Auditing"
-msgstr ""
+msgstr "Pokročilé protokolování s auditováním systémových volání"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:250
@@ -318,6 +457,8 @@ msgid ""
 "To audit system calls and get meaningful file watches, you need to enable "
 "audit contexts for system calls."
 msgstr ""
+"Chcete-li auditovat systémová volání a získat smysluplné hlídáčky souborů, "
+"musíte povolit kontexty auditu pro systémová volání."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:258
@@ -330,6 +471,13 @@ msgid ""
 "<command>auditctl -e 0</command> as <systemitem class=\"username\">root</"
 "systemitem>."
 msgstr ""
+"Protože potřebujete funkce pro monitorování systémových volání, i když "
+"konfigurujete sledování obyčejných souborů nebo adresářů, musíte povolit "
+"kontexty auditu pro systémová volání. Chcete-li povolit kontext auditu pouze "
+"po dobu aktuální relace, proveďte <command>auditctl -e 1</command> jako <"
+"systemitem class=\"username\">root</systemitem>. Chcete-li tuto funkci "
+"deaktivovat, spusťte <command>auditctl -e 0</command> jako <systemitem class="
+"\"username\">root</systemitem>."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:267
@@ -337,11 +485,13 @@ msgid ""
 "The audit contexts are enabled by default. To turn this feature off "
 "temporarily, use <command>auditctl -e 0</command>."
 msgstr ""
+"Kontext auditu je ve výchozím nastavení povolen. Chcete-li tuto funkci "
+"dočasně vypnout, použijte <command>auditctl -e 0</command>."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:273
 msgid "Setting Up Audit Rules"
-msgstr ""
+msgstr "Nastavení pravidel auditu"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:275
@@ -354,6 +504,13 @@ msgid ""
 "compliant environment is available in <xref linkend=\"cha.audit.scenarios\"/"
 ">."
 msgstr ""
+"Pomocí pravidel auditu určete, které aspekty systému by měly být auditem "
+"analyzovány. Normálně to zahrnuje důležité databáze a konfigurační soubory "
+"relevantní pro zabezpečení. Můžete také podrobně analyzovat různá systémová "
+"volání, pokud je vyžadována široká analýza vašeho systému. Velmi podrobný "
+"příklad konfigurace, který obsahuje většinu pravidel, která jsou potřebná v "
+"prostředí kompatibilním s CAPP, je k dispozici v <xref linkend=\"cha.audit."
+"scenarios\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:285
@@ -367,6 +524,15 @@ msgid ""
 "'auditctl'</guimenu> </menuchoice>. Rules passed on the command line are not "
 "persistent and need to be re-entered when the audit daemon is restarted."
 msgstr ""
+"Pravidla auditu lze předat auditnímu démonu na příkazovém řádku "
+"<command>auditctl</command> a vytvořením pravidla nastaveného v <filename>/"
+"etc/audit/audit.rules</filename>, které se zpracovává vždy, když je démon "
+"auditu spuštěn. Chcete-li přizpůsobit <filename>/etc/audit/"
+"audit.rules</filename>, upravte jej přímo nebo použijte YaST: <menuchoice> "
+"<guimenu>Zabezpečení a uživatelé</guimenu> <guimenu>Linux Audit Framework "
+"(LAF)</guimenu> <guimenu>Pravidla pro \"auditctl“</guimenu> </menuchoice>. "
+"Pravidla předaná na příkazovém řádku nejsou trvalá a je třeba je znovu zadat "
+"při restartu démona auditu."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:298
@@ -374,6 +540,8 @@ msgid ""
 "A simple rule set for very basic auditing on a few important files and "
 "directories could look like this:"
 msgstr ""
+"Jednoduché pravidlo nastavené pro zcela základní auditování několika "
+"důležitých souborů a adresářů může vypadat takto:"
 
 #. (itstool) path: sect1/screen
 #: xml/audit_setup.xml:303
@@ -398,6 +566,24 @@ msgid ""
 "\n"
 "### add your own rules"
 msgstr ""
+"# základní parametry auditního systému\n"
+"-D\n"
+"-b 8192\n"
+"-f 1\n"
+"-e 1\n"
+"\n"
+"# některé hlídáčky souborů a adresářů s klíči\n"
+"-w /var/log/audit/ -k LOG_audit\n"
+"-w /etc/audit/auditd.conf -k CFG_audit_conf -p rxwa\n"
+"-w /etc/audit/audit.rules -k CFG_audit_rules -p rxwa\n"
+"\n"
+"-w /etc/passwd -k CFG_passwd -p rwxa\n"
+"-w /etc/sysconfig/ -k CFG_sysconfig\n"
+"\n"
+"# příklad pravidla pro systémové volání\n"
+"-a entry,always -S umask\n"
+"\n"
+"### sem přidejte svá vlastní pravidla"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:322
@@ -410,11 +596,18 @@ msgid ""
 "load and consult the failure flag (<literal>-f</literal>) when the backlog "
 "limit is exceeded."
 msgstr ""
+"Při konfiguraci základních parametrů systému auditu (jako je například "
+"parametr backlog <literal>-b</literal>) otestujte tato nastavení se "
+"zamýšlenou sadou pravidel auditu, abyste určili, zda je velikost protokolu "
+"vhodná pro úroveň protokolovací aktivity způsobené Vaší sadou pravidel "
+"auditu. Pokud je Vámi zvolená velikost protokolu příliš malá, Váš systém "
+"nemusí být schopen zvládnout zatížení auditu a nastaví příznak selhání "
+"(<literal>-f</literal>), když překročí limit nevyřízených položek."
 
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:333
 msgid "Choosing the Failure Flag"
-msgstr ""
+msgstr "Volba příznaku selhání"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:334
@@ -427,6 +620,13 @@ msgid ""
 "option> (system continues to run, issues a warning and audit stops) for any "
 "other setup to avoid loss of data or data corruption."
 msgstr ""
+"Při výběru příznaku selhání mějte na paměti, že <option>-f 2</option> řekne "
+"vašemu systému, aby se okamžitě vypnul, aniž zapíše všechna nevyřízená data "
+"na disk, když jsou překročeny limity vašeho auditovacího systému. Protože "
+"toto vypnutí není čistým vypnutím, omezte použití <option>-f 2</option> "
+"pouze na prostředí s nejvyšším zabezpečením a použijte <option>-f 1</option> "
+"(systém nadále běží, vydá však varování a zastaví audit) pro jakékoli jiné "
+"prostředí, aby nedošlo ke ztrátě dat nebo poškození dat."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:346
@@ -438,6 +638,13 @@ msgid ""
 "cannot create a rule that says <literal>-w /etc/*</literal> and watches all "
 "files and directories below <filename>/etc</filename>."
 msgstr ""
+"Hlídáčky adresáře produkují pro soubory v těchto adresářích méně podrobný "
+"výstup než hlídáčky samostatných souborů. Chcete-li například získat "
+"podrobné protokolování konfigurace systému v <filename>/etc/"
+"sysconfig</filename>, přidejte hlídáčky pro každý soubor. Audit nepodporuje "
+"globbing, což znamená, že nemůžete vytvořit pravidlo <literal>-w /etc/"
+"*</literal>, které by sledovalo všechny soubory a adresáře pod "
+"<filename>/etc</filename>."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:356
@@ -451,6 +658,14 @@ msgid ""
 "Using the file name as part of the key also makes it easier for you to "
 "identify events of this type in the log file."
 msgstr ""
+"Pro lepší identifikaci v souboru protokolu byl ke každému z hlídáčků souboru "
+"a adresáře přidán klíč. Pomocí klíče je snazší uspořádat protokoly pro "
+"události související s určitým pravidlem. Při vytváření klíčů rozlišujte "
+"mezi pouhým sledováním souboru protokolu a sledováním konfiguračního souboru "
+"pomocí vhodné předpony s klíčem, v tomto případě <literal>LOG</literal> pro "
+"sledování souboru protokolu a <literal>CFG</literal> pro sledování "
+"konfiguračního souboru. Použití názvu souboru jako součásti klíče také "
+"usnadňuje identifikaci událostí tohoto typu v souboru protokolu."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:371
@@ -460,6 +675,10 @@ msgid ""
 "created. Any file that is added to your system while audit is already "
 "running is not watched unless you extend the rule set to watch this new file."
 msgstr ""
+"Při vytváření hlídáčků souborů a adresářů je třeba mít na paměti, že audit "
+"při vytváření pravidel nemůže pracovat se soubory, které neexistují. "
+"Jakýkoli soubor, který je přidán do vašeho systému, když audit už běží, není "
+"sledován, pokud nerozšíříte sadu pravidel o sledování tohoto nového souboru."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:379
@@ -467,11 +686,13 @@ msgid ""
 "For more information about creating custom rules, refer to <xref linkend="
 "\"sec.audit.rules\"/>."
 msgstr ""
+"Další informace o vytváření vlastních pravidel najdete v <xref linkend=\""
+"sec.audit.rules\"/>."
 
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:385
 msgid "Changing Audit Rules"
-msgstr ""
+msgstr "Změna pravidel auditu"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:386
@@ -479,11 +700,13 @@ msgid ""
 "After you change audit rules, always restart the audit daemon with "
 "<command>systemctl restart auditd</command> to reread the changed rules."
 msgstr ""
+"Po změně pravidel auditu vždy restartujte démona auditu příkazem <command>"
+"systemctl restart auditd</command>, aby si přečetl změněná pravidla."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:403
 msgid "Configuring Audit Reports"
-msgstr ""
+msgstr "Konfigurace hlášení auditu"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:405
@@ -494,11 +717,17 @@ msgid ""
 "get meaningful statistics on the nature and frequency of the events you are "
 "monitoring. To analyze individual events in detail, use the ausearch tool."
 msgstr ""
+"Chcete-li se vyhnout nutnosti procházet surové protokoly auditu, abyste "
+"získali představu o tom, co váš systém aktuálně dělá, spusťte v určitých "
+"intervalech Vaše vlastní hlášení auditu, které vám umožní zaměřit se na "
+"oblasti zájmu a získat smysluplné statistiky o povaze a frekvenci událostí, "
+"které sledujete. Chcete-li podrobně analyzovat jednotlivé události, použijte "
+"nástroj ausearch."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:414
 msgid "Before setting up audit reporting, consider the following:"
-msgstr ""
+msgstr "Před nastavením hlášení auditu zvažte následující:"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:420
@@ -507,6 +736,9 @@ msgid ""
 "Select the appropriate aureport command lines as described in <xref linkend="
 "\"sec.audit.aureport.gen\"/>."
 msgstr ""
+"Jaké typy událostí chcete sledovat generováním pravidelných zpráv? Vyberte "
+"příslušné příkazové řádky aureport, jak je popsáno v <xref linkend=\""
+"sec.audit.aureport.gen\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:427
@@ -517,6 +749,11 @@ msgid ""
 "command line and further processing similar to the examples shown in <xref "
 "linkend=\"sec.audit.viz\"/> if you want to visualize your reports."
 msgstr ""
+"Co chcete dělat se zprávami o auditu? Rozhodněte se, zda chcete z "
+"nashromážděných dat vytvořit grafy nebo zda se mají přenést do nějakého "
+"tabulkového procesoru nebo databáze. Pokud chcete vizualizovat své sestavy, "
+"nastavte příkazový řádek aureport a další zpracování podobné příkladům "
+"uvedeným v <xref linkend=\"sec.audit.viz\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:437
@@ -524,6 +761,8 @@ msgid ""
 "When and at which intervals should the reports run? Set up appropriate "
 "automated reporting using cron."
 msgstr ""
+"Kdy a v jakých intervalech by se zprávy měly spouštět? Nastavte vhodné "
+"automatické hlášení pomocí cron."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:444
@@ -532,6 +771,9 @@ msgid ""
 "attempts to access your audit, PAM, and system configuration. Proceed as "
 "follows to find out about file events on your system:"
 msgstr ""
+"V tomto příkladu předpokládejme, že vás zajímá zjištění jakýchkoli pokusů o "
+"přístup k vaší konfiguraci auditu, PAM a systému. Chcete-li zjistit "
+"informace o událostech souborů ve vašem systému, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:452
@@ -541,6 +783,11 @@ msgid ""
 "quote> record, because these might have failed because of insufficient "
 "permissions to access a file or a file not being there:"
 msgstr ""
+"Vygenerujte úplnou souhrnnou zprávu o všech událostech a zkontrolujte "
+"všechny anomálie v souhrnné zprávě, například se podívejte na záznam <quote>"
+"failed syscalls</quote> (selhavší volání systému), protože mohla selhat "
+"kvůli nedostatečnému oprávnění pro přístup k souboru nebo kvůli přístupu k "
+"neexistujícímu souboru:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:459
@@ -573,6 +820,37 @@ msgid ""
 "Number of process IDs: 1238\n"
 "Number of events: 5435"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aureport</command>"
+"\n"
+"\n"
+"Summary Report\n"
+"======================\n"
+"Range of time in logs: 03/02/09 14:13:38.225 - 17/02/09 16:30:10.352  [čas "
+"začátku a konce záznamu]\n"
+"Selected time for report: 03/02/09 14:13:38 - 17/02/09 16:30:10.352  ["
+"zvolený čas hlášení]\n"
+"Number of changes in configuration: 24  [Počet: - změn v konfiguraci]\n"
+"Number of changes to accounts, groups, or roles: 0  [- změn účtů, skupin, "
+"rolí]\n"
+"Number of logins: 9  [- přihlášení]\n"
+"Number of failed logins: 15  [- selhavších přihlášení]\n"
+"Number of authentications: 19  [- ověření]\n"
+"Number of failed authentications: 578  [- selhavších ověření]\n"
+"Number of users: 3  [- uživatelů]\n"
+"Number of terminals: 15  [- terminálů]\n"
+"Number of host names: 4  [- názvů počítačů v síti]\n"
+"Number of executables: 20  [- spustitelných programů]\n"
+"Number of files: 279  [- souborů]\n"
+"Number of AVC's: 0  [- AVC - připisování záznamů na konec souborů]\n"
+"Number of MAC events: 0  [- událostí MAC]\n"
+"Number of failed syscalls: 994  [- selhavších volání systému]\n"
+"Number of anomaly events: 0  [- mimořádných událostí]\n"
+"Number of responses to anomaly events: 0  [- odpovědí na mimořádné události]"
+"\n"
+"Number of crypto events: 0  [- krypto událostí]\n"
+"Number of keys: 2  [- klíčů]\n"
+"Number of process IDs: 1238  [- ID procesů]\n"
+"Number of events: 5435  [- událostí]"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:487
@@ -580,6 +858,8 @@ msgid ""
 "Run a summary report for failed events and check the <quote>files</quote> "
 "record for the number of failed file access events:"
 msgstr ""
+"Spusťte souhrnnou zprávu o neúspěšných událostech a zkontrolujte záznam "
+"<quote>files</quote> o počtu neúspěšných událostí přístupu k souborům:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:492
@@ -612,6 +892,33 @@ msgid ""
 "Number of process IDs: 713\n"
 "Number of events: 1589"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aureport</command>"
+" <option>--failed</option>\n"
+"\n"
+"Failed Summary Report\n"
+"======================\n"
+"Range of time in logs: 03/02/09 14:13:38.225 - 17/02/09 16:30:10.352\n"
+"Selected time for report: 03/02/09 14:13:38 - 17/02/09 16:30:10.352\n"
+"Number of changes in configuration: 0\n"
+"Number of changes to accounts, groups, or roles: 0\n"
+"Number of logins: 0\n"
+"Number of failed logins: 15\n"
+"Number of authentications: 0\n"
+"Number of failed authentications: 578\n"
+"Number of users: 1\n"
+"Number of terminals: 7\n"
+"Number of host names: 4\n"
+"Number of executables: 12\n"
+"Number of files: 77\n"
+"Number of AVC's: 0\n"
+"Number of MAC events: 0\n"
+"Number of failed syscalls: 994\n"
+"Number of anomaly events: 0\n"
+"Number of responses to anomaly events: 0\n"
+"Number of crypto events: 0\n"
+"Number of keys: 2\n"
+"Number of process IDs: 713\n"
+"Number of events: 1589"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:520
@@ -619,6 +926,8 @@ msgid ""
 "To list the files that could not be accessed, run a summary report of failed "
 "file events:"
 msgstr ""
+"Chcete-li zobrazit seznam souborů, ke kterým nelze získat přístup, spusťte "
+"souhrnné hlášení o událostech neúspěchů u souborů:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:524
@@ -650,6 +959,32 @@ msgid ""
 "8  /etc/magic.mgc\n"
 "..."
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aureport</command>"
+" <option>-f -i --failed --summary</option>\n"
+"\n"
+"Failed File Summary Report\n"
+"===========================\n"
+"total  file\n"
+"===========================\n"
+"80  /var\n"
+"80  spool\n"
+"80  cron\n"
+"80  lastrun\n"
+"46  /usr/lib/locale/en_GB.UTF-8/LC_CTYPE\n"
+"45  /usr/lib/locale/locale-archive\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_MEASUREMENT\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_TELEPHONE\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_ADDRESS\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_NAME\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_PAPER\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_MESSAGES\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_MONETARY\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_COLLATE\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_TIME\n"
+"38  /usr/lib/locale/en_GB.UTF-8/LC_NUMERIC\n"
+"8  /etc/magic.mgc\n"
+"..."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:549
@@ -659,6 +994,10 @@ msgid ""
 "filename>, and <filename>/etc/sysconfig</filename>, use a command similar to "
 "the following:"
 msgstr ""
+"Chcete-li zaměřit tento souhrnný přehled pouze na několik souborů nebo "
+"adresářů, které vás zajímají, například <filename>/etc/audit/"
+"auditd.conf</filename>, <filename>/etc/pam.d</filename> a <filename>/etc/"
+"sysconfig</filename>, použijte příkaz podobný následujícímu:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:556
@@ -668,6 +1007,11 @@ msgid ""
 "\n"
 "1  /etc/sysconfig/displaymanager"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aureport -f -i --"
+"failed --summary |grep -e \"/etc/audit/auditd.conf\" -e \"/etc/pam.d/\" -e \""
+"/etc/sysconfig\"</command>\n"
+"\n"
+"1  /etc/sysconfig/displaymanager"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:561
@@ -675,6 +1019,8 @@ msgid ""
 "From the summary report, then proceed to isolate these items of interest "
 "from the log and find out their event IDs for further analysis:"
 msgstr ""
+"V souhrnném přehledu pokračujte vyjmutím těchto zajímavých položek z "
+"protokolu a vyhledejte jejich ID událostí pro další analýzu:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:566
@@ -685,11 +1031,21 @@ msgid ""
 "993. 17/02/09 16:47:34 /etc/sysconfig/displaymanager readlink no /bin/vim-normal root 7887\n"
 "994. 17/02/09 16:48:23 /etc/sysconfig/displaymanager getxattr no /bin/vim-normal root 7889"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aureport -f -i --"
+"failed |grep -e \"/etc/audit/auditd.conf\" -e \"/etc/pam.d/\" -e \"/etc/"
+"sysconfig\"</command>\n"
+"\n"
+"993. 17/02/09 16:47:34 /etc/sysconfig/displaymanager readlink no /bin/vim-"
+"normal root 7887\n"
+"994. 17/02/09 16:48:23 /etc/sysconfig/displaymanager getxattr no /bin/vim-"
+"normal root 7889"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:572
 msgid "Use the event ID to get a detailed record for each item of interest:"
 msgstr ""
+"Použijte ID události k získání podrobného záznamu pro každou zajímavou "
+"položku:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:575
@@ -702,11 +1058,23 @@ msgid ""
 "type=CWD msg=audit(1234885703.090:7889):  cwd=\"/root\"\n"
 "type=SYSCALL msg=audit(1234885703.090:7889): arch=c000003e syscall=191 success=no exit=-61 a0=7e1e20 a1=7f90e4cf9187 a2=7fffed5b57d0 a3=84 items=1 ppid=25548 pid=23045 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=1166 comm=\"vim\" exe=\"/bin/vim-normal\" key=(null)"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>ausearch "
+"-a</command> <replaceable>7887</replaceable> -i\n"
+"----\n"
+"time-&gt;Tue Feb 17 16:48:23 2009\n"
+"type=PATH msg=audit(1234885703.090:7889): item=0 name=\"/etc/sysconfig/"
+"displaymanager\" inode=369282 dev=08:06 mode=0100644 ouid=0 ogid=0 rdev=00:"
+"00\n"
+"type=CWD msg=audit(1234885703.090:7889):  cwd=\"/root\"\n"
+"type=SYSCALL msg=audit(1234885703.090:7889): arch=c000003e syscall=191 "
+"success=no exit=-61 a0=7e1e20 a1=7f90e4cf9187 a2=7fffed5b57d0 a3=84 items=1 "
+"ppid=25548 pid=23045 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 "
+"fsgid=0 tty=pts2 ses=1166 comm=\"vim\" exe=\"/bin/vim-normal\" key=(null)"
 
 #. (itstool) path: tip/title
 #: xml/audit_setup.xml:585
 msgid "Focusing on a Certain Time Frame"
-msgstr ""
+msgstr "Zaměření na určitý časový rámec"
 
 #. (itstool) path: tip/para
 #: xml/audit_setup.xml:586
@@ -717,6 +1085,10 @@ msgid ""
 "option>). For more information, refer to <xref linkend=\"sec.audit.aureport."
 "gen\"/>."
 msgstr ""
+"Pokud vás zajímají události v určitém časovém období, ořízněte sestavy na "
+"rozmezí data a času zahájení a ukončení příkazy <command>aureport</command> "
+"(<option>-ts</option> a <option>-te</option>). Další informace najdete na <"
+"xref linkend=\"sec.audit.aureport.gen\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:595
@@ -728,11 +1100,16 @@ msgid ""
 "about visualizing audit report data, refer to <xref linkend=\"sec.audit.viz"
 "\"/>."
 msgstr ""
+"Všechny kroky (kromě posledního) lze spustit automaticky a lze je snadno "
+"skriptovat a konfigurovat jako úlohy cronu. Kterýkoli z přehledů <literal>--"
+"failed --summary</literal> lze snadno transformovat do sloupcového grafu, "
+"který vykresluje soubory proti neúspěšným pokusům o přístup. Další informace "
+"o vizualizaci dat hlášení auditu najdete v <xref linkend=\"sec.audit.viz\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:605
 msgid "Configuring Log Visualization"
-msgstr ""
+msgstr "Konfigurace vizualizace protokolu"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:607
@@ -742,6 +1119,11 @@ msgid ""
 "with any other <command>aureport</command> command, the plotting commands "
 "are scriptable and can easily be configured to run as cron jobs."
 msgstr ""
+"Pomocí skriptů <command>mkbar</command> a <command>mkgraph</command> můžete "
+"ilustrovat své statistiky auditu různými grafy a tabulkami. Stejně jako u "
+"jiných příkazů <command>aureport</command> jsou příkazy pro vykreslování "
+"skriptovatelné a lze je snadno konfigurovat tak, aby fungovaly jako úlohy "
+"cronu."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:614
@@ -754,11 +1136,18 @@ msgid ""
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> does not ship with "
 "these scripts, proceed as follows to make them available on your system:"
 msgstr ""
+"<command>mkbar</command> a <command>mkgraph</command> vytvořil Steve Grubb v "
+"Red Hat. Jsou k dispozici od <link xlink:href=\"http://people.redhat.com/"
+"sgrubb/audit/visualize/\"/>. Protože aktuální verze auditu v <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> se nedodává s těmito skripty, "
+"postupujte následovně, abyste je ve svém systému zpřístupnili:"
 
 #. (itstool) path: warning/title
 #: xml/audit_setup.xml:624
 msgid "Downloaded Content Is Dangerous"
-msgstr ""
+msgstr "Stažený obsah je nebezpečný"
 
 #. (itstool) path: warning/para
 #: xml/audit_setup.xml:625
@@ -768,6 +1157,10 @@ msgid ""
 "system, even more so when run with <systemitem class=\"username\">root</"
 "systemitem> privileges."
 msgstr ""
+"Používejte <command>mkbar</command> a <command>mkgraph</command> na své "
+"vlastní riziko. Jakýkoli obsah stažený z webu je pro váš systém potenciálně "
+"nebezpečný, a to tím více, když je spuštěn s oprávněním <systemitem class=\""
+"username\">root</systemitem>."
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:634
@@ -775,6 +1168,8 @@ msgid ""
 "Download the scripts to <systemitem class=\"username\">root</systemitem>'s "
 "<filename>~/bin</filename> directory:"
 msgstr ""
+"Stáhněte si skripty do adresáře <filename>~/ bin</filename> superuživatele <"
+"systemitem class=\"username\">root</systemitem>:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:638
@@ -783,6 +1178,10 @@ msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> wget http://people.redhat.com/sgrubb/audit/visualize/mkbar -O ~/bin/mkbar\n"
 "<prompt>tux &gt; </prompt><command>sudo</command> wget http://people.redhat.com/sgrubb/audit/visualize/mkgraph -O ~/bin/mkgraph"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> wget http://people.redhat."
+"com/sgrubb/audit/visualize/mkbar -O ~/bin/mkbar\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> wget http://people.redhat."
+"com/sgrubb/audit/visualize/mkgraph -O ~/bin/mkgraph"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:642
@@ -790,12 +1189,16 @@ msgid ""
 "Adjust the file permissions to read, write, and execute for <systemitem "
 "class=\"username\">root</systemitem>:"
 msgstr ""
+"Upravte oprávnění souboru pro čtení, zápis a spouštění pro superuživatele <"
+"systemitem class=\"username\">root</systemitem>:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:646
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> chmod 744 ~/bin/mk{bar,graph}"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> chmod 744 ~/bin/"
+"mk{bar,graph}"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:650
@@ -804,61 +1207,74 @@ msgid ""
 "audit.aurepo\"/>, use the script <command>mkbar</command>. Some example "
 "commands could look like the following:"
 msgstr ""
+"Chcete-li graficky vynést souhrnné zprávy, jako jsou zprávy popsané v <xref "
+"linkend=\"sec.audit.aurepo\"/>, použijte skript <command>mkbar</command>. "
+"Některé příklady příkazů mohou vypadat takto:"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:659
 msgid "Create a Summary of Events"
-msgstr ""
+msgstr "Vytvořte souhrn událostí"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:661
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aureport -e -i --summary | mkbar events"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aureport -e -i --summary | "
+"mkbar events"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:665
 msgid "Create a Summary of File Events"
-msgstr ""
+msgstr "Vytvořte souhrn událostí souboru"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:667
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aureport -f -i --summary | mkbar files"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aureport -f -i --summary | "
+"mkbar files"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:671
 msgid "Create a Summary of Login Events"
-msgstr ""
+msgstr "Vytvořte souhrn událostí přihlášení"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:673
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aureport -l -i --summary | mkbar login"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aureport -l -i --summary | "
+"mkbar login"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:677
 msgid "Create a Summary of User Events"
-msgstr ""
+msgstr "Vytvořte souhrn uživatelských událostí"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:679
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aureport -u -i --summary | mkbar users"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aureport -u -i --summary | "
+"mkbar users"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:683
 msgid "Create a Summary of System Call Events"
-msgstr ""
+msgstr "Vytvořte souhrn událostí systémových volání"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:685
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aureport -s -i --summary | mkbar syscalls"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aureport -s -i --summary | "
+"mkbar syscalls"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:690
@@ -872,6 +1288,14 @@ msgid ""
 "<command>mkbar</command> script for an example. Any of the above commands "
 "produces a PNG file containing a bar chart of the requested data."
 msgstr ""
+"Chcete-li vytvořit souhrnný graf neúspěšných událostí některého z výše "
+"uvedených typů událostí, přidejte možnost <option>--failed</option> do "
+"příslušného příkazu <command>aureport</command>. Chcete-li pokrýt pouze "
+"určité časové období, použijte v aureport možnosti <option>-ts</option> a "
+"<option>-te</option>. Libovolný z těchto příkazů lze dále vylepšit zúžením "
+"jeho rozsahu pomocí grep nebo egrep a regulárních výrazů. Příklad najdete v "
+"komentářích ve skriptu <command>mkbar</command>. Jakýkoli z výše uvedených "
+"příkazů vytvoří soubor PNG obsahující sloupcový graf požadovaných dat."
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:702
@@ -880,50 +1304,61 @@ msgid ""
 "such as users and system calls, use the script <command>mkgraph</command>. "
 "Some example commands could look like the following:"
 msgstr ""
+"Pro ilustraci vztahu mezi různými druhy objektů auditu, jako jsou uživatelé "
+"a systémová volání, použijte skript <command>mkgraph</command>. Některé "
+"příklady příkazů mohou vypadat takto:"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:711
 msgid "Users versus Executables"
-msgstr ""
+msgstr "Uživatelé versus spustitelné soubory"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:713
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -u -i | awk '/^[0-9]/ { print $4\" \"$7 }' | sort | uniq | mkgraph users_vs_exec"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -u -i | "
+"awk '/^[0-9]/ { print $4\" \"$7 }' | sort | uniq | mkgraph users_vs_exec"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:717
 msgid "Users versus Files"
-msgstr ""
+msgstr "Uživatelé versus soubory"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:719
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -f -i | awk '/^[0-9]/ { print $8\" \"$4 }' | sort | uniq | mkgraph users_vs_files"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -f -i | "
+"awk '/^[0-9]/ { print $8\" \"$4 }' | sort | uniq | mkgraph users_vs_files"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:723
 msgid "System Calls versus Commands"
-msgstr ""
+msgstr "Systémová volání versus příkazy"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:725
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -s -i | awk '/^[0-9]/ { print $4\" \"$6 }' | sort | uniq | mkgraph syscall_vs_com"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -s -i | "
+"awk '/^[0-9]/ { print $4\" \"$6 }' | sort | uniq | mkgraph syscall_vs_com"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:729
 msgid "System Calls versus Files"
-msgstr ""
+msgstr "Systémová volání versus soubory"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:731
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -s -i | awk '/^[0-9]/ { print $5\" \"$4 }' | sort | uniq | mkgraph | syscall_vs_file"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> LC_ALL=C aureport -s -i | "
+"awk '/^[0-9]/ { print $5\" \"$4 }' | sort | uniq | mkgraph | syscall_vs_file"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:736
@@ -935,3 +1370,9 @@ msgid ""
 "<envar>EXT</envar> variable in the script from <literal>ps</literal> to "
 "<literal>png</literal> or <literal>jpg</literal>."
 msgstr ""
+"Grafy lze také kombinovat pro ilustraci složitých vztahů. Další informace a "
+"příklad najdete v komentářích ve skriptu <command>mkgraph</command>. Grafy "
+"vytvořené tímto skriptem jsou ve výchozím nastavení vytvářeny ve formátu "
+"PostScript, ale výstupní formát můžete změnit změnou proměnné "
+"<envar>EXT</envar> ve skriptu z <literal>ps</literal> na "
+"<literal>png</literal> nebo <literal>jpg</literal>."
