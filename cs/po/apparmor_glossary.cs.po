@@ -2,39 +2,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_glossary-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_glossary.xml:9
 msgid "<phrase>AppArmor</phrase> Glossary"
-msgstr ""
+msgstr "<phrase>AppArmor</phrase> Glosář"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:16
 msgid "Abstraction"
-msgstr ""
+msgstr "Abstrakce"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:18
 msgid "See <emphasis>profile foundation classes</emphasis> below."
-msgstr ""
+msgstr "Viz <emphasis>třídy základních profilů</emphasis> dále."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:24
 msgid "Apache"
-msgstr ""
+msgstr "Apache"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:26
@@ -43,11 +47,14 @@ msgid ""
 "commonly used Web server on the Internet. Find more information about Apache "
 "at the Apache Web site at <link xlink:href=\"http://www.apache.org\"/>."
 msgstr ""
+"Apache je volně dostupný webový server na Unixu. V současné době je to "
+"nejčastěji používaný webový server na Internetu. Další informace o Apache "
+"naleznete na webu Apache na <link xlink:href=\"http://www.apache.org\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:35
 msgid "application fire-walling"
-msgstr ""
+msgstr "firewall pro aplikaci"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:37
@@ -57,11 +64,15 @@ msgid ""
 "from using malicious programs on the protected server and even using trusted "
 "applications in unintended ways."
 msgstr ""
+"<phrase>AppArmor</phrase> ohraničuje aplikace a omezuje akce, které mohou "
+"provádět. Používá ohraničení oprávnění, aby zabránil útočníkům spouštět "
+"škodlivé programy na chráněném serveru. Brání i nezamýšlenému způsobu "
+"použití důvěryhodných aplikací."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:46
 msgid "attack signature"
-msgstr ""
+msgstr "podpis (charakteristika, signatura) útoku"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:48
@@ -70,6 +81,9 @@ msgid ""
 "hacker attack. Intrusion detection systems might use attack signatures to "
 "distinguish between legitimate and potentially malicious activity."
 msgstr ""
+"Vzor typu systémové nebo síťové činnosti, která indikuje možný útok viru "
+"nebo hackera. Systémy detekce narušení mohou používat signatury útoku k "
+"rozlišení mezi legitimní a potenciálně škodlivou činností."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:54
@@ -80,11 +94,16 @@ msgid ""
 "be defined for <phrase>AppArmor</phrase> as it does for products using "
 "attack signatures."
 msgstr ""
+"<phrase>AppArmor</phrase> se nespoléhá na podpisy útoků, ale poskytuje "
+"„předvídavou“ obranu místo „reagující“ obrany před útoky. To je lepší, "
+"protože neexistuje žádné okno zranitelnosti, které by muselo mít pro "
+"<phrase>AppArmor</phrase> předem definovaný podpis útoku, jako je tomu u "
+"produktů používajících podpisy útoku."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:63
 msgid "GUI"
-msgstr ""
+msgstr "GUI"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:65
@@ -94,11 +113,14 @@ msgid ""
 "application. Its elements include windows, icons, buttons, cursors, and "
 "scrollbars."
 msgstr ""
+"Grafické uživatelské rozhraní. Odkazuje na atraktivní, snadno použitelné "
+"softwarové rozhraní mezi uživatelem počítače a aplikací. Mezi prvky takového "
+"rozhraní patří okna, ikony, tlačítka, kurzory a posuvníky."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:74
 msgid "globbing"
-msgstr ""
+msgstr "globbing"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:76
@@ -111,11 +133,17 @@ msgid ""
 "special substitution that matches any file or directory below the current "
 "directory."
 msgstr ""
+"Nahrazení názvu souboru. Místo zadání explicitních cest k souborům můžete "
+"použít pomocné znaky <literal>*</literal> (nahrazuje libovolný počet znaků "
+"kromě speciálních, jako je <literal>/</literal> nebo <literal>?</literal>) a "
+"<literal>?</literal> (nahrazuje přesně jeden znak) pro adresování více "
+"souborů/adresářů najednou. <literal>**</literal> je speciální substituce, "
+"která odpovídá každému souboru nebo adresáři pod aktuálním adresářem."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:88
 msgid "HIP"
-msgstr ""
+msgstr "HIP"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:90
@@ -126,11 +154,16 @@ msgid ""
 "network level before they can <quote>hurt</quote> the application they "
 "target."
 msgstr ""
+"Prevence proniknutí do hostitele. Spolupracuje s jádrem operačního systému "
+"na blokování abnormálního chování aplikace v očekávání, že takové chování "
+"představuje neznámý typ útoku. Na úrovni sítě zablokuje škodlivé pakety "
+"jdoucí k hostiteli, takže nemohou <quote>ublížit</quote> aplikaci, na kterou "
+"cílí."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:100
 msgid "mandatory access control"
-msgstr ""
+msgstr "povinná kontrola přístupu"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:102
@@ -140,11 +173,15 @@ msgid ""
 "mandatory in the sense that they cannot be modified by users or their "
 "programs."
 msgstr ""
+"Prostředky omezení přístupu k objektům, které jsou založeny na pevných "
+"atributech zabezpečení přiřazených uživatelům, souborům a jiným objektům. "
+"Kontroly jsou povinné v tom smyslu, že je nemohou měnit uživatelé ani jejich "
+"programy."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:111
 msgid "profile"
-msgstr ""
+msgstr "profil"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:113
@@ -152,11 +189,13 @@ msgid ""
 "<phrase>AppArmor</phrase> profile completely defines what system resources "
 "an individual application can access, and with what privileges."
 msgstr ""
+"Profil <phrase>AppArmor</phrase> plně definuje, ke kterým systémovým "
+"prostředkům může jednotlivá aplikace přistupovat a s jakými oprávněními."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:120
 msgid "profile foundation classes"
-msgstr ""
+msgstr "třídy základních profilů"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:122
@@ -164,11 +203,13 @@ msgid ""
 "Profile building blocks needed for common application activities, such as "
 "DNS lookup and user authentication."
 msgstr ""
+"Stavební bloky profilů potřebné pro běžné činnosti aplikací, jako je "
+"vyhledávání DNS a ověřování uživatelů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:129
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:131
@@ -181,11 +222,19 @@ msgid ""
 "uninstalling, verifying, querying, and updating computer software packages. "
 "See <link xlink:href=\"http://www.rpm.org/\"/> for more information."
 msgstr ""
+"Správce balíčků RPM. Otevřený balíčkový systém, který může použít kdokoli. "
+"Funguje na Red Hat Linux, <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> a dalších systémech Linux a Unix. Je schopen "
+"instalovat, odinstalovat, ověřit, dotazovat a aktualizovat balíčky "
+"počítačového softwaru. Další informace viz <link xlink:href=\"http://www.rpm."
+"org/\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:141
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:143
@@ -193,11 +242,13 @@ msgid ""
 "Secure Shell. A service that allows you to access your server from a remote "
 "computer and issue text commands through a secure connection."
 msgstr ""
+"Zabezpečený shell. Služba, která umožňuje přistupovat k serveru ze "
+"vzdáleného počítače a zadávat textové příkazy zabezpečeným připojením."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:150
 msgid "streamlined access control"
-msgstr ""
+msgstr "efektivnější řízení přístupu"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:152
@@ -207,11 +258,14 @@ msgid ""
 "and execute. This ensures that each program does what it is supposed to do "
 "and nothing else."
 msgstr ""
+"<phrase>AppArmor</phrase> poskytuje efektivní řízení přístupu pro síťové "
+"služby určením souborů, které má každý program povoleno číst, zapisovat a "
+"provádět. To zajišťuje, že každý program dělá to, co má dělat, a nic jiného."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:161
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:163
@@ -220,11 +274,13 @@ msgid ""
 "addresses that refer to objects on the World Wide Web. A URL is one kind of "
 "URI."
 msgstr ""
+"Univerzální identifikátor zdroje. Obecný termín pro všechny typy jmen a "
+"adres, které odkazují na objekty na webu. URL je jeden z typů URI."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:171
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:173
@@ -232,6 +288,7 @@ msgid ""
 "Uniform Resource Locator. The global address of documents and other "
 "resources on the Web."
 msgstr ""
+"Jednotný lokátor zdrojů. Globální adresa dokumentů a dalších zdrojů na webu."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:177
@@ -240,6 +297,8 @@ msgid ""
 "part specifies the IP address or the domain name where the resource is "
 "located."
 msgstr ""
+"První část adresy označuje, jaký protokol se má použít; druhá část určuje IP "
+"adresu nebo doménový název umístění zdroje."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:182
@@ -249,11 +308,15 @@ msgid ""
 "org</literal></phrase>, you are using the HTTP protocol, as the beginning of "
 "the URL indicates."
 msgstr ""
+"Když například navštívíte <phrase os=\"sles;sled\""
+"><literal>http://www.suse.com</literal></phrase><phrase os=\"osuse\""
+"><literal>http://www.opensuse.org</literal></phrase>, používáte protokol "
+"HTTP, jak naznačuje začátek adresy URL."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:191
 msgid "vulnerabilities"
-msgstr ""
+msgstr "zranitelnosti"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:193
@@ -266,3 +329,10 @@ msgid ""
 "an unacceptable impact in the form of unauthorized access to information or "
 "the disruption of critical processing."
 msgstr ""
+"Aspekt systému nebo sítě, který jej/ji nechává otevřený/otevřenou útoku. "
+"Vlastnosti počítačových systémů, které jednotlivci umožňují způsobit, aby "
+"nepracovaly správně, nebo které umožňují neoprávněným uživatelům převzít "
+"kontrolu nad systémem. Slabiny nebo nedostatky v návrhu, správě, nebo "
+"implementační slabiny či závady hardwaru, firmwaru nebo softwaru. V případě "
+"zneužití by zranitelnost mohla vést k nepřijatelným důsledkům, ať ve formě "
+"neoprávněného přístupu k informacím nebo narušení kritického zpracování."
