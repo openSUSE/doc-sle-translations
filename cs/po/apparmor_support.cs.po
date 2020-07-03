@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_support-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_support.xml:9
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_support.xml:16
@@ -32,11 +36,18 @@ msgid ""
 "defects or enhancement requests for <phrase>AppArmor</phrase> following the "
 "instructions in this chapter."
 msgstr ""
+"Tato kapitola popisuje úkoly související s údržbou. Naučte se, jak "
+"aktualizovat <phrase>AppArmor®</phrase> a získejte seznam dostupných "
+"manuálových stránek poskytujících základní nápovědu k používání nástrojů "
+"<phrase>AppArmor</phrase> příkazového řádku. V části Odstraňování problémů "
+"se dozvíte některé běžné problémy, se kterými se setkáte v "
+"<phrase>AppArmor</phrase> a jejich řešení. Hlaste závady nebo požadavky na "
+"vylepšení aplikace <phrase>AppArmor</phrase> podle pokynů v této kapitole."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:25
 msgid "Updating <phrase>AppArmor</phrase> Online"
-msgstr ""
+msgstr "Aktualizace <phrase>AppArmor</phrase> on-line"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:27
@@ -50,11 +61,19 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>."
 msgstr ""
+"Aktualizace balíčků <phrase>AppArmor</phrase> jsou řešeny stejně jako jiné "
+"aktualizace <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Získejte "
+"je a aplikujte stejně, jako u jiných balíčků dodávaných jako součást <phrase "
+"role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:34
 msgid "Using the Man Pages"
-msgstr ""
+msgstr "Použití stránek Man(uálu)"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:36
@@ -64,101 +83,106 @@ msgid ""
 "page. Man pages are distributed in sections numbered 1 through 8. Each "
 "section is specific to a category of documentation:"
 msgstr ""
+"K dispozici jsou manuálové stránky. V terminálu zadejte <command>man "
+"apparmor</command> a tím otevřete manuálovou stránku "
+"<phrase>AppArmor</phrase>. Man(uálové) stránky jsou distribuovány v sekcích "
+"číslovaných 1 až 8. Každá sekce je specifická pro určitou kategorii "
+"dokumentace:"
 
 #. (itstool) path: table/title
 #: xml/apparmor_support.xml:44
 msgid "Man Pages: Sections and Categories"
-msgstr ""
+msgstr "Stránky Man: Sekce a kategorie"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:49
 msgid "Section"
-msgstr ""
+msgstr "Sekce"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:54
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:63
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:68
 msgid "User commands"
-msgstr ""
+msgstr "Uživatelské příkazy"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:75
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:80
 msgid "System calls"
-msgstr ""
+msgstr "Systémová volání"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:87
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:92
 msgid "Library functions"
-msgstr ""
+msgstr "Knihovní funkce"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:99
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:104
 msgid "Device driver information"
-msgstr ""
+msgstr "Údaje ovladače zařízení"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:111
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:116
 msgid "Configuration file formats"
-msgstr ""
+msgstr "Formáty konfiguračních souborů"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:123
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:128
 msgid "Games"
-msgstr ""
+msgstr "Hry"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:135
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:140
 msgid "High level concepts"
-msgstr ""
+msgstr "Koncepce vysoké úrovně"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:147
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:152
 msgid "Administrator commands"
-msgstr ""
+msgstr "Příkazy správce"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:161
@@ -167,116 +191,120 @@ msgid ""
 "example, <systemitem>exit(2)</systemitem> describes the exit system call, "
 "while <systemitem>exit(3)</systemitem> describes the exit C library function."
 msgstr ""
+"Čísla oddílů se používají k odlišení manuálových stránek. Například "
+"<systemitem>exit (2)</systemitem> popisuje ukončení systémového volání, "
+"zatímco <systemitem>exit (3)</systemitem> popisuje funkci východu z knihovny "
+"C."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:168
 msgid "The <phrase>AppArmor</phrase> man pages are:"
-msgstr ""
+msgstr "Stránky <phrase>AppArmor</phrase> man jsou:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:174
 msgid "<systemitem>aa-audit(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-audit(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:179
 msgid "<systemitem>aa-autodep(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-autodep(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:184
 msgid "<systemitem>aa-complain(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-complain(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:189
 msgid "<systemitem>aa-decode(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-decode(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:194
 msgid "<systemitem>aa-disable(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-disable(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:199
 msgid "<systemitem>aa-easyprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-easyprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:204
 msgid "<systemitem>aa-enforce(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-enforce(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:209
 msgid "<systemitem>aa-enxec(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-enxec(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:214
 msgid "<systemitem>aa-genprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-genprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:219
 msgid "<systemitem>aa-logprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-logprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:224
 msgid "<systemitem>aa-notify(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-notify(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:229
 msgid "<systemitem>aa-status(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-status(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:234
 msgid "<systemitem>aa-unconfined(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-unconfined(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:239
 msgid "<systemitem>aa_change_hat(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa_change_hat(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:244
 msgid "<systemitem>logprof.conf(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>logprof.conf(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:249
 msgid "<systemitem>apparmor.d(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor.d(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:254
 msgid "<systemitem>apparmor.vim(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor.vim(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:259
 msgid "<systemitem>apparmor(7)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor(7)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:264
 msgid "<systemitem>apparmor_parser(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor_parser(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:269
 msgid "<systemitem>apparmor_status(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor_status(8)</systemitem>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:276
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:278
@@ -286,6 +314,10 @@ msgid ""
 "for <phrase>AppArmor</phrase> in the installed system at <filename>/usr/"
 "share/doc/manual</filename>."
 msgstr ""
+"Další informace o produktu <phrase>AppArmor</phrase> naleznete na: <link "
+"xlink: href=\"http://wiki.apparmor.net\"/>. Vyhledejte dokumentaci k "
+"produktu <phrase>AppArmor</phrase> v nainstalovaném systému na <filename>/"
+"usr/share/doc/manual</filename>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:285
@@ -294,11 +326,15 @@ msgid ""
 "or join to communicate with developers. See <link xlink:href=\"https://lists."
 "ubuntu.com/mailman/listinfo/apparmor\"/> for details."
 msgstr ""
+"Existuje seznam adresátů e-mailů pro aplikaci <phrase>AppArmor</phrase>, do "
+"které mohou uživatelé přispívat nebo se k nim připojit, aby mohli "
+"komunikovat s vývojáři. Podrobnosti viz <link xlink:href=\""
+"https://lists.ubuntu.com/mailman/listinfo/apparmor\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:293
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Odstraňování problémů"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:295
@@ -306,11 +342,13 @@ msgid ""
 "This section lists the most common problems and error messages that may "
 "occur using <phrase>AppArmor</phrase>."
 msgstr ""
+"V této části jsou uvedeny nejčastější problémy a chybové zprávy, které mohou "
+"nastat při použití aplikace <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:301
 msgid "How to React to odd Application Behavior?"
-msgstr ""
+msgstr "Jak reagovat na zvláštní, nečekané  chování aplikací?"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:302
@@ -324,6 +362,14 @@ msgid ""
 "<command>aa-logprof</command> (<xref linkend=\"sec.apparmor.commandline."
 "profiling.summary.logprof\"/>)."
 msgstr ""
+"Pokud si všimnete podivného chování aplikace nebo jakéhokoli jiného problému "
+"s aplikací, měli byste nejprve zkontrolovat odmítnuté zprávy v souborech "
+"protokolu a zjistit, zda aplikace <phrase>AppArmor</phrase> neomezuje příliš "
+"úzce vaši aplikaci. Zjistíte-li odmítavé zprávy, které naznačují, že "
+"aplikace nebo služba je příliš úzce omezena aplikací "
+"<phrase>AppArmor</phrase>, aktualizujte svůj profil, aby správně zvládl váš "
+"způsob použití aplikace. Použijte program <command>aa-logprof</command> (<"
+"xref linkend=\"sec.apparmor.commandline.profiling.summary.logprof\"/>)."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:312
@@ -332,11 +378,14 @@ msgid ""
 "phrase> protection, remove the application's profile from <filename>/etc/"
 "apparmor.d</filename> or move it to another location."
 msgstr ""
+"Rozhodnete-li se spustit aplikaci nebo službu bez ochrany "
+"<phrase>AppArmor</phrase>, odeberte profil aplikace z <filename>/etc/"
+"apparmor.d</filename> nebo přesuňte aplikaci/službu na jiné místo."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:320
 msgid "My Profiles Do not Seem to Work Anymore …"
-msgstr ""
+msgstr "Zdá se, že moje profily nefungují …"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:322
@@ -346,6 +395,10 @@ msgid ""
 "notice some applications which seemed to work perfectly before you updated "
 "behaving strangely, or not working."
 msgstr ""
+"Pokud jste používali předchozí verze aplikace <phrase> AppArmor </phrase> a "
+"aktualizovali jste svůj systém (ale ponechali si starou sadu profilů), možná "
+"si všimnete, že některé aplikace fungovaly perfektně, ale teď se chovají "
+"podivně nebo nepracují."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:328
@@ -355,26 +408,30 @@ msgid ""
 "cause trouble with older versions of the <phrase>AppArmor</phrase> profiles. "
 "Those features are:"
 msgstr ""
+"Tato verze aplikace <phrase>AppArmor</phrase> zavádí do syntaxe profilu a "
+"nástrojů <phrase>AppArmor</phrase> sadu nových funkcí, které by mohly "
+"způsobit potíže se staršími verzemi profilů <phrase>AppArmor</phrase>. Jsou "
+"to tyto funkce:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:335
 msgid "File Locking"
-msgstr ""
+msgstr "Uzamykání souborů"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:340
 msgid "Network Access Control"
-msgstr ""
+msgstr "Ovládání přístupu k síti"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:345
 msgid "The <literal>SYS_PTRACE</literal> Capability"
-msgstr ""
+msgstr "Schopnost <literal>SYS_PTRACE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:350
 msgid "Directory Path Access"
-msgstr ""
+msgstr "Přístup cesty k adresáři"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:355
@@ -387,6 +444,13 @@ msgid ""
 "file under <filename>/var/log/audit/audit.log</filename> for entries like "
 "the following:"
 msgstr ""
+"Aktuální verze aplikace <phrase>AppArmor</phrase> zprostředkovává uzamykání "
+"souborů a zavádí k tomu nový režim oprávnění (<literal>k</literal>). "
+"Aplikace vyžadující oprávnění k uzamčení souborů mohou chybovat nebo úplně "
+"selhat, pokud jsou omezeny staršími profily, které neobsahují výslovné "
+"oprávnění k uzamčení souborů. Pokud máte podezření, že jde o tento případ, "
+"zkontrolujte v souboru protokolu v <filename>/var/log/audit/"
+"audit.log</filename> tyto a podobné položky:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:364
@@ -397,6 +461,10 @@ msgid ""
 "name=\"/home/tux/.qt/.qtrc.lock\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::k\" denied_mask=\"::k\" fsuid=30 ouid=0\n"
 msgstr ""
+"type=AVC msg=audit(1389862802.727:13939): apparmor=\"DENIED\" \\\n"
+"operation=\"file_lock\" parent=2692 profile=\"/usr/bin/opera\" \\\n"
+"name=\"/home/tux/.qt/.qtrc.lock\" pid=28730 comm=\"httpd2-prefork\" \\\n"
+"requested_mask=\"::k\" denied_mask=\"::k\" fsuid=30 ouid=0\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:369
@@ -404,6 +472,8 @@ msgid ""
 "Update the profile using the <command>aa-logprof</command> command as "
 "outlined below."
 msgstr ""
+"Aktualizujte profil programem <command>aa-logprof</command>, jak je uvedeno "
+"dále."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:373
@@ -415,6 +485,11 @@ msgid ""
 "log file under <filename>/var/log/audit/audit.log</filename> for entries "
 "like the following:"
 msgstr ""
+"Nová syntaxe řízení přístupu k síti založená na specifikaci rodiny a typu "
+"sítě, popsaná v <xref linkend=\"sec.apparmor.profiles.nac\"/>, může způsobit "
+"nesprávné chování aplikací nebo i zabránit fungování aplikací. Všimnete-li "
+"si, že se aplikace pracující se sítí chová podivně, zkontrolujte v souboru "
+"protokolu v <filename>/var/log/audit/audit.log</filename> položky jako:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:382
@@ -424,6 +499,10 @@ msgid ""
 "operation=\"socket_create\" family=\"inet\" parent=29985 profile=\"/bin/ping\" \\\n"
 "sock_type=\"raw\" pid=30251 comm=\"ping\"\n"
 msgstr ""
+"type=AVC msg=audit(1389864332.233:13947): apparmor=\"DENIED\" \\\n"
+"operation=\"socket_create\" family=\"inet\" parent=29985 profile=\"/bin/"
+"ping\" \\\n"
+"sock_type=\"raw\" pid=30251 comm=\"ping\"\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:386
@@ -435,6 +514,12 @@ msgid ""
 "to the new syntax, use the <command>aa-logprof</command> command as outlined "
 "below."
 msgstr ""
+"Tato položka protokolu znamená, že naší vzorové aplikaci <command>/bin/"
+"ping</command> se v tomto případě nepodařilo získat oprávnění "
+"<phrase>AppArmor</phrase> k otevření síťového připojení. Toto oprávnění musí "
+"být výslovně uvedeno, aby se zajistilo, že aplikace má přístup k síti. "
+"Chcete-li upravit profil podle nové syntaxe, použijte příkaz <command>aa-"
+"logprof</command>, jak je uvedeno dále."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:394
@@ -444,18 +529,23 @@ msgid ""
 "replaceable>/fd/*</filename>. New profiles need an entry for the file and "
 "the capability, where old profiles only needed the file entry. For example:"
 msgstr ""
+"Aktuální jádro vyžaduje schopnost <literal>SYS_PTRACE</literal>, pokouší-li "
+"se proces získat přístup k souborům v <filename>/proc/"
+"<replaceable>PID</replaceable>/fd/*</filename>. Nové profily potřebují "
+"záznam o souboru a schopnost, kdežto staré profily potřebovaly pouze záznam "
+"o souboru. Například:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:401
 #, no-wrap
 msgid "/proc/*/fd/**  rw,"
-msgstr ""
+msgstr "/proc/*/fd/**  rw,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:402
 msgid ""
 "in the old syntax would translate to the following rules in the new syntax:"
-msgstr ""
+msgstr "ve staré syntaxi by se v nové syntaxi převedly na následující pravidla:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:406
@@ -464,6 +554,8 @@ msgid ""
 "capability SYS_PTRACE,\n"
 "/proc/*/fd/**  rw,"
 msgstr ""
+"capability SYS_PTRACE,\n"
+"/proc/*/fd/**  rw,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:408
@@ -471,6 +563,9 @@ msgid ""
 "To update the profile to the new syntax, use the YaST Update Profile Wizard "
 "or the <command>aa-logprof</command> command as outlined below."
 msgstr ""
+"Chcete-li aktualizovat profil na novou syntaxi, použijte Průvodce "
+"aktualizací profilu YaST nebo příkaz <command>aa-logprof</command>, jak je "
+"uvedeno dále."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:413
@@ -483,6 +578,14 @@ msgid ""
 "thus trigger misbehavior of your application and various log messages. The "
 "following examples highlight the most important changes to the path syntax."
 msgstr ""
+"U této verze aplikace <phrase> AppArmor </phrase> bylo provedeno několik "
+"změn v syntaxi pravidla profilu, aby bylo možné lépe odlišit přístup k "
+"adresářům od přístupu k souborům. Některá pravidla, která se shodují s "
+"cestami souborů i adresářů v předchozí verzi, se nyní mohou shodovat pouze s "
+"cestou k souboru. To by mohlo vést k tomu, že aplikace "
+"<phrase>AppArmor</phrase> nebude moci přistupovat ke klíčovému adresáři, a "
+"tím vyvolat nesprávné chování vaší aplikace a různé zprávy protokolu. "
+"Následující příklady zdůrazňují nejdůležitější změny syntaxe cesty."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:423
@@ -495,12 +598,18 @@ msgid ""
 "<filename>foo</filename> is a file or directory under <filename>dir</"
 "filename>, it cannot be accessed."
 msgstr ""
+"Při použití staré syntaxe by následující pravidlo umožnilo přístup k "
+"souborům a adresářům v <filename>/proc/net</filename>. Umožnilo by to "
+"adresářový přístup pouze ke čtení položek adresáře, ale už ne přístup k "
+"souborům nebo podadresářům, například <filename>/proc/net/dir/foo</filename> "
+"by odpovídal masce hvězdičky (*), ale protože <filename>foo</filename> je "
+"soubor nebo adresář pod <filename>dir</filename>, nelze k němu přistupovat."
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:432
 #, no-wrap
 msgid "/proc/net/*  r,\n"
-msgstr ""
+msgstr "/proc/net/*  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:434
@@ -511,6 +620,11 @@ msgid ""
 "net</filename>. Directory access can only be used for listing the contents, "
 "not actually accessing files or directories underneath the directory."
 msgstr ""
+"K dosažení stejného chování pomocí nové syntaxe potřebujete dvě pravidla "
+"místo jednoho. První umožňuje přístup k souboru v <filename>/proc/"
+"net</filename> a druhé umožňuje přístup k adresářům pod <filename>/proc/"
+"net</filename>. Přístup do adresáře lze použít pouze pro výpis obsahu "
+"adresáře, nikoli ke skutečnému přístupu k souborům nebo jeho podadresářům."
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:442
@@ -519,6 +633,8 @@ msgid ""
 "/proc/net/*  r,\n"
 "/proc/net/*/  r,\n"
 msgstr ""
+"/proc/net/*  r,\n"
+"/proc/net/*/  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:445
@@ -528,6 +644,9 @@ msgid ""
 "filename> (but does not allow a directory listing of <filename>/proc/net/</"
 "filename> itself):"
 msgstr ""
+"Následující pravidlo funguje podobně pod starou i novou syntaxí a umožňuje "
+"přístup k souborům a adresářům v <filename>/proc/net</filename> (ale "
+"neumožňuje výpis obsahu adresáře <filename>/proc/net/</filename> samotného):"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:451
@@ -536,6 +655,8 @@ msgid ""
 "\n"
 "/proc/net/**  r,\n"
 msgstr ""
+"\n"
+"/proc/net/**  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:454
@@ -545,6 +666,11 @@ msgid ""
 "recursively access directories under <filename>/proc/net</filename> while "
 "the second one explicitly allows for recursive file access only."
 msgstr ""
+"Chcete-li odlišit přístup k souborům od přístupu k adresáři pomocí výše "
+"uvedeného výrazu v nové syntaxi, použijte následující dvě pravidla. První "
+"umožňuje pouze rekurzivní přístup k adresářům pod <filename>/proc/"
+"net</filename>, zatímco druhé výslovně umožňuje pouze rekurzivní přístup k "
+"souborům."
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:461
@@ -553,6 +679,8 @@ msgid ""
 "/proc/net/**/  r,\n"
 "/proc/net/**[^/]  r,"
 msgstr ""
+"/proc/net/**/  r,\n"
+"/proc/net/**[^/]  r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:463
@@ -561,12 +689,15 @@ msgid ""
 "allows access to both files and directories beginning with <literal>foo</"
 "literal> under <filename>/proc/net</filename>:"
 msgstr ""
+"Následující pravidlo funguje podobně ve staré i nové syntaxi a umožňuje "
+"přístup k souborům a adresářům začínajícím <literal>foo</literal> v "
+"<filename>/proc/net</filename>:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:468
 #, no-wrap
 msgid "/proc/net/foo**  r,"
-msgstr ""
+msgstr "/proc/net/foo**  r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:469
@@ -578,6 +709,12 @@ msgid ""
 "slash. The second rule matched neither file nor directory in the old syntax, "
 "but matches directories only in the new syntax:"
 msgstr ""
+"Chcete-li odlišit přístup k souborům od přístupu k adresáři v nové syntaxi a "
+"použít vzor globbingu <literal>**</literal>, použijte následující dvě "
+"pravidla. První z nich by ve staré syntaxi vyhovovalo souborům i adresářům, "
+"ale v nové syntaxi vyhovuje pouze souborům, protože chybí koncové lomítko. "
+"Druhé pravidlo neodpovídalo ve staré syntaxi souboru ani adresáři, ale v "
+"nové syntaxi odpovídá pouze adresářům:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:478
@@ -586,6 +723,8 @@ msgid ""
 "/proc/net/**foo  r,\n"
 "/proc/net/**foo/  r,\n"
 msgstr ""
+"/proc/net/**foo  r,\n"
+"/proc/net/**foo/  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:481
@@ -600,6 +739,14 @@ msgid ""
 "proc/net/foo?</filename>. Using the old syntax, this rule would have applied "
 "to both files and directories:"
 msgstr ""
+"Následující pravidla ukazují, jak se změnilo použití globálního vzoru "
+"<literal>?</literal>. Ve staré syntaxi by první pravidlo odpovídalo souborům "
+"i adresářům (čtyři znaky, poslední znak může být lomítko). V nové syntaxi "
+"odpovídá pouze souborům (chybí koncové lomítko). Druhé pravidlo by "
+"neodpovídalo ve staré syntaxi profilu ničemu, ale v nové syntaxi odpovídá "
+"pouze adresářům. Poslední pravidlo explicitně odpovídá souboru nazvanému "
+"<filename>bar</filename> v <filename>/proc/net/foo?</filename>. Při použití "
+"staré syntaxe by toto pravidlo platilo pro soubory i adresáře:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:493
@@ -609,6 +756,9 @@ msgid ""
 "/proc/net/foo?/  r,\n"
 "/proc/net/foo?/bar  r,\n"
 msgstr ""
+"/proc/net/foo?  r,\n"
+"/proc/net/foo?/  r,\n"
+"/proc/net/foo?/bar  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:497
@@ -617,17 +767,23 @@ msgid ""
 "the update to check the profiles you want to keep and proceed as follows for "
 "each application you kept the profile for:"
 msgstr ""
+"Chcete-li najít a vyřešit problémy související se změnami syntaxe, udělejte "
+"si po aktualizaci čas a zkontrolujte aplikační profily, které chcete "
+"zachovat, a pro každou takovou aplikaci postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:504
 msgid "Put the application's profile into complain mode:"
-msgstr ""
+msgstr "Přepněte profil aplikace do stěžovacího režimu:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:507
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-complain</command> <option><replaceable>/path/to/application</replaceable></option>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-"
+"complain</command> <option><replaceable>/cesta/k/"
+"aplikaci</replaceable></option>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:508
@@ -635,6 +791,8 @@ msgid ""
 "Log entries are made for any actions violating the current profile, but the "
 "profile is not enforced and the application's behavior not restricted."
 msgstr ""
+"Pro všechny akce porušující aktuální profil se vytvářejí záznamy protokolu, "
+"ale profil není vynucován a chování aplikace není omezeno."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:515
@@ -642,6 +800,7 @@ msgid ""
 "Run the application covering all the tasks you need this application to be "
 "able to perform."
 msgstr ""
+"Spusťte aplikaci tak, aby pokryla všechny úkoly, které je schopna provádět."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:521
@@ -649,28 +808,35 @@ msgid ""
 "Update the profile according to the log entries made while running the "
 "application:"
 msgstr ""
+"Aktualizujte profil podle položek protokolu zapsaných při běhu aplikace:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:525
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-logprof</command> <option><replaceable>/path/to/application</replaceable></option>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-"
+"logprof</command> <option><replaceable>/cesta/k/"
+"aplikaci</replaceable></option>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:528
 msgid "Put the resulting profile back into enforce mode:"
-msgstr ""
+msgstr "Přepněte výsledný profil zpět do vynucovacího režimu:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:531
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-enforce</command> <option><replaceable>/path/to/application</replaceable></option>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-"
+"enforce</command> <option><replaceable>/cesta/k/"
+"aplikaci</replaceable></option>"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:537
 msgid "Resolving Issues with Apache"
-msgstr ""
+msgstr "Řešení problémů s Apache"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:538
@@ -681,11 +847,16 @@ msgid ""
 "profile. If you do not profile Apache again, it could be unable to start "
 "properly or be unable to serve Web pages."
 msgstr ""
+"Po instalaci dalších modulů Apache (například "
+"<literal>apache2-mod_apparmor</literal>) nebo po změnách konfigurace Apache "
+"musíte pro profil Apache znovu zjistit, zda je třeba přidat další pravidla. "
+"Pokud nebudete Apache znovu profilovat, může se stát, že se nebude moci "
+"správně spustit nebo nebude moci zobrazovat webové stránky."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:566
 msgid "How to Exclude Certain Profiles from the List of Profiles Used?"
-msgstr ""
+msgstr "Jak vyloučit některé profily ze seznamu použitých profilů?"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:567
@@ -696,11 +867,19 @@ msgid ""
 "<filename>/etc/apparmor.d/disable/</filename>. To reactivate the profile, "
 "delete the link, and run <command>systemctl reload apparmor</command>."
 msgstr ""
+"Spusťte <command>aa-disable</command> "
+"<option><replaceable>PROGRAM</replaceable></option> a tím vyřaďte profil pro "
+"<replaceable>PROGRAM</replaceable>. Tento program vytvoří symbolický odkaz "
+"na profil v <filename>/etc/apparmor.d/disable/</filename>. Profil "
+"reaktivujete smazáním toho odkazu a spuštěním <command>systemctl reload "
+"apparmor</command>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:579
 msgid "Can I Manage Profiles for Applications not Installed on my System?"
 msgstr ""
+"Mohu spravovat profily pro aplikace, které nejsou nainstalované v mém "
+"systému?"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:580
@@ -715,11 +894,20 @@ msgid ""
 "and run <command>aa-logprof -f</command> <replaceable>PATH_TO_LOGFILE</"
 "replaceable>."
 msgstr ""
+"Správa profilů pomocí aplikace <phrase>AppArmor</phrase> vyžaduje, abyste "
+"měli přístup k protokolu systému, ve kterém je aplikace spuštěna. Nemusíte "
+"tedy spouštět aplikaci na počítači. kde byl profil vytvořen, pokud máte "
+"přístup k počítači, na kterém je spuštěna aplikace. Můžete spustit aplikaci "
+"na jednom systému a přenést protokoly (<filename>/var/log/"
+"audit.log</filename> nebo, není-li <filename>audit</filename> instalován, "
+"zadejte <command>journalctl | grep -i apparmor &gt; "
+"cesta_k_žurnálu</command>) na počítači, kde byl profil vytvořen, a spusťte "
+"<command>aa-logprof -f</command> <replaceable>CESTA_K_ŽURNÁLU</replaceable>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:595
 msgid "How to Spot and fix <phrase>AppArmor</phrase> Syntax Errors?"
-msgstr ""
+msgstr "Jak najít a opravit chyby syntaxe <phrase>AppArmor</phrase>?"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:596
@@ -729,6 +917,10 @@ msgid ""
 "syntax errors in your profiles, error results are shown. This example shows "
 "the syntax of the entire parser error."
 msgstr ""
+"Ruční úprava profilů <phrase> AppArmor </phrase> může způsobit chyby "
+"syntaxe. Pokusíte-li se spustit nebo restartovat aplikaci "
+"<phrase>AppArmor</phrase> s chybami syntaxe ve svých profilech, zobrazí se "
+"chybné výsledky. Tento příklad ukazuje syntaxi celé chyby analyzátoru."
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:602
@@ -739,6 +931,12 @@ msgid ""
 "Loading AppArmor profiles AppArmor parser error in /etc/apparmor.d/usr.sbin.squid at line 410: syntax error, unexpected TOK_ID, expecting TOK_MODE\n"
 " Profile /etc/apparmor.d/usr.sbin.squid failed to load\n"
 msgstr ""
+"\n"
+"localhost:~ # rcapparmor start\n"
+"Zavádím AppArmor, profily AppArmor chyba analyzátoru v /etc/apparmor.d/"
+"usr.sbin.squid u řádku 410: chyba syntaxe, neočekáváno TOK_ID, očekáváno "
+"TOK_MODE\n"
+" Profil /etc/apparmor.d/usr.sbin.squid nebylo možno zavést\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:607
@@ -746,6 +944,8 @@ msgid ""
 "Using the <phrase>AppArmor</phrase> YaST tools, a graphical error message "
 "indicates which profile contained the error and requests you to fix it."
 msgstr ""
+"Při použití nástrojů YaST <phrase>AppArmor</phrase> označuje grafická "
+"chybová zpráva, který profil obsahoval chybu, a požaduje, abyste ji opravili."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -755,7 +955,7 @@ msgstr ""
 #: xml/apparmor_support.xml:614 xml/apparmor_support.xml:617
 msgctxt "_"
 msgid "external ref='aa_syncheck.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='aa_syncheck.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:621
@@ -764,11 +964,15 @@ msgid ""
 "\"username\">root</systemitem>, open the profile, and correct the syntax. "
 "Reload the profile set with <command>systemctl reload apparmor</command>."
 msgstr ""
+"Abyste opravili chybu syntaxe, přihlaste se do terminálového okna jako <"
+"systemitem class=\"username\">root</systemitem>, otevřete profil a opravte "
+"syntaxi. Znovu načtěte sadu profilů pomocí <command>systemctl reload "
+"apparmor</command>."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_support.xml:627
 msgid "<phrase>AppArmor</phrase> Syntax Highlighting in <literal>vi</literal>"
-msgstr ""
+msgstr "<phrase>AppArmor</phrase> - zvýraznění syntaxe v <literal>vi</literal>"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_support.xml:628
@@ -779,11 +983,17 @@ msgid ""
 "phrase> supports syntax highlighting for <phrase>AppArmor</phrase> profiles. "
 "Lines containing syntax errors will be displayed with a red background."
 msgstr ""
+"Editor <literal>vi</literal> na <phrase role=\"productname\"> <phrase os=\""
+"osuse\">openSUSE Leap</phrase> <phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase> "
+"</phrase> podporuje zvýrazňování syntaxe pro profily "
+"<phrase>AppArmor</phrase>. Řádky obsahující chyby syntaxe se zobrazí s "
+"červeným pozadím."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:637
 msgid "Reporting Bugs for <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Hlášení chyb pro <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:639
@@ -793,6 +1003,10 @@ msgid ""
 "quality high. Whenever you encounter a bug in <phrase>AppArmor</phrase>, "
 "file a bug report against this product:"
 msgstr ""
+"Vývojáři aplikace <phrase>AppArmor</phrase> touží dodávat produkty nejvyšší "
+"kvality. Vaše zpětná vazba a hlášení o chybách nám pomáhají udržovat vysokou "
+"kvalitu. Kdykoli narazíte na chybu v <phrase>AppArmor</phrase>, podejte "
+"hlášení o chybě v tomto produktu:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:648
@@ -801,6 +1015,9 @@ msgid ""
 "bugzilla.suse.com/\"/><link os=\"osuse\" xlink:href=\"http://bugzilla."
 "opensuse.org/\"/> and click <guimenu>Log In</guimenu>."
 msgstr ""
+"Ve webovém prohlížeči jděte na <link os=\"sles;sled\" xlink:href=\""
+"http://bugzilla.suse.com/\"/><link os=\"osuse\" xlink:href=\""
+"http://bugzilla.opensuse.org/\"/> a klikněte <guimenu>Log In</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:656
@@ -809,6 +1026,9 @@ msgid ""
 "guimenu>. If you do not have a SUSE account, click <guimenu>Create Account</"
 "guimenu> and provide the required data."
 msgstr ""
+"Zadejte data svého účtu SUSE a klikněte na <guimenu>Přihlásit se</guimenu>. "
+"Pokud nemáte účet SUSE, klikněte na <guimenu>Vytvořit účet</guimenu> a "
+"zadejte požadované údaje."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:663
@@ -816,6 +1036,8 @@ msgid ""
 "If your problem has already been reported, check this bug report and add "
 "extra information to it, if necessary."
 msgstr ""
+"Pokud byl váš problém již nahlášen, zkontrolujte tuto zprávu o chybě a v "
+"případně k ní přidejte další informace."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:669
@@ -824,6 +1046,9 @@ msgid ""
 "from the top navigation bar and proceed to the <guimenu>Enter Bug</guimenu> "
 "page."
 msgstr ""
+"Pokud váš problém ještě nebyl ohlášen, vyberte z horního navigačního panelu "
+"<guimenu>Nový</guimenu> a přejděte na stránku <guimenu>Zadejte "
+"chybu</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:676
@@ -831,6 +1056,8 @@ msgid ""
 "Select the product against which to file the bug. In your case, this would "
 "be your product's release. Click <guimenu>Submit</guimenu>."
 msgstr ""
+"Vyberte produkt, jehož chybu chcete ohlásit. Ve vašem případě by to byla "
+"verze vydání vašeho produktu. Klikněte <guimenu>Odeslat</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:682
@@ -838,6 +1065,8 @@ msgid ""
 "Select the product version, component (<phrase>AppArmor</phrase> in this "
 "case), hardware platform, and severity."
 msgstr ""
+"Vyberte verzi produktu, komponentu (v tomto případě "
+"<phrase>AppArmor</phrase>), hardwarovou platformu a závažnost."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:688
@@ -846,6 +1075,9 @@ msgid ""
 "description including log files. You may create attachments to your bug "
 "report for screenshots, log files, or test cases."
 msgstr ""
+"Zadejte krátký nadpis popisující váš problém a přidejte podrobnější popis "
+"včetně souborů protokolu. Ke zprávě o chybách můžete vytvořit a přidat "
+"přílohy - snímky obrazovky, soubory protokolu nebo testovací příklady."
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:695
@@ -853,3 +1085,5 @@ msgid ""
 "Click <guimenu>Submit</guimenu> after you have entered all the details to "
 "send your report to the developers."
 msgstr ""
+"Po zadání všech podrobností klikněte na <guimenu>Odeslat</guimenu> a "
+"odešlete svou zprávu vývojářům."
