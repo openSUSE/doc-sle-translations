@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/art_sle_modules_quick-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: article/title
 #: xml/art_sle_modules_quick.xml:13
 msgid "Modules &amp; Extensions Quick Start"
-msgstr ""
+msgstr "Moduly a rozšíření - Rychlý start"
 
 #. (itstool) path: article/subtitle
 #: xml/art_sle_modules_quick.xml:14
@@ -30,6 +34,11 @@ msgid ""
 "\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled"
 "\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase>"
 
 #. (itstool) path: info/productnumber
 #: xml/art_sle_modules_quick.xml:16
@@ -37,6 +46,8 @@ msgid ""
 "<phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os="
 "\"sles;sled\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os="
+"\"sles;sled\">15</phrase></phrase>"
 
 #. (itstool) path: info/productname
 #: xml/art_sle_modules_quick.xml:16
@@ -45,6 +56,9 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: abstract/para
 #: xml/art_sle_modules_quick.xml:19
@@ -53,16 +67,19 @@ msgid ""
 "for the SUSE Linux Enterprise family. Learn about purpose and features and "
 "how to manage them."
 msgstr ""
+"Tento Rychlý start vám poskytne přehled modulů a rozšíření dostupných pro "
+"řadu SUSE Linux Enterprise. Dozvíte se o účelu a funkcích a o tom, jak je "
+"spravovat."
 
 #. (itstool) path: docmanager/translation
 #: xml/art_sle_modules_quick.xml:25
 msgid "no"
-msgstr ""
+msgstr "ne"
 
 #. (itstool) path: sect1/title
 #: xml/art_sle_modules_quick.xml:30
 msgid "Modules &amp; Extensions Explained"
-msgstr ""
+msgstr "Moduly a rozšíření - vysvětlení"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:31
@@ -77,6 +94,16 @@ msgid ""
 "phrase>. During deployment you can add functionality by selecting modules "
 "and extensions to be installed on top of the Installer."
 msgstr ""
+"Počínaje <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, "
+"skládá se instalační médium pouze z Instalátoru, tj. minimálního systému pro "
+"nasazení, aktualizaci a registraci <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Během nasazení můžete přidat funkce výběrem "
+"modulů a rozšíření, které mají být nainstalovány \"nad\" minimální základní "
+"Instalátor."
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:37
@@ -89,17 +116,24 @@ msgid ""
 "both may add partitioning proposals and system roles that can be chosen "
 "during deployment."
 msgstr ""
+"Technicky jsou moduly a rozšíření velmi podobné. Oba typy lze spravovat "
+"pomocí programu YaST nebo pomocí nástroje příkazového řádku "
+"<command>SUSEConnect</command>. Moduly i rozšíření přidávají sadu online "
+"úložišť (<literal>main</literal>, <literal>update</literal>, "
+"<literal>source</literal>, <literal>debug</literal>) obsahující všechny "
+"potřebné balíčky. Kromě toho mohou moduly i rozšíření přidávat návrhy na "
+"rozdělení a systémové role, které mohou být vybrány během instalace."
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:46
 msgid ""
 "However, there are significant differences between modules and extensions:"
-msgstr ""
+msgstr "Mezi moduly a rozšířeními však existují významné rozdíly:"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_modules_quick.xml:51
 msgid "Modules"
-msgstr ""
+msgstr "Moduly"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:53
@@ -109,6 +143,10 @@ msgid ""
 "Scripting, through a Public Cloud, all the way to the SUSE Package Hub, "
 "offering community-managed packages."
 msgstr ""
+"Moduly umožňují tvarovat produkt podle vašich potřeb. Každý modul má jasně "
+"definovaný rozsah od nástrojů pro vývoj webových stránek a skriptování, přes "
+"Veřejný cloud, až po SUSE Package Hub, nabízející balíčky spravované "
+"komunitou."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:59
@@ -118,6 +156,9 @@ msgid ""
 "modular approach also makes it easy to provide tailor-made images for "
 "container and cloud environments."
 msgstr ""
+"Moduly umožňují poskytovat pouze sadu balíčků potřebných pro účely stroje, "
+"díky čemuž je systém štíhlý, rychlý a bezpečnější. Tento modulární přístup "
+"také usnadňuje poskytování obrazů na míru pro prostředí kontejnerů a cloudu."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:64
@@ -125,6 +166,8 @@ msgid ""
 "Modules can be added or removed at any time during the lifecycle of the "
 "system, allowing you to easily adjust the system to changing requirements."
 msgstr ""
+"Moduly lze přidat nebo odebrat kdykoli během životního cyklu systému, což "
+"vám umožní snadno přizpůsobit systém měnícím se požadavkům."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:68
@@ -144,11 +187,25 @@ msgid ""
 "refer to the <link xlink:href=\"https://www.suse.com/releasenotes/x86_64/"
 "SUSE-SLES/15/#Intro.Support\">Release Notes</link>."
 msgstr ""
+"Moduly jsou částí Vašeho systému <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> jako předplatné, a proto zdarma. Liší se od "
+"základny <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> pouze "
+"svým životním cyklem. S výjimkou modulu SUSE Package Hub poskytuje SUSE "
+"podporu L3 pro téměř všechny balíčky poskytované moduly. Pro více informací "
+"o Prohlášení o podpoře systémů <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> viz <link xlink:href=\"https://www.suse.com/"
+"releasenotes/x86_64/SUSE-SLES/15/#Intro.Support\">Poznámky k vydání</link>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_modules_quick.xml:80
 msgid "Extensions"
-msgstr ""
+msgstr "Rozšíření"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:82
@@ -162,11 +219,19 @@ msgid ""
 "documents that are available from <link xlink:href=\"https://www.suse.com/"
 "releasenotes\"/>."
 msgstr ""
+"Rozšíření poskytují pokročilé funkce pro úkoly, jako je živé opravování a "
+"seskupování s vysokou dostupností <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Nabízejí se jako předplatné a vyžadují "
+"registrační klíč, který odpovídá za náklady. Rozšíření mají obvykle své "
+"vlastní poznámky k vydání - dokumenty, které jsou k dispozici na webu <link "
+"xlink:href=\"https://www.suse.com/releasenotes\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_modules_quick.xml:94
 msgid "Modules Available for the SUSE Linux Enterprise Product Family"
-msgstr ""
+msgstr "Moduly dostupné pro rodinu produktů SUSE Linux Enterprise"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_modules_quick.xml:95
@@ -177,46 +242,51 @@ msgid ""
 "\"https://www.suse.com/lifecycle\"/> for more information about lifecycle, "
 "release frequency, and the overlay support period."
 msgstr ""
+"V rámci rodiny produktů SUSE Linux Enterprise jsou k dispozici následující "
+"moduly. Dostupnost modulů závisí na produktu (viz sloupec "
+"<emphasis>Dostupnost</emphasis>). Více informací o životním cyklu, frekvenci "
+"vydání a době podpory překrytí viz <link xlink:href=\"https://www.suse.com/"
+"lifecycle\"/>."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:112
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:117
 msgid "Module depends on"
-msgstr ""
+msgstr "Modul závisí na"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:122
 msgid "Available for"
-msgstr ""
+msgstr "Dostupný pro"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:127
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:134
 msgid "Content"
-msgstr ""
+msgstr "Obsah"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:143
 msgid "<emphasis role=\"bold\">Basesystem</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Základní systém</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:148
 msgid "None"
-msgstr ""
+msgstr "žádném"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:153
 msgid "default on all products"
-msgstr ""
+msgstr "výchozí u všech produktů"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:159 xml/art_sle_modules_quick.xml:213
@@ -224,7 +294,7 @@ msgstr ""
 #: xml/art_sle_modules_quick.xml:375 xml/art_sle_modules_quick.xml:508
 #: xml/art_sle_modules_quick.xml:547
 msgid "<emphasis role=\"bold\">lifecycle:</emphasis> 10 yrs"
-msgstr ""
+msgstr "<emphasis role=\"bold\">životní cyklus:</emphasis> 10 let"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:162 xml/art_sle_modules_quick.xml:294
@@ -233,6 +303,8 @@ msgid ""
 "<emphasis role=\"bold\">extended:</emphasis> 3 yrs LTSS<superscript>1</"
 "superscript>"
 msgstr ""
+"<emphasis role=\"bold\">rozšířen:</emphasis> 3 roky "
+"LTSS<superscript>1</superscript>"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:166 xml/art_sle_modules_quick.xml:219
@@ -240,7 +312,7 @@ msgstr ""
 #: xml/art_sle_modules_quick.xml:338 xml/art_sle_modules_quick.xml:383
 #: xml/art_sle_modules_quick.xml:516 xml/art_sle_modules_quick.xml:554
 msgid "<emphasis role=\"bold\">level:</emphasis> L3"
-msgstr ""
+msgstr "<emphasis role=\"bold\">úroveň:</emphasis> L3"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:174
@@ -254,11 +326,19 @@ msgid ""
 "phrase></phrase> versions. This module is selected for installation by "
 "default and should not be deselected."
 msgstr ""
+"Tento modul přidá základní systém jako nástavbu instalátoru. Je vyžadován "
+"všemi ostatními moduly a rozšířeními. Rozsah instalace, která obsahuje pouze "
+"základní systém, je srovnatelná s instalačním vzorem systému "
+"<literal>minimal</literal> předchozích verzí <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Tento modul je ve výchozím nastavení vybrán k "
+"instalaci a jeho výběr by neměl být zrušen."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:197
 msgid "<emphasis role=\"bold\">Containers</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Kontejnery</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:202 xml/art_sle_modules_quick.xml:239
@@ -267,33 +347,33 @@ msgstr ""
 #: xml/art_sle_modules_quick.xml:577 xml/art_sle_modules_quick.xml:621
 #: xml/art_sle_modules_quick.xml:808
 msgid "Basesystem"
-msgstr ""
+msgstr "Základní systém"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:207 xml/art_sle_modules_quick.xml:408
 #: xml/art_sle_modules_quick.xml:454
 msgid "SLES, SLES for SAP, SLE HPC"
-msgstr ""
+msgstr "SLES, SLES pro SAP, SLE HPC"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:216 xml/art_sle_modules_quick.xml:254
 msgid "<emphasis role=\"bold\">extended:</emphasis> no"
-msgstr ""
+msgstr "<emphasis role=\"bold\">rozšířen:</emphasis> ne"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:227
 msgid "Contains support, tools and images for containers."
-msgstr ""
+msgstr "Obsahuje podporu, nástroje a obrázky pro kontejnery."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:234
 msgid "<emphasis role=\"bold\">Desktop Applications</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Aplikace pro stolní počítače</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:244
 msgid "SLED (default), SLE-WE (default), SLES, SLES for SAP, SLE RT, SLE HPC"
-msgstr ""
+msgstr "SLED (výchozí), SLE-WE (výchozí), SLES, SLES for SAP, SLE RT, SLE HPC"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:265
@@ -303,26 +383,30 @@ msgid ""
 "module is selected for installation by default; deselecting it is not "
 "recommended.</phrase>"
 msgstr ""
+"Přidá do systému grafické uživatelské rozhraní <phrase os=\"sled\""
+">(Wayland)</phrase> a základní stolní aplikace. <phrase os=\"sled\">Tento "
+"modul je ve výchozím nastavení vybrán k instalaci; zrušení výběru se "
+"nedoporučuje.</phrase>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:275
 msgid "<emphasis role=\"bold\">Development Tools</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Vývojářské nástroje</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:280 xml/art_sle_modules_quick.xml:846
 msgid "Basesystem, Desktop Applications"
-msgstr ""
+msgstr "Základní systém, stolní aplikace"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:285
 msgid "SLES, SLES for SAP, SLED, SLE RT, SLE HPC"
-msgstr ""
+msgstr "SLES, SLES pro SAP, SLED, SLE RT, SLE HPC"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:291
 msgid "<emphasis role=\"bold\">lifecycle:</emphasis> 10 years"
-msgstr ""
+msgstr "<emphasis role=\"bold\">životní cyklus:</emphasis> 10 let"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:306
@@ -331,16 +415,19 @@ msgid ""
 "for compiling and debugging applications. Replaces the former Software "
 "Development Kit (SDK)."
 msgstr ""
+"Obsahuje kompilátory (včetně <package>gcc</package>) a knihovny potřebné pro "
+"kompilaci a ladění aplikací. Nahrazuje dřívější Software Development Kit "
+"(SDK)."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:315
 msgid "<emphasis role=\"bold\">High Availability</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Vysoká dostupnost</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:325
 msgid "SLES for SAP, SLE HPC"
-msgstr ""
+msgstr "SLES pro SAP, SLE HPC"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:346
@@ -351,16 +438,20 @@ msgid ""
 "module on these products. It is also available as an extension for SLES (see "
 "below)."
 msgstr ""
+"Přidává podporu klastrování pro kritické sestavy. Mezi nástroje patří Hawk, "
+"crm, Pacemaker a Corosync. Podpora vysoké dostupnosti je součástí "
+"předplatného pro SLES pro SAP a SLE HPC, a proto je k dispozici jako modul "
+"pro tyto produkty. Je také k dispozici jako rozšíření pro SLES (viz níže)."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:357
 msgid "<emphasis role=\"bold\">High Performance Computing</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Vysoká výpočetní výkonnost</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:369
 msgid "SLE HPC"
-msgstr ""
+msgstr "SLE HPC"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:378 xml/art_sle_modules_quick.xml:511
@@ -368,23 +459,25 @@ msgid ""
 "<emphasis role=\"bold\">extended:</emphasis> 3 yrs LTSS<superscript>1</"
 "superscript>, 1 yr ESPOS<superscript>2</superscript>"
 msgstr ""
+"<emphasis role=\"bold\">rozšíření:</emphasis> 3 roky "
+"LTSS<superscript>1</superscript>, 1 rok ESPOS<superscript>2</superscript>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:391
 msgid "SLE HPC basic system."
-msgstr ""
+msgstr "SLE HPC základní systém."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:398
 msgid "<emphasis role=\"bold\">Legacy</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Předchozí</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:403 xml/art_sle_modules_quick.xml:449
 #: xml/art_sle_modules_quick.xml:663 xml/art_sle_modules_quick.xml:789
 #: xml/art_sle_modules_quick.xml:827
 msgid "Basesystem, Server Applications"
-msgstr ""
+msgstr "Základní systém, serverové aplikace"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:434
@@ -397,11 +490,18 @@ msgid ""
 "\"sles;sled\">15</phrase></phrase>. This module is recommended when "
 "migrating from a previous product version."
 msgstr ""
+"Obsahuje balíčky, které byly dostupné ve starších verzích <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>, ale nejsou už zařazeny do SLES <phrase "
+"role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;"
+"sled\">15</phrase></phrase>. Tento modul se doporučuje při migraci z "
+"předchozí verze produktu."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:444
 msgid "<emphasis role=\"bold\">Public Cloud</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Veřejný cloud</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:479
@@ -413,36 +513,42 @@ msgid ""
 "Amazon Web Services (AWS), Microsoft Azure, Google Compute Platform, or the "
 "SUSE OpenStack Cloud."
 msgstr ""
+"Obsahuje všechny nástroje nezbytné k vytváření obrazů systému k nasazení <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> do prostředí cloudu, "
+"například Amazon Web Services (AWS), Microsoft Azure, Google Compute "
+"Platform, nebo SUSE OpenStack Cloud."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:489
 msgid "<emphasis role=\"bold\">SAP Applications</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Aplikace SAP</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:492
 msgid "Packages specific to SLES for SAP"
-msgstr ""
+msgstr "Balíčky specifické pro SLES pro SAP"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:502
 msgid "SLES for SAP (default)"
-msgstr ""
+msgstr "SLES pro SAP (výchozí)"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:524
 msgid "SLES for SAP basic system."
-msgstr ""
+msgstr "SLES pro SAP - základní systém."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:531
 msgid "<emphasis role=\"bold\">Server Applications</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Serverové aplikace</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:541
 msgid "SLES (default), SLES for SAP, SLE RT, SLE HPC"
-msgstr ""
+msgstr "SLES (výchozí), SLES pro SAP, SLE RT, SLE HPC"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:562
@@ -451,17 +557,22 @@ msgid ""
 "name server, or Web server. <phrase os=\"sles\">This module is selected for "
 "installation by default; deselecting it is not recommended.</phrase>"
 msgstr ""
+"Přidává funkčnost serveru poskytováním síťových služeb, jako je DHCP server, "
+"DNS server nebo webový server. <phrase os=\"sles\">Tento modul je ve "
+"výchozím nastavení vybrán pro instalaci; zrušení jeho výběru se "
+"nedoporučuje.</phrase>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:572
 msgid ""
 "<emphasis role=\"bold\">SUSE Cloud Application Platform Tools</emphasis>"
 msgstr ""
+"<emphasis role=\"bold\">Nástroje cloudové aplikační platformy SUSE</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:582
 msgid "SLED, SLES, SLES for SAP"
-msgstr ""
+msgstr "SLED, SLES, SLES pro SAP"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:608
@@ -469,31 +580,33 @@ msgid ""
 "Adds tools allowing you to interact with a SUSE Cloud Application Platform "
 "product."
 msgstr ""
+"Přidává nástroje umožňující interakci s produktem SUSE Cloud Application "
+"Platform."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:616
 msgid "<emphasis role=\"bold\">SUSE Package Hub</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Centrum balíčků SUSE</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:626
 msgid "all products"
-msgstr ""
+msgstr "všechny produkty"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:632
 msgid "<emphasis role=\"bold\">lifecycle:</emphasis> none"
-msgstr ""
+msgstr "<emphasis role=\"bold\">životní cyklus:</emphasis> žádný"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:635
 msgid "<emphasis role=\"bold\">extended:</emphasis> none"
-msgstr ""
+msgstr "<emphasis role=\"bold\">rozšířen:</emphasis> žádný"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:638
 msgid "<emphasis role=\"bold\">level:</emphasis> none"
-msgstr ""
+msgstr "<emphasis role=\"bold\">úroveň:</emphasis> žádná"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:646
@@ -508,21 +621,30 @@ msgid ""
 "Enterprise Desktop</phrase></phrase>. For more information refer to <link "
 "xlink:href=\"https://packagehub.suse.com/\"/>."
 msgstr ""
+"Zajišťuje přístup k balíčkům pro <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> udržovaným komunitou openSUSE. Tyto balíčky jsou "
+"dodávány bez podpory L3 a nekolidují s podporou <phrase role=\"productname\""
+"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Další informace viz <link xlink:href=\""
+"https://packagehub.suse.com/\"/>."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:658
 msgid "<emphasis role=\"bold\">Web and Scripting</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Web a skriptování</emphasis>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:668
 msgid "SLES, SlES for SAP, SLE HPC"
-msgstr ""
+msgstr "SLES, SLES pro SAP, SLE HPC"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:693
 msgid "Contains packages intended for a running Web server."
-msgstr ""
+msgstr "Obsahuje balíčky určené pro provoz webového serveru."
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:702
@@ -531,17 +653,22 @@ msgid ""
 "products/long-term-service-pack-support/\">Long-Term Service Pack Support</"
 "link>"
 msgstr ""
+"<superscript>1</superscript> LTSS: <link xlink:href=\"https://www.suse.com/"
+"products/long-term-service-pack-support/\">Dlouhodobá podpora servisními "
+"balíčky (Long-Term Service Pack Support)</link>"
 
 #. (itstool) path: simplelist/member
 #: xml/art_sle_modules_quick.xml:705
 msgid ""
 "<superscript>2</superscript> ESPOS: Extended Service Pack Overlay Support"
 msgstr ""
+"<superscript>2</superscript> ESPOS: Rozšířená podpora (Extended Service Pack "
+"Overlay Support)"
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_modules_quick.xml:749
 msgid "Extensions Available for the SUSE Linux Enterprise Product Family"
-msgstr ""
+msgstr "Rozšíření dostupná pro rodinu produktů SUSE Linux Enterprise"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_modules_quick.xml:750
@@ -550,21 +677,24 @@ msgid ""
 "Product Family. Note that the availability of extensions depends on the "
 "product (refer to the column <emphasis>Availability</emphasis>)."
 msgstr ""
+"V rámci rodiny produktů SUSE Linux Enterprise jsou k dispozici následující "
+"rozšíření. Dostupnost rozšíření závisí na produktu (viz sloupec "
+"<emphasis>Dostupnost</emphasis>)."
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:763
 msgid "Name and Content"
-msgstr ""
+msgstr "Název a obsah"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:768
 msgid "Module Dependency"
-msgstr ""
+msgstr "Závislost modulu"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:773
 msgid "Availability"
-msgstr ""
+msgstr "Dostupnost"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:782
@@ -572,12 +702,14 @@ msgid ""
 "<link xlink:href=\"https://www.suse.com/products/highavailability\">SUSE "
 "Linux Enterprise High Availability Extension</link>"
 msgstr ""
+"<link xlink:href=\"https://www.suse.com/products/highavailability\">"
+"Rozšíření vysoké dostupnosti SUSE Linux Enterprise</link>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:794 xml/art_sle_modules_quick.xml:813
 #: xml/art_sle_modules_quick.xml:832
 msgid "SLES"
-msgstr ""
+msgstr "SLES"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:801
@@ -585,6 +717,8 @@ msgid ""
 "<link xlink:href=\"https://www.suse.com/products/live-patching\">SUSE Linux "
 "Enterprise Live Patching</link>"
 msgstr ""
+"<link xlink:href=\"https://www.suse.com/products/live-patching\">Opravy za "
+"chodu pro SUSE Linux Enterprise</link>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:820
@@ -592,6 +726,8 @@ msgid ""
 "<link xlink:href=\"https://www.suse.com/products/suse-enterprise-storage/"
 "\">SUSE Enterprise Storage</link>"
 msgstr ""
+"<link xlink:href=\"https://www.suse.com/products/suse-enterprise-storage/\">"
+"Paměťová zařízení pro SUSE Enterprise</link>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:839
@@ -599,16 +735,18 @@ msgid ""
 "<link xlink:href=\"https://www.suse.com/products/workstation-extension"
 "\">SUSE Linux Enterprise Workstation Extension</link>"
 msgstr ""
+"<link xlink:href=\"https://www.suse.com/products/workstation-extension\">"
+"Rozšíření pracovní stanice pro SUSE Linux Enterprise</link>"
 
 #. (itstool) path: entry/para
 #: xml/art_sle_modules_quick.xml:851
 msgid "SLES, SLED (default)"
-msgstr ""
+msgstr "SLES, SLED (výchozí)"
 
 #. (itstool) path: sect1/title
 #: xml/art_sle_modules_quick.xml:863
 msgid "Installing and Managing"
-msgstr ""
+msgstr "Instalace a správa"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:864
@@ -619,11 +757,16 @@ msgid ""
 "Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></"
 "phrase> installation."
 msgstr ""
+"Moduly a rozšíření lze nainstalovat při počátečním nastavení systému a také "
+"na existující instalaci <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>."
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_modules_quick.xml:870
 msgid "Installing Modules &amp; Extensions During the Initial System Setup"
-msgstr ""
+msgstr "Instalace modulů a rozšíření během počátečního nastavení systému"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_modules_quick.xml:873
@@ -638,12 +781,21 @@ msgid ""
 "media is required. For detailed information refer to <xref linkend=\"sec."
 "yast_install.modules\"/>."
 msgstr ""
+"Moduly a rozšíření lze snadno nainstalovat při nastavování systému. "
+"Příslušné kroky jsou součástí instalační rutiny. Podle výchozí instalační "
+"cesty to vyžaduje přístup k síti a kontaktování zákaznického centra SUSE "
+"nebo místního registračního serveru (<link xlink:href=\"https://www.suse.com/"
+"products/suse-manager/\">SUSE Manager</link> nebo Nástroj zrcadlení úložiště "
+"- Repository Mirroring Tool), které poskytují příslušná úložiště. "
+"Podporována je také offline instalace. V takovém případě je třeba další "
+"instalační médium. Podrobné informace viz <xref linkend=\"sec.yast_install."
+"modules\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_modules_quick.xml:886
 msgid ""
 "Installing and Managing Modules &amp; Extensions from the Running System"
-msgstr ""
+msgstr "Instalace a správa modulů a rozšíření z běžícího systému"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_modules_quick.xml:889
@@ -653,6 +805,11 @@ msgid ""
 "registration server. If you have not done so during the installation, refer "
 "to <xref linkend=\"sec.register_sle.system\"/> for instructions."
 msgstr ""
+"Chcete-li nainstalovat moduly a rozšíření z běžícího systému, musíte se "
+"ujistit, že je váš systém zaregistrován v Zákaznickém centru SUSE nebo na "
+"místním registračním serveru. Pokud jste svůj systém během instalace "
+"nezaregistrovali, postupujte podle pokynů v <xref linkend=\"sec.register_sle."
+"system\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_modules_quick.xml:895
@@ -660,11 +817,13 @@ msgid ""
 "After the system has been registered, modules can be added or removed. Refer "
 "to <xref linkend=\"sec.register_sle.add_modules\"/> for details."
 msgstr ""
+"Po zaregistrování systému lze moduly přidat nebo odebrat. Podrobnosti viz <"
+"xref linkend=\"sec.register_sle.add_modules\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/art_sle_modules_quick.xml:904
 msgid "Module Membership of Packages"
-msgstr ""
+msgstr "Členství modulů v balíčcích"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:905
@@ -677,6 +836,13 @@ msgid ""
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
 "are not found."
 msgstr ""
+"Výchozí nástroje pro vyhledávání softwarových balíčků (YaST Software "
+"Management nebo <command>zypper search</command>) jsou omezeny na "
+"vyhledávání v aktivních úložištích. V důsledku toho balíčky, které jsou "
+"členy modulů aktuálně nainstalovaných na <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> nejsou nalezeny."
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:911
@@ -693,12 +859,25 @@ msgid ""
 "which is not installed by default. To find out which module a package "
 "belongs to, run"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> 15 představuje nový "
+"podpříkaz Zypperu, <command>search-packages</command>, který umožní hledat "
+"balíčky ve všech modulech a rozšířeních dostupných pro <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>. Tento příkaz bude k dispozici po "
+"instalaci balíčku <package> zypper-search-packages-plugin </package>, který "
+"není ve výchozím nastavení nainstalován. Chcete-li zjistit, ke kterému "
+"modulu balíček patří, spusťte"
 
 #. (itstool) path: sect1/screen
 #: xml/art_sle_modules_quick.xml:919
 #, no-wrap
 msgid "zypper search-packages <replaceable>PACKAGE_1</replaceable> <replaceable>PACKAGE_2</replaceable>"
 msgstr ""
+"zypper search-packages <replaceable>BALÍČEK_1</replaceable> "
+"<replaceable>BALÍČEK_2</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_modules_quick.xml:920
@@ -706,23 +885,26 @@ msgid ""
 "To refine the search results, <command>zypper search-packages</command> "
 "offers the following options:"
 msgstr ""
+"Chcete-li výsledky vyhledávání upřesnit, nabízí <command>zypper search-"
+"packages</command> tyto možnosti:"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_modules_quick.xml:926
 msgid "<option>-x</option>, <option>--match-exact</option>"
-msgstr ""
+msgstr "<option>-x</option>, <option>--match-exact</option>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:930
 msgid "Search for exact matches."
-msgstr ""
+msgstr "Hledat přesnou shodu."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_modules_quick.xml:936
 msgid "<option>-g</option>, <option>--group-by-module</option>"
-msgstr ""
+msgstr "<option>-g</option>, <option>--group-by-module</option>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_modules_quick.xml:940
 msgid "Group the search results by modules rather than by package name."
 msgstr ""
+"Výsledky hledání budou seskupeny podle modulů, nikoli podle názvu balíčku."
