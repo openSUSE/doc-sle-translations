@@ -2,19 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/ay_12_migrate_15-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: appendix/title
 #: xml/ay_12_migrate_15.xml:11
@@ -25,6 +29,11 @@ msgid ""
 "<phrase os=\"sles;sled\">12</phrase><phrase os=\"osuse\">42.3</phrase> and "
 "15 Profiles"
 msgstr ""
+"Profily hlavních rozdílů mezi <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\""
+"osuse\">42.3</phrase> a 15"
 
 #. (itstool) path: abstract/para
 #: xml/ay_12_migrate_15.xml:17
@@ -43,11 +52,24 @@ msgid ""
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> "
 "15, you need to adjust them as documented here."
 msgstr ""
+"Významné změny v <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, např. "
+"nová koncepce modulů nebo nahrazení SuSEfirewall2 programem <systemitem "
+"class=\"daemon\">firewalld</systemitem>, vyžaduje změny AutoYaST. Chcete-li "
+"opět použít stávající profily <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\""
+"osuse\">42.3</phrase> a profiles with <phrase role=\"productname\"><phrase "
+"os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> 15, musíte je nastavit podle této dokumentace."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:27
 msgid "Product Selection"
-msgstr ""
+msgstr "Výběr produktu"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:29
@@ -60,6 +82,13 @@ msgid ""
 "class=\"element\">product</tag> tag. In the following example SUSE Linux "
 "Enterprise Desktop is the chosen product:"
 msgstr ""
+"Počínaje <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, jsou "
+"všechny produkty distribuovány na jadiném instalačním médiu. Proto si musíte "
+"zvolit, který produkt instalujete, použitím značky <tag class=\"element\""
+">product</tag>. V následujícím příkladu je zvolen SUSE Linux Enterprise "
+"Desktop:"
 
 #. (itstool) path: sect1/screen
 #: xml/ay_12_migrate_15.xml:36
@@ -71,6 +100,11 @@ msgid ""
 "  &lt;/products&gt;\n"
 "&lt;/software&gt;"
 msgstr ""
+"&lt;software&gt;\n"
+"  &lt;products config:type=\"list\"&gt;\n"
+"    &lt;product&gt;SLED&lt;/product&gt;\n"
+"  &lt;/products&gt;\n"
+"&lt;/software&gt;"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:42
@@ -79,6 +113,9 @@ msgid ""
 "need to explicitly select a product as described above. AutoYaST will select "
 "the only available product automatically."
 msgstr ""
+"Ve zvláštních případech může médium obsahovat pouze jeden produkt. Pokud "
+"ano, není třeba explicitně vybrat produkt, jak je popsáno výše. AutoYaST "
+"automaticky vybere jediný dostupný produkt."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:47
@@ -91,6 +128,13 @@ msgid ""
 "selection in the profile. However, whenever possible, avoid using this "
 "mechanism and adapt old profiles to use explicit product selection."
 msgstr ""
+"Pro zpětnou kompatibilitu s profily vytvořenými pro produkty před <phrase os "
+"= \"sles; sled\"> SLE </phrase> <phrase os = \"osuse\"> Leap </phrase> 15 "
+"implementuje AutoYaST heuristiku, která produkty automaticky vybírá. Tato "
+"heuristika se použije, pokud profil neobsahuje prvek <tag class=\"element\""
+">product</tag>. Tato heuristika je založena na výběru balíčku a vzoru v "
+"profilu. Kdykoli je to možné, nepoužívejte tento mechanismus a upravte staré "
+"profily tak, aby používaly explicitní výběr produktů."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:57
@@ -98,12 +142,13 @@ msgid ""
 "If the product selection fails, an error is shown and the installation will "
 "not be continued."
 msgstr ""
+"Pokud výběr produktu selže, zobrazí se chyba a instalace nebude pokračovat."
 
 #. (itstool) path: sect1/title
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:64 xml/ay_12_migrate_15.xml:1078
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:66
@@ -117,12 +162,21 @@ msgid ""
 "providing more packages are offered as <quote>modules</quote> or "
 "<quote>extensions</quote>. They are provided via two alternatives:"
 msgstr ""
+"Instalační médium <phrase role=\"productname\"> <phrase os=\"osuse\">"
+"openSUSE Leap</phrase> <phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase> <phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase> "
+"</phrase> 15 obsahuje pouze zcela minimální sadu balíčků k instalaci. Tato "
+"minimální sada poskytuje pouze instalační prostředí a neobsahuje žádné "
+"serverové aplikace ani pokročilé nástroje. Další softwarová úložiště, která "
+"poskytují více balíčků, jsou nabízena jako <quote>moduly</quote> nebo "
+"<quote>rozšíření</quote>. Poskytují se ve dvou alternativách:"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:77
 msgid ""
 "via a registration server (the SUSE Customer Center or a local SMT/RMT proxy)"
 msgstr ""
+"přes registrační server (zákaznické centrum SUSE nebo místní proxy SMT/RMT)"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:82
@@ -132,11 +186,14 @@ msgid ""
 "installation. It can be shared on the local network via an installation "
 "server."
 msgstr ""
+"pomocí ISO balíčků SLE-15 obsahujících všechny moduly a rozšíření. Používání "
+"tohoto média nevyžaduje během instalace přístup k registračnímu serveru. Lze "
+"jej sdílet v místní síti z instalačního serveru."
 
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:92
 msgid "Maintenance Updates"
-msgstr ""
+msgstr "Aktualizace údržby"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:93
@@ -145,11 +202,14 @@ msgid ""
 "updates at installation time. Maintenance updates are not available when "
 "using the DVD medium without registration."
 msgstr ""
+"Přístup ke všem aktualizacím údržby v době instalace bude možné, pouze když "
+"použijete registrační server. Při použití média DVD bez registrace nejsou "
+"aktualizace údržby k dispozici."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:101
 msgid "Adding Modules or Extensions Using the Registration Server"
-msgstr ""
+msgstr "Přidávání modulů nebo rozšíření pomocí registračního serveru"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:102
@@ -159,6 +219,10 @@ msgid ""
 "suse_register section. Extensions require an additional registration code, "
 "which can be specified with the <tag class=\"element\">reg_code</tag> tag."
 msgstr ""
+"Chcete-li přidat modul nebo rozšíření z registračního serveru, použijte pro "
+"každý modul/rozšíření v sekci suse_register značku <tag class=\"element\""
+">addons</tag>. Rozšíření vyžadují další registrační kód, který lze zadat "
+"značkou <tag class=\"element\">reg_code</tag>."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:108
@@ -170,11 +234,17 @@ msgid ""
 "list-extensions</command> on a system that already has <phrase os=\"sles;sled"
 "\">SLE</phrase> 15 installed."
 msgstr ""
+"Následující kód XML přidává moduly Basesystem (základní systém) a Server "
+"Applications a rozšíření Live Patching (živé záplatování). Chcete-li získat "
+"příslušné hodnoty pro značky <tag class=\"element\">name</tag>, <tag class=\""
+"element\">version</tag> a <tag class=\"element\">arch</tag> , spusťte příkaz "
+"<command>SUSEConnect --list-extensions</command> v systému, který již má <"
+"phrase os=\"sles;sled\">SLE</phrase> 15 instalován."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:117
 msgid "Adding Modules and Extensions (online)"
-msgstr ""
+msgstr "Přidávání modulů a rozšíření (online)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:118
@@ -201,17 +271,38 @@ msgid ""
 " &lt;/addons&gt;\n"
 "&lt;/suse_register&gt;"
 msgstr ""
+"&lt;suse_register&gt;\n"
+" &lt;addons config:type=\"list\"&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-basesystem&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"  &lt;/addon&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-server-applications&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"   &lt;/addon&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-live-patching&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"   "
+"&lt;reg_code&gt;<replaceable>REGISTRAČNÍ_KÓD</replaceable>&lt;/reg_code&gt;\n"
+"  &lt;/addon&gt;\n"
+" &lt;/addons&gt;\n"
+"&lt;/suse_register&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:139
 msgid ""
 "Refer to <xref linkend=\"CreateProfile.Register\"/> for more information."
-msgstr ""
+msgstr "Další informace najdete v <xref linkend=\"CreateProfile.Register\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:146
 msgid "Adding Modules or Extensions Using the SLE-15-Packages ISO"
-msgstr ""
+msgstr "Přidávání modulů nebo rozšíření pomocí balíčků ISO SLE-15"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:147
@@ -220,11 +311,15 @@ msgid ""
 "in the add-on section as shown in the example below. The following XML code "
 "adds the Basesystem module from a DVD created from the ISO:"
 msgstr ""
+"Chcete-li přidat modul nebo rozšíření pomocí ISO SLE-15-Packages, vytvořte "
+"položky v sekci doplňků, jak je znázorněno v níže uvedeném příkladu. "
+"Následující kód XML přidává modul Basesystem základní systém) z DVD "
+"vytvořeného z ISO:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:154
 msgid "Adding Modules and Extensions (offline)"
-msgstr ""
+msgstr "Přidávání modulů a rozšíření (offline)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:155
@@ -240,11 +335,20 @@ msgid ""
 " &lt;/add_on_products&gt;\n"
 "&lt;/add-on&gt;"
 msgstr ""
+"&lt;add-on&gt;\n"
+" &lt;add_on_products config:type=\"list\"&gt;\n"
+"  &lt;listentry&gt;\n"
+"   &lt;media_url&gt;&lt;![CDATA[dvd:///]]&gt;&lt;/media_url&gt;\n"
+"   &lt;product&gt;sle-module-basesystem&lt;/product&gt;\n"
+"   &lt;product_dir&gt;/Module-Basesystem&lt;/product_dir&gt;\n"
+"  &lt;/listentry&gt;\n"
+" &lt;/add_on_products&gt;\n"
+"&lt;/add-on&gt;"
 
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:167
 msgid "Product Name Matching"
-msgstr ""
+msgstr "Shoda názvu produktu"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:168
@@ -253,6 +357,9 @@ msgid ""
 "name contained in the repository. If the product name does not match at "
 "installation AutoYaST will report an error."
 msgstr ""
+"Značka <tag class=\"element\">product</tag> se musí shodovat s interním "
+"názvem produktu obsaženým v úložišti.  Neshoduje-li se název produktu při "
+"instalaci, AutoYaST ohlásí chybu."
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:177
@@ -261,11 +368,14 @@ msgid ""
 "using the <literal>devices</literal> parameter in the URL, for example "
 "<literal>dvd:///?devices=/dev/sr1</literal>."
 msgstr ""
+"Pokud máte více fyzických jednotek DVD, můžete vybrat konkrétní zařízení "
+"pomocí parametru <literal>devices</literal> v adrese URL, například "
+"<literal>dvd:///?devices=/dev/sr1</literal>."
 
 #. (itstool) path: tip/title
 #: xml/ay_12_migrate_15.xml:186
 msgid "&gt;Using SLE-15-Packages Medium from a Local Server"
-msgstr ""
+msgstr "&gt;Použití média SLE-15-Packages z místního serveru"
 
 #. (itstool) path: tip/para
 #: xml/ay_12_migrate_15.xml:187
@@ -274,17 +384,22 @@ msgid ""
 "server. To do so replace the URL in the <tag class=\"element\">media_url</"
 "tag> tag so it points to root of the medium on the server, for example:"
 msgstr ""
+"Obsah DVD můžete sdílet v místní síti prostřednictvím serveru NFS, FTP nebo "
+"HTTP. Chcete-li tak učinit, nahraďte adresu URL ve značce <tag class=\""
+"element\">media_url</tag> tak, aby ukazovala na kořen média na serveru, "
+"například:"
 
 #. (itstool) path: tip/screen
 #: xml/ay_12_migrate_15.xml:193
 #, no-wrap
 msgid "&lt;media_url&gt;ftp://ftp.example.com/sle_15_packages/&lt;/media_url&gt;"
 msgstr ""
+"&lt;media_url&gt;ftp://ftp.example.com/sle_15_packages/&lt;/media_url&gt;"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:198
 msgid "Renamed Software Patterns"
-msgstr ""
+msgstr "Přejmenované softwarové šablony"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:199
@@ -295,6 +410,11 @@ msgid ""
 "phrase> 15. Some patterns have been renamed; a short summary is provided in "
 "the following table."
 msgstr ""
+"V <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> 15 se také změnily "
+"softwarové šablony. Některé šablony byly přejmenovány; krátké shrnutí je "
+"uvedeno v následující tabulce."
 
 #. (itstool) path: row/entry
 #: xml/ay_12_migrate_15.xml:209
@@ -303,6 +423,9 @@ msgid ""
 "<phrase os=\"sles;sled\">12</phrase><phrase os=\"osuse\">42.3</phrase> "
 "Pattern"
 msgstr ""
+"Stará šablona <phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse\""
+">Leap</phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\"osuse\""
+">42.3</phrase>"
 
 #. (itstool) path: row/entry
 #: xml/ay_12_migrate_15.xml:213
@@ -310,71 +433,73 @@ msgid ""
 "New <phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse\">Leap</phrase> "
 "15 Pattern"
 msgstr ""
+"Nová šablona <phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse\""
+">Leap</phrase> 15"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:221
 msgid "Basis-Devel"
-msgstr ""
+msgstr "Basis-Devel"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:226 xml/ay_12_migrate_15.xml:274
 msgid "devel_basis"
-msgstr ""
+msgstr "devel_basis"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:233
 msgid "gnome-basic"
-msgstr ""
+msgstr "gnome-basic"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:238
 msgid "gnome_basic"
-msgstr ""
+msgstr "gnome_basic"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:245
 msgid "Minimal"
-msgstr ""
+msgstr "Minimal"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:250
 msgid "enhanced_base"
-msgstr ""
+msgstr "enhanced_base [základní vylepšená]"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:257
 msgid "printing"
-msgstr ""
+msgstr "printing [tisk]"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:262
 msgid "print_server"
-msgstr ""
+msgstr "print_server [tiskový server]"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:269
 msgid "SDK-C-C++"
-msgstr ""
+msgstr "SDK-C-C++"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:281
 msgid "SDK-Doc"
-msgstr ""
+msgstr "SDK-Doc"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:286
 msgid "technical_writing"
-msgstr ""
+msgstr "technical_writing"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:293
 msgid "SDK-YaST"
-msgstr ""
+msgstr "SDK-YaST"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:298
 msgid "devel_yast"
-msgstr ""
+msgstr "devel_yast"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:306
@@ -384,11 +509,14 @@ msgid ""
 "patterns and packages have to be available in the activated extensions or "
 "modules."
 msgstr ""
+"Pečlivě zkontrolujte, zda jsou v definovaných šablonách k dispozici všechny "
+"požadované balíčky, a podle toho upravte profily. V aktivovaných rozšířeních "
+"nebo modulech musí být navíc k dispozici požadované šablony a balíčky."
 
 #. (itstool) path: itemizedlist/title
 #: xml/ay_12_migrate_15.xml:313
 msgid "Notes"
-msgstr ""
+msgstr "Poznámky"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:315
@@ -400,6 +528,12 @@ msgid ""
 "Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></"
 "phrase> 15."
 msgstr ""
+"Přejmenování vzoru v tabulce výše nejsou nahrazením 1: 1; byl také změněn "
+"obsah některých vzorů, některé balíčky byly přesunuty do jiného vzoru nebo "
+"dokonce odstraněny z <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> 15."
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:322
@@ -408,6 +542,9 @@ msgid ""
 "and optionally use the <tag class=\"element\">packages</tag> tag to specify "
 "additional packages."
 msgstr ""
+"Zkontrolujte, zda jsou v použitých vzorech stále zahrnuty požadované balíčky;"
+" volitelně použijte značku <tag class=\"element\">packages</tag> k určení "
+"dalších balíčků."
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:329
@@ -417,11 +554,15 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, yet."
 msgstr ""
+"Výše uvedený seznam může být neúplný, protože některé produkty nebyly pro <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> 15 zatím vydány."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:338
 msgid "Registration of Module and Extension Dependencies"
-msgstr ""
+msgstr "Registrace závislostí modulů a rozšíření"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:340
@@ -433,6 +574,11 @@ msgid ""
 "dependencies during registration. This means the order of the extensions in "
 "the AutoYaST profile is not important."
 msgstr ""
+"Počínaje systémem <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, změní "
+"AutoYaST během registrace pořadí rozšíření automaticky podle jejich "
+"závislostí. To znamená, že pořadí rozšíření v profilu AutoYaST není důležité."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:346
@@ -443,6 +589,10 @@ msgid ""
 "needs to be specified in the profile, including the registration key. "
 "Otherwise the registration would fail."
 msgstr ""
+"AutoYaST také automaticky přidává závislé moduly, i když v profilu chybějí. "
+"To znamená, že nemusíte specifikovat všechny požadované moduly. Pokud však "
+"přípona závisí na jiné příponě, je třeba ji zadat v profilu, včetně "
+"registračního klíče. Jinak by registrace selhala."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:353
@@ -450,11 +600,13 @@ msgid ""
 "You can list the available extensions and modules in a registered system "
 "using the <command>SUSEConnect --list-extensions</command> command."
 msgstr ""
+"Seznam dostupných rozšíření a modulů v registrovaném systému můžete zobrazit "
+"příkazem <command>SUSEConnect --list-extensions</command>."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:360
 msgid "Partitioning"
-msgstr ""
+msgstr "Rozdělení na oddíly"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:362
@@ -469,11 +621,20 @@ msgid ""
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15 comes with some "
 "general changes, which are explained below."
 msgstr ""
+"Rozdělovací mechanismus, který dříve používal YaST, <systemitem class=\""
+"library\">libstorage</systemitem>, byl nahrazen <systemitem class=\"library\""
+">libstorage-ng</systemitem>, který je navržen pro nové funkce. Navzdory "
+"změně prováděcího mechanismu se syntaxe XML pro profily "
+"<emphasis>nezměnila</emphasis>. Systém <phrase role=\"productname\"><phrase "
+"os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> 15 však přináší i některé obecné změny, které jsou "
+"objasněny dále."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:372
 msgid "GPT Becomes the Default Partition Type on AMD64/Intel 64"
-msgstr ""
+msgstr "GPT se stává výchozím typem oddílu na AMD64/Intel 64"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:373
@@ -483,11 +644,15 @@ msgid ""
 "this in the profile by setting the <tag class=\"element\">disklabel</tag> "
 "element to <literal>msdos</literal>."
 msgstr ""
+"V systémech AMD64/Intel 64 je nyní preferovaným typem oddílu GPT. Pokud si "
+"však chcete zachovat starý výchozí typ, můžete to v profilu výslovně označit "
+"změnou prvku <tag class=\"element\">disklabel</tag> na "
+"<literal>msdos</literal>."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:382
 msgid "Setting Partition Numbers"
-msgstr ""
+msgstr "Nastavení čísel oddílů"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:383
@@ -496,6 +661,9 @@ msgid ""
 "work in some situations. Moreover, GPT is now the preferred partition table "
 "type, so partition numbers are less relevant."
 msgstr ""
+"AutoYaST již nebude podporovat vynucené přiřazení čísel oddílů, protože v "
+"některých situacích nemusí fungovat. Navíc je nyní preferovaným typem "
+"tabulky oddílů GPT, takže čísla oddílů jsou méně důležitá."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:388
@@ -504,11 +672,14 @@ msgid ""
 "available in order to specify a partition to be reused. Refer to <xref "
 "linkend=\"ay.partition_configuration\"/> for more information."
 msgstr ""
+"Značka <tag class=\"element\">partition_nr</tag> je však stále k dispozici, "
+"aby bylo možné určit oddíl, který má být znovu použit. Další informace "
+"najdete v <xref linkend=\"ay.partition_configuration\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:396
 msgid "Forcing Primary Partitions"
-msgstr ""
+msgstr "Vynucení primárních oddílů"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:397
@@ -519,11 +690,16 @@ msgid ""
 "value, like <literal>logical</literal>, will be ignored by AutoYaST, which "
 "will automatically determine the partition type."
 msgstr ""
+"V tabulkách oddílů systému MS-DOS (a pouze tam) je stále možné vynutit "
+"vytvoření oddílu jako <literal>primárního</literal> nastavením <tag class=\""
+"element\">primary_type</tag> na <literal>primary</literal>. Jakákoli jiná "
+"hodnota, například <literal>logical</literal>, bude ale ignorována programem "
+"AutoYaST, který automaticky určí typ oddílu."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:407
 msgid "Btrfs: Default Subvolume Name"
-msgstr ""
+msgstr "Btrfs: Výchozí název podsvazku"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:408
@@ -533,11 +709,15 @@ msgid ""
 "a prefix name can be specified for each partition using the <tag class="
 "\"element\">subvolumes_prefix</tag> tag:"
 msgstr ""
+"Nová vrstva úložiště umožňuje uživateli nastavit různé výchozí podsvazky ("
+"nebo vůbec žádné) pro každý souborový systém Btrfs. Jak je znázorněno v níže "
+"uvedeném příkladu, název předpony lze zadat pro každý oddíl pomocí značky <"
+"tag class=\"element\">subvolumes_prefix</tag>:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:416
 msgid "Specifying the Btrfs Default Subvolume Name"
-msgstr ""
+msgstr "Zadání výchozího názvu podsvazku Btrfs"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:417 xml/ay_12_migrate_15.xml:432
@@ -550,6 +730,12 @@ msgid ""
 " &lt;subvolumes_prefix&gt;@&lt;/subvolumes_prefix&gt;\n"
 "&lt;/partition&gt;"
 msgstr ""
+"&lt;partition&gt;\n"
+" &lt;mount&gt;/&lt;/mount&gt;\n"
+" &lt;filesystem config:type=\"symbol\"&gt;btrfs&lt;/filesystem&gt;\n"
+" &lt;size&gt;max&lt;/size&gt;\n"
+" &lt;subvolumes_prefix&gt;@&lt;/subvolumes_prefix&gt;\n"
+"&lt;/partition&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:425
@@ -557,11 +743,13 @@ msgid ""
 "To omit the subvolume prefix, set the <tag class=\"element"
 "\">subvolumes_prefix</tag> tag:"
 msgstr ""
+"Chcete-li vynechat předponu subvolume, nastavte značku <tag class=\"element\""
+">subvolumes_prefix</tag>:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:431
 msgid "Disabling Btrfs Subvolumes"
-msgstr ""
+msgstr "Zákaz podsvazků Btrfs"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:440
@@ -570,11 +758,14 @@ msgid ""
 "\">btrfs_set_default_subvolume_name</tag> tag is not needed and, therefore, "
 "it is not supported anymore."
 msgstr ""
+"V důsledku nového chování už není potřebná stará značka <tag class=\""
+"element\">btrfs_set_default_subvolume_name</tag>, a proto už není "
+"podporována."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:448
 msgid "Btrfs: Disabling Subvolumes"
-msgstr ""
+msgstr "Btrfs: Zákaz podsvazků"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:449
@@ -584,6 +775,10 @@ msgid ""
 "<literal>@</literal> subvolume, specify <tag class=\"element"
 "\">subvolumes_prefix</tag>."
 msgstr ""
+"Podsvazky Btrfs lze zakázat nastavením <tag class=\"element\""
+">create_subvolumes</tag> na <literal>false</literal>. Chcete-li přeskočit "
+"výchozí podsvazek <literal>@</literal>, zadejte <tag class=\"element\""
+">subvolumes_prefix</tag>."
 
 #. (itstool) path: sect2/screen
 #: xml/ay_12_migrate_15.xml:456
@@ -594,12 +789,17 @@ msgid ""
 " &lt;subvolumes_prefix&gt;&lt;![CDATA[]]&gt;&lt;/subvolumes_prefix&gt;\n"
 "&lt;/partition&gt;]]&gt;"
 msgstr ""
+"&lt;partition&gt;\n"
+" &lt;create_subvolumes config:type=\"boolean\""
+"&gt;false&lt;/create_subvolumes&gt;\n"
+" &lt;subvolumes_prefix&gt;&lt;![CDATA[]]&gt;&lt;/subvolumes_prefix&gt;\n"
+"&lt;/partition&gt;]]&gt;"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:463
 msgid ""
 "Reading an Existing <filename>/etc/fstab</filename> Is No Longer Supported"
-msgstr ""
+msgstr "Čtení existujícího <filename>/etc/fstab</filename> již není podporováno"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:466
@@ -611,11 +811,16 @@ msgid ""
 "installation when trying to determine the partitioning layout, is no longer "
 "supported."
 msgstr ""
+"Na <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> 15 už není podporována "
+"schopnost číst při pokusu o určení rozložení oddílů stávající soubor "
+"<filename>/etc/fstab</filename> z předešlé instalace."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:474
 msgid "Setting for Aligning Partitions Has Been Dropped"
-msgstr ""
+msgstr "Nastavení pro zarovnání oddílů bylo zrušeno"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:477
@@ -624,11 +829,14 @@ msgid ""
 "\">partition_alignment</tag>&gt; tag makes no sense and it is no longer "
 "available. AutoYaST will always try to align partitions in an optimal way."
 msgstr ""
+"Jelikož válce (-stopy-sektory disků) zastaraly, nemá značka <tag class=\""
+"element\">partition_alignment</tag>&gt; smysl a není už k dispozici. "
+"AutoYaST se vždy pokusí zarovnat oddíly optimálním způsobem."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:487
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "Konfigurace brány firewall"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:488
@@ -641,6 +849,12 @@ msgid ""
 "significantly, and therefore the respective AutoYaST profile syntax has "
 "changed."
 msgstr ""
+"V systému <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15 byl "
+"SuSEfirewall2 nahrazen bránou <systemitem class=\"daemon\""
+">firewalld</systemitem> jako výchozí. Konfigurace těchto dvou bran firewall "
+"se výrazně liší, a proto se příslušná syntaxe profilu AutoYaST změnila."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:494
@@ -653,6 +867,13 @@ msgid ""
 "phrase> profiles, we recommend to check the final configuration to avoid "
 "unexpected behavior or network security threats."
 msgstr ""
+"Staré profily budou i nadále fungovat, ale podporovaná konfigurace bude "
+"velmi omezená. Doporučuje se aktualizovat profily pro <phrase os=\"sles;"
+"sled\">SLE</phrase><phrase os=\"osuse\">Leap</phrase> 15, jak je popsáno "
+"dále. Zachováte-li si profily z <phrase os=\"sles;sled\">SLE</phrase><phrase "
+"os=\"osuse\">Leap</phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\""
+"osuse\">42.3</phrase>, doporučujeme zkontrolovat konečnou konfiguraci, "
+"abyste se vyhnuli neočekávanému chování nebo ohrožení zabezpečení sítě."
 
 #. (itstool) path: table/title
 #: xml/ay_12_migrate_15.xml:505
@@ -660,98 +881,102 @@ msgid ""
 "AutoYaST Firewall Configuration in <phrase os=\"sles;sled\">SLE</"
 "phrase><phrase os=\"osuse\">Leap</phrase> 15: Backward Compatibility"
 msgstr ""
+"Konfigurace brány firewall AutoYaST v <phrase os=\"sles; sled\">SLE</phrase> "
+"<phrase os=\"osuse\">Leap</phrase> 15: Zpětná kompatibilita"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:513
 msgid "Supported (but deprecated)"
-msgstr ""
+msgstr "Podporováno (ale zastaralé)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:514
 msgid "Unsupported"
-msgstr ""
+msgstr "Nepodporováno"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:520
 msgid "<tag class=\"element\">FW_CONFIGURATIONS_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_CONFIGURATIONS_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:525
 msgid "<tag class=\"element\">FW_ALLOW_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_ALLOW_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:532
 msgid "<tag class=\"element\">FW_DEV_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_DEV_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:537
 msgid "<tag class=\"element\">FW_IGNORE_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_IGNORE_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:544
 msgid "<tag class=\"element\">FW_LOG_DROP_ALL</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_DROP_ALL</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:549
 msgid "<tag class=\"element\">FW_IPSECT_TRUST</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_IPSECT_TRUST</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:556
 msgid "<tag class=\"element\">FW_LOG_DROP_CRIT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_DROP_CRIT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:561
 msgid "<tag class=\"element\">FW_LOAD_MODULES</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOAD_MODULES</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:568
 msgid "<tag class=\"element\">FW_MASQUERADE</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_MASQUERADE</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:573
 msgid "<tag class=\"element\">FW_LOG_ACCEPT_ALL</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_ACCEPT_ALL</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:580
 msgid ""
 "<tag class=\"element\">FW_SERVICES_\\{DMZ, INT, EXT}_\\{TCP, UDP, IP}</tag>"
 msgstr ""
+"<tag class=\"element\">FW_SERVICES_\\{DMZ, INT, EXT}_\\{TCP, UDP, IP}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:585
 msgid "<tag class=\"element\">FW_LOG_ACCEPT_CRIT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_ACCEPT_CRIT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:595
 msgid "<tag class=\"element\">FW_PROTECT_FROM_INT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_PROTECT_FROM_INT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:605
 msgid "<tag class=\"element\">FW_ROUTE</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_ROUTE</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:615
 msgid "<tag class=\"element\">FW_SERVICES_\\{DMZ, EXT, INT}_RPC</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_SERVICES_\\{DMZ, EXT, INT}_RPC</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:625
 msgid ""
 "<tag class=\"element\">FW_SERVICES_ACCEPT_RELATED_\\{DMZ, EXT, INT}</tag>"
 msgstr ""
+"<tag class=\"element\">FW_SERVICES_ACCEPT_RELATED_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:634
@@ -766,11 +991,20 @@ msgid ""
 "—you can make use of them with post installation scripts in your AutoYaST "
 "profile. See <xref linkend=\"createprofile.scripts\"/> for more information."
 msgstr ""
+"Možnosti konfigurace ze SuSEfirewall2, které již nejsou k dispozici, nemají "
+"ekvivalentní mapování v <systemitem class=\"daemon\">firewalld</systemitem> "
+"nebo budou podporovány v budoucích verzích <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Některé funkce brány <systemitem class=\"daemon\""
+">firewalld</systemitem> YaST a AutoYaST dosud nepodporují - můžete je "
+"uplatnit v po-instalačních skriptech ve Vašem profilu AutoYaST. Další "
+"informace najdete v <xref linkend=\"createprofile.scripts\"/>."
 
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:644
 msgid "Enabling and Starting the Firewall"
-msgstr ""
+msgstr "Povolení a spuštění brány firewall"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:645
@@ -782,6 +1016,12 @@ msgid ""
 "\">42.3</phrase>. This is the only part of the firewall configuration syntax "
 "in AutoYaST that has not changed:"
 msgstr ""
+"Povolení a spuštění služby <systemitem class=\"daemon\">systemd</systemitem> "
+"pro <systemitem class=\"daemon\">firewalld</systemitem> se provádí se "
+"stejnou syntaxí jako v <phrase os=\"sles;sled\">SLE</phrase><phrase os=\""
+"osuse\">Leap</phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\""
+"osuse\">42.3</phrase>. Toto je jediná část syntaxe konfigurace brány "
+"firewall v AutoYaST, která se nezměnila:"
 
 #. (itstool) path: note/screen
 #: xml/ay_12_migrate_15.xml:652
@@ -793,6 +1033,11 @@ msgid ""
 " ...\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;enable_firewall&gt;true&lt;/enable_firewall&gt;\n"
+" &lt;start_firewall&gt;true&lt;/start_firewall&gt;\n"
+" ...\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:659
@@ -801,11 +1046,14 @@ msgid ""
 "profiles to the <phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse"
 "\">Leap</phrase> 15 syntax:"
 msgstr ""
+"Následující příklady ukazují, jak převést zastaralé (ale stále podporované) "
+"profily na syntaxi <phrase os=\"sles; sled\">SLE</phrase> <phrase os=\""
+"osuse\">Leap</phrase> 15:"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:666
 msgid "Assigning Interfaces to Zones"
-msgstr ""
+msgstr "Přiřazení rozhraní zónám"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:667
@@ -814,6 +1062,9 @@ msgid ""
 "are zone-based, but have a different set of predefined rules and a different "
 "level of trust for network connections."
 msgstr ""
+"SuSEfirewall2 i <systemitem class=\"daemon\">firewalld</systemitem> jsou "
+"založeny na zónách, ale mají odlišnou sadu předdefinovaných pravidel a jinou "
+"úroveň důvěryhodnosti pro síťová připojení."
 
 #. (itstool) path: table/title
 #: xml/ay_12_migrate_15.xml:674
@@ -821,6 +1072,8 @@ msgid ""
 "Mapping of SuSEfirewall2 and <systemitem class=\"daemon\">firewalld</"
 "systemitem> Zones"
 msgstr ""
+"Mapování zón SuSEfirewall2 a <systemitem class=\"daemon\""
+">firewalld</systemitem>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:680
@@ -828,6 +1081,8 @@ msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> (<phrase os=\"sles;sled"
 "\">SLE</phrase><phrase os=\"osuse\">Leap</phrase> 15)"
 msgstr ""
+"<systemitem class=\"daemon\">firewalld</systemitem> (<phrase os=\"sles;sled\""
+">SLE</phrase><phrase os=\"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:682
@@ -836,21 +1091,24 @@ msgid ""
 "\">Leap</phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\"osuse"
 "\">42.3</phrase>)"
 msgstr ""
+"SuSEfirewall2 (<phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse\""
+">Leap</phrase> <phrase os=\"sles;sled\">12</phrase><phrase os=\"osuse\""
+">42.3</phrase>)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:690
 msgid "dmz"
-msgstr ""
+msgstr "dmz (demilitarizovaná)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:691
 msgid "DMZ"
-msgstr ""
+msgstr "DMZ"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:694
 msgid "external"
-msgstr ""
+msgstr "external (vnější)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:696
@@ -858,11 +1116,13 @@ msgid ""
 "EXT with <tag class=\"element\">FW_MASQUERADE</tag> set to <literal>yes</"
 "literal>"
 msgstr ""
+"EXT s <tag class=\"element\">FW_MASQUERADE</tag> nastaveným na "
+"<literal>yes</literal>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:703
 msgid "public"
-msgstr ""
+msgstr "public (veřejná)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:705
@@ -870,11 +1130,13 @@ msgid ""
 "EXT with <tag class=\"element\">FW_MASQUERADE</tag> set to <literal>no</"
 "literal>"
 msgstr ""
+"EXT s <tag class=\"element\">FW_MASQUERADE</tag> nastaveným na "
+"<literal>no</literal>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:712
 msgid "internal"
-msgstr ""
+msgstr "internal (vnitřní)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:714
@@ -882,11 +1144,13 @@ msgid ""
 "INT with <tag class=\"element\">FW_PROTECT_FROM_INT</tag> set to "
 "<literal>yes</literal>"
 msgstr ""
+"INT s <tag class=\"element\">FW_PROTECT_FROM_INT</tag> nastaveným na "
+"<literal>yes</literal>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:721
 msgid "trusted"
-msgstr ""
+msgstr "trusted (důvěryhodná)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:723
@@ -894,32 +1158,34 @@ msgid ""
 "INT with <tag class=\"element\">FW_PROTECT_FROM_INT</tag> set to "
 "<literal>no</literal>"
 msgstr ""
+"INT s <tag class=\"element\">FW_PROTECT_FROM_INT</tag> nastaveným na "
+"<literal>no</literal>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:730
 msgid "block"
-msgstr ""
+msgstr "block (blokovaná)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:731 xml/ay_12_migrate_15.xml:735
 #: xml/ay_12_migrate_15.xml:739 xml/ay_12_migrate_15.xml:743
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:734
 msgid "drop"
-msgstr ""
+msgstr "drop (kde se nereaguje)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:738
 msgid "home"
-msgstr ""
+msgstr "home (domovská)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:742
 msgid "work"
-msgstr ""
+msgstr "work (pracovní)"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:748
@@ -928,11 +1194,14 @@ msgid ""
 "allows the use of the special keyword <literal>any</literal> to assign all "
 "the interfaces that are not listed anywhere to a specified zone."
 msgstr ""
+"V SuSEfirewall2 je výchozí zóna externí (EXT), ale také lze použít speciální "
+"klíčové slovo <literal>any</literal> k přiřazení všech rozhraní, která "
+"nejsou nikde jinde uvedena, k určité zóně."
 
 #. (itstool) path: sect3/title
 #: xml/ay_12_migrate_15.xml:755
 msgid "Default Configuration"
-msgstr ""
+msgstr "Výchozí konfigurace"
 
 #. (itstool) path: sect3/para
 #: xml/ay_12_migrate_15.xml:757
@@ -942,11 +1211,14 @@ msgid ""
 "systemitem>, <systemitem>wlan0</systemitem> and <systemitem>wlan1</"
 "systemitem>."
 msgstr ""
+"Následující dva příklady ukazují výchozí konfiguraci, která se zde používá "
+"pro rozhraní <systemitem>eth0</systemitem>, <systemitem>eth1</systemitem>, "
+"<systemitem>wlan0</systemitem> a <systemitem>wlan1</systemitem>."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:765
 msgid "Assigning Zones: Default Configuration (Deprecated Syntax)"
-msgstr ""
+msgstr "Přiřazení zón: Výchozí konfigurace (zastaralá syntaxe)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:766
@@ -958,6 +1230,11 @@ msgid ""
 " &lt;FW_DEV_INT&gt;wlan1&lt;/FW_DEV_INT&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;FW_DEV_DMZ&gt;any eth0&lt;/FW_DEV_DMZ&gt;\n"
+" &lt;FW_DEV_EXT&gt;eth1 wlan0&lt;/FW_DEV_EXT&gt;\n"
+" &lt;FW_DEV_INT&gt;wlan1&lt;/FW_DEV_INT&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:774
@@ -965,6 +1242,8 @@ msgid ""
 "Assigning Zones: Default Configuration (<phrase os=\"sles;sled\">SLE</"
 "phrase><phrase os=\"osuse\">Leap</phrase> 15 Syntax)"
 msgstr ""
+"Přiřazení zón: Výchozí konfigurace (syntaxe <phrase os=\"sles;sled\""
+">SLE</phrase> <phrase os=\"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:777
@@ -994,11 +1273,34 @@ msgid ""
 " &lt;/zones&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;default_zone&gt;dmz&lt;/default_zone&gt;\n"
+" &lt;zones config:type=\"list\"&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;dmz&lt;/name&gt;\n"
+"   &lt;interfaces&gt;\n"
+"    &lt;interface&gt;eth0&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;public&lt;/name&gt;\n"
+"   &lt;interfaces&gt;\n"
+"    &lt;interface&gt;eth1&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;trusted&lt;/name&gt;\n"
+"   &lt;interfaces&gt;\n"
+"    &lt;interface&gt;wlan1&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+" &lt;/zones&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: sect3/title
 #: xml/ay_12_migrate_15.xml:804
 msgid "Masquerading and Protecting Internal Zones"
-msgstr ""
+msgstr "Maskování a ochrana vnitřních zón"
 
 #. (itstool) path: sect3/para
 #: xml/ay_12_migrate_15.xml:806
@@ -1008,11 +1310,15 @@ msgid ""
 "<systemitem>wlan0</systemitem> and <systemitem>wlan1</systemitem> with "
 "masquerading and protected internal zones."
 msgstr ""
+"Následující dva příklady ukazují, jak konfigurovat rozhraní "
+"<systemitem>eth0</systemitem>, <systemitem>eth1</systemitem>, "
+"<systemitem>wlan0</systemitem> a <systemitem>wlan1</systemitem> s maskováním "
+"a chráněnými interními zónami."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:813
 msgid "Masquerading and Protecting Internal Zones (Deprecated Syntax)"
-msgstr ""
+msgstr "Maskování a ochrana interních zón (zastaralá syntaxe)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:816
@@ -1026,6 +1332,13 @@ msgid ""
 " &lt;FW_PROTECT_FROM_INT&gt;yes&lt;/FW_PROTECT_FROM_INT&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;FW_DEV_DMZ&gt;any eth0&lt;/FW_DEV_DMZ&gt;\n"
+" &lt;FW_DEV_EXT&gt;eth1 wlan0&lt;/FW_DEV_EXT&gt;\n"
+" &lt;FW_DEV_INT&gt;wlan1&lt;/FW_DEV_INT&gt;\n"
+" &lt;FW_MASQUERADE&gt;yes&lt;/FW_MASQUERADE&gt;\n"
+" &lt;FW_PROTECT_FROM_INT&gt;yes&lt;/FW_PROTECT_FROM_INT&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:826
@@ -1033,6 +1346,8 @@ msgid ""
 "Masquerading and Protecting Internal Zones (<phrase os=\"sles;sled\">SLE</"
 "phrase><phrase os=\"osuse\">Leap</phrase> 15 Syntax)"
 msgstr ""
+"Maskování a ochrana vnitřních zón (Syntaxe <phrase os=\"sles;sled\""
+">SLE</phrase> <phrase os=\"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:831
@@ -1062,11 +1377,34 @@ msgid ""
 " &lt;/zones&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;default_zone&gt;dmz&lt;/default_zone&gt;\n"
+" &lt;zones config:type=\"list\"&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;dmz&lt;/name&gt;\n"
+"   &lt;interfaces config:type=\"list\"&gt;\n"
+"    &lt;interface&gt;eth0&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;external&lt;/name&gt;\n"
+"   &lt;interfaces config:type=\"list\"&gt;\n"
+"    &lt;interface&gt;eth1&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;internal&lt;/name&gt;\n"
+"   &lt;interfaces config:type=\"list\"&gt;\n"
+"    &lt;interface&gt;wlan1&lt;/interface&gt;\n"
+"   &lt;/interfaces&gt;\n"
+"  &lt;/zone&gt;\n"
+" &lt;/zones&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:858
 msgid "Opening Ports"
-msgstr ""
+msgstr "Otevírání portů"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:859
@@ -1074,6 +1412,8 @@ msgid ""
 "In SuSEfirewall2 the <tag class=\"element\">FW_SERVICES_\\{DMZ,EXT,INT}_"
 "\\{TCP,UDP,IP,RPC}</tag> tags were used to open ports in different zones."
 msgstr ""
+"V SuSEfirewall2 byly k otevření portů v různých zónách použity značky <tag "
+"class=\"element\">FW_SERVICES _\\{DMZ,EXT,INT}_\\{TCP,UDP,IP,RPC}</tag>."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:864
@@ -1085,6 +1425,12 @@ msgid ""
 "etc protocols</filename> could be specified with <tag class=\"element"
 "\">FW_SERVICES_<replaceable>ZONE</replaceable>_IP</tag>."
 msgstr ""
+"Pro protokoly <literal>TCP</literal> nebo <literal>UDP</literal> podporoval "
+"SuSEfirewall2 číslo nebo rozsah portu nebo název služby z <filename>/etc/"
+"services</filename> s jedinou značkou pro příslušnou zónu a službu. U služeb "
+"IP šlo zadat číslo portu nebo rozsah nebo název protokolu z <filename>/etc/"
+"protocols</filename> pomocí <tag class=\"element\""
+">FW_SERVICES_<replaceable>ZÓNA</replaceable>_IP</tag>."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:873
@@ -1094,6 +1440,10 @@ msgid ""
 "\">port</tag> section for the respective zone. IP services need separate "
 "entries in the <tag class=\"element\">protocol</tag> section."
 msgstr ""
+"U <systemitem class=\"daemon\">firewalld</systemitem> vyžaduje každý port, "
+"rozsah portů a služba samostatný záznam v sekci <tag class=\"element\""
+">port</tag> pro příslušnou zónu. Služby IP vyžadují samostatné položky v "
+"sekci <tag class=\"element\">protocol</tag>."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:879
@@ -1101,11 +1451,13 @@ msgid ""
 "RPC services, which were supported by SuSEfirewall2, are no longer supported "
 "with <systemitem class=\"daemon\">firewalld</systemitem>."
 msgstr ""
+"Služby RPC, které byly podporovány SuSEfirewall2, již v <systemitem class=\""
+"daemon\">firewalld</systemitem> podporovány nejsou."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:884
 msgid "Opening Ports (Deprecated Syntax)"
-msgstr ""
+msgstr "Otevírání portů (zastaralá syntaxe)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:887
@@ -1118,6 +1470,13 @@ msgid ""
 " &lt;FW_MASQUERADE&gt;yes&lt;/FW_MASQUERADE&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;FW_SERVICES_DMZ_TCP&gt;ftp ssh 80 5900:5999&lt;/FW_SERVICES_DMZ_TCP&gt;"
+"\n"
+" &lt;FW_SERVICES_EXT_UDP&gt;1723 ipsec-nat-t&lt;/FW_SERVICES_EXT_UDP&gt;\n"
+" &lt;FW_SERVICES_EXT_IP&gt;esp icmp gre&lt;/FW_SERVICES_EXT_IP&gt;\n"
+" &lt;FW_MASQUERADE&gt;yes&lt;/FW_MASQUERADE&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:895
@@ -1125,6 +1484,8 @@ msgid ""
 "Opening Ports (<phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse"
 "\">Leap</phrase> 15 Syntax)"
 msgstr ""
+"Otevírání portů (syntaxe <phrase os=\"sles;sled\">SLE</phrase> <phrase os=\""
+"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:899
@@ -1156,11 +1517,36 @@ msgid ""
 " &lt;/zones&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;zones config:type=\"list\"&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;dmz&lt;/name&gt;\n"
+"   &lt;ports config:type=\"list\"&gt;\n"
+"    &lt;port&gt;ftp/tcp&lt;/port&gt;\n"
+"    &lt;port&gt;ssh/tcp&lt;/port&gt;\n"
+"    &lt;port&gt;80/tcp&lt;/port&gt;\n"
+"    &lt;port&gt;5900-5999/tcp&lt;/port&gt;\n"
+"   &lt;ports&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;external&lt;/name&gt;\n"
+"   &lt;ports config:type=\"list\"&gt;\n"
+"    &lt;port&gt;1723/udp&lt;/port&gt;\n"
+"    &lt;port&gt;ipsec-nat-t/udp&lt;/port&gt;\n"
+"   &lt;/ports&gt;\n"
+"   &lt;protocols config:type=\"list\"&gt;\n"
+"    &lt;protocol&gt;esp&lt;/protocol&gt;\n"
+"    &lt;protocol&gt;icmp&lt;/protocol&gt;\n"
+"    &lt;protocol&gt;gre&lt;/protocol&gt;\n"
+"   &lt;/protocols&gt;\n"
+"  &lt;/zone&gt;\n"
+" &lt;/zones&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:928
 msgid "Opening <systemitem class=\"daemon\">firewalld</systemitem> Services"
-msgstr ""
+msgstr "Otevírání služeb <systemitem class=\"daemon\">firewalld</systemitem>"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:929
@@ -1170,11 +1556,14 @@ msgid ""
 "which are equivalent to services in <systemitem class=\"daemon\">firewalld</"
 "systemitem>."
 msgstr ""
+"Pro otevření kombinace portů a/nebo protokolů poskytuje SuSEfirewall2 značky "
+"<tag class=\"element\">FW_CONFIGURATIONS_\\{EXT, DMZ, INT}</tag>, které jsou "
+"ekvivalentní službám v <systemitem class=\"daemon\">firewalld</systemitem>."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:935
 msgid "Opening Services (Deprecated Syntax)"
-msgstr ""
+msgstr "Otevírání služeb (zastaralá syntaxe)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:938
@@ -1185,6 +1574,11 @@ msgid ""
 " &lt;FW_CONFIGURATIONS_DMZ&gt;ssh&lt;/FW_CONFIGURATIONS_DMZ&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;FW_CONFIGURATIONS_EXT&gt;dhcp dhcpv6 samba vnc-"
+"server&lt;/FW_CONFIGURATIONS_EXT&gt;\n"
+" &lt;FW_CONFIGURATIONS_DMZ&gt;ssh&lt;/FW_CONFIGURATIONS_DMZ&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:944
@@ -1192,6 +1586,8 @@ msgid ""
 "Opening Services (<phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse"
 "\">Leap</phrase> 15 Syntax)"
 msgstr ""
+"Otevírání služeb (syntaxe<phrase os=\"sles;sled\">SLE</phrase> <phrase os=\""
+"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:947
@@ -1217,11 +1613,30 @@ msgid ""
 " &lt;/zones&gt;\n"
 "&lt;/firewall&gt;"
 msgstr ""
+"&lt;firewall&gt;\n"
+" &lt;zones config:type=\"list\"&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;dmz&lt;/name&gt;\n"
+"   &lt;services config:type=\"list\"&gt;\n"
+"    &lt;service&gt;ssh&lt;/service&gt;\n"
+"   &lt;/services&gt;\n"
+"  &lt;/zone&gt;\n"
+"  &lt;zone&gt;\n"
+"   &lt;name&gt;public&lt;/name&gt;\n"
+"   &lt;services config:type=\"list\"&gt;\n"
+"    &lt;service&gt;dhcp&lt;/service&gt;\n"
+"    &lt;service&gt;dhcpv6&lt;/service&gt;\n"
+"    &lt;service&gt;samba&lt;/service&gt;\n"
+"    &lt;service&gt;vnc-server&lt;/service&gt;\n"
+"   &lt;/services&gt;\n"
+"  &lt;/zone&gt;\n"
+" &lt;/zones&gt;\n"
+"&lt;/firewall&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:967
 msgid "The services definition can be added via packages in both cases:"
-msgstr ""
+msgstr "Definici služeb lze v obou případech přidat pomocí balíčků:"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:972
@@ -1229,6 +1644,8 @@ msgid ""
 "SuSEfirewall2 Service Definitions: <link xlink:href=\"https://en.opensuse."
 "org/SuSEfirewall2/Service_Definitions_Added_via_Packages\"/>"
 msgstr ""
+"Definice služby SuSEfirewall2: <link xlink:href=\"https://en.opensuse.org/"
+"SuSEfirewall2/Service_Definitions_Added_via_Packages\"/>"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:978
@@ -1236,6 +1653,8 @@ msgid ""
 "<systemitem class=\"daemon\">firewalld</systemitem> RPM Packaging <link "
 "xlink:href=\"https://en.opensuse.org/firewalld/RPM_Packaging\"/>"
 msgstr ""
+"<systemitem class=\"daemon\">firewalld</systemitem> - balení RPM <link "
+"xlink:href=\"https://en.opensuse.org/firewalld/RPM_Packaging\"/>"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:981
@@ -1245,11 +1664,15 @@ msgid ""
 "services</filename>. Check this directory for an existing configuration "
 "before defining a new one."
 msgstr ""
+"<systemitem class=\"daemon\">firewalld</systemitem> již poskytuje podporu "
+"pro většinu důležitých služeb v <filename>/usr/lib/firewalld/"
+"services</filename>. Než definujete novou službu, zkontrolujte konfiguraci "
+"uloženou v tomto adresáři."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:991
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:994
@@ -1258,6 +1681,9 @@ msgid ""
 "data/createprofile_firewall.html\">SuSEfirewall2/AutoYaST Documentation for "
 "SLE 12</link>"
 msgstr ""
+"<link xlink:href=\"https://www.suse.com/documentation/sles-12/book_autoyast/"
+"data/createprofile_firewall.html\">Dokumentace SuSEfirewall2/AutoYaST pro "
+"SLE 12</link>"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:1001
@@ -1265,11 +1691,13 @@ msgid ""
 "<link xlink:href=\"http://www.firewalld.org/documentation/\">Official "
 "<systemitem class=\"daemon\">firewalld</systemitem> Documentation</link>"
 msgstr ""
+"<link xlink:href=\"http://www.firewalld.org/documentation/\">Oficiální "
+"dokumentace <systemitem class=\"daemon\">firewalld</systemitem></link>"
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1011
 msgid "NTP Configuration"
-msgstr ""
+msgstr "Konfigurace NTP"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1013
@@ -1282,6 +1710,13 @@ msgid ""
 "\"sles;sled\">12</phrase><phrase os=\"osuse\">42.3</phrase> that contain a "
 "section with <tag class=\"element\">ntp:client</tag> need to be updated."
 msgstr ""
+"Démon synchronizace časového serveru <systemitem class=\"daemon\""
+">ntpd</systemitem> byl nahrazen modernějším démonem <systemitem class=\""
+"daemon\">chrony</systemitem>. Proto se změnila i syntaxe konfigurace "
+"AutoYaST pro démona udržujícího čas. Profily AutoYaST v <phrase os=\"sles;"
+"sled\">SLE</phrase><phrase os=\"osuse\">Leap</phrase> <phrase os=\"sles;"
+"sled\">12</phrase><phrase os=\"osuse\">42.3</phrase>, obsahující sekci s <"
+"tag class=\"element\">ntp:client</tag>, je třeba aktualizovat."
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1024
@@ -1290,6 +1725,9 @@ msgid ""
 "by a set of high level options that are applied on top of the default "
 "settings:"
 msgstr ""
+"Místo toho, aby obsahoval možnosti konfigurace na nízké úrovni, je nyní NTP "
+"konfigurován sadou možností vysoké úrovně, které jsou nástavbou výchozího "
+"nastavení:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:1031
@@ -1297,6 +1735,8 @@ msgid ""
 "NTP configuration (<phrase os=\"sles;sled\">SLE</phrase><phrase os=\"osuse"
 "\">Leap</phrase> 15 Syntax)"
 msgstr ""
+"Konfigurace NTP (syntaxe <phrase os=\"sles;sled\">SLE</phrase> <phrase os=\""
+"osuse\">Leap</phrase> 15)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:1035
@@ -1314,11 +1754,22 @@ msgid ""
 " &lt;ntp_sync&gt;systemd&lt;/ntp_sync&gt;\n"
 " &lt;/ntp-client&gt;"
 msgstr ""
+"&lt;ntp-client&gt;\n"
+" &lt;ntp_policy&gt;auto&lt;/ntp_policy&gt;\n"
+" &lt;ntp_servers config:type=\"list\"&gt;\n"
+"  &lt;ntp_server&gt;\n"
+"   &lt;iburst config:type=\"boolean\"&gt;false&lt;/iburst&gt;\n"
+"   &lt;address&gt;cz.pool.ntp.org&lt;/address&gt;\n"
+"   &lt;offline config:type=\"boolean\"&gt;true&lt;/offline&gt;\n"
+"  &lt;/ntp_server&gt;\n"
+" &lt;/ntp_servers&gt;\n"
+" &lt;ntp_sync&gt;systemd&lt;/ntp_sync&gt;\n"
+" &lt;/ntp-client&gt;"
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1050
 msgid "AutoYaST Packages Are Needed for the Second Stage"
-msgstr ""
+msgstr "Pro druhou fázi jsou zapotřebí balíčky AutoYaST"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1052
@@ -1329,11 +1780,16 @@ msgid ""
 "packages, for example <package>autoyast2-installation</package> and "
 "<package>autoyast2</package>. If these are missing, a warning will be shown."
 msgstr ""
+"Normální instalace se provádí v jedné fázi, zatímco instalace pomocí "
+"AutoYaST vyžaduje ve většině případů dvě fáze. Aby bylo možné provést druhou "
+"fázi instalace, vyžaduje AutoYaST několik dalších balíčků, například "
+"<package>autoyast2-installation</package> a <package>autoyast2</package>. "
+"Pokud tyto balíčky chybí, zobrazí se varování."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1062
 msgid "The CA Management Module Has Been Dropped"
-msgstr ""
+msgstr "Modul správy CA byl zrušen"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1064
@@ -1348,11 +1804,19 @@ msgid ""
 "phrase> profile, make sure it does not contain a <tag class=\"element"
 "\">ca_mgm</tag> section."
 msgstr ""
+"Modul pro správu CA (<package>yast2-ca-management</package>&gt;) byl odebrán "
+"z <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> 15 a prozatím není k "
+"dispozici žádná náhrada. V případě, že znovu použijete profil <phrase os=\""
+"sles;sled\">an SLE</phrase><phrase os=\"osuse\">a Leap</phrase> <phrase os=\""
+"sles;sled\">12</phrase><phrase os=\"osuse\">42.3</phrase>, ujistěte se, že "
+"neobsahuje sekci <tag class=\"element\">ca_mgm</tag>."
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1076
 msgid "Upgrade"
-msgstr ""
+msgstr "Upgrade"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1079
@@ -1366,6 +1830,14 @@ msgid ""
 "\">15</phrase></phrase>, upgrades are always determined by the dependency "
 "solver, equivalent to using <command>zypper dup</command>."
 msgstr ""
+"<phrase os=\"sles;sled\">SLE 12</phrase><phrase os=\"osuse\">Leap "
+"42.3</phrase> má dva režimy vyhodnocení, které balíčky je třeba upgradovat. "
+"V <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase> jsou upgrady vždy určeny programem - řešitelem "
+"závislostí, ekvivalentně k použití <command>zypper dup</command>."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1086
@@ -1373,11 +1845,13 @@ msgid ""
 "This makes the option <tag class=\"element\">only_installed_packages</tag> "
 "in the software section obsolete."
 msgstr ""
+"Díky tomu je možnost <tag class=\"element\">only_installed_packages</tag> ("
+"balíčky pouze instalovat) v sekci software zastaralá."
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:1094
 msgid "Registration"
-msgstr ""
+msgstr "Registrace"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1095
@@ -1388,11 +1862,16 @@ msgid ""
 "custom repositories, add them again using the <tag class=\"element\">add-on</"
 "tag> option."
 msgstr ""
+"Při upgradu registrovaného systému jsou odstraněna všechna stará úložiště. "
+"Je to proto, aby se zabránilo možným konfliktům mezi novým a starým "
+"úložištěm a aby se vyčistila úložiště vyřazených produktů. Pokud si "
+"potřebujete uchovat vlastní úložiště, přidejte je znovu možností <tag class="
+"\"element\">add-on</tag>."
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:1103
 msgid "Minimal Registration Configuration for Upgrade"
-msgstr ""
+msgstr "Konfigurace minimální registrace pro upgrade"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:1106
@@ -1402,6 +1881,10 @@ msgid ""
 "  &lt;do_registration config:type=\"boolean\"&gt;true&lt;/do_registration&gt;\n"
 "&lt;/suse_register&gt;"
 msgstr ""
+"&lt;suse_register&gt;\n"
+"  &lt;do_registration config:type=\"boolean\"&gt;true&lt;/do_registration&gt;"
+"\n"
+"&lt;/suse_register&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1110
@@ -1410,6 +1893,8 @@ msgid ""
 "AutoYaST will automatically select the first one. Currently you cannot "
 "select a different migration target."
 msgstr ""
+"Pokud registrační server vrátí více než jeden možný cíl migrace, AutoYaST "
+"automaticky vybere první. V současné době nemůžete vybrat jiný cíl migrace."
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1115
@@ -1418,3 +1903,6 @@ msgid ""
 "omitting the <tag class=\"element\">suse_register</tag> option, you might "
 "need to adjust the repository setup manually."
 msgstr ""
+"Po upgradu neregistrovaného systému nebo přeskočení upgradu registrace "
+"vynecháním možnosti <tag class=\"element\">suse_register</tag> bude "
+"pravděpodobně nutné upravit nastavení úložiště ručně."
