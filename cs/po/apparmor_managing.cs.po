@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_managing-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_managing.xml:8
 msgid "Managing Profiled Applications"
-msgstr ""
+msgstr "Správa profilovaných aplikací"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_managing.xml:15
@@ -35,11 +39,20 @@ msgid ""
 "notification by e-mail, updating profiles from system log entries by running "
 "the aa-logprof tool, and dealing with maintenance issues."
 msgstr ""
+"Po vytvoření profilů a imunizaci vašich aplikací, stane se <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\""
+">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
+"Enterprise Desktop</phrase></phrase> efektivnějším a lépe chráněným, pokud "
+"provádíte údržbu profilu <phrase>AppArmor®</phrase> (tj. analýzu záznamů log "
+"souborů, vylepšování vašich profilů, zálohování vaší sady profilů a jejich "
+"aktualizace). Měli byste se tím zabývat dříve, než se to stane problémem, "
+"nastavením hlášení událostí e-mailem, aktualizací profilů podle položek "
+"systémového žurnálu (logu) nástrojem aa-logprof a řešením problémů údržby."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_managing.xml:1768
 msgid "Reacting to Security Event Rejections"
-msgstr ""
+msgstr "Reakce na odmítnutí bezpečnostních událostí"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1770
@@ -50,6 +63,11 @@ msgid ""
 "determination. If the rejected action is part of normal application "
 "behavior, run <command>aa-logprof</command> at the command line."
 msgstr ""
+"Když obdržíte odmítnutí bezpečnostní události, prozkoumejte narušení "
+"přístupu a zjistěte, zda tato událost indikovala hrozbu nebo byla součástí "
+"běžného chování aplikace. K určení jsou zapotřebí znalosti specifické pro "
+"aplikaci. Pokud je odmítnutá akce součástí běžného chování aplikace, spusťte "
+"z příkazového řádku příkaz <command>aa-logprof</command>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1778
@@ -59,11 +77,15 @@ msgid ""
 "prevented) and this notification should be passed to the person responsible "
 "for security within your organization."
 msgstr ""
+"Pokud odmítnutá akce není součástí běžného chování aplikace, měl by být "
+"tento přístup považován za možný pokus o narušení (kterému bylo zabráněno) a "
+"toto oznámení by mělo být předáno osobě odpovědné za bezpečnost ve vaší "
+"organizaci."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_managing.xml:1786
 msgid "Maintaining Your Security Profiles"
-msgstr ""
+msgstr "Údržba vašich bezpečnostních profilů"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1788
@@ -74,11 +96,16 @@ msgid ""
 "security policy files, plan for software changes, and allow any needed "
 "modification of security policies that your environment dictates."
 msgstr ""
+"V produkčním prostředí byste měli plánovat údržbu profilů pro všechny "
+"nasazené aplikace. Bezpečnostní zásady jsou nedílnou součástí vašeho "
+"nasazení. Měli byste plánovat kroky k zálohování a obnovení souborů zásad "
+"zabezpečení, naplánovat změny softwaru a povolit jakékoli potřebné změny "
+"zásad zabezpečení, které stanoví vaše prostředí."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1797
 msgid "Backing Up Your Security Profiles"
-msgstr ""
+msgstr "Zálohování vašich bezpečnostních profilů"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1798
@@ -87,11 +114,14 @@ msgid ""
 "programs after a disk crash. Also, if profiles are changed, you can easily "
 "restore previous settings by using the backed up files."
 msgstr ""
+"Zálohování profilů může vést k tomu, že nebudete muset po selhání disku "
+"znovu profilovat všechny programy. A když se změní profily, můžete snadno "
+"obnovit předchozí nastavení pomocí zálohovaných souborů."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1803
 msgid "Back up profiles by copying the profile files to a specified directory."
-msgstr ""
+msgstr "Záloha profilů kopírováním profilu do určeného adresáře."
 
 #. (itstool) path: step/para
 #: xml/apparmor_managing.xml:1808
@@ -100,12 +130,17 @@ msgid ""
 "terminal window and enter the following as <systemitem class=\"username"
 "\">root</systemitem>:"
 msgstr ""
+"Nejprve byste měli profily archivovat do jednoho souboru. Otevřete tedy okno "
+"terminálu a zadejte následující příkaz jako<systemitem class=\"username\""
+">root</systemitem>:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_managing.xml:1812
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> tar zclpf profiles.tgz /etc/apparmor.d"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> tar zclpf profiles.tgz /"
+"etc/apparmor.d"
 
 #. (itstool) path: step/para
 #: xml/apparmor_managing.xml:1813
@@ -114,6 +149,9 @@ msgid ""
 "backed up is to include the directory <filename>/etc/apparmor.d</filename> "
 "in the list of directories that your backup system archives."
 msgstr ""
+"Nejjednodušší metodou, jak zajistit pravidelné zálohování souborů zásad "
+"zabezpečení, je zahrnout adresář <filename>/etc/apparmor.d</filename> do "
+"seznamu adresářů, které váš záložní systém archivuje."
 
 #. (itstool) path: step/para
 #: xml/apparmor_managing.xml:1821
@@ -122,11 +160,14 @@ msgid ""
 "store the files on some kind of storage media, the network, or another "
 "computer."
 msgstr ""
+"Můžete také použít <command>scp</command> nebo správce souborů, jako je "
+"Nautilus, k uložení souborů na nějakém paměťovém médiu, na síti nebo na "
+"jiném počítači."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1831
 msgid "Changing Your Security Profiles"
-msgstr ""
+msgstr "Změna vašich bezpečnostních profilů"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1832
@@ -136,11 +177,15 @@ msgid ""
 "your profiles in <phrase>AppArmor</phrase>, refer to <xref xrefstyle="
 "\"SectTitleOnPage\" linkend=\"sec.apparmor.yast.edit\"/>."
 msgstr ""
+"Údržba bezpečnostních profilů zahrnuje jejich změnu, pokud se rozhodnete, že "
+"váš systém vyžaduje pro své aplikace více či méně zabezpečení. Chcete-li "
+"změnit své profily v <phrase>AppArmor</phrase>, postupujte podle <xref "
+"xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor.yast.edit\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1841
 msgid "Introducing New Software into Your Environment"
-msgstr ""
+msgstr "Představujeme nový software do vašeho prostředí"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1842
@@ -151,6 +196,11 @@ msgid ""
 "your patches and upgrades into a test or production environment. The "
 "following explains how to do this with each method."
 msgstr ""
+"Když do systému přidáte novou verzi nebo záplatu (patch) aplikace, měli "
+"byste profil vždy aktualizovat, aby vyhovoval vašim potřebám. V závislosti "
+"na strategii nasazení softwaru vaší společnosti máte několik možností. "
+"Záplatu a upgradů můžete nasadit do testovacího nebo produkčního prostředí. "
+"Následující text vysvětluje, jak to provést s každou metodou."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1849
@@ -161,6 +211,12 @@ msgid ""
 "instructions, refer to <xref xrefstyle=\"HeadingOnPage\" linkend=\"sec."
 "apparmor.commandline.profiling.summary.logprof\"/>."
 msgstr ""
+"Máte-li v úmyslu zavést opravu nebo upgrade v testovacím prostředí, nejlepší "
+"metodou pro aktualizaci vašich profilů je spuštění příkazu <command>aa-"
+"logprof</command> v terminálu jako <systemitem class=\"username\""
+">root</systemitem>. Podrobné pokyny najdete v <xref xrefstyle=\""
+"HeadingOnPage\" linkend=\"sec.apparmor.commandline.profiling.summary."
+"logprof\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1856
@@ -172,3 +228,9 @@ msgid ""
 "detailed instructions, refer to <xref xrefstyle=\"HeadingOnPage\" linkend="
 "\"sec.apparmor.commandline.profiling.summary.logprof\"/>."
 msgstr ""
+"Pokud máte v úmyslu zavést opravu nebo upgrade přímo do produkčního "
+"prostředí, nejlepší metodou pro aktualizaci vašich profilů je časté "
+"sledování systému, aby se určilo, zda by měla být do profilu přidána "
+"jakákoli nová odmítnutí a aktualizována podle potřeby pří <command>aa-"
+"logprof</command>. Podrobné pokyny viz <xref xrefstyle=\"HeadingOnPage\" "
+"linkend=\"sec.apparmor.commandline.profiling.summary.logprof\"/>."
