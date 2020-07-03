@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_intro-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_intro.xml:9
 msgid "Introducing <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Úvod k <phrase>AppArmor</phrase>"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_intro.xml:16
@@ -29,6 +33,10 @@ msgid ""
 "want to possess. The program fails to keep that trust if there is a bug in "
 "the program that allows the attacker to acquire said privilege."
 msgstr ""
+"Mnoho chyb zabezpečení vyplývá z chyb v <emphasis>důvěryhodných</emphasis> "
+"programech. Důvěryhodný program běží s oprávněními, která útočníci chtějí "
+"mít. Program si tuto důvěru neudrží, pokud v něm existuje chyba, která "
+"útočníkovi umožňuje získat zmíněná oprávnění."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_intro.xml:23
@@ -43,16 +51,24 @@ msgid ""
 "behavior without relying on attack signatures, so it can prevent attacks "
 "even if previously unknown vulnerabilities are being exploited."
 msgstr ""
+"<phrase>AppArmor®</phrase> je řešení zabezpečení aplikace navržené speciálně "
+"pro omezení práv podezřelých programů. <phrase>AppArmor</phrase> umožňuje "
+"správci specifikovat doménu činností, které může program provádět, "
+"vytvořením bezpečnostního <emphasis>profilu</emphasis>. Bezpečnostní profil "
+"je seznam souborů, ke kterým program může přistupovat, a operací, které může "
+"program provádět. <phrase>AppArmor</phrase> zabezpečuje aplikace vynucením "
+"jejich dobrého chování a nespoléhá se na známé charakteristiky útoku, takže "
+"může zabránit útokům, i když jsou zneužita dosud neznámá zranitelná místa."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_intro.xml:35
 msgid "<phrase>AppArmor</phrase> Components"
-msgstr ""
+msgstr "Komponenty <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_intro.xml:36
 msgid "<phrase>AppArmor</phrase> consists of:"
-msgstr ""
+msgstr "<phrase>AppArmor</phrase> sestává z:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:41
@@ -60,6 +76,8 @@ msgid ""
 "A library of <phrase>AppArmor</phrase> profiles for common Linux* "
 "applications, describing what files the program needs to access."
 msgstr ""
+"Knihovny profilů <phrase>AppArmor</phrase> pro běžné aplikace Linuxu*; "
+"profily popisují, jaké soubory program potřebuje zpracovávat."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:47
@@ -68,6 +86,9 @@ msgid ""
 "building blocks) needed for common application activities, such as DNS "
 "lookup and user authentication."
 msgstr ""
+"Knihovna základních tříd profilů <phrase>AppArmor</phrase> (stavebních bloků "
+"profilů) potřebných pro běžné aktivity aplikací, jako hledání v DNS a "
+"identifikace uživatelů."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:54
@@ -76,6 +97,9 @@ msgid ""
 "profiles, so that you can change the existing profiles to suit your needs "
 "and create new profiles for your own local and custom applications."
 msgstr ""
+"Sada nástrojů pro vývoj a vylepšování profilů <phrase>AppArmor</phrase>, "
+"takže můžete změnit stávající profily podle svých potřeb a vytvořit nové "
+"profily pro své místní a vlastní aplikace."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:61
@@ -84,6 +108,9 @@ msgid ""
 "enabled to provide enhanced security in the form of unique subprocess "
 "confinement (including Apache)."
 msgstr ""
+"Několik aplikací speciálně upravených pro <phrase>AppArmor</phrase> "
+"umožňujících operovat se zvýšenou bezpečností cestou jedinečného omezení "
+"podprocesů (včetně Apache)."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:68
@@ -94,11 +121,16 @@ msgid ""
 "\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
 "Enterprise Desktop</phrase></phrase> system."
 msgstr ""
+"Kód jádra pro <phrase>AppArmor</phrase> a připojené řídicí skripty pro "
+"aktivaci zásad <phrase>AppArmor</phrase> na vašem systému <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\""
+">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
+"Enterprise Desktop</phrase></phrase>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_intro.xml:76
 msgid "Background Information on <phrase>AppArmor</phrase> Profiling"
-msgstr ""
+msgstr "Základní informace o profilování <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_intro.xml:78
@@ -106,6 +138,8 @@ msgid ""
 "For more information about the science and security of <phrase>AppArmor</"
 "phrase>, refer to the following papers:"
 msgstr ""
+"Další informace o vědeckém a bezpečnostním základu aplikace "
+"<phrase>AppArmor</phrase> najdete v dokumentech:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:85
@@ -114,6 +148,9 @@ msgid ""
 "Cowan, Steve Beattie, Greg Kroah-Hartman, Calton Pu, Perry Wagle, and Virgil "
 "Gligor"
 msgstr ""
+"<citetitle>SubDomain: Parsimonious Server Security</citetitle> : Crispin "
+"Cowan, Steve Beattie, Greg Kroah-Hartman, Calton Pu, Perry Wagle a Virgil "
+"Gligor"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:89
@@ -125,6 +162,11 @@ msgid ""
 "phrase> product. This paper should be used only for background, and not for "
 "technical documentation."
 msgstr ""
+"Popisuje počáteční návrh a implementaci aplikace <phrase>AppArmor</phrase>. "
+"Publikováno ve sborníku konference USENIX LISA, prosinec 2000, New Orleans, "
+"LA. Tento dokument je nyní zastaralý a popisuje syntaxi a funkce, které se "
+"liší od aktuálního produktu <phrase>AppArmor</phrase>. Tento dokument by měl "
+"být používán pouze pro studium, nikoli jako technická dokumentace."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:100
@@ -133,6 +175,9 @@ msgid ""
 "Attack</citetitle> by Crispin Cowan, Seth Arnold, Steve Beattie, Chris "
 "Wright, and John Viega"
 msgstr ""
+"<citetitle>Defcon Capture the Flag: Defending Vulnerable Code from Intense "
+"Attack</citetitle> : Crispin Cowan, Seth Arnold, Steve Beattie, Chris Wright "
+"a John Viega"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:103
@@ -142,11 +187,15 @@ msgid ""
 "the Proceedings of the DARPA Information Survivability Conference and Expo "
 "(DISCEX III), April 2003, Washington, DC."
 msgstr ""
+"Dobrý průvodce strategickým a taktickým využitím aplikace "
+"<phrase>AppArmor</phrase> k vyřešení závažných bezpečnostních problémů ve "
+"velmi krátkém časovém období. Publikováno ve sborníku konference DARPA o "
+"přežití informací a výstavě (DISCEX III), duben 2003, Washington, DC."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:112
 msgid "<citetitle>AppArmor for Geeks</citetitle> by Seth Arnold"
-msgstr ""
+msgstr "<citetitle>AppArmor for Geeks</citetitle> : Seth Arnold"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:114
@@ -155,3 +204,6 @@ msgid ""
 "details of <phrase>AppArmor</phrase>. It is available at <link xlink:href="
 "\"http://en.opensuse.org/SDB:AppArmor_geeks\"/>."
 msgstr ""
+"Tento dokument se snaží dosáhnout lepšího porozumění technickým podrobnostem "
+"aplikace <phrase>AppArmor</phrase>. Je k dispozici na <link xlink: href = \""
+"http://en.opensuse.org/SDB:AppArmor_geeks\" />."
