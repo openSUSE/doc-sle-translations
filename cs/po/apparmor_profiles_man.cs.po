@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_profiles_man-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_profiles_man.xml:9
 msgid "Building Profiles from the Command Line"
-msgstr ""
+msgstr "Vytváření profilů z příkazového řádku"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles_man.xml:16
@@ -30,11 +34,16 @@ msgid ""
 "delete, or modify <phrase>AppArmor</phrase> profiles using the "
 "<phrase>AppArmor</phrase> command line tools."
 msgstr ""
+"<phrase>AppArmor®</phrase> umožňuje uživateli použít ke správě a konfiguraci "
+"zabezpečení systému rozhraní příkazového řádku alternativně místo grafického "
+"rozhraní. Sledujte stav <phrase>AppArmor</phrase> a nástroji příkazového "
+"řádku <phrase>AppArmor</phrase> vytvářejte, odstraňujte nebo upravujte "
+"profily <phrase>AppArmor</phrase>."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_profiles_man.xml:23
 msgid "Background Information"
-msgstr ""
+msgstr "Základní údaje"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:24
@@ -44,31 +53,35 @@ msgid ""
 "phrase> given in <xref linkend=\"cha.apparmor.concept\"/> and <xref linkend="
 "\"cha.apparmor.profiles\"/>."
 msgstr ""
+"Než začnete spravovat své profily nástroji příkazového řádku "
+"<phrase>AppArmor</phrase>, čtěte všeobecný úvod do <phrase>AppArmor</phrase> "
+"v <xref linkend=\"cha.apparmor.concept\"/> a <xref linkend=\"cha.apparmor."
+"profiles\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:32
 msgid "Checking the <phrase>AppArmor</phrase> Status"
-msgstr ""
+msgstr "Kontrola stavu <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:34
 msgid "<phrase>AppArmor</phrase> can be in any one of three states:"
-msgstr ""
+msgstr "<phrase>AppArmor</phrase> může být v jednom ze tří stavů:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:40
 msgid "Unloaded"
-msgstr ""
+msgstr "Nezaveden"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:42
 msgid "<phrase>AppArmor</phrase> is not activated in the kernel."
-msgstr ""
+msgstr "<phrase>AppArmor</phrase> není v jádru systému aktivován."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:48
 msgid "Running"
-msgstr ""
+msgstr "Běžící"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:50
@@ -76,11 +89,13 @@ msgid ""
 "<phrase>AppArmor</phrase> is activated in the kernel and is enforcing "
 "<phrase>AppArmor</phrase> program policies."
 msgstr ""
+"<phrase>AppArmor</phrase> je v jádru systému aktivován a vynucuje "
+"<phrase>AppArmor</phrase> zásady programů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:57
 msgid "Stopped"
-msgstr ""
+msgstr "Pozastaven"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:59
@@ -88,6 +103,8 @@ msgid ""
 "<phrase>AppArmor</phrase> is activated in the kernel, but no policies are "
 "enforced."
 msgstr ""
+"<phrase>AppArmor</phrase> je v jádru systému aktivován, ale nevynucuje žádné "
+"zásady."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:66
@@ -99,6 +116,12 @@ msgid ""
 "<phrase>AppArmor</phrase> is stopped. If the file does not exist, "
 "<phrase>AppArmor</phrase> is unloaded."
 msgstr ""
+"Stav <phrase>AppArmoru</phrase> zjistíte prohlídkou souboru <filename>/sys/"
+"kernel/security/apparmor/profiles</filename>. Jastliže příkaz <command>cat /"
+"sys/kernel/security/apparmor/profiles</command> vypíše seznam profilů, pak "
+"<phrase>AppArmor</phrase> běží. Je-li seznam prázdný a nevypíše nic, pak je "
+"<phrase>AppArmor</phrase> zastaven. Neexistuje-li uvedený soubor, není "
+"<phrase>AppArmor</phrase> zaveden."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:74
@@ -106,11 +129,13 @@ msgid ""
 "Manage <phrase>AppArmor</phrase> with <command>systemctl</command>. It lets "
 "you perform the following operations:"
 msgstr ""
+"Spravujte <phrase>AppArmor</phrase> příkazem <command>systemctl</command>. "
+"Může provádět tyto operace:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:81
 msgid "<command>sudo systemctl start apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl start apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:84
@@ -123,11 +148,18 @@ msgid ""
 "state. If <phrase>AppArmor</phrase> is already running, <option>start</"
 "option> reports a warning and takes no action."
 msgstr ""
+"Chování závisí na stavu aplikace <phrase>AppArmor</phrase>. Pokud není "
+"aktivována, aktivuje se <option>start</option> a spustí ji, čímž se uvede do "
+"provozního stavu. Pokud je zastavena, způsobí <option>start</option> "
+"opětovné skenování profilů <phrase>AppArmor</phrase>, (které jsou obvykle v "
+"<filename>/etc/apparmor.d</filename>) a dá <phrase>AppArmor</phrase> do "
+"běžícího stavu. Pokud již aplikace <phrase>AppArmor</phrase> běží, ohlásí "
+"<option>start</option> výstrahu a neprovede žádnou akci."
 
 #. (itstool) path: note/title
 #: xml/apparmor_profiles_man.xml:94
 msgid "Already Running Processes"
-msgstr ""
+msgstr "Procesy již běžící"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:95
@@ -135,11 +167,13 @@ msgid ""
 "Already running processes need to be restarted to apply the "
 "<phrase>AppArmor</phrase> profiles on them."
 msgstr ""
+"Procesy, které už běžely, je třeba restartovat, aby se na ně profily "
+"<phrase>AppArmor</phrase> aplikovaly."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:103
 msgid "<command>sudo systemctl stop apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl stop apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:106
@@ -150,11 +184,16 @@ msgid ""
 "phrase> is already stopped, <option>stop</option> tries to unload the "
 "profiles again, but nothing happens."
 msgstr ""
+"Zastaví aplikaci <phrase>AppArmor</phrase>, pokud je spuštěna, odebráním "
+"všech profilů z paměti jádra (tedy deaktivací všech kontrol přístupu) a "
+"uvedením aplikace <phrase>AppArmor</phrase> do stop stavu. Pokud je již "
+"aplikace <phrase>AppArmor</phrase> zastavena, <option>stop</option> se "
+"pokusí profily znovu uvolnit, ale nic se nestane."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:116
 msgid "<command>sudo systemctl reload apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl reload apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:119
@@ -164,11 +203,15 @@ msgid ""
 "Freshly created profiles are enforced and recently deleted ones are removed "
 "from the <filename>/etc/apparmor.d</filename> directory."
 msgstr ""
+"Způsobí, že modul <phrase>AppArmor</phrase> znovu prohledá profily v "
+"<filename>/etc/apparmor.d</filename>, ale nezruší platná omezení běžících "
+"procesů. Nově vytvořené profily jsou vynuceny a mezitím zrušené profily jsou "
+"odstraněny z adresáře <filename>/etc/apparmor.d</filename>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:135
 msgid "Building <phrase>AppArmor</phrase> Profiles"
-msgstr ""
+msgstr "Vytváření profilů <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:137
@@ -178,6 +221,10 @@ msgid ""
 "detailed description of the syntax of these files, refer to <xref linkend="
 "\"cha.apparmor.profiles\"/>."
 msgstr ""
+"Definice profilů pro aplikaci <phrase>AppArmor</phrase> jsou uloženy v "
+"adresáři <filename>/etc/apparmor.d</filename> jako soubory v prostém textu. "
+"Detailní popis syntaxe těchto souborů je v <xref linkend=\"cha.apparmor."
+"profiles\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:144
@@ -190,6 +237,12 @@ msgid ""
 "profile, which will create a symbolic link in <filename>/etc/apparmor.d/"
 "disabled/</filename>."
 msgstr ""
+"Všechny soubory v adresáři <filename>/etc/apparmor.d</filename> jsou "
+"interpretovány jako profily a jako takové jsou načteny. Přejmenování souborů "
+"v tomto adresáři nezabrání načítání profilů. Profily musíte z tohoto "
+"adresáře odebrat, abyste zabránili jejich čtení a vyhodnocení, nebo volejte "
+"<command>aa-disable</command> pro profil, čímž ve <filename>/etc/apparmor.d/"
+"disabled/</filename> vytvoříte symbol zákazu aktivace profilů."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:154
@@ -198,31 +251,34 @@ msgid ""
 "changes to these profiles. The following sections contain detailed steps for "
 "building profiles:"
 msgstr ""
+"K přístupu k těmto profilům a provádění změn v nich můžete použít textový "
+"editor, například <command>vi</command>. Následující sekce obsahují podrobné "
+"kroky pro vytváření profilů:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:162
 msgid "Adding or Creating <phrase>AppArmor</phrase> Profiles"
-msgstr ""
+msgstr "Přidání nebo vytvoření profilů <phrase>AppArmor</phrase>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:164
 msgid "Refer to <xref linkend=\"sec.apparmor.commandline.add\"/>"
-msgstr ""
+msgstr "Viz <xref linkend=\"sec.apparmor.commandline.add\"/>"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:170
 msgid "Editing <phrase>AppArmor</phrase> Profiles"
-msgstr ""
+msgstr "Úpravy profilů <phrase>AppArmor</phrase>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:172
 msgid "Refer to <xref linkend=\"sec.apparmor.commandline.edit\"/>"
-msgstr ""
+msgstr "Viz <xref linkend=\"sec.apparmor.commandline.edit\"/>"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:178
 msgid "Deleting <phrase>AppArmor</phrase> Profiles"
-msgstr ""
+msgstr "Odstranění profilů <phrase>AppArmor</phrase>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:180
@@ -230,11 +286,13 @@ msgid ""
 "Refer to <xref xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor."
 "commandline.del\"/>"
 msgstr ""
+"Viz <xref xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor.commandline."
+"del\"/>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:201
 msgid "Adding or Creating an <phrase>AppArmor</phrase> Profile"
-msgstr ""
+msgstr "Přidání či vytvoření profilu <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:203
@@ -244,11 +302,15 @@ msgid ""
 "needs. Learn more about these two approaches in <xref linkend=\"sec.apparmor."
 "commandline.profiling\"/>."
 msgstr ""
+"Chcete-li přidat nebo vytvořit profil aplikace <phrase>AppArmor</phrase> pro "
+"aplikaci, můžete použít systémovou nebo samostatnou metodu profilování v "
+"závislosti na vašich potřebách. Další informace o těchto dvou přístupech "
+"najdete v <xref linkend=\"sec.apparmor.commandline.profiling\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:211
 msgid "Editing an <phrase>AppArmor</phrase> Profile"
-msgstr ""
+msgstr "Úprava profilu <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:213
@@ -256,6 +318,7 @@ msgid ""
 "The following steps describe the procedure for editing an <phrase>AppArmor</"
 "phrase> profile:"
 msgstr ""
+"Následující kroky popisují postup úpravy profilu <phrase>AppArmor</phrase>:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:220
@@ -263,6 +326,8 @@ msgid ""
 "If you are not currently logged in as <systemitem class=\"username\">root</"
 "systemitem>, enter <command>su</command> in a terminal window."
 msgstr ""
+"Pokud nejste momentálně přihlášeni jako <systemitem class=\"username\""
+">root</systemitem>, zadejte do okna terminálu příkaz <command>su</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:226
@@ -270,27 +335,32 @@ msgid ""
 "Enter the <systemitem class=\"username\">root</systemitem> password when "
 "prompted."
 msgstr ""
+"Po výzvě zadejte heslo uživatele <systemitem class=\"username\""
+">root</systemitem>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:231
 msgid ""
 "Go to the profile directory with <command>cd /etc/apparmor.d/</command>."
 msgstr ""
+"Přejděte do adresáře profilu příkazem <command>cd /etc/apparmor.d/</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:237
 msgid "Enter <command>ls</command> to view all profiles currently installed."
 msgstr ""
+"Chcete-li zobrazit všechny aktuálně nainstalované profily, zadejte "
+"<command>ls</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:242
 msgid "Open the profile to edit in a text editor, such as vim."
-msgstr ""
+msgstr "Otevřete profil a upravte jej v textovém editoru, například vim."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:247
 msgid "Make the necessary changes, then save the profile."
-msgstr ""
+msgstr "Proveďte potřebné změny a poté profil uložte."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:252
@@ -298,16 +368,18 @@ msgid ""
 "Restart <phrase>AppArmor</phrase> by entering <command>systemctl reload "
 "apparmor</command> in a terminal window."
 msgstr ""
+"Restartujte <phrase>AppArmor</phrase> příkazem <command>systemctl reload "
+"apparmor</command> v terminálovém okně."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:260
 msgid "Unloading Unknown <phrase>AppArmor</phrase> Profiles"
-msgstr ""
+msgstr "Uvolnění neznámých profilů <phrase>AppArmor</phrase>"
 
 #. (itstool) path: warning/title
 #: xml/apparmor_profiles_man.xml:262
 msgid "Danger of Unloading Wanted Profiles"
-msgstr ""
+msgstr "Nebezpečí uvolnění hledaných profilů"
 
 #. (itstool) path: warning/para
 #: xml/apparmor_profiles_man.xml:263
@@ -317,6 +389,10 @@ msgid ""
 "generated LXD profiles. This may compromise the security of the system. Use "
 "the <option>-n</option> parameter to list all profiles that will be unloaded."
 msgstr ""
+"<command>aa-remove-unknown</command> uvolní všechny profily, které nejsou "
+"uloženy v <filename>/etc/apparmor.d</filename>, například automaticky "
+"generované profily LXD. To může ohrozit bezpečnost systému. Pomocí parametru "
+"<option>-n</option> vypište všechny profily, které budou uvolněny."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:271
@@ -324,28 +400,34 @@ msgid ""
 "To unload all profiles that are no longer in <filename>/etc/apparmor.d/</"
 "filename> <phrase>AppArmor</phrase> profiles, run:"
 msgstr ""
+"Chcete-li uvolnit všechny profily, které již nejsou uloženy v <filename>/etc/"
+"apparmor.d/</filename> <phrase>AppArmor</phrase>, spusťte:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles_man.xml:275
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-remove-unknown</command>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-remove-"
+"unknown</command>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:276
 msgid "You can print a list of profiles that will be removed:"
-msgstr ""
+msgstr "Můžete vytisknout seznam profilů, které budou odstraněny:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles_man.xml:279
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-remove-unknown -n</command>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>aa-remove-unknown "
+"-n</command>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:282
 msgid "Deleting an <phrase>AppArmor</phrase> Profile"
-msgstr ""
+msgstr "Smazání profilu <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:283
@@ -353,22 +435,26 @@ msgid ""
 "The following steps describe the procedure for deleting an <phrase>AppArmor</"
 "phrase> profile."
 msgstr ""
+"Následující kroky popisují postup pro odstranění profilu "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:289
 msgid "Remove the <phrase>AppArmor</phrase> definition from the kernel:"
-msgstr ""
+msgstr "Odeberte z jádra definici <phrase>AppArmor</phrase>:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:292
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> <command>apparmor_parser -R /etc/apparmor.d/<replaceable>PROFILE</replaceable></command>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>apparmor_parser -"
+"R /etc/apparmor.d/<replaceable>PROFIL</replaceable></command>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:295
 msgid "Remove the definition file:"
-msgstr ""
+msgstr "Odebrat definiční soubor:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:298
@@ -377,11 +463,15 @@ msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> <command>rm /etc/apparmor.d/<replaceable>PROFILE</replaceable></command>\n"
 "    <prompt>tux &gt; </prompt><command>sudo</command> <command>rm /var/lib/apparmor/cache/<replaceable>PROFILE</replaceable></command>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>rm /etc/apparmor."
+"d/<replaceable>PROFIL</replaceable></command>\n"
+"    <prompt>tux &gt; </prompt><command>sudo</command> <command>rm /var/lib/"
+"apparmor/cache/<replaceable>PROFIL</replaceable></command>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:304
 msgid "Two Methods of Profiling"
-msgstr ""
+msgstr "Dvě metody profilování"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:306
@@ -392,6 +482,11 @@ msgid ""
 "substantial. To avoid such a situation, use the <phrase>AppArmor</phrase> "
 "tools to automate the creation and refinement of profiles."
 msgstr ""
+"Vzhledem k syntaxi profilů <phrase>AppArmor</phrase> v <xref xrefstyle=\""
+"SectTitleOnPage\" linkend=\"cha.apparmor.profiles\"/> můžete vytvořit "
+"profily bez použití nástrojů. Toto úsilí by však bylo značné. Chcete-li "
+"takové situaci předejít, použijte nástroje <phrase>AppArmor</phrase> k "
+"automatizaci vytváření a zdokonalování profilů."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:314
@@ -399,12 +494,14 @@ msgid ""
 "There are two ways to approach <phrase>AppArmor</phrase> profile creation. "
 "Tools are available for both methods."
 msgstr ""
+"Existují dva způsoby, jak přistupovat k vytváření profilů "
+"<phrase>AppArmor</phrase>. Jsou k dispozici nástroje pro obě metody."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:321 xml/apparmor_profiles_man.xml:372
 msgid "Stand-Alone Profiling"
-msgstr ""
+msgstr "Samostatné profilování"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:323
@@ -414,12 +511,16 @@ msgid ""
 "information, refer to <xref linkend=\"sec.apparmor.commandline.profiling."
 "stand-alone\"/>."
 msgstr ""
+"Je to metoda vhodná pro profilování malých aplikací, které mají omezenou "
+"dobu běhu, například uživatelské klientské aplikace jako jsou poštovní "
+"klienty. Další informace najdete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.stand-alone\"/>."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:332 xml/apparmor_profiles_man.xml:389
 msgid "Systemic Profiling"
-msgstr ""
+msgstr "Systémové profilování"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:334
@@ -430,6 +531,11 @@ msgid ""
 "more information, refer to <xref linkend=\"sec.apparmor.commandline."
 "profiling.systemic\"/>."
 msgstr ""
+"Metoda vhodná pro profilování mnoha programů najednou a pro profilování "
+"aplikací, které mohou běžet dny, týdny nebo nepřetržitě i přes restartování, "
+"jako jsou například aplikace síťových serverů, jako jsou webové servery a "
+"poštovní servery. Další informace naleznete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.systemic\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:345
@@ -437,11 +543,13 @@ msgid ""
 "Automated profile development becomes more manageable with the "
 "<phrase>AppArmor</phrase> tools:"
 msgstr ""
+"Automatizovaný návrh profilu je lépe zvládnutelný pomocí nástrojů "
+"<phrase>AppArmor</phrase>:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:352
 msgid "Decide which profiling method suits your needs."
-msgstr ""
+msgstr "Rozhodněte se, která metoda profilování vyhovuje vašim potřebám."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:357
@@ -449,12 +557,16 @@ msgid ""
 "Perform a static analysis. Run either <command>aa-genprof</command> or "
 "<command>aa-autodep</command>, depending on the profiling method chosen."
 msgstr ""
+"Proveďte statickou analýzu. Spusťte buď <command>aa-genprof</command> nebo "
+"<command>aa-autodep</command> v závislosti na zvolené metodě profilování."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:364
 msgid ""
 "Enable dynamic learning. Activate learning mode for all profiled programs."
 msgstr ""
+"Povolit dynamické učení. Aktivujte režim učení pro všechny profilované "
+"programy."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:373
@@ -466,6 +578,12 @@ msgid ""
 "duration of the test run of your program (you cannot reboot the machine "
 "while you are still developing your profile)."
 msgstr ""
+"Samostatné vytváření a zlepšování profilu je řízeno programem s názvem "
+"<command>aa-genprof</command>. Tato metoda je snadná, protože <command>aa-"
+"genprof</command> se stará o všechno, ale je omezená, protože vyžaduje, aby "
+"program <command>aa-genprof</command> běžel po celou dobu zkušebního běhu "
+"vašeho programu (nemůžete restartovat počítač, dokud stále vyvíjíte svůj "
+"profil)."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:381
@@ -474,6 +592,9 @@ msgid ""
 "profiling, refer to <xref linkend=\"sec.apparmor.commandline.profiling."
 "summary.genprof\"/>."
 msgstr ""
+"Chcete-li použít <command>aa-genprof</command> pro samostatnou metodu "
+"profilování, vizte <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.genprof\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:390
@@ -486,19 +607,26 @@ msgid ""
 "profiling long-running applications whose behavior continues after "
 "rebooting, or many programs at once."
 msgstr ""
+"Tato metoda se nazývá <emphasis>systémové profilování</emphasis>, protože "
+"aktualizuje všechny profily v systému najednou, nezaměřuje se na jeden nebo "
+"několik cílených <command>aa-genprof</command> nebo samostatné profilování. "
+"Při systémovém profilování je konstrukce a zlepšování profilů poněkud méně "
+"automatizované, ale flexibilnější. Tato metoda je vhodná pro profilování "
+"dlouho běžících aplikací, jejichž činnost pokračuje i po restartu, nebo pro "
+"mnoho programů najednou."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:399
 msgid ""
 "Build an <phrase>AppArmor</phrase> profile for a group of applications as "
 "follows:"
-msgstr ""
+msgstr "Profil <phrase>AppArmor</phrase> pro skupinu aplikací vytvořte takto:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:404
 msgid ""
 "Create profiles for the individual programs that make up your application."
-msgstr ""
+msgstr "Vytvořte profily pro jednotlivé programy, které tvoří vaši aplikaci."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:408
@@ -510,23 +638,32 @@ msgid ""
 "profile, refer to <xref linkend=\"sec.apparmor.commandline.profiling.summary."
 "autodep\"/>."
 msgstr ""
+"Přestože je tento přístup systémový, <phrase>AppArmor</phrase> sleduje pouze "
+"programy s profily a programy jimi spuštěné. Chcete-li, aby aplikace "
+"<phrase>AppArmor</phrase> uvažovala o programu, musíte pro ni vytvořit "
+"alespoň přibližný profil programem <command>aa-autodep</command>. Chcete-li "
+"vytvořit tento přibližný profil, vizte <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.autodep\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:418
 msgid "Put relevant profiles into learning or complain mode."
-msgstr ""
+msgstr "Přepněte příslušné profily do režimu učení nebo stěžování."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:421
 msgid ""
 "Activate learning or complain mode for all profiled programs by entering"
 msgstr ""
+"Aktivujte režim učení nebo stěžování pro všechny profilované programy zadáním"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:425
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /etc/apparmor.d/*"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /etc/apparmor."
+"d/*"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:426
@@ -536,6 +673,10 @@ msgid ""
 "Mode module, described in <xref linkend=\"sec.apparmor.yast.manage.profmodes"
 "\"/>."
 msgstr ""
+"do okna terminálu při přihlášení jako <systemitem class=\"username\""
+">root</systemitem>. Tato funkce je k dispozici také prostřednictvím modulu "
+"YaST Profile Mode, popsaného v <xref linkend=\"sec.apparmor.yast.manage."
+"profmodes\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:432
@@ -546,6 +687,11 @@ msgid ""
 "\"/>) and learn the access needs of the program so it runs properly. With "
 "this information, you can decide how secure to make the profile."
 msgstr ""
+"V režimu učení nejsou požadavky na přístup blokovány, i když profil diktuje, "
+"že by měly být. To vám umožní absolvovat několik testů (jak je uvedeno v <"
+"xref linkend=\"st.apparmor.commandline.profiling.systemic.exec\"/>) a naučit "
+"se přístupové potřeby programu, takže běží správně. Na základě těchto "
+"informací se můžete rozhodnout, jak bezpečný profil vytvořit."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:440
@@ -553,11 +699,13 @@ msgid ""
 "Refer to <xref linkend=\"sec.apparmor.commandline.profiling.summary.complain"
 "\"/> for more detailed instructions for using learning or complain mode."
 msgstr ""
+"Podrobnější pokyny pro používání režimu učení nebo stěžování najdete v <xref "
+"linkend=\"sec.apparmor.commandline.profiling.summary.complain\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:447
 msgid "Exercise your application."
-msgstr ""
+msgstr "Vyzkoušejte svou aplikaci."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:450
@@ -568,11 +716,16 @@ msgid ""
 "by <command>aa-genprof</command>, this step can go on for days or weeks and "
 "can span complete system reboots."
 msgstr ""
+"Spusťte aplikaci a vyzkoušejte její funkčnost. Kolik zkoušek programu, to "
+"záleží na vás, ale potřebujete, aby program zkusil přístup ke každému "
+"souboru, který potřebuje. Protože provádění není pod dohledem <command>aa-"
+"genprof</command>, může tento krok trvat několik dní nebo týdnů a může "
+"přetrvat i po úplném restartu systému."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:459
 msgid "Analyze the log."
-msgstr ""
+msgstr "Analyzujte záznam."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:462
@@ -581,12 +734,19 @@ msgid ""
 "letting <command>aa-genprof</command> run it (as in stand-alone profiling). "
 "The general form of <command>aa-logprof</command> is:"
 msgstr ""
+"V systémovém profilování spusťte <command>aa-logprof</command> přímo místo "
+"toho, abyste jej nechali spustit programem <command>aa-genprof</command> ("
+"jako v samostatném profilování). Obecná forma <command>aa-logprof</command> "
+"je:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:468
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-logprof [ -d <replaceable>/path/to/profiles</replaceable> ] [ -f <replaceable>/path/to/logfile</replaceable> ]"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-logprof [ -d "
+"<replaceable>/cesta/k/profilům</replaceable> ] [ -f <replaceable>/cesta/k/"
+"souboru_záznamu</replaceable> ]"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:469
@@ -594,6 +754,8 @@ msgid ""
 "Refer to <xref linkend=\"sec.apparmor.commandline.profiling.summary.logprof"
 "\"/> for more information about using <command>aa-logprof</command>."
 msgstr ""
+"Více údajů o používání <command>aa-logprof</command> viz <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.logprof\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:476
@@ -601,6 +763,8 @@ msgid ""
 "Repeat <xref linkend=\"st.apparmor.commandline.profiling.systemic.exec\"/> "
 "and <xref linkend=\"st.apparmor.commandline.profiling.systemic.log\"/>."
 msgstr ""
+"Opakujte <xref linkend=\"st.apparmor.commandline.profiling.systemic.exec\"/> "
+"a <xref linkend=\"st.apparmor.commandline.profiling.systemic.log\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:481
@@ -609,11 +773,14 @@ msgid ""
 "sets that can be trained and reloaded into the policy engine. Subsequent "
 "iterations generate fewer messages and run faster."
 msgstr ""
+"Tak vytváříte optimální profily. Iterativní přístup zachycuje menší soubory "
+"dat, které lze bezpečnostně upravit a znovu načíst do modulu zásad. Další "
+"iterace generují méně zpráv a běží rychleji."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:488
 msgid "Edit the profiles."
-msgstr ""
+msgstr "Úprava profilů."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:491
@@ -622,11 +789,13 @@ msgid ""
 "edit the profiles in <filename>/etc/apparmor.d/</filename> using a text "
 "editor."
 msgstr ""
+"Měli byste zkontrolovat vygenerované profily. Profily můžete otevřít a "
+"upravit v <filename>/etc/apparmor.d/</filename> pomocí textového editoru."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:498
 msgid "Return to enforce mode."
-msgstr ""
+msgstr "Vraťte vynucovací režim."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:501
@@ -640,6 +809,13 @@ msgid ""
 "Profile Mode module, described in <xref linkend=\"sec.apparmor.yast.manage."
 "profmodes\"/>."
 msgstr ""
+"To nastane, když se systém vrací k prosazování pravidel profilů, nejen k "
+"protokolování informací. Lze to provést ručně odstraněním textu "
+"<literal>flags=(complain) </literal> z profilů nebo automaticky pomocí "
+"příkazu <command>aa-enforce</command>, který pracuje stejně jako <command>aa "
+"-complain</command>, kromě toho, že nastavuje profily pro vynucení režimu. "
+"Tato funkce je k dispozici také prostřednictvím modulu YaST Profile Mode, "
+"popsaného v <xref linkend=\"sec.apparmor.yast.manage.profmodes\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:513
@@ -647,11 +823,14 @@ msgid ""
 "To ensure that all profiles are taken out of complain mode and put into "
 "enforce mode, enter <command>aa-enforce /etc/apparmor.d/*</command>."
 msgstr ""
+"Chcete-li zajistit, aby všechny profily byly přepnuty ze stěžovacího režimu "
+"do vynucovacího režimu, zadejte <command>aa-enforce /etc/apparmor.d/"
+"*</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:520
 msgid "Re-scan all profiles."
-msgstr ""
+msgstr "Znovu prohledat všechny profily."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:523
@@ -660,11 +839,14 @@ msgid ""
 "enforcement mode in the kernel, enter <command>systemctl reload apparmor</"
 "command>."
 msgstr ""
+"Chcete-li, aby <phrase>AppArmor</phrase> znovu prohledal všechny profily a "
+"změnil režim vymáhání v jádře, zadejte <command>systemctl reload "
+"apparmor</command>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:533
 msgid "Summary of Profiling Tools"
-msgstr ""
+msgstr "Souhrn nástrojů profilování"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:534
@@ -673,11 +855,14 @@ msgid ""
 "<systemitem>apparmor-utils</systemitem> RPM package and are stored in "
 "<filename>/usr/sbin</filename>. Each tool has a different purpose."
 msgstr ""
+"Všechny profilovací nástroje <phrase>AppArmor</phrase> jsou poskytovány "
+"balíčkem RPM <systemitem>apparmor-utils</systemitem> a jsou uloženy v "
+"<filename>/usr/sbin</filename>. Každý nástroj má jiný účel."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:540
 msgid "aa-autodep—Creating Approximate Profiles"
-msgstr ""
+msgstr "aa-autodep—Vytváření provizorních (přibližných) profilů"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:541
@@ -694,6 +879,16 @@ msgid ""
 "calling <command>ldd(1)</command> on the executables listed on the command "
 "line."
 msgstr ""
+"Vytvoří přibližný profil pro vybraný program nebo aplikaci. Můžete generovat "
+"přibližné profily pro binární spustitelné soubory a interpretované skriptové "
+"programy. Výsledný profil se nazývá <quote>přibližný</quote>, protože nemusí "
+"nutně obsahovat všechny položky profilu, kterými musí být program řádně "
+"omezen pomocí <phrase>AppArmor</phrase>. Minimální přibližný profil <command"
+">aa-autodep</command> má přinejmenším základní direktivu, která obsahuje "
+"základní položky profilu potřebné pro většinu programů. Pro určité typy "
+"programů generuje <command>aa-autodep</command> rozšířený profil. Profil je "
+"generován rekurzivním voláním <command>ldd (1)</command> na spustitelných "
+"souborech uvedených na příkazovém řádku."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:554
@@ -706,6 +901,13 @@ msgid ""
 "command> generates an approximate profile to improve through the dynamic "
 "profiling that follows."
 msgstr ""
+"Chcete-li vygenerovat přibližný profil, použijte program <command>aa-"
+"autodep</command>. Argument programu může být buď jednoduchý název programu, "
+"který <command>aa-autodep</command> najde hledáním proměnné cesty vaší "
+"shellu, nebo to může být plně kvalifikovaná cesta. Samotný program může být "
+"libovolného typu (ELF binární, shell skript, Perl skript atd.). <command>aa-"
+"autodep</command> generuje přibližný profil, který se má zlepšit pomocí "
+"následujícího dynamického profilování."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:564
@@ -717,12 +919,21 @@ msgid ""
 "with period (<literal>.</literal>) characters. The general syntax of "
 "<command>aa-autodep</command> is to enter the following in a terminal window:"
 msgstr ""
+"Výsledný přibližný profil je zapsán do adresáře <filename>/etc/"
+"apparmor.d</filename> s použitím profilu konvence názvů "
+"<phrase>AppArmor</phrase> pro název profilu podle absolutní cesty jeho "
+"programu, s nahrazením všech znaků lomítko (<literal>/</literal>) tečkami "
+"(<literal>.</literal>). Obecná syntaxe <command>aa-autodep</command> na "
+"příkazovém řádku:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:573
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-autodep [ -d <replaceable>/PATH/TO/PROFILES</replaceable> ] [<replaceable>PROGRAM1</replaceable> <replaceable>PROGRAM2</replaceable>...]"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-autodep [ -d "
+"<replaceable>/CESTA/K/PROFILŮM</replaceable> ] "
+"[<replaceable>PROGRAM1</replaceable> <replaceable>PROGRAM2</replaceable>...]"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:574
@@ -732,6 +943,10 @@ msgid ""
 "of <filename>/etc/apparmor.d</filename>, should you keep profiles in a "
 "location other than the default."
 msgstr ""
+"Nezadáte-li název nebo názvy programů, budete vyzváni k jejich zadání. "
+"<replaceable>/cesta/k/profilům</replaceable> přepíše výchozí umístění "
+"<filename>/etc/apparmor.d</filename>, chcete-li mít profily v jiném než "
+"výchozím umístění."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:580
@@ -742,11 +957,16 @@ msgid ""
 "such programs depends on the application in question. Here are several "
 "strategies for finding such programs:"
 msgstr ""
+"Chcete-li začít profilovat, musíte vytvořit profily pro každou hlavní "
+"spustitelnou službu, která je součástí vaší aplikace (cokoli, co by se mohlo "
+"z aplikace spustit, ale není to dítě jiného programu, který již profil má). "
+"Nalezení všech takových programů závisí na dané aplikaci. Zde je několik "
+"strategií pro nalezení takových programů:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:589
 msgid "Directories"
-msgstr ""
+msgstr "Adresáře"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:591
@@ -756,11 +976,15 @@ msgid ""
 "<replaceable>/path/to/your/programs/*</replaceable> creates basic profiles "
 "for all programs in that directory."
 msgstr ""
+"Jsou-li všechny programy, které se mají profilovat, v jednom adresáři a "
+"žádné jiné programy v něm nejsou, pak jednoduchý příkaz <command>aa-"
+"autodep</command> <replaceable>/cesta/k/vašim/programům/*</replaceable> "
+"vytvoří přibližné profily pro všechny programy v tomto adresáři."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:601
 msgid "pstree -p"
-msgstr ""
+msgstr "pstree -p"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:603
@@ -776,11 +1000,21 @@ msgid ""
 "replaceable> being an example application). You may use wild cards if "
 "appropriate."
 msgstr ""
+"Můžete spustit aplikaci a pomocí standardního příkazu Linux "
+"<command>pstree</command> najít všechny spuštěné procesy. Poté ručně "
+"vyhledejte umístění těchto programů a pro každý z nich spusťte <command>aa-"
+"autodep</command>. Pokud jsou programy na Vaší cestě (proměnná prostředí "
+"PATH), <command>aa-autodep</command> je najde za Vás. Pokud tam nejsou, může "
+"být při hledání programů užitečný standardní příkaz Linux "
+"<command>find</command>. Spusťte <command>find / -name'</command> "
+"<replaceable>MOJE_APLIKACE</replaceable>' -print a určete cestu aplikace ("
+"například <replaceable>MOJE_APLIKACE</replaceable>). V případě potřeby "
+"můžete zadat názvy se zástupnými znaky (wildcards)."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:621
 msgid "aa-complain—Entering Complain or Learning Mode"
-msgstr ""
+msgstr "aa-complain — Zahájit stěžovací nebo výukový režim"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:622
@@ -794,6 +1028,15 @@ msgid ""
 "<phrase>AppArmor</phrase> tools to transform log events into improved "
 "profiles."
 msgstr ""
+"Nástroj pro stěžovací nebo výukový režim (<command>aa-complain</command>) "
+"detekuje porušení pravidel profilů <phrase>AppArmor</phrase>, jako je "
+"například profilovaný program, který přistupuje k souborům, které profil "
+"nepovoluje. Porušení je povoleno, ale také zaznamenáno. Chcete-li vylepšit "
+"profil, zapněte režim stěžování, spusťte program pomocí sady testů, které "
+"generují události protokolu, které charakterizují přístupové potřeby "
+"programu a následně protokol zpracujte pomocí nástrojů "
+"<phrase>AppArmor</phrase>, aby se z událostí protokolu odvodila a zapsala "
+"vylepšení profilu."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:632
@@ -804,6 +1047,11 @@ msgid ""
 "window and enter one of the following lines as <systemitem class=\"username"
 "\">root</systemitem>:"
 msgstr ""
+"Ruční aktivace režimu stížností (z příkazového řádku) přidá na začátek "
+"profilu příznak, takže z <literal>/bin/foo</literal> se stane <literal>/bin/"
+"foo flags=(stížnost)</literal>. Chcete-li použít režim stěžování, otevřete "
+"okno terminálu a zadejte jako uživatel <systemitem class=\"username\""
+">root</systemitem> jeden z následujících řádků:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:642 xml/apparmor_profiles_man.xml:743
@@ -811,23 +1059,29 @@ msgid ""
 "If the example program (<replaceable>PROGRAM1</replaceable>) is in your "
 "path, use:"
 msgstr ""
+"Je-li profilovaný program (<replaceable>PROGRAM1</replaceable>) na vaší "
+"cestě ($PATH), použijte:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:646
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-complain [<replaceable>PROGRAM1</replaceable> <replaceable>PROGRAM2</replaceable> ...]"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-complain "
+"<replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:649
 msgid "If the program is not in your path, specify the entire path as follows:"
-msgstr ""
+msgstr "Pokud program není ve Vaší cestě, zadejte celou cestu takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:653
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /sbin/<replaceable>PROGRAM1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /sbin/"
+"<replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:656
@@ -835,24 +1089,30 @@ msgid ""
 "If the profiles are not in <filename>/etc/apparmor.d</filename>, use the "
 "following to override the default location:"
 msgstr ""
+"Nejsou-li profily ve <filename>/etc/apparmor.d</filename>, přepište výchozí "
+"umístění takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:660
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-complain <replaceable>/path/to/profiles/</replaceable><replaceable>PROGRAM1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-complain <replaceable>/"
+"cesta/k/profilům/</replaceable><replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:663 xml/apparmor_profiles_man.xml:765
 msgid ""
 "Specify the profile for <replaceable>/sbin/program1</replaceable> as follows:"
-msgstr ""
+msgstr "Zadejte profil pro <replaceable>/sbin/program1</replaceable> takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:667
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /etc/apparmor.d/sbin.<replaceable>PROGRAM1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-complain /etc/apparmor."
+"d/sbin.<replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:670
@@ -866,11 +1126,19 @@ msgid ""
 "apparmor.d/*</command> puts all of the profiles in <filename>/etc/apparmor."
 "d</filename> into complain mode."
 msgstr ""
+"Každý z výše uvedených příkazů aktivuje režim stížnosti pro uvedené profily "
+"nebo programy. Neobsahuje-li název programu celou cestu, vyhledá <command>aa-"
+"complain</command> program na některé cestě v <envar>$PATH</envar>. "
+"Například <command>aa-complain /usr/sbin/*</command> najde profily spojené "
+"se všemi programy ve <filename>/usr/sbin</filename> a uvede je do "
+"stěžovacího režimu. <command>aa-complain /etc/apparmor.d/*</command> přepne "
+"všechny profily v adresáři <filename>/etc/apparmor.d</filename> do "
+"stěžovacího režimu."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_profiles_man.xml:681 xml/apparmor_profiles_man.xml:788
 msgid "Toggling Profile Mode with YaST"
-msgstr ""
+msgstr "Přepnutí režimu profilu pomocí YaST"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:682 xml/apparmor_profiles_man.xml:789
@@ -878,12 +1146,16 @@ msgid ""
 "YaST offers a graphical front-end for toggling complain and enforce mode. "
 "See <xref linkend=\"sec.apparmor.yast.manage.profmodes\"/> for information."
 msgstr ""
+"YaST nabízí grafický nástroj pro přepínání mezi režimy stěžování a "
+"vynucování. Viz <xref linkend=\"sec.apparmor.yast.manage.profmodes\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:690
 msgid ""
 "aa-decode—Decoding Hex-encoded Strings in <phrase>AppArmor</phrase> Log Files"
 msgstr ""
+"aa-decode — Dekódování hexadecimálně zakódovaných řetězců v žurnálových "
+"souborech <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:691
@@ -893,11 +1165,16 @@ msgid ""
 "standard input, convert any hex-encoded <phrase>AppArmor</phrase> log "
 "entries, and display them on standard output."
 msgstr ""
+"<command>aa-decode</command> bude dekódovat řetězce kódované hexadecimálně "
+"ve výstupu protokolu <phrase>AppArmor</phrase>. Může také zpracovávat "
+"protokol auditu na standardní vstup, převádět libovolné hexadecimálně "
+"kódované položky protokolu <phrase>AppArmor</phrase> a zobrazovat je na "
+"standardním výstupu."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:699
 msgid "aa-disable—Disabling an <phrase>AppArmor</phrase> Security Profile"
-msgstr ""
+msgstr "aa-disable — Vypnout bezpečnostní profil <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:700
@@ -908,11 +1185,16 @@ msgid ""
 "<phrase>AppArmor</phrase> start-up. Use <command>aa-enforce</command> or "
 "<command>aa-complain</command> utilities to change this behavior."
 msgstr ""
+"Pomocí <command>aa-disable</command> můžete zakázat režim vynucování pro "
+"jeden nebo více profilů <phrase>AppArmor</phrase>. Tento příkaz uvolní "
+"profil z jádra a zabrání načtení profilu při spuštění aplikace "
+"<phrase>AppArmor</phrase>. Toto chování můžete změnit pomocí nástrojů "
+"<command>aa-vynucení</command> nebo <command>aa-complaint</command>."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:709
 msgid "aa-easyprof—Easy Profile Generation"
-msgstr ""
+msgstr "aa-easyprof — Snadné generování profilu"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:710
@@ -926,17 +1208,27 @@ msgid ""
 "that is less restricted than when creating a profile manually or with "
 "<command>aa-genprof</command> and <command>aa-logprof</command>."
 msgstr ""
+"<command>aa-easyprof</command> poskytuje snadno použitelné rozhraní pro "
+"generování profilů <phrase>AppArmor</phrase>. <command>aa-easyprof</command> "
+"podporuje použití šablon a skupin profilů pro rychlé profilování aplikace. I "
+"když <command>aa-easyprof</command> může pomoci s generováním profilu, jeho "
+"užitečnost závisí na kvalitě použitých šablon, skupin profilů a abstrakcí. "
+"Tento nástroj také může vytvořit profil, který je méně omezený než při "
+"vytváření profilu ručně nebo použitím <command>aa-genprof</command> a "
+"<command>aa-logprof</command>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:720
 msgid ""
 "For more information, see the man page of <command>aa-easyprof</command> (8)."
 msgstr ""
+"Více informací má stránka manuálu programu: man <command>aa-"
+"easyprof</command> (8)."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:726
 msgid "aa-enforce—Entering Enforce Mode"
-msgstr ""
+msgstr "aa-enforce — Spustit režim vynucování"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:727
@@ -947,6 +1239,11 @@ msgid ""
 "enforce mode to be enabled. To log the violations only, but still permit "
 "them, use complain mode."
 msgstr ""
+"Režim vynucení detekuje porušení pravidel profilu <phrase>AppArmor</phrase>, "
+"jako jsou profilované programy, které přístup k souborům nepovolují. "
+"Porušení je zaznamenáno a není povoleno. Režim vynucení je ve výchozím stavu "
+"povolen. Chcete-li protokolovat pouze porušení, ale přesto je povolit, "
+"použijte režim stížnosti."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:734
@@ -956,24 +1253,33 @@ msgid ""
 "flags=(complain)</literal> becomes <literal>/bin/foo</literal>. To use "
 "enforce mode, open a terminal window and enter one of the following lines."
 msgstr ""
+"Ruční aktivace režimu vynucení (z příkazového řádku) odstraní příznak "
+"stěžování ze začátku profilu, takže z <literal>/bin/foo "
+"flags=(complain)</literal> se stává <literal>/bin/foo</literal>. Chcete-li "
+"použít režim vynucování, otevřete okno terminálu a zadejte jeden z "
+"následujících řádků."
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:747
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce [<replaceable>PROGRAM1</replaceable> <replaceable>PROGRAM2</replaceable> ...]"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce "
+"[<replaceable>PROGRAM1</replaceable> <replaceable>PROGRAM2</replaceable> ...]"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:750
 msgid ""
 "If the program is not in your path, specify the entire path, as follows:"
-msgstr ""
+msgstr "Není-li program ve Vaší cestě ($PATH), zadejte úplnou cestu takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:754
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce /sbin/<replaceable>PROGRAM1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce /sbin/"
+"<replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:757
@@ -981,18 +1287,24 @@ msgid ""
 "If the profiles are not in <replaceable>/etc/apparmor.d</replaceable>, use "
 "the following to override the default location:"
 msgstr ""
+"Nejsou-li profily v <replaceable>/etc/apparmor.d</replaceable>, přepište "
+"standardní umístění takto:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:762
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce -d <replaceable>/path/to/profiles/     program1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce -d "
+"<replaceable>/cesta/k/profilům/     program1</replaceable>"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:769
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce /etc/apparmor.d/sbin.<replaceable>PROGRAM1</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce /etc/apparmor.d/"
+"sbin.<replaceable>PROGRAM1</replaceable>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:772
@@ -1000,6 +1312,8 @@ msgid ""
 "Each of the above commands activates the enforce mode for the profiles and "
 "programs listed."
 msgstr ""
+"Každý z výše uvedených příkazů aktivuje režim vynucení pro uvedené profily a "
+"programy."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:776
@@ -1008,6 +1322,9 @@ msgid ""
 "one. <replaceable>/path/to/profiles</replaceable> overrides the default "
 "location of <filename>/etc/apparmor.d</filename>."
 msgstr ""
+"Nezadáte-li názvy programů nebo profilů, budete vyzváni k jejich zadání. "
+"<replaceable>/cesta/k/profilům</replaceable> přepíše výchozí umístění "
+"<filename>/etc/apparmor.d</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:781
@@ -1016,11 +1333,14 @@ msgid ""
 "program name does not include its entire path, <command>aa-enforce</command> "
 "searches <envar>$PATH</envar> for the program."
 msgstr ""
+"Argumentem může být buď seznam programů, nebo seznam profilů. Pokud název "
+"programu neobsahuje celou cestu, vyhledá <command>aa-enforce</command> "
+"program prohledáním <envar>$PATH</envar>."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:797
 msgid "aa-exec—Confining a Program with the Specified Profile"
-msgstr ""
+msgstr "aa-exec — Omezení programu specifikovaným profilem"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:798
@@ -1033,6 +1353,13 @@ msgid ""
 "the command will be run using the standard profile attachment—as if you did "
 "not use the <command>aa-exec</command> command."
 msgstr ""
+"Příkazem <command>aa-exec</command> spusťte program omezený zadaným profilem "
+"nebo názvovým prostorem profilu. Pokud je zadán profil i názvový prostor, "
+"bude program omezen profilem v novém názvovém prostoru. Pokud je zadán pouze "
+"názvový prostor profilu, použije se název profilu aktuálního omezení. Pokud "
+"není zadán ani profil, ani názvový prostor, bude příkaz spuštěn pomocí "
+"standardní přílohy profilu - jako byste nepoužili příkaz <command>aa-"
+"exec</command>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:808
@@ -1040,11 +1367,13 @@ msgid ""
 "For more information on the command's options, see its manual page "
 "<command>man 8 aa-exec</command>."
 msgstr ""
+"Další informace o možnostech příkazu najdete na jeho manuálové stránce "
+"<command>man 8 aa-exec</command>."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:814
 msgid "aa-genprof—Generating Profiles"
-msgstr ""
+msgstr "aa-genprof — Generování profilů"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:815
@@ -1056,12 +1385,21 @@ msgid ""
 "phrase>, marks the log, and prompts the user to execute the program and "
 "exercise its functionality. Its syntax is as follows:"
 msgstr ""
+"<command>aa-genprof</command> je utilita pro generování profilů aplikace "
+"<phrase>AppArmor</phrase>. Spustí <command>aa-autodep</command> ve "
+"specifikovaném programu, vytvoří přibližný profil (pokud pro něj profil již "
+"neexistuje), nastaví jej na režim stížnosti, znovu jej načte do "
+"<phrase>AppArmor</phrase>, označí protokol a vyzve uživatele k provedení "
+"programu a vyzkoušení jeho funkce. Syntaxe:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:823
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-genprof [ -d <replaceable>/path/to/profiles</replaceable> ]  <replaceable>PROGRAM</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-genprof [ -d "
+"<replaceable>/cesta/k/profilům</replaceable> ]  "
+"<replaceable>PROGRAM</replaceable>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:824
@@ -1069,21 +1407,24 @@ msgid ""
 "To create a profile for the Apache Web server program httpd2-prefork, do the "
 "following as <systemitem class=\"username\">root</systemitem>:"
 msgstr ""
+"Chcete-li vytvořit profil pro program httpd2-prefork webového serveru "
+"Apache, proveďte jako <systemitem class=\"username\">root</systemitem> "
+"následující kroky:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:830
 msgid "Enter <command>systemctl stop apache2</command>."
-msgstr ""
+msgstr "Zadejte <command>systemctl stop apache2</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:835
 msgid "Next, enter <command>aa-genprof httpd2-prefork</command>."
-msgstr ""
+msgstr "Nyní zadejte <command>aa-genprof httpd2-prefork</command>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:838
 msgid "Now <command>aa-genprof</command> does the following:"
-msgstr ""
+msgstr "Teď <command>aa-genprof</command> provede toto:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:843
@@ -1095,6 +1436,12 @@ msgid ""
 "phrase>, the default full path is <phrase><filename>/usr/sbin/httpd2-"
 "prefork</filename></phrase>."
 msgstr ""
+"Vyřeší úplnou cestu httpd2-prefork pomocí proměnných cesty shellu. Můžete "
+"také zadat úplnou cestu. Na <phrase role=\"productname\"><phrase os=\"osuse\""
+">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> je výchozí úplná cesta <phrase><filename>/usr/sbin/"
+"httpd2-prefork</filename></phrase>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:851
@@ -1104,6 +1451,10 @@ msgid ""
 "command> as described in <xref linkend=\"sec.apparmor.commandline.profiling."
 "summary\"/>."
 msgstr ""
+"Zkontroluje, zda existuje profil pro httpd2-prefork. Pokud existuje, "
+"aktualizuje jej. Pokud ne, vytvoří ho pomocí <command>aa-autodep</command>, "
+"jak je popsáno v <xref linkend=\"sec.apparmor.commandline.profiling.summary\""
+"/>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:859
@@ -1112,6 +1463,9 @@ msgid ""
 "profile violations are logged, but are permitted to proceed. A log event "
 "looks like this (see <filename>/var/log/audit/audit.log</filename>):"
 msgstr ""
+"Přepne profil pro tento program do režimu učení čili stěžování, aby bylo "
+"zaznamenáno porušení profilu, ale bylo povoleno pokračovat. Událost "
+"protokolu vypadá takto (viz <filename>/var/log/audit/audit.log</filename>):"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:865
@@ -1123,6 +1477,12 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"type=APPARMOR_ALLOWED msg=audit(1189682639.184:20816): \\\n"
+"apparmor=\"DENIED\" operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:870
@@ -1131,6 +1491,9 @@ msgid ""
 "events are logged directly to <systemitem class=\"daemon\">systemd</"
 "systemitem> journal (see <xref linkend=\"cha.journalctl\"/>):"
 msgstr ""
+"Pokud auditovací démon neběží, události <phrase>AppArmor</phrase> se "
+"zaznamenávají přímo do žurnálu <systemitem class=\"daemon\""
+">systemd</systemitem> (viz <xref linkend=\"cha.journalctl\"/> ):"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:875
@@ -1142,11 +1505,17 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"Sep 13 13:20:30 K23 kernel: audit(1189682430.672:20810): \\\n"
+"apparmor=\"DENIED\" operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:880
 msgid "They also can be viewed using the <command>dmesg</command> command:"
-msgstr ""
+msgstr "Dají se též prohlížet příkazem <command>dmesg</command>:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:883
@@ -1158,12 +1527,20 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"audit(1189682430.672:20810): apparmor=\"DENIED\" \\\n"
+"operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:890
 msgid ""
 "Marks the log with a beginning marker of log events to consider. For example:"
 msgstr ""
+"Označí protokol počáteční značkou událostí protokolu, které je třeba vzít v "
+"úvahu. Například:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:894
@@ -1172,6 +1549,8 @@ msgid ""
 "\n"
 "Sep 13 17:48:52 figwit root: GenProf: e2ff78636296f16d0b5301209a04430d"
 msgstr ""
+"\n"
+"Sep 13 17:48:52 figwit root: GenProf: e2ff78636296f16d0b5301209a04430d"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:900
@@ -1182,6 +1561,11 @@ msgid ""
 "the program requires access to function properly. For example, in a new "
 "terminal window, enter <command>systemctl start apache2</command>."
 msgstr ""
+"Po výzvě nástroje spusťte aplikaci k profilování v jiném okně terminálu a "
+"proveďte co nejvíce funkcí aplikace. Režim učení tedy může protokolovat "
+"soubory a adresáře, ke kterým program vyžaduje přístup, aby správně "
+"fungoval. Zadejte například <command>systemctl start apache2</command> v "
+"novém okně terminálu."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:910
@@ -1190,6 +1574,8 @@ msgid ""
 "genprof</command> terminal window after you have executed the program "
 "function:"
 msgstr ""
+"Vyberte z následujících možností dostupných v okně terminálu <command>aa-"
+"genprof</command> po provedení programové funkce:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:917
@@ -1201,11 +1587,17 @@ msgid ""
 "questions that you must answer to guide <command>aa-genprof</command> in "
 "generating the security profile."
 msgstr ""
+"<keycap>S</keycap> spustí <command>aa-genprof</command> v systémovém "
+"protokolu od místa, které bylo označeno při spuštění <command>aa-"
+"genprof</command> a znovu načte profil. Pokud v protokolu existují systémové "
+"události, <phrase>AppArmor</phrase> analyzuje soubory protokolu režimu "
+"učení. Tím vznikne řada otázek, na které musíte při vytváření bezpečnostního "
+"profilu odpovídat při provádění <command>aa-genprof</command>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:927
 msgid "<keycap>F</keycap> exits the tool."
-msgstr ""
+msgstr "<keycap>F</keycap> ukončí nástroj."
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:933
@@ -1213,11 +1605,13 @@ msgid ""
 "If requests to add hats appear, proceed to <xref linkend=\"cha.apparmor.hat"
 "\"/>."
 msgstr ""
+"Objeví-li se požadavky na přidání \"klobouků\", pokračujte na <xref linkend="
+"\"cha.apparmor.hat\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:940
 msgid "Answer two types of questions:"
-msgstr ""
+msgstr "Odpovězte na dva typy otázek:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:945
@@ -1226,6 +1620,8 @@ msgid ""
 "(see <xref linkend=\"ex.apparmor.commandline.profiling.summary.genprof.learn"
 "\"/>)."
 msgstr ""
+"Profilovaný program požaduje zdroj, který není v profilu (viz <xref linkend="
+"\"ex.apparmor.commandline.profiling.summary.genprof.learn\"/>)."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:952
@@ -1234,6 +1630,9 @@ msgid ""
 "transition has not been defined (see <xref linkend=\"ex.apparmor.commandline."
 "profiling.summary.genprof.perms\"/>)."
 msgstr ""
+"Profilovaný program spouští program a nebyl definován přechod domény "
+"zabezpečení  (viz <xref linkend=\""
+"ex.apparmor.commandline.profiling.summary.genprof.perms\"/>)."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:959
@@ -1245,6 +1644,12 @@ msgid ""
 "examples of each one. Subsequent steps describe your options in answering "
 "these questions."
 msgstr ""
+"Každá z těchto kategorií má za následek řadu otázek, na které musíte "
+"odpovědět, abyste do profilu přidali zdroj nebo program. <xref linkend=\""
+"ex.apparmor.commandline.profiling.summary.genprof.learn\"/> a <xref linkend="
+"\"ex.apparmor.commandline.profiling.summary.genprof.perms\"/> obsahují "
+"příklady obou dvou. Následující kroky popisují vaše možnosti odpovědí na "
+"tyto otázky."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:970
@@ -1253,11 +1658,14 @@ msgid ""
 "with this entry regarding which execute permission type to grant to this "
 "entry:"
 msgstr ""
+"Nakládání s vykonanými přístupy je složité. Musíte se rozhodnout, jak s "
+"touto položkou pokračovat - přesněji, který typ spouštěcího oprávnění udělit "
+"této položce:"
 
 #. (itstool) path: example/title
 #: xml/apparmor_profiles_man.xml:976
 msgid "Learning Mode Exception: Controlling Access to Specific Resources"
-msgstr ""
+msgstr "Výjimka režimu učení: Řízení přístupu ke konkrétním zdrojům"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_profiles_man.xml:977
@@ -1273,11 +1681,25 @@ msgid ""
 "\n"
 "(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny / Abo(r)t / (F)inish"
 msgstr ""
+"Reading log entries from /var/log/audit/audit.log.  [Čtení nových položek "
+"z...]\n"
+"Updating AppArmor profiles in /etc/apparmor.d.  Aktualizace profilů Armor "
+"v...]\n"
+"\n"
+"Profile:  /usr/sbin/cupsd  [Profil:...]\n"
+"Program:  cupsd  [Program:...]\n"
+"Execute:  /usr/lib/cups/daemon/cups-lpd  [Spuštěn z:...]\n"
+"Severity: unknown  [Závažnost: neznámá]\n"
+"\n"
+"(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny / "
+"Abo(r)t / (F)inish\n"
+"[Zděděno / Profil / Dítě / Název / Neomezeno / Xix / Odepřít / Zrušit / "
+"Ukončit]"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:989
 msgid "Inherit (ix)"
-msgstr ""
+msgstr "Zděděno (ix)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:991
@@ -1290,11 +1712,18 @@ msgid ""
 "emphasis>, such as the <command>/usr/bin/mail</command> client using "
 "<command>less</command> as a pager."
 msgstr ""
+"Dítě zdědí profil rodiče a běží se stejnými ovládacími prvky přístupu jako "
+"rodič (nadřazený program). Tento režim je užitečný, když musí omezený "
+"program zavolat jiný omezený program, aniž získá oprávnění profilu cíle nebo "
+"ztratí oprávnění aktuálního profilu. Tento režim se často používá, když je "
+"podřízeným programem <emphasis>pomocná aplikace</emphasis>, jako např. "
+"klient <command>/usr/bin/mail</command>, který používá "
+"<command>less</command> jako pager ."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1004
 msgid "Profile (px/Px)"
-msgstr ""
+msgstr "Profil (px/Px)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1006
@@ -1304,6 +1733,11 @@ msgid ""
 "permission denied. This is most useful if the parent program is invoking a "
 "global service, such as DNS lookups or sending mail with your system's MTA."
 msgstr ""
+"Dítě běží s vlastním profilem, který musí být načten do jádra. Pokud profil "
+"není k dispozici, pokusy o spuštění dítěte selžou s odepřením oprávnění. To "
+"je nejužitečnější, když nadřazený program volá globální službu, například "
+"vyhledávání DNS nebo odesílání pošty pomocí MTA (agent přenosu pošty) Vašeho "
+"systému."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1013
@@ -1312,11 +1746,14 @@ msgid ""
 "the environment of environment variables that could modify execution "
 "behavior when passed to the child process."
 msgstr ""
+"Vyberte možnost <guimenu>profil s čistým provedením</guimenu> (Px) a "
+"vyčistěte prostředí proměnných prostředí, které by mohly změnit chování, "
+"když řízení přejde do podřízeného procesu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1022
 msgid "Child (cx/Cx)"
-msgstr ""
+msgstr "Dítě (cx/Cx)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1024
@@ -1324,6 +1761,8 @@ msgid ""
 "Sets up a transition to a subprofile. It is like px/Px transition, except to "
 "a child profile."
 msgstr ""
+"Nastaví přechod na podprofil. Je to jako přechod px/Px, s výjimkou "
+"podřízeného profilu."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1028
@@ -1332,11 +1771,14 @@ msgid ""
 "the environment of environment variables that could modify execution "
 "behavior when passed to the child process."
 msgstr ""
+"Vyberte možnost <guimenu>profil s čistým provedením</guimenu> (Cx) a "
+"vyčistěte prostředí proměnných prostředí, které by mohly změnit chování, "
+"když řízení přejde do podřízeného procesu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1037
 msgid "Unconfined (ux/Ux)"
-msgstr ""
+msgstr "Neomezeno (ux/Ux)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1039
@@ -1344,6 +1786,8 @@ msgid ""
 "The child runs completely unconfined without any <phrase>AppArmor</phrase> "
 "profile applied to the executed resource."
 msgstr ""
+"Dítě běží zcela neomezeně, bez jakéhokoli profilu <phrase>AppArmor</phrase> "
+"aplikovaného na spouštěný prostředek."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1043
@@ -1354,11 +1798,16 @@ msgid ""
 "profiles introduces a security vulnerability that could be used to evade "
 "<phrase>AppArmor</phrase>. Only use it as a last resort."
 msgstr ""
+"Vyberte možnost <guimenu>neomezená s čistým provedením</guimenu> (Ux) a "
+"vyčistěte prostředí proměnných prostředí, které by mohly změnit chování, "
+"když řízení přejde do podřízeného procesu. Uvědomte si, že spuštění "
+"neomezených profilů představuje bezpečnostní chybu, kterou lze použít k "
+"obejití <phrase>AppArmor</phrase>. Používejte ji pouze jako poslední možnost."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1054
 msgid "mmap (m)"
-msgstr ""
+msgstr "mmap (m)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1056
@@ -1369,12 +1818,16 @@ msgid ""
 "executed. You are prompted to include this permission if it is requested "
 "during a profiling run."
 msgstr ""
+"Toto oprávnění označuje, že program běžící pod profilem má přístup ke zdroji "
+"pomocí systémového volání mmap s příznakem <envar>PROT_EXEC</envar>. To "
+"znamená, že data v něm mapovaná mohou být spuštěna jako program. Výzva k "
+"zadání tohoto oprávnění se zobrazí, pokud je požadována během profilování."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1066 xml/apparmor_profiles_man.xml:1206
 #: xml/apparmor_profiles_man.xml:1503
 msgid "Deny"
-msgstr ""
+msgstr "Odepřít"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1068
@@ -1383,12 +1836,15 @@ msgid ""
 "the program from accessing the specified directory path entries. "
 "<phrase>AppArmor</phrase> then continues to the next event."
 msgstr ""
+"Přidá do profilu pravidlo <literal>deny</literal> a trvale zabrání programu "
+"v přístupu k zadaným položkám cest k adresářům. <phrase>AppArmor</phrase> "
+"pak pokračuje k další události."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1077 xml/apparmor_profiles_man.xml:1256
 #: xml/apparmor_profiles_man.xml:1553
 msgid "Abort"
-msgstr ""
+msgstr "Zrušit"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1079 xml/apparmor_profiles_man.xml:1258
@@ -1397,12 +1853,14 @@ msgid ""
 "Aborts <command>aa-logprof</command>, losing all rule changes entered so far "
 "and leaving all profiles unmodified."
 msgstr ""
+"Přeruší <command>aa-logprof</command>, zahodí všechny dosud zadané změny "
+"pravidel a všechny profily zůstanou nezměněny."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1086 xml/apparmor_profiles_man.xml:1265
 #: xml/apparmor_profiles_man.xml:1562
 msgid "Finish"
-msgstr ""
+msgstr "Ukončit"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1088 xml/apparmor_profiles_man.xml:1267
@@ -1411,6 +1869,8 @@ msgid ""
 "Closes <command>aa-logprof</command>, saving all rule changes entered so far "
 "and modifying all profiles."
 msgstr ""
+"Ukončí <command>aa-logprof</command>, uloží všechny dosud zadané změny "
+"pravidel a upraví všechny profily."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1097
@@ -1420,11 +1880,15 @@ msgid ""
 "<filename>/var/run/nscd/*</filename> for reading, then using an abstraction "
 "to cover common Apache-related access rules."
 msgstr ""
+"<xref linkend=\"ex.apparmor.commandline.profiling.summary.genprof.perms\"/> "
+"ukazuje, jak <phrase>AppArmor</phrase> navrhne povolit pro čtení globbing-"
+"šablonu <filename>/var/run/nscd/*</filename> a pak použít abstrakci "
+"pokrývající běžná pravidla přístupu související s Apache."
 
 #. (itstool) path: example/title
 #: xml/apparmor_profiles_man.xml:1104
 msgid "Learning Mode Exception: Defining Permissions for an Entry"
-msgstr ""
+msgstr "Výjimka učebního režimu: Definice oprávnění pro položku"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_profiles_man.xml:1105
@@ -1453,6 +1917,35 @@ msgid ""
 "(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)pts\n"
 "Adding #include &lt;abstractions/apache2-common&gt; to profile.\n"
 msgstr ""
+"Profile:  /usr/sbin/httpd2-prefork  [Profil:...]\n"
+"Path:     /var/run/nscd/dbSz9CTr  [Cesta:...]\n"
+"Mode:     r  [Režim:...]\n"
+"Severity: 3  [Závažnost:...]\n"
+"\n"
+"  1 - /var/run/nscd/dbSz9CTr\n"
+" [2 - /var/run/nscd/*]\n"
+"\n"
+"(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)"
+"pts\n"
+"[Povolit / Odepřít / Globbing / Globbing s příponou / Nový / Zrušit / "
+"Ukončit / Možnosti]\n"
+"Adding /var/run/nscd/* r to profile.  [Přidávám ... do profilu.]\n"
+"\n"
+"Profile:  /usr/sbin/httpd2-prefork  [Profil:...]\n"
+"Path:     /proc/11769/attr/current  [Cesta:...]\n"
+"Mode:     w  [Režim:...]\n"
+"Severity: 9  [Závažnost:...]\n"
+"\n"
+" [1 - #include &lt;abstractions/apache2-common&gt;]\n"
+"  2 - /proc/11769/attr/current\n"
+"  3 - /proc/*/attr/current\n"
+"\n"
+"(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)"
+"pts\n"
+"[Povolit / Odepřít / Globbing / Globbing s příponou / Nový / Zrušit / "
+"Ukončit / Možnosti]\n"
+"Adding #include &lt;abstractions/apache2-common&gt; to profile.  [Přidávám "
+"... do profilu.]\n"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1129
@@ -1461,6 +1954,9 @@ msgid ""
 "entering the option number, select the desired options then proceed to the "
 "next step."
 msgstr ""
+"<phrase>AppArmor</phrase> obsahuje jednu nebo více cest nebo vložených "
+"částí. Zadáním čísla možnosti vyberte požadované možnosti a přejděte k "
+"dalšímu kroku."
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:1135
@@ -1468,11 +1964,13 @@ msgid ""
 "Not all of these options are always presented in the <phrase>AppArmor</"
 "phrase> menu."
 msgstr ""
+"V nabídce <phrase> AppArmor </phrase> nejsou tyto možnosti vždy uvedeny "
+"všechny."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1141
 msgid "<literal>#include</literal>"
-msgstr ""
+msgstr "<literal>#include</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1144
@@ -1483,11 +1981,16 @@ msgid ""
 "are also required by other programs. Using includes can reduce the size of a "
 "profile. It is good practice to select includes when suggested."
 msgstr ""
+"Tato část profilu <phrase>AppArmor</phrase> odkazuje na vkládaný soubor, "
+"který zajišťuje přístupová oprávnění pro programy. Vložením můžete programu "
+"poskytnout přístup k adresářovým cestám nebo souborům, které jsou také "
+"vyžadovány jinými programy. Použití vkládání může zmenšit velikost profilu. "
+"Je dobrým zvykem volit vkládané soubory, pokud jsou navrženy."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1155
 msgid "Globbed Version"
-msgstr ""
+msgstr "Globbed verze"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1157
@@ -1496,11 +1999,14 @@ msgid ""
 "next step. For information about globbing syntax, refer to <xref linkend="
 "\"sec.apparmor.profiles.glob\"/>."
 msgstr ""
+"K ní se dostanete výběrem <guimenu>Glob</guimenu>, jak je popsáno v dalším "
+"kroku. Informace o syntaxi globbing najdete v <xref linkend=\""
+"sec.apparmor.profiles.glob\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1165
 msgid "Actual Path"
-msgstr ""
+msgstr "Aktuální cesta"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1167
@@ -1508,6 +2014,8 @@ msgid ""
 "This is the literal path to which the program needs access so that it can "
 "run properly."
 msgstr ""
+"Je to výslovná cesta (tj. neobsahuje žádné nahrazované proměnné), ke které "
+"potřebuje mít program přístup, aby mohl správně fungovat."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1174
@@ -1517,6 +2025,11 @@ msgid ""
 "<guimenu>Deny</guimenu>. If you are not satisfied with the directory path "
 "entry as it is displayed, you can also <guimenu>Glob</guimenu> it."
 msgstr ""
+"Po výběru cesty nebo vložené části ji zpracujte jako záznam do profilu "
+"<phrase>AppArmor</phrase> výběrem <guimenu>Povolit</guimenu> nebo "
+"<guimenu>Odepřít</guimenu>. Pokud nejste spokojeni s položkou cesty k "
+"adresáři tak, jak je zobrazena, můžete ji také zadat jako "
+"<guimenu>Glob</guimenu>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1181
@@ -1524,21 +2037,23 @@ msgid ""
 "The following options are available to process the learning mode entries and "
 "build the profile:"
 msgstr ""
+"Pro zpracování položek režimu učení a sestavení profilu jsou k dispozici "
+"tyto možnosti:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1187 xml/apparmor_profiles_man.xml:1483
 msgid "Select <keycap function=\"enter\"/>"
-msgstr ""
+msgstr "Select <keycap function=\"enter\"/>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1190
 msgid "Allows access to the selected directory path."
-msgstr ""
+msgstr "Povoluje přístup k vybrané cestě k adresáři."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1196 xml/apparmor_profiles_man.xml:1493
 msgid "Allow"
-msgstr ""
+msgstr "Povolit"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1198
@@ -1547,6 +2062,9 @@ msgid ""
 "phrase> suggests file permission access. For more information, refer to "
 "<xref linkend=\"sec.apparmor.profiles.perm\"/>."
 msgstr ""
+"Povoluje přístup k zadaným položkám cesty k adresáři. "
+"<phrase>AppArmor</phrase> navrhuje přístup k souboru. Další informace "
+"najdete v <xref linkend=\"sec.apparmor.profiles.perm\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1208
@@ -1554,11 +2072,13 @@ msgid ""
 "Prevents the program from accessing the specified directory path entries. "
 "<phrase>AppArmor</phrase> then continues to the next event."
 msgstr ""
+"Zabrání programu v přístupu k zadaným položkám cest k adresářům. "
+"<phrase>AppArmor</phrase> pak pokračuje k další události."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1215 xml/apparmor_profiles_man.xml:1512
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1217
@@ -1568,11 +2088,15 @@ msgid ""
 "that prompted the question in the first place, <phrase>AppArmor</phrase> "
 "asks for confirmation and lets you reenter the expression."
 msgstr ""
+"Vyzve vás k zadání vlastního pravidla pro tuto událost - umožní určit "
+"regulární výraz. Pokud výraz nevyhovuje události, která vyvolala otázku na "
+"prvním místě, požádá aplikace <phrase>AppArmor</phrase> o potvrzení a umožní "
+"znovu zadat výraz."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1227 xml/apparmor_profiles_man.xml:1524
 msgid "Glob"
-msgstr ""
+msgstr "Glob"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1229
@@ -1582,6 +2106,10 @@ msgid ""
 "that is printed in front of the path then decide how to proceed with the "
 "selected item."
 msgstr ""
+"Vyberte konkrétní cestu nebo vytvořte obecné pravidlo pomocí hromadných "
+"zápisů (wildcard), které odpovídají širší sadě cest. Chcete-li vybrat "
+"kteroukoli z nabízených cest, zadejte číslo, které je vytištěno před cestou, "
+"a poté se rozhodněte, jak pokračovat s vybranou položkou."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1235 xml/apparmor_profiles_man.xml:1532
@@ -1589,11 +2117,13 @@ msgid ""
 "For more information about globbing syntax, refer to <xref linkend=\"sec."
 "apparmor.profiles.glob\"/>."
 msgstr ""
+"Další údaje o syntaxi globbingu najdete na <xref linkend=\""
+"sec.apparmor.profiles.glob\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1242 xml/apparmor_profiles_man.xml:1539
 msgid "Glob w/Ext"
-msgstr ""
+msgstr "Glob w/Ext"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1244 xml/apparmor_profiles_man.xml:1541
@@ -1604,6 +2134,11 @@ msgid ""
 "place of the file name. This allows the program to access all files in the "
 "suggested directory that end with the <literal>.ext</literal> extension."
 msgstr ""
+"Tím se upraví původní cesta k adresáři při zachování přípony názvu souboru. "
+"Např. z <filename>/etc/apache2/file.ext</filename> se stane <filename>/etc/"
+"apache2/*.ext</filename> a místo názvu souboru je hromadný zápis, tzv. "
+"divoká karta (hvězdička). To programu umožní v navrhovaném adresáři přístup "
+"ke všem souborům, které končí příponou <literal>.ext</literal>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1278
@@ -1616,6 +2151,14 @@ msgid ""
 "For more information about vim and syntax highlighting, refer to <xref "
 "linkend=\"sec.apparmor.commandline.profiling.summary.vim\"/>."
 msgstr ""
+"Chcete-li zobrazit a upravit svůj profil pomocí <command>vi</command>, "
+"zadejte v okně terminálu <command>vi /etc/apparmor.d/</command> "
+"<replaceable>NÁZEV_PROFILU</replaceable>. Chcete-li při úpravě profilu "
+"<phrase>AppArmor</phrase> ve vim povolit zvýraznění syntaxe, použijte "
+"příkazy <command>:syntax on</command> a potom <command>:set "
+"syntax=apparmor</command>. Další informace o zvýraznění vim a syntaxe "
+"naleznete v <xref linkend=\"sec.apparmor.commandline.profiling.summary.vim\""
+"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1290
@@ -1624,6 +2167,8 @@ msgid ""
 "newly created one using the <command>systemctl reload apparmor</command> "
 "command."
 msgstr ""
+"Restartujte <phrase>AppArmor</phrase> a znovu načtěte sadu profilů, včetně "
+"nově vytvořeného, příkazem <command>systemctl reload apparmor</command>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1297
@@ -1634,16 +2179,21 @@ msgid ""
 "apparmor/profiles/extras</filename> and the remote <phrase>AppArmor</phrase> "
 "profile repository."
 msgstr ""
+"Stejně jako grafické rozhraní pro vytváření profilů <phrase>AppArmor</phrase>"
+" - YaST Průvodce přidáním profilu, také <command>aa-genprof</command> "
+"podporuje použití úložiště lokálních profilů v <filename>/etc/apparmor/"
+"profiles/extras</filename> a vzdálené úložiště profilů "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1305
 msgid "To use a profile from the local repository, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li použít profil z místního úložiště, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1310
 msgid "Start <command>aa-genprof</command> as described above."
-msgstr ""
+msgstr "Spusťte <command>aa-genprof</command>, jak je popsáno výše."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1313
@@ -1651,6 +2201,8 @@ msgid ""
 "If <command>aa-genprof</command> finds an inactive local profile, the "
 "following lines appear on your terminal window:"
 msgstr ""
+"Najde-li <command>aa-genprof</command> neaktivní místní profil, objeví se v "
+"okně terminálu tyto řádky:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:1317
@@ -1662,6 +2214,14 @@ msgid ""
 "\n"
 "[(V)iew Profile] / (U)se Profile / (C)reate New Profile / Abo(r)t / (F)inish"
 msgstr ""
+"Profile: /usr/bin/opera  [Profil::...]\n"
+"\n"
+" [1 - Inactive local profile for /usr/bin/opera] [1 - Neaktivní místní "
+"profil pro...]\n"
+"\n"
+"[(V)iew Profile] / (U)se Profile / (C)reate New Profile / Abo(r)t / (F)"
+"inish\n"
+"[Ukázat profil / Použít profil / Vytvořit nový profil / Zrušit / Ukončit]"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1324
@@ -1669,6 +2229,9 @@ msgid ""
 "To use this profile, press <keycap>U</keycap> (<guimenu>Use Profile</"
 "guimenu>) and follow the profile generation procedure outlined above."
 msgstr ""
+"Chcete-li tento profil použít, stiskněte klávesu <keycap>U</keycap> "
+"(<guimenu>Use profile</guimenu>) a postupujte podle výše uvedeného postupu "
+"generování profilu."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1329
@@ -1676,6 +2239,8 @@ msgid ""
 "To examine the profile before activating it, press <keycap>V</keycap> "
 "(<guimenu>View Profile</guimenu>)."
 msgstr ""
+"Chcete-li prozkoumat profil před jeho aktivací, stiskněte <keycap>V</keycap> "
+"(<guimenu>View Profile</guimenu>)."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1333
@@ -1684,6 +2249,9 @@ msgid ""
 "New Profile</guimenu>) and follow the profile generation procedure outlined "
 "above to create the profile from scratch."
 msgstr ""
+"Chcete-li ignorovat existující profil, stiskněte klávesu <keycap>C</keycap> "
+"(<guimenu>Create New Profile</guimenu>) a podle výše uvedeného postupu "
+"vytváření profilu vytvořte profil od začátku."
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1341
@@ -1691,11 +2259,13 @@ msgid ""
 "Leave <command>aa-genprof</command> by pressing <keycap>F</keycap> "
 "(<guimenu>Finish</guimenu>) when you are done and save your changes."
 msgstr ""
+"Po dokončení opusťte <command>aa-genprof</command> stisknutím "
+"<keycap>F</keycap> (<guimenu>Finish</guimenu>) a uložte změny."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1349
 msgid "aa-logprof—Scanning the System Log"
-msgstr ""
+msgstr "aa-logprof — Skenování systémového žurnálu"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1350
@@ -1706,6 +2276,12 @@ msgid ""
 "\">systemd</systemitem> journal (see <xref linkend=\"cha.journalctl\"/>), "
 "and generate new entries in <phrase>AppArmor</phrase> security profiles."
 msgstr ""
+"<command>aa-logprof</command> je interaktivní nástroj používaný k prohlížení "
+"událostí, vzniklých v režimech stížností a vynucování, nalezených v "
+"položkách protokolu ve <filename>/var/log/audit/audit.log</filename> nebo "
+"přímo v žurnálu <systemitem class=\"daemon\">systemd</systemitem> (viz <xref "
+"linkend=\"cha.journalctl\"/>). Generuje nové položky v bezpečnostních "
+"profilech <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1357
@@ -1716,6 +2292,11 @@ msgid ""
 "modifying the profile. <command>aa-logprof</command> uses this information "
 "to observe program behavior."
 msgstr ""
+"Když spustíte příkaz <command>aa-logprof</command>, začne skenovat soubory "
+"protokolu, vytvořené v režimech stěžování a vynucení, a pokud existují nové "
+"bezpečnostní události, které nejsou pokryty existující sadou profilů, dává "
+"návrhy na úpravu profilu. <command>aa-logprof</command> používá tyto "
+"informace ke sledování chování programu."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1365
@@ -1732,6 +2313,17 @@ msgid ""
 "<command>aa-autodep</command> run on them and are loaded into "
 "<phrase>AppArmor</phrase>, if it is running."
 msgstr ""
+"Rozvětvuje-li se program, omezený profilem,  a spouští jiný program, <command"
+">aa-logprof</command> to zjistí a zeptá se uživatele, který režim provedení "
+"by měl být použit při spuštění podřízeného procesu. Možnosti pro zahájení "
+"podřízeného procesu (režimy jeho provádění) jsou: <emphasis>ix</emphasis>, "
+"<emphasis>px</emphasis>, <emphasis>Px</emphasis>, <emphasis>ux</emphasis>, "
+"<emphasis>Ux</emphasis>, <emphasis>cx</emphasis>, <emphasis>Cx</emphasis> a "
+"pojmenované profily. Pokud pro podřízený proces existuje samostatný profil, "
+"výchozí výběr je <emphasis>Px</emphasis>. Pokud neexistuje, bude výchozí "
+"možnost <emphasis>ix</emphasis>. Podřízené procesy se samostatnými profily "
+"mají pro sebe spuštěn <command>aa-autodep</command> a pokud běží, jsou "
+"načteny do <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1379
@@ -1742,6 +2334,12 @@ msgid ""
 "running in the null-XXXX profiles (unique profiles temporarily created in "
 "complain mode), those processes are set to run under their proper profiles."
 msgstr ""
+"Když <command>aa-logprof</command> skončí, profily se aktualizují změnami. "
+"Je-li aktivní <phrase>AppArmor</phrase>, aktualizované profily jsou znovu "
+"načteny a pokud všechny procesy, které generovaly bezpečnostní události, "
+"stále běží v profilech null-XXXX (jedinečné profily dočasně vytvořené v "
+"režimu stížnosti), jsou tyto procesy nastaveny tak, aby běžely pod svými "
+"správnými profily."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1386
@@ -1751,6 +2349,10 @@ msgid ""
 "\">root</systemitem>. The following options can be used for <command>aa-"
 "logprof</command>:"
 msgstr ""
+"Chcete-li spustit příkaz <command>aa-logprof</command>, zadejte do "
+"příkazového řádku <command>aa-logprof</command> a přihlaste se jako <"
+"systemitem class=\"username\">root</systemitem>. Pro <command>aa-"
+"logprof</command> lze použít následující možnosti:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1394
@@ -1758,6 +2360,8 @@ msgid ""
 "<command>aa-logprof -d</command><replaceable>/path/to/profile/directory/</"
 "replaceable>"
 msgstr ""
+"<command>aa-logprof -d</command><replaceable>/cesta/k/adresáři/"
+"profilů/</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1397
@@ -1765,12 +2369,16 @@ msgid ""
 "Specifies the full path to the location of the profiles if the profiles are "
 "not located in the standard directory, <filename>/etc/apparmor.d/</filename>."
 msgstr ""
+"Určuje úplnou cestu k umístění profilů, pokud nejsou umístěny ve standardním "
+"adresáři <filename>/etc/apparmor.d/</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1405
 msgid ""
 "<command>aa-logprof -f</command><replaceable>/path/to/logfile/</replaceable>"
 msgstr ""
+"<command>aa-logprof -f</command><replaceable>/cesta/k/souboru_žurnálu/"
+"</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1408
@@ -1779,11 +2387,15 @@ msgid ""
 "not located in the default directory or <filename>/var/log/audit/audit.log</"
 "filename>."
 msgstr ""
+"Určuje úplnou cestu k umístění souboru protokolu, není-li soubor protokolu "
+"umístěn ve výchozím adresáři, tj. <filename>/var/log/audit/"
+"audit.log</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1416
 msgid "<command>aa-logprof -m \"string marker in logfile\"</command>"
 msgstr ""
+"<command>aa-logprof -m \"řetězec značky v žurnálovém souboru\"</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1419
@@ -1793,23 +2405,30 @@ msgid ""
 "log before the specified mark. If the mark contains spaces, it must be "
 "surrounded by quotes to work correctly. For example:"
 msgstr ""
+"Označuje počáteční bod, značku, kam se má <command>aa-logprof</command> do "
+"systémového protokolu podívat. <command>aa-logprof</command> ignoruje "
+"všechny události v systémovém protokolu před určenou značkou. Pokud značka "
+"obsahuje mezery, musí být uzavřena uvozovkami, aby správně fungovala. "
+"Například:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:1426
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>aa-logprof -m \"17:04:21\""
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>aa-logprof -m \"17:04:21\""
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1427
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:1430
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>aa-logprof -m e2ff78636296f16d0b5301209a04430d"
 msgstr ""
+"<prompt role=\"root\">root # </prompt>aa-logprof -m "
+"e2ff78636296f16d0b5301209a04430d"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1434
@@ -1819,6 +2438,10 @@ msgid ""
 "phrase> rules that can be added by pressing the number of the item on the "
 "list."
 msgstr ""
+"<command>aa-logprof</command> prohledává žurnál (protokol) a ptá se, jak "
+"zpracovat každou zaznamenanou událost. Každá otázka představuje číslovaný "
+"seznam pravidel <phrase>AppArmor</phrase>, která lze přidat stisknutím čísla "
+"položky v seznamu."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1439
@@ -1832,11 +2455,20 @@ msgid ""
 "this is the case, you can enter <command>zcat -f `ls -1tr</command> "
 "<replaceable>/path/to/logfile*</replaceable>` | aa-logprof -f -."
 msgstr ""
+"Ve výchozím nastavení <command>aa-logprof</command> hledá profily ve "
+"<filename>/etc/apparmor.d/</filename>. Pro aktualizaci profilu často stačí "
+"spustit <command>aa-logprof</command> jako <systemitem class=\"username\""
+">root</systemitem>. Mohou se však vyskytnout případy, kdy je třeba "
+"prohledávat archivované soubory protokolu, například pokud doba provádění "
+"programu překračuje okno rotace protokolu (když je soubor protokolu "
+"archivován a je spuštěn nový soubor protokolu). V takovém případě můžete "
+"zadat <command>zcat -f `ls -1tr</command> <replaceable>/cesta/k/"
+"žurnálu*</replaceable>` | aa-logprof -f -."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1452
 msgid "aa-logprof Example 1"
-msgstr ""
+msgstr "aa-logprof Příklad 1"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1453
@@ -1845,6 +2477,9 @@ msgid ""
 "httpd2-prefork accessing the file <filename>/etc/group</filename>. "
 "<literal>[]</literal> indicates the default option."
 msgstr ""
+"Následuje příklad, jak <command>aa-logprof</command> adresuje httpd2-prefork "
+"přistupující k souboru <filename>/etc/group</filename>. <literal>[]</literal>"
+" označuje výchozí možnost."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1459
@@ -1858,6 +2493,15 @@ msgid ""
 "configuration and the associated name service profile package can be made "
 "once, rather than needing to revise many profiles."
 msgstr ""
+"V tomto příkladu je přístup ke <command>/etc/group</command> součástí httpd2-"
+"prefork přistupujícímu k názvovým službám. Vhodná odpověď je "
+"<literal>1</literal>, což vloží předdefinovanou sadu pravidel "
+"<phrase>AppArmor</phrase>. Výběrem <literal>1</literal> "
+"(<literal>#include</literal> balíček názvových služeb) se řeší všechny "
+"budoucí otázky týkající se vyhledávání DNS a způsobí to, že profil bude méně "
+"křehký v tom, že jakékoli změny konfigurace DNS a přidruženého balíčku "
+"názvových služeb profilu se mohou provést jen jednou, místo nutnosti revize "
+"mnoha profilů."
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1469
@@ -1872,11 +2516,21 @@ msgid ""
 " 2 - /etc/group\n"
 "[(A)llow] / (D)eny / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
 msgstr ""
+"\n"
+"Profile:  /usr/sbin/httpd2-prefork  [Profil:...]\n"
+"Path:     /etc/group  [Cesta:...]\n"
+"New Mode: r  [Nový režim:...]\n"
+"\n"
+"[1 - #include &lt;abstractions/nameservice&gt;]\n"
+" 2 - /etc/group\n"
+"[(A)llow] / (D)eny / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
+"[Povolit / Odmítnout / Nový / Globbing / Globbing s příponou / Zrušit / "
+"Ukončit]\n"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1478
 msgid "Select one of the following responses:"
-msgstr ""
+msgstr "Zvolte jednu z odpovědí:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1486
@@ -1884,6 +2538,8 @@ msgid ""
 "Triggers the default action, which is, in this example, allowing access to "
 "the specified directory path entry."
 msgstr ""
+"Spustí výchozí akci, která v tomto příkladu umožňuje přístup k zadané "
+"položce cesty k adresáři."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1495
@@ -1892,6 +2548,9 @@ msgid ""
 "phrase> suggests file permission access. For more information about this, "
 "refer to <xref linkend=\"sec.apparmor.profiles.perm\"/>."
 msgstr ""
+"Umožní přístup k zadaným položkám cesty k adresáři. <phrase>AppArmor</phrase>"
+" navrhne oprávnění přístupu k souboru. Další informace k tomu najdete v <"
+"xref linkend=\"sec.apparmor.profiles.perm\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1505
@@ -1899,6 +2558,8 @@ msgid ""
 "Permanently prevents the program from accessing the specified directory path "
 "entries. <phrase>AppArmor</phrase> then continues to the next event."
 msgstr ""
+"Trvale zabrání programu v přístupu k zadaným položkám cesty k adresáři. "
+"<phrase>AppArmor</phrase> pak pokračuje k další události."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1514
@@ -1909,6 +2570,10 @@ msgid ""
 "place, <phrase>AppArmor</phrase> asks for confirmation and lets you reenter "
 "the expression."
 msgstr ""
+"Vyzve vás k zadání vlastního pravidla pro tuto událost, což vám umožní určit "
+"jakoukoli formu regulárního výrazu, jakou chcete. Pokud zadaný výraz ve "
+"skutečnosti nevyhoví události, která na prvním místě vyvolala otázku, "
+"<phrase>AppArmor</phrase> požádá o potvrzení a umožní znovu zadat výraz."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1526
@@ -1918,16 +2583,20 @@ msgid ""
 "the number that is printed in front of the paths then decide how to proceed "
 "with the selected item."
 msgstr ""
+"Vyberte buď konkrétní cestu, nebo vytvořte obecné pravidlo pomocí zástupných "
+"názvů, které odpovídají širší sadě cest. Chcete-li vybrat kteroukoli z "
+"nabízených cest, zadejte číslo, které je vytištěno před cestami, a poté se "
+"rozhodněte, jak pokračovat s vybranou položkou."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1573
 msgid "aa-logprof Example 2"
-msgstr ""
+msgstr "aa-logprof Příklad 2"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1574
 msgid "For example, when profiling vsftpd, see this question:"
-msgstr ""
+msgstr "Například při profilování vsftpd vidíte tuto otázku:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1577
@@ -1942,6 +2611,16 @@ msgid ""
 "\n"
 "(A)llow / [(D)eny] / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
 msgstr ""
+"Profile:  /usr/sbin/vsftpd  [Profil:...]\n"
+"Path:     /y2k.jpg  [Cesta:...]\n"
+"\n"
+"New Mode: r  [Nový režim: r]\n"
+"\n"
+"[1 - /y2k.jpg]\n"
+"\n"
+"(A)llow / [(D)eny] / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
+"Povolit / Odepřít / Nový / Globbing / Globbing s příponou / Zrušit / Ukončit]"
+"\n"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1588
@@ -1956,6 +2635,15 @@ msgid ""
 "<phrase>AppArmor</phrase> sees file accesses in terms of the chroot "
 "environment rather than the global absolute path."
 msgstr ""
+"V této otázce se objevuje několik zajímavých bodů. Nejprve si všimněte, že "
+"vsftpd požaduje zadání cesty v horní části stromu, i když vsftpd na <phrase "
+"role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> standardně obsluhuje FTP soubory z "
+"<filename>/srv/ftp</filename>. Je to proto, že vsftpd používá chroot a pro "
+"část kódu uvnitř chrootského vězení <phrase>AppArmor</phrase> vidí přístupy "
+"k souborům spíše z hlediska chrootového prostředí než z globální absolutní "
+"cesty."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1598
@@ -1967,6 +2655,12 @@ msgid ""
 "files and forestalls any future questions pertaining to access to <filename>."
 "jpg</filename> files."
 msgstr ""
+"Druhým zajímavým bodem je, že byste měli udělit FTP přístup ke čtení ke všem "
+"souborům JPEG v adresáři, abyste mohli použít <guimenu>Glob w/Ext</guimenu> "
+"a použít navrhovanou cestu <literal>/*. jpg </literal>. Tím padnou všechna "
+"předchozí pravidla, která udělují přístup k jednotlivým souborům "
+"<literal>.jpg</literal> a předcházejí jakýmkoli budoucím otázkám týkajícím "
+"se přístupu k souborům <filename>.jpg</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1607
@@ -1980,6 +2674,15 @@ msgid ""
 "<literal>.jpg</literal> files in the entire directory tree) or <filename>/"
 "**</filename> (which would grant access to all files in the directory tree)."
 msgstr ""
+"Nakonec byste měli udělit obecnější přístup k souborům FTP. Pokud v poslední "
+"položce vyberete <guimenu>Glob</guimenu>, <command>aa-logprof</command> "
+"nahradí navrhovanou cestu <filename>/y2k.jpg</filename> cestou "
+"<filename>/*</filename>. Případně byste měli udělit ještě více přístupu k "
+"celému stromu adresářů. V takovém případě byste mohli použít možnost cesty "
+"<guimenu>New</guimenu> a zadat <literal>/**.jpg </literal> (což by udělilo "
+"přístup do všech <literal>.jpg</literal> souborů v celém adresářovém stromu) "
+"nebo <filename>/**</filename> (což by udělilo přístup ke všem souborům ve "
+"stromu adresářů)."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1619
@@ -1990,6 +2693,11 @@ msgid ""
 "example in <xref linkend=\"ex.apparmor.commandline.profiling.summary.genprof."
 "learn\"/>."
 msgstr ""
+"Tyto položky se zabývají přístupy pro čtení. Přístupy pro zápis jsou "
+"podobné, až na to, že při používání regulárních výrazů pro přístupy pro "
+"zápis je dobré být konzervativnější. Řešení s přístupy pro spouštění je "
+"složitější. Příklad najdete v <xref linkend=\""
+"ex.apparmor.commandline.profiling.summary.genprof.learn\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1626
@@ -2000,6 +2708,11 @@ msgid ""
 "as a helper application to <quote>page</quote> long mail messages. "
 "Consequently, it presents this prompt:"
 msgstr ""
+"V následujícím příkladu je profilován poštovní klient <filename>/usr/bin/"
+"mail</filename> a <command>aa-logprof</command> zjistil, že příkaz <command>/"
+"usr/bin/mail</command> spouští <command>/usr/bin/less</command> jako "
+"pomocnou aplikaci pro <quote>stránku</quote> dlouhé poštovní zprávy. "
+"Následně zobrazí tuto výzvu:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1634
@@ -2009,6 +2722,10 @@ msgid ""
 "/usr/bin/nail -&gt; /usr/bin/less\n"
 "(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny\n"
 msgstr ""
+"\n"
+"/usr/bin/nail -&gt; /usr/bin/less\n"
+"(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny\n"
+"[Zdědit / Profil / Dítě / Název / Neomezovat / Xix / Odepřít]\n"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:1639
@@ -2016,6 +2733,9 @@ msgid ""
 "The actual executable file for <filename>/usr/bin/mail</filename> turns out "
 "to be <filename>/usr/bin/nail</filename>, which is not a typographical error."
 msgstr ""
+"Ukázalo se, že skutečný spustitelný soubor pro <filename>/usr/bin/"
+"mail</filename> je <filename>/usr/bin/nail</filename>, což není typografická "
+"chyba."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1645
@@ -2027,6 +2747,11 @@ msgid ""
 "many other helper applications, such as <command>tar</command> and "
 "<command>rpm</command>."
 msgstr ""
+"Program <filename>/usr/bin/less</filename> se zdá být vhodný pro procházení "
+"textem, který je delší než jedna obrazovka, a proto ho vlastně <filename>/"
+"usr/bin/mail</filename> používá. <command>less</command> je však ve "
+"skutečnosti velký a výkonný program, který používá mnoho dalších pomocných "
+"aplikací, například <command>tar</command> a <command>rpm</command>."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:1654
@@ -2034,6 +2759,8 @@ msgid ""
 "Run <command>less</command> on a tar file or an RPM file and it shows you "
 "the inventory of these containers."
 msgstr ""
+"Spusťte <command>less</command> na souboru tar nebo RPM a tím zobrazíte "
+"inventář těchto kontejnerů."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1659
@@ -2045,6 +2772,12 @@ msgid ""
 "results in the less program executed from this context running under the "
 "profile for <filename>/usr/bin/mail</filename>. This has two consequences:"
 msgstr ""
+"Nechcete automaticky spouštět <command>rpm</command> při čtení e-mailových "
+"zpráv (což vede přímo k virovému útoku ve stylu Microsoft® Outlook, protože "
+"RPM má pravomoc instalovat a upravovat systémové programy), takže v takovém "
+"případě je nejlepší volbou použít <guimenu>Zdědit</guimenu>. Výsledkem bude "
+"program less spuštěný z tohoto kontextu a běžící pod profilem pro <filename>/"
+"usr/bin/mail</filename>. To má dva důsledky:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1670
@@ -2052,6 +2785,8 @@ msgid ""
 "You need to add all of the basic file accesses for <filename>/usr/bin/less</"
 "filename> to the profile for <filename>/usr/bin/mail</filename>."
 msgstr ""
+"Je třeba přidat všechny základní přístupy k souborům pro <filename>/usr/bin/"
+"less</filename> do profilu pro <filename>/usr/bin/mail</filename>."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1677
@@ -2064,6 +2799,13 @@ msgid ""
 "option is to use the Cx execute modes. For more information on execute "
 "modes, see <xref linkend=\"sec.apparmor.profiles.exec\"/>."
 msgstr ""
+"Můžete se vyhnout přidání pomocných aplikací, například "
+"<command>tar</command> a <command>rpm</command>, do profilu <filename>/usr/"
+"bin/mail</filename>, takže když <filename>/usr/bin/mail</filename> spustí "
+"<filename>/usr/bin/less</filename> v tomto kontextu, je program less mnohem "
+"méně nebezpečný, než by byl bez ochrany <phrase>AppArmor</phrase>. Další "
+"možností je použití režimů běhu Cx. Další informace o režimech běhu najdete "
+"v <xref linkend=\"sec.apparmor.profiles.exec\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1689
@@ -2072,6 +2814,9 @@ msgid ""
 "guimenu> option. This has the following effects on <command>aa-logprof</"
 "command>:"
 msgstr ""
+"Za jiných okolností můžete místo toho použít možnost "
+"<guimenu>Profil</guimenu>. To má na <command>aa-logprof</command> tyto "
+"účinky:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1696
@@ -2079,6 +2824,8 @@ msgid ""
 "The rule written into the profile uses px/Px, which forces the transition to "
 "the child's own profile."
 msgstr ""
+"Pravidlo zapsané do profilu používá px/Px, což vynutí přechod k vlastnímu "
+"profilu dítěte (podřízeného programu)."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1702
@@ -2089,6 +2836,11 @@ msgid ""
 "<command>aa-logprof</command> user questions. The profile will also be "
 "applied if you run the child as a stand-alone program."
 msgstr ""
+"<command>aa-logprof</command> vytvoří profil pro dítě a začne jej budovat "
+"stejným způsobem, jako vytvořil rodičovský profil, přiřazením událostí pro "
+"podřízený proces k profilu dítěte a tím, že si <command>aa-logprof</command> "
+"vyžádá uživatelovy odpovědí na své otázky. Profil bude také použit, pokud "
+"spustíte dítě jako samostatný program."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1711
@@ -2099,6 +2851,11 @@ msgid ""
 "profile, unconfined, child, named profile, or an option to deny the "
 "execution are presented."
 msgstr ""
+"Pokud se AppArmorem omezený program rozvětví a spustí jiný program, <command"
+">aa-logprof</command> to zjistí a zeptá se uživatele, který režim běhu by "
+"měl být použit při spuštění podřízeného procesu. K výběru jsou nabídnuty "
+"režimy běhu: zdědění, profil, bez omezení, dítě (podřízený), pojmenovaný "
+"profil nebo možnost odepřít spuštění."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1718
@@ -2108,6 +2865,10 @@ msgid ""
 "option, or <literal>ix</literal>, is described in <xref linkend=\"sec."
 "apparmor.profiles.perm\"/>."
 msgstr ""
+"Pokud pro podřízený proces existuje samostatný profil, výchozí výběr je "
+"profil. Pokud profil neexistuje, pak výchozí profil je zděděný. Možnost "
+"zdědění, čili <literal>ix</literal>, je popsána v <xref linkend=\""
+"sec.apparmor.profiles.perm\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1724
@@ -2121,6 +2882,13 @@ msgid ""
 "occurs. The default for the execution mode is <literal>Px</literal> if you "
 "select profile execution mode."
 msgstr ""
+"Volba profilu označuje, že by měl být podřízený program spuštěn ve svém "
+"vlastním profilu. Druhotnou otázkou je, zda očistit prostředí, které "
+"podřízený program zdědí od rodiče. Pokud se rozhodnete očistit prostředí, "
+"umístí modifikátor provedení <literal>Px</literal> do vašeho profilu "
+"<phrase>AppArmor</phrase>. Nerozhodnete-li se k očistě, je do profilu vložen "
+"<literal>px</literal> a nenastane žádné čistění prostředí. Výchozí režim "
+"provádění je <literal>Px</literal>, pokud vyberete režim běhu s profilem."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1734
@@ -2135,11 +2903,20 @@ msgid ""
 "your profile instead, select <guimenu>No</guimenu>. The default value "
 "selected is <literal>Ux</literal> for unconfined execution mode."
 msgstr ""
+"Neomezený režim provádění se nedoporučuje a měl by se používat pouze v "
+"případech, kdy neexistuje žádná jiná možnost spolehlivého vygenerování "
+"profilu pro program. Výběrem neomezeného běhu se otevře varovné dialogové "
+"okno s dotazem na potvrzení volby. Jste-li si jisti a zvolíte "
+"<guimenu>Yes</guimenu>, zobrazí se ve druhém dialogu dotaz, zda očistit "
+"prostředí. Chcete-li ve svém profilu použít režim běhu <literal>Ux</literal>"
+", vyberte <guimenu>Yes</guimenu>. Chcete-li místo toho ve svém profilu "
+"použít režim běhu <literal>ux</literal>, vyberte <guimenu>No</guimenu>. "
+"Výchozí vybraná hodnota je <literal>Ux</literal> - neomezený režim provádění."
 
 #. (itstool) path: important/title
 #: xml/apparmor_profiles_man.xml:1747
 msgid "Running Unconfined"
-msgstr ""
+msgstr "Neomezený běh"
 
 #. (itstool) path: important/para
 #: xml/apparmor_profiles_man.xml:1748
@@ -2148,11 +2925,14 @@ msgid ""
 "enforcement of policy (from a security perspective) of the resulting "
 "execution behavior of the child program."
 msgstr ""
+"Výběr <literal>ux nebo Ux</literal> je velmi nebezpečný a neposkytuje žádné "
+"vynucení zásad (co do bezpečnosti) výsledného chování běhu podřízeného "
+"programu."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1760
 msgid "aa-unconfined—Identifying Unprotected Processes"
-msgstr ""
+msgstr "aa-unconfined — Identifikace nechráněných procesů"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1761
@@ -2164,6 +2944,11 @@ msgid ""
 "privileges and that it not be confined by an <phrase>AppArmor</phrase> "
 "profile."
 msgstr ""
+"Příkaz <command>aa-unconfined</command> prozkoumá otevřené síťové porty ve "
+"vašem systému, porovná to se sadou profilů načtených ve vašem systému a "
+"ohlásí síťové služby, které nemají profily <phrase>AppArmor</phrase>. "
+"Vyžaduje oprávnění <systemitem class=\"username\">root</systemitem> a nesmí "
+"být omezen profilem <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1768
@@ -2173,11 +2958,15 @@ msgid ""
 "<filename>/proc</filename> file system. This program is susceptible to the "
 "following race conditions:"
 msgstr ""
+"<command>aa-unconfined</command> musí být spuštěn pod uživatelem <systemitem "
+"class=\"username\">root</systemitem>, aby bylo možné získat odkaz na "
+"spustitelný proces ze systému souborů <filename>/proc</filename>. Tento "
+"program je citlivý na následující podmínky běhu:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1776
 msgid "An unlinked executable is mishandled"
-msgstr ""
+msgstr "Nepřipojený spustitelný soubor je nesprávně zpracován"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1782
@@ -2185,6 +2974,8 @@ msgid ""
 "A process that dies between <command>netstat(8)</command> and further checks "
 "is mishandled"
 msgstr ""
+"Proces, který skončí mezi <command>netstat(8)</command> a dalšími "
+"kontrolami, je nesprávně zpracován"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:1789
@@ -2193,11 +2984,15 @@ msgid ""
 "is unsuitable for forensics use and is provided only as an aid to profiling "
 "all network-accessible processes in the lab."
 msgstr ""
+"Tento program uvádí procesy používající pouze TCP a UDP. Stručně řečeno, "
+"tento program není vhodný pro forenzní použití (pátrání) a je poskytován "
+"pouze jako laboratorní pomůcka k profilování všech procesů přistupujících k "
+"síti."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1797
 msgid "aa-notify"
-msgstr ""
+msgstr "aa-notify"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1798
@@ -2209,12 +3004,21 @@ msgid ""
 "the policy. To enable <phrase>AppArmor</phrase> desktop notifications, run "
 "<command>aa-notify</command>:"
 msgstr ""
+"<command>aa-notify</command> je užitečný nástroj, který zobrazuje oznámení "
+"<phrase>AppArmor</phrase> na ploše vašeho počítače. To je velmi výhodné, "
+"pokud nechcete kontrolovat soubor žurnálu <phrase>AppArmor</phrase>, ale "
+"raději si necháte zobrazovat informace o událostech, porušující zásady, na "
+"plochu. Chcete-li povolit upozornění na ploše <phrase>AppArmor</phrase>, "
+"spusťte <command>aa-notify</command>:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1805
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-notify -p -u <replaceable>USERNAME</replaceable> --display <replaceable>DISPLAY_NUMBER</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-notify -p -u "
+"<replaceable>UŽIV.JMÉNO</replaceable> --display "
+"<replaceable>ČÍSLO_DISPLEJE</replaceable>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1806
@@ -2225,6 +3029,10 @@ msgid ""
 "process is run in the background, and shows a notification each time a deny "
 "event happens."
 msgstr ""
+"kde <replaceable>UŽIV.JMÉNO</replaceable> je Vaše uživatelské jméno, pod "
+"kterým jste přihlášen, a <replaceable>ČÍSLO_DISPLEJE</replaceable> je číslo "
+"displeje X Window, který právě používáte, např. <literal>:0</literal>. "
+"Proces běží na pozadí a zobrazí upozornění, jakmile nastane událost odepření."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:1814
@@ -2233,11 +3041,14 @@ msgid ""
 "literal> variable, so you can use <literal>--display $DISPLAY</literal> to "
 "avoid finding out the current display number."
 msgstr ""
+"Číslo aktivního displeje X Window je uloženo v proměnné "
+"<literal>$DISPLAY</literal>, takže můžete použít <literal>--display "
+"$DISPLAY</literal>, abyste nemuseli zjišťovat číslo aktuálního displeje."
 
 #. (itstool) path: figure/title
 #: xml/apparmor_profiles_man.xml:1822
 msgid "<command>aa-notify Message in GNOME</command>"
-msgstr ""
+msgstr "<command>aa-notify Zpráva v GNOME</command>"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2247,7 +3058,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1825 xml/apparmor_profiles_man.xml:1828
 msgctxt "_"
 msgid "external ref='aa-notify.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='aa-notify.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1832
@@ -2258,11 +3069,16 @@ msgid ""
 "<command>aa-notify</command>, see its man page <command>man 8 aa-notify</"
 "command>."
 msgstr ""
+"Volbou <option>-s <replaceable>DNY</replaceable></option> můžete také "
+"konfigurovat <command>aa-notify</command> tak, aby zobrazoval souhrn "
+"oznámení pro zadaný počet minulých dnů. Další informace o <command>aa-"
+"notify</command> najdete na jeho manuálové stránce <command>man 8 aa-"
+"notify</command>."
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1841
 msgid "apparmor.vim"
-msgstr ""
+msgstr "apparmor.vim"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1842
@@ -2273,6 +3089,11 @@ msgid ""
 "implications of your profiles with color highlighting. Use vim to view and "
 "edit your profile by typing vim at a terminal window."
 msgstr ""
+"Soubor zvýrazňující syntaxi pro textový editor vim zvýrazňuje různé "
+"vlastnosti profilu <phrase> AppArmor </phrase> barvami. Pomocí vim a režimu "
+"syntaxe <phrase>AppArmor</phrase> pro vim můžete vidět sémantické důsledky "
+"vašich profilů zvýrazněním barev. Pomocí vim můžete zobrazit a upravit svůj "
+"profil zadáním vim v okně terminálu."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1849
@@ -2282,17 +3103,22 @@ msgid ""
 "<literal>:set syntax=apparmor</literal>. To make sure vim recognizes the "
 "edited file type correctly as an <phrase>AppArmor</phrase> profile, add"
 msgstr ""
+"Chcete-li povolit barevné označení syntaxe při úpravě profilu "
+"<phrase>AppArmor</phrase> ve vim, použijte příkazy <literal>:syntax "
+"on</literal> a pak <literal>:set syntax=apparmor</literal>. Chcete-li se "
+"ujistit, že vim správně rozpoznává upravovaný typ souboru jako profil "
+"<phrase>AppArmor</phrase>, přidejte"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1855
 #, no-wrap
 msgid "# vim:ft=apparmor"
-msgstr ""
+msgstr "# vim:ft=apparmor"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1856
 msgid "at the end of the profile."
-msgstr ""
+msgstr "na konec profilu."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:1860
@@ -2300,77 +3126,80 @@ msgid ""
 "<command>vim</command> comes with <phrase>AppArmor</phrase> highlighting "
 "automatically enabled for files in <filename>/etc/apparmor.d/</filename>."
 msgstr ""
+"<command>vim</command> se dodává se zvýrazněním <phrase>AppArmor</phrase> "
+"automaticky povoleným pro soubory v adresáři <filename>/etc/apparmor.d/"
+"</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1865
 msgid ""
 "When you enable this feature, vim colors the lines of the profile for you:"
-msgstr ""
+msgstr "Když tuto funkci povolíte, vim vybarví řádky profilu za vás:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1871
 msgid "Blue"
-msgstr ""
+msgstr "Modrá"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1873
 msgid "Comments"
-msgstr ""
+msgstr "Poznámky"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1879
 msgid "White"
-msgstr ""
+msgstr "Bílá"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1881
 msgid "Ordinary read access lines"
-msgstr ""
+msgstr "Běžné řádky s přístupem pro čtení"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1887
 msgid "Brown"
-msgstr ""
+msgstr "Hnědá"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1889
 msgid "Capability statements and complain flags"
-msgstr ""
+msgstr "Prohlášení schopnosti a značky stížností"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1895
 msgid "Yellow"
-msgstr ""
+msgstr "Žlutá"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1897
 msgid "Lines that grant write access"
-msgstr ""
+msgstr "Řádky, které udělují přístup pro zápis"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1903
 msgid "Green"
-msgstr ""
+msgstr "Zelená"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1905
 msgid "Lines that grant execute permission (either ix or px)"
-msgstr ""
+msgstr "Řádky, které udělují oprávnění ke spuštění (buď ix nebo px)"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1911
 msgid "Red"
-msgstr ""
+msgstr "Červená"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1913
 msgid "Lines that grant unconfined access (ux)"
-msgstr ""
+msgstr "Řádky, které udělují neomezený přístup (ux)"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1919
 msgid "Red background"
-msgstr ""
+msgstr "Červené pozadí"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1921
@@ -2378,6 +3207,8 @@ msgid ""
 "Syntax errors that will not load properly into the <phrase>AppArmor</phrase> "
 "modules"
 msgstr ""
+"Chyby syntaxe, pro které se profily nenačtou správně do modulů "
+"<phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1927
@@ -2388,11 +3219,16 @@ msgid ""
 "<phrase>AppArmor</phrase> syntax is stored in <filename>/usr/share/vim/"
 "current/syntax/apparmor.vim.</filename>"
 msgstr ""
+"Použijte manuálové stránky <systemitem>apparmor.vim</systemitem> a "
+"<systemitem>vim</systemitem> a <option>:help syntax</option> z editoru vim "
+"pro další nápovědu vim ke zvýraznění syntaxe. Syntaxe "
+"<phrase>AppArmor</phrase> je uložena v <filename>/usr/share/vim/current/"
+"syntax/apparmor.vim </filename>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:1938
 msgid "Important File Names and Directories"
-msgstr ""
+msgstr "Důležité názvy souborů a adresářů"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:1940
@@ -2402,31 +3238,34 @@ msgid ""
 "troubleshoot your profiles manually, make sure that you know about these "
 "files and directories:"
 msgstr ""
+"Následující seznam obsahuje nejdůležitější soubory a adresáře používané "
+"rámcem <phrase>AppArmor</phrase>. Pokud máte v úmyslu spravovat a řešit "
+"problémy ručně, ujistěte se, že víte o těchto souborech a adresářích:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1949
 msgid "<filename>/sys/kernel/security/apparmor/profiles</filename>"
-msgstr ""
+msgstr "<filename>/sys/kernel/security/apparmor/profiles</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1952
 msgid "Virtualized file representing the currently loaded set of profiles."
-msgstr ""
+msgstr "Virtualizovaný soubor představující aktuálně načtenou sadu profilů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1958
 msgid "<filename>/etc/apparmor/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1961
 msgid "Location of <phrase>AppArmor</phrase> configuration files."
-msgstr ""
+msgstr "Umístění konfiguračních souborů <phrase>AppArmor</phrase>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1967
 msgid "<filename>/etc/apparmor/profiles/extras/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor/profiles/extras/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1970
@@ -2434,11 +3273,13 @@ msgid ""
 "A local repository of profiles shipped with <phrase>AppArmor</phrase>, but "
 "not enabled by default."
 msgstr ""
+"Místní úložiště profilů dodávané s aplikací <phrase>AppArmor</phrase>, ve "
+"výchozím nastavení však není povoleno."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1977
 msgid "<filename>/etc/apparmor.d/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1980
@@ -2449,31 +3290,35 @@ msgid ""
 "program <filename>/usr/sbin/smbd</filename> is named <filename>usr.sbin."
 "smbd</filename>."
 msgstr ""
+"Umístění profilů, nazvaných podle konvence o nahrazení <literal>/</literal> "
+"v cestách <literal>.</literal> (nikoli pro kořen <literal>/</literal>), "
+"takže profily lze snadněji spravovat. Například profil programu <filename>/"
+"usr/sbin/smbd</filename> se nazývá <filename>usr.sbin.smbd</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1991
 msgid "<filename>/etc/apparmor.d/abstractions/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/abstractions/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1994
 msgid "Location of abstractions."
-msgstr ""
+msgstr "Umístění abstrakcí."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:2000
 msgid "<filename>/etc/apparmor.d/program-chunks/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/program-chunks/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:2003
 msgid "Location of program chunks."
-msgstr ""
+msgstr "Umístění úryvků programů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:2009
 msgid "<filename>/proc/*/attr/current</filename>"
-msgstr ""
+msgstr "<filename>/proc/*/attr/current</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:2012
@@ -2482,3 +3327,6 @@ msgid ""
 "profile that is used to confine the process. The <command>ps</command> "
 "<option>auxZ</option> command retrieves this information automatically."
 msgstr ""
+"V tomto souboru zkontrolujte stav omezení procesu a profil, který se používá "
+"k omezení procesu. Příkaz <command>ps</command> <option>auxZ</option> tyto "
+"informace načte automaticky."
