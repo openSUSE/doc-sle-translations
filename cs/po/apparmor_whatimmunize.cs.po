@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_whatimmunize-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_whatimmunize.xml:65
 msgid "Immunizing Programs"
-msgstr ""
+msgstr "Imunizační programy"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:72
@@ -32,6 +36,13 @@ msgid ""
 "<phrase>AppArmor</phrase> profiles enforce policies to make sure that "
 "programs do what they are supposed to do, but nothing else."
 msgstr ""
+"Efektivní zodolnění počítačového systému vyžaduje minimalizaci počtu "
+"programů, které zprostředkovávají privilegia, a pak je co nejvíce "
+"zabezpečit. S aplikací <phrase>AppArmor</phrase> potřebujete pouze "
+"profilovat programy, které jsou ve vašem prostředí vystaveny útokům, což "
+"drasticky snižuje množství práce potřebné k zodolnění počítače. Profily "
+"<phrase>AppArmor</phrase> vynucují zásady, aby zajistily, že programy budou "
+"dělat to, co mají dělat, ale nic jiného."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:81
@@ -44,6 +55,13 @@ msgid ""
 "Protecting programs with <phrase>AppArmor</phrase> is called "
 "<emphasis>immunizing</emphasis>."
 msgstr ""
+"<phrase>AppArmor</phrase> poskytuje imunizační technologie, které chrání "
+"aplikace před jejich vlastními zranitelnostmi. Po instalaci aplikací "
+"<phrase>AppArmor</phrase>, nastavení profilů <phrase>AppArmor</phrase> a "
+"restartování počítače se váš systém stane imunizovaným, protože začne "
+"vynucovat bezpečnostní zásady <phrase>AppArmor</phrase>. Ochrana programů "
+"pomocí aplikace <phrase>AppArmor</phrase> se nazývá "
+"<emphasis>imunizace</emphasis>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:89
@@ -54,6 +72,11 @@ msgid ""
 "profile set and monitoring any policy violations or exceptions logged by "
 "<phrase>AppArmor</phrase>'s reporting facility."
 msgstr ""
+"Správci se musí starat pouze o aplikace, které jsou náchylné k útokům, a "
+"generovat pro ně profily. Zodolňování systému spočívá tedy ve vytváření a "
+"údržbě sady profilů <phrase>AppArmor</phrase> a ve sledování veškerých "
+"porušení zásad nebo výjimek zaznamenaných hlášením zpráv "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:96
@@ -65,6 +88,11 @@ msgid ""
 "some activity of the application is prevented by <phrase>AppArmor</phrase>, "
 "the administrator needs to adjust the profile of this application."
 msgstr ""
+"Uživatelé by si neměli všimnout běhu aplikace <phrase>AppArmor</phrase>, "
+"neboť běží <quote>za scénou</quote>, nevyžaduje žádnou interakci uživatele a "
+"neovlivňuje znatelně výkon. Není-li některá aktivita aplikace pokryta "
+"profilem <phrase>AppArmor</phrase>, nebo když <phrase>AppArmor</phrase> "
+"brání některé činnosti aplikace, musí správce upravit profil této aplikace."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:104
@@ -78,6 +106,14 @@ msgid ""
 "commandline\"/> if you are ready to build and manage <phrase>AppArmor</"
 "phrase> profiles."
 msgstr ""
+"<phrase>AppArmor</phrase> nastavuje kolekci výchozích aplikačních profilů "
+"pro ochranu standardních služeb systému Linux. Chcete-li chránit další "
+"aplikace, vytvořte pomocí nástrojů <phrase>AppArmor</phrase> profily pro "
+"aplikace, které chcete chránit. Tato kapitola představuje filozofii "
+"imunizace programů. Pokračujte do <xref linkend=\"cha.apparmor.profiles\"/>, "
+"<xref linkend=\"cha.apparmor.yast\"/> nebo <xref linkend=\"cha.apparmor."
+"commandline\"/>, pokud jste připraveni stavět a spravovat profily aplikace "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:114
@@ -89,6 +125,11 @@ msgid ""
 "<phrase>AppArmor</phrase> quarantines programs to protect the rest of the "
 "system from being damaged by a compromised process."
 msgstr ""
+"<phrase>AppArmor</phrase> poskytuje efektivní řízení přístupu pro síťové "
+"služby určením, které soubory může každý program číst, zapisovat a spouštět, "
+"a ke kterému typu sítě má přístup. To zajišťuje, že každý program dělá to, "
+"co má dělat, a nic jiného. <phrase>AppArmor</phrase> dává kompromitované "
+"programy do karantény, čímž chrání systém před poškozením."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:122
@@ -102,11 +143,19 @@ msgid ""
 "network services and other programs to prevent weaknesses from being "
 "exploited."
 msgstr ""
+"<phrase>AppArmor</phrase> je systém prevence narušení hostitele neboli "
+"schéma povinného řízení přístupu. Dříve byla schémata řízení přístupu "
+"soustředěna kolem uživatelů, protože byla vytvořena pro velké systémy "
+"sdílené v čase (timeshare). Mmohé moderní síťové servery neumožňují většině "
+"uživatelů přihlásit se, ale poskytují uživatelům různé síťové služby ("
+"například webové, poštovní, souborové a tiskové servery). "
+"<phrase>AppArmor</phrase> řídí přístup k síťovým službám a dalším programům, "
+"aby se zabránilo zneužívání slabin systémů."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_whatimmunize.xml:132
 msgid "Background Information for <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Základní informace o aplikaci <phrase>AppArmor</phrase>"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_whatimmunize.xml:133
@@ -115,11 +164,14 @@ msgid ""
 "concept behind it, refer to <xref linkend=\"sec.apparmor.intro.background\"/"
 ">."
 msgstr ""
+"Chcete-li získat podrobnější přehled aplikace <phrase>AppArmor</phrase> a "
+"její celkovou koncepci, přejděte na <xref linkend=\"sec.apparmor.intro."
+"background\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:139
 msgid "Introducing the <phrase>AppArmor</phrase> Framework"
-msgstr ""
+msgstr "Představujeme Rámec <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:141
@@ -128,6 +180,9 @@ msgid ""
 "<quote>behind the scenes</quote> (and under the hood of the YaST interface) "
 "when you run <phrase>AppArmor</phrase>."
 msgstr ""
+"Tato část poskytuje základní informace o tom, co se děje <quote>za "
+"scénou</quote> (a pod kapotou rozhraní YaST), když spustíte "
+"<phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:147
@@ -138,6 +193,11 @@ msgid ""
 "text file are then enforced by the <phrase>AppArmor</phrase> routines to "
 "quarantine the process or program."
 msgstr ""
+"Profil <phrase>AppArmor</phrase> je prostý textový soubor obsahující položky "
+"cest k souborům a přístupová oprávnění. Detailní referenční profil viz <xref "
+"linkend = \"sec.apparmor.profiles.parts\" />. Direktivy obsažené v tomto "
+"textovém souboru jsou potom vynucovány rutinami <phrase>AppArmor</phrase>, "
+"takže proces nebo program běží jakoby v karanténě."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:155
@@ -145,11 +205,13 @@ msgid ""
 "The following tools interact in the building and enforcement of "
 "<phrase>AppArmor</phrase> profiles and policies:"
 msgstr ""
+"Při vytváření a prosazování profilů a zásad <phrase>AppArmor</phrase> "
+"spolupracují tyto nástroje:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:162
 msgid "<command>aa-status</command>"
-msgstr ""
+msgstr "<command>aa-status</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:165
@@ -157,11 +219,13 @@ msgid ""
 "<command>aa-status</command> reports various aspects of the current state of "
 "the running <phrase>AppArmor</phrase> confinement."
 msgstr ""
+"<command>aa-status</command> hlásí různé aspekty aktuálního stavu působícího "
+"omezení <phrase>AppArmor</phrase>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:172
 msgid "<command>aa-unconfined</command>"
-msgstr ""
+msgstr "<command>aa-unconfined</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:175
@@ -172,11 +236,15 @@ msgid ""
 "commandline.profiling.summary.unconfined\"/> for detailed information about "
 "this tool."
 msgstr ""
+"<command>aa-unconfined</command> detekuje všechny aplikace spuštěné ve vašem "
+"systému, které přijímají síťová připojení a nejsou chráněny profilem "
+"<phrase>AppArmor</phrase>. Podrobné informace o tomto nástroji najdete na <"
+"xref linkend=\"sec.apparmor.commandline.profiling.summary.unconfined\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:185
 msgid "<command>aa-autodep</command>"
-msgstr ""
+msgstr "<command>aa-autodep</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:188
@@ -188,11 +256,17 @@ msgid ""
 "Refer to <xref linkend=\"sec.apparmor.commandline.profiling.summary.autodep"
 "\"/> for detailed information about this tool."
 msgstr ""
+"<command>aa-autodep</command> vytváří základní rámec profilu, který musí být "
+"podrobně popsán, než bude použit v provozu. Výsledný profil je načten a "
+"přepnut do stěžovacího režimu, který hlásí jakékoli chování aplikace, na "
+"které se (zatím) nevztahují pravidla <phrase>AppArmor</phrase>. Podrobné "
+"informace o tomto nástroji naleznete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.autodep\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:200
 msgid "<command>aa-genprof</command>"
-msgstr ""
+msgstr "<command>aa-genprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:203
@@ -206,11 +280,18 @@ msgid ""
 "linkend=\"sec.apparmor.commandline.profiling.summary.genprof\"/> for "
 "detailed information about this tool."
 msgstr ""
+"<command>aa-genprof</command> vygeneruje základní profil a požádá vás o "
+"upřesnění tohoto profilu spuštěním aplikace a vygenerováním událostí "
+"protokolu, o které je třeba postarat o zásady <phrase>AppArmor</phrase>. "
+"Dostanete řadu otázek, týkajících se událostí protokolu, které byly ohlášeny "
+"za běhu aplikace. Vygenerováný profil je načten a uveden do vynucovacího "
+"režimu. Podrobné údaje o tomto nástroji najdete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.genprof\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:217
 msgid "<command>aa-logprof</command>"
-msgstr ""
+msgstr "<command>aa-logprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:220
@@ -222,11 +303,17 @@ msgid ""
 "\"sec.apparmor.commandline.profiling.summary.logprof\"/> for detailed "
 "information about this tool."
 msgstr ""
+"<command>aa-logprof</command> interaktivně prohledává a kontroluje položky "
+"protokolu generované aplikací, která je omezena profilem "
+"<phrase>AppArmor</phrase> v režimu stěžování i vynucení. Pomáhá vám při "
+"vytváření nových položek v příslušném profilu. Podrobné informace o tomto "
+"nástroji najdete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.logprof\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:231
 msgid "<command>aa-easyprof</command>"
-msgstr ""
+msgstr "<command>aa-easyprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:234
@@ -240,11 +327,19 @@ msgid ""
 "is less restricted than creating the profile with <command>aa-genprof</"
 "command> and <command>aa-logprof</command>."
 msgstr ""
+"<command>aa-easyprof</command> poskytuje snadno použitelné rozhraní pro "
+"generování profilů <phrase>AppArmor</phrase>. <command>aa-easyprof</command> "
+"podporuje použití šablon a skupin zásad pro rychlé profilování aplikace. "
+"Přestože tento nástroj může pomoci s vytvářením zásad, jeho užitečnost "
+"závisí na kvalitě použitých šablon, skupin zásad a abstrakcí. <command>aa-"
+"easyprof</command> může vytvořit profil, který je méně omezující než profil "
+"vytvořený programy <command>aa-genprof</command> a <command>aa-"
+"logprof</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:247
 msgid "<command>aa-complain</command>"
-msgstr ""
+msgstr "<command>aa-complain</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:250
@@ -255,11 +350,16 @@ msgid ""
 "\"sec.apparmor.commandline.profiling.summary.complain\"/> for detailed "
 "information about this tool."
 msgstr ""
+"<command>aa-complain</command> přepíná režim profilu "
+"<phrase>AppArmor</phrase> z vynucování na stěžování. Porušení pravidel "
+"stanovených v profilu jsou zaznamenána, ale profil neomezuje svou aplikaci - "
+"není vynucován. Podrobné informace o tomto nástroji najdete v <xref linkend="
+"\"sec.apparmor.commandline.profiling.summary.complain\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:260
 msgid "<command>aa-enforce</command>"
-msgstr ""
+msgstr "<command>aa-enforce</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:263
@@ -270,11 +370,16 @@ msgid ""
 "linkend=\"sec.apparmor.commandline.profiling.summary.enforce\"/> for "
 "detailed information about this tool."
 msgstr ""
+"<command>aa-enforce</command> přepíná režim profilu <phrase>AppArmor</phrase>"
+" ze stížnosti na vynucení. Porušení pravidel stanovených v profilu se "
+"zaznamenává a není povoleno - profil je vynucován. Podrobné informace o "
+"tomto nástroji najdete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.enforce\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:273
 msgid "<command>aa-disable</command>"
-msgstr ""
+msgstr "<command>aa-disable</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:276
@@ -285,11 +390,16 @@ msgid ""
 "phrase> start-up. The <command>aa-enforce</command> and <command>aa-"
 "complain</command> utilities may be used to change this behavior."
 msgstr ""
+"<command>aa-disable</command> zakáže režim vynucení pro jeden nebo více "
+"profilů <phrase>AppArmor</phrase>. Tento příkaz uvolní profil z jádra a "
+"zabrání jeho načtení při spuštění aplikace <phrase>AppArmor</phrase>. Ke "
+"změně tohoto chování mohou být použity nástroje <command>aa-enforce</command>"
+" a <command>aa-complain</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:286
 msgid "<command>aa-exec</command>"
-msgstr ""
+msgstr "<command>aa-exec</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:289
@@ -302,11 +412,18 @@ msgid ""
 "specified, the command will be run using standard profile attachment—as if "
 "run without <command>aa-exec</command>."
 msgstr ""
+"<command>aa-exec</command> spustí program omezený zadaným profilem "
+"<phrase>AppArmor</phrase> a/nebo prostorem názvů. Pokud je zadán profil i "
+"prostor názvů, bude příkaz omezen profilem v prostoru názvů nové zásady. "
+"Pokud je zadán pouze prostor názvů, použije se název profilu aktuálního "
+"omezení. Není-li zadán žádný profil ani prostor názvů, bude příkaz spuštěn "
+"pomocí standardní přílohy profilu - jako by byl spuštěn bez příkazu <command"
+">aa-exec</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:302
 msgid "<command>aa-notify</command>"
-msgstr ""
+msgstr "<command>aa-notify</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:305
@@ -317,11 +434,16 @@ msgid ""
 "number of recent days. For more information, see <xref linkend=\"commandline."
 "profiling.summary.aa-notify\"/>."
 msgstr ""
+"<command>aa-notify</command> je užitečný nástroj, který zobrazuje oznámení "
+"<phrase>AppArmor</phrase> v prostředí vaší pracovní plochy. Můžete jej také "
+"konfigurovat tak, aby zobrazoval souhrn oznámení pro zadaný počet posledních "
+"dní. Další informace najdete v <xref linkend=\"commandline.profiling.summary"
+".aa-notify\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:317
 msgid "Determining Programs to Immunize"
-msgstr ""
+msgstr "Určování programů k imunizaci"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:319
@@ -332,11 +454,16 @@ msgid ""
 "access to resources that the person using the program does not have, so they "
 "grant the privilege to the user when used:"
 msgstr ""
+"Nyní, když jste se seznámili s aplikací <phrase>AppArmor</phrase>, začněte "
+"vybírat aplikace, pro které chcete vytvářet profily. Programy, které "
+"vyžadují profilování, jsou programy, které sjednávají práva. Přístup ke "
+"zdrojům, které osoba používající program nemá, mají tyto programy (které "
+"udělují uživateli oprávnění):"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:329
 msgid "<systemitem class=\"daemon\">cron</systemitem> Jobs"
-msgstr ""
+msgstr "<systemitem class=\"daemon\">cron</systemitem> Úlohy"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:331
@@ -350,11 +477,19 @@ msgid ""
 "finding these types of programs, refer to <xref xrefstyle=\"SectTitleOnPage"
 "\" linkend=\"sec.apparmor.concept.cron\"/>."
 msgstr ""
+"Programy, které jsou pravidelně spouštěny přes <systemitem class=\"daemon\""
+">cron</systemitem>. Tyto programy čtou vstup z různých zdrojů a mohou běžet "
+"se zvláštními oprávněními, někdy s právy super-uživatele <systemitem class=\""
+"username\">root</systemitem>. Například <systemitem class=\"daemon\""
+">cron</systemitem> může denně spouštět <command>/usr/sbin/logrotate</command>"
+", aby střídal, komprimoval nebo dokonce e-mailem odesílal systémové "
+"protokoly. Pokyny k nalezení těchto typů programů najdete v <xref xrefstyle="
+"\"SectTitleOnPage\" linkend=\"sec.apparmor.concept.cron\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:345
 msgid "Web Applications"
-msgstr ""
+msgstr "Webové aplikace"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:347
@@ -364,11 +499,15 @@ msgid ""
 "finding these types of programs, refer to <xref xrefstyle=\"SectTitleOnPage"
 "\" linkend=\"sec.apparmor.concept.network.web\"/>."
 msgstr ""
+"Programy, které lze vyvolat pomocí webového prohlížeče, včetně skriptů CGI "
+"Perl, stránek PHP a složitějších webových aplikací. Pokyny k nalezení těchto "
+"typů programů naleznete v části <xref xrefstyle=\"SectTitleOnPage\" linkend="
+"\"sec.apparmor.concept.network.web\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:356
 msgid "Network Agents"
-msgstr ""
+msgstr "Síťové agenty"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:358
@@ -381,6 +520,13 @@ msgid ""
 "programs, refer to <xref xrefstyle=\"SectTitleOnPage\" linkend=\"sec."
 "apparmor.concept.network.agents\"/>."
 msgstr ""
+"Programy (servery a klienty), které mají otevřené síťové porty. Uživatelské "
+"klienty, jako jsou poštovní klienti a webové prohlížeče, zprostředkovávají "
+"oprávnění. Tyto programy se spouštějí s právem psát do domovského adresáře "
+"uživatele a zpracovávají vstupy z potenciálně nepřátelských vzdálených "
+"zdrojů, jako jsou nepřátelské weby a e-mailový škodlivý kód. Pokyny k "
+"nalezení těchto typů programů najdete v <xref xrefstyle=\"SectTitleOnPage\" "
+"linkend=\"sec.apparmor.concept.network.agents\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:371
@@ -392,11 +538,19 @@ msgid ""
 "<command>cp</command> can copy any files that the parent shell script's "
 "profile can read and write."
 msgstr ""
+"Naopak, nepřihlášené programy nemusí být profilovány. Například shellový "
+"skript může vyvolat program <command>cp</command> pro zkopírování souboru. "
+"Protože <command>cp</command> ve výchozím nastavení nemá svůj vlastní profil "
+"nebo dílčí profil, zdědí profil skriptu nadřazeného shellu. "
+"<command>cp</command> tedy může kopírovat všechny soubory, které může profil "
+"skriptu nadřazeného shellu číst a psát."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:381
 msgid "Immunizing <systemitem class=\"daemon\">cron</systemitem> Jobs"
 msgstr ""
+"Imunizace úloh spouštěných přes <systemitem class=\"daemon\""
+">cron</systemitem>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:383
@@ -408,6 +562,12 @@ msgid ""
 "inspect. Periodic <systemitem class=\"daemon\">cron</systemitem> jobs are "
 "run from these files:"
 msgstr ""
+"Chcete-li najít programy, které jsou spouštěny přes <systemitem class=\""
+"daemon\">cron</systemitem>, zkontrolujte místní konfiguraci <systemitem "
+"class=\"daemon\">cron</systemitem>. Konfigurace <systemitem class=\"daemon\""
+">cron</systemitem> je bohužel poněkud složitá, takže existuje řada souborů, "
+"které je možné zkontrolovat. Periodické úlohy spouštěné přes <systemitem "
+"class=\"daemon\">cron</systemitem> jsou spouštěny z těchto souborů:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_whatimmunize.xml:393
@@ -420,6 +580,12 @@ msgid ""
 "/etc/cron.monthly/*\n"
 "/etc/cron.weekly/*\n"
 msgstr ""
+"/etc/crontab\n"
+"/etc/cron.d/*\n"
+"/etc/cron.daily/*\n"
+"/etc/cron.hourly/*\n"
+"/etc/cron.monthly/*\n"
+"/etc/cron.weekly/*\n"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:401
@@ -431,11 +597,17 @@ msgid ""
 "with <command>crontab -e</command> or list them with <command>crontab -l</"
 "command>."
 msgstr ""
+"Příkaz <command>crontab</command> vypisuje/edituje crontab aktuálního "
+"uživatele. K manipulaci úloh uživatele <systemitem class=\"username\""
+">root</systemitem> spouštěných přes <systemitem class=\"daemon\""
+">cron</systemitem> se napřed staňte uživatelem <systemitem class=\"username\""
+">root</systemitem> a pak upravte úlohy příkazem <command>crontab -e</command>"
+" nebo si je vypište příkazem <command>crontab -l</command>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:412
 msgid "Immunizing Network Applications"
-msgstr ""
+msgstr "Imunizace síťových aplikací"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:414
@@ -443,6 +615,8 @@ msgid ""
 "An automated method for finding network server daemons that should be "
 "profiled is to use the <command>aa-unconfined</command> tool."
 msgstr ""
+"Automatizovaná metoda pro nalezení démonů síťových serverů, které by měly "
+"být profilovány, je použití nástroje <command>aa-unconfined</command>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:430
@@ -455,6 +629,13 @@ msgid ""
 "<phrase>AppArmor</phrase> profile associated with each program, or reports "
 "<quote>none</quote> (if the program is not confined)."
 msgstr ""
+"Nástroj <command>aa-unconfined</command> používá příkaz <command>netstat "
+"-nlp</command> k prohlídce portů otevřených zevnitř vašeho počítače, detekci "
+"programů spojených s těmi porty a kontrolu sady profilů "
+"<phrase>AppArmor</phrase>, které jste zavedli. <command>aa-"
+"unconfined</command> pak ohlásí tyto programy spolu s profilem "
+"<phrase>AppArmor</phrase> sdruženým s každým programem, nebo ohlásí "
+"<quote>none</quote> (žádné), není-li program omezen."
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:441
@@ -462,11 +643,13 @@ msgid ""
 "If you create a new profile, you must restart the program that has been "
 "profiled to have it be effectively confined by <phrase>AppArmor</phrase>."
 msgstr ""
+"Vytvoříte-li nový profil, musíte restartovat program, který byl profilován, "
+"aby byl skutečně omezen aplikací <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:447
 msgid "Below is a sample <command>aa-unconfined</command> output:"
-msgstr ""
+msgstr "Následuje ukázkový výstup příkazu <command>aa-unconfined</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_whatimmunize.xml:451
@@ -482,6 +665,19 @@ msgid ""
 "5592 /usr/bin/ssh not confined\n"
 "7146 /usr/sbin/cupsd confined by '/usr/sbin/cupsd (complain)'"
 msgstr ""
+"3702<co xml:id=\"co.apparmor.concept.network.id\"/> /usr/sbin/sshd<co xml:id="
+"\"co.apparmor.concept.network.string\"/> confined\n"
+"   by '/usr/sbin/sshd<co xml:id=\"co.apparmor.concept.network.confine\"/> "
+"(enforce)'\n"
+"4040 /usr/sbin/smbd confined by '/usr/sbin/smbd (enforce)'\n"
+"4373 /usr/lib/postfix/master confined by '/usr/lib/postfix/master (enforce)'"
+"\n"
+"4505 /usr/sbin/httpd2-prefork confined by '/usr/sbin/httpd2-prefork "
+"(enforce)'\n"
+"646 /usr/lib/wicked/bin/wickedd-dhcp4 not confined\n"
+"647 /usr/lib/wicked/bin/wickedd-dhcp6 not confined\n"
+"5592 /usr/bin/ssh not confined\n"
+"7146 /usr/sbin/cupsd confined by '/usr/sbin/cupsd (complain)'"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_whatimmunize.xml:463
@@ -489,18 +685,21 @@ msgid ""
 "The first portion is a number. This number is the process ID number (PID) of "
 "the listening program."
 msgstr ""
+"V první části řádku je číslo. Toto číslo je ID procesu procesu (PID) "
+"naslouchajícího programu (toho, který je na příjmu)."
 
 #. (itstool) path: callout/para
 #: xml/apparmor_whatimmunize.xml:469
 msgid ""
 "The second portion is a string that represents the absolute path of the "
 "listening program"
-msgstr ""
+msgstr "Druhá část je řetězec, který představuje absolutní cestu toho programu"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_whatimmunize.xml:475
 msgid "The final portion indicates the profile confining the program, if any."
 msgstr ""
+"Poslední část označuje profil, který program omezuje, pokud takový existuje."
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:482
@@ -509,6 +708,9 @@ msgid ""
 "\">root</systemitem> privileges and should not be run from a shell that is "
 "confined by an <phrase>AppArmor</phrase> profile."
 msgstr ""
+"<command>aa-unconfined</command> vyžaduje oprávnění super-uživatele <"
+"systemitem class=\"username\">root</systemitem> a neměl by se spouštět z "
+"prostředí, které je omezeno profilem <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:488
@@ -517,6 +719,9 @@ msgid ""
 "interface and another, so it reports all unconfined processes, even those "
 "that might be listening to an internal LAN interface."
 msgstr ""
+"<command>aa-unconfined</command> nerozlišuje mezi síťovými rozhraními, takže "
+"ohlásí všechny neomezené procesy, dokonce i ty, které by mohly naslouchat "
+"internímu rozhraní LAN."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:494
@@ -529,6 +734,13 @@ msgid ""
 "tend to be running all the time, while network client applications tend only "
 "to be running when the user is interested in them."
 msgstr ""
+"Hledání aplikací klientských síťových klientů závisí na vašich uživatelských "
+"preferencích. Nástroj <command>aa-unconfined</command> detekuje a hlásí "
+"síťové porty otevřené klientskými aplikacemi, ale pouze těmi klientskými "
+"aplikacemi, které jsou spuštěny v době provádění analýzy <command>aa-"
+"unconfined</command>. To je problém, protože síťové služby bývají spuštěny "
+"po celou dobu, zatímco síťové klientské aplikace bývají spuštěny pouze, "
+"pokud je uživatel potřebuje."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:505
@@ -537,6 +749,9 @@ msgid ""
 "applications is also dependent on user preferences. Therefore, we leave the "
 "profiling of user network client applications as an exercise for the user."
 msgstr ""
+"Použití profilů <phrase>AppArmor</phrase> na klientské síťové aplikace "
+"uživatele závisí také na uživatelských preferencích. Proto ponecháváme "
+"profilování klientských síťových aplikací jako cvičení pro uživatele."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:511
@@ -548,6 +763,12 @@ msgid ""
 "The user can then decide whether each of these programs needs an "
 "<phrase>AppArmor</phrase> profile."
 msgstr ""
+"Chcete-li agresivně omezit desktopové aplikace, příkaz <command>aa-"
+"unconfined</command> podporuje možnost <option>--paranoid</option>, která "
+"hlásí všechny spuštěné procesy a odpovídající profily "
+"<phrase>AppArmor</phrase>, které mohou nebo nemusí být spojeny s každým "
+"procesem. Uživatel se pak může rozhodnout, zda každý z těchto programů "
+"potřebuje profil <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:520
@@ -561,11 +782,19 @@ msgid ""
 "phrase></phrase>. We cannot guarantee that every profile will be included, "
 "but we make a sincere effort to include as much as possible."
 msgstr ""
+"Pokud máte nové nebo upravené profily, můžete je odeslat do seznamu adresátů "
+"<email>apparmor@lists.ubuntu.com</email> spolu s příkladem chování aplikace, "
+"který jste provedli. Tým <phrase>AppArmor</phrase> zkontroluje práci a může "
+"ji odeslat do <phrase role = \"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os = \"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. "
+"Nemůžeme zaručit, že tam bude vložen každý profil, ale upřímně se snažíme "
+"dosáhnout toho, aby jich bylo vloženo co nejvíce."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_whatimmunize.xml:530
 msgid "Immunizing Web Applications"
-msgstr ""
+msgstr "Imunizace webových aplikací"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:531
@@ -579,6 +808,14 @@ msgid ""
 "<filename>/srv/www/cgi-bin/</filename>. To the maximum extent possible, each "
 "Web application should have an <phrase>AppArmor</phrase> profile."
 msgstr ""
+"Chcete-li najít webové aplikace, prozkoumejte konfiguraci webového serveru. "
+"Webový server Apache je vysoce konfigurovatelný a webové aplikace mohou být "
+"uloženy do mnoha adresářů, v závislosti na vaší místní konfiguraci. <phrase "
+"role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> ukládá ve výchozím nastavení webové "
+"aplikace do <filename>/srv/www/cgi-bin/</filename>. Každá webová aplikace by "
+"pokud možno měla mít profil <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:539
@@ -587,6 +824,9 @@ msgid ""
 "and <command>aa-logprof</command> tools to create or update their "
 "<phrase>AppArmor</phrase> profiles."
 msgstr ""
+"Jakmile tyto programy najdete, můžete použít nástroje <command>aa-"
+"genprof</command> a <command>aa-logprof</command> k vytvoření nebo "
+"aktualizaci jejich profilů <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:544
@@ -606,6 +846,20 @@ msgid ""
 "cause <filename>my_hit_counter.pl</filename> to inherit the <filename>usr."
 "sbin.httpd2-prefork</filename> profile."
 msgstr ""
+"Protože programy CGI jsou spouštěny webovým serverem Apache, profil pro "
+"samotný Apache, <filename>usr.sbin.httpd2-prefork</filename> pro Apache2 na <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> musí být upraven tak, aby ke "
+"každému z těchto programů přidával oprávnění ke spuštění. Například přidání "
+"řádku <literal>/srv/www/cgi-bin/my_hit_counter.pl rPx</literal> uděluje "
+"Apache oprávnění ke spuštění Perl skriptu "
+"<filename>my_hit_counter.pl</filename> a vyžaduje, aby existoval profil "
+"speciálně pro <filename>my_hit_counter.pl</filename>. Nemá-li "
+"<filename>my_hit_counter.pl</filename> speciální jemu přidružený profil, "
+"mělo by pravidlo říkat <literal>/srv/www/cgi-bin/my_hit_counter.pl "
+"rix</literal>, což způsobí, že <filename>my_hit_counter.pl</filename> zdědí "
+"profil <filename>usr.sbin.httpd2-prefork</filename>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:559
@@ -621,6 +875,15 @@ msgid ""
 "profile, which is appropriate if you do not want to write individual "
 "profiles for each CGI script."
 msgstr ""
+"Někteří uživatelé mohou považovat za nevhodné stanovit oprávnění ke spuštění "
+"pro každý skript CGI, který by mohl Apache vyvolat. Místo toho může správce "
+"udělit řízený přístup ke sbírkám skriptů CGI. Například přidání řádku "
+"<literal>/srv/www/cgi-bin/*.{pl,py,pyc} rix</literal> umožňuje, aby Apache "
+"spouštěl všechny soubory v <literal>/srv/www/cgi-bin/</literal> s názvy "
+"končícími <filename>.pl</filename> (Perl skripty) a <filename>.py</filename> "
+"nebo <filename>.pyc</filename> (Python scripty). Jako výše, část pravidla "
+"<literal>ix</literal> způsobí, že skripty Python zdědí profil Apache, což se "
+"hodí, nechcete-li psát profily jednotlivě pro každý skript CGI."
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:573
@@ -632,6 +895,12 @@ msgid ""
 "line. To take advantage of the subprocess confinement, refer to <xref "
 "xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor.hat.apache.managing\"/>."
 msgstr ""
+"Pokud chcete, aby funkce modulu pro správu podprocesů (<filename>apache2-mod-"
+"apparmor</filename>) fungovala, když webové aplikace zpracovávají moduly "
+"Apache (<filename>mod_perl</filename> a <filename>mod_php</filename>), "
+"použijte funkce ChangeHat, když přidáte profil do YaST nebo na příkazový "
+"řádek. Chcete-li využít výhod omezení podprocesu, podívejte se na <xref "
+"xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor.hat.apache.managing\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:583
@@ -644,6 +913,12 @@ msgid ""
 "command> using a subprofile (a <quote>hat</quote>) corresponding to the name "
 "of the URI requested."
 msgstr ""
+"Profilování webových aplikací používajících <filename>mod_perl</filename> a "
+"<filename>mod_php</filename> vyžaduje poněkud jiný přístup. V tomto případě "
+"je <quote>program</quote> skript přímo interpretovaný modulem uvnitř procesu "
+"Apache, takže nenastane žádný exec. Místo toho vyvolá "
+"<phrase>AppArmor</phrase> verze Apache <command>change_hat()</command> a "
+"použije subprofil (<quote>hat</quote>) odpovídající názvu požadovaného URI."
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:593
@@ -655,6 +930,11 @@ msgid ""
 "complains about access violations. See <xref linkend=\"cha.apparmor.managing"
 "\"/>."
 msgstr ""
+"Název uvedený pro spouštění skriptu nemusí být URI, podle toho, jak byl "
+"Apache zkonfigurován pro to, kde hledat skripty modulů. Pokud jste "
+"zkonfigurovali Apache tak, aby skripty umísťoval na jiné místo, objeví se v "
+"souboru protokolu různá jména, když si <phrase>AppArmor</phrase> stěžuje na "
+"narušení přístupu. Viz <xref linkend=\"cha.apparmor.managing\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:602
@@ -664,6 +944,10 @@ msgid ""
 "adding this subprofile allows the <filename>localtime.php</filename> page to "
 "execute and access to the local system time and locale files:"
 msgstr ""
+"Pro skripty <filename>mod_perl</filename> a <filename>mod_php</filename> je "
+"to název skriptu Perl nebo požadované stránky PHP. Například přidání tohoto "
+"podprofilu umožňuje stránce <filename>localtime.php</filename> spouštět  "
+"lokální soubory a přistupovat k místním systémovým časům:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_whatimmunize.xml:609
@@ -678,6 +962,14 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"/usr/bin/httpd2-prefork {\n"
+"  # ...\n"
+"  ^/cgi-bin/localtime.php {\n"
+"    /etc/localtime                  r,\n"
+"    /srv/www/cgi-bin/localtime.php  r,\n"
+"    /usr/lib/locale/**              r,\n"
+"  }\n"
+"}\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:618
@@ -688,6 +980,11 @@ msgid ""
 "systemitem> hat that <phrase>AppArmor</phrase> provides by default is the "
 "following:"
 msgstr ""
+"Nebyl-li definován žádný dílčí profil, použije verze Apache "
+"<phrase>AppArmor</phrase> klobouk <systemitem>DEFAULT_URI</systemitem>. "
+"Tento podprofil postačuje k zobrazení webové stránky. Klobouk "
+"<systemitem>DEFAULT_URI</systemitem>, který ve výchozím nastavení poskytuje "
+"<phrase>AppArmor</phrase>, je tento:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_whatimmunize.xml:625
@@ -708,6 +1005,20 @@ msgid ""
 "}\n"
 "    "
 msgstr ""
+"^DEFAULT_URI {\n"
+"    /usr/sbin/suexec2                  mixr,\n"
+"    /var/log/apache2/**                rwl,\n"
+"    @{HOME}/public_html                r,\n"
+"    @{HOME}/public_html/**             r,\n"
+"    /srv/www/htdocs                    r,\n"
+"    /srv/www/htdocs/**                 r,\n"
+"    /srv/www/icons/*.{gif,jpg,png}     r,\n"
+"    /srv/www/vhosts                    r,\n"
+"    /srv/www/vhosts/**                 r,\n"
+"    /usr/share/apache2/**              r,\n"
+"    /var/lib/php/sess_*                rwl\n"
+"}\n"
+"    "
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:639
@@ -718,11 +1029,16 @@ msgid ""
 "confining Web applications with Apache, see <xref linkend=\"cha.apparmor.hat"
 "\"/>."
 msgstr ""
+"Chcete-li použít jediný profil aplikace <phrase>AppArmor</phrase> pro "
+"všechny webové stránky a skripty CGI obsluhované Apache, je dobrým přístupem "
+"upravit podprofil <systemitem>DEFAULT_URI</systemitem>. Další informace o "
+"omezování webových aplikací pomocí Apache najdete na stránce <xref linkend=\""
+"cha.apparmor.hat\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_whatimmunize.xml:649
 msgid "Immunizing Network Agents"
-msgstr ""
+msgstr "Imunizace síťových agentů"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:650
@@ -735,6 +1051,13 @@ msgid ""
 "network ports, an attacker cannot get to the file system on your machine "
 "without passing through an <phrase>AppArmor</phrase> profile policy."
 msgstr ""
+"Chcete-li najít démony síťového serveru a síťové klienty (například "
+"<command>fetchmail</command> nebo Firefox), které je třeba profilovat, měli "
+"byste zkontrolovat otevřené porty v počítači. Zvažte také programy, které na "
+"těchto portech odpovídají, a přidejte profily co největšímu počtu těchto "
+"programů. Poskytujete-li profily všem programům s otevřenými síťovými porty, "
+"nemůže se útočník dostat do systému souborů na vašem počítači, aniž by "
+"prošel zásadami profilu <phrase>AppArmor</phrase>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:661
@@ -745,6 +1068,11 @@ msgid ""
 "\"username\">root</systemitem>. Then, inspect the machine to determine which "
 "programs are answering on the discovered open ports."
 msgstr ""
+"Prohledejte otevřené síťové porty serveru ručně zvnějšku pomocí skeneru ("
+"například nmap) nebo zevnitř počítače příkazem <command>netstat --inet -n "
+"-p</command> jako super-uživatel <systemitem class=\" username \""
+">root</systemitem>. Poté zkontrolujte stroj a zjistěte, které programy "
+"reagují na nalezené otevřené porty."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_whatimmunize.xml:670
@@ -752,3 +1080,5 @@ msgid ""
 "Refer to the man page of the <command>netstat</command> command for a "
 "detailed reference of all possible options."
 msgstr ""
+"Podrobný popis všech možných voleb najdete na manuálové stránce příkazu "
+"<command>netstat</command>."
