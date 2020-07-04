@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:19+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_ekiga-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/apps_ekiga.xml:11
 msgid "Ekiga: Using Voice over IP"
-msgstr ""
+msgstr "Ekiga: Nutzung von Voice over IP"
 
 #. (itstool) path: abstract/para
 #: xml/apps_ekiga.xml:14
@@ -27,11 +29,13 @@ msgid ""
 "Ekiga is an application you can use for making phone calls via Voice over IP "
 "(VoIP), for video conferencing and for instant messaging."
 msgstr ""
+"Ekiga ist eine Anwendung, die Sie für Telefongespräche über Voice over IP "
+"(VoIP), für Videokonferenzen und für Instant Messaging verwenden können."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_ekiga.xml:21
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #. (itstool) path: note/title
 #: xml/apps_ekiga.xml:25
@@ -44,21 +48,27 @@ msgid ""
 "Before proceeding, make sure that the package <package>ekiga</package> is "
 "installed."
 msgstr ""
+"Bevor Sie fortfahren, stellen Sie sicher, dass das Paket "
+"<package>ekiga</package> installiert ist."
 
 #. (itstool) path: chapter/para
 #: xml/apps_ekiga.xml:32
 msgid "Before starting, make sure that the following requirements are met:"
 msgstr ""
+"Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Anforderungen "
+"erfüllt sind:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:37
 msgid "Your sound card is properly configured."
-msgstr ""
+msgstr "Ihre Soundkarte ist richtig konfiguriert."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:42
 msgid "A headset or a microphone and speakers are connected to your computer."
 msgstr ""
+"Ein Headset oder ein Mikrofon und Lautsprecher sind an Ihren Computer "
+"angeschlossen."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:47
@@ -68,6 +78,10 @@ msgid ""
 "protocol used to establish sessions for audio and video conferencing or call "
 "forwarding."
 msgstr ""
+"Für die Einwahl in das normale Telefonnetz ist ein SIP-Konto erforderlich. "
+"SIP (<emphasis>Signalisierungsprotokoll für Internet-Telefonie</emphasis>) "
+"ist das Protokoll, das verwendet wird, um Sitzungen für Audio- und "
+"Videokonferenzen oder Anrufweiterleitungen einzurichten."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:53
@@ -75,16 +89,19 @@ msgid ""
 "There are many VoIP providers all over the world. One provider is the Ekiga "
 "project itself, go to <link xlink:href=\"https://ekiga.im\"/> to learn more."
 msgstr ""
+"Es gibt viele VoIP-Anbieter auf der ganzen Welt. Ein Anbieter ist das Ekiga-"
+"Projekt selbst, mehr erfahren Sie unter <link xlink:href=\"https://ekiga.im\""
+"/>."
 
 #. (itstool) path: listitem/para
 #: xml/apps_ekiga.xml:59
 msgid "For video conferencing: A Web cam is connected to your computer."
-msgstr ""
+msgstr "Für Videokonferenzen: Eine Webcam ist an Ihren Computer angeschlossen."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:65
 msgid "Starting Ekiga"
-msgstr ""
+msgstr "Ekiga starten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:67
@@ -92,11 +109,13 @@ msgid ""
 "To start Ekiga, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>ekiga</literal>."
 msgstr ""
+"Um Ekiga zu starten, öffnen Sie die Aktivitäten-Übersicht durch Drücken von <"
+"keycap function=\"meta\"/> und suchen Sie nach <literal>ekiga</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:73
 msgid "Configuring Ekiga"
-msgstr ""
+msgstr "Ekiga konfigurieren"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:75
@@ -104,17 +123,21 @@ msgid ""
 "On first start, Ekiga opens a configuration assistant that requests all data "
 "needed to configure Ekiga. Proceed as follows:"
 msgstr ""
+"Beim ersten Start öffnet Ekiga einen Konfigurationsassistenten, der alle zur "
+"Konfiguration von Ekiga benötigten Daten abfragt. Gehen Sie wie folgt vor:"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:82
 msgid "Click <guimenu>Forward</guimenu>."
-msgstr ""
+msgstr "Klicken Sie auf <guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:87
 msgid ""
 "Enter your full name (name and surname). Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Geben Sie Ihren vollständigen Namen (Vor- und Nachname) ein. Klicken Sie auf "
+"<guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:92
@@ -123,6 +146,9 @@ msgid ""
 "register with <link xlink:href=\"http://www.ekiga.net\"/>. Click "
 "<guimenu>Forward</guimenu>."
 msgstr ""
+"Geben Sie Ihre <literal>ekiga.net</literal> Kontodaten ein oder wählen Sie, "
+"sich nicht mit <link xlink:href=\"http://www.ekiga.net\"/> zu registrieren. "
+"Klicken Sie auf <guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:99
@@ -135,6 +161,8 @@ msgstr ""
 #: xml/apps_ekiga.xml:106
 msgid "Set your connection type and speed. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Stellen Sie Ihre Verbindungsart und -geschwindigkeit ein. Klicken Sie auf "
+"<guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:118
@@ -143,17 +171,25 @@ msgid ""
 "input device driver. In general, you can keep the <guimenu>Default</guimenu> "
 "setting. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Konfigurieren Sie die zu verwendenden Audiogeräte, indem Sie den Audio-"
+"Klingelton, den Ausgangs- und den Eingangsgerätetreiber auswählen. Im "
+"Allgemeinen können Sie die Einstellung <guimenu>Standard</guimenu> "
+"beibehalten. Klicken Sie auf <guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:125
 msgid ""
 "Choose a video input device, if available. Click <guimenu>Forward</guimenu>."
 msgstr ""
+"Wählen Sie ein Videoeingabegerät, falls verfügbar. Klicken Sie auf "
+"<guimenu>Weiter</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:131
 msgid "Check the summary of your settings and apply them."
 msgstr ""
+"Überprüfen Sie die Zusammenfassung Ihrer Einstellungen und wenden Sie diese "
+"an."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:136
@@ -161,6 +197,8 @@ msgid ""
 "If registration fails after making changes to your configuration, restart "
 "Ekiga."
 msgstr ""
+"Wenn die Registrierung fehlschlägt, nachdem Sie Änderungen an Ihrer "
+"Konfiguration vorgenommen haben, starten Sie Ekiga neu."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:143
@@ -168,6 +206,8 @@ msgid ""
 "Ekiga allows you to maintain multiple accounts. To configure an additional "
 "account, proceed as follows:"
 msgstr ""
+"Ekiga ermöglicht es Ihnen, mehrere Konten zu führen. Um ein zusätzliches "
+"Konto zu konfigurieren, gehen Sie wie folgt vor:"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:150
@@ -175,6 +215,8 @@ msgid ""
 "Open <menuchoice> <guimenu>Edit</guimenu> <guimenu>Accounts</guimenu></"
 "menuchoice>."
 msgstr ""
+"Öffnen Sie <menuchoice> <guimenu>Bearbeiten</guimenu> "
+"<guimenu>Konten></guimenu></menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:156
@@ -183,6 +225,9 @@ msgid ""
 "type&gt;</guimenu></menuchoice>. If you are unsure, select <guimenu>Add a "
 "SIP Account</guimenu>."
 msgstr ""
+"Wählen Sie <menuchoice><guimenu>Konten</guimenu> <guimenu>Hinzufügen "
+"&lt;Kontoart&gt;</guimenu></menuchoice>. Wenn Sie sich nicht sicher sind, "
+"wählen Sie <guimenu>Hinzufügen eines SIP-Kontos</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:163
@@ -201,6 +246,11 @@ msgid ""
 "the Ekiga main window, including its <guimenu>Status</guimenu>, which should "
 "change to <literal>Registered</literal>."
 msgstr ""
+"Stellen Sie sicher, dass <guimenu>Konto aktivieren</guimenu> aktiviert ist "
+"und verlassen Sie den Konfigurationsdialog mit <guimenu>OK</guimenu>. Das "
+"Konto wird im Ekiga-Hauptfenster angezeigt, einschliesslich seines "
+"<guimenu>Status</guimenu>, das sich in <literal>Registriert</literal> ändern "
+"sollte."
 
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:182
@@ -231,7 +281,7 @@ msgstr ""
 #: xml/apps_ekiga.xml:197 xml/apps_ekiga.xml:200
 msgctxt "_"
 msgid "external ref='ekiga_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='ekiga_main.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:205
@@ -240,6 +290,9 @@ msgid ""
 "shows you a local address book which lets you quickly open connections to "
 "often-used numbers."
 msgstr ""
+"Standardmäßig wird Ekiga im Modus <guimenu>Kontakte</guimenu> geöffnet. "
+"Diese Ansicht zeigt Ihnen ein lokales Adressbuch, mit dem Sie schnell "
+"Verbindungen zu häufig verwendeten Nummern öffnen können."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:211
@@ -247,26 +300,28 @@ msgid ""
 "Many of the functions of Ekiga are available with key combinations. <xref "
 "linkend=\"tab.ekiga.shortcut\"/> summarizes the most important ones."
 msgstr ""
+"Viele der Funktionen von Ekiga sind mit Tastenkombinationen verfügbar. <xref "
+"linkend=\"tab.ekiga.shortcut\"/> fasst die wichtigsten zusammen."
 
 #. (itstool) path: table/title
 #: xml/apps_ekiga.xml:217
 msgid "Key Combinations for Ekiga"
-msgstr ""
+msgstr "Tastenkombinationen für Ekiga"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:222
 msgid "Key Combination"
-msgstr ""
+msgstr "Tastenkombination"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:227
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:236
 msgid "<keycombo><keycap function=\"control\"/><keycap>O</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>O</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:241
@@ -276,42 +331,42 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:253
 msgid "Hang up."
-msgstr ""
+msgstr "Legen Sie auf."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:260
 msgid "<keycombo><keycap function=\"control\"/><keycap>N</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>N</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:265
 msgid "Add a contact to your address book."
-msgstr ""
+msgstr "Fügen Sie einen Kontakt zu Ihrem Adressbuch hinzu."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:272
 msgid "<keycombo><keycap function=\"control\"/><keycap>B</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>B</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:277
 msgid "Open the <guimenu>Address Book</guimenu> dialog."
-msgstr ""
+msgstr "Öffnen Sie den Dialog <guimenu>Adressbuch</guimenu>."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:284
 msgid "<keycap>H</keycap>"
-msgstr ""
+msgstr "<keycap>H</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:289
 msgid "Hold the current call."
-msgstr ""
+msgstr "Halten Sie das aktuelle Gespräch."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:296
 msgid "<keycap>T</keycap>"
-msgstr ""
+msgstr "<keycap>T</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:301
@@ -321,7 +376,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:308
 msgid "<keycap>M</keycap>"
-msgstr ""
+msgstr "<keycap>M</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:313
@@ -331,7 +386,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:320
 msgid "<keycap>P</keycap>"
-msgstr ""
+msgstr "<keycap>P</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:325
@@ -341,7 +396,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:332
 msgid "<keycombo><keycap function=\"control\"/><keycap>W</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>W</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:337
@@ -351,17 +406,17 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:344
 msgid "<keycombo><keycap function=\"control\"/><keycap>Q</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>Q</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:349
 msgid "Quit Ekiga."
-msgstr ""
+msgstr "Ekiga beenden."
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:356
 msgid "<keycombo><keycap function=\"control\"/><keycap>E</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>E</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:361
@@ -371,7 +426,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:368
 msgid "<keycombo><keycap function=\"control\"/><keycap>J</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>J</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:373
@@ -381,7 +436,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:380
 msgid "<keycombo><keycap function=\"control\"/><keycap>+</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>+</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:385
@@ -391,7 +446,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:392
 msgid "<keycombo><keycap function=\"control\"/><keycap>-</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>-</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:397
@@ -401,7 +456,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:404
 msgid "<keycombo><keycap function=\"control\"/><keycap>0</keycap></keycombo>"
-msgstr ""
+msgstr "<keycombo><keycap function=\"control\"/><keycap>0</keycap></keycombo>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:409
@@ -411,7 +466,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:416
 msgid "<keycap>F11</keycap>"
-msgstr ""
+msgstr "<keycap>F11</keycap>"
 
 #. (itstool) path: entry/para
 #: xml/apps_ekiga.xml:421
@@ -421,7 +476,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:431
 msgid "Making a Call"
-msgstr ""
+msgstr "Einen Anruf tätigen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:433
@@ -453,6 +508,8 @@ msgid ""
 "<literal>sip:username@domainname</literal> or <literal>userid@sipserver</"
 "literal>"
 msgstr ""
+"<literal>sip:username@domainname</literal> oder "
+"<literal>userid@sipserver</literal>"
 
 #. (itstool) path: step/para
 #: xml/apps_ekiga.xml:470
@@ -468,6 +525,8 @@ msgid ""
 "To end the call, click <guimenu>Hang up</guimenu> or press <keycap function="
 "\"escape\"/>."
 msgstr ""
+"Um den Anruf zu beenden, klicken Sie auf <guimenu>Auflegen</guimenu> oder "
+"drücken Sie <keycap function=\"escape\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:484
@@ -479,7 +538,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:491
 msgid "Answering a Call"
-msgstr ""
+msgstr "Einen Anruf entgegennehmen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:493
@@ -595,7 +654,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_ekiga.xml:591
 msgid "For More Information"
-msgstr ""
+msgstr "Für mehr Informationen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_ekiga.xml:593
