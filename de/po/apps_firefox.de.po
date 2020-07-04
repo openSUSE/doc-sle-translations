@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:19+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_firefox-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/apps_firefox.xml:9
 msgid "Firefox: Browsing the Web"
-msgstr ""
+msgstr "Firefox: Surfen im Internet"
 
 #. (itstool) path: abstract/para
 #: xml/apps_firefox.xml:12
@@ -32,16 +34,24 @@ msgid ""
 "security technologies with an easy-to-use interface. Firefox gives you easy "
 "access to different search engines to help you find the information you need."
 msgstr ""
+"Der Mozilla Firefox-Webbrowser ist in <phrase role=\"Produktname\"> <phrase "
+"os=\"Osuse\"> OpenSUSE® Leap </phrase> <phrase os=\"sles\"> SUSE® Linux "
+"Enterprise Server </phrase> <phrase os=\"sled\"> SUSE® Linux Enterprise "
+"Desktop </phrase> </phrase>. Mit Funktionen wie Browsen mit Registerkarten, "
+"Blockieren von Popup-Fenstern und Download-Management kombiniert Firefox die "
+"neuesten Browsing- und Sicherheitstechnologien mit einer "
+"benutzerfreundlichen Oberfläche. Mit Firefox haben Sie einfachen Zugriff auf "
+"verschiedene Suchmaschinen, um die benötigten Informationen zu finden."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_firefox.xml:22
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:26
 msgid "Starting Firefox"
-msgstr ""
+msgstr "Firefox starten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:28
@@ -49,11 +59,13 @@ msgid ""
 "To start Firefox, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>fire</literal>."
 msgstr ""
+"Um Firefox zu starten, öffnen Sie die Aktivitätenübersicht, indem Sie <"
+"keycap function=\"meta\"/> drücken und nach <literal> fire </literal> suchen."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:34
 msgid "Navigating Web Sites"
-msgstr ""
+msgstr "Navigieren auf Webseiten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:36
@@ -65,11 +77,17 @@ msgid ""
 "information about the various Firefox features, use the <guimenu>Help</"
 "guimenu> menu in the menu bar."
 msgstr ""
+"Das Erscheinungsbild von Firefox ähnelt dem anderer Browser. Es wird in <"
+"xref linkend=\"fig.firefox.main\"/> angezeigt. Oben im Fenster finden Sie "
+"die Positionsleiste für eine Webadresse und die Suchleiste. Lesezeichen sind "
+"auch für den schnellen Zugriff über die Lesezeichen-Symbolleiste verfügbar. "
+"Weitere Informationen zu den verschiedenen Firefox-Funktionen finden Sie im "
+"Menü <guimenu> Hilfe </guimenu> in der Menüleiste."
 
 #. (itstool) path: note/title
 #: xml/apps_firefox.xml:46
 msgid "Using the Menu Bar"
-msgstr ""
+msgstr "Verwenden der Menüleiste"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -79,7 +97,7 @@ msgstr ""
 #: xml/apps_firefox.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -89,7 +107,7 @@ msgstr ""
 #: xml/apps_firefox.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:47
@@ -102,6 +120,14 @@ msgid ""
 "fallback.png\" width=\"1em\" format=\"PNG\"/></imageobject></"
 "inlinemediaobject>), some are only available from the menu bar."
 msgstr ""
+"Während die meisten Funktionen von Firefox verfügbar sind über die "
+"dreizeilige Schaltfläche (<inlinemediaobject> <textobject role=\""
+"description\"> <phrase> Dreizeilige Schaltfläche </phrase> </textobject> <"
+"imageobject role=\"fo\"> <imagedata fileref=\"hamburger_button.svg\" width = "
+"\"0.8em\" format = \"SVG\"/> </imageobject> <imageobject role=\"html\"> <"
+"imagedata fileref=\"hamburger_button-fallback.png\" width = \"1em\" format=\""
+"PNG\"/> </imageobject> </inlinemediaobject>), einige sind nur über die "
+"Menüleiste verfügbar."
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:51
@@ -110,6 +136,9 @@ msgid ""
 "<keycap function=\"alt\"/>. It will then be displayed until you click "
 "elsewhere in the Firefox window."
 msgstr ""
+"Die Menüleiste von Firefox ist standardmäßig ausgeblendet. Um es "
+"vorübergehend anzuzeigen, drücken Sie <keycap function=\"alt\"/>. Es wird "
+"dann angezeigt, bis Sie im Firefox-Fenster auf eine andere Stelle klicken."
 
 #. (itstool) path: note/para
 #: xml/apps_firefox.xml:56
@@ -118,11 +147,15 @@ msgid ""
 "\"alt\"/>, then choose <menuchoice><guimenu>View</guimenu><guimenu>Toolbars</"
 "guimenu></menuchoice> and activate <guimenu>Menu Bar</guimenu>."
 msgstr ""
+"Um die Firefox-Menüleiste dauerhaft zu aktivieren, drücken Sie zuerst <"
+"keycap function=\"alt\"/>, wählen Sie dann <menuchoice> "
+"<guimenu>Ansicht</guimenu> <guimenu>Symbolleisten</guimenu> </menuchoice> "
+"und aktivieren Sie <guimenu>Menüleiste</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:65
 msgid "The Browser Window of Firefox"
-msgstr ""
+msgstr "Das Browserfenster von Firefox"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -132,7 +165,7 @@ msgstr ""
 #: xml/apps_firefox.xml:68 xml/apps_firefox.xml:71
 msgctxt "_"
 msgid "external ref='firefox_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_main.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:77
@@ -147,6 +180,11 @@ msgid ""
 "characters you type. The matching phrase is highlighted in bold. Entries "
 "visited most frequently and recently are listed first."
 msgstr ""
+"Wenn Sie in die Positionsleiste tippen, öffnet sich ein Drop-Down-Feld zur "
+"automatischen Vervollständigung. Es zeigt alle früheren Standortadressen und "
+"Lesezeichen an, die die von Ihnen eingegebenen Zeichen enthalten. Der "
+"übereinstimmende Satz ist fett hervorgehoben. Die am häufigsten und in "
+"letzter Zeit besuchten Einträge werden zuerst aufgeführt."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:84
@@ -157,6 +195,11 @@ msgid ""
 "bookmarks only, type <keycap>*</keycap> as the first character of your "
 "search."
 msgstr ""
+"Listeneinträge aus der Lesezeichenliste sind mit einem Stern gekennzeichnet. "
+"Lesezeichen mit Tags werden mit einem zusätzlichen Label, gefolgt von den "
+"Namen der Tags, gekennzeichnet. Listeneinträge aus der Browsing-Geschichte "
+"werden nicht markiert. Um nur in Ihren Lesezeichen zu suchen, geben Sie "
+"<keycap>*</keycap> als erstes Zeichen Ihrer Suche ein."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:91
@@ -167,11 +210,18 @@ msgid ""
 "entry from the list if it is an entry from the history. Bookmarked entries "
 "can only be removed by deleting the associated bookmark."
 msgstr ""
+"Verwenden Sie <keycap function=\"up\"/> und <keycap function=\"down\"/> oder "
+"das Mausrad, um in der Liste zu navigieren. Drücken Sie <keycap function=\""
+"enter\"/> oder klicken Sie auf einen Eintrag, um zur ausgewählten Seite zu "
+"gelangen. <keycap function=\"delete\"/> entfernt einen Eintrag aus der "
+"Liste, wenn es sich um einen Eintrag aus der Historie handelt. Mit "
+"Lesezeichen versehene Einträge können nur durch Löschen des zugehörigen "
+"Lesezeichens entfernt werden."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:101
 msgid "Zooming"
-msgstr ""
+msgstr "Zoomen"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:102
@@ -181,6 +231,10 @@ msgid ""
 "including graphics, expanding equally while text zoom only changes the text "
 "size."
 msgstr ""
+"Firefox bietet zwei Zoom-Optionen: Seitenzoom, den Standard- und den "
+"Textzoom. Der Seitenzoom vergrößert die gesamte Seite so, wie sie ist, wobei "
+"alle Elemente einer Seite, einschließlich Grafiken, gleichmäßig vergrößert "
+"werden, während der Textzoom nur die Textgröße ändert."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:108
@@ -194,6 +248,15 @@ msgid ""
 "with <keycombo> <keycap function=\"control\"/> <keycap>0</keycap> </"
 "keycombo>."
 msgstr ""
+"Um zwischen Seiten- und Textzoom umzuschalten, wählen Sie in der Menüleiste "
+"<menuchoice> <guimenu>Ansicht</guimenu> <guimenu>Zoom</guimenu> <guimenu>Nur "
+"Text zoomen</guimenu></menuchoice>. Zum Vergrößern oder Verkleinern "
+"verwenden Sie entweder das Mausrad, während Sie die Taste <keycap function=\""
+"control\"/> gedrückt halten, oder Sie verwenden <keycombo> <keycap function="
+"\"control\"/> <keycap>+</keycap> </keycombo> und <keycombo> <keycap function="
+"\"control\"/> <keycap>-</keycap></keycombo>. Setzen Sie den Zoomfaktor mit "
+"<keycombo> <keycap function=\"control\"/> <keycap>0</keycap> </keycombo> "
+"zurück."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:121
@@ -208,11 +271,16 @@ msgid ""
 "often use more than one Web page at a time, tabbed browsing makes it easier "
 "to switch between pages."
 msgstr ""
+"Beim Tabbed-Browsing können Sie mehrere Websites in einem einzigen Fenster "
+"laden. Um zwischen den verwendeten Seiten zu wechseln, verwenden Sie die "
+"Tabs am oberen Rand des Fensters. Wenn Sie häufig mehr als eine Webseite "
+"gleichzeitig verwenden, erleichtert das Tabbed-Browsing den Wechsel zwischen "
+"den Seiten."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:130
 msgid "Opening Tabs"
-msgstr ""
+msgstr "Öffnen von Tabs"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:132
@@ -226,11 +294,22 @@ msgid ""
 "location bar in a new tab with a middle-click or by pressing <keycombo> "
 "<keycap function=\"control\"/> <keycap function=\"enter\"/> </keycombo>."
 msgstr ""
+"Um einen neuen Tab zu öffnen, wählen Sie in der Menüleiste <menuchoice> "
+"<guimenu>Datei</guimenu><guimenu>Neuer Tab</guimenu> </menuchoice> oder "
+"drücken Sie <keycombo> <keycap function=\"control\"/> <keycap>T</keycap> "
+"</keycombo>. Dies öffnet einen leeren Tab im Firefox-Fenster. Um einen Link "
+"auf einer Webseite oder ein Lesezeichen in einem Tab zu öffnen, klicken Sie "
+"mit der mittleren Maustaste darauf. Alternativ klicken Sie mit der rechten "
+"Maustaste auf einen Link und wählen Sie <guimenu>Link in neuem Tab "
+"öffnen</guimenu>. Sie können auch eine Adresse in der Adressleiste in einem "
+"neuen Tab mit einem Mittelklick oder durch Drücken von <keycombo> <keycap "
+"function=\"control\"/> <keycap function=\"enter\"/> </keycombo> in einem "
+"neuen Tab öffnen."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:146
 msgid "Closing Tabs"
-msgstr ""
+msgstr "Schließen von Tabs"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:148
@@ -245,11 +324,22 @@ msgid ""
 "menu or press <keycombo> <keycap function=\"control\"/> <keycap function="
 "\"shift\"/> <keycap>T</keycap></keycombo>."
 msgstr ""
+"Klicken Sie mit der rechten Maustaste auf einen Tab, um ein Kontextmenü zu "
+"öffnen, das Ihnen Zugriff auf Optionen zur Tab-Verwaltung wie Schließen, "
+"Neuladen oder Lesezeichen bietet. Um ein Register zu schließen, können Sie "
+"auch <keycombo> <keycap function=\"control\"/> <keycap>W</keycap> </keycombo>"
+" verwenden oder auf die Schaltfläche Schließen klicken. Jeder geschlossene "
+"Tab kann wiederhergestellt werden, indem Sie in der Menüleiste <menuchoice> "
+"<guimenu> <guimenu>Chronik</guimenu> <guimenu>Kürzlich geschlossene "
+"Tabs</guimenu> </menuchoice> wählen. Um den letzten geschlossenen Tab wieder "
+"zu öffnen, wählen Sie entweder <guimenu>Alle Tabs wiederherstellen</guimenu> "
+"aus dem Kontextmenü oder drücken Sie <keycombo> <keycap function=\"control\""
+"/> <keycap function=\"shift\"/> <keycap>T</keycap></keycombo>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:163
 msgid "Sorting Tabs"
-msgstr ""
+msgstr "Sortieren von Tabs"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:165
@@ -261,11 +351,19 @@ msgid ""
 "right-click the down arrow at the right end of the tab bar to get a list of "
 "all tabs."
 msgstr ""
+"Standardmäßig werden die Tabs in der Reihenfolge sortiert, in der Sie sie "
+"geöffnet haben. Ordnen Sie die Tab-Reihenfolge neu an, indem Sie einen Tab "
+"per Drag & Drop an die gewünschte Position ziehen. Wenn Sie eine große "
+"Anzahl von Tabs geöffnet haben, können nicht alle gleichzeitig in der Tab-"
+"Leiste angezeigt werden. Verwenden Sie die Pfeile an den Enden der Leiste, "
+"um nach links zu gehen, oder klicken Sie mit der rechten Maustaste auf den "
+"Abwärtspfeil am rechten Ende der Tab-Leiste, um eine Liste aller Tabs zu "
+"erhalten."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:176
 msgid "Dragging and Dropping"
-msgstr ""
+msgstr "Ziehen und Ablegen"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:178
@@ -275,11 +373,16 @@ msgid ""
 "open a new tab. Drag and drop a tab outside of the tab bar to open it in a "
 "new browser window."
 msgstr ""
+"Drag und Drop funktioniert auch mit Tabs. Ziehen Sie einen Link auf ein "
+"vorhandenen Tab, um ihn in diesem Register zu öffnen, oder ziehen Sie einen "
+"Link auf eine leere Stelle in der Registerleiste, um ein neuen Tab zu "
+"öffnen. Ziehen Sie einen Tab außerhalb der Tab-Leiste, um ihn in einem neuen "
+"Browserfenster zu öffnen."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:190
 msgid "Using the Sidebar"
-msgstr ""
+msgstr "Verwenden der Seitenleiste"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:191
@@ -289,11 +392,17 @@ msgid ""
 "the sidebar, from the menu bar, select <menuchoice> <guimenu>View</guimenu> "
 "<guimenu>Sidebar</guimenu> </menuchoice> and select the desired contents."
 msgstr ""
+"Verwenden Sie die linke Seite Ihres Browser-Fensters, um Lesezeichen "
+"anzuzeigen oder den Verlauf zu durchsuchen. Erweiterungen können auch neue "
+"Möglichkeiten zur Verwendung der Seitenleiste hinzufügen. Um die "
+"Seitenleiste anzuzeigen, wählen Sie in der Menüleiste <menuchoice> "
+"<guimenu>Ansicht</guimenu> <guimenu>Seitenleiste</guimenu> </menuchoice> und "
+"wählen Sie den gewünschten Inhalt aus."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:200
 msgid "Finding Information"
-msgstr ""
+msgstr "Informationen finden"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:202
@@ -306,7 +415,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:209
 msgid "Finding Information on the Web"
-msgstr ""
+msgstr "Informationen im Internet finden"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:210
@@ -317,6 +426,11 @@ msgid ""
 "literal>, and press <keycap function=\"enter\"/>. The results appear in your "
 "window."
 msgstr ""
+"Firefox hat eine Suchleiste, die auf verschiedene Suchmaschinen wie Google, "
+"Yahoo oder Amazon zugreifen kann. Wenn Sie beispielsweise Informationen über "
+"SUSE mit der aktuellen Engine finden möchten, klicken Sie in die Suchleiste, "
+"geben Sie <literal>SUSE</literal> ein und drücken Sie <keycap function=\""
+"enter\"/>. Die Ergebnisse erscheinen in Ihrem Fenster."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:217
@@ -324,11 +438,14 @@ msgid ""
 "To choose a different search engine, type your search term, then click one "
 "of the search provider icons at the bottom of the appearing pop-up."
 msgstr ""
+"Um eine andere Suchmaschine auszuwählen, geben Sie Ihren Suchbegriff ein und "
+"klicken Sie dann auf eines der Suchanbieter-Symbole am unteren Rand des "
+"erscheinenden Popup-Fensters."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:222
 msgid "Customizing the Search Bar"
-msgstr ""
+msgstr "Anpassen der Suchleiste"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:223
@@ -336,11 +453,13 @@ msgid ""
 "If you want to change the order, add, or delete a search engine, proceed as "
 "follows."
 msgstr ""
+"Wenn Sie die Reihenfolge ändern, eine Suchmaschine hinzufügen oder löschen "
+"möchten, gehen Sie wie folgt vor."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:229
 msgid "Click the icon to the left of the search bar."
-msgstr ""
+msgstr "Klicken Sie auf das Symbol links neben der Suchleiste."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:234
@@ -349,16 +468,21 @@ msgid ""
 "<guimenu>Search</guimenu> dialog shows the engine that is currently set as "
 "default search engine and other available search engines."
 msgstr ""
+"Wählen Sie im Popup-Fenster <guimenu>Sucheinstellungen ändern</guimenu>. Das "
+"Dialogfeld <guimenu>Suchen</guimenu> zeigt die Maschine, die derzeit als "
+"Standardsuchmaschine eingestellt ist, sowie andere verfügbare Suchmaschinen."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:241
 msgid "To change the order of entries, use the mouse to drag them."
-msgstr ""
+msgstr "Um die Reihenfolge der Einträge zu ändern, ziehen Sie sie mit der Maus."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:244
 msgid "To delete an entry, select it and click <guimenu>Remove</guimenu>."
 msgstr ""
+"Um einen Eintrag zu löschen, wählen Sie ihn aus und klicken Sie auf "
+"<guimenu>Entfernen</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:247
@@ -367,11 +491,15 @@ msgid ""
 "Firefox displays a Web page with available search plug-ins. To install a "
 "search plug-in, select it and click <guimenu>Add to Firefox</guimenu>."
 msgstr ""
+"Um eine Suchmaschine hinzuzufügen, klicken Sie auf <guimenu>Weitere "
+"Suchmaschinen hinzufügen</guimenu>. Firefox zeigt eine Webseite mit "
+"verfügbaren Such-Plug-Ins an. Um ein Such-Plug-in zu installieren, wählen "
+"Sie es aus und klicken Sie auf <guimenu>Zu Firefox hinzufügen</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:264
 msgid "Firefox—Manage Search Engines"
-msgstr ""
+msgstr "Firefox-Suchmaschinen verwalten"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -381,7 +509,7 @@ msgstr ""
 #: xml/apps_firefox.xml:267 xml/apps_firefox.xml:270
 msgctxt "_"
 msgid "external ref='firefox_manage_searchengines.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_manage_searchengines.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:274
@@ -391,11 +519,15 @@ msgid ""
 "search bar gains a <literal>+</literal> sign. Click the icon and select "
 "<guimenu>Add</guimenu>."
 msgstr ""
+"Einige Websites bieten Suchmaschinen an, die Sie direkt in die Suchleiste "
+"einfügen können. Immer wenn Sie eine solche Website besuchen, erhält das "
+"Symbol links von der Suchleiste das Zeichen <literal>+</literal>. Klicken "
+"Sie auf das Symbol und wählen Sie <guimenu>Hinzufügen</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:282
 msgid "Adding Keywords to Your Online Searches"
-msgstr ""
+msgstr "Hinzufügen von Schlüsselwörtern zu Ihrer Online-Recherche"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:283
@@ -407,6 +539,13 @@ msgid ""
 "the location bar to search Wikipedia for <replaceable>SEARCHTERM</"
 "replaceable>."
 msgstr ""
+"Firefox erlaubt es Ihnen, eigene <emphasis>Schlüsselwörter</emphasis>: "
+"Abkürzungen zu definieren, die als URL-Abkürzung für eine bestimmte "
+"Suchmaschine verwendet werden sollen. Wenn Sie z.B. <literal>ws</literal> "
+"als Schlüsselwort für die Wikipedia-Suche definiert haben, können Sie "
+"<literal>ws <replaceable>SEARCHTERM</replaceable></literal> in die "
+"Positionsleiste eingeben, um Wikipedia nach "
+"<replaceable>SEARCHTERM</replaceable> zu durchsuchen."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:291
@@ -416,6 +555,11 @@ msgid ""
 "guimenu>. Select a search engine, double-click its <guimenu>Keyword</"
 "guimenu> column, enter a keyword and press <keycap function=\"enter\"/>."
 msgstr ""
+"Um eine Abkürzung für eine Suchmaschine aus der Suchleiste zuzuweisen, "
+"klicken Sie auf das Symbol links neben der Suchleiste und wählen Sie "
+"<guimenu>Sucheinstellungen ändern</guimenu>. Wählen Sie eine Suchmaschine, "
+"doppelklicken Sie auf ihre Spalte <guimenu>Schlüsselwort</guimenu>, geben "
+"Sie ein Schlüsselwort ein und drücken Sie <keycap function=\"enter\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:299
@@ -423,6 +567,8 @@ msgid ""
 "It is also possible to define a keyword for any search field on a Web site. "
 "Proceed as follows:"
 msgstr ""
+"Es ist auch möglich, ein Schlüsselwort für ein beliebiges Suchfeld auf einer "
+"Website zu definieren. Gehen Sie dazu wie folgt vor:"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:305
@@ -431,21 +577,27 @@ msgid ""
 "Search</guimenu> from the menu that opens. The <guimenu>Add Bookmark</"
 "guimenu> dialog appears."
 msgstr ""
+"Klicken Sie mit der rechten Maustaste auf das Suchfeld und wählen Sie "
+"<guimenu>Schlüsselwort für diese Suche hinzufügen</guimenu> aus dem sich "
+"öffnenden Menü. Das Dialogfeld <guimenu>Lesezeichen hinzufügen</guimenu> "
+"erscheint."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:312
 msgid "In <guimenu>Name</guimenu>, enter a descriptive name for this keyword."
 msgstr ""
+"Geben Sie in <guimenu>Name</guimenu> einen beschreibenden Namen für dieses "
+"Schlüsselwort ein."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:317
 msgid "Enter your <guimenu>Keyword</guimenu> for this search."
-msgstr ""
+msgstr "Geben Sie für diese Suche Ihr <guimenu>Schlüsselwort</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:322
 msgid "<guimenu>Save</guimenu> this keyword."
-msgstr ""
+msgstr "<guimenu>Speichern</guimenu> des Schlüsselwortes."
 
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:328
@@ -460,11 +612,16 @@ msgid ""
 "assign <literal>suse</literal> to the SUSE home page bookmark, you can open "
 "it by typing <literal>suse</literal> into the location bar."
 msgstr ""
+"Die Verwendung von Schlüsselwörtern ist nicht auf Suchmaschinen beschränkt. "
+"Sie können auch ein Schlüsselwort zu einem Lesezeichen hinzufügen (über die "
+"Eigenschaften des Lesezeichens). Wenn Sie beispielsweise dem SUSE-"
+"Startseiten-Lesezeichen <literal>suse</literal> zuweisen, können Sie es "
+"öffnen, indem Sie <literal>suse</literal> in die Positionsleiste eingeben."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:340
 msgid "Searching in the Current Page"
-msgstr ""
+msgstr "Suche auf der aktuellen Seite"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:341
@@ -480,6 +637,19 @@ msgid ""
 "occurrences of the phrase. Checking the <guimenu>Match Case</guimenu> option "
 "makes the query case-sensitive."
 msgstr ""
+"Um innerhalb einer Webseite zu suchen, klicken Sie in der Menüleiste auf "
+"<menuchoice> <guimenu>Bearbeiten</guimenu> <guimenu>Finden</guimenu> "
+"</menuchoice> oder drücken Sie <keycombo> <keycap function=\"control\"/> "
+"<keycap>F</keycap> </keycombo>. Die Suchleiste öffnet sich. Sie wird "
+"normalerweise unten in einem Fenster angezeigt. Geben Sie Ihre Suchanfrage "
+"in das Textfeld ein. Firefox findet das erste Vorkommen dieser Phrase, "
+"während Sie tippen. Sie können weitere Vorkommen der Phrase finden, indem "
+"Sie <keycap>F3</keycap> oder die Schaltfläche <guimenu>Next</guimenu> in der "
+"Suchleiste drücken. Wenn Sie auf die Schaltfläche <guimenu>alle "
+"hervorheben</guimenu> klicken, werden alle Vorkommen der Phrase "
+"hervorgehoben. Durch Aktivieren der Option <guimenu>Groß-/"
+"Kleinschreibung</guimenu> wird die Groß-/Kleinschreibung bei der Suche "
+"berücksichtigt."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:353
@@ -491,11 +661,18 @@ msgid ""
 "occurrence. It is also possible to limit quick-find to links only. This "
 "search option is available by typing the key <keycap>'</keycap>."
 msgstr ""
+"Firefox bietet außerdem zwei Schnellsuchoptionen. Klicken Sie auf eine "
+"beliebige Stelle, um eine Suche auf einer Webseite zu starten, geben Sie den "
+"Schlüssel <keycap>/</keycap> ein, unmittelbar gefolgt von dem Suchbegriff. "
+"Das erste Vorkommen des Suchbegriffs wird während der Eingabe hervorgehoben. "
+"Verwenden Sie <keycap>F3</keycap>, um das nächste Vorkommen zu finden. Es "
+"ist auch möglich, die Schnellsuche auf Links zu beschränken. Diese "
+"Suchoption ist verfügbar, indem Sie die Taste <keycap>'</keycap> eingeben."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:364
 msgid "Managing Bookmarks"
-msgstr ""
+msgstr "Lesezeichen verwalten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:366
@@ -506,6 +683,12 @@ msgid ""
 "You can sort bookmarks into folders, classify them with tags, or filter them "
 "with smart bookmark folders."
 msgstr ""
+"Lesezeichen bieten eine bequeme Möglichkeit, Links zu Ihren Lieblings-"
+"Websites zu speichern. Firefox macht es nicht nur sehr einfach, neue "
+"Lesezeichen mit nur einem Mausklick hinzuzufügen, sondern bietet auch "
+"mehrere Möglichkeiten, große Lesezeichensammlungen zu verwalten. Sie können "
+"Lesezeichen in Ordner sortieren, mit Tags klassifizieren oder mit "
+"intelligenten Lesezeichenordnern filtern."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:374
@@ -516,6 +699,14 @@ msgid ""
 "the name and folder of your bookmark or add tags, after bookmarking, click "
 "the star again. This will open a pop-up where you can make your changes."
 msgstr ""
+"Fügen Sie ein Lesezeichen hinzu, indem Sie auf den Stern in der "
+"Standortleiste klicken. Der Stern wird blau, um anzuzeigen, dass die Seite "
+"mit einem Lesezeichen versehen wurde. Das Lesezeichen wird im Ordner "
+"<guimenu>Unsortierte Lesezeichen</guimenu> unter dem Seitentitel "
+"gespeichert. Um den Namen und Ordner Ihres Lesezeichens zu ändern oder Tags "
+"hinzuzufügen, klicken Sie nach dem Setzen des Lesezeichens erneut auf den "
+"Stern. Dadurch öffnet sich ein Pop-up-Fenster, in dem Sie Ihre Änderungen "
+"vornehmen können."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:382
@@ -524,6 +715,10 @@ msgid ""
 "All Tabs</guimenu>. Firefox asks you to create a new folder for the tab "
 "links."
 msgstr ""
+"Um alle geöffneten Tabs mit einem Lesezeichen zu versehen, klicken Sie mit "
+"der rechten Maustaste in eine Registerkarte und wählen Sie <guimenu>Alle "
+"Tabs mit einem Lesezeichen versehen</guimenu>. Firefox fordert Sie auf, "
+"einen neuen Ordner für die Tab-Links anzulegen."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:388
@@ -531,11 +726,14 @@ msgid ""
 "To remove a bookmark, open the bookmarked location. Then, click the star and "
 "click <guimenu>Remove Bookmark</guimenu>."
 msgstr ""
+"Um ein Lesezeichen zu entfernen, öffnen Sie den mit einem Lesezeichen "
+"versehenen Ort. Klicken Sie dann auf den Stern und klicken Sie auf <guimenu>"
+"Lesezeichen entfernen</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:394
 msgid "Organizing Bookmarks"
-msgstr ""
+msgstr "Organisieren von Lesezeichen"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:395
@@ -544,6 +742,10 @@ msgid ""
 "and address location) for each bookmark and organize the bookmarks into "
 "folders and sections. It resembles <xref linkend=\"fig.firefox.library\"/>."
 msgstr ""
+"Mit <guimenu>Bibliothek</guimenu> können Sie die Eigenschaften (Name und "
+"Speicherort der Adresse) für jedes Lesezeichen verwalten und die Lesezeichen "
+"in Ordnern und Abschnitten organisieren. Es ähnelt <xref linkend=\""
+"fig.firefox.library\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:401
@@ -558,7 +760,7 @@ msgstr ""
 #: xml/apps_firefox.xml:404 xml/apps_firefox.xml:407
 msgctxt "_"
 msgid "external ref='firefox_library.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_library.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:411
@@ -570,11 +772,18 @@ msgid ""
 "selected folder. Use <guimenu>Views</guimenu> to customize the right pane. "
 "The left pane contains three main folders:"
 msgstr ""
+"Um das Menü <guimenu>Bibliothek</guimenu> zu öffnen, klicken Sie in der "
+"Menüleiste auf <menuchoice> <guimenu>Lesezeichen</guimenu> <guimenu>"
+"Lesezeichen verwalten</guimenu> </menuchoice>. Das Bibliotheksfenster ist in "
+"zwei Teile geteilt: Das linke Fenster zeigt die Ordnerstrukturansicht, das "
+"rechte Fenster die Unterordner und Lesezeichen des ausgewählten Ordners. "
+"Verwenden Sie <guimenu>Ansichten</guimenu>, um das rechte Fenster "
+"anzupassen. Das linke Fenster enthält drei Hauptordner:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:421
 msgid "History"
-msgstr ""
+msgstr "Chronik"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:423
@@ -582,29 +791,34 @@ msgid ""
 "Contains your complete browsing history. You cannot alter this list other "
 "than by deleting entries from it."
 msgstr ""
+"Enthält Ihren vollständigen Browserverlauf. Sie können diese Liste nur "
+"ändern, indem Sie Einträge aus ihr löschen."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:430 xml/apps_firefox.xml:498
 msgid "Tags"
-msgstr ""
+msgstr "Schlagwörter"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:432
+#, fuzzy
 msgid ""
 "Lists bookmarks for each tag you have specified. See <xref linkend=\"sec."
 "firefox.bookmarks.tags\"/> for more information on tags."
 msgstr ""
+"Listet Lesezeichen für jedes Tag auf, das Sie angegeben haben. Siehe <xref "
+"linkend=\"sec.firefox.bookmarks.tags\"/> für weitere Informationen über Tags."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:440
 msgid "All Bookmarks"
-msgstr ""
+msgstr "Alle Lesezeichen"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:442
 msgid "This category contains the three main bookmark folders:"
-msgstr ""
+msgstr "Diese Kategorie enthält die drei Hauptordner für Lesezeichen:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:447
@@ -617,6 +831,9 @@ msgid ""
 "Contains the bookmarks and folders displayed beneath the location bar. See "
 "<xref linkend=\"sec.firefox.bookmarks.toolbar\"/> for more information."
 msgstr ""
+"Enthält die Lesezeichen und Ordner, die unterhalb der Adressleiste angezeigt "
+"werden. Siehe <xref linkend=\"sec.firefox.bookmarks.toolbar\"/> für weitere "
+"Informationen."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:457
@@ -629,6 +846,9 @@ msgid ""
 "Holds the bookmarks and folder accessible via the <guimenu>Bookmarks</"
 "guimenu> entry in the main menu or the bookmarks side menu."
 msgstr ""
+"Enthält die Lesezeichen und Ordner, die über den Eintrag "
+"<guimenu>Lesezeichen</guimenu> im Hauptmenü oder im Seitenmenü der "
+"Lesezeichen zugänglich sind."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:467
@@ -641,6 +861,9 @@ msgid ""
 "Contains all bookmarks created with a single click the star in the location "
 "bar. This folder is only visible in the library and the bookmarks sidebar."
 msgstr ""
+"Enthält alle Lesezeichen, die mit einem einzigen Klick auf den Stern in der "
+"Standortleiste erstellt wurden. Dieser Ordner ist nur in der Bibliothek und "
+"in der Lesezeichen-Seitenleiste sichtbar."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:480
@@ -653,6 +876,15 @@ msgid ""
 "and <guimenu>Tags</guimenu> are displayed for a bookmark. Click the arrow "
 "next to <guimenu>More</guimenu> to gain access to all properties."
 msgstr ""
+"Organisieren Sie Ihre Lesezeichen im rechten Fensterbereich. Wählen Sie "
+"Aktionen für Ordner oder Lesezeichen entweder aus dem Kontextmenü, das sich "
+"öffnet, wenn Sie mit der rechten Maustaste auf ein Element klicken, oder aus "
+"dem Menü <guimenu>Organisieren</guimenu>. Die Eigenschaften eines "
+"ausgewählten Ordners oder Lesezeichens können im unteren Teil des rechten "
+"Fensters bearbeitet werden. Standardmäßig werden für ein Lesezeichen nur "
+"<guimenu>Name</guimenu>, <guimenu>Adresse</guimenu> und "
+"<guimenu>Schlagwörter</guimenu> angezeigt. Klicken Sie auf den Pfeil neben "
+"<guimenu>More</guimenu>, um Zugriff auf alle Eigenschaften zu erhalten."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:490
@@ -661,6 +893,9 @@ msgid ""
 "move a bookmark or a folder to a different folder, or to change the order of "
 "bookmarks in a folder."
 msgstr ""
+"Um Ihre Lesezeichen neu anzuordnen, ziehen Sie sie mit der Maus. Sie können "
+"damit ein Lesezeichen oder einen Ordner in einen anderen Ordner verschieben "
+"oder die Reihenfolge der Lesezeichen in einem Ordner ändern."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:499
@@ -672,6 +907,14 @@ msgid ""
 "<systemitem>Recent Tags</systemitem> folder of the library. Drag and drop an "
 "item for a tag onto the bookmark toolbar to easily access it."
 msgstr ""
+"Tags bieten eine bequeme Möglichkeit, ein Lesezeichen unter mehreren "
+"Kategorien abzulegen. Sie können ein Lesezeichen mit so vielen Begriffen wie "
+"Sie wollen taggen. Um zum Beispiel auf alle Sites zuzugreifen, die mit "
+"<literal>suse</literal> getaggt sind, geben Sie <literal>suse</literal> in "
+"die Standortleiste ein. Für jedes Tag wird automatisch ein Element im Ordner "
+"<systemitem>Recent Tags</systemitem> der Bibliothek erstellt. Ziehen Sie ein "
+"Element für ein Tag per Drag & Drop auf die Lesezeichen-Symbolleiste, um "
+"einfach darauf zuzugreifen."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:508
@@ -682,11 +925,19 @@ msgid ""
 "to add tags via the bookmark's properties dialog which you can open in the "
 "library or by right-clicking a bookmark in the menu or the toolbar."
 msgstr ""
+"Um Tags zu einem Lesezeichen hinzuzufügen, öffnen Sie das Lesezeichen in "
+"Firefox und klicken Sie auf den gelben Stern in der Positionsleiste. Das "
+"Dialogfeld <guimenu>Dieses Lesezeichen bearbeiten</guimenu> öffnet sich, in "
+"dem Sie eine durch Kommata getrennte Liste von Tags hinzufügen können. Es "
+"ist auch möglich, Tags über den Eigenschaften-Dialog des Lesezeichens "
+"hinzuzufügen, den Sie in der Bibliothek öffnen können, oder indem Sie mit "
+"der rechten Maustaste auf ein Lesezeichen im Menü oder in der Symbolleiste "
+"klicken."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:519
 msgid "Importing and Exporting Bookmarks"
-msgstr ""
+msgstr "Importieren und Exportieren von Lesezeichen"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:524
@@ -699,6 +950,15 @@ msgid ""
 "import location. Start the import by clicking <guimenu>Next</guimenu>. "
 "Imports from an HTML file are imported as is."
 msgstr ""
+"Um Lesezeichen aus einem anderen Browser oder aus einer Datei im HTML-Format "
+"zu importieren, öffnen Sie die Bibliothek, indem Sie in der Menüleiste "
+"<menuchoice> <guimenu>Lesezeichen</guimenu> <guimenu> Alle Lesezeichen "
+"anzeigen</guimenu> </menuchoice> wählen. Um den Import-Assistenten zu "
+"starten, klicken Sie auf <menuchoice> <guimenu>Import und Sicherung</guimenu>"
+" <guimenu>Lesezeichen aus HTML importieren</guimenu> </menuchoice> und "
+"wählen Sie einen Importort. Starten Sie den Import, indem Sie auf "
+"<guimenu>Weiter</guimenu> klicken. Importe aus einer HTML-Datei werden "
+"unverändert importiert."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:534
@@ -709,6 +969,12 @@ msgid ""
 "bookmarks, choose <guimenu>Backup</guimenu>. Firefox uses a JavaScript "
 "Object Notation file format (<filename>.json</filename>) for backups."
 msgstr ""
+"Das Exportieren von Lesezeichen erfolgt ebenfalls über <guimenu>Import und "
+"Backup</guimenu> im Bibliotheksfenster. Um Ihre Lesezeichen als HTML-Datei "
+"zu sichern, wählen Sie <guimenu>Lesezeichen nach HTML exportieren</guimenu>. "
+"Um ein Backup Ihrer Lesezeichen zu erstellen, wählen Sie "
+"<guimenu>Backup</guimenu>. Firefox verwendet ein JavaScript Object Notation-"
+"Dateiformat (<filename>.json</filename>) für Sicherungen."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:541
@@ -717,6 +983,10 @@ msgid ""
 "guimenu> <guimenu>Restore</guimenu></menuchoice>. Then locate the backup you "
 "want to restore from."
 msgstr ""
+"Um ein Lesezeichen-Backup wiederherzustellen, klicken Sie auf "
+"<menuchoice><guimenu>Importieren und sichern</guimenu> "
+"<guimenu>Wiederherstellen</guimenu></menuchoice>. Suchen Sie dann die "
+"Sicherung, von der Sie wiederherstellen möchten."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:549
@@ -731,6 +1001,11 @@ msgid ""
 "your favorite sites. Live bookmarks update automatically. Many sites and "
 "blogs support this format."
 msgstr ""
+"Live Bookmarks zeigen Schlagzeilen in Ihrem Lesezeichen-Menü an und halten "
+"Sie über die neuesten Nachrichten auf dem Laufenden. So können Sie mit einem "
+"Blick auf Ihre Lieblingsseiten Zeit sparen. Live-Lesezeichen werden "
+"automatisch aktualisiert. Viele Websites und Blogs unterstützen dieses "
+"Format."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:559
@@ -744,6 +1019,16 @@ msgid ""
 "you choose alternative applications to subscribe with, such as <guimenu>My "
 "Yahoo</guimenu>."
 msgstr ""
+"Um ein Live-Lesezeichen zu erstellen, suchen Sie auf Websites nach "
+"orangefarbenen Schaltflächen, die entweder <literal>RSS</literal> lauten "
+"oder aus einem Punkt und drei verschachtelten Viertelkreisen bestehen. "
+"Klicken Sie auf das Symbol. Normalerweise führt Sie das zu einer Seite, auf "
+"der alle Überschriften der Seite angezeigt werden. Wählen Sie auf dieser "
+"Seite <guimenu>Jetzt abonnieren</guimenu>. Es öffnet sich ein Dialog, in dem "
+"Sie den Namen und den Ort Ihres Live-Lesezeichens auswählen können. "
+"Bestätigen Sie mit <guimenu>Hinzufügen</guimenu>. Auf dieser Seite können "
+"Sie auch alternative Anwendungen zum Abonnieren auswählen, wie z.B. <guimenu>"
+"Mein Yahoo</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:572
@@ -774,6 +1059,12 @@ msgid ""
 "literal> is populated with a predefined set of bookmarks organized into "
 "several folders (see <xref linkend=\"fig.firefox.main\"/>)."
 msgstr ""
+"Die <literal>Lesezeichen-Symbolleiste</literal> wird unterhalb der "
+"Positionsleiste angezeigt und ermöglicht Ihnen den schnellen Zugriff auf "
+"Lesezeichen. Sie können Lesezeichen auch direkt hinzufügen, organisieren und "
+"bearbeiten. Standardmäßig ist die <literal>Lesezeichen-Symbolleiste</literal>"
+" mit einem vordefinierten Satz von Lesezeichen gefüllt, die in mehreren "
+"Ordnern organisiert sind (siehe <xref linkend=\"fig.firefox.main\"/>)."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:591
@@ -799,11 +1090,17 @@ msgid ""
 "<guimenu>Copy</guimenu> and <guimenu>Paste</guimenu> it to the desired "
 "position."
 msgstr ""
+"Um einen bestimmten Ordner oder ein Lesezeichen zu verwalten, klicken Sie "
+"mit der rechten Maustaste darauf. Es öffnet sich ein Menü, in dem Sie "
+"<guimenu>Löschen</guimenu> es oder seine <guimenu>Eigenschaften</guimenu> "
+"ändern können. Um einen Eintrag zu verschieben oder zu kopieren, wählen Sie "
+"<guimenu>Ausschneiden</guimenu> oder <guimenu>Kopieren</guimenu> und "
+"<guimenu>Einfügen</guimenu> ihn an die gewünschte Stelle."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:614
 msgid "Using the Download Manager"
-msgstr ""
+msgstr "Verwendung des Download-Managers"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:616
@@ -819,6 +1116,17 @@ msgid ""
 "entry from the download manager, however, it does not delete the file from "
 "the hard disk."
 msgstr ""
+"Behalten Sie mit dem Download-Manager den Überblick über Ihre aktuellen und "
+"vergangenen Downloads. Um den Download-Manager zu starten, klicken Sie in "
+"der Menüleiste auf <menuchoice> <guimenu>Extras</guimenu> "
+"<guimenu>Downloads</guimenu> </menuchoice>. Während des Herunterladens einer "
+"Datei zeigt ein Fortschrittsbalken den Download-Status an. Unterbrechen Sie "
+"gegebenenfalls den Download und setzen Sie ihn später fort. Um eine "
+"heruntergeladene Datei mit der zugehörigen Anwendung zu öffnen, klicken Sie "
+"auf <guimenu>Öffnen</guimenu>. Um den Speicherort zu öffnen, an dem die "
+"Datei gespeichert wurde, wählen Sie <guimenu>Ziel-Ordner öffnen</guimenu>. "
+"<guimenu>Aus Chronik entfernen</guimenu> löscht nur den Eintrag aus dem "
+"Download-Manager, löscht aber nicht die Datei von der Festplatte."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:629
@@ -830,11 +1138,18 @@ msgid ""
 "choose another location or <guimenu>Always ask me where to save files</"
 "guimenu>."
 msgstr ""
+"Standardmäßig werden alle Dateien unter <filename>~/Downloads</filename> "
+"heruntergeladen. Um dieses Verhalten zu ändern, klicken Sie in der "
+"Menüleiste auf <menuchoice><guimenu>Bearbeiten</guimenu> "
+"<guimenu>Einstellungen</guimenu> </menuchoice>. Gehen Sie zu "
+"<guimenu>Allgemein</guimenu>. Wählen Sie unter <guimenu>Downloads</guimenu> "
+"entweder einen anderen Speicherort oder <guimenu>Jedes Mal nachfragen, wo "
+"eine Datei gespeichert werden soll</guimenu>."
 
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:639
 msgid "Resuming Downloads"
-msgstr ""
+msgstr "Downloads fortsetzen"
 
 #. (itstool) path: tip/para
 #: xml/apps_firefox.xml:640
@@ -844,11 +1159,16 @@ msgid ""
 "Firefox the next time. A download that was paused before the browser was "
 "closed can manually be resumed via the download manager."
 msgstr ""
+"Wenn Ihr Browser während des Herunterladens abstürzt oder geschlossen wird, "
+"werden alle ausstehenden Downloads automatisch im Hintergrund fortgesetzt, "
+"wenn Firefox das nächste Mal gestartet wird. Ein Download, der vor dem "
+"Schließen des Browsers angehalten wurde, kann manuell über den Download-"
+"Manager wieder aufgenommen werden."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:649
 msgid "Security"
-msgstr ""
+msgstr "Sicherheit"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:651
@@ -862,6 +1182,16 @@ msgid ""
 "security. With Private Browsing, you can surf the Internet without Firefox "
 "recording data on your computer."
 msgstr ""
+"Da das Surfen im Internet risikoreicher geworden ist, bietet Firefox "
+"verschiedene Maßnahmen an, um das Surfen sicherer zu machen. Er überprüft "
+"automatisch, ob Sie versuchen, auf eine Website zuzugreifen, von der bekannt "
+"ist, dass sie schädliche Software (Malware) enthält, oder auf eine Website, "
+"von der bekannt ist, dass sie sensible Daten stiehlt (Phishing), und hält "
+"Sie davon ab, diese Websites zu betreten. Mit der Instant-Web-Site-ID können "
+"Sie die Legitimität einer Site leicht überprüfen, und ein Passwortmanager "
+"und der Pop-up-Blocker bieten zusätzliche Sicherheit. Mit Private Browsing "
+"können Sie im Internet surfen, ohne dass Firefox Daten auf Ihrem Computer "
+"aufzeichnet."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:663
@@ -875,11 +1205,16 @@ msgid ""
 "The icon in the location bar next to the address indicates which identity "
 "information is available and whether communication is encrypted:"
 msgstr ""
+"Mit Firefox können Sie die Identität einer Webseite mit einem einzigen Blick "
+"überprüfen. Das Symbol in der Standortleiste neben der Adresse zeigt an, "
+"welche Identitätsinformationen verfügbar sind und ob die Kommunikation "
+"verschlüsselt ist:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:671
+#, fuzzy
 msgid "Gray Globe"
-msgstr ""
+msgstr "Grauer Globus"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:673
@@ -888,11 +1223,14 @@ msgid ""
 "Web server and browser is not encrypted. Do not exchange sensitive "
 "information with such sites."
 msgstr ""
+"Die Website bietet keine Identitätsinformationen, und die Kommunikation "
+"zwischen Webserver und Browser ist nicht verschlüsselt. Tauschen Sie keine "
+"sensiblen Informationen mit solchen Websites aus."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:681
 msgid "Gray Triangle"
-msgstr ""
+msgstr "Graues Dreieck"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:683
@@ -903,11 +1241,17 @@ msgid ""
 "scripts over an insecure connection. Firefox has blocked these items. "
 "Therefore, the page can look broken."
 msgstr ""
+"Diese Website stammt von einer Domain, die durch ein Zertifikat verifiziert "
+"wurde, so dass Sie sicher sein können, dass Sie wirklich mit genau der "
+"Website verbunden sind, für die sie sich ausgibt. Die Site hat jedoch "
+"versucht, zusätzliche Elemente wie Bilder oder Skripte über eine unsichere "
+"Verbindung zu laden. Firefox hat diese Elemente blockiert. Daher kann die "
+"Seite defekt aussehen."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:693
 msgid "Gray Padlock"
-msgstr ""
+msgstr "Graues Vorhängeschloss"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:695
@@ -920,7 +1264,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:704
 msgid "Green Padlock"
-msgstr ""
+msgstr "Grünes Vorhängeschloss"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:706
@@ -932,6 +1276,13 @@ msgid ""
 "Web site of your bank when it sends complete identity information. "
 "Communication with a <quote>green-padlock</quote> server is always encrypted."
 msgstr ""
+"Diese Site identifiziert sich vollständig durch ein Zertifikat, das "
+"sicherstellt, dass eine Site der Person oder Organisation gehört, für die "
+"sie sich ausgibt. Dies ist besonders wichtig beim Austausch sehr sensibler "
+"Daten (z.B. bei Geldtransaktionen über das Internet). In diesem Fall können "
+"Sie sicher sein, dass Sie sich auf der Website Ihrer Bank befinden, wenn "
+"diese vollständige Identitätsinformationen sendet. Die Kommunikation mit "
+"einem <quote>Grünes-Vorhängeschloss</quote>-Server ist immer verschlüsselt."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:718
@@ -942,6 +1293,12 @@ msgid ""
 "the site's certificate, the encryption level, and information about stored "
 "passwords and cookies."
 msgstr ""
+"Um detaillierte Identitätsinformationen anzuzeigen, klicken Sie auf das "
+"Symbol der Website in der Standortleiste. Klicken Sie im sich öffnenden Pop-"
+"up-Fenster auf <guimenu>Weitere Informationen</guimenu>, um das Fenster "
+"<guimenu>Seiteninfo</guimenu> zu öffnen. Hier können Sie das Zertifikat der "
+"Website, den Verschlüsselungsgrad und Informationen über gespeicherte "
+"Passwörter und Cookies einsehen."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:725
@@ -952,6 +1309,12 @@ msgid ""
 "graphics and embedded objects from a site and displays further information "
 "on each item together with a preview. It also lets you save individual items."
 msgstr ""
+"Mit der Ansicht <guimenu>Berechtigungen</guimenu> können Sie pro Site "
+"Berechtigungen für das Laden von Bildern, Pop-ups, Cookies und "
+"Installationsberechtigungen festlegen. Die Ansicht <guimenu>Medien</guimenu> "
+"listet alle Bilder, Hintergrundgrafiken und eingebetteten Objekte einer Site "
+"auf und zeigt weitere Informationen zu jedem Objekt zusammen mit einer "
+"Vorschau an. Sie können auch einzelne Objekte speichern."
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:734
@@ -964,14 +1327,15 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: xml/apps_firefox.xml:737 xml/apps_firefox.xml:740
+#, fuzzy
 msgctxt "_"
 msgid "external ref='firefox_page_info.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='firefox_page_info.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:747
 msgid "Importing Certificates"
-msgstr ""
+msgstr "Importieren von Zertifikaten"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:748
@@ -983,6 +1347,13 @@ msgid ""
 "certificate store, it is not trusted. This ensures that no spoofed "
 "certificates are accepted."
 msgstr ""
+"Firefox wird mit einem Zertifikatsspeicher zur Identifizierung von "
+"Zertifizierungsstellen (CA) geliefert. Die Verwendung dieser Zertifikate "
+"ermöglicht es dem Browser, von Websites ausgestellte Zertifikate automatisch "
+"zu überprüfen. Wenn eine Website ein Zertifikat ausstellt, das nicht von "
+"einer der CAs aus dem Zertifikatsspeicher signiert wurde, ist es nicht "
+"vertrauenswürdig. Dadurch wird sichergestellt, dass keine gefälschten "
+"Zertifikate akzeptiert werden."
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:756
@@ -995,12 +1366,20 @@ msgid ""
 "variable. For example, you can add the following line to <filename>~/."
 "bashrc</filename>:"
 msgstr ""
+"Große Organisationen verwenden in der Regel ihre eigenen "
+"Zertifizierungsstellen intern und verteilen die entsprechenden Zertifikate "
+"über den systemweiten Zertifikatsspeicher unter <filename>/etc/pki/"
+"nssdb</filename>. Um Firefox (und andere Mozilla-Tools, wie z.B. Thunderbird)"
+" so zu konfigurieren, dass dieser systemweite CA-Speicher zusätzlich zu "
+"seinem eigenen verwendet wird, exportieren Sie die Variable "
+"<envar>NSS_USE_SHARED_DB</envar>. Sie können zum Beispiel die folgende Zeile "
+"zu <filename>~/.bashrc</filename> hinzufügen:"
 
 #. (itstool) path: sect2/screen
 #: xml/apps_firefox.xml:765
 #, no-wrap
 msgid "export NSS_USE_SHARED_DB=1"
-msgstr ""
+msgstr "export NSS_USE_SHARED_DB=1"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:766
@@ -1053,6 +1432,13 @@ msgid ""
 "guimenu></menuchoice>, choose the category <guimenu>Security</guimenu> and "
 "activate <guimenu>Use a Master Password</guimenu>."
 msgstr ""
+"Um Ihre Passwörter vor unbefugtem Zugriff zu schützen, können Sie ein Master-"
+"Passwort festlegen, das beim Verwalten oder Hinzufügen von Passwörtern "
+"erforderlich ist. Klicken Sie in der Menüleiste auf "
+"<menuchoice><guimenu>Bearbeiten</guimenu> "
+"<guimenu>Einstellungen</guimenu></menuchoice>, wählen Sie die Kategorie "
+"<guimenu>Datenschutz & Sicherheit</guimenu> und aktivieren Sie <guimenu"
+">Master-Passwort verwenden</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:809
@@ -1301,7 +1687,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:987
 msgid "Installing Firefox Extensions"
-msgstr ""
+msgstr "Installieren von Firefox-Erweiterungen"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1321,11 +1707,15 @@ msgid ""
 "manager. Restart this way to make sure that your browsing session will be "
 "restored."
 msgstr ""
+"Um frisch installierte Erweiterungen oder Themes zu aktivieren, muss Firefox "
+"manchmal neu gestartet werden, indem Sie im Add-On-Manager auf <guimenu>"
+"Jetzt neu starten</guimenu> klicken. Starten Sie auf diese Weise neu, um "
+"sicherzustellen, dass Ihre Browsing-Sitzung wiederhergestellt wird."
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:1012
 msgid "Managing Add-ons"
-msgstr ""
+msgstr "Verwalten von Add-ons"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1013
@@ -1341,6 +1731,18 @@ msgid ""
 "install <guimenu>Plug-Ins</guimenu> as a user, you may disable or enable "
 "them with the Add-ons manager."
 msgstr ""
+"Der Add-On-Manager bietet auch eine bequeme Schnittstelle zur Verwaltung von "
+"Erweiterungen, Themen und Plug-Ins. <guimenu>Erweiterungen</guimenu> können "
+"aktiviert, deaktiviert oder deinstalliert werden. Wenn eine Erweiterung "
+"konfigurierbar ist, kann auf ihre Konfigurationsoptionen über die "
+"Schaltfläche <guimenu>Präferenzen</guimenu> zugegriffen werden. In der "
+"Registerkarte <guimenu>Aussehen</guimenu> können Sie "
+"<guimenu>Deinstallieren</guimenu> ein Thema oder ein anderes Thema "
+"aktivieren, indem Sie auf <guimenu>Aktivieren</guimenu> klicken. Ausstehende "
+"Erweiterungen und Themeninstallationen werden ebenfalls aufgelistet. Wählen "
+"Sie <guimenu>Abbrechen</guimenu>, um die Installation zu stoppen. Obwohl Sie "
+"<guimenu>Plug-Ins</guimenu> nicht als Benutzer installieren können, können "
+"Sie sie mit dem Add-ons-Manager deaktivieren oder aktivieren."
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1026
@@ -1349,11 +1751,15 @@ msgid ""
 "disable them. In such cases, after clicking either of these actions, a "
 "<guimenu>Restart now</guimenu> link appears in the add-ons manager."
 msgstr ""
+"Bei einigen Add-ons müssen Sie den Browser neu starten, wenn Sie sie "
+"deinstallieren oder deaktivieren. In solchen Fällen erscheint nach dem "
+"Anklicken einer dieser Aktionen im Add-On-Manager ein Link <guimenu>Jetzt "
+"neu starten</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1048
 msgid "Printing from Firefox"
-msgstr ""
+msgstr "Drucken aus Firefox"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1050
@@ -1364,6 +1770,12 @@ msgid ""
 "menuchoice>. Configure paper size and orientation per printer with "
 "<guimenu>Page Setup</guimenu>."
 msgstr ""
+"Bevor Sie eine Webseite tatsächlich drucken, können Sie die Druckvorschau-"
+"Funktion verwenden, um zu kontrollieren, wie die gedruckte Seite aussehen "
+"wird. Wählen Sie in der Menüleiste <menuchoice> <guimenu>Datei</guimenu> "
+"<guimenu>Druckvorschau</guimenu> </menuchoice>. Konfigurieren Sie "
+"Papierformat und Ausrichtung pro Drucker mit <guimenu>Seite "
+"einrichten</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1058
@@ -1374,6 +1786,12 @@ msgid ""
 "<guimenu>Printer</guimenu> dialog opens. To print with the default options "
 "click <guimenu>Print</guimenu>."
 msgstr ""
+"Um eine Webseite zu drucken, wählen Sie entweder aus der Menüleiste "
+"<menuchoice> <guimenu>Datei</guimenu><guimenu>Drucken</guimenu> </menuchoice>"
+" oder drücken Sie <keycombo><keycap function=\"control\""
+"/><keycap>P</keycap></keycombo>. Das Dialogfeld <guimenu>Drucker</guimenu> "
+"wird geöffnet. Um mit den Standardoptionen zu drucken, klicken Sie auf "
+"<guimenu>Drucken</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1066
@@ -1386,16 +1804,26 @@ msgid ""
 "double-sided printing here. Control how frames, backgrounds, header and "
 "footer are printed on the <guimenu>Options</guimenu> tab."
 msgstr ""
+"Das Dialogfeld \"Drucker\" bietet auch umfangreiche Konfigurationsoptionen "
+"zur Feinabstimmung des Ausdrucks. Auf der Registerkarte "
+"<guimenu>Allgemein</guimenu> wählen Sie einen Drucker, den zu druckenden "
+"Bereich, die Anzahl der Exemplare und die Reihenfolge. Unter <guimenu>Seite "
+"einrichten</guimenu> können Sie die Anzahl der Seiten pro Seite, den "
+"Skalierungsfaktor sowie die Papierquelle und den Papiertyp festlegen. Wenn "
+"der Drucker dies unterstützt, können Sie hier auch den doppelseitigen Druck "
+"aktivieren. Steuern Sie, wie Rahmen, Hintergründe, Kopf- und Fußzeilen auf "
+"der Registerkarte <guimenu>Optionen</guimenu> gedruckt werden."
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1110
 msgid "For More Information"
-msgstr ""
+msgstr "Für mehr Informationen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1112
 msgid "To get more information about Firefox see the following links:"
 msgstr ""
+"Weitere Informationen über Firefox erhalten Sie unter den folgenden Links:"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1117
