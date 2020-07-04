@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-07-31 05:04+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_sudo-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/adm_sudo.xml:11
@@ -24,7 +26,7 @@ msgstr ""
 #. (itstool) path: docmanager/translation
 #: xml/adm_sudo.xml:16
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:19
@@ -37,6 +39,15 @@ msgid ""
 "Instead, it is recommended to work as a normal, unprivileged user and use "
 "the <command>sudo</command> command to run commands with elevated privileges."
 msgstr ""
+"Viele Befehle und Systemdienstprogramme müssen als <systemitem class=\""
+"username\">root</systemitem> ausgeführt werden, um Dateien zu ändern und/"
+"oder Aufgaben auszuführen, die nur dem Superuser erlaubt sind. Aus "
+"Sicherheitsgründen und um die versehentliche Ausführung gefährlicher Befehle "
+"zu vermeiden, ist es im Allgemeinen ratsam, sich nicht direkt als <"
+"systemitem class=\"username\">root</systemitem> anzumelden. Stattdessen "
+"empfiehlt es sich, als normaler, unprivilegierter Benutzer zu arbeiten und "
+"den Befehl <command>sudo</command> zu verwenden, um Befehle mit erhöhten "
+"Privilegien auszuführen."
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:27
@@ -73,11 +84,13 @@ msgstr ""
 #: xml/adm_sudo.xml:46
 msgid "<command>sudo</command> is simple to use, yet very powerful."
 msgstr ""
+"<command>sudo</command> ist einfach zu bedienen und dennoch sehr "
+"leistungsfähig."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:51
 msgid "Running a Single Command"
-msgstr ""
+msgstr "Ausführen eines Einzelbefehls"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:52
@@ -434,7 +447,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:302
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:307
