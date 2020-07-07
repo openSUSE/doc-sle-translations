@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_firefox-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apps_firefox.xml:9
 msgid "Firefox: Browsing the Web"
-msgstr ""
+msgstr "Firefox: Web ブラウザ"
 
 #. (itstool) path: abstract/para
 #: xml/apps_firefox.xml:12
@@ -41,7 +43,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:26
 msgid "Starting Firefox"
-msgstr ""
+msgstr "Firefox の起動"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:28
@@ -53,7 +55,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:34
 msgid "Navigating Web Sites"
-msgstr ""
+msgstr "Web サイトの表示"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:36
@@ -69,7 +71,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apps_firefox.xml:46
 msgid "Using the Menu Bar"
-msgstr ""
+msgstr "メニューバーの使用"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -122,7 +124,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:65
 msgid "The Browser Window of Firefox"
-msgstr ""
+msgstr "Firefox のブラウザウインドウ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -137,7 +139,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:77
 msgid "The Location Bar"
-msgstr ""
+msgstr "ロケーションバー"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:78
@@ -147,6 +149,9 @@ msgid ""
 "characters you type. The matching phrase is highlighted in bold. Entries "
 "visited most frequently and recently are listed first."
 msgstr ""
+"ロケーションバー内で何らかの入力を行なうと、自動補完機能のドロップダウンボックスが表示されるようになります。ここには以前に入力した URL のほか、入力し"
+"た文字を含むブックマークも表示されます。また、入力した文字に該当する箇所は太文字で表示されます。なお、最も良く使用していて、最近使用したサイトを優先して表"
+"示します。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:84
@@ -157,6 +162,9 @@ msgid ""
 "bookmarks only, type <keycap>*</keycap> as the first character of your "
 "search."
 msgstr ""
+"ブックマーク内の項目を表示する際には、星印のマークが付けられます。また、タグの設定されたブックマークには、タグ名の書かれたラベルが併記されます。なお、閲覧"
+"履歴から検出された項目については、何もマークが付けられません。検索をブックマークからのみ行ないたい場合は、検索する際に最初に "
+"<keycap>*</keycap> を付けてください。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:91
@@ -167,11 +175,15 @@ msgid ""
 "entry from the list if it is an entry from the history. Bookmarked entries "
 "can only be removed by deleting the associated bookmark."
 msgstr ""
+"一覧が表示されたあとは、 <keycap function=\"up\"/> や <keycap function=\"down\"/> "
+"もしくはマウスのホイールで一覧内を探すことができます。選択したページを表示したい場合は、 <keycap function=\"enter\"/> "
+"を押すかマウスの左ボタンを押してください。なお、表示されている項目が履歴からのものである場合は、 <keycap function=\"delete\""
+"/> を押すことで履歴から削除する子ができます。ブックマークの場合は、ブックマーク内で削除処理を行なう必要があります。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:101
 msgid "Zooming"
-msgstr ""
+msgstr "拡大／縮小"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:102
@@ -181,6 +193,9 @@ msgid ""
 "including graphics, expanding equally while text zoom only changes the text "
 "size."
 msgstr ""
+"Firefox には 2 種類の拡大／縮小機能が用意されています。 1 つはページズームと呼ばれる既定の方法で、もう 1 つはテキストズームと呼ばれる方法"
+"です。ページズームはページ全体をそのまま拡大もしくは縮小するもので、グラフィックなどを含む全ての要素を等しく変更します。対するテキストズームは、テキストの"
+"サイズのみを拡大もしくは縮小します。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:108
@@ -198,7 +213,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:121
 msgid "Tabbed Browsing"
-msgstr ""
+msgstr "タブブラウジング"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:122
@@ -208,11 +223,14 @@ msgid ""
 "often use more than one Web page at a time, tabbed browsing makes it easier "
 "to switch between pages."
 msgstr ""
+"タブブラウジング機能を利用することで、 1 つのウインドウ内に複数の Web "
+"サイトを読み込むことができます。タブ間を切り替える場合は、ウインドウの上部にあるタブを選択するだけです。複数の Web "
+"ページを同時に開いて作業を行なうような場合は、タブブラウジングによってページ間の切り替えが簡単になります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:130
 msgid "Opening Tabs"
-msgstr ""
+msgstr "タブの作成"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:132
@@ -230,7 +248,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:146
 msgid "Closing Tabs"
-msgstr ""
+msgstr "タブを閉じる"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:148
@@ -249,7 +267,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:163
 msgid "Sorting Tabs"
-msgstr ""
+msgstr "タブの並べ替え"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:165
@@ -261,11 +279,15 @@ msgid ""
 "right-click the down arrow at the right end of the tab bar to get a list of "
 "all tabs."
 msgstr ""
+"既定では、タブは作成した順に表示されます。タブの順序を入れ替えたい場合はドラッグ＆ドロップ "
+"(タブをマウスの左ボタンで選択し、ボタンを押したまま移動先まで動かしてから、ボタンを離す) してください。多数のタブを開いている場合は、タブバー内にそれら"
+"全てを表示しきれない場合がありますが、この場合はタブバーの両端にある左もしくは右のボタンを押して移動するか、下向きのボタンでタブの一覧を表示させることがで"
+"きます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:176
 msgid "Dragging and Dropping"
-msgstr ""
+msgstr "ドラッグ＆ドロップ"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:178
@@ -275,11 +297,14 @@ msgid ""
 "open a new tab. Drag and drop a tab outside of the tab bar to open it in a "
 "new browser window."
 msgstr ""
+"ドラッグ＆ドロップはタブそのものに対しても作用させることができます。既存のタブに対してリンクをドラッグするか、もしくはタブバー内の何もない領域にリンクをド"
+"ラッグすると、既存のタブもしくは新規のタブ内でリンクを開くことができます。また、タブをタブバーの外側にドラッグすると、新しいブラウザウインドウを開くことが"
+"できます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:190
 msgid "Using the Sidebar"
-msgstr ""
+msgstr "サイドバーの使用"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:191
@@ -289,11 +314,14 @@ msgid ""
 "the sidebar, from the menu bar, select <menuchoice> <guimenu>View</guimenu> "
 "<guimenu>Sidebar</guimenu> </menuchoice> and select the desired contents."
 msgstr ""
+"ブラウザウインドウの左側を利用して、ブックマークの表示や履歴の表示などを行なうことができます。拡張機能を利用することで、サイドバーの使用をさらに便利にする"
+"こともできます。サイドバーを表示するには、メニューバーから <menuchoice> <guimenu>表示</guimenu> "
+"<guimenu>サイドバー</guimenu> </menuchoice> を選択し、その中にあるいずれかの項目を選んでください。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:200
 msgid "Finding Information"
-msgstr ""
+msgstr "情報の検索"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:202
@@ -302,11 +330,13 @@ msgid ""
 "with a search engine, use the search bar. To search the page currently "
 "displayed, use the find bar."
 msgstr ""
+"情報の検索には 2 種類の方法が用意されています。 1 つは検索バーを利用したインターネット検索で、この場合はサーチエンジンを利用して検索を行ないます。"
+"もう 1 つはページ内検索で、現在表示されているページ内を検索します。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:209
 msgid "Finding Information on the Web"
-msgstr ""
+msgstr "Web 内での情報の検索"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:210
@@ -324,23 +354,24 @@ msgid ""
 "To choose a different search engine, type your search term, then click one "
 "of the search provider icons at the bottom of the appearing pop-up."
 msgstr ""
+"異なる検索エンジンを利用したい場合は、いったん検索語句を入力したあと、表示されたポップアップ内にあるいずれかの検索プロバイダのアイコンを押してください。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:222
 msgid "Customizing the Search Bar"
-msgstr ""
+msgstr "検索バーのカスタマイズ"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:223
 msgid ""
 "If you want to change the order, add, or delete a search engine, proceed as "
 "follows."
-msgstr ""
+msgstr "サーチエンジンの並べ替えや追加／削除を行ないたい場合は、下記のようにして行ないます。"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:229
 msgid "Click the icon to the left of the search bar."
-msgstr ""
+msgstr "検索バーの左側にあるアイコンを押します。"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:234
@@ -353,7 +384,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:241
 msgid "To change the order of entries, use the mouse to drag them."
-msgstr ""
+msgstr "項目を並べ替えたい場合は、ドラッグ＆ドロップで入れ替えてください。"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:244
@@ -395,7 +426,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:282
 msgid "Adding Keywords to Your Online Searches"
-msgstr ""
+msgstr "オンライン検索に対するキーワードの追加"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:283
@@ -423,6 +454,7 @@ msgid ""
 "It is also possible to define a keyword for any search field on a Web site. "
 "Proceed as follows:"
 msgstr ""
+"キーワードの設定は、サーチエンジンだけでなく Web サイトの検索フィールドに対しても設定することができます。具体的には下記のようにして行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:305
@@ -431,6 +463,8 @@ msgid ""
 "Search</guimenu> from the menu that opens. The <guimenu>Add Bookmark</"
 "guimenu> dialog appears."
 msgstr ""
+"検索フィールドを表示させてその上でマウスの右ボタンを押し、メニューが表示されたら <guimenu>この検索にキーワードを設定</guimenu> "
+"を選択します。すると、 <guimenu>新しいブックマーク</guimenu> のダイアログが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:312
@@ -440,17 +474,17 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:317
 msgid "Enter your <guimenu>Keyword</guimenu> for this search."
-msgstr ""
+msgstr "<guimenu>キーワード</guimenu> には、その検索に割り当てるキーワードを入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_firefox.xml:322
 msgid "<guimenu>Save</guimenu> this keyword."
-msgstr ""
+msgstr "<guimenu>保存</guimenu> を押してキーワードを保存します。"
 
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:328
 msgid "Keywords for Regular Web Sites"
-msgstr ""
+msgstr "通常の Web サイトに対するキーワード設定"
 
 #. (itstool) path: tip/para
 #: xml/apps_firefox.xml:329
@@ -464,7 +498,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:340
 msgid "Searching in the Current Page"
-msgstr ""
+msgstr "現在のページ内の検索"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:341
@@ -495,7 +529,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:364
 msgid "Managing Bookmarks"
-msgstr ""
+msgstr "ブックマークの管理"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:366
@@ -506,6 +540,9 @@ msgid ""
 "You can sort bookmarks into folders, classify them with tags, or filter them "
 "with smart bookmark folders."
 msgstr ""
+"ブックマークは、お気に入りの Web サイトへのリンクを保存する便利な方法です。 Firefox では新しいブックマークの追加をマウスクリック 1 回で簡"
+"単にできるだけでなく、巨大なブックマークコレクションを管理するための様々な方法を提供しています。ブックマークをフォルダで分類することができるほか、タグを設"
+"定して分類したり、スマートブックマークフォルダでフィルタを行なったりすることができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:374
@@ -516,6 +553,10 @@ msgid ""
 "the name and folder of your bookmark or add tags, after bookmarking, click "
 "the star again. This will open a pop-up where you can make your changes."
 msgstr ""
+"ブックマークに Web サイトを追加するには、サイトを表示した状態でロケーションバー内の星印を押します。すると星印が青く塗りつぶされた状態になりますので、"
+"これで保存が行なわれたことが分かります。ブックマークは当初、 <guimenu>他のブックマーク</guimenu> 内に保存されます。ブックマークの作成"
+"後に名前を変更したり、フォルダを変更したりタグを追加したりしたい場合は、再度星印を押してください。これによりポップアップウインドウが表示され、必要な設定を"
+"行なうことができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:382
@@ -535,7 +576,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:394
 msgid "Organizing Bookmarks"
-msgstr ""
+msgstr "ブックマークの整理"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:395
@@ -548,7 +589,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:401
 msgid "The Firefox Bookmark Library"
-msgstr ""
+msgstr "Firefox ブックマークライブラリ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -574,20 +615,20 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:421
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:423
 msgid ""
 "Contains your complete browsing history. You cannot alter this list other "
 "than by deleting entries from it."
-msgstr ""
+msgstr "このフォルダ内には、閲覧履歴が保存されます。履歴は削除することはできますが、内容を変更することはできません。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:430 xml/apps_firefox.xml:498
 msgid "Tags"
-msgstr ""
+msgstr "タグ"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:432
@@ -599,17 +640,17 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:440
 msgid "All Bookmarks"
-msgstr ""
+msgstr "すべてのブックマーク"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:442
 msgid "This category contains the three main bookmark folders:"
-msgstr ""
+msgstr "この分類には、さらに 3 つのブックマークフォルダが含まれています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:447
 msgid "Bookmarks Toolbar"
-msgstr ""
+msgstr "ブックマークツールバー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:449
@@ -621,7 +662,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:457
 msgid "Bookmarks Menu"
-msgstr ""
+msgstr "ブックマークメニュー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:459
@@ -629,11 +670,13 @@ msgid ""
 "Holds the bookmarks and folder accessible via the <guimenu>Bookmarks</"
 "guimenu> entry in the main menu or the bookmarks side menu."
 msgstr ""
+"メインメニューもしくはサイドメニュー内の <guimenu>ブックマーク</guimenu> "
+"からアクセスすることのできる、ブックマークとフォルダが含まれています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:467
 msgid "Unsorted Bookmarks"
-msgstr ""
+msgstr "他のブックマーク"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:469
@@ -641,6 +684,7 @@ msgid ""
 "Contains all bookmarks created with a single click the star in the location "
 "bar. This folder is only visible in the library and the bookmarks sidebar."
 msgstr ""
+"ロケーションバーで星印を押すことで追加された、全てのブックマークが含まれています。このフォルダはライブラリやサイドバーからのみアクセスすることができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:480
@@ -661,6 +705,8 @@ msgid ""
 "move a bookmark or a folder to a different folder, or to change the order of "
 "bookmarks in a folder."
 msgstr ""
+"ブックマークを並べ替えたい場合は、ドラッグ＆ドロップで移動してください。このドラッグ＆ドロップの機能は、ブックマークやフォルダを別のフォルダ内に移動したり"
+"、フォルダ同士の並べ替えを行なってたりする際にも、使用することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:499
@@ -682,11 +728,15 @@ msgid ""
 "to add tags via the bookmark's properties dialog which you can open in the "
 "library or by right-clicking a bookmark in the menu or the toolbar."
 msgstr ""
+"ブックマークに対してタグを設定するには、 Firefox でブックマークを開いたあと、ロケーションバー内にある黄色い星印を押してください。 "
+"<guimenu>このブックマークを編集</guimenu> ダイアログが表示され、そこでタグをカンマ繰りで入力することができるようになります。また、ブラ"
+"ウジングライブラリ内でブックマークを編集する際や、メニューバーやツールバーなどからブックマークを選んでマウスの右ボタンを押すことでも、タグを編集することが"
+"できます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:519
 msgid "Importing and Exporting Bookmarks"
-msgstr ""
+msgstr "ブックマークの取り込み (インポート) と取り出し (エクスポート)"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:524
@@ -721,7 +771,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:549
 msgid "Live Bookmarks"
-msgstr ""
+msgstr "ライブブックマーク"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:550
@@ -731,6 +781,9 @@ msgid ""
 "your favorite sites. Live bookmarks update automatically. Many sites and "
 "blogs support this format."
 msgstr ""
+"ライブブックマークは、ブックマークメニュー内でヘッドライン部分のみを表示するタイプのブックマークで、最新のニュースなどを表示させることができます。これによ"
+"り、わざわざサイトを表示したりすることなく、最新の情報をまとめて読むことができます。ライブブックマークは自動的に更新される仕組みで、多くのサイトやブログな"
+"どが、この仕組みに対応しています。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:559
@@ -748,7 +801,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:572
 msgid "Smart Bookmark Folders"
-msgstr ""
+msgstr "スマートブックマークフォルダ"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:573
@@ -759,11 +812,15 @@ msgid ""
 "Bookmarked</guimenu> links and <guimenu>Recent Tags</guimenu> are located in "
 "the bookmarks menu."
 msgstr ""
+"スマートブックマークフォルダは仮想的なブックマークフォルダで、動的に自動更新されるタイプのブックマークです。スマートブックマークフォルダには 3 "
+"つの種類が用意されています。 1 つ目は <guimenu>よく見るページ</guimenu> で、ブックマークツールバー内にも表示されます。残りの 2 "
+"つは <guimenu>最近のブックマーク</guimenu> と <guimenu>最近付けたタグ</guimenu> "
+"で、これらはブックマークメニュー内に表示されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:583
 msgid "The Bookmarks Toolbar"
-msgstr ""
+msgstr "ブックマークツールバー"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:584
@@ -803,7 +860,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:614
 msgid "Using the Download Manager"
-msgstr ""
+msgstr "ダウンロードマネージャの使用"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:616
@@ -834,7 +891,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apps_firefox.xml:639
 msgid "Resuming Downloads"
-msgstr ""
+msgstr "ダウンロードの再開"
 
 #. (itstool) path: tip/para
 #: xml/apps_firefox.xml:640
@@ -844,11 +901,13 @@ msgid ""
 "Firefox the next time. A download that was paused before the browser was "
 "closed can manually be resumed via the download manager."
 msgstr ""
+"ブラウザがクラッシュしてしまったり、ダウンロードが途中で止まってしまったりした場合は、次回の Firefox "
+"の起動時にダウンロードが自動的に再開されます。ただし、ブラウザを閉じた時点でダウンロードを一時停止していた場合は、手作業で再開を行なう必要があります。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:649
 msgid "Security"
-msgstr ""
+msgstr "セキュリティ"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:651
@@ -862,11 +921,17 @@ msgid ""
 "security. With Private Browsing, you can surf the Internet without Firefox "
 "recording data on your computer."
 msgstr ""
+"インターネットの閲覧は日を追うごとにリスクを伴うものになってきています。 Firefox "
+"では様々なセキュリティ要素を取り入れることで、閲覧をより安全なものにしています。たとえば、既知の有害ソフトウエア (マルウエア) "
+"を提供しているサイトであるかどうかや、機密情報を窃取する (フィッシング) "
+"サイトであるかどうかを自動的にチェックし、それらのサイトであることが検出されると、閲覧を止める機能が用意されています。また、簡易 Web サイト識別機能で"
+"は、サイトの合法性を簡単に確認できますし、パスワードマネージャやポップアップブロッカーの機能によって、さらに高いセキュリティを提供しています。このほか、プ"
+"ライベートブラウジング機能では、コンピュータ内に一切データを記録することなく、インターネットを閲覧することもできます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:663
 msgid "Instant Web Site ID"
-msgstr ""
+msgstr "簡易 Web サイト識別"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:664
@@ -875,11 +940,13 @@ msgid ""
 "The icon in the location bar next to the address indicates which identity "
 "information is available and whether communication is encrypted:"
 msgstr ""
+"Firefox では、 Web ページの識別を一目で行なうことができるようになっています。ロケーションバーのアドレスの隣に表示されたアイコンを確認すること"
+"で、識別情報が提供されているかどうかと、通信が暗号化されているかどうかを確認することができます:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:671
 msgid "Gray Globe"
-msgstr ""
+msgstr "灰色の地球儀アイコン"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:673
@@ -888,11 +955,13 @@ msgid ""
 "Web server and browser is not encrypted. Do not exchange sensitive "
 "information with such sites."
 msgstr ""
+"表示しているサイトでは識別情報が提供されておらず、 Web "
+"サーバとブラウザとの間の通信も暗号化されていません。これらのサイトでは、機密情報をやり取りしてはなりません。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:681
 msgid "Gray Triangle"
-msgstr ""
+msgstr "灰色の三角形"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:683
@@ -903,11 +972,14 @@ msgid ""
 "scripts over an insecure connection. Firefox has blocked these items. "
 "Therefore, the page can look broken."
 msgstr ""
+"このサイトは証明書によってドメインを確認済みであるため、表示どおりのサイトに接続していることが確認できています。ところが、サイトに含まれている画像やスクリ"
+"プトなどの追加要素が暗号化されていない接続を介して提供されています。そのため、 Firefox "
+"側ではそれらをブロックし、読み込まないようにしています。そのため、ページは正しく動作しないものと思われます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:693
 msgid "Gray Padlock"
-msgstr ""
+msgstr "灰色の南京錠"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:695
@@ -916,11 +988,13 @@ msgid ""
 "can be sure that you are really connected to the very site it claims to be. "
 "Communication with a <quote>gray-padlock</quote> site is always encrypted."
 msgstr ""
+"このサイトは証明書によってドメインを確認済みであるため、表示どおりのサイトに接続していることが確認できています。 "
+"<quote>灰色の南京錠</quote> の表示されているサイトであれば、通信も暗号化されています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_firefox.xml:704
 msgid "Green Padlock"
-msgstr ""
+msgstr "緑色の南京錠"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:706
@@ -932,6 +1006,10 @@ msgid ""
 "Web site of your bank when it sends complete identity information. "
 "Communication with a <quote>green-padlock</quote> server is always encrypted."
 msgstr ""
+"このサイトは、証明書によってドメインだけでなく、所有者である個人や団体までを確認できています。そのため、非常に機密度の高いデータ交換を行なうような場合 "
+"(たとえばインターネット経由での資金決済を実施する場合など) に重要な項目となります。特に銀行の Web "
+"サイトなどでは、その銀行が提供しているサイトであることを間違いなく確認できていることになります。もちろん、 <quote>緑色の南京錠</quote> "
+"でも通信は暗号化されています。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:718
@@ -942,6 +1020,9 @@ msgid ""
 "the site's certificate, the encryption level, and information about stored "
 "passwords and cookies."
 msgstr ""
+"識別情報に関する詳細を表示するには、ロケーションバー内のアイコンを押してください。ポップアップウインドウが表示されますので、 "
+"<guimenu>詳細を表示</guimenu> を押して <guimenu>ページ情報</guimenu> "
+"ウインドウを開いてください。ここでは、サイトの証明書のほか、暗号化レベルやパスワードの保存、 Cookie に関する情報などが表示されます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:725
@@ -952,11 +1033,14 @@ msgid ""
 "graphics and embedded objects from a site and displays further information "
 "on each item together with a preview. It also lets you save individual items."
 msgstr ""
+"<guimenu>サイト別設定</guimenu> ビューでは、画像の読み込みやポップアップ、 Cookie "
+"やインストールなどの許可をサイトごとに設定することができます。また、 <guimenu>メディア</guimenu> ビューでは、サイトから提供された全て"
+"の画像や背景グラフィック、組み込みオブジェクトなどの一覧と、それらの詳細情報とプレビューが表示されます。また、個別の項目を保存することもできます。"
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:734
 msgid "The Firefox Page Info Window"
-msgstr ""
+msgstr "Firefox ページ情報ウインドウ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -971,7 +1055,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:747
 msgid "Importing Certificates"
-msgstr ""
+msgstr "証明書の取り込み"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:748
@@ -983,6 +1067,10 @@ msgid ""
 "certificate store, it is not trusted. This ensures that no spoofed "
 "certificates are accepted."
 msgstr ""
+"Firefox には証明機関 (CA) を識別するための証明書ストアが用意されています。これらの内蔵の証明書ストアを利用することで、 Web "
+"サイトが発行する証明書を検証し、正当なものであることを確認することができます。ただし、 Web "
+"サイト側から提供された証明書が、内蔵の証明書ストア内にある証明書で署名されていないものであった場合、その Web "
+"サイトは信用されなくなります。これにより、偽装された証明書を受け付けないようにしています。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:756
@@ -1000,7 +1088,7 @@ msgstr ""
 #: xml/apps_firefox.xml:765
 #, no-wrap
 msgid "export NSS_USE_SHARED_DB=1"
-msgstr ""
+msgstr "export NSS_USE_SHARED_DB=1"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:766
@@ -1018,7 +1106,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:779
 msgid "Password Management"
-msgstr ""
+msgstr "パスワード管理"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:780
@@ -1057,7 +1145,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:809
 msgid "Private Browsing"
-msgstr ""
+msgstr "プライベートブラウジング"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:810
@@ -1070,6 +1158,11 @@ msgid ""
 "mode Firefox will not keep track of your browsing history nor will it cache "
 "the content of pages you have visited."
 msgstr ""
+"既定では、 Firefox は訪問済みの Web サイトに対して内容とリンクを保存して閲覧履歴を記憶することができるほか、使用している Cookie やパ"
+"スワード、検索語句なども保存しています。これらの情報を収集して記憶することで、閲覧をより高速かつ便利にすることができるようになっています。しかしながら、"
+"たとえば <!-- NOTE: different example -->ネットカフェや友人のコンピュータなど、これらの動作を無効化しておきたい場合もあり"
+"ます。このような要望に対応しているのがプライベートブラウジングモードで、このモードが有効化された状態では、 Firefox "
+"は閲覧履歴や訪問済みのページのキャッシュ (記憶) などを行なわないようになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:819
@@ -1085,7 +1178,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:827
 msgid "Disable Private Browsing by closing the private window."
-msgstr ""
+msgstr "プライベートブラウジングモードを終了するには、単純にウインドウを閉じるだけです。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:830
@@ -1100,49 +1193,49 @@ msgstr ""
 #. (itstool) path: warning/title
 #: xml/apps_firefox.xml:838
 msgid "Bookmarks and Downloads"
-msgstr ""
+msgstr "ブックマークとダウンロードについて"
 
 #. (itstool) path: warning/para
 #: xml/apps_firefox.xml:839
 msgid ""
 "Downloads and bookmarks you made during Private Browsing mode will be kept."
-msgstr ""
+msgstr "プライベートブラウジングモードを使用していても、ダウンロードしたファイルやブックマークの設定などは保存されます。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:847
 msgid "Customizing Firefox"
-msgstr ""
+msgstr "Firefox のカスタマイズ"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:849
 msgid "Firefox can be customized extensively."
-msgstr ""
+msgstr "Firefox は幅広くカスタマイズすることができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:855
 msgid "Change the way Firefox behaves by altering its preferences."
-msgstr ""
+msgstr "設定を変更することで、 Firefox の動作を変更することができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:860
 msgid "Add functionality by installing extensions."
-msgstr ""
+msgstr "拡張機能をインストールすることで、機能を拡張することができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_firefox.xml:865
 msgid "Change the look and feel by installing themes."
-msgstr ""
+msgstr "テーマをインストールすることで、外観を変更することができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:871
 msgid ""
 "To manage extensions, themes and plug-ins, Firefox has an add-on manager."
-msgstr ""
+msgstr "拡張機能やテーマ、プラグインを管理する目的で、 Firefox にはアドオンマネージャが付属しています。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_firefox.xml:876
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:877
@@ -1153,11 +1246,14 @@ msgid ""
 "online help, which can be accessed by clicking the question mark icon in the "
 "dialog."
 msgstr ""
+"Firefox には幅広い設定オプションが用意されています。設定はメニューバーから <menuchoice> <guimenu>編集</guimenu> "
+"<guimenu>設定</guimenu> </menuchoice> を選択することで表示させることができます。それぞれのオプションはオンラインヘルプで"
+"詳しく説明されています。オンラインヘルプを表示するには、ダイアログ内のクエスチョンマークのアイコンを押してください。"
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:885
 msgid "The Preferences Window"
-msgstr ""
+msgstr "設定ウインドウ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1172,7 +1268,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:896
 msgid "Session management"
-msgstr ""
+msgstr "セッション管理"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:897
@@ -1199,7 +1295,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:917
 msgid "Language Preferences for Web Sites"
-msgstr ""
+msgstr "Web サイトに対する言語の設定"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:918
@@ -1221,7 +1317,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:932
 msgid "Spell Checking"
-msgstr ""
+msgstr "スペルチェッカー"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:933
@@ -1231,6 +1327,9 @@ msgid ""
 "right-click it and select the correct spelling from the context menu. You "
 "may also add the word to the dictionary, if it is correct."
 msgstr ""
+"既定では、 Firefox は複数行対応のテキストボックス内に入力を行なった際、スペルチェックを行ないます。スペルミスの単語には赤線が引かれます。単語を修"
+"正するには、赤線の箇所でマウスの右ボタンを押し、表示されたコンテキストメニューから修正先を選択してください。また、必要な単語を辞書に追加することもできます"
+"。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:940
@@ -1258,6 +1357,10 @@ msgid ""
 "show the weather, or control Web music players. Other extensions assist Web "
 "developers or increase security by blocking content such as ads or scripts."
 msgstr ""
+"拡張機能を利用することで、 Firefox を好みに合わせて変更することができます。拡張機能は Firefox の外観を変更するだけでなく、既存の機能の拡"
+"張や新しい機能の追加などを行なうことができます。たとえば、拡張機能でダウンロードマネージャの機能拡張を行なったり、気象情報を表示させたり、ミュージックプレ"
+"ーヤの制御を行なったりすることができます。それ以外にも、開発者向けの支援や、広告やスクリプトなどのコンテンツをブロックしてセキュリティを高める機能などもあ"
+"ります。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:962
@@ -1265,6 +1368,8 @@ msgid ""
 "There are thousands of extensions available for Firefox. With the add-ons "
 "manager, you can install, enable, disable, update, and remove extensions."
 msgstr ""
+"Firefox "
+"には多数の拡張が提供されています。アドオンマネージャを利用することで、拡張機能のインストールや有効化／無効化、更新や削除などを行なうことができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_firefox.xml:966
@@ -1277,7 +1382,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:972
 msgid "Installing Add-ons"
-msgstr ""
+msgstr "アドオンのインストール"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:973
@@ -1288,6 +1393,9 @@ msgid ""
 "displaying a choice of recommended add-ons or the results of your last "
 "search."
 msgstr ""
+"拡張機能やテーマを追加するには、まずメニューバーから <menuchoice> <guimenu>ツール</guimenu> "
+"<guimenu>アドオン</guimenu> </menuchoice> でアドオンマネージャを開きます。すると "
+"<guimenu>アドオン入手</guimenu> のタブが選択された状態になり、お勧めのアドオンや直近の検索から判断したアドオンなどが表示されます。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:980
@@ -1297,11 +1405,17 @@ msgid ""
 "add-on by clicking <guimenu>Install</guimenu> or open a Web page with "
 "detailed information by clicking the <guimenu>More</guimenu> link."
 msgstr ""
+"拡張機能やテーマの検索を行ないたい場合は、 <!-- NOTE: different structure "
+"--><guimenu>拡張機能</guimenu> もしくは <guimenu>テーマ</guimenu> を選択して、表示された検索ボックス内にキーワ"
+"ードを入力してください。表示された検索結果内に表示された拡張機能もしくはテーマをマウスの左ボタンで押すと、詳しい説明文が表示されるようになります。拡張機能"
+"やテーマをインストールするには、 <!-- NOTE: different label --><guimenu>Firefox へ追加</guimenu>"
+" を押してください。 <!-- or open a Web page with detailed information by clicking the "
+"<guimenu>More</guimenu> link. -->"
 
 #. (itstool) path: figure/title
 #: xml/apps_firefox.xml:987
 msgid "Installing Firefox Extensions"
-msgstr ""
+msgstr "Firefox 拡張機能のインストール"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1321,11 +1435,14 @@ msgid ""
 "manager. Restart this way to make sure that your browsing session will be "
 "restored."
 msgstr ""
+"新規にインストールした拡張機能やテーマを有効化するにあたって、 Firefox ではアドオンマネージャが "
+"<guimenu>今すぐ再起動</guimenu> を押して再起動を行なうよう求めることがあります。この方法で再起動を行なった場合、現在閲覧中のセッション"
+"は保存され、再起動後に同じページを表示することができます。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_firefox.xml:1012
 msgid "Managing Add-ons"
-msgstr ""
+msgstr "アドオンの管理"
 
 #. (itstool) path: sect3/para
 #: xml/apps_firefox.xml:1013
@@ -1349,11 +1466,13 @@ msgid ""
 "disable them. In such cases, after clicking either of these actions, a "
 "<guimenu>Restart now</guimenu> link appears in the add-ons manager."
 msgstr ""
+"アドオンによっては、削除や無効化にあたってブラウザの再起動を求められることがあります。このようなアドオンの場合は、削除や無効化を行なったあと、"
+"アドオンマネージャが <guimenu>今すぐ再起動</guimenu> のボタンを表示します。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1048
 msgid "Printing from Firefox"
-msgstr ""
+msgstr "Firefox からの印刷処理"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1050
@@ -1390,12 +1509,12 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_firefox.xml:1110
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: sect1/para
 #: xml/apps_firefox.xml:1112
 msgid "To get more information about Firefox see the following links:"
-msgstr ""
+msgstr "Firefox についてより詳しく知りたい場合は、下記のリンク先をご覧ください:"
 
 #. (itstool) path: simplelist/member
 #: xml/apps_firefox.xml:1117
