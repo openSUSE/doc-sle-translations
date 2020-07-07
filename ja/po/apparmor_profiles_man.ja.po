@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_profiles_man-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apparmor_profiles_man.xml:9
 msgid "Building Profiles from the Command Line"
-msgstr ""
+msgstr "コマンドラインからのプロファイル構築"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles_man.xml:16
@@ -34,7 +36,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_profiles_man.xml:23
 msgid "Background Information"
-msgstr ""
+msgstr "背景となる情報について"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:24
@@ -58,7 +60,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:40
 msgid "Unloaded"
-msgstr ""
+msgstr "未読み込み (Unloaded)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:42
@@ -68,7 +70,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:48
 msgid "Running"
-msgstr ""
+msgstr "動作中 (Running)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:50
@@ -80,7 +82,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:57
 msgid "Stopped"
-msgstr ""
+msgstr "停止済み (Stopped)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:59
@@ -110,7 +112,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:81
 msgid "<command>sudo systemctl start apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl start apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:84
@@ -127,7 +129,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apparmor_profiles_man.xml:94
 msgid "Already Running Processes"
-msgstr ""
+msgstr "既に動作中のプロセスについて"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:95
@@ -139,7 +141,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:103
 msgid "<command>sudo systemctl stop apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl stop apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:106
@@ -154,7 +156,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:116
 msgid "<command>sudo systemctl reload apparmor</command>"
-msgstr ""
+msgstr "<command>sudo systemctl reload apparmor</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:119
@@ -281,16 +283,17 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:237
 msgid "Enter <command>ls</command> to view all profiles currently installed."
 msgstr ""
+"<command>ls</command> と入力して実行すると、現在インストールされているすべてのプロファイルの一覧を表示することができます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:242
 msgid "Open the profile to edit in a text editor, such as vim."
-msgstr ""
+msgstr "編集したいプロファイルをテキストエディタ (例: vim) で開きます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:247
 msgid "Make the necessary changes, then save the profile."
-msgstr ""
+msgstr "必要な変更を行なったあと、ファイルを保存して終了します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:252
@@ -307,7 +310,7 @@ msgstr ""
 #. (itstool) path: warning/title
 #: xml/apparmor_profiles_man.xml:262
 msgid "Danger of Unloading Wanted Profiles"
-msgstr ""
+msgstr "不要な読み込み解除の危険性について"
 
 #. (itstool) path: warning/para
 #: xml/apparmor_profiles_man.xml:263
@@ -334,7 +337,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:276
 msgid "You can print a list of profiles that will be removed:"
-msgstr ""
+msgstr "読み込みが解除されるプロファイルの一覧を表示したい場合は、下記のようにします:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles_man.xml:279
@@ -368,7 +371,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:295
 msgid "Remove the definition file:"
-msgstr ""
+msgstr "プロファイルのファイルそのものを削除します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:298
@@ -381,7 +384,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:304
 msgid "Two Methods of Profiling"
-msgstr ""
+msgstr "2 種類のプロファイル作成方法"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:306
@@ -404,7 +407,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:321 xml/apparmor_profiles_man.xml:372
 msgid "Stand-Alone Profiling"
-msgstr ""
+msgstr "単独プロファイル作成"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:323
@@ -419,7 +422,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:332 xml/apparmor_profiles_man.xml:389
 msgid "Systemic Profiling"
-msgstr ""
+msgstr "一括プロファイル作成"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:334
@@ -441,7 +444,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:352
 msgid "Decide which profiling method suits your needs."
-msgstr ""
+msgstr "まずは要件にあったプロファイル方法を選びます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:357
@@ -454,7 +457,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:364
 msgid ""
 "Enable dynamic learning. Activate learning mode for all profiled programs."
-msgstr ""
+msgstr "動的な学習を有効化します。プロファイルを作成したすべてのプログラムに対して、学習モードを有効化します。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:373
@@ -486,6 +489,10 @@ msgid ""
 "profiling long-running applications whose behavior continues after "
 "rebooting, or many programs at once."
 msgstr ""
+"この方法は、 <command>aa-genprof</command> で行なう単独 (もしくは少数) "
+"のプロファイル作成とは異なり、システム内にある複数のプロファイルを一括で更新することから、 <emphasis>一括プロファイル作成</emphasis>"
+" と呼ばれています。一括プロファイル作成ではプロファイルの構築と改善を自動化することができず、手作業が発生しますが、より柔軟に対応することができます。この"
+"方法は、システムが再起動しても動作し続ける長期稼働型のアプリケーションや、多数のプログラムに対して一括でプロファイルを作成したい場合に便利です。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:399
@@ -498,7 +505,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:404
 msgid ""
 "Create profiles for the individual programs that make up your application."
-msgstr ""
+msgstr "まずはお使いのアプリケーションの各プログラムに対して、プロファイルを作成します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:408
@@ -514,13 +521,16 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:418
 msgid "Put relevant profiles into learning or complain mode."
-msgstr ""
+msgstr "対応するプロファイルを学習 (不平) モードに設定します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:421
 msgid ""
 "Activate learning or complain mode for all profiled programs by entering"
 msgstr ""
+"プロファイルの存在するすべてのプログラムに対して、プロファイルを学習 (不平) モードに切り替えたい場合は、 <!-- NOTE: this "
+"sentence is from next paragraph -->端末内で &rootuser; になり、 <!-- NOTE: end --> "
+"下記のように実行します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:425
@@ -557,7 +567,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:447
 msgid "Exercise your application."
-msgstr ""
+msgstr "対象のアプリケーションを様々にテストします。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:450
@@ -572,7 +582,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:459
 msgid "Analyze the log."
-msgstr ""
+msgstr "ログを分析します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:462
@@ -581,6 +591,9 @@ msgid ""
 "letting <command>aa-genprof</command> run it (as in stand-alone profiling). "
 "The general form of <command>aa-logprof</command> is:"
 msgstr ""
+"一括プロファイル作成では、単独プロファイル時のように <command>aa-genprof</command> から <command>aa-"
+"logprof</command> を実行するのではなく、 <command>aa-logprof</command> を直接実行します。 "
+"<command>aa-logprof</command> は下記のように入力して実行します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:468
@@ -609,11 +622,13 @@ msgid ""
 "sets that can be trained and reloaded into the policy engine. Subsequent "
 "iterations generate fewer messages and run faster."
 msgstr ""
+"これにより、最適なプロファイルを作成することができるようになります。このように繰り返し実施することで、分析対象のログファイルを小さくすることができますので"
+"、より素早くプロファイルに反映できるようになります。また、繰り返すたびにログの出力も減るはずですので、処理も高速化されます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:488
 msgid "Edit the profiles."
-msgstr ""
+msgstr "プロファイルを編集します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:491
@@ -622,11 +637,13 @@ msgid ""
 "edit the profiles in <filename>/etc/apparmor.d/</filename> using a text "
 "editor."
 msgstr ""
+"生成されたプロファイルの内容を確認します。具体的には、テキストエディタなどで <filename>/etc/apparmor.d/</filename> "
+"ディレクトリ内のファイルを開いて、必要であれば編集を行ないます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:498
 msgid "Return to enforce mode."
-msgstr ""
+msgstr "強制モードに戻します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:501
@@ -651,7 +668,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:520
 msgid "Re-scan all profiles."
-msgstr ""
+msgstr "再度すべてのプロファイルをスキャンします。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:523
@@ -664,7 +681,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_man.xml:533
 msgid "Summary of Profiling Tools"
-msgstr ""
+msgstr "プロファイル作成ツールの概要"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_man.xml:534
@@ -706,6 +723,11 @@ msgid ""
 "command> generates an approximate profile to improve through the dynamic "
 "profiling that follows."
 msgstr ""
+"近似プロファイルを生成するには <command>aa-autodep</command> "
+"プログラムを使用します。パラメータとしてプログラム名を単純に指定した場合は、 <command>aa-autodep</command> がシェルの "
+"PATH 環境変数を展開してプログラムを探します。フルパスを指定してもかまいません。また、プログラムそれ自身は任意のものでかまいません (ELF "
+"バイナリであっても、シェルや Perl のスクリプトであってもかまいません) 。 <command>aa-autodep</command> "
+"は、後続の動的プロファイル作成で改善を行なうための、ベースとなる近似プロファイルを生成します。"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:564
@@ -742,11 +764,15 @@ msgid ""
 "such programs depends on the application in question. Here are several "
 "strategies for finding such programs:"
 msgstr ""
+"プロファイル作成を開始するにあたっては、まずお使いのアプリケーションを構成するメインの実行ファイル "
+"(プロファイルが存在しておらず、他のプログラムから呼び出されることのない実行ファイル) に対して、プロファイルを作成しなければなりません。このような条件に"
+"該当するプログラムを、お使いのアプリケーション内ですべて見つけてから、プロファイルを作成してください。このようなプログラムを見つける方法には、下記のような"
+"方法があります:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:589
 msgid "Directories"
-msgstr ""
+msgstr "ディレクトリ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:591
@@ -756,11 +782,14 @@ msgid ""
 "<replaceable>/path/to/your/programs/*</replaceable> creates basic profiles "
 "for all programs in that directory."
 msgstr ""
+"プロファイルを作成すべきプログラムが特定の 1 つのディレクトリ内にのみ存在し、それ以外には存在しない場合であれば、 <command>aa-"
+"autodep</command> <replaceable>プログラムのパス/*</replaceable> "
+"のように実行することで、そのディレクトリ内にあるすべてのプログラムに対して、近似プロファイルを作成することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:601
 msgid "pstree -p"
-msgstr ""
+msgstr "pstree -p"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:603
@@ -821,7 +850,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:649
 msgid "If the program is not in your path, specify the entire path as follows:"
-msgstr ""
+msgstr "プログラムがパス内に存在しない場合は、下記のようにフルパスで指定します:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:653
@@ -847,6 +876,7 @@ msgstr ""
 msgid ""
 "Specify the profile for <replaceable>/sbin/program1</replaceable> as follows:"
 msgstr ""
+"<replaceable>/sbin/program1</replaceable> のプロファイルを指定したい場合は、下記のように入力して実行します:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:667
@@ -866,6 +896,12 @@ msgid ""
 "apparmor.d/*</command> puts all of the profiles in <filename>/etc/apparmor."
 "d</filename> into complain mode."
 msgstr ""
+"上述のコマンドはいずれも、指定したプロファイルやプログラムを不平モードに切り替える処理を行ないます。プログラムの指定の際、これをフルパスで指定しないと、 "
+"<command>aa-complain</command> は <envar>$PATH</envar> 内を検索して、プログラムの場所を判断します。"
+"たとえば <command>aa-complain /usr/sbin/*</command> のように入力して実行すると、 <filename>/"
+"usr/sbin</filename> 内に存在するすべてのプログラムに対して、対応するプロファイルを検索し、それらすべてを不平モードに設定します。また、"
+" <command>aa-complain /etc/apparmor.d/*</command> のように入力して実行すると、 <filename>/"
+"etc/apparmor.d</filename> 内にあるすべてのプロファイルを不平モードに切り替えます。"
 
 #. (itstool) path: tip/title
 #: xml/apparmor_profiles_man.xml:681 xml/apparmor_profiles_man.xml:788
@@ -931,7 +967,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:720
 msgid ""
 "For more information, see the man page of <command>aa-easyprof</command> (8)."
-msgstr ""
+msgstr "詳しくは <command>aa-easyprof</command> (8) のマニュアルページをお読みください。"
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:726
@@ -967,7 +1003,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:750
 msgid ""
 "If the program is not in your path, specify the entire path, as follows:"
-msgstr ""
+msgstr "プログラムがパス内に存在しない場合は、下記のようにフルパスで指定します:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:754
@@ -999,7 +1035,7 @@ msgstr ""
 msgid ""
 "Each of the above commands activates the enforce mode for the profiles and "
 "programs listed."
-msgstr ""
+msgstr "上述のコマンドはいずれも、指定したプロファイルやプログラムを強制モードに切り替える処理を行ないます。"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:776
@@ -1016,6 +1052,8 @@ msgid ""
 "program name does not include its entire path, <command>aa-enforce</command> "
 "searches <envar>$PATH</envar> for the program."
 msgstr ""
+"パラメータには、複数のプログラムやプロファイルを指定することができます。また、プログラムの指定の際、これをフルパスで指定しないと、 <command"
+">aa-complain</command> は <envar>$PATH</envar> 内を検索して、プログラムの場所を判断します。"
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:797
@@ -1083,7 +1121,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:838
 msgid "Now <command>aa-genprof</command> does the following:"
-msgstr ""
+msgstr "すると、 <command>aa-genprof</command> は下記のような処理を行ないます:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:843
@@ -1123,6 +1161,12 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"type=APPARMOR_ALLOWED msg=audit(1189682639.184:20816): \\\n"
+"apparmor=\"DENIED\" operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:870
@@ -1142,11 +1186,17 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"Sep 13 13:20:30 K23 kernel: audit(1189682430.672:20810): \\\n"
+"apparmor=\"DENIED\" operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:880
 msgid "They also can be viewed using the <command>dmesg</command> command:"
-msgstr ""
+msgstr "<command>dmesg</command> コマンドを利用して表示することもできます:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:883
@@ -1158,12 +1208,18 @@ msgid ""
 "name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 msgstr ""
+"audit(1189682430.672:20810): apparmor=\"DENIED\" \\\n"
+"operation=\"file_mmap\" parent=2692 \\\n"
+"profile=\"/usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\" \\\n"
+"name=\"/var/log/apache2/access_log-20140116\" pid=28730 comm=\"httpd2-"
+"prefork\" \\\n"
+"requested_mask=\"::r\" denied_mask=\"::r\" fsuid=30 ouid=0"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:890
 msgid ""
 "Marks the log with a beginning marker of log events to consider. For example:"
-msgstr ""
+msgstr "ログ内に印を付けて、作業の開始位置判断とします。たとえば下記のように出力されます:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:894
@@ -1172,6 +1228,8 @@ msgid ""
 "\n"
 "Sep 13 17:48:52 figwit root: GenProf: e2ff78636296f16d0b5301209a04430d"
 msgstr ""
+"\n"
+"Sep 13 17:48:52 figwit root: GenProf: e2ff78636296f16d0b5301209a04430d"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:900
@@ -1190,6 +1248,8 @@ msgid ""
 "genprof</command> terminal window after you have executed the program "
 "function:"
 msgstr ""
+"様々なプログラムの機能を利用したあとは、 <command>aa-genprof</command> "
+"の端末ウインドウ内で下記のような入力を行なうことができます:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:917
@@ -1205,7 +1265,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:927
 msgid "<keycap>F</keycap> exits the tool."
-msgstr ""
+msgstr "<keycap>F</keycap> と入力すると、ツールを終了することができます。"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:933
@@ -1217,7 +1277,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:940
 msgid "Answer two types of questions:"
-msgstr ""
+msgstr "あとは下記に示す 2 種類の質問に答えていきます:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:945
@@ -1252,12 +1312,12 @@ msgid ""
 "Dealing with execute accesses is complex. You must decide how to proceed "
 "with this entry regarding which execute permission type to grant to this "
 "entry:"
-msgstr ""
+msgstr "実行権限の取り扱いは複雑です。それぞれ表示された内容に対して、どのような実行権限を与えるのかを決定しなければなりません:"
 
 #. (itstool) path: example/title
 #: xml/apparmor_profiles_man.xml:976
 msgid "Learning Mode Exception: Controlling Access to Specific Resources"
-msgstr ""
+msgstr "学習モードの例外: 特定のリソースへのアクセス制御"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_profiles_man.xml:977
@@ -1273,11 +1333,21 @@ msgid ""
 "\n"
 "(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny / Abo(r)t / (F)inish"
 msgstr ""
+"Reading log entries from /var/log/audit/audit.log.\n"
+"Updating AppArmor profiles in /etc/apparmor.d.\n"
+"\n"
+"Profile:  /usr/sbin/cupsd\n"
+"Program:  cupsd\n"
+"Execute:  /usr/lib/cups/daemon/cups-lpd\n"
+"Severity: unknown\n"
+"\n"
+"(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny / "
+"Abo(r)t / (F)inish"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:989
 msgid "Inherit (ix)"
-msgstr ""
+msgstr "Inherit (ix)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:991
@@ -1294,7 +1364,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1004
 msgid "Profile (px/Px)"
-msgstr ""
+msgstr "Profile (px/Px)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1006
@@ -1304,6 +1374,9 @@ msgid ""
 "permission denied. This is most useful if the parent program is invoking a "
 "global service, such as DNS lookups or sending mail with your system's MTA."
 msgstr ""
+"子プロセスに対して、カーネル内に読み込まなければならない独自のプロファイルを適用するように指定します。プロファイルが存在しない場合、子プロセスの実行はアク"
+"セス拒否として失敗します。これは、親プログラムから DNS の参照やお使いのシステムの MTA "
+"を介したメール送信など、グローバルサービスを実行するような場合に有用です。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1013
@@ -1312,18 +1385,20 @@ msgid ""
 "the environment of environment variables that could modify execution "
 "behavior when passed to the child process."
 msgstr ""
+"<guimenu>profile with clean exec</guimenu> (クリーン実行付きプロファイル) (Px) "
+"を選択すると、子プロセスに環境変数を渡す際、その実行に影響があるような環境変数を削除して実行することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1022
 msgid "Child (cx/Cx)"
-msgstr ""
+msgstr "Child (cx/Cx)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1024
 msgid ""
 "Sets up a transition to a subprofile. It is like px/Px transition, except to "
 "a child profile."
-msgstr ""
+msgstr "サブプロファイルへの遷移を設定します。 px/Px での遷移と同様ですが、子プロファイルへの遷移という点が異なります。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1028
@@ -1332,11 +1407,13 @@ msgid ""
 "the environment of environment variables that could modify execution "
 "behavior when passed to the child process."
 msgstr ""
+"<guimenu>profile with clean exec</guimenu> (クリーン実行付きプロファイル) (Cx) "
+"を選択すると、子プロセスに環境変数を渡す際、その実行に影響があるような環境変数を削除して実行することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1037
 msgid "Unconfined (ux/Ux)"
-msgstr ""
+msgstr "Unconfined (ux/Ux)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1039
@@ -1358,7 +1435,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1054
 msgid "mmap (m)"
-msgstr ""
+msgstr "mmap (m)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1056
@@ -1374,7 +1451,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1066 xml/apparmor_profiles_man.xml:1206
 #: xml/apparmor_profiles_man.xml:1503
 msgid "Deny"
-msgstr ""
+msgstr "Deny"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1068
@@ -1388,7 +1465,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1077 xml/apparmor_profiles_man.xml:1256
 #: xml/apparmor_profiles_man.xml:1553
 msgid "Abort"
-msgstr ""
+msgstr "Abort"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1079 xml/apparmor_profiles_man.xml:1258
@@ -1402,7 +1479,7 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1086 xml/apparmor_profiles_man.xml:1265
 #: xml/apparmor_profiles_man.xml:1562
 msgid "Finish"
-msgstr ""
+msgstr "Finish"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1088 xml/apparmor_profiles_man.xml:1267
@@ -1424,7 +1501,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/apparmor_profiles_man.xml:1104
 msgid "Learning Mode Exception: Defining Permissions for an Entry"
-msgstr ""
+msgstr "学習モードの例外: 項目に対する許可の設定"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_profiles_man.xml:1105
@@ -1453,6 +1530,30 @@ msgid ""
 "(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)pts\n"
 "Adding #include &lt;abstractions/apache2-common&gt; to profile.\n"
 msgstr ""
+"Profile:  /usr/sbin/httpd2-prefork\n"
+"Path:     /var/run/nscd/dbSz9CTr\n"
+"Mode:     r\n"
+"Severity: 3\n"
+"\n"
+"  1 - /var/run/nscd/dbSz9CTr\n"
+" [2 - /var/run/nscd/*]\n"
+"\n"
+"(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)"
+"pts\n"
+"Adding /var/run/nscd/* r to profile.\n"
+"\n"
+"Profile:  /usr/sbin/httpd2-prefork\n"
+"Path:     /proc/11769/attr/current\n"
+"Mode:     w\n"
+"Severity: 9\n"
+"\n"
+" [1 - #include &lt;abstractions/apache2-common&gt;]\n"
+"  2 - /proc/11769/attr/current\n"
+"  3 - /proc/*/attr/current\n"
+"\n"
+"(A)llow / [(D)eny] / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)"
+"pts\n"
+"Adding #include &lt;abstractions/apache2-common&gt; to profile.\n"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1129
@@ -1472,7 +1573,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1141
 msgid "<literal>#include</literal>"
-msgstr ""
+msgstr "<literal>#include</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1144
@@ -1487,7 +1588,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1155
 msgid "Globbed Version"
-msgstr ""
+msgstr "グロブ版"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1157
@@ -1500,14 +1601,14 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1165
 msgid "Actual Path"
-msgstr ""
+msgstr "実際のパス"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1167
 msgid ""
 "This is the literal path to which the program needs access so that it can "
 "run properly."
-msgstr ""
+msgstr "プログラムが必要とするパスを直接指定して、正しく動作するように設定します。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1174
@@ -1523,22 +1624,22 @@ msgstr ""
 msgid ""
 "The following options are available to process the learning mode entries and "
 "build the profile:"
-msgstr ""
+msgstr "学習モードで生成された項目を処理し、プロファイルにする方法には、下記のものがあります:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1187 xml/apparmor_profiles_man.xml:1483
 msgid "Select <keycap function=\"enter\"/>"
-msgstr ""
+msgstr "単に <keycap function=\"enter\"/> を押す"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1190
 msgid "Allows access to the selected directory path."
-msgstr ""
+msgstr "選択したディレクトリパスに対して、アクセスを許可します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1196 xml/apparmor_profiles_man.xml:1493
 msgid "Allow"
-msgstr ""
+msgstr "Allow"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1198
@@ -1558,7 +1659,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1215 xml/apparmor_profiles_man.xml:1512
 msgid "New"
-msgstr ""
+msgstr "New"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1217
@@ -1572,7 +1673,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1227 xml/apparmor_profiles_man.xml:1524
 msgid "Glob"
-msgstr ""
+msgstr "Glob"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1229
@@ -1582,6 +1683,7 @@ msgid ""
 "that is printed in front of the path then decide how to proceed with the "
 "selected item."
 msgstr ""
+"ワイルドカードを利用して幅広くマッチするルールを作成します。提示されたパスのうちのいずれかを選択するには、パスの前に示されている数字を入力して進めます。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1235 xml/apparmor_profiles_man.xml:1532
@@ -1593,7 +1695,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1242 xml/apparmor_profiles_man.xml:1539
 msgid "Glob w/Ext"
-msgstr ""
+msgstr "Glob w/Ext"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1244 xml/apparmor_profiles_man.xml:1541
@@ -1638,12 +1740,12 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1305
 msgid "To use a profile from the local repository, proceed as follows:"
-msgstr ""
+msgstr "ローカルリポジトリにあるプロファイルを使用するには、下記のようにして行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1310
 msgid "Start <command>aa-genprof</command> as described above."
-msgstr ""
+msgstr "上述の手順で <command>aa-genprof</command> を起動します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1313
@@ -1651,6 +1753,8 @@ msgid ""
 "If <command>aa-genprof</command> finds an inactive local profile, the "
 "following lines appear on your terminal window:"
 msgstr ""
+"<command>aa-genprof</command> "
+"が無効化されているローカルプロファイルを検出すると、端末ウインドウ内に下記のような内容が表示されます:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_profiles_man.xml:1317
@@ -1662,6 +1766,11 @@ msgid ""
 "\n"
 "[(V)iew Profile] / (U)se Profile / (C)reate New Profile / Abo(r)t / (F)inish"
 msgstr ""
+"Profile: /usr/bin/opera\n"
+"\n"
+" [1 - Inactive local profile for /usr/bin/opera]\n"
+"\n"
+"[(V)iew Profile] / (U)se Profile / (C)reate New Profile / Abo(r)t / (F)inish"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_man.xml:1324
@@ -1783,7 +1892,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1416
 msgid "<command>aa-logprof -m \"string marker in logfile\"</command>"
-msgstr ""
+msgstr "<command>aa-logprof -m \"ログファイル内に記録するマーカー文字列\"</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1419
@@ -1793,6 +1902,9 @@ msgid ""
 "log before the specified mark. If the mark contains spaces, it must be "
 "surrounded by quotes to work correctly. For example:"
 msgstr ""
+"システムログ内に、 <command>aa-logprof</command> が後から参照できるように、開始点の印を付けます。 <command>aa-"
+"logprof</command> は、指定した印以前のイベントはすべて無視します。なお、印内にスペースが含まれている場合は、正しく引用符で括らなければな"
+"りません。たとえば下記のようになります:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:1426
@@ -1803,7 +1915,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1427
 msgid "or"
-msgstr ""
+msgstr "もしくは"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles_man.xml:1430
@@ -1836,7 +1948,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1452
 msgid "aa-logprof Example 1"
-msgstr ""
+msgstr "aa-logprof 例 1"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1453
@@ -1872,18 +1984,26 @@ msgid ""
 " 2 - /etc/group\n"
 "[(A)llow] / (D)eny / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
 msgstr ""
+"\n"
+"Profile:  /usr/sbin/httpd2-prefork\n"
+"Path:     /etc/group\n"
+"New Mode: r\n"
+"\n"
+"[1 - #include &lt;abstractions/nameservice&gt;]\n"
+" 2 - /etc/group\n"
+"[(A)llow] / (D)eny / (N)ew / (G)lob / Glob w/(E)xt / Abo(r)t / (F)inish\n"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1478
 msgid "Select one of the following responses:"
-msgstr ""
+msgstr "下記のいずれかの回答をすることができます:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1486
 msgid ""
 "Triggers the default action, which is, in this example, allowing access to "
 "the specified directory path entry."
-msgstr ""
+msgstr "既定の動作を実行します。この例では、表示されているディレクトリパスに対して、アクセスを許可します。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1495
@@ -1918,16 +2038,17 @@ msgid ""
 "the number that is printed in front of the paths then decide how to proceed "
 "with the selected item."
 msgstr ""
+"ワイルドカードを利用して幅広くマッチするルールを作成します。提示されたパスのうちのいずれかを選択するには、パスの前に示されている数字を入力して進めます。"
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1573
 msgid "aa-logprof Example 2"
-msgstr ""
+msgstr "aa-logprof 例 2"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1574
 msgid "For example, when profiling vsftpd, see this question:"
-msgstr ""
+msgstr "この例では、 vsftpd に対するプロファイル作成時の質問を示しています:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1577
@@ -2000,6 +2121,10 @@ msgid ""
 "as a helper application to <quote>page</quote> long mail messages. "
 "Consequently, it presents this prompt:"
 msgstr ""
+"下記の例では、 <filename>/usr/bin/mail</filename> に対してプロファイルを作成していて、 <command>/usr/"
+"bin/mail</command> が <command>/usr/bin/less</command> "
+"をヘルパーアプリケーションとして起動した際の質問の例です。 <command>/usr/bin/less</command> は、長いメールメッセージを "
+"<quote>ページ分割</quote> するために使用しています:"
 
 #. (itstool) path: sect3/screen
 #: xml/apparmor_profiles_man.xml:1634
@@ -2009,6 +2134,9 @@ msgid ""
 "/usr/bin/nail -&gt; /usr/bin/less\n"
 "(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny\n"
 msgstr ""
+"\n"
+"/usr/bin/nail -&gt; /usr/bin/less\n"
+"(I)nherit / (P)rofile / (C)hild / (N)ame / (U)nconfined / (X)ix / (D)eny\n"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:1639
@@ -2034,6 +2162,8 @@ msgid ""
 "Run <command>less</command> on a tar file or an RPM file and it shows you "
 "the inventory of these containers."
 msgstr ""
+"tar ファイルや RPM ファイルに対して <command>less</command> "
+"を実行すると、その中に含まれている内容を表示することができます。"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1659
@@ -2078,7 +2208,7 @@ msgstr ""
 msgid ""
 "The rule written into the profile uses px/Px, which forces the transition to "
 "the child's own profile."
-msgstr ""
+msgstr "現在のプロファイル内に px/Px モードのルールが書き込まれ、子プロセスに対する独自のプロファイルに遷移するようになります。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1702
@@ -2089,6 +2219,10 @@ msgid ""
 "<command>aa-logprof</command> user questions. The profile will also be "
 "applied if you run the child as a stand-alone program."
 msgstr ""
+"<command>aa-logprof</command> が子プロセスに対するプロファイルを作成し、構築を開始します。これは親プロセスのプロファイルと同"
+"じ方法で行なわれ、親プロセスのイベントは親のプロファイルに、子プロセスのイベントは子のプロファイルにそれぞれ保存されるようになります。 <command"
+">aa-logprof</command> "
+"での質問は、両方をあわせて表示します。このプロファイルは、単独のプログラムを子として実行した場合にも当てはまります。"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1711
@@ -2099,6 +2233,12 @@ msgid ""
 "profile, unconfined, child, named profile, or an option to deny the "
 "execution are presented."
 msgstr ""
+"制限を受けているプログラムが fork() したり他のプログラムを起動したりした場合、 <command>aa-logprof</command> "
+"はそれを検出すると、 fork() したプログラムや他のプログラムに対して適用すべき実行モードを尋ねます。実行モードは継承 "
+"(<emphasis>ix</emphasis>) , プロファイル (<emphasis>px</emphasis> , "
+"<emphasis>Px</emphasis>) , 無制限 (<emphasis>ux</emphasis> , "
+"<emphasis>Ux</emphasis>) , 子プロセス (<emphasis>cx</emphasis> , "
+"<emphasis>Cx</emphasis>) , 名前付きプロファイルのほか、実行拒否を設定することもできます。"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1718
@@ -2139,7 +2279,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/apparmor_profiles_man.xml:1747
 msgid "Running Unconfined"
-msgstr ""
+msgstr "無制限での実行について"
 
 #. (itstool) path: important/para
 #: xml/apparmor_profiles_man.xml:1748
@@ -2148,6 +2288,8 @@ msgid ""
 "enforcement of policy (from a security perspective) of the resulting "
 "execution behavior of the child program."
 msgstr ""
+"<literal>ux</literal> や <literal>Ux</literal> "
+"の使用は非常に危険です。子プロセスの実行に際して、セキュリティ面でのポリシー強制が一切働かなくなります。"
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1760
@@ -2177,7 +2319,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1776
 msgid "An unlinked executable is mishandled"
-msgstr ""
+msgstr "コマンドの実行時に削除された実行ファイルがある場合、その扱いを誤ることがあります"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1782
@@ -2185,6 +2327,8 @@ msgid ""
 "A process that dies between <command>netstat(8)</command> and further checks "
 "is mishandled"
 msgstr ""
+"<command>netstat(8)</command> "
+"を実行してから後続のチェックを行なうまでに、プロセスが終了したような場合、その扱いを誤ることがあります"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles_man.xml:1789
@@ -2193,11 +2337,13 @@ msgid ""
 "is unsuitable for forensics use and is provided only as an aid to profiling "
 "all network-accessible processes in the lab."
 msgstr ""
+"このプログラムは TCP と UDP を使用するプロセスのみを一覧表示します。その他のプロトコルを利用する通信については無視されます。そのため、フォレンジ"
+"ック用途にはお使いいただけません。検証環境内で、ネットワークにアクセスするプロセスに対してプロファイルを作成する用途にのみお使いください。"
 
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1797
 msgid "aa-notify"
-msgstr ""
+msgstr "aa-notify"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1798
@@ -2233,11 +2379,14 @@ msgid ""
 "literal> variable, so you can use <literal>--display $DISPLAY</literal> to "
 "avoid finding out the current display number."
 msgstr ""
+"なお、現在使用している X Window のディスプレイ番号は、 <literal>$DISPLAY</literal> "
+"という環境変数に保存されていますので、 <literal>--display $DISPLAY</literal> "
+"と入力することで、現在のディスプレイをそのまま使用することができます。"
 
 #. (itstool) path: figure/title
 #: xml/apparmor_profiles_man.xml:1822
 msgid "<command>aa-notify Message in GNOME</command>"
-msgstr ""
+msgstr "<command>GNOME 内での aa-notify メッセージ</command>"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2262,7 +2411,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apparmor_profiles_man.xml:1841
 msgid "apparmor.vim"
-msgstr ""
+msgstr "apparmor.vim"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1842
@@ -2287,12 +2436,15 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1855
 #, no-wrap
 msgid "# vim:ft=apparmor"
-msgstr ""
+msgstr "# vim:ft=apparmor"
 
 #. (itstool) path: sect3/para
 #: xml/apparmor_profiles_man.xml:1856
 msgid "at the end of the profile."
 msgstr ""
+"\"\n"
+"  <!-- NOTE: already translated i nprevious paragraph. -->\n"
+"\""
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_man.xml:1860
@@ -2305,72 +2457,72 @@ msgstr ""
 #: xml/apparmor_profiles_man.xml:1865
 msgid ""
 "When you enable this feature, vim colors the lines of the profile for you:"
-msgstr ""
+msgstr "この機能を利用した場合は、 vim ではプロファイルの内容を下記のように表示します:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1871
 msgid "Blue"
-msgstr ""
+msgstr "青"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1873
 msgid "Comments"
-msgstr ""
+msgstr "コメント"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1879
 msgid "White"
-msgstr ""
+msgstr "白"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1881
 msgid "Ordinary read access lines"
-msgstr ""
+msgstr "通常の読み込みアクセスの行"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1887
 msgid "Brown"
-msgstr ""
+msgstr "茶"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1889
 msgid "Capability statements and complain flags"
-msgstr ""
+msgstr "ケーパビリティの項目および不平モードのフラグ"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1895
 msgid "Yellow"
-msgstr ""
+msgstr "黄"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1897
 msgid "Lines that grant write access"
-msgstr ""
+msgstr "書き込み権のあるアクセスの行"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1903
 msgid "Green"
-msgstr ""
+msgstr "緑"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1905
 msgid "Lines that grant execute permission (either ix or px)"
-msgstr ""
+msgstr "実行許可 (ix もしくは px) を与えている行"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1911
 msgid "Red"
-msgstr ""
+msgstr "赤"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1913
 msgid "Lines that grant unconfined access (ux)"
-msgstr ""
+msgstr "無制限アクセス (ux) を設定している行"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1919
 msgid "Red background"
-msgstr ""
+msgstr "赤い背景"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1921
@@ -2392,7 +2544,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_man.xml:1938
 msgid "Important File Names and Directories"
-msgstr ""
+msgstr "主なファイル名とディレクトリ"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_man.xml:1940
@@ -2406,17 +2558,17 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1949
 msgid "<filename>/sys/kernel/security/apparmor/profiles</filename>"
-msgstr ""
+msgstr "<filename>/sys/kernel/security/apparmor/profiles</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1952
 msgid "Virtualized file representing the currently loaded set of profiles."
-msgstr ""
+msgstr "現在読み込まれているプロファイルセットを表示することのできる、仮想ファイルです。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1958
 msgid "<filename>/etc/apparmor/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1961
@@ -2426,7 +2578,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1967
 msgid "<filename>/etc/apparmor/profiles/extras/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor/profiles/extras/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1970
@@ -2438,7 +2590,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1977
 msgid "<filename>/etc/apparmor.d/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1980
@@ -2453,27 +2605,27 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:1991
 msgid "<filename>/etc/apparmor.d/abstractions/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/abstractions/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:1994
 msgid "Location of abstractions."
-msgstr ""
+msgstr "抽象を保存しておくためのディレクトリです。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:2000
 msgid "<filename>/etc/apparmor.d/program-chunks/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apparmor.d/program-chunks/</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:2003
 msgid "Location of program chunks."
-msgstr ""
+msgstr "プログラムチャンクを保存しておくためのディレクトリです。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_man.xml:2009
 msgid "<filename>/proc/*/attr/current</filename>"
-msgstr ""
+msgstr "<filename>/proc/*/attr/current</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_man.xml:2012
@@ -2482,3 +2634,6 @@ msgid ""
 "profile that is used to confine the process. The <command>ps</command> "
 "<option>auxZ</option> command retrieves this information automatically."
 msgstr ""
+"このファイルの内容を出力することで、そのプロセスに対する制限状況と、適用されているプロファイルを表示することができます。また、 "
+"<command>ps</command> <option>auxZ</option> "
+"のように入力して実行すると、この情報を自動的に取得することができます。"
