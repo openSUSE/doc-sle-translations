@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_managing-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apparmor_managing.xml:8
 msgid "Managing Profiled Applications"
-msgstr ""
+msgstr "プロファイルを作成したアプリケーションの管理"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_managing.xml:15
@@ -39,7 +41,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_managing.xml:1768
 msgid "Reacting to Security Event Rejections"
-msgstr ""
+msgstr "アクセス拒否イベントへの対応"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1770
@@ -50,6 +52,9 @@ msgid ""
 "determination. If the rejected action is part of normal application "
 "behavior, run <command>aa-logprof</command> at the command line."
 msgstr ""
+"何らかのアクセス拒否イベントが見つかった場合、まずはその内容がセキュリティ上の脅威によるものなのか、もしくは通常のアプリケーションの動作として発生したもの"
+"なのかを判断します。この判断にあたっては、アプリケーション固有の知識が必要となります。もしもアクセス拒否イベントが通常のアプリケーション動作として発生した"
+"ものであった場合は、コマンドラインで <command>aa-logprof</command> を実行してください。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1778
@@ -59,11 +64,13 @@ msgid ""
 "prevented) and this notification should be passed to the person responsible "
 "for security within your organization."
 msgstr ""
+"アクセス拒否イベントが通常のアプリケーション動作では無いものである場合は、 &aa; の仕組みで未然に防止することができたものの、それは悪意のある侵入であ"
+"る可能性があります。このような状況が発生した場合は、組織内のセキュリティ責任者に連絡を取って、対応を検討することをお勧めします。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_managing.xml:1786
 msgid "Maintaining Your Security Profiles"
-msgstr ""
+msgstr "セキュリティプロファイルの管理"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_managing.xml:1788
@@ -74,11 +81,14 @@ msgid ""
 "security policy files, plan for software changes, and allow any needed "
 "modification of security policies that your environment dictates."
 msgstr ""
+"本番環境においては、配置済みのすべてのアプリケーションに対して、プロファイルをメンテナンスするよう計画すべきです。セキュリティポリシーの策定と、それに伴う"
+"プロファイルの作成を、配置作業の一環として実施すべきです。また、セキュリティポリシーファイルのバックアップと復元のほか、お使いの環境でのソフトウエアの仕様"
+"変更の計画や、それに伴うセキュリティポリシーの修正についても、検討を行なうべきです。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1797
 msgid "Backing Up Your Security Profiles"
-msgstr ""
+msgstr "セキュリティプロファイルのバックアップ"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1798
@@ -87,11 +97,13 @@ msgid ""
 "programs after a disk crash. Also, if profiles are changed, you can easily "
 "restore previous settings by using the backed up files."
 msgstr ""
+"プロファイルをバックアップしておくことで、ディスク障害が発生してもプログラムのプロファイルを作り直す必要が無くなります。また、プロファイルを変更した場合で"
+"も、バックアップから復元することで、容易に以前の状態に戻ることができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1803
 msgid "Back up profiles by copying the profile files to a specified directory."
-msgstr ""
+msgstr "ポリシーのバックアップ作業は、特定のディレクトリ内にプロファイルをコピーするだけです。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_managing.xml:1808
@@ -114,6 +126,8 @@ msgid ""
 "backed up is to include the directory <filename>/etc/apparmor.d</filename> "
 "in the list of directories that your backup system archives."
 msgstr ""
+"また、システムを定期的にバックアップしている場合は、バックアップ対象のディレクトリに <filename>/etc/"
+"apparmor.d</filename> を追加しておくことで、お使いのバックアップ内にプロファイルを入れておくことができます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_managing.xml:1821
@@ -122,11 +136,13 @@ msgid ""
 "store the files on some kind of storage media, the network, or another "
 "computer."
 msgstr ""
+"<command>scp</command> や Nautilus "
+"のようなファイルマネージャを使用することで、他のストレージメディアやネットワーク、その他のコンピュータなどにコピーすることもできます。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1831
 msgid "Changing Your Security Profiles"
-msgstr ""
+msgstr "セキュリティプロファイルの変更"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1832
@@ -140,7 +156,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_managing.xml:1841
 msgid "Introducing New Software into Your Environment"
-msgstr ""
+msgstr "お使いの環境に対する新規ソフトウエアの導入"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1842
@@ -151,6 +167,9 @@ msgid ""
 "your patches and upgrades into a test or production environment. The "
 "following explains how to do this with each method."
 msgstr ""
+"システム内にインストールされているアプリケーションのバージョンを上げた場合や、修正を適用した場合、お使いの要件にあわせてプロファイルを更新する必要がありま"
+"す。更新方法にはいくつかのものがありますが、組織内の配置戦略にあわせて決定してください。また、テスト環境や本番環境に対して、修正やアップグレードを配置する"
+"こともできます。以下では、これらそれぞれの方法について、どのようにすべきなのかについて説明しています。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_managing.xml:1849
