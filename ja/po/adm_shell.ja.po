@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_shell-master/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/adm_shell.xml:13
 msgid "Bash and Bash Scripts"
-msgstr ""
+msgstr "bash と bash スクリプト"
 
 #. (itstool) path: abstract/para
 #: xml/adm_shell.xml:16
@@ -58,12 +60,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:49
 msgid "A shell can be invoked as an:"
-msgstr ""
+msgstr "シェルは下記のいずれかの方式で起動することができます:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:55
 msgid "Interactive login shell"
-msgstr ""
+msgstr "対話的なログインシェル"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:56
@@ -71,11 +73,13 @@ msgid ""
 "This is used when logging in to a machine, invoking Bash with the <option>--"
 "login</option> option or when logging in to a remote machine with SSH."
 msgstr ""
+"マシンに対してログインした際に使用されるシェルで、 bash には　<option>--login</option> "
+"というパラメータが追加されます。これは、 SSH などでリモートからログインした場合にも使用されるものです。"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:65
 msgid "<quote>Ordinary</quote> interactive shell"
-msgstr ""
+msgstr "<quote>通常の</quote> 対話的なシェル"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:66
@@ -87,7 +91,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:74
 msgid "Non-interactive shell"
-msgstr ""
+msgstr "非対話型のシェル"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:75
@@ -101,63 +105,65 @@ msgid ""
 "be read. The following tables show the login and non-login shell "
 "configuration files."
 msgstr ""
+"使用しているシェルの種類によって、それぞれ異なる設定ファイルが読み込まれます。下記の表では、ログインシェルの場合と非ログインシェルの場合で、読み込まれる設"
+"定ファイルを示しています。"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:87
 msgid "Bash Configuration Files for Login Shells"
-msgstr ""
+msgstr "ログインシェルで使用する際の bash 設定ファイル"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:92 xml/adm_shell.xml:214
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:97 xml/adm_shell.xml:219
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:106
 msgid "<filename>/etc/profile</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:111 xml/adm_shell.xml:172
 msgid ""
 "Do not modify this file, otherwise your modifications may be destroyed "
 "during your next update!"
-msgstr ""
+msgstr "このファイルは変更してはなりません。パッケージ側で管理されているファイルであるため、更新を行なうと変更した内容が上書きされてしまいます。"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:119
 msgid "<filename>/etc/profile.local</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile.local</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:124
 msgid "Use this file if you extend <filename>/etc/profile</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile</filename> に対して何らかの項目を追加したい場合は、こちらのファイルに記述してください"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:131
 msgid "<filename>/etc/profile.d/</filename>"
-msgstr ""
+msgstr "<filename>/etc/profile.d/</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:136
 msgid "Contains system-wide configuration files for specific programs"
-msgstr ""
+msgstr "特定のプログラムに対するシステム全体の設定ファイルが含まれています"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:143
 msgid "<filename>~/.profile</filename>"
-msgstr ""
+msgstr "<filename>~/.profile</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:148
 msgid "Insert user specific configuration for login shells here"
-msgstr ""
+msgstr "ログインシェルでユーザ固有の設定を行ないたい場合は、こちらに記述してください"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:157
@@ -169,67 +175,67 @@ msgstr ""
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:162
 msgid "Bash Configuration Files for Non-Login Shells"
-msgstr ""
+msgstr "非ログインシェルで使用する際の bash 設定ファイル"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:167
 msgid "<filename>/etc/bash.bashrc</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:180
 msgid "<filename>/etc/bash.bashrc.local</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc.local</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:185
 msgid "Use this file to insert your system-wide modifications for Bash only"
-msgstr ""
+msgstr "bash のみに対して、システム全体に反映すべき設定があれば、こちらのファイルに記述してください"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:192
 msgid "<filename>~/.bashrc</filename>"
-msgstr ""
+msgstr "<filename>~/.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:197
 msgid "Insert user specific configuration here"
-msgstr ""
+msgstr "ユーザ固有の設定を行ないたい場合は、こちらに記述してください"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:205
 msgid "Additionally, Bash uses some more files:"
-msgstr ""
+msgstr "これらに加えて、 bash では下記のようなファイルを使用します:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:209
 msgid "Special Files for Bash"
-msgstr ""
+msgstr "bash での特殊ファイル"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:228
 msgid "<filename>~/.bash_history</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_history</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:233
 msgid "Contains a list of all commands you have typed"
-msgstr ""
+msgstr "これまでに入力したコマンドラインの履歴一覧"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:240
 msgid "<filename>~/.bash_logout</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_logout</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:245
 msgid "Executed when logging out"
-msgstr ""
+msgstr "ログアウト時に実行するスクリプトです"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:252
 msgid "<filename>~/.alias</filename>"
-msgstr ""
+msgstr "<filename>~/.alias</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:257
@@ -237,11 +243,13 @@ msgid ""
 "User defined aliases of frequently used commands. See <command>man 1 alias</"
 "command> for more details about defining aliases."
 msgstr ""
+"よく使用するコマンドに対して、別名を定義することができるファイルです。別名の定義方法について、詳しくは <command>man 1 "
+"alias</command> を実行してお読みください。"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:272
 msgid "Writing Shell Scripts"
-msgstr ""
+msgstr "シェルスクリプトの作成"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:274
@@ -250,11 +258,13 @@ msgid ""
 "collecting data, searching for a word or phrase in a text and other useful "
 "things. The following example shows a small shell script that prints a text:"
 msgstr ""
+"シェルスクリプトは、幅広い処理を実行することができる便利な仕組みです。データの収集やファイル内の単語や語句の検索など、様々な処理を行なうことができます。下"
+"記の例では、テキストを出力する簡単なシェルスクリプトを示しています:"
 
 #. (itstool) path: example/title
 #: xml/adm_shell.xml:281
 msgid "A Shell Script Printing a Text"
-msgstr ""
+msgstr "テキストを出力するシェルスクリプト"
 
 #. (itstool) path: example/screen
 #: xml/adm_shell.xml:282
@@ -284,18 +294,21 @@ msgid ""
 "understand your script. Commenting is considered good practice in the "
 "development community."
 msgstr ""
+"2 行目はハッシュ記号で始まるコメント文です。スクリプト内で何をやっているのかがわかりにくいような場合に、書いておいたほうがよいものです。適切にコメントを"
+"記述することで、各行の目的や意味を覚えておくことができます。また、自分以外の読み手に対しても、スクリプトの理解をより深めることができるようになります。開発"
+"コミュニティ内では、コメントはよりよい実践手段として認められています。"
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:303
 msgid ""
 "The third line uses the built-in command <command>echo</command> to print "
 "the corresponding text."
-msgstr ""
+msgstr "3 行目は内蔵コマンド <command>echo</command> を実行する箇所で、後ろに書かれた文字列を出力しています。"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:311
 msgid "Before you can run this script, there are a few prerequisites:"
-msgstr ""
+msgstr "スクリプトを実行するにあたっては、下記の要件を満たす必要があります:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:317
@@ -303,6 +316,8 @@ msgid ""
 "Every script should contain a Shebang line (as in the example above). If the "
 "line is missing, you need to call the interpreter manually."
 msgstr ""
+"スクリプトには、上記の例のようにシェバンを書いておくべきです。シェバンが書かれていないと、実行のたびにインタプリタを手作業で指定しなければならなくなります"
+"。"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:323
@@ -321,7 +336,7 @@ msgstr ""
 msgid ""
 "The script needs executable permissions. Set the permissions with the "
 "following command:"
-msgstr ""
+msgstr "スクリプトには実行のアクセス権が必要です。下記の通り実行して、実行権限を付与してください:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:338
@@ -334,12 +349,12 @@ msgstr ""
 msgid ""
 "If you have fulfilled all of the above prerequisites, you can execute the "
 "script in the following ways:"
-msgstr ""
+msgstr "上記の要件を全て満たしたら、あとは下記のいずれかの方式でスクリプトを実行します:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:350
 msgid "As Absolute Path"
-msgstr ""
+msgstr "絶対パス"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:351
@@ -351,7 +366,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:359
 msgid "Everywhere"
-msgstr ""
+msgstr "任意の場所"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:360
@@ -364,55 +379,55 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:370
 msgid "Redirecting Command Events"
-msgstr ""
+msgstr "コマンドイベントのリダイレクト"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:372
 msgid "Each command can use three channels, either for input or output:"
-msgstr ""
+msgstr "それぞれのコマンドには、入力や出力のための計 3 種類のチャンネルが用意されています:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:379
 msgid "Standard Output"
-msgstr ""
+msgstr "標準出力"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:380
 msgid ""
 "This is the default output channel. Whenever a command prints something, it "
 "uses the standard output channel."
-msgstr ""
+msgstr "既定の出力チャンネルです。コマンドが何らかの出力を行なうと、それは標準出力に書き出されます。"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:388
 msgid "Standard Input"
-msgstr ""
+msgstr "標準入力"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:389
 msgid ""
 "If a command needs input from users or other commands, it uses this channel."
-msgstr ""
+msgstr "ユーザから、もしくは他のコマンドからの入力が必要な場合、このチャンネルを使用します。"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:397
 msgid "Standard Error"
-msgstr ""
+msgstr "標準エラー出力"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:398
 msgid "Commands use this channel for error reporting."
-msgstr ""
+msgstr "コマンドは、エラー報告を行なう際、このチャンネルを使用します。"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:405
 msgid "To redirect these channels, there are the following possibilities:"
-msgstr ""
+msgstr "これらのチャンネルをリダイレクト (転送) するには、下記のいずれかの方法があります:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:411
 msgid "<literal>Command &gt; File</literal>"
-msgstr ""
+msgstr "<literal>コマンド &gt; ファイル</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:414
@@ -431,7 +446,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:423
 msgid "<literal>Command &gt;&gt; File</literal>"
-msgstr ""
+msgstr "<literal>コマンド &gt;&gt; ファイル</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:426
@@ -450,7 +465,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:435
 msgid "<literal>Command &lt; File</literal>"
-msgstr ""
+msgstr "<literal>コマンド &lt; ファイル</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:438
@@ -459,6 +474,8 @@ msgid ""
 "<command>read</command> command reads in the content of the file into the "
 "variable:"
 msgstr ""
+"指定したコマンドに対して、ファイルの内容を入力として設定します。たとえば <command>read</command> "
+"というコマンドを利用して、ファイルの内容を変数に取り込むには、下記のように実行します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:443
@@ -469,7 +486,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:447
 msgid "<literal>Command1 | Command2</literal>"
-msgstr ""
+msgstr "<literal>コマンド_1 | コマンド_2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:450
@@ -507,20 +524,20 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:474
 msgid "Using Aliases"
-msgstr ""
+msgstr "別名定義の使用"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:476
 msgid ""
 "An alias is a shortcut definition of one or more commands. The syntax for an "
 "alias is:"
-msgstr ""
+msgstr "別名定義は、 1 つまたは複数のコマンドのショートカットです。別名定義の書式は下記の通りです:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:481
 #, no-wrap
 msgid "alias <replaceable>NAME</replaceable>=<replaceable>DEFINITION</replaceable>"
-msgstr ""
+msgstr "alias <replaceable>名前</replaceable>=<replaceable>定義</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:483
@@ -547,7 +564,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:497
 msgid "Using Variables in Bash"
-msgstr ""
+msgstr "bash 内での変数の使用"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:499
@@ -556,6 +573,8 @@ msgid ""
 "variables, can be accessed in all shells. In contrast, local variables are "
 "visible in the current shell only."
 msgstr ""
+"シェルでは変数をローカルかグローバルに設定することができます。グローバル変数は環境変数とも呼ばれ、全てのシェルからアクセスすることができます。逆にローカル"
+"変数は、現在のシェルからしかアクセスできないものを指します。"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:505
@@ -564,6 +583,8 @@ msgid ""
 "command. If you need to know the value of a variable, insert the name of "
 "your variable as an argument:"
 msgstr ""
+"全ての環境変数を出力するには、 <command>printenv</command> "
+"を使用します。変数の値を知りたい場合は、コマンドの後ろに変数名を指定します:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:511
@@ -589,7 +610,7 @@ msgstr ""
 msgid ""
 "To set a local variable, use a variable name followed by the equal sign, "
 "followed by the value:"
-msgstr ""
+msgstr "ローカル変数を設定するには、変数名に続いてイコール記号を付け、その後ろに値を記述します:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:525
@@ -626,37 +647,37 @@ msgstr ""
 msgid ""
 "The following table contains some common environment variables which can be "
 "used in you shell scripts:"
-msgstr ""
+msgstr "下記の表には、シェルスクリプト内でよく使用される、いくつかの一般的な環境変数を示しています:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:546
 msgid "Useful Environment Variables"
-msgstr ""
+msgstr "便利な環境変数"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:551
 msgid "<envar>HOME</envar>"
-msgstr ""
+msgstr "<envar>HOME</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:556
 msgid "the home directory of the current user"
-msgstr ""
+msgstr "現在のユーザのホームディレクトリ"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:563
 msgid "<envar>HOST</envar>"
-msgstr ""
+msgstr "<envar>HOST</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:568
 msgid "the current host name"
-msgstr ""
+msgstr "現在のホスト名"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:575
 msgid "<envar>LANG</envar>"
-msgstr ""
+msgstr "<envar>LANG</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:580
@@ -664,69 +685,71 @@ msgid ""
 "when a tool is localized, it uses the language from this environment "
 "variable. English can also be set to <literal>C</literal>"
 msgstr ""
+"ツールがローカライズ (各国語に翻訳) されている場合、この環境変数を利用して言語を判断します。英語環境の場合は、 "
+"<literal>C</literal> に設定されていることがあります。"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:588
 msgid "<envar>PATH</envar>"
-msgstr ""
+msgstr "<envar>PATH</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:593
 msgid "the search path of the shell, a list of directories separated by colon"
-msgstr ""
+msgstr "シェルがプログラムを検索する際のパスの一覧です。コロン区切りでディレクトリを並べます"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:600
 msgid "<envar>PS1</envar>"
-msgstr ""
+msgstr "<envar>PS1</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:605
 msgid "specifies the normal prompt printed before each command"
-msgstr ""
+msgstr "各コマンドの前に表示される、一般ユーザ向けのプロンプト"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:612
 msgid "<envar>PS2</envar>"
-msgstr ""
+msgstr "<envar>PS2</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:617
 msgid ""
 "specifies the secondary prompt printed when you execute a multi-line command"
-msgstr ""
+msgstr "複数行のコマンドを実行する際に表示される、 2 行目以降のプロンプト"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:625
 msgid "<envar>PWD</envar>"
-msgstr ""
+msgstr "<envar>PWD</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:630
 msgid "current working directory"
-msgstr ""
+msgstr "現在の作業ディレクトリ"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:637
 msgid "<envar>USER</envar>"
-msgstr ""
+msgstr "<envar>USER</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:642
 msgid "the current user"
-msgstr ""
+msgstr "現在のユーザのユーザ名"
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:652
 msgid "Using Argument Variables"
-msgstr ""
+msgstr "パラメータ変数の使用"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:659
 msgid ""
 "For example, if you have the script <command>foo.sh</command> you can "
 "execute it like this:"
-msgstr ""
+msgstr "たとえば <command>foo.sh</command> というスクリプトが存在する場合、下記のように実行することができます:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:663
@@ -748,7 +771,7 @@ msgstr ""
 msgid ""
 "The following script <command>foo.sh</command> prints all arguments from 1 "
 "to 4:"
-msgstr ""
+msgstr "下記の <command>foo.sh</command> スクリプトは、パラメータのうち 1 個目から 4 個目までを表示します:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:674
@@ -757,22 +780,24 @@ msgid ""
 "#!/bin/sh\n"
 "echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 msgstr ""
+"#!/bin/sh\n"
+"echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:676
 msgid "If you execute this script with the above arguments, you get:"
-msgstr ""
+msgstr "上記のスクリプトを上記のコマンドラインで実行したとすると、下記のような出力になります:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:679
 #, no-wrap
 msgid "\"Tux Penguin\" \"2000\" \"\" \"\""
-msgstr ""
+msgstr "\"Tux Penguin\" \"2000\" \"\" \"\""
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:756
 msgid "Using Variable Substitution"
-msgstr ""
+msgstr "変数置換の使用"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:757
@@ -780,17 +805,17 @@ msgid ""
 "Variable substitutions apply a pattern to the content of a variable either "
 "from the left or right side. The following list contains the possible syntax "
 "forms:"
-msgstr ""
+msgstr "変数置換は、変数の値に対して左側もしくは右側からパターンを適用する処理を行ないます。下記のような書式が用意されています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:764
 msgid "<literal>${VAR#pattern}</literal>"
-msgstr ""
+msgstr "<literal>${変数#パターン}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:767
 msgid "removes the shortest possible match from the left:"
-msgstr ""
+msgstr "左側からパターンに該当する最短の部分を削除します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:770
@@ -804,12 +829,12 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:776
 msgid "<literal>${VAR##pattern}</literal>"
-msgstr ""
+msgstr "<literal>${変数##パターン}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:779
 msgid "removes the longest possible match from the left:"
-msgstr ""
+msgstr "左側からパターンに該当する最長の部分を削除します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:782
@@ -823,12 +848,12 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:788
 msgid "<literal>${VAR%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${変数%パターン}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:791
 msgid "removes the shortest possible match from the right:"
-msgstr ""
+msgstr "右側からパターンに該当する最短の部分を削除します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:794
@@ -842,12 +867,12 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:800
 msgid "<literal>${VAR%%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${変数%%パターン}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:803
 msgid "removes the longest possible match from the right:"
-msgstr ""
+msgstr "右側からパターンに該当する最長の部分を削除します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:806
@@ -861,7 +886,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:812
 msgid "<literal>${VAR/pattern_1/pattern_2}</literal>"
-msgstr ""
+msgstr "<literal>${変数/パターン_1/パターン_2}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:815
@@ -883,7 +908,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:842
 msgid "Grouping and Combining Commands"
-msgstr ""
+msgstr "コマンドのグループ化と組み合わせ化"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:844
@@ -893,16 +918,19 @@ msgid ""
 "failure of its operation. If it is 0 (zero) the command was successful, "
 "everything else marks an error which is specific to the command."
 msgstr ""
+"シェルでは、条件分岐などのためにコマンドをグループ化したり組み合わせたりすることができます。それぞれのコマンドには終了コードが決められていて、操作が成功し"
+"たのか失敗したのかが分かるようになっています。 0 (ゼロ) はコマンドが成功したことを、それ以外の場合は何らかの失敗があったことを示します "
+"(値の意味は、コマンドによって異なります) 。"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:851
 msgid "The following list shows, how commands can be grouped:"
-msgstr ""
+msgstr "下記の表では、様々なグループ化の方法を示しています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:857
 msgid "<literal>Command1 ; Command2</literal>"
-msgstr ""
+msgstr "<literal>コマンド_1 ; コマンド_2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:860
@@ -912,6 +940,9 @@ msgid ""
 "and then prints its file properties with <command>ls</command> regardless of "
 "their exit codes:"
 msgstr ""
+"コマンドを順次実行します。終了コードについては何もチェックを行ないません。下記の例では、 <command>cat</command> "
+"コマンドでファイルの内容を出力したあと、終了コードをチェックせずに <command>ls</command> "
+"コマンドを実行し、ファイルの情報を出力します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:866
@@ -922,7 +953,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:870
 msgid "<literal>Command1 &amp;&amp; Command2</literal>"
-msgstr ""
+msgstr "<literal>コマンド_1 &amp;&amp; コマンド_2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:873
@@ -932,6 +963,8 @@ msgid ""
 "properties only, when the previous command was successful (compare it with "
 "the previous entry in this list):"
 msgstr ""
+"左側のコマンドが成功した場合にのみ、右側のコマンドを実行します (論理積) "
+"。下記の例では、ファイルの内容を出力したあと、その出力が成功した場合にのみ、ファイルの情報を出力します:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:879
@@ -942,7 +975,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:883
 msgid "<literal>Command1 || Command2</literal>"
-msgstr ""
+msgstr "<literal>コマンド_1 || コマンド_2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:886
@@ -952,3 +985,6 @@ msgid ""
 "filename> when the creation of the directory in <filename>/home/tux/foo</"
 "filename> has failed:"
 msgstr ""
+"左側のコマンドが失敗した場合にのみ、右側のコマンドを実行します (論理和) 。下記の例では、 <filename>/home/tux/"
+"foo</filename> ディレクトリの作成が失敗した場合にのみ、 <filename>/home/wilber/bar</filename> "
+"ディレクトリを作成します:"
