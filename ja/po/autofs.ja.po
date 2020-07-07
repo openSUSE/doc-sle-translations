@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:21+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/autofs-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/autofs.xml:9
 msgid "On-Demand Mounting with Autofs"
-msgstr ""
+msgstr "autofs によるオンデマンド型のマウント"
 
 #. (itstool) path: docmanager/translation
 #: xml/autofs.xml:13
@@ -43,7 +45,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:31
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:33
@@ -64,7 +66,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:41
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:43
@@ -78,7 +80,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:52
 msgid "The Master Map File"
-msgstr ""
+msgstr "マスターマップファイル"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:53
@@ -134,6 +136,7 @@ msgid ""
 "Although commented out (#) by default, this is an example of a simple "
 "automounter mapping syntax."
 msgstr ""
+"既定では (#) 印が付けられてコメントアウトされていますが、シンプルな automounter マッピングの書式に関するシンプルな例が示されています。"
 
 #. (itstool) path: callout/para
 #: xml/autofs.xml:97
@@ -156,18 +159,18 @@ msgstr ""
 msgid ""
 "Entries in <filename>auto.master</filename> have three fields with the "
 "following syntax:"
-msgstr ""
+msgstr "<filename>auto.master</filename> 内の各項目は、下記の書式で記述します:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:115
 #, no-wrap
 msgid "mount point      map name      options"
-msgstr ""
+msgstr "マウントポイント      マップ名      オプション"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:118 xml/autofs.xml:209
 msgid "mount point"
-msgstr ""
+msgstr "マウントポイント"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:120
@@ -179,7 +182,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:127
 msgid "map name"
-msgstr ""
+msgstr "マップ名"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:129
@@ -191,19 +194,19 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:136 xml/autofs.xml:221
 msgid "options"
-msgstr ""
+msgstr "オプション"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:138
 msgid ""
 "These options (if specified) will apply as defaults to all entries in the "
 "given map."
-msgstr ""
+msgstr "これらのオプションが指定されていれば、指定されたマップ内の全ての項目に対して、既定値の形で適用されるようになります。"
 
 #. (itstool) path: tip/title
 #: xml/autofs.xml:146
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: tip/para
 #: xml/autofs.xml:147
@@ -227,12 +230,12 @@ msgstr ""
 #: xml/autofs.xml:160
 #, no-wrap
 msgid "/smb   /etc/auto.smb"
-msgstr ""
+msgstr "/smb   /etc/auto.smb"
 
 #. (itstool) path: sect3/title
 #: xml/autofs.xml:162
 msgid "Direct Mounts"
-msgstr ""
+msgstr "直接マウント"
 
 #. (itstool) path: sect3/para
 #: xml/autofs.xml:163
@@ -248,12 +251,12 @@ msgstr ""
 #: xml/autofs.xml:171
 #, no-wrap
 msgid "/-        /etc/auto.smb"
-msgstr ""
+msgstr "/-        /etc/auto.smb"
 
 #. (itstool) path: tip/title
 #: xml/autofs.xml:173
 msgid "Maps without Full Path"
-msgstr ""
+msgstr "フルパスを指定しないマップについて"
 
 #. (itstool) path: tip/para
 #: xml/autofs.xml:174
@@ -261,22 +264,24 @@ msgid ""
 "If the map file is not specified with its full local or network path, it is "
 "located using the Name Service Switch (NSS) configuration:"
 msgstr ""
+"マップファイル側でローカルもしくはネットワークパスをフルパスで指定しない場合、 Name Service Switch (NSS) "
+"の設定を利用して場所を判断するようになります:"
 
 #. (itstool) path: tip/screen
 #: xml/autofs.xml:178
 #, no-wrap
 msgid "/-        auto.smb"
-msgstr ""
+msgstr "/-        auto.smb"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:184
 msgid "Map Files"
-msgstr ""
+msgstr "マップファイル"
 
 #. (itstool) path: important/title
 #: xml/autofs.xml:186
 msgid "Other Types of Maps"
-msgstr ""
+msgstr "その他の種類のマップについて"
 
 #. (itstool) path: important/para
 #: xml/autofs.xml:187
@@ -297,12 +302,15 @@ msgid ""
 "emphasis> appear between the mount point and the location instead of at the "
 "end of the entry:"
 msgstr ""
+"マップファイルではマウント元の場所 (ローカルまたはネットワーク) "
+"を指定するほか、ローカル側でのマウント先となるマウントポイントを指定します。マップファイルの一般的な書式はマスターマップに似ています。違いは "
+"<emphasis>オプション</emphasis> 指定の位置で、項目の末尾ではなくマウントポイントと場所の間に記述します:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:202
 #, no-wrap
 msgid "mount point      options      location"
-msgstr ""
+msgstr "マウントポイント      オプション      場所"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:203
@@ -329,11 +337,13 @@ msgid ""
 "entries. If <filename>auto.master</filename> contains options for this map "
 "file as well, theses are appended."
 msgstr ""
+"対応する項目に対して設定する、マウントオプションのリストをカンマ区切りで指定します。このマップファイルに対する "
+"<filename>auto.master</filename> の行内にオプションの指定が存在する場合は、それらも追加されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:231
 msgid "location"
-msgstr ""
+msgstr "場所"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:233
@@ -348,7 +358,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:247
 msgid "Operation and Debugging"
-msgstr ""
+msgstr "操作とデバッグ"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:249
@@ -357,11 +367,13 @@ msgid ""
 "<systemitem>autofs</systemitem> service operation, and how to view more "
 "debugging information when tuning the automounter operation."
 msgstr ""
+"本章では、 <systemitem>autofs</systemitem> サービスの制御方法について、および automounter "
+"の操作を調整する際のデバッグ情報の表示方法について説明しています。"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:256
 msgid "Controlling the <systemitem>autofs</systemitem> Service"
-msgstr ""
+msgstr "<systemitem>autofs</systemitem> サービスの制御"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:257
@@ -381,67 +393,67 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:263
 msgid "where <replaceable>SUB_COMMAND</replaceable> is one of:"
-msgstr ""
+msgstr "<replaceable>サブコマンド</replaceable> には下記のいずれかを指定します:"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:268
 msgid "enable"
-msgstr ""
+msgstr "enable"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:270
 msgid "Starts the automounter daemon at boot."
-msgstr ""
+msgstr "システムの起動時に automounter デーモンを開始するように設定します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:276
 msgid "start"
-msgstr ""
+msgstr "start"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:278
 msgid "Starts the automounter daemon."
-msgstr ""
+msgstr "automounter デーモンを開始します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:284
 msgid "stop"
-msgstr ""
+msgstr "stop"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:286
 msgid ""
 "Stops the automounter daemon. Automatic mount points are not accessible."
-msgstr ""
+msgstr "automounter デーモンを停止します。自動的なマウントポイントにはアクセスできなくなります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:292
 msgid "status"
-msgstr ""
+msgstr "status"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:294
 msgid ""
 "Prints the current status of the <systemitem>autofs</systemitem> service "
 "together with a part of a relevant log file."
-msgstr ""
+msgstr "<systemitem>autofs</systemitem> の現在の状態のほか、関連するログファイルの一部を表示します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:301
 msgid "restart"
-msgstr ""
+msgstr "restart"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:303
 msgid ""
 "Stops and starts the automounter, terminating all running daemons and "
 "starting new ones."
-msgstr ""
+msgstr "automounter をいったん停止させ、開始し直します。動作中の全てのデーモンを終了させたあと、新しいデーモンを開始します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:310
 msgid "reload"
-msgstr ""
+msgstr "reload"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:312
@@ -449,11 +461,13 @@ msgid ""
 "Checks the current <filename>auto.master</filename> map, restarts those "
 "daemons whose entries have changed, and starts new ones for new entries."
 msgstr ""
+"現在の <filename>auto.master</filename> "
+"マップを確認し、項目に変更点があれば対応するデーモンを再起動し、項目に追加があれば新しい項目のデーモンを起動します。"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:322
 msgid "Debugging the Automounter Problems"
-msgstr ""
+msgstr "automounter の問題調査"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:323
@@ -480,6 +494,7 @@ msgid ""
 "From one terminal, run <command>automount</command> manually in the "
 "foreground, producing verbose output."
 msgstr ""
+"一方の端末から、冗長な出力を行なうよう <command>automount</command> を実行し、そのまま前面で動き続けるようにします。"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:340
@@ -501,11 +516,13 @@ msgid ""
 "Check the output of <command>automount</command> from the first terminal for "
 "more information why the mount failed, or why it was not even attempted."
 msgstr ""
+"<command>automount</command> "
+"を起動したほうの端末に戻って出力を確認し、なぜマウントが失敗しているのか、もしくはなぜマウントが行なわれなかったのかを調べます。"
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:360
 msgid "Auto-Mounting an NFS Share"
-msgstr ""
+msgstr "NFS 共有の自動マウント"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:362
@@ -538,7 +555,7 @@ msgstr ""
 #: xml/autofs.xml:380
 #, no-wrap
 msgid "/nfs      /etc/auto.nfs      --timeout=10"
-msgstr ""
+msgstr "/nfs      /etc/auto.nfs      --timeout=10"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:381
@@ -552,7 +569,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/autofs.xml:389
 msgid "Create a new map file for NFS shares:"
-msgstr ""
+msgstr "NFS 共有に対する新しいマップファイルを作成します:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:392
@@ -573,7 +590,7 @@ msgstr ""
 #: xml/autofs.xml:399
 #, no-wrap
 msgid "export      jupiter.com:/home/geeko/doc/export"
-msgstr ""
+msgstr "export      jupiter.com:/home/geeko/doc/export"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:400
@@ -593,17 +610,19 @@ msgid ""
 "if you previously mounted the same NFS share statically. The line should "
 "look similar to this:"
 msgstr ""
+"上記と同じ NFS 共有を <filename>/etc/fstab</filename> "
+"に記述していた場合は、下記のようにしてコメントアウトしてください:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:416
 #, no-wrap
 msgid "#jupiter.com:/home/geeko/doc/export /nfs/export nfs defaults 0 0"
-msgstr ""
+msgstr "#jupiter.com:/home/geeko/doc/export /nfs/export nfs defaults 0 0"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:419
 msgid "Reload <systemitem>autofs</systemitem> and check if it works:"
-msgstr ""
+msgstr "最後に <systemitem>autofs</systemitem> を再読み込みさせて、動作するかどうかを確認します:"
 
 #. (itstool) path: step/screen
 #. (itstool) path: sect2/screen
@@ -623,6 +642,12 @@ msgid ""
 "drwxr-xr-x  3 1001 users 4096 Aug 30  2017 .tmp/\n"
 "drwxr-xr-x  4 1001 users 4096 Apr 25 08:56 manual/"
 msgstr ""
+"# ls -l /nfs/export\n"
+"total 20\n"
+"drwxr-xr-x  5 1001 users 4096 Jan 14  2017 .images/\n"
+"drwxr-xr-x 10 1001 users 4096 Aug 16  2017 .profiled/\n"
+"drwxr-xr-x  3 1001 users 4096 Aug 30  2017 .tmp/\n"
+"drwxr-xr-x  4 1001 users 4096 Apr 25 08:56 manual/"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:429
@@ -630,11 +655,13 @@ msgid ""
 "If you can see the list of files on the remote share, then "
 "<systemitem>autofs</systemitem> is functioning."
 msgstr ""
+"上記のように実行することでリモートの共有内のファイルを表示することができれば、 <systemitem>autofs</systemitem> "
+"は問題なく動作していることになります。"
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:437
 msgid "Advanced Topics"
-msgstr ""
+msgstr "高度なトピック"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:439
@@ -648,7 +675,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:447
 msgid "<filename>/net</filename> Mount Point"
-msgstr ""
+msgstr "<filename>/net</filename> マウントポイント"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:448
@@ -664,7 +691,7 @@ msgstr ""
 #: xml/autofs.xml:455
 #, no-wrap
 msgid "/net      -hosts"
-msgstr ""
+msgstr "/net      -hosts"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:457
@@ -683,11 +710,14 @@ msgstr ""
 #: xml/autofs.xml:462
 msgid "on the command line."
 msgstr ""
+"\"\n"
+"  <!-- nothing needed for translation -->\n"
+"\""
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:468
 msgid "Using Wild Cards to Auto-Mount Subdirectories"
-msgstr ""
+msgstr "自動マウントサブディレクトリでのワイルドカードの使用"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:469
@@ -709,7 +739,7 @@ msgstr ""
 #: xml/autofs.xml:479
 #, no-wrap
 msgid "/home      /etc/auto.home"
-msgstr ""
+msgstr "/home      /etc/auto.home"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:480
@@ -718,6 +748,8 @@ msgid ""
 "filename> file, so that the users' home directories are mounted "
 "automatically. One solution is to create separate entries for each directory:"
 msgstr ""
+"あとは <filename>/etc/auto.home</filename> ファイル内に適切なマッピングを追加していくことで、ユーザのホームディレクト"
+"リを自動的にマウントすることができるようになります。今までの設定方法からすると、下記のようにそれぞれ個別のディレクトリを指定していくことになります:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:486
@@ -728,6 +760,10 @@ msgid ""
 "tux      jupiter.com:/home/tux\n"
 "[...]"
 msgstr ""
+"wilber      jupiter.com:/home/wilber\n"
+"penguin      jupiter.com:/home/penguin\n"
+"tux      jupiter.com:/home/tux\n"
+"[...]"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:490
@@ -742,12 +778,12 @@ msgstr ""
 #: xml/autofs.xml:496
 #, no-wrap
 msgid "*      jupiter:/home/&amp;"
-msgstr ""
+msgstr "*      jupiter:/home/&amp;"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:500
 msgid "Auto-Mounting CIFS File System"
-msgstr ""
+msgstr "CIFS ファイルシステムの自動マウント"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:501
@@ -762,4 +798,4 @@ msgstr ""
 #: xml/autofs.xml:508
 #, no-wrap
 msgid "mount point      -fstype=cifs      ://jupiter.com/export"
-msgstr ""
+msgstr "マウントポイント      -fstype=cifs      ://jupiter.com/export"
