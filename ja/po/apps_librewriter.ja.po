@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:21+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_librewriter-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -55,17 +57,17 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:38
 msgid "Creating a New Document"
-msgstr ""
+msgstr "新規文書の作成"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:40
 msgid "There are multiple ways to create a new Writer document:"
-msgstr ""
+msgstr "新規に Writer の文書を作成する際は、下記のいずれかを行ないます:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:47
 msgid "From Scratch"
-msgstr ""
+msgstr "何もない状態からの作成"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:48
@@ -77,7 +79,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:57
 msgid "Using a Wizard"
-msgstr ""
+msgstr "ウイザードを利用した作成"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:58
@@ -86,11 +88,14 @@ msgid ""
 "a wizard. Click <menuchoice> <guimenu>File</guimenu> <guimenu>Wizards</"
 "guimenu> <guimenu>Letter</guimenu> </menuchoice> and follow the steps."
 msgstr ""
+"標準的な書式とあらかじめ設定された要素を利用して独自の文書を作成したい場合は、ウイザードを利用して作成します。 <menuchoice> "
+"<guimenu>ファイル</guimenu> <guimenu>ウィザード</guimenu> <guimenu>レター</guimenu> "
+"</menuchoice> を選択して、表示された手順に従ってください。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:68
 msgid "From a Template"
-msgstr ""
+msgstr "テンプレートを利用した作成"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:69
@@ -140,7 +145,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:111
 msgid "Formatting with Styles"
-msgstr ""
+msgstr "スタイルによる書式設定"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:113
@@ -156,27 +161,27 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:124
 msgid "Gives your pages, paragraphs, texts, and lists a consistent look."
-msgstr ""
+msgstr "ページや段落、テキストや一覧などの外観に一貫性がもたらされます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:129
 msgid "Makes it easy to consistently change formatting later."
-msgstr ""
+msgstr "後から書式を変更する際でも、簡単かつ間違いなく行なうことができるようになります。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:134
 msgid "Allows reuse and import of styles from another document."
-msgstr ""
+msgstr "他の文書内にあるスタイルを取り込んで、再利用することができるようになります。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:139
 msgid "Change one style and its properties are passed on to its descendants."
-msgstr ""
+msgstr "スタイルの継承 (親子) 関係を利用することで、スタイルを一括変更することもできます。"
 
 #. (itstool) path: example/title
 #: xml/apps_librewriter.xml:146
 msgid "Use of Styles"
-msgstr ""
+msgstr "スタイルの使用"
 
 #. (itstool) path: example/para
 #: xml/apps_librewriter.xml:147
@@ -194,6 +199,8 @@ msgid ""
 "only need to change the style from bold to italics once. All text formatted "
 "with a style changes its appearance as the style is changed."
 msgstr ""
+"当初からスタイルを使用しておけば、太文字から斜体への変更はスタイルの変更だけで済みます。スタイルの適用されたテキストの場合、スタイルを変更すればテキスト側"
+"の外観も変更されます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:159
@@ -206,22 +213,22 @@ msgstr ""
 #. (itstool) path: table/title
 #: xml/apps_librewriter.xml:165
 msgid "Types of Styles"
-msgstr ""
+msgstr "スタイルの種類"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:172
 msgid "Type of Style"
-msgstr ""
+msgstr "スタイルの種類"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:177
 msgid "Function"
-msgstr ""
+msgstr "機能"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:186
 msgid "<guimenu>Paragraph</guimenu>"
-msgstr ""
+msgstr "<guimenu>段落</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:191
@@ -231,11 +238,13 @@ msgid ""
 "set the font and font size, spacing above and below the heading, location of "
 "the heading, and other formatting specifications."
 msgstr ""
+"文書内にある様々な種類の段落に対して、指定された書式を設定します。たとえば見出し 1 "
+"の段落スタイルを設定して、フォントやフォントサイズ、上下の間隔や見出しの配置などを設定することができます。"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:201
 msgid "<guimenu>Character</guimenu>"
-msgstr ""
+msgstr "<guimenu>文字</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:206
@@ -244,11 +253,13 @@ msgid ""
 "emphasized text to appear in italics, you can create an emphasis style that "
 "italicizes selected text when you apply the style to it."
 msgstr ""
+"様々な種類のテキストに対して、指定された書式を設定します。たとえば強調箇所には斜体を設定したいような場合は強調用のスタイルを作成して、そのスタイルに斜体を"
+"指定することで、テキスト側にも反映されるようになります。"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:215
 msgid "<guimenu>Frame</guimenu>"
-msgstr ""
+msgstr "<guimenu>枠</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:220
@@ -258,6 +269,8 @@ msgid ""
 "and other formatting, so that all of your marginal notes have a consistent "
 "appearance."
 msgstr ""
+"特定の枠に対して指定された書式を設定します。たとえば文書内に傍注が書かれているような場合、境界線や配置などを指定したスタイルを作成することで、文書内の全て"
+"の傍注に同じ書式を適用することができるようになります。"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:226
@@ -266,11 +279,13 @@ msgid ""
 "the image together. Here, you can use frame style to make sure that all your "
 "images have the same size and background color, for example."
 msgstr ""
+"フレームは画像を貼り付ける目的でも使用することがあります。フレームにはタイトルと画像本体をまとめて保持することができます。たとえば画像のサイズや背景色など"
+"のスタイルなどを設定して、同じ画像フレーム全てに適用することができます。"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:236
 msgid "<guimenu>Page</guimenu>"
-msgstr ""
+msgstr "<guimenu>ページ</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:241
@@ -282,11 +297,14 @@ msgid ""
 "that you have bigger margins on the insides of pages and your page numbers "
 "appear on an outside corner."
 msgstr ""
+"特定のページに対して指定された書式を設定します。たとえば文書内の各ページには、最初のページを除いてヘッダとフッタが存在するような場合、ヘッダとフッタを無効"
+"化するようなスタイルを作成して最初のページに適用するようなことができます。また、左配置のページと右配置のページを設定して、それぞれの端に大きな余白を設定す"
+"るとともに、ページ番号を外側に配置するようなことも設定できます。"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:253
 msgid "<guimenu>List</guimenu>"
-msgstr ""
+msgstr "<guimenu>リスト</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:258
@@ -295,6 +313,8 @@ msgid ""
 "can define a checklist with square check boxes and a bullet list with round "
 "bullets, then easily apply the correct style when creating your lists."
 msgstr ""
+"特定のリスト (箇条書き) に対して、指定された書式を設定します。たとえばチェックリストのように四角形のボックスを設定したり、ビュレットリストとしてビュレ"
+"ットを冒頭に記したりすることがあります。これにより、リストを作成する際に簡単に適切なスタイルを適用することができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:270
@@ -327,7 +347,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:293
 msgid "The Side Bar Panel <guimenu>Styles and Formatting</guimenu>"
-msgstr ""
+msgstr "サイドバーパネル <guimenu>スタイルと書式</guimenu>"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:294
@@ -343,7 +363,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_librewriter.xml:303
 msgid "Styles and Formatting Panel"
-msgstr ""
+msgstr "スタイルと書式パネル"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -368,7 +388,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:323
 msgid "Applying a Style"
-msgstr ""
+msgstr "スタイルの適用"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:324
@@ -389,7 +409,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:338
 msgid "Changing a Style"
-msgstr ""
+msgstr "スタイルの変更"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:339
@@ -398,11 +418,12 @@ msgid ""
 "than applying the change separately everywhere you want to apply the new "
 "formatting."
 msgstr ""
+"スタイルを変更することで、そのスタイルが適用された全ての箇所の書式を変更することができます。いちいち対象の箇所を選択して変更する必要はありません。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:344
 msgid "To change an existing style, proceed as follows:"
-msgstr ""
+msgstr "既存のスタイルを変更するには、下記の手順で行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:349
@@ -419,7 +440,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:360
 msgid "Change the settings for the selected style."
-msgstr ""
+msgstr "選択したスタイルの設定を変更します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:363
@@ -436,7 +457,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:377
 msgid "Creating a Style"
-msgstr ""
+msgstr "スタイルの作成"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:378
@@ -449,7 +470,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:384
 msgid "Creating a New Style"
-msgstr ""
+msgstr "新しいスタイルの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:386
@@ -464,7 +485,7 @@ msgstr ""
 msgid ""
 "Make sure you are in the list of styles for the type of style you want to "
 "create."
-msgstr ""
+msgstr "作成したいスタイルの種類の一覧が表示されていることを確認します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:397
@@ -491,26 +512,26 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:416
 msgid "Configure three basic properties of the new style:"
-msgstr ""
+msgstr "新しいスタイルに設定する 3 種類の基本情報を設定します:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:421 xml/apps_librewriter.xml:502
 #: xml/apps_librewriter.xml:625
 msgid "<guimenu>Name</guimenu>"
-msgstr ""
+msgstr "<guimenu>名前</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:424
 msgid "The name of your style. Choose any name you like."
-msgstr ""
+msgstr "スタイルの名前です。どのような名前でもかまいません。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:430 xml/apps_librewriter.xml:514
 #: xml/apps_librewriter.xml:641
 msgid "<guimenu>Next Style</guimenu>"
-msgstr ""
+msgstr "<guimenu>次に続くスタイル</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:433
@@ -524,7 +545,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_librewriter.xml:442
 msgid "<guimenu>Inherit From</guimenu>"
-msgstr ""
+msgstr "<guimenu>継承元</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:445
@@ -535,6 +556,9 @@ msgid ""
 "This is useful when you only want to change the properties that need to be "
 "different."
 msgstr ""
+"スタイルの継承元を指定します。スタイルの選択を変更すると、編集中のスタイルについても変更が行なわれます。たとえばヘッダ表記に一貫性を持たせたい場合は、"
+"まず <quote>親</quote> となるヘッダスタイルを定義して、それを継承する形で続くヘッダスタイルを定義してください。これにより、変更すべき属性"
+"のみを指定したスタイルを作成することができるようになります。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:455
@@ -542,6 +566,7 @@ msgid ""
 "For details about the style options available in any tab, click the "
 "<guimenu>Help</guimenu> button of the dialog."
 msgstr ""
+"タブ内で利用可能なスタイルオプションについて、詳しくはダイアログ内に表示される <guimenu>ヘルプ</guimenu> ボタンを押してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:461 xml/apps_librewriter.xml:575
@@ -553,19 +578,19 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_librewriter.xml:467
 msgid "Example: Defining a Note Style"
-msgstr ""
+msgstr "例: 注記スタイルの作成"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:468
 msgid ""
 "Let us assume, you need a note with a different background and borders. To "
 "create such a style, proceed as follows:"
-msgstr ""
+msgstr "たとえば異なる背景や境界線で注記を作成する必要があるものとします。このようなスタイルを作成するには、下記のようにして行ないます:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:473
 msgid "Creating a Note Style"
-msgstr ""
+msgstr "ノートスタイルの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:475 xml/apps_librewriter.xml:598
@@ -579,7 +604,7 @@ msgstr ""
 msgid ""
 "Make sure you are in the <guimenu>Paragraph Style</guimenu> list by checking "
 "that the pilcrow icon (¶) is selected."
-msgstr ""
+msgstr "段落記号のアイコン (¶) を押し、 <guimenu>段落スタイル</guimenu> を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:487 xml/apps_librewriter.xml:610
@@ -597,27 +622,27 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:507 xml/apps_librewriter.xml:519
 msgid "Note"
-msgstr ""
+msgstr "注記"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:526 xml/apps_librewriter.xml:653
 msgid "<guimenu>Inherit from</guimenu>"
-msgstr ""
+msgstr "<guimenu>継承元</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:531
 msgid "- None -"
-msgstr ""
+msgstr "-なし-"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:538 xml/apps_librewriter.xml:665
 msgid "<guimenu>Category</guimenu>"
-msgstr ""
+msgstr "<guimenu>範囲</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:543
 msgid "Custom Styles"
-msgstr ""
+msgstr "ユーザー定義のスタイル"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:553
@@ -634,14 +659,14 @@ msgstr ""
 msgid ""
 "Switch to the tab <guimenu>Background</guimenu> and choose a color for the "
 "background."
-msgstr ""
+msgstr "<guimenu>背景</guimenu> のタブに切り替えて、背景に設定する色を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:569
 msgid ""
 "Switch to the tab <guimenu>Borders</guimenu> and determine your line "
 "arrangements, line style, color and other parameters."
-msgstr ""
+msgstr "<guimenu>外枠</guimenu> タブに切り替えて、線のスタイルや色などのパラメータを設定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:580
@@ -653,7 +678,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_librewriter.xml:589
 msgid "Example: Defining an Even-Odd Page Style"
-msgstr ""
+msgstr "例: 奇数／偶数ページスタイルの作成"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:590
@@ -662,18 +687,20 @@ msgid ""
 "if they are supposed to be bound, use templates for even and odd pages. To "
 "create page styles for this, proceed as follows:"
 msgstr ""
+"両面印刷して片方を綴じるような文書を作成したい場合、偶数と奇数のページに分けてテンプレートを作成します。このようなページスタイルを作成するには、下記のよう"
+"にして行ないます:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:596
 msgid "Create an Even (Left) Page Style"
-msgstr ""
+msgstr "偶数 (左側) ページスタイルの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:604
 msgid ""
 "Make sure you are in the list <guimenu>Page Style</guimenu> by checking that "
 "the paper sheet icon is selected."
-msgstr ""
+msgstr "四角形のアイコンを押し、 <guimenu>ページスタイル</guimenu> を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:617
@@ -683,17 +710,17 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:634
 msgid "Left Content Page"
-msgstr ""
+msgstr "左コンテンツのページ"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:646
 msgid "Leave empty, will be changed later"
-msgstr ""
+msgstr "(何を選択してもかまいません。後から変更します)"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:658 xml/apps_librewriter.xml:670
 msgid "not applicable"
-msgstr ""
+msgstr "どれでもかまいません"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:680
@@ -706,7 +733,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:693
 msgid "Create an Odd (Right) Page Style"
-msgstr ""
+msgstr "奇数 (右側) ページスタイルの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:695
@@ -730,16 +757,18 @@ msgid ""
 "different sizes for the left and right margin of your even page, mirror "
 "these values in your odd pages."
 msgstr ""
+"あとは左コンテンツのページに設定したときと同じパラメータを設定します。ただし奇数ページ側で異なるサイズを使用した場合は、偶数ページ側もそれに合わせて変更し"
+"てください。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:721
 msgid "Then connect the left page style with the right page style:"
-msgstr ""
+msgstr "あとは左コンテンツスタイルと右コンテンツスタイルを接続します:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:725
 msgid "Connect the Right Page Style with the Left Page Style"
-msgstr ""
+msgstr "右コンテンツスタイルと左コンテンツスタイルの接続"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:727
@@ -767,7 +796,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:754
 msgid "Working with Large Documents"
-msgstr ""
+msgstr "大規模な文書の取り扱い"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:756
@@ -775,11 +804,12 @@ msgid ""
 "You can use Writer to work on large documents. Large documents can be either "
 "a single file or a collection of files assembled into a single document."
 msgstr ""
+"Writer では巨大な文書を取り扱うことができます。巨大な文書は単一のファイルのほか、単一の文書を構成する複数のファイルからなる場合があります。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:762
 msgid "Navigating in Large Documents"
-msgstr ""
+msgstr "大規模な文書内でのナビゲーション"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:763
@@ -788,6 +818,8 @@ msgid ""
 "also lets you quickly jump to different elements. For example, use the "
 "Navigator to get a quick overview of all images included in a document."
 msgstr ""
+"ナビゲータツールには、文書内のコンテンツに関する情報が表示されます。必要であれば、対応する箇所に素早く移動することもできます。たとえば文書内に含まれている"
+"全ての画像に対して、概要を得ることもできます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:769
@@ -802,18 +834,18 @@ msgstr ""
 msgid ""
 "The Navigator is also an element of the side bar: There, it can be opened "
 "using the button <guimenu>Navigator</guimenu> (a compass)."
-msgstr ""
+msgstr "ナビゲータはサイドバー内に表示させることもできます。 <guimenu>ナビゲータ</guimenu> ボタンを押して表示させてください。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:779
 msgid ""
 "Double-click an item in the Navigator to jump to that item in the document."
-msgstr ""
+msgstr "ナビゲータ内の項目をダブルクリックすると、文書内の対応箇所に移動することができます。"
 
 #. (itstool) path: figure/title
 #: xml/apps_librewriter.xml:783
 msgid "Navigator Tool in Writer"
-msgstr ""
+msgstr "Writer 内でのナビゲータツール"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -828,7 +860,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:796
 msgid "Using Master Documents"
-msgstr ""
+msgstr "マスタードキュメントの使用"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:797
@@ -839,6 +871,8 @@ msgid ""
 "formatting changes to a large document or to jump to each subdocument for "
 "editing."
 msgstr ""
+"書籍などの非常に巨大な文書を扱っている場合、単一のファイル内に全てのコンテンツを含ませるのではなく、マスタードキュメントを作成して管理を行なったほうが簡単"
+"です。マスタードキュメントは巨大な文書に対して書式の変更を素早く適用することができるほか、編集を行なう際にも配下の文書に素早く移動することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:804
@@ -851,11 +885,15 @@ msgid ""
 "document, allowing multiple writers to work on their subdocuments at the "
 "same time without fear of overwriting the work of others."
 msgstr ""
+"マスタードキュメントは、他の多数の Writer ファイルに対するコンテナとして動作する Writer 文書です。マスタードキュメント内から、"
+"それぞれの章などに対応する配下の文書 (サブドキュメント) を管理することができます。マスタードキュメントは、単一の文書に対して複数のユーザが編集を行なう"
+"際にも有用です。文書内でそれぞれのユーザが担当すべき箇所を別々のサブドキュメントに分割しておくことで、お互いの作業に影響を与えることなく、各ユーザが自分自"
+"身の作業に没頭できることになります。"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:815
 msgid "Creating a Master Document"
-msgstr ""
+msgstr "マスタードキュメントの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:817
@@ -867,7 +905,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:821
 msgid "or"
-msgstr ""
+msgstr "もしくは、下記のように実行してもかまいません:"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:824
@@ -902,12 +940,12 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:843
 msgid "Select a file to add an existing file to the master document."
-msgstr ""
+msgstr "マスタードキュメント内に追加する既存のファイルを選択します。"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:849
 msgid "Adding a New Document to a Master Document"
-msgstr ""
+msgstr "マスタードキュメントへの新規文書の追加"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:851
@@ -934,7 +972,7 @@ msgstr ""
 msgid ""
 "When you are done editing the new document, save it. Then switch back to the "
 "master document."
-msgstr ""
+msgstr "新規に作成した文書の編集が終わったら、保存を行なってマスタードキュメントのほうに戻ります。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:870
@@ -963,7 +1001,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apps_librewriter.xml:889
 msgid "Styles and Templates in Master Documents"
-msgstr ""
+msgstr "マスタードキュメント内でのスタイルとテンプレートについて"
 
 #. (itstool) path: tip/para
 #: xml/apps_librewriter.xml:890
@@ -973,6 +1011,8 @@ msgid ""
 "document, use the same template for each subdocument. Doing so is not "
 "mandatory."
 msgstr ""
+"それぞれのサブドキュメント内のスタイルは、マスタードキュメントから取り込まれます。マスタードキュメント側から書式の一貫性を提供したい場合は、それぞれのサブ"
+"ドキュメント内で同じテンプレートを使用する必要があります。ただし、これは必須というわけではありません。"
 
 #. (itstool) path: tip/para
 #: xml/apps_librewriter.xml:896
@@ -984,11 +1024,13 @@ msgid ""
 "document will use the formatting specified for the style in the document "
 "imported first."
 msgstr ""
+"しかしながら、サブドキュメント側で異なる書式が設定されている場合は、一貫性を損なうことがないよう、スタイルの再設定を行なう必要があるかもしれません。たとえ"
+"ば、マスター文書内の 2 つの文書で同じ名前のスタイルが含まれている場合、マスター文書側では最初に取り込んだほうの書式を利用するようになります。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:908
 msgid "Using Writer as an HTML Editor"
-msgstr ""
+msgstr "Writer の HTML エディタとしての使用"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:910
@@ -999,11 +1041,14 @@ msgid ""
 "good HTML. You can view the document as it will appear online, or you can "
 "directly edit the HTML code."
 msgstr ""
+"Writer は完全機能のワードプロセッサだけでなく、 HTML エディタとしても使用することができます。他の文書と同様に HTML "
+"ページを作成することができますが、専用に用意された <guimenu>HTML スタイル</guimenu> を使用することで、よりよい HTML "
+"を生成することができます。また、文書はオンラインに表示されるものと全く同じに表示させることができるほか、 HTML コードの直接編集にも対応しています。"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:919
 msgid "Creating an HTML Page"
-msgstr ""
+msgstr "HTML ページの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:921
@@ -1034,7 +1079,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:944
 msgid "Create your HTML page, using the styles to tag your text."
-msgstr ""
+msgstr "あとは HTML ページを作成します。テキストへのタグ付けは、スタイルを使用して設定してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:949
@@ -1050,6 +1095,8 @@ msgid ""
 "sure that in the bottom drop-down box, <guimenu>HTML Document</guimenu> is "
 "selected."
 msgstr ""
+"ファイルの保存先の場所と、ファイル名をそれぞれ指定します。また、下にあるドロップダウンボックスでは、 <guimenu>HTML "
+"ドキュメント</guimenu> が選択されていることを確認します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:962
@@ -1071,6 +1118,8 @@ msgid ""
 "The first time you switch to <guimenu>HTML Source</guimenu> mode, you are "
 "prompted to save the file as HTML, if you have not already done so."
 msgstr ""
+"<guimenu>HTML ソーステキスト</guimenu> モードに初めて切り替えた場合、ファイルを保存していない場合は HTML "
+"で保存するように求められます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:981
