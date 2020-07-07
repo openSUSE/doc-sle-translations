@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apache2-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apache2.xml:9
 msgid "The Apache HTTP Server"
-msgstr ""
+msgstr "Apache HTTP サーバ"
 
 #. (itstool) path: abstract/para
 #: xml/apache2.xml:12
@@ -44,7 +46,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:28
 msgid "Quick Start"
-msgstr ""
+msgstr "クイックスタート"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:30
@@ -56,14 +58,14 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:36
 msgid "Requirements"
-msgstr ""
+msgstr "要件"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:37
 msgid ""
 "Make sure the following requirements are met before trying to set up the "
 "Apache Web server:"
-msgstr ""
+msgstr "Apache Web サーバを設定しようとする前に、まずは下記の要件全てを満たしていることをご確認ください:"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:43
@@ -99,7 +101,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:74
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:75
@@ -114,7 +116,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apache2.xml:81
 msgid "Installing Apache with the Default Configuration"
-msgstr ""
+msgstr "既定の設定による Apache のインストール"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:83
@@ -136,16 +138,18 @@ msgid ""
 "Confirm the installation of the dependent packages to finish the "
 "installation process."
 msgstr ""
+"あとは <guimenu>了解</guimenu> を押して、インストール処理を完了します。依存関係のパッケージ一覧が表示されますので、こちらでも "
+"<guimenu>続行</guimenu> を押してください。"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:104
 msgid "Start"
-msgstr ""
+msgstr "起動"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:105
 msgid "You can start Apache automatically at boot time or start it manually."
-msgstr ""
+msgstr "Apache はシステムの起動時に自動的に開始することができるほか、手作業で開始することもできます。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:108
@@ -181,7 +185,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apache2.xml:131
 msgid "Checking if Apache is Running"
-msgstr ""
+msgstr "Apache が動作しているかどうかの確認"
 
 #. (itstool) path: procedure/para
 #: xml/apache2.xml:132
@@ -189,6 +193,8 @@ msgid ""
 "If you do not receive error messages when starting Apache, this usually "
 "indicates that the Web server is running. To test this:"
 msgstr ""
+"Apache の開始時に何もエラーメッセージが表示されない場合は、 Web "
+"サーバが問題なく起動して動作していることを表わしています。動作確認を行なうには、下記の手順で行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:137
@@ -216,11 +222,13 @@ msgid ""
 "the configuration according to your needs, or add functionality by "
 "installing modules."
 msgstr ""
+"Web サーバが動作していることを確認できたら、あとは必要な文書を追加したり、必要に応じて設定を調整したり、モジュールを追加して機能を追加したりすることが"
+"できるようになります。"
 
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:160
 msgid "Configuring Apache"
-msgstr ""
+msgstr "Apache の設定"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:162
@@ -241,7 +249,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/apache2.xml:185
 msgid "Reload or Restart Apache after Configuration Changes"
-msgstr ""
+msgstr "設定変更後の Apache の再読み込みもしくは再起動について"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:186
@@ -264,7 +272,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:201
 msgid "Apache Configuration Files"
-msgstr ""
+msgstr "Apache の設定ファイル"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:202
@@ -278,12 +286,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:208
 msgid "Apache configuration files can be found in two different locations:"
-msgstr ""
+msgstr "Apache の設定ファイルは、下記の 2 箇所に配置されています:"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:224
 msgid "<filename>/etc/sysconfig/apache2</filename>"
-msgstr ""
+msgstr "<filename>/etc/sysconfig/apache2</filename>"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:225
@@ -296,11 +304,15 @@ msgid ""
 "purpose Web server, the settings in <filename>/etc/sysconfig/apache2</"
 "filename> should be sufficient for any configuration needs."
 msgstr ""
+"<filename>/etc/sysconfig/apache2</filename> では、 Apache 全体のグローバル設定が提供されています。たと"
+"えば読み込むべきモジュールや取り込むべき追加の設定ファイル、サーバを起動する際のフラグやコマンドラインに追加すべき設定などがあります。このファイル内での全"
+"ての設定オプションは、設定ファイル内にコメントで説明しているため、ここでは詳しく説明しません。一般的な Web サーバであれば、 <filename>/"
+"etc/sysconfig/apache2</filename> を設定するだけで、要件に十分対応することができるはずです。"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:237
 msgid "<filename>/etc/apache2/</filename>"
-msgstr ""
+msgstr "<filename>/etc/apache2/</filename>"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:238
@@ -315,7 +327,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:245
 msgid "The Apache configuration files are organized as follows:"
-msgstr ""
+msgstr "Apache の設定ファイルは、下記のような構成になっています:"
 
 #. (itstool) path: sect3/screen
 #: xml/apache2.xml:248
@@ -348,28 +360,54 @@ msgid ""
 "     |- vhosts.d\n"
 "     |   |- *.conf"
 msgstr ""
+"/etc/apache2/\n"
+"     |\n"
+"     |- charset.conv\n"
+"     |- conf.d/\n"
+"     |   |\n"
+"     |   |- *.conf\n"
+"     |\n"
+"     |- default-server.conf\n"
+"     |- errors.conf\n"
+"     |- httpd.conf\n"
+"     |- listen.conf\n"
+"     |- magic\n"
+"     |- mime.types\n"
+"     |- mod_*.conf\n"
+"     |- server-tuning.conf\n"
+"     |- ssl.*\n"
+"     |- ssl-global.conf\n"
+"     |- sysconfig.d\n"
+"     |   |\n"
+"     |   |- global.conf\n"
+"     |   |- include.conf\n"
+"     |   |- loadmodule.conf . .\n"
+"     |\n"
+"     |- uid.conf\n"
+"     |- vhosts.d\n"
+"     |   |- *.conf"
 
 #. (itstool) path: variablelist/title
 #: xml/apache2.xml:275
 msgid "Apache Configuration Files in /etc/apache2/"
-msgstr ""
+msgstr "/etc/apache2/ 内の Apache 設定ファイル"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:277
 msgid "<filename>charset.conv</filename>"
-msgstr ""
+msgstr "<filename>charset.conv</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:280
 msgid ""
 "Specifies which character sets to use for different languages. Do not edit "
 "this file."
-msgstr ""
+msgstr "様々な言語でどの文字セットを使用するのかを指定しています。このファイルについては編集してはなりません。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:287
 msgid "<filename>conf.d/*.conf</filename>"
-msgstr ""
+msgstr "<filename>conf.d/*.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:290
@@ -379,11 +417,14 @@ msgid ""
 "<filename>vhosts.d/vhost.template</filename> for examples. By doing so, you "
 "can provide different module sets for different virtual hosts."
 msgstr ""
+"他のモジュールによって追加された設定ファイルが保存されます。これらの設定ファイルは、必要に応じて仮想ホストの設定ファイルから取り込むことができます。使用例"
+"について、詳しくは <filename>vhosts.d/vhost.template</filename> "
+"をお読みください。また、これを行なうことで、それぞれの仮想ホストに対して別々のモジュールセットを提供することができるようになります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:299
 msgid "<filename>default-server.conf</filename>"
-msgstr ""
+msgstr "<filename>default-server.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:302
@@ -391,11 +432,13 @@ msgid ""
 "Global configuration for all virtual hosts with reasonable defaults. Instead "
 "of changing the values, overwrite them with a virtual host configuration."
 msgstr ""
+"適切な既定値が設定された、全ての仮想ホスト向けのグローバル設定です。ここに書かれている値を書き換えるのではなく、仮想ホストの設定ファイル内で値を指定して変"
+"更するようにしてください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:310
 msgid "<filename>errors.conf</filename>"
-msgstr ""
+msgstr "<filename>errors.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:313
@@ -404,11 +447,13 @@ msgid ""
 "virtual hosts, edit this file. Otherwise overwrite these directives in your "
 "virtual host configurations."
 msgstr ""
+"Apache のエラー応答方法を定義しています。全ての仮想ホストに対してエラーメッセージをカスタマイズしたい場合は、このファイルを編集してください。それぞ"
+"れの仮想ホストで別々のエラーメッセージを設定したい場合は、それぞれの仮想ホストの設定内で設定を行なってください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:321
 msgid "<filename>httpd.conf</filename>"
-msgstr ""
+msgstr "<filename>httpd.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:324
@@ -418,11 +463,14 @@ msgid ""
 "settings in the pertinent configuration files listed here. Change host-"
 "specific settings (such as document root) in your virtual host configuration."
 msgstr ""
+"Apache のメインの設定ファイルです。このファイルを変更することは避けてください。主にステートメントとグローバル設定が含まれています。設定を変更したい"
+"場合は、対応する設定ファイル内で設定を行なってください。また、ホスト固有の設定 (たとえばドキュメントルートなど) "
+"を行ないたい場合は、仮想ホストの設定で行なってください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:334
 msgid "<filename>listen.conf</filename>"
-msgstr ""
+msgstr "<filename>listen.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:337
@@ -435,7 +483,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:345
 msgid "<filename>magic</filename>"
-msgstr ""
+msgstr "<filename>magic</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:348
@@ -443,11 +491,13 @@ msgid ""
 "Data for the mime_magic module that helps Apache automatically determine the "
 "MIME type of an unknown file. Do not change this file."
 msgstr ""
+"Apache が未知のファイルに対して MIME タイプを自動判別する際に使用する、 mime_magic "
+"モジュール向けのデータファイルです。このファイルを変更してはなりません。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:355
 msgid "<filename>mime.types</filename>"
-msgstr ""
+msgstr "<filename>mime.types</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:358
@@ -460,7 +510,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:367
 msgid "<filename>mod_*.conf</filename>"
-msgstr ""
+msgstr "<filename>mod_*.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:370
@@ -474,7 +524,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:379
 msgid "<filename>server-tuning.conf</filename>"
-msgstr ""
+msgstr "<filename>server-tuning.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:382
@@ -488,7 +538,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:391
 msgid "<filename>ssl-global.conf</filename> and <filename>ssl.*</filename>"
-msgstr ""
+msgstr "<filename>ssl-global.conf</filename> および <filename>ssl.*</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:394
@@ -500,7 +550,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:401
 msgid "<filename>sysconfig.d/*.conf</filename>"
-msgstr ""
+msgstr "<filename>sysconfig.d/*.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:404
@@ -514,18 +564,18 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:413
 msgid "<filename>uid.conf</filename>"
-msgstr ""
+msgstr "<filename>uid.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:416
 msgid ""
 "Specifies under which user and group ID Apache runs. Do not change this file."
-msgstr ""
+msgstr "Apache を動作させる際のユーザ ID とグループ ID を指定しています。このファイルについても変更してはなりません。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:423
 msgid "<filename>vhosts.d/*.conf</filename>"
-msgstr ""
+msgstr "<filename>vhosts.d/*.conf</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:426
@@ -540,7 +590,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:440
 msgid "Configuring Apache Manually"
-msgstr ""
+msgstr "Apache の手作業での設定"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:441
@@ -552,7 +602,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:446
 msgid "Virtual Host Configuration"
-msgstr ""
+msgstr "仮想ホストの設定"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:447
@@ -571,6 +621,9 @@ msgid ""
 "(each domain does not require a dedicated server). Virtual hosts can be name "
 "based, IP based, or port based."
 msgstr ""
+"仮想ホストの使用は、管理費用の削減 (管理すべき Web サーバを 1 台にまとめることができる) やハードウエア費用の削減 "
+"(それぞれのドメインに対して別々の専用サーバを用意する必要が無くなる) などの効果がある実践的な方法です。仮想ホストは名前 (ドメイン名, ホスト名) "
+"ベースのほか、 IP ベースやポートベースでも設定することができます。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:459
@@ -601,7 +654,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apache2.xml:480
 msgid "Always Create a Virtual Host Configuration"
-msgstr ""
+msgstr "仮想ホストの作成について"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:481
@@ -613,6 +666,10 @@ msgid ""
 "configuration file for the virtual host. For the same reason, you should "
 "also create separate configuration files for each virtual host."
 msgstr ""
+"お使いの Web サーバに 1 つのドメインしか存在しないような場合であっても、仮想ホストの設定ファイルを作成しておくことをお勧めします。これにより、"
+"ドメイン固有の設定を 1 つのファイルにまとめることができるだけでなく、仮想ホストの設定ファイルを移動したり削除したり名前変更したりするだけで、容易に元の"
+"設定に戻すことができるようになります。複数のドメインが存在する場合も同じ理由により、それぞれの仮想ホストに対してそれぞれ設定ファイルを個別に作成することを"
+"お勧めします。"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:490
@@ -641,7 +698,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: xml/apache2.xml:512
 msgid "Name-Based Virtual Hosts"
-msgstr ""
+msgstr "名前ベースの仮想ホスト"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:513
@@ -653,6 +710,11 @@ msgid ""
 "<systemitem>ServerName</systemitem> is found, the first specified virtual "
 "host is used as a default."
 msgstr ""
+"名前ベースの仮想ホストを使用すると、複数の Web サイトを 1 つの IP アドレスで提供できるようになります。 Apache では、"
+"クライアントが送信する HTTP ヘッダ内の Host フィールドを、それぞれの仮想ホスト設定の "
+"<systemitem>ServerName</systemitem> と比較して、一致する仮想ホストを使用するようになっています。該当する "
+"<systemitem>ServerName</systemitem> "
+"が見つからない場合は、最初に設定された仮想ホストを既定で使用するようになっています。"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:521
@@ -664,12 +726,17 @@ msgid ""
 "and a <literal>DocumentRoot</literal> directive to show where in the file "
 "system the content for that host resides."
 msgstr ""
+"<literal>&lt;VirtualHost&gt;</literal> "
+"ブロックを作成するにあたって最初にやるべきことは、提供する名前ベースの仮想ホストの名前の設定です。それぞれの "
+"<literal>&lt;VirtualHost&gt;</literal> ブロック内に <literal>ServerName</literal> "
+"ディレクティブを指定してドメイン名を指定し、そのドメイン名にアクセスがあった場合に、どのディレクトリからファイルを提供するのかを "
+"<literal>DocumentRoot</literal> ディレクティブで指定します。"
 
 #. (itstool) path: example/title
 #: xml/apache2.xml:530
 msgid ""
 "Basic Examples of Name-Based <systemitem>VirtualHost</systemitem> Entries"
-msgstr ""
+msgstr "名前ベースの仮想ホスト (<systemitem>VirtualHost</systemitem>) の設定例"
 
 #. (itstool) path: example/screen
 #: xml/apache2.xml:531
@@ -687,6 +754,17 @@ msgid ""
 "DocumentRoot /srv/www/htdocs/otherdomain\n"
 "&lt;/VirtualHost&gt;"
 msgstr ""
+"&lt;VirtualHost *:80&gt;\n"
+"# 最初に記述された仮想ホストが既定のホストになります\n"
+"ServerName www.example.com\n"
+"ServerAlias example.com\n"
+"DocumentRoot /srv/www/htdocs/domain\n"
+"&lt;/VirtualHost&gt;\n"
+"\n"
+"&lt;VirtualHost *:80&gt;\n"
+"ServerName other.example.com\n"
+"DocumentRoot /srv/www/htdocs/otherdomain\n"
+"&lt;/VirtualHost&gt;"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:543
@@ -695,6 +773,8 @@ msgid ""
 "(or fully qualified domain name) as an argument in a name-based virtual host "
 "configuration. A port number directive is optional."
 msgstr ""
+"名前ベースの仮想ホストを設定する場合、開く側の <systemitem>VirtualHost</systemitem> タグには IP アドレス "
+"(もしくは完全修飾ドメイン名) をパラメータとして指定します。ポート番号は指定しても指定していなくてもかまいません。"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:548
@@ -703,11 +783,13 @@ msgid ""
 "IP address. When using IPv6 addresses, the address must be included in "
 "square brackets."
 msgstr ""
+"なお、 IP アドレスの代わりにワイルドカード <emphasis>*</emphasis> を指定することもできます。 IPv6 "
+"アドレスを指定する場合、アドレスは角括弧で括らなければなりません。"
 
 #. (itstool) path: example/title
 #: xml/apache2.xml:554
 msgid "Name-Based <systemitem>VirtualHost</systemitem> Directives"
-msgstr ""
+msgstr "名前ベースの仮想ホスト (<systemitem>VirtualHost</systemitem>) の設定"
 
 #. (itstool) path: example/screen
 #: xml/apache2.xml:555
@@ -737,7 +819,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: xml/apache2.xml:577
 msgid "IP-Based Virtual Hosts"
-msgstr ""
+msgstr "IP ベースの仮想ホスト"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:578
@@ -754,6 +836,9 @@ msgid ""
 "If the machine does not have multiple network cards, virtual network "
 "interfaces (IP aliasing) can also be used."
 msgstr ""
+"言い換えると、 IP ベースの仮想ホストを使用するにあたっては、物理サーバ側に仮想ホストの数と同じだけの IP "
+"アドレスを設定する必要があります。ただし、ネットワークカードについては、仮想ホストの数と同じだけ存在する必要はありません。 1 "
+"つのネットワークカードに複数の IP アドレスを設定すれば十分です。"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:588
@@ -769,7 +854,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/apache2.xml:597
 msgid "IP-Based <systemitem>VirtualHost</systemitem> Directives"
-msgstr ""
+msgstr "IP ベースの仮想ホスト (<systemitem>VirtualHost</systemitem>) の設定"
 
 #. (itstool) path: example/screen
 #: xml/apache2.xml:598
@@ -799,7 +884,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: xml/apache2.xml:617
 msgid "Basic Virtual Host Configuration"
-msgstr ""
+msgstr "基本的な仮想ホストの設定"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:618
@@ -808,24 +893,26 @@ msgid ""
 "configuration to set up a virtual host. See <filename>/etc/apache2/vhosts.d/"
 "vhost.template</filename> for more options."
 msgstr ""
+"仮想ホストを設定するにあたっては、少なくともそれぞれの仮想ホストの設定内に下記のディレクティブを設定する必要があります。それ以外のオプションについては "
+"<filename>/etc/apache2/vhosts.d/vhost.template</filename> をお読みください。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:626 xml/apache2.xml:2096
 msgid "<systemitem>ServerName</systemitem>"
-msgstr ""
+msgstr "<systemitem>ServerName</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:629
 msgid ""
 "The fully qualified domain name under which the host should be addressed."
-msgstr ""
+msgstr "その仮想ホストに対応する完全修飾ドメイン名を指定します。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:636 xml/apache2.xml:2091
 msgid "<systemitem>DocumentRoot</systemitem>"
-msgstr ""
+msgstr "<systemitem>DocumentRoot</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:639
@@ -835,25 +922,28 @@ msgid ""
 "default, so you must explicitly unlock this directory within a "
 "<systemitem>Directory</systemitem> container."
 msgstr ""
+"その仮想ホストが提供すべきファイルのあるディレクトリパスを指定します。また、セキュリティ上の理由から、既定ではファイルシステム全体へのアクセスが禁止されて"
+"いますので、 <systemitem>Directory</systemitem> "
+"コンテナを利用して、ディレクトリに対するアクセスを許可しなければなりません。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:648 xml/apache2.xml:2101
 msgid "<systemitem>ServerAdmin</systemitem>"
-msgstr ""
+msgstr "<systemitem>ServerAdmin</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:651
 msgid ""
 "E-mail address of the server administrator. This address is, for example, "
 "shown on error pages Apache creates."
-msgstr ""
+msgstr "サーバ管理者の電子メールアドレスを指定します。このアドレスはたとえば、 Apache がエラーページを表示する際などに使用されます。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:658 xml/apache2.xml:2106
 msgid "<systemitem>ErrorLog</systemitem>"
-msgstr ""
+msgstr "<systemitem>ErrorLog</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:661
@@ -863,11 +953,14 @@ msgid ""
 "to do so, because it makes the debugging of errors much easier. <filename>/"
 "var/log/apache2/</filename> is the default directory for Apache's log files."
 msgstr ""
+"この仮想ホストに対するエラーログファイルを指定します。各仮想ホストに対して、それぞれ別々のエラーログファイルを用意する必要はありませんが、エラーへの対応を"
+"容易にする目的から、それぞれ別々にしておくことをお勧めします。なお、 Apache のログファイルの既定のディレクトリは、 <filename>/var/"
+"log/apache2/</filename> になっています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:671
 msgid "<systemitem>CustomLog</systemitem>"
-msgstr ""
+msgstr "<systemitem>CustomLog</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:674
@@ -878,6 +971,9 @@ msgid ""
 "statistics for each host. <filename>/var/log/apache2/</filename> is the "
 "default directory for Apache's log files."
 msgstr ""
+"この仮想ホストに対するアクセスログファイルを指定します。各仮想ホストに対して、それぞれ別々のアクセスログを用意する必要はありませんが、それぞれの仮想ホスト"
+"に対するアクセス解析を容易にする目的から、それぞれ別々にしておくことをお勧めします。なお、 Apache のログファイルの既定のディレクトリは、 "
+"<filename>/var/log/apache2/</filename> になっています。"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:685
@@ -900,7 +996,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apache2.xml:695
 msgid "<literal>Require all granted</literal>"
-msgstr ""
+msgstr "<literal>Require all granted</literal>"
 
 #. (itstool) path: note/para
 #: xml/apache2.xml:696
@@ -908,6 +1004,8 @@ msgid ""
 "In previous versions of Apache, the statement <literal>Require all granted</"
 "literal> was expressed as:"
 msgstr ""
+"Apache の以前のバージョンでは、 <literal>Require all granted</literal> "
+"と同じ意味を持つ設定は下記のとおりです:"
 
 #. (itstool) path: note/screen
 #: xml/apache2.xml:700
@@ -916,6 +1014,8 @@ msgid ""
 "Order allow,deny\n"
 "Allow from all"
 msgstr ""
+"Order allow,deny\n"
+"Allow from all"
 
 #. (itstool) path: note/para
 #: xml/apache2.xml:702
@@ -923,16 +1023,18 @@ msgid ""
 "This old syntax is still supported by the <literal>mod_access_compat</"
 "literal> module."
 msgstr ""
+"この古い書式は、 <literal>mod_access_compat</literal> "
+"モジュールを読み込むことによって、現在も使用することができます。"
 
 #. (itstool) path: sect4/para
 #: xml/apache2.xml:707
 msgid "The complete configuration file looks like this:"
-msgstr ""
+msgstr "これらを組み合わせると、完全な設定ファイルは下記のようになります:"
 
 #. (itstool) path: example/title
 #: xml/apache2.xml:711
 msgid "Basic <systemitem>VirtualHost</systemitem> Configuration"
-msgstr ""
+msgstr "基本的な <systemitem>VirtualHost</systemitem> の設定"
 
 #. (itstool) path: example/screen
 #: xml/apache2.xml:712
@@ -953,7 +1055,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:734
 msgid "Starting and Stopping Apache"
-msgstr ""
+msgstr "Apache の開始と停止"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:742
@@ -974,6 +1076,8 @@ msgid ""
 "<command>systemctl</command> or the <command>apachectl</command> commands as "
 "described below."
 msgstr ""
+"Apache の開始と停止、もしくは動作中の Apache に対して何らかの処理を行なわせたい場合は、下記のようにして "
+"<command>systemctl</command> もしくは <command>apachectl</command> コマンドをご利用ください。"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:758
@@ -985,59 +1089,59 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:765
 msgid "<command>systemctl status apache2</command>"
-msgstr ""
+msgstr "<command>systemctl status apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:768
 msgid "Checks if Apache is started."
-msgstr ""
+msgstr "Apache が動作しているかどうかを調べます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:774
 msgid "<command>systemctl start apache2</command>"
-msgstr ""
+msgstr "<command>systemctl start apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:777
 msgid "Starts Apache if it is not already running."
-msgstr ""
+msgstr "Apache が動作していない場合、 Apache を開始します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:800 xml/apache2.xml:874
 msgid "<command>systemctl stop apache2</command>"
-msgstr ""
+msgstr "<command>systemctl stop apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:803
 msgid "Stops Apache by terminating the parent process."
-msgstr ""
+msgstr "親プロセスを終了させることで Apache を終了します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:810
 msgid "<command>systemctl restart apache2</command>"
-msgstr ""
+msgstr "<command>systemctl restart apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:813
 msgid ""
 "Stops and then restarts Apache. Starts the Web server if it was not running "
 "before."
-msgstr ""
+msgstr "Apache を一旦停止して起動し直します。 Apache が動作中でなかった場合は、単純に開始します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:820
 msgid "<command>systemctl try-restart apache2</command>"
-msgstr ""
+msgstr "<command>systemctl try-restart apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:823
 msgid "Stops then restarts Apache only if it is already running."
-msgstr ""
+msgstr "動作中の場合にのみ、 Apache をいったん停止して起動し直します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:829
 msgid "<command>systemctl reload apache2</command>"
-msgstr ""
+msgstr "<command>systemctl reload apache2</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:832
@@ -1047,11 +1151,13 @@ msgid ""
 "a newly started one, resulting in a complete <quote>restart</quote> of "
 "Apache."
 msgstr ""
+"全ての起動済み Apache プロセスに対して、現在処理中のリクエストの処理を完了してから終了するように促します。それぞれのプロセスが終了したタイミングで"
+"新しいプロセスを起動して入れ替えていき、最終的に Apache が完全に <quote>再起動</quote> できるようにします。"
 
 #. (itstool) path: tip/title
 #: xml/apache2.xml:839
 msgid "Restarting Apache in Production Environments"
-msgstr ""
+msgstr "本番環境における Apache の再起動について"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:840
@@ -1059,6 +1165,8 @@ msgid ""
 "This command allows activating changes in the Apache configuration without "
 "causing connection break-offs."
 msgstr ""
+"このコマンドを実行することで、クライアントから Apache への接続を強制的に終了させることなく、 Apache "
+"の設定変更を反映させることができるようになります。"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:876
@@ -1067,11 +1175,13 @@ msgid ""
 "<systemitem>GracefulShutdownTimeout</systemitem> to ensure that existing "
 "requests can be finished."
 msgstr ""
+"Web サーバを停止しますが、その際に <systemitem>GracefulShutdownTimeout</systemitem> "
+"で指定された長さの時間だけ終了を待機します。これにより、既存のリクエスト処理を正常に終了させることができるようになります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:884
 msgid "<command>apachectl configtest</command>"
-msgstr ""
+msgstr "<command>apachectl configtest</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:887
@@ -1082,6 +1192,9 @@ msgid ""
 "explicitly (if a configuration error is found, the Web server is not "
 "started, reloaded, or restarted)."
 msgstr ""
+"現在動作中の Web サーバに影響を与えずに、設定ファイルの文法をチェックします。このチェックはサーバの開始時や再読み込み時、再起動時にそれぞれ実行される"
+"ように設定されているため、このコマンドを明示的に実行する必要はありません "
+"(何らかの設定エラーが検出されると、開始／再読み込み／再起動を行なわないように設定されています) 。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:897
@@ -1089,6 +1202,8 @@ msgid ""
 "<command>apachectl status</command> and <command>apachectl fullstatus</"
 "command>"
 msgstr ""
+"<command>apachectl status</command> および <command>apachectl "
+"fullstatus</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:901
@@ -1104,19 +1219,19 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apache2.xml:951
 msgid "Additional Flags"
-msgstr ""
+msgstr "追加フラグについて"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:952
 msgid ""
 "If you specify additional flags to the commands, these are passed through to "
 "the Web server."
-msgstr ""
+msgstr "コマンドに対して追加のフラグを指定すると、それらは Web サーバにそのまま渡されます。"
 
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:959
 msgid "Installing, Activating, and Configuring Modules"
-msgstr ""
+msgstr "モジュールのインストール／有効化／設定"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:961
@@ -1137,12 +1252,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:974
 msgid "Apache modules can be divided into four different categories:"
-msgstr ""
+msgstr "Apache のモジュールは、下記の 4 種類の分野に分かれています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:980
 msgid "Base Modules"
-msgstr ""
+msgstr "基本モジュール"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:982
@@ -1160,7 +1275,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:992
 msgid "Extension Modules"
-msgstr ""
+msgstr "拡張モジュール"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:994
@@ -1177,7 +1292,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1003 xml/apache2.xml:1436
 msgid "External Modules"
-msgstr ""
+msgstr "外部モジュール"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1005
@@ -1192,19 +1307,19 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1012
 msgid "Multiprocessing Modules (MPMs)"
-msgstr ""
+msgstr "マルチプロセッシングモジュール (MPM)"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1014
 msgid ""
 "MPMs are responsible for accepting and handling requests to the Web server, "
 "representing the core of the Web server software."
-msgstr ""
+msgstr "MPM は Web サーバに対するリクエストを受け付け、処理するためのモジュールです。 Web サーバソフトウエアの中枢部分でもあります。"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1023
 msgid "Module Installation"
-msgstr ""
+msgstr "モジュールのインストール"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1024
@@ -1229,7 +1344,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1042
 msgid "Activation and Deactivation"
-msgstr ""
+msgstr "有効化と無効化"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1043
@@ -1254,7 +1369,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/apache2.xml:1059
 msgid "Including Configuration Files for External Modules"
-msgstr ""
+msgstr "外部モジュールに対する設定ファイルの取り込み"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:1060
@@ -1268,11 +1383,18 @@ msgid ""
 "it to specific virtual hosts only. See <filename>/etc/apache2/vhosts.d/vhost."
 "template</filename> for examples."
 msgstr ""
+"外部モジュールを手作業で有効化した場合は、全ての仮想ホストの設定に対して、外部モジュールの設定ファイルが読み込まれていることをご確認ください。"
+"外部モジュールの設定ファイルは <filename>/etc/apache2/conf.d/</filename> 内に存在していて、既定では "
+"<filename>/etc/apache2/default-server.conf</filename> "
+"から読み込まれるようになっています。より細かい調整を行ないたい場合は、 <filename>/etc/apache2/default-"
+"server.conf</filename> "
+"内にある外部モジュールに対する取り込み設定をコメントアウトして、特定の仮想ホストでのみ読み込むように設定してもかまいません。設定例については "
+"<filename>/etc/apache2/vhosts.d/vhost.template</filename> をお読みください。"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1075
 msgid "Base and Extension Modules"
-msgstr ""
+msgstr "基本モジュールと拡張モジュール"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1076
@@ -1283,11 +1405,15 @@ msgid ""
 "mod/\">http://httpd.apache.org/docs/2.4/mod/</link> to learn details about "
 "each module."
 msgstr ""
+"全ての基本モジュールと拡張モジュールについては、 Apache "
+"のドキュメンテーション内に詳細説明が用意されています。下記では主要なモジュールに関する概要説明のみを行なっています。それぞれのモジュールに関する詳細は、 "
+"<link xlink:href=\"http://httpd.apache.org/docs/2.4/mod/\""
+">http://httpd.apache.org/docs/2.4/mod/</link> をお読みください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1089
 msgid "<systemitem>mod_actions</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_actions</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1092
@@ -1302,7 +1428,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1102
 msgid "<systemitem>mod_alias</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_alias</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1105
@@ -1316,7 +1442,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1114
 msgid "<systemitem>mod_auth*</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_auth*</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1117
@@ -1348,7 +1474,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1139
 msgid "<systemitem>mod_autoindex</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_autoindex</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1142
@@ -1365,7 +1491,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1155
 msgid "<systemitem>mod_cgi</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_cgi</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1158
@@ -1373,23 +1499,25 @@ msgid ""
 "<systemitem>mod_cgi</systemitem> is needed to execute CGI scripts. This "
 "module is enabled by default."
 msgstr ""
+"<systemitem>mod_cgi</systemitem> は CGI "
+"スクリプトを実行する際に必要となるモジュールです。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1165
 msgid "<systemitem>mod_deflate</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_deflate</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1168
 msgid ""
 "Using this module, Apache can be configured to compress given file types on "
 "the fly before delivering them."
-msgstr ""
+msgstr "このモジュールを使用すると、 Apache が特定のファイルを配信する際、その場でデータ圧縮を行なうことができるようになります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1175
 msgid "<systemitem>mod_dir</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_dir</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1178
@@ -1405,7 +1533,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1189
 msgid "<systemitem>mod_env</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_env</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1192
@@ -1418,7 +1546,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1200
 msgid "<systemitem>mod_expires</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_expires</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1203
@@ -1431,7 +1559,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1212
 msgid "<systemitem>mod_http2</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_http2</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1215
@@ -1444,7 +1572,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1224
 msgid "<systemitem>mod_include</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_include</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1227
@@ -1453,11 +1581,13 @@ msgid ""
 "(SSI), which provide a basic functionality to generate HTML pages "
 "dynamically. This module is enabled by default."
 msgstr ""
+"<systemitem>mod_include</systemitem> は Server Side Includes (SSI) "
+"と呼ばれる機能を提供するモジュールで、 HTML ページを動的に生成するための基本的な技術を提供します。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1235
 msgid "<systemitem>mod_info</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_info</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1238
@@ -1472,19 +1602,19 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1249
 msgid "<systemitem>mod_log_config</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_log_config</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1252
 msgid ""
 "With this module, you can configure the look of the Apache log files. This "
 "module is enabled by default."
-msgstr ""
+msgstr "このモジュールを使用することで、 Apache のログファイルに出力される内容を制御することができます。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1259
 msgid "<systemitem>mod_mime</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_mime</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1262
@@ -1493,11 +1623,13 @@ msgid ""
 "header based on the file name's extension (for example <systemitem>text/"
 "html</systemitem> for HTML documents). This module is enabled by default."
 msgstr ""
+"このモジュールは、ファイル名の拡張子を利用することで、ファイルに対する正しい MIME ヘッダ (たとえば HTML 文書であれば "
+"<systemitem>text/html</systemitem>) を配信する仕組みを提供します。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1271
 msgid "<systemitem>mod_negotiation</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_negotiation</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1274
@@ -1507,11 +1639,15 @@ msgid ""
 "docs/2.4/content-negotiation.html</link> for more information. This module "
 "is enabled by default."
 msgstr ""
+"コンテンツネゴシエーションを行なうために必要なモジュールです。詳しい説明は、 <link xlink:href=\""
+"http://httpd.apache.org/docs/2.4/content-negotiation.html\""
+">http://httpd.apache.org/docs/2.4/content-negotiation.html</link> "
+"をお読みください。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1282
 msgid "<systemitem>mod_rewrite</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_rewrite</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1285
@@ -1524,7 +1660,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1294
 msgid "<systemitem>mod_setenvif</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_setenvif</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1297
@@ -1533,11 +1669,13 @@ msgid ""
 "the browser string the client sends, or the client's IP address. This module "
 "is enabled by default."
 msgstr ""
+"クライアント側からのリクエストに応じて環境変数を設定するモジュールです。これにはたとえば、クライアントが送信したブラウザ文字列やクライアントの IP "
+"アドレスなどが含まれます。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1305
 msgid "<systemitem>mod_spelling</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_spelling</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1308
@@ -1545,11 +1683,13 @@ msgid ""
 "<systemitem>mod_spelling</systemitem> attempts to automatically correct "
 "typographical errors in URLs, such as capitalization errors."
 msgstr ""
+"<systemitem>mod_spelling</systemitem> "
+"は、大文字と小文字の違いなどの入力ミスを自動的に修正しようと試みるモジュールです。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1315
 msgid "<systemitem>mod_ssl</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_ssl</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1318
@@ -1561,7 +1701,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1326
 msgid "<systemitem>mod_status</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_status</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1329
@@ -1577,7 +1717,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1340
 msgid "<systemitem>mod_suexec</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_suexec</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1343
@@ -1585,11 +1725,13 @@ msgid ""
 "<systemitem>mod_suexec</systemitem> lets you run CGI scripts under a "
 "different user and group. This module is enabled by default."
 msgstr ""
+"<systemitem>mod_suexec</systemitem> は、 CGI "
+"スクリプトを異なるユーザやグループで実行することができるモジュールです。このモジュールは既定で有効化されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1350
 msgid "<systemitem>mod_userdir</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_userdir</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1353
@@ -1603,7 +1745,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1365
 msgid "Multiprocessing Modules"
-msgstr ""
+msgstr "マルチプロセッシングモジュール (MPM)"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1366
@@ -1617,7 +1759,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:1383
 msgid "Prefork MPM"
-msgstr ""
+msgstr "prefork MPM"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1384
@@ -1628,6 +1770,9 @@ msgid ""
 "Thus problematic requests cannot affect others, avoiding a lockup of the Web "
 "server."
 msgstr ""
+"prefork MPM はスレッドを使用しない、事前 fork 型の Web サーバです。 Apache バージョン 1.x に似た動作の Web サーバ"
+"になります。このバージョンでは、それぞれのリクエストと処理を個別の子プロセスに分離して処理します。これにより、何らかの問題が発生しても、他のプロセスには影"
+"響を及ぼすことがなく、 Web サーバの機能停止を防ぐことができるようになっています。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1391
@@ -1636,21 +1781,23 @@ msgid ""
 "consumes more system resources than its counterpart, the worker MPM. The "
 "prefork MPM is considered the default MPM for Unix-based operating systems."
 msgstr ""
+"このようなプロセスベースの仕組みでは安定性がもたらされるものの、 worker MPM よりはより多くのシステム資源を消費してしまいます。また、 "
+"Unix ベースのオペレーティングシステムでは、 prefork MPM を既定の MPM としています。"
 
 #. (itstool) path: important/title
 #: xml/apache2.xml:1398
 msgid "MPMs in This Document"
-msgstr ""
+msgstr "本文書内での MPM について"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:1399
 msgid "This document assumes Apache is used with the prefork MPM."
-msgstr ""
+msgstr "この文書内では、 Apache 内で prefork MPM を使用することを前提に説明しています。"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:1405
 msgid "Worker MPM"
-msgstr ""
+msgstr "worker MPM"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1406
@@ -1663,6 +1810,10 @@ msgid ""
 "makes Apache perform better by consuming fewer system resources than the "
 "prefork MPM."
 msgstr ""
+"worker MPM はマルチスレッド型の Web サーバです。スレッドはプロセスよりもずっと <quote>軽量</quote> "
+"な仕組みであるため、より少ない資源消費が特長になります。この MPM では、子プロセスを起動する代わりに、それぞれのリクエストに対してスレッドを割り当てて"
+"処理を行ないます。また、場合によっては複数のプロセスを起動することもありますが、子プロセスも同様にマルチスレッドになります。このような仕組みにより、 "
+"prefork MPM よりずっと少ない資源で Apache を動作させることができます。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1415
@@ -1676,11 +1827,16 @@ msgid ""
 "not all available Apache modules are thread-safe and thus cannot be used "
 "with the worker MPM."
 msgstr ""
+"worker MPM での最も大きな欠点は、その安定性です。何らかの理由でスレッド内のメモリが破壊されてしまうと、同じプロセスに属する全てのスレッドが影響"
+"を受けます。最も悪いケースでは、サーバ自身がクラッシュしてしまいます。特に、負荷の高い環境下で Common Gateway Interface "
+"(CGI) を使用した場合、システム資源との通信が失敗することによってサーバ内部エラーが発生することがあります。また、もう 1 つの欠点としては、全ての "
+"Apache モジュールがスレッド型の仕組みに対応しているというわけではない (スレッドセーフではない) というものがあります。これにより、 "
+"worker MPM を利用できない場合もあります。"
 
 #. (itstool) path: warning/title
 #: xml/apache2.xml:1426
 msgid "Using PHP Modules with MPMs"
-msgstr ""
+msgstr "MPM と PHP の関係について"
 
 #. (itstool) path: warning/para
 #: xml/apache2.xml:1427
@@ -1688,6 +1844,8 @@ msgid ""
 "Not all available PHP modules are thread-safe. Using the worker MPM with "
 "<systemitem>mod_php</systemitem> is strongly discouraged."
 msgstr ""
+"PHP モジュールによっては、マルチスレッド環境での使用が安全ではない (スレッドセーフではない) ものがあります。そのため、 "
+"<systemitem>mod_php</systemitem> を使用する場合は、 Worker MPM を使用しないことを強くお勧めします。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1437
@@ -1702,7 +1860,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1443 xml/apache2.xml:2597
 msgid "<systemitem>mod_apparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_apparmor</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1446
@@ -1715,7 +1873,7 @@ msgstr ""
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1451
 msgid "Package Name: <systemitem>apache2-mod_apparmor</systemitem>"
-msgstr ""
+msgstr "パッケージ名: <systemitem>apache2-mod_apparmor</systemitem>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1454
@@ -1725,34 +1883,34 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1461 xml/apache2.xml:2606
 msgid "<systemitem>mod_php5</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_php5</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1464
 msgid "PHP is a server-side, cross-platform HTML embedded scripting language."
-msgstr ""
+msgstr "PHP はサーバサイドスクリプトで複数プラットフォームに対応する HTML 組み込み型のスクリプト言語です。"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1468
 msgid "Package Name: <systemitem>apache2-mod_php5</systemitem>"
-msgstr ""
+msgstr "パッケージ名: <systemitem>apache2-mod_php5</systemitem>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1471
 msgid "Configuration File: <filename>/etc/apache2/conf.d/php5.conf</filename>"
-msgstr ""
+msgstr "設定ファイル: <filename>/etc/apache2/conf.d/php5.conf</filename>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1474
 msgid ""
 "More Information: <filename>/usr/share/doc/packages/apache2-mod_php5</"
 "filename>"
-msgstr ""
+msgstr "詳しい情報: <filename>/usr/share/doc/packages/apache2-mod_php5</filename>"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1482 xml/apache2.xml:2615
 msgid "<systemitem>mod_python</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_python</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1485
@@ -1761,23 +1919,25 @@ msgid ""
 "Apache HTTP server for a considerable boost in performance and added "
 "flexibility in designing Web-based applications."
 msgstr ""
+"<systemitem>mod_python</systemitem> は Apache HTTP サーバ内に Python "
+"の機能を組み込むもので、性能を大きく向上させることができるほか、 Web ベースのアプリケーションに柔軟性を与えます。"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1491
 msgid "Package Name: <systemitem>apache2-mod_python</systemitem>"
-msgstr ""
+msgstr "パッケージ名: <systemitem>apache2-mod_python</systemitem>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1494
 msgid ""
 "More Information: <filename>/usr/share/doc/packages/apache2-mod_python</"
 "filename>"
-msgstr ""
+msgstr "詳しい情報: <filename>/usr/share/doc/packages/apache2-mod_python</filename>"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:1502 xml/apache2.xml:2624
 msgid "<systemitem>mod_security</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_security</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1505
@@ -1786,18 +1946,20 @@ msgid ""
 "protect Web applications from a range of attacks. It also enables HTTP "
 "traffic monitoring and real-time analysis."
 msgstr ""
+"<systemitem>mod_security</systemitem> は Web アプリケーションファイアウオールで、様々な範囲の攻撃から Web "
+"アプリケーションを保護します。 HTTP のトラフィック監視やリアルタイム分析に使用することもできます。"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1511
 msgid "Package Name: <systemitem>apache2-mod_security2</systemitem>"
-msgstr ""
+msgstr "パッケージ名: <systemitem>apache2-mod_security2</systemitem>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1514
 msgid ""
 "Configuration File: <filename>/etc/apache2/conf.d/mod_security2.conf</"
 "filename>"
-msgstr ""
+msgstr "設定ファイル: <filename>/etc/apache2/conf.d/mod_security2.conf</filename>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1517
@@ -1805,17 +1967,19 @@ msgid ""
 "More Information: <filename>/usr/share/doc/packages/apache2-mod_security2</"
 "filename>"
 msgstr ""
+"詳しい情報: <filename>/usr/share/doc/packages/apache2-mod_security2</filename>"
 
 #. (itstool) path: simplelist/member
 #: xml/apache2.xml:1520
 msgid ""
 "Documentation: <link xlink:href=\"http://modsecurity.org/documentation/\"/>"
 msgstr ""
+"ドキュメンテーション: <link xlink:href=\"http://modsecurity.org/documentation/\"/>"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1530
 msgid "Compilation"
-msgstr ""
+msgstr "コンパイル"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1531
@@ -1827,6 +1991,11 @@ msgid ""
 "contains the <command>apxs2</command> tools, which are necessary for "
 "compiling additional modules for Apache."
 msgstr ""
+"知識のあるユーザであれば、 Apache に対して独自のモジュールを作成して拡張することができます。 Apache "
+"向けのモジュールを開発したり、サードパーティ製のモジュールをコンパイルしたりしたい場合は、 "
+"<systemitem>apache2-devel</systemitem> パッケージをインストールして、提供される開発ツールをお使いください。 "
+"<systemitem>apache2-devel</systemitem> には <command>apxs2</command> "
+"ツールが含まれていますが、これは Apache 向けのモジュールをコンパイルする際に使用するツールです。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1539
@@ -1836,6 +2005,9 @@ msgid ""
 "files), which creates <emphasis>dynamic shared objects</emphasis> (DSOs) "
 "that can be loaded into Apache at runtime."
 msgstr ""
+"<command>apxs2</command> は、ソースコードからモジュールをコンパイルして、インストールする機能を提供します "
+"(設定ファイルへの必要な変更を含みます) 。コンパイルを行なうと、 <emphasis>動的共有オブジェクト</emphasis> (Dynamic "
+"Shared Objects; DSO) として作成され、 Apache の起動時に読み込みができるようになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1545
@@ -1871,7 +2043,7 @@ msgstr ""
 #: xml/apache2.xml:1572
 msgid ""
 "Install and activate a module from source code with the following commands:"
-msgstr ""
+msgstr "ソースコードからモジュールをコンパイルしてインストールし、有効化するには、下記のコマンドを実行します:"
 
 #. (itstool) path: sect2/screen
 #: xml/apache2.xml:1575
@@ -1888,11 +2060,14 @@ msgid ""
 "it, and <option>-a</option> activates it. Other options of <command>apxs2</"
 "command> are described in the <systemitem>apxs2(1)</systemitem> man page."
 msgstr ""
+"ここで、 <option>-c</option> はモジュールのコンパイルを、 <option>-i</option> はインストールを、 "
+"<option>-a</option> は有効化をそれぞれ行なうオプションです。 <command>apxs2</command> "
+"に対するその他のオプションについては、 <systemitem>apxs2(1)</systemitem> のマニュアルページをお読みください。"
 
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:1586
 msgid "Enabling CGI Scripts"
-msgstr ""
+msgstr "CGI スクリプトの有効化"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:1588
@@ -1901,6 +2076,9 @@ msgid ""
 "programs or scripts usually called CGI scripts. CGI scripts can be written "
 "in any programming language. Usually, script languages such as PHP are used."
 msgstr ""
+"Apache の汎用ゲートウエイインターフェイス (Common Gateway Interface (CGI)) を利用することで、 CGI "
+"と呼ばれるプログラムやスクリプトを実行して動的なコンテンツを生成することができます。 CGI "
+"スクリプトは任意のプログラミング言語を利用することができます。通常は PHP などのスクリプト言語を使用します。"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:1595
@@ -1915,7 +2093,7 @@ msgstr ""
 #. (itstool) path: warning/title
 #: xml/apache2.xml:1604
 msgid "CGI Security"
-msgstr ""
+msgstr "CGI セキュリティ"
 
 #. (itstool) path: warning/para
 #: xml/apache2.xml:1605
@@ -1927,7 +2105,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1612
 msgid "Apache Configuration"
-msgstr ""
+msgstr "Apache の設定"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1613
@@ -1945,7 +2123,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/apache2.xml:1623
 msgid "VirtualHost CGI Configuration"
-msgstr ""
+msgstr "VirtualHost CGI 設定"
 
 #. (itstool) path: example/screen
 #: xml/apache2.xml:1624
@@ -1963,19 +2141,19 @@ msgstr ""
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1633
 msgid "Tells Apache to handle all files within this directory as CGI scripts."
-msgstr ""
+msgstr "このディレクトリ内にある全てのファイルを、 CGI スクリプトとして実行するよう指定しています。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1638
 msgid "Enables CGI script execution"
-msgstr ""
+msgstr "CGI スクリプトの実行を有効化しています。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1643
 msgid ""
 "Tells the server to treat files with the extensions .pl and .cgi as CGI "
 "scripts. Adjust according to your needs."
-msgstr ""
+msgstr ".pl と .cgi の拡張子を持つファイルを、 CGI スクリプトとして扱うよう指定しています。こちらは必要に応じて変更してください。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1649
@@ -1989,7 +2167,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1662
 msgid "Running an Example Script"
-msgstr ""
+msgstr "サンプルスクリプトの実行"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1663
@@ -2037,14 +2215,14 @@ msgstr ""
 #. (itstool) path: itemizedlist/title
 #: xml/apache2.xml:1697 xml/apache2.xml:1703
 msgid "CGI Troubleshooting"
-msgstr ""
+msgstr "CGI トラブルシューティング"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1698
 msgid ""
 "If you do not see the output of the test program but an error message "
 "instead, check the following:"
-msgstr ""
+msgstr "テストプログラムの出力が正しく表示されず、エラーメッセージが表示されてしまった場合は、下記をご確認ください:"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1705
@@ -2075,7 +2253,7 @@ msgstr ""
 #: xml/apache2.xml:1726
 #, no-wrap
 msgid "-rwxr-xr-x  1 root root"
-msgstr ""
+msgstr "-rwxr-xr-x  1 root root"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1729
@@ -2089,7 +2267,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:1740
 msgid "Setting Up a Secure Web Server with SSL"
-msgstr ""
+msgstr "SSL を利用した暗号化機能付き Web サーバの設定"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:1742
@@ -2103,6 +2281,12 @@ msgid ""
 "established. Data integrity is ensured and client and server can "
 "authenticate each other."
 msgstr ""
+"クレジットカード情報などの機密データを Web "
+"サーバとクライアントとの間でやりとりするにあたっては、認証機能付きの暗号化接続を行なって機密を保持する必要があります。 "
+"<systemitem>mod_ssl</systemitem> では Secure Sockets Layer (SSL) や Transport "
+"Layer Security (TLS) を利用して、クライアントと Web サーバとの間の HTTP 通信に対して強力な暗号化機能を提供します。つまり、"
+" TLS/SSL を利用することで Web サーバとクライアントの間の通信を盗聴できなくすることになります。もちろんデータの整合性についても確認が行なわれ"
+"ますし、クライアントとサーバはお互いに認証することができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:1753
@@ -2114,6 +2298,9 @@ msgid ""
 "connection between client and server that can transport information without "
 "the risk of exposing sensitive, plain-text content."
 msgstr ""
+"このような目的から、サーバは要求された URL に応答する前に、サーバ自身の正しい識別情報を示す SSL 証明書を送信します。これによりクライアント側は、"
+"通信している相手が間違いのないものであることを確認できることになります。これに加えて、証明書は暗号化接続を生成することができますので、クライアントとサーバ"
+"との間でやり取りされる情報が、純粋なテキストのように漏洩することがなくなります。"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:1762
@@ -2137,7 +2324,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:1776
 msgid "Creating an SSL Certificate"
-msgstr ""
+msgstr "SSL 証明書の作成"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1777
@@ -2148,6 +2335,9 @@ msgid ""
 "the integrity of the certificate, it must be signed by a party every user "
 "trusts."
 msgstr ""
+"Web サーバで TLS/SSL を使用するには、まず SSL 証明書を作成する必要があります。この証明書は Web サーバとクライアントとの間で認証を行"
+"なうのに必要なもので、クライアントがサーバを明確に識別することができます。証明書の正当性を確保するには、各ユーザが信頼する団体で署名してもらわなければなり"
+"ません。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1784
@@ -2157,6 +2347,9 @@ msgid ""
 "defined circle of users that trust you, and a certificate signed by an "
 "independent, publicly-known certificate authority (CA)."
 msgstr ""
+"作成できる証明書には、 3 つの種類があります。 1 つ目は <quote>ダミー</quote> の証明書で、テスト用にのみ使用することができます。 "
+"2 つ目は自己署名証明書と呼ばれるもので、あなた自身を信頼する特定範囲のユーザのみ利用できるものです。 3 つ目は公的な証明書で、証明機関 ("
+"Certificate Authority (CA)) と呼ばれる独立した第三者機関が署名する正式な証明書です。"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:1790
@@ -2164,13 +2357,13 @@ msgid ""
 "Creating a certificate is a two step process. First, a private key for the "
 "certificate authority is generated then the server certificate is signed "
 "with this key."
-msgstr ""
+msgstr "証明書の作成は 2 段階の手順から構成されています。最初に証明機関の機密鍵を作成し、次にその鍵でサーバ証明書に署名を行ないます。"
 
 #. (itstool) path: tip/title
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:1796 xml/apache2.xml:2564
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:1797
@@ -2183,7 +2376,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:1803
 msgid "Creating a <quote>Dummy</quote> Certificate"
-msgstr ""
+msgstr "<quote>ダミー</quote> の証明書の作成"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1804
@@ -2198,22 +2391,22 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1813
 msgid "<filename>/etc/apache2/ssl.crt/ca.crt</filename>"
-msgstr ""
+msgstr "<filename>/etc/apache2/ssl.crt/ca.crt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1818
 msgid "<filename>/etc/apache2/ssl.crt/server.crt</filename>"
-msgstr ""
+msgstr "<filename>/etc/apache2/ssl.crt/server.crt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1823
 msgid "<filename>/etc/apache2/ssl.key/server.key</filename>"
-msgstr ""
+msgstr "<filename>/etc/apache2/ssl.key/server.key</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:1828
 msgid "<filename>/etc/apache2/ssl.csr/server.csr</filename>"
-msgstr ""
+msgstr "<filename>/etc/apache2/ssl.csr/server.csr</filename>"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1833
@@ -2221,23 +2414,25 @@ msgid ""
 "A copy of <filename>ca.crt</filename> is also placed at <filename>/srv/www/"
 "htdocs/CA.crt</filename> for download."
 msgstr ""
+"<filename>ca.crt</filename> のコピーを <filename>/srv/www/htdocs/CA.crt</filename>"
+" に配置して、ダウンロードできるようにしておくとよいでしょう。"
 
 #. (itstool) path: important/title
 #: xml/apache2.xml:1838
 msgid "For Testing Purposes Only"
-msgstr ""
+msgstr "テスト用途のみでの使用について"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:1839
 msgid ""
 "A dummy certificate should never be used on a production system. Only use it "
 "for testing purposes."
-msgstr ""
+msgstr "ダミーの証明書は本番環境で使用すべきではありません。テスト目的にのみお使いください。"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:1846
 msgid "Creating a Self-Signed Certificate"
-msgstr ""
+msgstr "自己署名証明書の作成"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1847
@@ -2252,7 +2447,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/apache2.xml:1855
 msgid "Self-Signed Certificates"
-msgstr ""
+msgstr "自己署名証明書について"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:1856
@@ -2261,6 +2456,8 @@ msgid ""
 "people who know and trust you as a certificate authority. It is not "
 "recommended to use such a certificate for a public shop, for example."
 msgstr ""
+"自己署名証明書は、あなた自身を証明機関として信頼してくれる特定の範囲のユーザに対して提供する Web "
+"サーバにのみお使いください。たとえば一般向けの販売サイトなどでは、このような証明書を使用しないことをお勧めします。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1862
@@ -2308,12 +2505,12 @@ msgstr ""
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1898
 msgid "Fill in your passphrase,"
-msgstr ""
+msgstr "パスフレーズを入力します。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1903
 msgid "...fill it in once more (and remember it)."
-msgstr ""
+msgstr "再度パスフレーズを入力します (パスフレーズは忘れてはなりません) 。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1908
@@ -2326,6 +2523,8 @@ msgstr ""
 #: xml/apache2.xml:1914
 msgid "Fill in the name of the state where you live."
 msgstr ""
+"通常は州名を入力します。<!-- NOTE: Japanese content --> 日本の場合は都道府県名を一般に入力します。 <!-- end "
+"-->"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1919
@@ -2335,23 +2534,23 @@ msgstr ""
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1924
 msgid "Fill in the name of the organization you work for."
-msgstr ""
+msgstr "所属する団体名を入力します。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1929
 msgid "Fill in your organization unit, or leave blank if you have none."
-msgstr ""
+msgstr "組織単位を入力します。組織単位がない場合は、何も入力しなくてかまいません。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1934
 msgid ""
 "Fill in either the domain name of the server, or your first and last name."
-msgstr ""
+msgstr "サーバのドメイン名、もしくはあなた自身のフルネームを入力します。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1940
 msgid "Fill in your work e-mail address."
-msgstr ""
+msgstr "電子メールアドレスを入力します。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1945
@@ -2359,11 +2558,13 @@ msgid ""
 "Leave the challenge password empty, otherwise you will need to enter it "
 "every time you restart the Apache Web server."
 msgstr ""
+"必要に応じてチャレンジパスワードを入力します。ここで何らかのパスワードを指定した場合は、 Apache Web "
+"サーバを再起動するたびに入力を求められます。"
 
 #. (itstool) path: callout/para
 #: xml/apache2.xml:1951
 msgid "Fill in the optional company name, or leave blank."
-msgstr ""
+msgstr "必要であれば企業名を入力します。不要であれば何も入力しなくてかまいません。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:1956
@@ -2376,7 +2577,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apache2.xml:1962
 msgid "Generating the Certificate"
-msgstr ""
+msgstr "証明書の生成"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:1964
@@ -2400,6 +2601,8 @@ msgid ""
 "specifies the length of time before the certificate expires. You can revoke "
 "a certificate, or replace one before it expires."
 msgstr ""
+"署名要求で入力した情報に従って証明書の公開部分を生成します。 <option>-days</option> "
+"オプションは、証明書の期限が切れるまでの日数を指定します。なお、期限切れになる前でも、証明書を取り消したり新しいものに置き換えたりすることができます。"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:1978
@@ -2417,6 +2620,10 @@ msgid ""
 "ssl.key/server.key</filename> is not world-readable, while the public PEM "
 "certificate <filename>/etc/apache2/ssl.crt/server.crt</filename> is."
 msgstr ""
+"生成された証明書ファイルを、 Apache から読み取ることのできるディレクトリにコピーします。なお、機密鍵である <filename>/etc/"
+"apache2/ssl.key/server.key</filename> ファイルは全てのユーザが読み込めるようにしてはなりませんが、公開鍵である "
+"<filename>/etc/apache2/ssl.crt/server.crt</filename> "
+"については、全てのユーザが読み込めるようにしておく必要があります。"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:1989
@@ -2429,7 +2636,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apache2.xml:1994
 msgid "Public Certificate Location"
-msgstr ""
+msgstr "証明書の公開先について"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:1995
@@ -2440,11 +2647,14 @@ msgid ""
 "Web browsers. Otherwise a browser complains that the certificate was issued "
 "by an unknown authority."
 msgstr ""
+"最後に証明書ファイル <filename>/etc/apache2/ssl.crt/server.crt</filename> "
+"をユーザからアクセスできる場所にコピーして、各ユーザの Web ブラウザ内に取り込んで信頼してもらう作業が必要となります。この作業を実施しないと、ブラウザ"
+"側では未知の証明機関が発行した証明書であるものとして扱われてしまい、エラーまたは警告が表示されるようになってしまいます。"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:2005
 msgid "Getting an Officially Signed Certificate"
-msgstr ""
+msgstr "公的に署名された証明書の取得"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:2006
@@ -2494,7 +2704,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2047
 msgid "Configuring Apache with SSL"
-msgstr ""
+msgstr "SSL を利用する場合の Apache の設定"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2048
@@ -2506,11 +2716,15 @@ msgid ""
 "used to dispatch requests to port 80 and port 443 to separate virtual "
 "servers."
 msgstr ""
+"Web サーバで TLS/SSL を使用する場合、既定のポートは 443 が割り当てられています。 TLS/SSL のない "
+"<quote>通常の</quote> Apache はポート 80 で、 TLS/SSL を使用する場合の Apache は 443 を使用しますが、"
+"両方のサービスを単一の Apache "
+"インスタンスで賄うことができます。また、それぞれに対して別々の仮想ホストを設定して、提供する内容やサービスなどを変更したりすることもあります。"
 
 #. (itstool) path: important/title
 #: xml/apache2.xml:2057
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "ファイアウオールの設定"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:2058
@@ -2551,16 +2765,19 @@ msgid ""
 "<replaceable>MYSSL-HOST</replaceable>.conf</filename> and edit it. Adjusting "
 "the values for the following directives should be sufficient:"
 msgstr ""
+"初めて SSL を設定する場合は、雛形を <filename>/etc/apache2/vhosts.d/"
+"<replaceable>仮想ホスト名</replaceable>.conf</filename> "
+"にコピーして、このファイルを編集していってください。それぞれ下記のディレクティブ部分を調整すれば、サーバを開始することができます:"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2111
 msgid "<systemitem>TransferLog</systemitem>"
-msgstr ""
+msgstr "<systemitem>TransferLog</systemitem>"
 
 #. (itstool) path: sect3/title
 #: xml/apache2.xml:2117
 msgid "Name-Based Virtual Hosts and SSL"
-msgstr ""
+msgstr "名前ベースの仮想ホストと SSL の関係"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:2118
@@ -2573,6 +2790,11 @@ msgid ""
 "As a result, users will receive a warning message stating that the "
 "certificate does not match the server name."
 msgstr ""
+"既定では、 1 つの IP アドレスしか設定されていないサーバの場合、 SSL "
+"が有効化された仮想ホストを複数実行することはできません。名前ベースの仮想ホストでは、 Apache 側に仮想ホストのホスト名を設定し、 Apache "
+"がリクエストの内容を読み込んで仮想ホストを判別しますが、 SSL 接続の処理は Apache がリクエストを処理するよりも前に行なわれるため、 1 つの "
+"IP アドレスに対して SSL の設定を複数持たせることができず、これによって常に既定の仮想ホストのみが使われる結果になってしまいます。これにより、証明書"
+"に書かれているサーバ名と、実際にアクセスしているサーバ名が異なる、という警告メッセージをユーザが受け取る結果にもなってしまいます。"
 
 #. (itstool) path: sect3/para
 #: xml/apache2.xml:2127
@@ -2601,7 +2823,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/apache2.xml:2142
 msgid "SNI Browser Support"
-msgstr ""
+msgstr "SNI 対応ブラウザについて"
 
 #. (itstool) path: important/para
 #: xml/apache2.xml:2143
@@ -2630,11 +2852,14 @@ msgid ""
 "will behave as if not having SNI support. SSL requests will be handled by "
 "the <emphasis>first</emphasis> virtual host defined (for port 443)."
 msgstr ""
+"サーバ全体の設定で <literal>off</literal> に設定した場合、サーバ側は SNI への対応を全く行なわなくなります。この場合、 "
+"SSL のリクエストが届くと、設定された <emphasis>最初の</emphasis> 仮想ホスト (ポート: 443) "
+"にアクセスがあったものとして扱われます。"
 
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:2168
 msgid "Running Multiple Apache Instances on the Same Server"
-msgstr ""
+msgstr "同一サーバ内での複数 Apache インスタンスの起動"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2170
@@ -2654,17 +2879,18 @@ msgid ""
 "When a virtual host needs to be disabled for some time, you need to change "
 "the Web server configuration and restart it so that the change takes effect."
 msgstr ""
+"何らかの理由で仮想ホストを無効化したい場合、通常であれば Web サーバの設定を変更して、その変更を反映させるために再起動を行なう必要があります。"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2186
 msgid ""
 "In case of problems with one virtual host, you need to restart all of them."
-msgstr ""
+msgstr "いずれかの仮想ホストで何らかの障害が発生した場合、全ての仮想ホストを再起動する必要があります。"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2193
 msgid "You can run the default Apache instance as usual:"
-msgstr ""
+msgstr "既定の Apache インスタンスについては、通常通り開始することができます:"
 
 #. (itstool) path: sect1/screen
 #: xml/apache2.xml:2197
@@ -2684,7 +2910,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2206
 msgid "To activate another Apache instance, run:"
-msgstr ""
+msgstr "もう 1 つの Apache インスタンスを開始したい場合は、下記のように実行します:"
 
 #. (itstool) path: sect1/screen
 #: xml/apache2.xml:2210
@@ -2695,7 +2921,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2212
 msgid "For example:"
-msgstr ""
+msgstr "たとえば、下記のようになります:"
 
 #. (itstool) path: sect1/screen
 #. (itstool) path: step/screen
@@ -2724,7 +2950,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apache2.xml:2232
 msgid "Configuring an Additional Apache Instance"
-msgstr ""
+msgstr "追加の Apache インスタンスの設定"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2234
@@ -2746,23 +2972,25 @@ msgid ""
 "Edit the file <filename>/etc/sysconfig/apache2@example_web.org</filename> "
 "and change the line containing"
 msgstr ""
+"<filename>/etc/sysconfig/apache2@example_web.org</filename> "
+"ファイルを編集し、下記の変数を修正します:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2246
 #, no-wrap
 msgid "APACHE_HTTPD_CONF"
-msgstr ""
+msgstr "APACHE_HTTPD_CONF"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2247 xml/apache2.xml:2266 xml/apache2.xml:2280
 msgid "to"
-msgstr ""
+msgstr "上記を、下記のように変更します:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2250
 #, no-wrap
 msgid "APACHE_HTTPD_CONF=\"/etc/apache2/httpd@example_web.org.conf\""
-msgstr ""
+msgstr "APACHE_HTTPD_CONF=\"/etc/apache2/httpd@example_web.org.conf\""
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2253
@@ -2782,31 +3010,33 @@ msgstr ""
 msgid ""
 "Edit <filename>/etc/apache2/httpd@example_web.org.conf</filename> and change"
 msgstr ""
+"<filename>/etc/apache2/httpd@example_web.org.conf</filename> "
+"ファイルを編集し、下記を変更します:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2265
 #, no-wrap
 msgid "Include /etc/apache2/listen.conf"
-msgstr ""
+msgstr "Include /etc/apache2/listen.conf"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2269
 #, no-wrap
 msgid "Include /etc/apache2/listen@example_web.org.conf"
-msgstr ""
+msgstr "Include /etc/apache2/listen@example_web.org.conf"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2270
 msgid ""
 "Review all the directives and change them to fit your needs. You will "
 "probably want to change"
-msgstr ""
+msgstr "その他のディレクティブを確認して、必要であれば変更します。おそらくは下記のディレクティブを変更する必要があるものと思われます:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2274
 #, no-wrap
 msgid "Include /etc/apache2/global.conf"
-msgstr ""
+msgstr "Include /etc/apache2/global.conf"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2275
@@ -2814,23 +3044,25 @@ msgid ""
 "and create new <filename>global@example_web.org.conf</filename> for each "
 "instance. We suggest to change"
 msgstr ""
+"上記を変更して、新しいインスタンス用に <filename>global@example_web.org.conf</filename> "
+"ファイルを作成します。また、下記についても変更しておくことをお勧めします:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2279
 #, no-wrap
 msgid "ErrorLog /var/log/apache2/error_log"
-msgstr ""
+msgstr "ErrorLog /var/log/apache2/error_log"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2283
 #, no-wrap
 msgid "ErrorLog /var/log/apache2/error@example_web.org_log"
-msgstr ""
+msgstr "ErrorLog /var/log/apache2/error@example_web.org_log"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2284
 msgid "to have separate logs for each instance."
-msgstr ""
+msgstr "これにより、各インスタンスのログを別々にすることができます。"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2289
@@ -2850,23 +3082,24 @@ msgstr ""
 msgid ""
 "Edit <filename>/etc/apache2/listen@example_web.org.conf</filename> and change"
 msgstr ""
+"<filename>/etc/apache2/listen@example_web.org.conf</filename> を編集して、下記を変更します:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2300
 #, no-wrap
 msgid "Listen 80"
-msgstr ""
+msgstr "Listen 80"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2301
 msgid "to the port number you want the new instance to run on, for example 82:"
-msgstr ""
+msgstr "上記を新しいインスタンスのポート番号に変更します。たとえば 82 であれば、下記のようになります:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2304
 #, no-wrap
 msgid "Listen 82"
-msgstr ""
+msgstr "Listen 82"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2305
@@ -2879,23 +3112,23 @@ msgstr ""
 #: xml/apache2.xml:2309
 #, no-wrap
 msgid "Listen 443"
-msgstr ""
+msgstr "Listen 443"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2310
 msgid "for example to"
-msgstr ""
+msgstr "上記を、たとえば下記のように変更します:"
 
 #. (itstool) path: step/screen
 #: xml/apache2.xml:2313
 #, no-wrap
 msgid "Listen 445"
-msgstr ""
+msgstr "Listen 445"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2316
 msgid "Start the new Apache instance:"
-msgstr ""
+msgstr "あとは新しい Apache インスタンスを開始します:"
 
 #. (itstool) path: step/para
 #: xml/apache2.xml:2322
@@ -2916,7 +3149,7 @@ msgstr ""
 msgid ""
 "Here are several points to consider when setting up more Apache instances on "
 "the same server:"
-msgstr ""
+msgstr "同一のサーバで複数の Apache インスタンスを動作させるにあたっては、下記の点を考慮する必要があります:"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2338
@@ -2931,7 +3164,7 @@ msgstr ""
 msgid ""
 "The default Apache instance does not need to be running while other "
 "instances run."
-msgstr ""
+msgstr "また、新しい Apache インスタンスは、既定の Apache インスタンスが動作していなくても開始することができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2353
@@ -2964,7 +3197,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:2375
 msgid "Avoiding Security Problems"
-msgstr ""
+msgstr "セキュリティ問題の回避"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2377
@@ -2974,11 +3207,13 @@ msgid ""
 "related to the software and to accidental misconfiguration. Here are some "
 "tips for how to deal with them."
 msgstr ""
+"Web サーバは全世界のインターネットに公開される仕組みであるため、常に管理面の労力を必要とします。ソフトウエアに起因するセキュリティ問題のほか、設定ミス"
+"による情報漏洩なども必然的に発生しうる問題となります。ここでは、これらの問題を解決するためのいくつかのヒントを示しています。"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2385
 msgid "Up-to-Date Software"
-msgstr ""
+msgstr "最新版のソフトウエアの使用"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2386
@@ -2992,22 +3227,22 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apache2.xml:2395
 msgid "Web Page"
-msgstr ""
+msgstr "Web ページ"
 
 #. (itstool) path: formalpara/title
 #: xml/apache2.xml:2403
 msgid "Mailing List Archive"
-msgstr ""
+msgstr "メーリングリスト"
 
 #. (itstool) path: formalpara/title
 #: xml/apache2.xml:2411
 msgid "List of Security Announcements"
-msgstr ""
+msgstr "セキュリティアナウンス"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2421
 msgid "DocumentRoot Permissions"
-msgstr ""
+msgstr "DocumentRoot のアクセス権"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2422
@@ -3031,7 +3266,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2439
 msgid "File System Access"
-msgstr ""
+msgstr "ファイルシステムのアクセス権"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2440
@@ -3047,7 +3282,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2452
 msgid "CGI Scripts"
-msgstr ""
+msgstr "CGI スクリプト"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2453
@@ -3081,11 +3316,13 @@ msgid ""
 "conflict with each other. The module suEXEC lets you run CGI scripts under a "
 "different user and group."
 msgstr ""
+"また、 CGI スクリプトは全て同じユーザで実行されるため、場合によってはスクリプト間で競合が発生することがあります。 suEXEC "
+"モジュールを利用することで、 CGI スクリプトを異なるユーザやグループで実行することができます。"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2477
 msgid "User Directories"
-msgstr ""
+msgstr "ユーザディレクトリ"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2478
@@ -3107,7 +3344,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apache2.xml:2493
 msgid "Troubleshooting"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #. (itstool) path: sect1/para
 #: xml/apache2.xml:2495
@@ -3117,13 +3354,15 @@ msgid ""
 "Here are some typical places to look for error explanations and important "
 "things to check:"
 msgstr ""
+"Apache が起動しない場合や Web ページにアクセスできない場合、もしくはユーザが Web "
+"サーバに接続できない場合は、問題の原因を突き止めることが重要です。ここでは、一般的なエラーの出力先と、主要なチェック項目について説明しています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:2504
 msgid ""
 "Output of the <systemitem class=\"service\">apache2.service</systemitem> "
 "subcommand:"
-msgstr ""
+msgstr "<systemitem class=\"service\">apache2.service</systemitem> サブコマンドの出力:"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2507
@@ -3138,7 +3377,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:2518
 msgid "Log Files and Verbosity"
-msgstr ""
+msgstr "ログファイルと饒舌性"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2520
@@ -3149,11 +3388,15 @@ msgid ""
 "of the logged messages with the <systemitem>LogLevel</systemitem> directive "
 "if more detail is needed in the log files."
 msgstr ""
+"致命的なエラーであってもそうでなくても、 Apache のログファイルを調査することで原因を調査することができます。既定の設定では、主なエラーログは "
+"<filename>/var/log/apache2/error_log</filename> に出力されます。これに加えて "
+"<systemitem>LogLevel</systemitem> "
+"ディレクティブを使用することで、ログファイル内により詳しい情報を出力することができます。"
 
 #. (itstool) path: tip/title
 #: xml/apache2.xml:2529
 msgid "A Simple Test"
-msgstr ""
+msgstr "シンプルなテストについて"
 
 #. (itstool) path: tip/para
 #: xml/apache2.xml:2530
@@ -3167,7 +3410,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:2541
 msgid "Firewall and Ports"
-msgstr ""
+msgstr "ファイアウオールとポート"
 
 #. (itstool) path: listitem/para
 #: xml/apache2.xml:2543
@@ -3205,7 +3448,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2579
 msgid "Apache 2.4"
-msgstr ""
+msgstr "Apache 2.4"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2580
@@ -3219,7 +3462,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2589
 msgid "Apache Modules"
-msgstr ""
+msgstr "Apache モジュール"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2590
@@ -3232,7 +3475,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2636
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2637
@@ -3240,21 +3483,22 @@ msgid ""
 "More information about developing Apache modules or about getting involved "
 "in the Apache Web server project are available at the following locations:"
 msgstr ""
+"Apache のモジュール開発に関する情報や、 Apache Web サーバ自身の開発に参加したい場合は、下記をお読みになることをお勧めします:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:2643
 msgid "Apache Developer Information"
-msgstr ""
+msgstr "Apache 開発者向け情報"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2.xml:2651
 msgid "Apache Developer Documentation"
-msgstr ""
+msgstr "Apache 開発者向けドキュメンテーション"
 
 #. (itstool) path: sect2/title
 #: xml/apache2.xml:2662
 msgid "Miscellaneous Sources"
-msgstr ""
+msgstr "その他の情報"
 
 #. (itstool) path: sect2/para
 #: xml/apache2.xml:2663
