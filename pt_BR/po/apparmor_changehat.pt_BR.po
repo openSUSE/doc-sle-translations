@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:23+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_changehat-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_changehat.xml:9
 msgid "Profiling Your Web Applications Using ChangeHat"
-msgstr ""
+msgstr "Criando perfil de aplicativos da Web usando o ChangeHat"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:16
@@ -32,6 +34,13 @@ msgid ""
 "This is known as a <emphasis>hat</emphasis> or <emphasis>subprofile</"
 "emphasis>."
 msgstr ""
+"Um perfil do <phrase>AppArmor®</phrase> representa a política de segurança "
+"para uma instância ou processo individual do programa. Aplica-se a um "
+"programa executável, mas se uma parte do programa precisar de permissões de "
+"acesso diferentes das outras partes, o programa pode <quote>change "
+"hats</quote> para usar um contexto de segurança diferente, distinto do "
+"acesso ao programa principal. Isso é conhecido como <emphasis>hat</emphasis> "
+"ou <emphasis subprofile</emphasis>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:24
@@ -44,6 +53,14 @@ msgid ""
 "security domains at specific times during the application execution. One "
 "example of a ChangeHat-aware application is the Apache Web server."
 msgstr ""
+"O ChangeHat permite que os programas mudem de ou para um "
+"<emphasis>hat</emphasis> dentro de um perfil <phrase>AppArmor</phrase>. "
+"Permite definir a segurança em um nível mais preciso do que o processo. Esse "
+"recurso exige que cada aplicativo seja <quote>sensível ao ChangeHat</quote>, "
+"o que significa que ele é modificado para fazer uma solicitação ao módulo "
+"<phrase>AppArmor</phrase> para alternar domínios de segurança em momentos "
+"específicos durante a execução do aplicativo . Um exemplo de aplicativo "
+"compatível com ChangeHat é o servidor da Web Apache."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:33
@@ -54,6 +71,11 @@ msgid ""
 "containing profile followed by the subprofile name, separated by a "
 "<literal>^</literal>."
 msgstr ""
+"Um perfil pode ter um número arbitrário de sub-perfis, mas existem apenas "
+"dois níveis: um sub-perfil não pode ter mais perfis filhos. Um subperfil é "
+"gravado como um perfil separado. Seu nome consiste no nome do perfil que "
+"contém, seguido pelo nome do sub-perfil, separado por um "
+"<literal>^</literal>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:40
@@ -64,6 +86,11 @@ msgid ""
 "hats are in the same file as the parent profile, then the parent profile and "
 "all hats must be recompiled."
 msgstr ""
+"Os sub-perfis são armazenados no mesmo arquivo que o perfil pai ou em um "
+"arquivo separado. O último caso é recomendado em sites com muitos chapéus - "
+"ele permite que o cache da política lide com as alterações no nível por "
+"chapéu. Se todos os chapéus estiverem no mesmo arquivo que o perfil pai, o "
+"perfil pai e todos os chapéus deverão ser recompilados."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:47
@@ -71,6 +98,8 @@ msgid ""
 "An external subprofile that is going to be used as a hat, must begin with "
 "the word <literal>hat</literal> or the <literal>^</literal> character."
 msgstr ""
+"Um subperfil externo que será usado como chapéu deve começar com a palavra "
+"<literal>hat</literal> ou o caractere <literal>^</literal>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:51
@@ -139,7 +168,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_changehat.xml:87
 msgid "For More Information"
-msgstr ""
+msgstr "Para maiores informações"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:88
@@ -189,7 +218,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apparmor_changehat.xml:128
 msgid "Apache Configuration"
-msgstr ""
+msgstr "Configuração Apache"
 
 #. (itstool) path: note/para
 #: xml/apparmor_changehat.xml:129
