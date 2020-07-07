@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_changehat-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apparmor_changehat.xml:9
 msgid "Profiling Your Web Applications Using ChangeHat"
-msgstr ""
+msgstr "チェンジハット機能による Web アプリケーションのプロファイル作成"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:16
@@ -71,46 +73,51 @@ msgid ""
 "An external subprofile that is going to be used as a hat, must begin with "
 "the word <literal>hat</literal> or the <literal>^</literal> character."
 msgstr ""
+"ハットとして使用する予定の外部サブプロファイルがある場合、そのサブプロファイルの冒頭には <literal>hat</literal> もしくは "
+"<literal>^</literal> 文字で始まらなければなりません。"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:51
 msgid ""
 "The following two subprofiles <emphasis>cannot</emphasis> be used as a hat:"
-msgstr ""
+msgstr "下記の 2 つのサブプロファイルは、いずれもハットとして使用 <emphasis>できない</emphasis> ものです:"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:55
 #, no-wrap
 msgid "/foo//bar { }"
-msgstr ""
+msgstr "/foo//bar { }"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:56 xml/apparmor_changehat.xml:64
 msgid "or"
 msgstr ""
+"\"\n"
+"  <!-- NOTE: nothing needed for Japanese -->\n"
+"\""
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:59
 #, no-wrap
 msgid "profile /foo//bar { }"
-msgstr ""
+msgstr "profile /foo//bar { }"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:60
 msgid "While the following two are treated as hats:"
-msgstr ""
+msgstr "逆に、下記の 2 つはいずれもハットとして扱われます:"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:63
 #, no-wrap
 msgid "^/foo//bar { }"
-msgstr ""
+msgstr "^/foo//bar { }"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:67
 #, no-wrap
 msgid "hat /foo//bar { } # this syntax is not highlighted in vim"
-msgstr ""
+msgstr "hat /foo//bar { } # (vim では、この書式はハイライト表示されません)"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:68
@@ -124,6 +131,11 @@ msgid ""
 "interpreter (such as PERL, PHP, or Java) is isolating pieces of code such "
 "that they do not have direct access to the memory of the containing process."
 msgstr ""
+"なお、ハットを使用する場合のセキュリティは、完全なプロファイルを使用する場合に比べると、比較的弱くなることに注意してください。プログラム内に特定の種類のバ"
+"グが存在した場合、攻撃者はプロファイル内に含まれるハットに退避することができてしまいます。これは、ハットのセキュリティがプロセス側で保持される機密鍵のみに"
+"よって成り立っているためで、ハット側内のコードからは鍵に対するアクセスを許可してはならないことによるものです。そのためチェンジハット機能は、プロセス内に含"
+"まれるメモリに対して直接的にアクセスする手段のない、インタプリタ型の言語 (Perl, PHP, Java など) "
+"で作成されたアプリケーションサーバに対して、最も便利な仕組みとなっています。"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:79
@@ -139,17 +151,17 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_changehat.xml:87
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報について"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:88
 msgid "For more information, see the <command>change_hat</command> man page."
-msgstr ""
+msgstr "更に詳しい情報をご希望の場合は、 <command>change_hat</command> のマニュアルページをお読みください。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_changehat.xml:93
 msgid "Configuring Apache for <systemitem>mod_apparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem>mod_apparmor</systemitem> を利用するための Apache の設定"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:95
@@ -175,21 +187,23 @@ msgid ""
 "URI-specific hat. For example, <filename>^www_app_name/templates/classic/"
 "images/bar_left.gif</filename>"
 msgstr ""
+"URI 固有のハット。例: <filename>^www_app_name/templates/classic/images/"
+"bar_left.gif</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_changehat.xml:116
 msgid "<literal>DEFAULT_URI</literal>"
-msgstr ""
+msgstr "<literal>DEFAULT_URI</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_changehat.xml:121
 msgid "<literal>HANDLING_UNTRUSTED_INPUT</literal>"
-msgstr ""
+msgstr "<literal>HANDLING_UNTRUSTED_INPUT</literal>"
 
 #. (itstool) path: note/title
 #: xml/apparmor_changehat.xml:128
 msgid "Apache Configuration"
-msgstr ""
+msgstr "Apache の設定について"
 
 #. (itstool) path: note/para
 #: xml/apparmor_changehat.xml:129
@@ -220,7 +234,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:150
 msgid "Virtual Host Directives"
-msgstr ""
+msgstr "仮想ホストのディレクティブ"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:151
@@ -250,18 +264,24 @@ msgid ""
 "<literal>AADefaultHatName</literal> hat does not exist, it falls back to the "
 "<literal>DEFAULT_URI</literal> hat if it exists/"
 msgstr ""
+"これを設定することで、仮想ホストやその他の Apache "
+"サーバディレクティブに対して、使用すべき既定のハットを設定することができます。もちろん仮想ホストごとに異なる既定のハットを設定することもできます。"
+"この設定は <literal>AAHatName</literal> で上書きすることができます。逆に言えば、該当する　"
+"<literal>AAHatName</literal> や URI でのハットに当てはまるものが存在しない場合の、既定のハットとなります。 "
+"<literal>AADefaultHatName</literal> でのハット指定が存在しない場合は、 "
+"<literal>DEFAULT_URI</literal> ハット (存在すれば) を使用するようになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:173
 msgid ""
 "If none of those are matched, it goes back to the <quote>parent</quote> "
 "Apache hat."
-msgstr ""
+msgstr "全くどのハットも設定されていない場合は、 <quote>親</quote> プロセスである Apache のハットが適用されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:180
 msgid "Location and Directory Directives"
-msgstr ""
+msgstr "Location と Directory のディレクティブ"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:181
@@ -279,6 +299,8 @@ msgid ""
 "The location directive example below specifies that, for a given location, "
 "<literal>mod_apparmor</literal> should use a specific hat:"
 msgstr ""
+"下記に示す Location ディレクティブでは、指定した場所に対して、 <literal>mod_apparmor</literal> "
+"が特定のハットを使用するように指定しています:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_changehat.xml:192
@@ -288,6 +310,9 @@ msgid ""
 "  AAHatName MY_HAT_NAME\n"
 "&lt;/Location&gt;\n"
 msgstr ""
+"&lt;Location /foo/&gt;\n"
+"  AAHatName MY_HAT_NAME\n"
+"&lt;/Location&gt;\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:196
@@ -303,6 +328,7 @@ msgid ""
 "The directory directive works similarly to the location directive, except it "
 "refers to a path in the file system as in the following example:"
 msgstr ""
+"Directory ディレクティブも上記と同様ですが、こちらのディレクティブはファイルシステム内のディレクトリを指定する点が異なることに注意してください:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_changehat.xml:207
@@ -313,11 +339,15 @@ msgid ""
 "  AAHatName example.org\n"
 "&lt;/Directory&gt;"
 msgstr ""
+"&lt;Directory \"/srv/www/www.example.org/docs\"&gt;\n"
+"  # 末尾にスラッシュが無いことに注意\n"
+"  AAHatName example.org\n"
+"&lt;/Directory&gt;"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_changehat.xml:214
 msgid "Managing ChangeHat-Aware Applications"
-msgstr ""
+msgstr "チェンジハット対応のアプリケーションの管理"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:216
@@ -353,16 +383,17 @@ msgstr ""
 #, no-wrap
 msgid "zypper in apache2 apache2-mod_apparmor apache2-mod_php5 php5 php5-mysql\n"
 msgstr ""
+"zypper in apache2 apache2-mod_apparmor apache2-mod_php5 php5 php5-mysql\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:241
 msgid "To set up the Web environment for running Adminer, follow these steps:"
-msgstr ""
+msgstr "Adminer を動作させるための Web 環境の構築は、下記のようにして行ないます:"
 
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:246
 msgid "Setting Up a Web Server Environment"
-msgstr ""
+msgstr "Web サーバ環境の設定"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:248
@@ -370,6 +401,8 @@ msgid ""
 "Make sure <literal>apparmor</literal> and <literal>php5</literal> modules "
 "are enabled for Apache. To enable the modules in any case, use:"
 msgstr ""
+"まずは Apache 向けの <literal>apparmor</literal> と <literal>php5</literal> "
+"のモジュールを有効化します。有効化を行なうには、下記のように実行します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:252
@@ -380,7 +413,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:253
 msgid "and then restart Apache with"
-msgstr ""
+msgstr "あとは Apache を再起動します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:256 xml/apparmor_changehat.xml:345
@@ -416,11 +449,14 @@ msgid ""
 "Adminer to a remote server, replace <literal>localhost</literal> with the "
 "real host name of the server."
 msgstr ""
+"Web ブラウザを起動して URI 欄に <literal>http://localhost/adminer/adminer.php</literal> "
+"と入力し、 Adminer の動作確認を行ないます。 Adminer をリモートのサーバにインストールしている場合は、 "
+"<literal>localhost</literal> の部分をサーバのホスト名に置き換えてください。"
 
 #. (itstool) path: figure/title
 #: xml/apparmor_changehat.xml:284
 msgid "Adminer Login Page"
-msgstr ""
+msgstr "Adminer のログインページ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -461,7 +497,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:315
 msgid "Configuring <literal>mod_apparmor</literal>"
-msgstr ""
+msgstr "<literal>mod_apparmor</literal> の設定"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:317
@@ -482,7 +518,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:328
 msgid "Copy the following snippet into the edited file."
-msgstr ""
+msgstr "テキストエディタ内で、下記のとおり入力します。"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:331
@@ -492,6 +528,9 @@ msgid ""
 "  AAHatName adminer\n"
 "&lt;/Directory&gt;"
 msgstr ""
+"&lt;Directory /srv/www/htdocs/adminer&gt;\n"
+"  AAHatName adminer\n"
+"&lt;/Directory&gt;"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:334
@@ -505,7 +544,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:342
 msgid "Save the file, close the editor, and restart Apache with"
-msgstr ""
+msgstr "ファイルを保存して、テキストエディタを終了します。あとは下記のように実行して Apache を再起動します:"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:349
@@ -522,7 +561,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:359
 msgid "Creating a Hat for Adminer"
-msgstr ""
+msgstr "Adminer 向けのハットの作成"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:361
@@ -531,6 +570,8 @@ msgid ""
 "usr.sbin.httpd2-prefork</filename> in a text editor. Its contents should be "
 "similar to the following:"
 msgstr ""
+"テキストエディタを利用して、 <filename>/etc/apparmor.d/usr.sbin.httpd2-prefork</filename> "
+"というファイル名のファイルを開いて (存在していない場合は作成して) ください。ファイルの内容は下記のようになっているはずです:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:366
@@ -563,6 +604,32 @@ msgid ""
 "  }\n"
 "}"
 msgstr ""
+"#include &lt;tunables/global&gt;\n"
+"\n"
+"/usr/sbin/httpd2-prefork {\n"
+"  #include &lt;abstractions/apache2-common&gt;\n"
+"  #include &lt;abstractions/base&gt;\n"
+"  #include &lt;abstractions/php5&gt;\n"
+"\n"
+"  capability kill,\n"
+"  capability setgid,\n"
+"  capability setuid,\n"
+"\n"
+"  /etc/apache2/** r,\n"
+"  /run/httpd.pid rw,\n"
+"  /usr/lib{,32,64}/apache2*/** mr,\n"
+"  /var/log/apache2/** rw,\n"
+"\n"
+"  ^DEFAULT_URI {\n"
+"    #include &lt;abstractions/apache2-common&gt;\n"
+"    /var/log/apache2/** rw,\n"
+"  }\n"
+"\n"
+"  ^HANDLING_UNTRUSTED_INPUT {\n"
+"    #include &lt;abstractions/apache2-common&gt;\n"
+"    /var/log/apache2/** w,\n"
+"  }\n"
+"}"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:394
@@ -578,6 +645,8 @@ msgid ""
 "^adminer flags=(complain) {\n"
 "}"
 msgstr ""
+"^adminer flags=(complain) {\n"
+"}"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:400
@@ -603,7 +672,7 @@ msgstr ""
 #: xml/apparmor_changehat.xml:415
 msgid ""
 "Check if the <systemitem>adminer</systemitem> hat really is in complain mode."
-msgstr ""
+msgstr "続いて <systemitem>adminer</systemitem> ハットが正しく不平モードになっていることを確認します。"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:419
@@ -630,6 +699,7 @@ msgid ""
 "As we can see, the <literal>httpd2-prefork//adminer</literal> is loaded in "
 "complain mode."
 msgstr ""
+"上記のとおり、 <literal>httpd2-prefork//adminer</literal> が不平モードになっていることがわかります。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:440
@@ -645,7 +715,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:451
 msgid "Generating Rules for the <systemitem>adminer</systemitem> Hat"
-msgstr ""
+msgstr "<systemitem>adminer</systemitem> ハット向けのルールの生成"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:453
@@ -669,7 +739,7 @@ msgstr ""
 msgid ""
 "After the short testing of Adminer's user interface, switch back to console "
 "and examine the log for collected data."
-msgstr ""
+msgstr "ひととおり Adminer のユーザインターフェイスをテストしたら、コンソールに戻って収集したログの調査を行ないます。"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:473
@@ -698,12 +768,14 @@ msgid ""
 "From the <command>aa-logprof</command> message, it is clear that our new "
 "<systemitem>adminer</systemitem> hat was correctly detected:"
 msgstr ""
+"<command>aa-logprof</command> のメッセージによると、下記のとおり "
+"<systemitem>adminer</systemitem> のハットが正しく認識されていることが分かります:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:492
 #, no-wrap
 msgid "Profile:  /usr/sbin/httpd2-prefork^adminer"
-msgstr ""
+msgstr "Profile:  /usr/sbin/httpd2-prefork^adminer"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:493
@@ -732,6 +804,8 @@ msgid ""
 " 1 - #include &lt;abstractions/php5&gt;\n"
 " [2 - /var/lib/php5/sess_3jdmii9cacj1e3jnahbtopajl7p064ai242]"
 msgstr ""
+" 1 - #include &lt;abstractions/php5&gt;\n"
+" [2 - /var/lib/php5/sess_3jdmii9cacj1e3jnahbtopajl7p064ai242]"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:511
@@ -739,11 +813,13 @@ msgid ""
 "In the example above, it is recommended hitting <guimenu>1</guimenu> and "
 "confirming with <guimenu>A</guimenu> to allow the abstraction."
 msgstr ""
+"上記の例では、 <guimenu>1</guimenu> を押して <guimenu>A</guimenu> "
+"を押すことで、抽象の取り込みを設定することができます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:518
 msgid "After the last change, you will be asked to save the changed profile."
-msgstr ""
+msgstr "最後に、下記のとおり保存を行なうかどうかを尋ねられます。"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:521
@@ -754,16 +830,20 @@ msgid ""
 "\n"
 " (S)ave Changes / [(V)iew Changes] / Abo(r)t"
 msgstr ""
+"The following local profiles were changed. Would you like to save them?\n"
+" [1 - /usr/sbin/httpd2-prefork]\n"
+"\n"
+" (S)ave Changes / [(V)iew Changes] / Abo(r)t"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:525
 msgid "Hit <guimenu>S</guimenu> to save the changes."
-msgstr ""
+msgstr "<guimenu>S</guimenu> を押して変更を保存してください。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:530
 msgid "Set the profile to enforce mode with <command>aa-enforce</command>"
-msgstr ""
+msgstr "変更が終わったら、 <command>aa-enforce</command> を実行してプロファイルを強制モードに設定します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:533
@@ -774,7 +854,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:534
 msgid "and check its status with <command>aa-status</command>"
-msgstr ""
+msgstr "<command>aa-status</command> で状態を確認します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:537
@@ -798,6 +878,8 @@ msgid ""
 "As you can see, the <literal>//adminer</literal> hat jumped from "
 "<emphasis>complain</emphasis> to <emphasis>enforce</emphasis> mode."
 msgstr ""
+"上記のとおり、 <literal>//adminer</literal> のハットが <emphasis>complain</emphasis> (不平)"
+" から <emphasis>enforce</emphasis> (強制) モードに切り替えられています。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:553
@@ -807,11 +889,13 @@ msgid ""
 "work well, and update the profile with <command>aa-logprof</command> until "
 "you are satisfied with the application's functionality."
 msgstr ""
+"あとは再度 Adminer を Web ブラウザで開いて動作を確認してください。何らかの問題を見つけた場合は、不平モードに戻して手順を繰り返し、 "
+"<command>aa-logprof</command> でプロファイルを更新してください。"
 
 #. (itstool) path: note/title
 #: xml/apparmor_changehat.xml:564
 msgid "Hat and Parent Profile Relationship"
-msgstr ""
+msgstr "ハットと親プロファイルの関係性について"
 
 #. (itstool) path: note/para
 #: xml/apparmor_changehat.xml:565
