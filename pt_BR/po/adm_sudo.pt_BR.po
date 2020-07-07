@@ -2,29 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:22+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_sudo-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: chapter/title
 #: xml/adm_sudo.xml:11
 msgid "sudo"
-msgstr ""
+msgstr "sudo"
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_sudo.xml:16
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:19
@@ -37,6 +39,15 @@ msgid ""
 "Instead, it is recommended to work as a normal, unprivileged user and use "
 "the <command>sudo</command> command to run commands with elevated privileges."
 msgstr ""
+"Muitos comandos e utilitários do sistema precisam ser executados como <"
+"systemitem class=\"username\"> root </systemitem> para modificar arquivos e/"
+"ou executar tarefas às quais somente o superusuário está autorizado. Por "
+"motivos de segurança e para evitar a execução acidental de comandos "
+"perigosos, geralmente é aconselhável não efetuar login diretamente como root "
+"<systemitem class=\"username\"> root </systemitem>. Em vez disso, é "
+"recomendável trabalhar como um usuário normal e sem privilégios e usar o "
+"comando <command>sudo</command> para executar comandos com privilégios "
+"elevados."
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:27
@@ -63,21 +74,44 @@ msgid ""
 "specified. This can be used to assign roles with specific abilities to "
 "certain users and groups."
 msgstr ""
+"No <phrase role=\"productname\"> <phrase os= \"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise A área de trabalho</phrase></phrase>"
+", <command>sudo</command> é configurada por padrão para funcionar de maneira "
+"semelhante ao su. No entanto, o <command>sudo</command> oferece a "
+"possibilidade de permitir que os usuários executem comandos com privilégios "
+"de qualquer outro usuário de uma maneira altamente configurável. Isso pode "
+"ser usado para atribuir funções com privilégios específicos a determinados "
+"usuários e grupos. É possível, por exemplo, permitir que membros do grupo <"
+"systemitem class=\"groupname\">usuários</systemitem> executem um comando com "
+"os privilégios de <systemitem class=\"username\">wilber</systemitem>. O "
+"acesso ao comando pode ser mais restrito, por exemplo, proibindo a "
+"especificação de qualquer opção de comando. Enquanto o su sempre exige a "
+"senha <systemitem class=\"nome de usuário\"> root </systemitem> para "
+"autenticação com o PAM, o <command>sudo</command> pode ser configurado para "
+"autenticar com suas próprias credenciais. Isso aumenta a segurança por não "
+"ter que compartilhar a senha <systemitem class=\"username\">root</systemitem>"
+". Por exemplo, você pode permitir que os membros do grupo <systemitem class="
+"\"groupname\">usuários</systemitem> executem um comando "
+"<command>frobnicate</command> como <systemitem class=\"username\""
+">wilber</systemitem>, com a restrição de que nenhum argumento seja "
+"especificado. Isso pode ser usado para atribuir funções com habilidades "
+"específicas a determinados usuários e grupos."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:44
 msgid "Basic <command>sudo</command> Usage"
-msgstr ""
+msgstr "Uso básico do <command>sudo</command>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:46
 msgid "<command>sudo</command> is simple to use, yet very powerful."
-msgstr ""
+msgstr "<command>sudo</command> é simples de usar, mas muito poderoso."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:51
 msgid "Running a Single Command"
-msgstr ""
+msgstr "Executando um único comando"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:52
@@ -87,6 +121,11 @@ msgid ""
 "It will prompt for the root password and, if authenticated successfully, run "
 "the command as <systemitem class=\"username\">root</systemitem>:"
 msgstr ""
+"Conectado como usuário normal, você pode executar qualquer comando como <"
+"systemitem class=\"username\">root</systemitem> adicionando "
+"<command>sudo</command> antes dele. Ele solicitará a senha root e, se "
+"autenticado com êxito, execute o comando como <systemitem class=\"username\""
+">root</systemitem>:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:57
@@ -104,6 +143,18 @@ msgid ""
 "<co xml:id=\"co.sudo.usage.nopw\"/>\n"
 "root\n"
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>id -un</command><co xml:id=\""
+"co.sudo.usage.id\"/>\n"
+"tux\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>id -un</command>\n"
+"root's password:<co xml:id=\"co.sudo.usage.pw\"/>\n"
+"root\n"
+"<prompt>tux &gt; </prompt><command>id -un</command>\n"
+"tux<co xml:id=\"co.sudo.usage.after\"/>\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>id -un</command>\n"
+"<co xml:id=\"co.sudo.usage.nopw\"/>\n"
+"root\n"
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:71
@@ -111,12 +162,15 @@ msgid ""
 "The <command>id -un</command> command prints the login name of the current "
 "user."
 msgstr ""
+"O comando <command>id -un</command> imprime o nome de login do usuário atual."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:77
 msgid ""
 "The password is not shown during input, neither as clear text nor as bullets."
 msgstr ""
+"A senha não é mostrada durante a entrada, nem como texto não criptografado "
+"nem como marcadores."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:83
@@ -125,6 +179,10 @@ msgid ""
 "privileges. If you run the same command without the <command>sudo</command> "
 "prefix, it is run with the privileges of the current user again."
 msgstr ""
+"Somente comandos iniciados com <command>sudo</command> são executados com "
+"privilégios elevados. Se você executar o mesmo comando sem o prefixo "
+"<command>sudo</command>, ele será executado com os privilégios do usuário "
+"atual novamente."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:90
@@ -132,16 +190,19 @@ msgid ""
 "For a limited amount of time, you do not need to enter the <systemitem class="
 "\"username\">root</systemitem> password again."
 msgstr ""
+"Por um período limitado de tempo, você não precisa inserir a senha <"
+"systemitem class=\"username\">root</systemitem> novamente."
 
 #. (itstool) path: tip/title
 #: xml/adm_sudo.xml:97
 msgid "I/O Redirection"
-msgstr ""
+msgstr "Redirecionamento E/S"
 
 #. (itstool) path: tip/para
 #: xml/adm_sudo.xml:98
 msgid "I/O redirection does not work as you would probably expect:"
 msgstr ""
+"O redirecionamento de E/S não funciona como você provavelmente esperaria:"
 
 #. (itstool) path: tip/screen
 #: xml/adm_sudo.xml:101
@@ -153,6 +214,12 @@ msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> cat &lt; /proc/1/maps\n"
 "bash: /proc/1/maps: Permission denied\n"
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> echo s &gt; /proc/sysrq-"
+"trigger\n"
+"bash: /proc/sysrq-trigger: Permission denied\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> cat &lt; /proc/1/maps\n"
+"bash: /proc/1/maps: Permission denied\n"
 
 #. (itstool) path: tip/para
 #: xml/adm_sudo.xml:107
@@ -162,6 +229,10 @@ msgid ""
 "with user privileges. You can either start a shell like in <xref linkend="
 "\"sec.sudo.shell\"/> or use the <command>dd</command> utility instead:"
 msgstr ""
+"Somente o binário <command>echo</command>/<command>cat</command> é executado "
+"com privilégios elevados, enquanto o redirecionamento é realizado pelo shell "
+"do usuário com privilégios de usuário. Você pode iniciar um shell como em <"
+"xref linkend=\"sec.sudo.shell\"/> ou usar o utilitário <command>dd</command>:"
 
 #. (itstool) path: tip/screen
 #: xml/adm_sudo.xml:114
@@ -171,11 +242,14 @@ msgid ""
 "echo s | sudo dd of=/proc/sysrq-trigger\n"
 "sudo dd if=/proc/1/maps | cat \n"
 msgstr ""
+"\n"
+"echo s | sudo dd of=/proc/sysrq-trigger\n"
+"sudo dd if=/proc/1/maps | cat \n"
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:122
 msgid "Starting a Shell"
-msgstr ""
+msgstr "Iniciando um Shell"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:123
@@ -185,11 +259,15 @@ msgid ""
 "command>, it is recommended to rather use one of the built-in mechanisms to "
 "start a shell:"
 msgstr ""
+"Ter que adicionar <command>sudo</command> antes que cada comando pode ser "
+"complicado. Embora você possa especificar um shell como um comando <command>"
+"sudo bash</command>, é recomendável usar um dos mecanismos internos para "
+"iniciar um shell:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:130
 msgid "<literal>sudo -s (&lt;command&gt;)</literal>"
-msgstr ""
+msgstr "<literal>sudo -s (&lt;command&gt;)</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:133
@@ -199,6 +277,10 @@ msgid ""
 "shell (with the <option>-c</option> option), else the shell is run in "
 "interactive mode."
 msgstr ""
+"Inicia um shell especificado pela variável de ambiente <envar>SHELL</envar> "
+"ou pelo shell padrão do usuário de destino. Se um comando é dado, ele é "
+"passado para o shell (com a opção <option>-c</option>), caso contrário, o "
+"shell é executado no modo interativo."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:139
@@ -210,11 +292,16 @@ msgid ""
 "<prompt>root:/home/tux # </prompt>exit\n"
 "<prompt>tux:~ &gt; </prompt>\n"
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>sudo -i\n"
+"root's password:\n"
+"<prompt>root:/home/tux # </prompt>exit\n"
+"<prompt>tux:~ &gt; </prompt>\n"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:148
 msgid "<literal>sudo -i (&lt;command&gt;)</literal>"
-msgstr ""
+msgstr "<literal>sudo -i (&lt;command&gt;)</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:151
@@ -224,6 +311,10 @@ msgid ""
 "processed and the current working directory is set to the target user's home "
 "directory."
 msgstr ""
+"Como <option>-s</option>, mas inicia o shell como shell de login. Isso "
+"significa que os arquivos de inicialização do shell "
+"(<filename>.profile</filename> etc.) são processados e o diretório de "
+"trabalho atual é definido como o diretório inicial do usuário de destino."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:157
@@ -236,17 +327,23 @@ msgid ""
 "<prompt>tux:~ &gt; </prompt>\n"
 "            "
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>sudo -i\n"
+"root's password:\n"
+"<prompt>root:~ # </prompt>exit\n"
+"<prompt>tux:~ &gt; </prompt>\n"
+"            "
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:169
 msgid "Environment Variables"
-msgstr ""
+msgstr "Variáveis Do Ambiente"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:170
 msgid ""
 "By default, <command>sudo</command> does not propagate environment variables:"
-msgstr ""
+msgstr "Por padrão, <command>sudo</command> não propaga variáveis de ambiente:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:173
@@ -261,6 +358,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>\n"
 "      "
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt>ENVVAR=test env | grep ENVVAR\n"
+"ENVVAR=test\n"
+"<prompt>tux &gt; </prompt>ENVVAR=test sudo env | grep ENVVAR\n"
+"root's password:\n"
+"<co xml:id=\"co.sudo.env.novar\"/>\n"
+"<prompt>tux &gt; </prompt>\n"
+"      "
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:183
@@ -268,6 +373,8 @@ msgid ""
 "The empty output shows that the environment variable <envar>ENVVAR</envar> "
 "did not exist in the context of the command run with <command>sudo</command>."
 msgstr ""
+"A saída vazia mostra que a variável de ambiente <envar>ENVVAR</envar> não "
+"existia no contexto do comando executado com <command>sudo</command>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:190
@@ -275,22 +382,26 @@ msgid ""
 "This behavior can be changed by the <literal>env_reset</literal> option, see "
 "<xref linkend=\"tab.adm.sudo.options\"/>."
 msgstr ""
+"Esse comportamento pode ser alterado pela opção <literal>env_reset</literal>"
+", consulte <xref linkend=\"tab.adm.sudo.options\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:197
 msgid "Configuring <command>sudo</command>"
-msgstr ""
+msgstr "Configurando <command>sudo</command>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:199
 msgid ""
 "<command>sudo</command> is a very flexible tool with extensive configuration."
 msgstr ""
+"O <command>sudo</command> é uma ferramenta muito flexível com uma "
+"configuração extensa."
 
 #. (itstool) path: note/title
 #: xml/adm_sudo.xml:204
 msgid "Locked yourself out of sudo"
-msgstr ""
+msgstr "Trancou-se fora do sudo"
 
 #. (itstool) path: note/para
 #: xml/adm_sudo.xml:205
@@ -300,11 +411,15 @@ msgid ""
 "systemitem> password to get a root shell. To fix the error, run "
 "<command>visudo</command>."
 msgstr ""
+"Se você acidentalmente se trancou fora do <command>sudo</command>, use "
+"<command>su -</command> e a senha <systemitem class=\"username\""
+">root</systemitem> para obter um shell root. Para corrigir o erro, execute "
+"<command>visudo</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:213
 msgid "Editing the Configuration Files"
-msgstr ""
+msgstr "Editando os arquivos de configuração"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:217
@@ -316,6 +431,11 @@ msgid ""
 "to the opened file and check for syntax errors before saving the "
 "modifications."
 msgstr ""
+"O principal arquivo de configuração de política para <command>sudo</command> "
+"é <filename>/etc/sudoers</filename>. Como é possível se bloquear do sistema "
+"devido a erros neste arquivo, é altamente recomendável usar "
+"<command>visudo</command> para editar. Ele evitará alterações simultâneas no "
+"arquivo aberto e verificará erros de sintaxe antes de salvar as modificações."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:225
@@ -323,12 +443,14 @@ msgid ""
 "Despite its name, you can also use editors other than vi by setting the "
 "<envar>EDITOR</envar> environment variable, for example:"
 msgstr ""
+"Apesar do nome, você também pode usar editores que não sejam o vi "
+"configurando a variável de ambiente <envar>EDITOR</envar>, por exemplo:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:229
 #, no-wrap
 msgid "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo"
-msgstr ""
+msgstr "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:230
@@ -339,29 +461,38 @@ msgid ""
 "sudoers.d/</filename> directory. Any file in there is automatically "
 "included. To create or edit a file in that subdirectory, run:"
 msgstr ""
+"No entanto, o próprio arquivo <filename>/etc/sudoers</filename> é fornecido "
+"pelos pacotes do sistema e as modificações podem ocorrer nas atualizações. "
+"Portanto, é recomendável colocar a configuração personalizada em arquivos no "
+"diretório <filename>/etc/sudoers.d/</filename>. Qualquer arquivo é incluído "
+"automaticamente. Para criar ou editar um arquivo nesse subdiretório, execute:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:237
 #, no-wrap
 msgid "sudo visudo -f /etc/sudoers.d/<replaceable>NAME</replaceable>"
-msgstr ""
+msgstr "sudo visudo -f /etc/sudoers.d/<replaceable>NOME</replaceable>"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:238
 msgid ""
 "Alternatively with a different editor (for example <command>nano</command>):"
 msgstr ""
+"Como alternativa com um editor diferente (por exemplo, "
+"<command>nano</command>):"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:242
 #, no-wrap
 msgid "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo -f /etc/sudoers.d/<replaceable>NAME</replaceable>"
 msgstr ""
+"sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo -f /etc/sudoers."
+"d/<replaceable>NOME</replaceable>"
 
 #. (itstool) path: note/title
 #: xml/adm_sudo.xml:244
 msgid "Ignored Files in <filename>/etc/sudoers.d</filename>"
-msgstr ""
+msgstr "Arquivos ignorados em <filename>/etc/sudoers.d</filename>"
 
 #. (itstool) path: note/para
 #: xml/adm_sudo.xml:245
@@ -370,6 +501,10 @@ msgid ""
 "filename>, used for <filename>/etc/sudoers.d</filename>, ignores files that "
 "end in <literal>~</literal> (tilde) or contain a <literal>.</literal> (dot)."
 msgstr ""
+"O comando <literal>#includedir</literal> em <filename>/etc/sudoers</filename>"
+", usado para <filename>/etc/sudoers.d</filename>, ignora os arquivos que "
+"terminam em <literal>~</literal> (til) ou contém um <literal>.</literal> "
+"(ponto)."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:252
@@ -377,11 +512,13 @@ msgid ""
 "For more information on the <command>visudo</command> command, run "
 "<command>man 8 visudo</command>."
 msgstr ""
+"Para obter mais informações sobre o comando <command>visudo</command>, "
+"execute <command>man 8 visudo</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:259
 msgid "Basic sudoers Configuration Syntax"
-msgstr ""
+msgstr "Sintaxe de configuração básico do arquivo sudoers"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:260
@@ -391,6 +528,10 @@ msgid ""
 "ON or OFF. The most important syntax constructs for sudoers configuration "
 "files are:"
 msgstr ""
+"Nos arquivos de configuração do sudoers, existem dois tipos de opções: "
+"strings e sinalizadores. Embora as strings possam conter qualquer valor, os "
+"sinalizadores podem ser ativados ou desativados. As construções de sintaxe "
+"mais importantes para os arquivos de configuração de sudoers são:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:266
@@ -402,6 +543,14 @@ msgid ""
 "Defaults env_keep += \"DISPLAY HOME\" # Add DISPLAY and HOME to env_keep\n"
 "tux ALL = NOPASSWD: /usr/bin/frobnicate, PASSWD: /usr/bin/journalctl <co xml:id=\"co.sudo.syntax.rule\"/>\n"
 msgstr ""
+"\n"
+"# Tudo em uma linha após um # é ignorado <co xml:id=\"co.sudo.syntax."
+"comment\"/>\n"
+"Defaults !insults # Desativa o sinalizador de insultos <co xml:id=\""
+"co.sudo.syntax.flag\"/>\n"
+"Defaults env_keep += \"DISPLAY HOME\" # Adiciona DISPLAY e HOME a env_keep\n"
+"tux ALL = NOPASSWD: /usr/bin/frobnicate, PASSWD: /usr/bin/journalctl <co "
+"xml:id=\"co.sudo.syntax.rule\"/>\n"
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:274
@@ -410,41 +559,46 @@ msgid ""
 "<literal>#includedir</literal> are normal commands. Followed by digits, it "
 "specifies a UID."
 msgstr ""
+"Existem duas exceções: <literal>#include</literal> e "
+"<literal>#includedir</literal> são comandos normais. Seguido por dígitos, "
+"isso especifica uma UID."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:281
 msgid "Remove the <literal>!</literal> to set the specified flag to ON."
 msgstr ""
+"Remove o <literal>!</literal> para definir o sinalizador especificado como "
+"ON."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:286
 msgid "See <xref linkend=\"sec.sudo.conf.rule\"/>."
-msgstr ""
+msgstr "Ver <xref linkend=\"sec.sudo.conf.rule\"/>."
 
 #. (itstool) path: table/title
 #: xml/adm_sudo.xml:292
 msgid "Useful Flags and Options"
-msgstr ""
+msgstr "Opções e sinalizadores úteis"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:297
 msgid "Option name"
-msgstr ""
+msgstr "Nome da opção"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:302
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:307
 msgid "Example"
-msgstr ""
+msgstr "Exemplo"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:315
 msgid "<literal>targetpw</literal>"
-msgstr ""
+msgstr "<literal>targetpw</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:318
@@ -453,17 +607,20 @@ msgid ""
 "password of the target user (ON) (for example <systemitem class=\"username"
 "\">root</systemitem>) or the invoking user (OFF)."
 msgstr ""
+"Esse sinalizador controla se o usuário que está chamando é obrigado a "
+"inserir a senha do usuário de destino (ON) (por exemplo, <systemitem class=\""
+"nome de usuário\"> raiz </systemitem>) ou o usuário que está chamando (OFF)."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:325
 #, no-wrap
 msgid "Defaults targetpw # Turn targetpw flag ON"
-msgstr ""
+msgstr "Defaults targetpw # Ative o sinalizador targetpw"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:329
 msgid "<literal>rootpw</literal>"
-msgstr ""
+msgstr "<literal>rootpw</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:332
@@ -472,17 +629,20 @@ msgid ""
 "\"username\">root</systemitem> password instead of the target user's or the "
 "invoker's. The default is OFF."
 msgstr ""
+"Se definido, o <command>sudo</command> solicitará a senha <systemitem class="
+"\"username\"> root </systemitem> em vez do usuário de destino ou do "
+"invocador. O padrão é OFF."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:338
 #, no-wrap
 msgid "Defaults !rootpw # Turn rootpw flag OFF"
-msgstr ""
+msgstr "Defaults !rootpw # Desativar o sinalizador rootpw"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:342
 msgid "<literal>env_reset</literal>"
-msgstr ""
+msgstr "<literal>env_reset</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:345
@@ -494,17 +654,23 @@ msgid ""
 "variables listed in <literal>env_keep</literal> get imported from the "
 "calling environment. The default is ON."
 msgstr ""
+"Se definido, <command>sudo</command> constrói um ambiente mínimo com apenas "
+"<envar>TERM</envar>, <envar>PATH</envar>, <envar>HOME</envar>, "
+"<envar>MAIL</envar>, <envar>SHELL</envar>, <envar>LOGNAME</envar>, "
+"<envar>USER</envar>, <envar>USERNAME</envar> e <envar>SUDO_ *</envar>. Além "
+"disso, as variáveis listadas em <literal>env_keep</literal> são importadas "
+"do ambiente de chamada. O padrão é ON."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:356
 #, no-wrap
 msgid "Defaults env_reset # Turn env_reset flag ON"
-msgstr ""
+msgstr "Defaults env_reset # Ativa o sinalizador env_reset"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:360
 msgid "<literal>env_keep</literal>"
-msgstr ""
+msgstr "<literal>env_keep</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:363
@@ -512,6 +678,8 @@ msgid ""
 "List of environment variables to keep when the <literal>env_reset</literal> "
 "flag is ON."
 msgstr ""
+"Lista de variáveis de ambiente a serem mantidas quando o sinalizador "
+"<literal>env_reset</literal> estiver ativado."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:369
@@ -523,11 +691,16 @@ msgid ""
 "Defaults env_keep += \"JRE_HOME\" # Add JRE_HOME\n"
 "Defaults env_keep -= \"JRE_HOME\" # Remove JRE_HOME\n"
 msgstr ""
+"\n"
+"# Define env_keep para conter EDITOR e PROMPT\n"
+"Defaults env_keep = \"EDITOR PROMPT\"\n"
+"Defaults env_keep += \"JRE_HOME\" # Adicionar JRE_HOME\n"
+"Defaults env_keep -= \"JRE_HOME\" # Remover JRE_HOME\n"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:378
 msgid "<literal>env_delete</literal>"
-msgstr ""
+msgstr "<literal>env_delete</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:381
@@ -535,6 +708,8 @@ msgid ""
 "List of environment variables to remove when the <literal>env_reset</"
 "literal> flag is OFF."
 msgstr ""
+"Lista de variáveis de ambiente a serem removidas quando o sinalizador "
+"<literal>env_reset</literal> estiver desativado."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:387
@@ -546,6 +721,11 @@ msgid ""
 "Defaults env_delete += \"JRE_HOME\" # Add JRE_HOME\n"
 "Defaults env_delete -= \"JRE_HOME\" # Remove JRE_HOME\n"
 msgstr ""
+"\n"
+"# Defina env_delete para conter EDITOR e PROMPT\n"
+"Defaults env_delete = \"EDITOR PROMPT\"\n"
+"Defaults env_delete += \"JRE_HOME\" # Adicionar JRE_HOME\n"
+"Defaults env_delete -= \"JRE_HOME\" # Remover JRE_HOME\n"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:398
@@ -554,6 +734,9 @@ msgid ""
 "a collection of users, hosts, and commands. Furthermore, it is possible to "
 "apply an option only to a specific set of users."
 msgstr ""
+"O token <literal>Defaults</literal> também pode ser usado para criar aliases "
+"para uma coleção de usuários, hosts e comandos. Além disso, é possível "
+"aplicar uma opção apenas a um conjunto específico de usuários."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:403
@@ -561,11 +744,13 @@ msgid ""
 "For detailed information about the <filename>/etc/sudoers</filename> "
 "configuration file, consult <command>man 5 sudoers</command>."
 msgstr ""
+"Para obter informações detalhadas sobre o arquivo de configuração <filename>/"
+"etc/sudoers</filename>, consulte <command>man 5 sudoers</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:410
 msgid "Rules in sudoers"
-msgstr ""
+msgstr "Regras em sudoers"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:411
@@ -574,6 +759,9 @@ msgid ""
 "only cover the basics. Each rule follows the basic scheme (<literal>[]</"
 "literal> marks optional parts):"
 msgstr ""
+"As regras na configuração do sudoers podem ser muito complexas; portanto, "
+"esta seção abordará apenas o básico. Cada regra segue o esquema básico "
+"(<literal>[]</literal> marca partes opcionais):"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:416
@@ -583,16 +771,19 @@ msgid ""
 "#Who      Where         As whom      Tag                What\n"
 "User_List Host_List = [(User_List)] [NOPASSWD:|PASSWD:] Cmnd_List\n"
 msgstr ""
+"\n"
+"#Quem      Onde         Como quem      Tag                Que\n"
+"User_List Host_List = [(User_List)] [NOPASSWD:|PASSWD:] Cmnd_List\n"
 
 #. (itstool) path: variablelist/title
 #: xml/adm_sudo.xml:421
 msgid "Syntax for sudoers Rules"
-msgstr ""
+msgstr "Regras de sintaxe para sudoers"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:423
 msgid "<literal>User_List</literal>"
-msgstr ""
+msgstr "<literal>User_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:426
@@ -602,11 +793,15 @@ msgid ""
 "the format <literal>#UID</literal>. Negation can be performed with a "
 "<literal>!</literal> prefix."
 msgstr ""
+"Um ou mais identificadores (separados por <literal>, </literal>): um nome de "
+"usuário, um grupo no formato <literal>%GROUPNAME</literal> ou um ID do "
+"usuário no formato <literal>#UID</literal>. A negação pode ser realizada com "
+"um prefixo <literal>!</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:435
 msgid "<literal>Host_List</literal>"
-msgstr ""
+msgstr "<literal>Host_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:438
@@ -616,11 +811,15 @@ msgid ""
 "<literal>!</literal> prefix. <literal>ALL</literal> is the usual choice for "
 "<literal>Host_List</literal>."
 msgstr ""
+"Um ou mais identificadores (separados por <literal>, </literal>): Um nome de "
+"host (totalmente qualificado) ou um endereço IP. A negação pode ser "
+"realizada com um prefixo <literal>!</literal>.<literal>ALL</literal> é a "
+"escolha usual para <literal>Host_List</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:447
 msgid "<literal>NOPASSWD:|PASSWD:</literal>"
-msgstr ""
+msgstr "<literal>NOPASSWD:|PASSWD:</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:450
@@ -628,6 +827,9 @@ msgid ""
 "The user will not be prompted for a password when running commands matching "
 "<literal>CMDSPEC</literal> after <literal>NOPASSWD:</literal>."
 msgstr ""
+"Não será solicitada uma senha ao usuário ao executar comandos "
+"correspondentes a <literal>CMDSPEC</literal> após "
+"<literal>NOPASSWD:</literal>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:454
@@ -635,17 +837,19 @@ msgid ""
 "<literal>PASSWD</literal> is the default, it only needs to be specified when "
 "both are on the same line:"
 msgstr ""
+"<literal> PASSWD </literal> é o padrão, ele só precisa ser especificado "
+"quando os dois estiverem na mesma linha:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:458
 #, no-wrap
 msgid "tux ALL = PASSWD: /usr/bin/foo, NOPASSWD: /usr/bin/bar"
-msgstr ""
+msgstr "tux ALL = PASSWD: /usr/bin/foo, NOPASSWD: /usr/bin/bar"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:462
 msgid "<literal>Cmnd_List</literal>"
-msgstr ""
+msgstr "<literal>Cmnd_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:465
@@ -653,6 +857,8 @@ msgid ""
 "One or more (separated by <literal>,</literal>) specifiers: A path to an "
 "executable, followed by allowed arguments or nothing."
 msgstr ""
+"Um ou mais especificadores (separados por <literal>, </literal>): um caminho "
+"para um executável, seguido por argumentos permitidos ou nada."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:469
@@ -663,6 +869,10 @@ msgid ""
 "/usr/bin/foo bar # Only \"/usr/bin/foo bar\" allowed\n"
 "/usr/bin/foo \"\"  # No arguments allowed\n"
 msgstr ""
+"\n"
+"/usr/bin/foo     # Anything allowed\n"
+"/usr/bin/foo bar # Only \"/usr/bin/foo bar\" allowed\n"
+"/usr/bin/foo \"\"  # No arguments allowed\n"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:477
@@ -670,6 +880,8 @@ msgid ""
 "<literal>ALL</literal> can be used as <literal>User_List</literal>, "
 "<literal>Host_List</literal>, and <literal>Cmnd_List</literal>."
 msgstr ""
+"<literal>ALL</literal> pode ser usado como <literal>User_List</literal>, "
+"<literal>Host_List</literal>, e<literal>Cmnd_List</literal>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:481
@@ -677,12 +889,14 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "all commands as root without entering a password:"
 msgstr ""
+"Uma regra que permite que <systemitem class=\"username\">tux</systemitem> "
+"execute todos os comandos como root sem inserir uma senha:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:485
 #, no-wrap
 msgid "tux ALL = NOPASSWD: ALL"
-msgstr ""
+msgstr "tux ALL = NOPASSWD: ALL"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:486
@@ -690,12 +904,14 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "<command>systemctl restart apache2</command>:"
 msgstr ""
+"Uma regra que permite que <systemitem class=\"username\">tux</systemitem> "
+"execute <command>systemctl restart apache2</command>:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:490
 #, no-wrap
 msgid "tux ALL = /usr/bin/systemctl restart apache2"
-msgstr ""
+msgstr "tux ALL = /usr/bin/systemctl restart apache2"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:491
@@ -703,28 +919,31 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "<command>wall</command> as <systemitem>admin</systemitem> with no arguments:"
 msgstr ""
+"Uma regra que permite que <systemitem class=\"username\">tux</systemitem> "
+"execute <command>wall</command> como <systemitem>admin</systemitem> sem "
+"argumentos:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:495
 #, no-wrap
 msgid "tux ALL = (admin) /usr/bin/wall \"\""
-msgstr ""
+msgstr "tux ALL = (admin) /usr/bin/wall \"\""
 
 #. (itstool) path: warning/title
 #: xml/adm_sudo.xml:497
 msgid "Dangerous constructs"
-msgstr ""
+msgstr "Construções perigosas"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:498
 msgid "Constructs of the kind"
-msgstr ""
+msgstr "Construções do tipo"
 
 #. (itstool) path: warning/screen
 #: xml/adm_sudo.xml:501
 #, no-wrap
 msgid "ALL ALL = ALL"
-msgstr ""
+msgstr "ALL ALL = ALL"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:502
@@ -733,11 +952,14 @@ msgid ""
 "literal>, otherwise anyone can run commands as <systemitem class=\"username"
 "\">root</systemitem>."
 msgstr ""
+"<emphasis>não deve</emphasis> ser usado sem <literal>Padrões "
+"targetpw</literal>, caso contrário, qualquer um pode executar comandos como <"
+"systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:510
 msgid "Common Use Cases"
-msgstr ""
+msgstr "Casos de uso comuns"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:512
@@ -745,6 +967,9 @@ msgid ""
 "Although the default configuration is often sufficient for simple setups and "
 "desktop environments, custom configurations can be very useful."
 msgstr ""
+"Embora a configuração padrão geralmente seja suficiente para configurações "
+"simples e ambientes de desktop, configurações personalizadas podem ser muito "
+"úteis."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:518
@@ -752,6 +977,8 @@ msgid ""
 "Using <command>sudo</command> without <systemitem class=\"username\">root</"
 "systemitem> Password"
 msgstr ""
+"Usando <command>sudo</command> sem <systemitem class=\"username\"> root "
+"</systemitem> Senha"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:519
@@ -763,12 +990,18 @@ msgid ""
 "\">wheel</systemitem> can run all commands with <command>sudo</command> as "
 "root."
 msgstr ""
+"Em casos com restrições especiais (o usuário X só pode executar o comando Y "
+"como <systemitem class=\"nome do usuário\"> raiz </systemitem> </quote>), "
+"isso não é possível. Em outros casos, ainda é favorável ter algum tipo de "
+"separação. Por convenção, os membros do grupo <systemitem class=\"groupname\""
+">wheel</systemitem> podem executar todos os comandos com "
+"<command>sudo</command> como raiz."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:528
 msgid ""
 "Add yourself to the <systemitem class=\"groupname\">wheel</systemitem> group"
-msgstr ""
+msgstr "Adicione-se ao grupo <systemitem class=\"groupname\">wheel</systemitem>"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:532
@@ -779,11 +1012,22 @@ msgid ""
 "logging out and in again. Verify that the change was successful by running "
 "<command>groups <replaceable>USERNAME</replaceable></command>."
 msgstr ""
+"Se sua conta de usuário ainda não for membro do grupo <systemitem class=\""
+"groupname\">wheel</systemitem>, inclua-a executando <command>sudo usermod -a "
+"-G wheel <replaceable> NOME DE USUÁRIO</replaceable> </command > saia e "
+"entre novamente. Verifique se a alteração foi bem-sucedida executando o "
+"comando <command>groups <replaceable>NOME DE USUÁRIO</replaceable> "
+"</command>."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:542
 msgid "Make authentication with the invoking user's password the default."
 msgstr ""
+"Se sua conta de usuário ainda não for membro do grupo <systemitem class=\""
+"groupname\">wheel</systemitem>, inclua-a executando <command>sudo usermod -a "
+"-G wheel<replaceable> NOME DE USUÁRIO</replaceable> </command> e sair e "
+"entrar novamente. Verifique se a alteração foi bem-sucedida executando "
+"<command>groups <replaceable>NOME DE USUÁRIO</replaceable> </command>."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:545
@@ -792,17 +1036,20 @@ msgid ""
 "<command>visudo</command> (see <xref linkend=\"sec.sudo.conf.edit\"/>) and "
 "add:"
 msgstr ""
+"Crie o arquivo <filename>/etc/sudoers.d/userpw</filename> com "
+"<command>visudo</command> (consulte <xref linkend=\"sec.sudo.conf.edit\"/>) "
+"e adicione:"
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:550
 #, no-wrap
 msgid "Defaults !targetpw"
-msgstr ""
+msgstr "Defaults !targetpw"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:553
 msgid "Select a new default rule."
-msgstr ""
+msgstr "Selecione uma nova regra padrão."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:556
@@ -811,6 +1058,9 @@ msgid ""
 "the specific line in <filename>/etc/sudoers</filename> and comment out the "
 "default rule."
 msgstr ""
+"Dependendo se você deseja que os usuários digitem suas senhas novamente, "
+"remova o comentário da linha específica em <filename>/etc/sudoers</filename> "
+"e comente a regra padrão."
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:561
@@ -823,11 +1073,18 @@ msgid ""
 "## Same thing without a password\n"
 "# %wheel ALL=(ALL) NOPASSWD: ALL\n"
 msgstr ""
+"\n"
+"## Remova o comentário para permitir que os membros do grupo wheel executem "
+"qualquer comando\n"
+"# %wheel ALL=(ALL) ALL\n"
+"\n"
+"## A mesma coisa sem uma senha\n"
+"# %wheel ALL=(ALL) NOPASSWD: ALL\n"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:570
 msgid "Make the default rule more restrictive"
-msgstr ""
+msgstr "Tornar a regra padrão mais restritiva"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:573
@@ -835,17 +1092,21 @@ msgid ""
 "Comment out or remove the allow-everything rule in <filename>/etc/sudoers</"
 "filename>:"
 msgstr ""
+"Comente ou remova a regra allow-everything em <filename>/etc/"
+"sudoers</filename>:"
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:577
 #, no-wrap
 msgid "ALL     ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!"
 msgstr ""
+"ALL     ALL=(ALL) ALL   # AVISO! Use isso apenas em conjunto com 'Defaults "
+"targetpw'!"
 
 #. (itstool) path: warning/title
 #: xml/adm_sudo.xml:579
 msgid "Dangerous rule in sudoers"
-msgstr ""
+msgstr "Regra perigosa em sudoers"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:580
@@ -854,11 +1115,14 @@ msgid ""
 "<emphasis>any</emphasis> command as <systemitem class=\"username\">root</"
 "systemitem>!"
 msgstr ""
+"Não se esqueça desta etapa, caso contrário, <emphasis>qualquer</emphasis> "
+"usuário pode executar <emphasis>qualquer</emphasis> comando como <systemitem "
+"class=\"username\">root</systemitem>!"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:587
 msgid "Test the configuration"
-msgstr ""
+msgstr "Teste a configuração"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:590
@@ -866,6 +1130,8 @@ msgid ""
 "Try to run <command>sudo</command> as member and non-member of <systemitem "
 "class=\"groupname\">wheel</systemitem>."
 msgstr ""
+"Tente executar <command>sudo</command> como membro e não membro da roda <"
+"systemitem class=\"groupname\">wheel</systemitem>."
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:594
@@ -883,11 +1149,22 @@ msgid ""
 "wilber is not in the sudoers file.  This incident will be reported.\n"
 "          "
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>groups\n"
+"users wheel\n"
+"<prompt>tux:~ &gt; </prompt>sudo id -un\n"
+"tux's password:\n"
+"root\n"
+"<prompt>wilber:~ &gt; </prompt>groups\n"
+"users\n"
+"<prompt>wilber:~ &gt; </prompt>sudo id -un\n"
+"wilbernão está no arquivo sudoers. Este incidente será relatado.\n"
+"          "
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:610
 msgid "Using <command>sudo</command> with X.Org Applications"
-msgstr ""
+msgstr "Usando <command>sudo</command> com aplicativos X.Org"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:611
@@ -895,6 +1172,8 @@ msgid ""
 "When starting graphical applications with <command>sudo</command>, you will "
 "encounter the following error:"
 msgstr ""
+"Ao iniciar aplicativos gráficos com <command>sudo</command>, você encontrará "
+"o seguinte erro:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:615
@@ -906,11 +1185,16 @@ msgid ""
 "xterm: DISPLAY is not set\n"
 "      "
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> xterm\n"
+"xterm: Xt erro: Não é possível abrir a tela: %s\n"
+"xterm: DISPLAY não está definido\n"
+"      "
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:620
 msgid "YaST will pick the ncurses interface instead of the graphical one."
-msgstr ""
+msgstr "O YaST selecionará a interface ncurses em vez da interface gráfica."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:623
@@ -921,40 +1205,47 @@ msgid ""
 "sudoers.d/xorg</filename>, (see <xref linkend=\"sec.sudo.conf.edit\"/>) and "
 "add the following line:"
 msgstr ""
+"Para usar o X.Org em aplicativos iniciados com <command>sudo</command>, as "
+"variáveis de ambiente <envar>DISPLAY</envar> e <envar>XAUTHORITY</envar> "
+"precisam ser propagadas. Para configurar isso, crie o arquivo <nome do "
+"arquivo>/etc/sudoers.d/xorg</filename>, (consulte <xref linkend=\""
+"sec.sudo.conf.edit\"/>) e adicione a seguinte linha:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:630
 #, no-wrap
 msgid "Defaults env_keep += \"DISPLAY XAUTHORITY\""
-msgstr ""
+msgstr "Defaults env_keep += \"DISPLAY XAUTHORITY\""
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:631
 msgid ""
 "If not set already, set the <envar>XAUTHORITY</envar> variable as follows:"
 msgstr ""
+"Se ainda não estiver definido, defina a variável <envar>XAUTHORITY</envar> "
+"da seguinte maneira:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:634
 #, no-wrap
 msgid "export XAUTHORITY=~/.Xauthority"
-msgstr ""
+msgstr "export XAUTHORITY=~/.Xauthority"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:635
 msgid "Now X.Org applications can be run as usual:"
-msgstr ""
+msgstr "Agora os aplicativos X.Org podem ser executados como de costume:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:638
 #, no-wrap
 msgid "sudo yast2"
-msgstr ""
+msgstr "sudo yast2"
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:650
 msgid "More Information"
-msgstr ""
+msgstr "Mais Informações"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:652
@@ -964,3 +1255,8 @@ msgid ""
 "information can be found in the man page: <command>man 8 sudo</command>, "
 "while the configuration is documented in <command>man 5 sudoers</command>."
 msgstr ""
+"Uma rápida visão geral sobre as opções de linha de comando disponíveis pode "
+"ser recuperada por <command>sudo --help</command>. Uma explicação e outras "
+"informações importantes podem ser encontradas na página de manual: <command>"
+"man 8 sudo</command>, enquanto a configuração está documentada em <command>"
+"man 5 sudoers</command>."
