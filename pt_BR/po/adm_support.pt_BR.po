@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:22+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_support-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: chapter/title
 #: xml/adm_support.xml:31
 msgid "Gathering System Information for Support"
-msgstr ""
+msgstr "Reunindo informações do sistema para suporte"
 
 #. (itstool) path: abstract/para
 #: xml/adm_support.xml:34
@@ -32,6 +34,14 @@ msgid ""
 "helps system administrators to check for tainted kernels (that are not "
 "supported) or any third-party packages installed on a machine."
 msgstr ""
+"Para uma rápida visão geral de todas as informações relevantes do sistema de "
+"uma máquina, <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase> <phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">O SUSE Linux Enterprise Desktop</phrase></phrase> oferece "
+"o pacote <systemitem class=\"systemname\">hostinfo</systemitem>. Também "
+"ajuda os administradores de sistema a verificar kernels contaminados (que "
+"não são suportados) ou quaisquer pacotes de terceiros instalados em uma "
+"máquina."
 
 #. (itstool) path: abstract/para
 #: xml/adm_support.xml:42
@@ -45,6 +55,14 @@ msgid ""
 "Technical Support. It will help to locate the issue you reported and to "
 "assist you in solving the problem."
 msgstr ""
+"Em caso de problemas, um relatório detalhado do sistema pode ser criado com "
+"a ferramenta de linha de comando <command>supportconfig</command> ou com o "
+"módulo YaST <guimenu>Support</guimenu>. Ambos coletarão informações sobre o "
+"sistema, como: versão atual do kernel, hardware, pacotes instalados, "
+"configuração da partição e muito mais. O resultado é um arquivo TAR de "
+"arquivos. Depois de abrir uma solicitação de serviço (SR), você pode "
+"carregar o arquivo TAR no Suporte Técnico Global. Isso ajudará a localizar o "
+"problema que você relatou e a ajudá-lo a resolvê-lo."
 
 #. (itstool) path: abstract/para
 #: xml/adm_support.xml:53
@@ -56,16 +74,23 @@ msgid ""
 "Enterprise Desktop</phrase></phrase> provides both an appliance and a "
 "command line tool for <literal>Supportconfig Analysis</literal> (SCA)."
 msgstr ""
+"Além disso, você pode analisar a saída <command>supportconfig</command> "
+"quanto a problemas conhecidos para ajudar a resolver problemas mais "
+"rapidamente. Para esse fim, <phrase role=\"productname\"> <phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">O SUSE Linux Enterprise "
+"Desktop</phrase></phrase> fornece um appliance e uma ferramenta de linha de "
+"comando para <literal>Supportconfig Analysis</literal> (SCA)."
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_support.xml:62
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:67
 msgid "Displaying Current System Information"
-msgstr ""
+msgstr "Exibindo informações atuais do sistema"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:69
@@ -76,6 +101,11 @@ msgid ""
 "console displays the following information to any <systemitem class="
 "\"username\">root</systemitem> user that logs in to this machine:"
 msgstr ""
+"Para uma visão geral rápida e fácil de todas as informações relevantes do "
+"sistema ao efetuar login em um servidor, use o pacote <systemitem class=\""
+"systemname\">hostinfo</systemitem>. Depois de instalado em uma máquina, o "
+"console exibe as seguintes informações para qualquer usuário <systemitem "
+"class=\"username\">root</systemitem> que efetua login nesta máquina:"
 
 #. (itstool) path: example/title
 #: xml/adm_support.xml:78
@@ -83,6 +113,8 @@ msgid ""
 "Output of <command>hostinfo</command> When Logging In as <systemitem class="
 "\"username\">root</systemitem>"
 msgstr ""
+"Saída de <command>hostinfo</command> ao efetuar login como <systemitem class="
+"\"username\">root</systemitem>"
 
 #. (itstool) path: example/screen
 #: xml/adm_support.xml:79
@@ -104,6 +136,21 @@ msgid ""
 "Total/Free/+Cache Memory: 983/95/383 MB (38% Free)\n"
 "Hard Disk:                /dev/sda 10 GB"
 msgstr ""
+"Nome da máquina:                 planeta\n"
+"Atual a partir de:            Qua 12 Mar 2014 15:57:05 CET\n"
+"Distribuição:             SUSE Linux Enterprise Server 12\n"
+" -Service Pack:           0\n"
+"Arquitetura:             x86_64\n"
+"Versão do kernel:           3.12.12-3-default\n"
+" -Instalado:              Seg 10 Mar 2014 15:15:05 CET\n"
+" -Status:                 Não contaminado\n"
+"Último pacote atualizado:     Qua 12 Mar 2014 15:56:43 CET\n"
+" -Patches Necessários:         0\n"
+" -Segurança:               0\n"
+" -Pacotes de terceiros:     0\n"
+"Endereço IPv4:             ens3 192.168.1.1\n"
+"Total/Livre/+Memória Cache: 983/95/383 MB (38% Livre)\n"
+"Disco rígido:                /dev/sda 10 GB"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:96
@@ -111,11 +158,13 @@ msgid ""
 "In case the output shows a <literal>tainted</literal> kernel status, see "
 "<xref linkend=\"sec.admsupport.kernel\"/> for more details."
 msgstr ""
+"Caso a saída mostre um status do kernel <literal>contaminado</literal>, "
+"consulte <xref linkend=\"sec.admsupport.kernel\"/> para obter mais detalhes."
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:102
 msgid "Collecting System Information with Supportconfig"
-msgstr ""
+msgstr "Coletando informações do sistema com o Supportconfig"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:103
@@ -123,16 +172,18 @@ msgid ""
 "To create a TAR archive with detailed system information that you can hand "
 "over to Global Technical Support, use either:"
 msgstr ""
+"Para criar um arquivo TAR com informações detalhadas do sistema que você "
+"pode entregar ao Suporte Técnico Global, use:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:109
 msgid "the command <command>supportconfig</command> or,"
-msgstr ""
+msgstr "o comando <command>supportconfig</command> ou,"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:112
 msgid "the YaST <guimenu>Support</guimenu> module."
-msgstr ""
+msgstr "o módulo <guimenu>Suporte</ guimenu> do YaST."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:115
@@ -141,6 +192,10 @@ msgid ""
 "systemitem> which is installed by default. The YaST <guimenu>Support</"
 "guimenu> module is also based on the command line tool."
 msgstr ""
+"A ferramenta de linha de comando é fornecida pelo pacote "
+"<systemitem>supportutils</systemitem>, que é instalado por padrão. O módulo "
+"<guimenu>Suporte</guimenu> do YaST também é baseado na ferramenta de linha "
+"de comando."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:121
@@ -152,11 +207,18 @@ msgid ""
 "that contain a specific plug-in for them. Supportconfig plug-ins are stored "
 "in the directory <filename>/usr/lib/supportconfig/plugins/</filename>."
 msgstr ""
+"Dependendo de quais pacotes estão instalados no seu sistema, alguns desses "
+"pacotes integram os plug-ins do Supportconfig. Quando o Supportconfig é "
+"executado, todos os plug-ins também são executados e criam um ou mais "
+"arquivos de resultados para o archive. Isso tem o benefício de que os únicos "
+"tópicos verificados são aqueles que contêm um plug-in específico para eles. "
+"Os plug-ins do supportconfig são armazenados no diretório <filename>/usr/lib/"
+"supportconfig/plugins/</filename>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:131
 msgid "Creating a Service Request Number"
-msgstr ""
+msgstr "Criando um número de solicitação de serviço"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:132
@@ -166,6 +228,10 @@ msgid ""
 "generate a service request number first. You will need it to upload the "
 "archive to support."
 msgstr ""
+"Os arquivos do supportconfig podem ser gerados a qualquer momento. No "
+"entanto, para entregar os dados do Supportconfig ao Suporte Técnico Global, "
+"você precisa gerar um número de solicitação de serviço primeiro. Você "
+"precisará fazer o upload do arquivo para dar suporte."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:138
@@ -174,11 +240,14 @@ msgid ""
 "support/requests\"/> and follow the instructions on the screen. Write down "
 "your 12-digit service request number."
 msgstr ""
+"Para criar uma solicitação de serviço, vá para <link xlink:href=\""
+"https://scc.suse.com/support/requests\"/> e siga as instruções na tela. "
+"Anote seu número de solicitação de serviço de 12 dígitos."
 
 #. (itstool) path: note/title
 #: xml/adm_support.xml:145
 msgid "Privacy Statement"
-msgstr ""
+msgstr "Declaração de privacidade"
 
 #. (itstool) path: note/para
 #: xml/adm_support.xml:146
@@ -187,11 +256,15 @@ msgid ""
 "about our privacy commitment, see <link xlink:href=\"https://www.suse.com/"
 "company/policies/privacy/\"/>."
 msgstr ""
+"O SUSE e o Micro Focus tratam os relatórios do sistema como dados "
+"confidenciais. Para obter detalhes sobre nosso compromisso de privacidade, "
+"consulte <link xlink: href = \"https://www.suse.com/company/policies/privacy/"
+"\" />."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:155
 msgid "Upload Targets"
-msgstr ""
+msgstr "Carregar destinos"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:156
@@ -201,11 +274,15 @@ msgid ""
 "linkend=\"pro.admsupport.submit.yast\"/> or <xref linkend=\"pro.admsupport."
 "submit.cli\"/>. Use one of the following upload targets:"
 msgstr ""
+"Depois de criar um número de solicitação de serviço, você pode carregar seus "
+"arquivos do Supportconfig no Suporte Técnico Global, conforme descrito em <"
+"xref linkend=\"pro.admsupport.submit.yast\"/> ou <xref linkend=\""
+"pro.admsupport.submit.cli\"/>. Use um dos seguintes destinos de upload:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:192
 msgid "US customers: <link xlink:href=\"ftp://ftp.novell.com/incoming\"/>"
-msgstr ""
+msgstr "Clientes dos EUA: <link xlink:href=\"ftp://ftp.novell.com/incoming\"/>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:197
@@ -213,6 +290,8 @@ msgid ""
 "EMEA, Europe, the Middle East, and Africa: <link xlink:href=\"ftp://support-"
 "ftp.suse.com/in\"/>"
 msgstr ""
+"EMEA, Europa, Oriente Médio e África: <link xlink:href=\"ftp://support-"
+"ftp.suse.com/in\"/>"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:203
@@ -221,21 +300,24 @@ msgid ""
 "request using the service request URL: <link xlink:href=\"https://scc.suse."
 "com/support/requests\"/>."
 msgstr ""
+"Como alternativa, você pode anexar manualmente o arquivo TAR à sua "
+"solicitação de serviço usando o URL da solicitação de serviço: <link xlink: "
+"href=\"https://scc.suse.com/support/requests\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:211
 msgid "Creating a Supportconfig Archive with YaST"
-msgstr ""
+msgstr "Criando um arquivo Supportconfig com o YaST"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:212
 msgid "To use YaST to gather your system information, proceed as follows:"
-msgstr ""
+msgstr "Para usar o YaST para reunir informações do sistema, faça o seguinte:"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:223 xml/adm_support.xml:979
 msgid "Start YaST and open the <guimenu>Support</guimenu> module."
-msgstr ""
+msgstr "Inicie o YaST e abra o módulo <guimenu>Suporte</guimenu>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -245,12 +327,12 @@ msgstr ""
 #: xml/adm_support.xml:229 xml/adm_support.xml:232
 msgctxt "_"
 msgid "external ref='yast2-support-main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2-support-main.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:238
 msgid "Click <guimenu>Create report tarball</guimenu>."
-msgstr ""
+msgstr "Clique em <guimenu>Criar tarball de relatório</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:243
@@ -261,11 +343,18 @@ msgid ""
 "gather a minimum amount of info</guimenu>. For some background information "
 "on the other options, refer to the <command>supportconfig</command> man page."
 msgstr ""
+"Na próxima janela, selecione uma das opções de Supportconfig na lista de "
+"botões de opções. <guimenu>Usar configurações personalizadas "
+"(especializadas)</guimenu> é pré-selecionada por padrão. Se você quiser "
+"testar a função do relatório primeiro, use <guimenu>Apenas colete uma "
+"quantidade mínima de informações</guimenu>. Para obter algumas informações "
+"básicas sobre as outras opções, consulte a página do manual "
+"<command>supportconfig</command>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:251 xml/adm_support.xml:277 xml/adm_support.xml:1010
 msgid "Proceed with <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Prossiga com <guimenu>Próximo</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:256
@@ -274,6 +363,9 @@ msgid ""
 "<filename>basic-environment.txt</filename> and included in the archive to be "
 "created."
 msgstr ""
+"Digite suas informações de contato. Ele será gravado em um arquivo chamado "
+"<filename>basic-environment.txt</filename> e incluído no arquivo a ser "
+"criado."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:263
@@ -284,6 +376,12 @@ msgid ""
 "modify it, refer to <xref linkend=\"sec.admsupport.supportconfig.upload\"/> "
 "for details of which upload servers are available."
 msgstr ""
+"Se você deseja enviar o arquivo ao Suporte Técnico Global no final do "
+"processo de coleta de informações, é necessário <guimenu>Carregar "
+"Informações</guimenu>. O YaST propõe automaticamente um servidor de upload. "
+"Se você deseja modificá-lo, consulte <xref linkend=\""
+"sec.admsupport.supportconfig.upload\"/> para obter detalhes de quais "
+"servidores de upload estão disponíveis."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:271
@@ -291,11 +389,13 @@ msgid ""
 "If you want to submit the archive later on, you can leave the "
 "<guimenu>Upload Information</guimenu> empty for now."
 msgstr ""
+"Se você deseja enviar o arquivo mais tarde, deixe <guimenu>Upload "
+"Information</guimenu> vazio por enquanto."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:282
 msgid "The information gathering begins."
-msgstr ""
+msgstr "A coleta de informações começa."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -305,12 +405,12 @@ msgstr ""
 #: xml/adm_support.xml:288 xml/adm_support.xml:291
 msgctxt "_"
 msgid "external ref='yast2-support-conf.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2-support-conf.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:295
 msgid "After the process is finished, continue with <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Após o término do processo, continue com <guimenu>Avançar</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:300
@@ -320,6 +420,11 @@ msgid ""
 "from the TAR archive before submitting it to support, use <guimenu>Remove "
 "from Data</guimenu>. Continue with <guimenu>Next</guimenu>."
 msgstr ""
+"Revise a coleta de dados: Selecione o <guimenu>Nome do arquivo</guimenu> de "
+"um arquivo de log para visualizar seu conteúdo no YaST. Para remover todos "
+"os arquivos que você deseja excluir do arquivo TAR antes de enviá-lo para o "
+"suporte, use <guimenu>Remover dos dados</guimenu>. Continue com "
+"<guimenu>Próximo</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:309
@@ -331,6 +436,12 @@ msgid ""
 "replaceable>_<replaceable>DATE</replaceable>_<replaceable>TIME</replaceable>."
 "tbz</filename>."
 msgstr ""
+"Salve o arquivo TAR. Se você iniciou o módulo YaST como usuário <systemitem "
+"class=\"filename\">root</systemitem>, por padrão, o YaST propõe salvar o "
+"arquivo em <filename>/var/log</filename> (caso contrário, no diretório "
+"inicial) . O formato do nome do arquivo é <filename>nts_<replaceable>HOST</re"
+"placeable>_<replaceable>DATE</replaceable>_<replaceable>TIME</replaceable>.tb"
+"z</filename>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:318
@@ -342,6 +453,13 @@ msgid ""
 "the upload target, find detailed information of which upload servers are "
 "available in <xref linkend=\"sec.admsupport.supportconfig.upload\"/>."
 msgstr ""
+"Se você deseja fazer upload do arquivo morto para suporte diretamente, "
+"verifique se <guimenu>Carregar arquivos de log tarball no URL</guimenu> está "
+"ativado. O <guimenu>Destino de Upload</guimenu> mostrado aqui é o que o YaST "
+"propõe em <xref linkend=\"st.supportconfig.upload.target\"/>. Se você deseja "
+"modificar o destino do upload, encontre informações detalhadas de quais "
+"servidores de upload estão disponíveis em <xref linkend=\""
+"sec.admsupport.supportconfig.upload\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:329
@@ -349,16 +467,18 @@ msgid ""
 "If you want to skip the upload, deactivate <guimenu>Upload log files tarball "
 "to URL</guimenu>."
 msgstr ""
+"Se você quiser pular o upload, desative <guimenu>Faça upload do tarball dos "
+"arquivos de log para o URL</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:335
 msgid "Confirm your changes to close the YaST module."
-msgstr ""
+msgstr "Confirme suas alterações para fechar o módulo YaST."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:343
 msgid "Creating a Supportconfig Archive from Command Line"
-msgstr ""
+msgstr "Criando um arquivo Supportconfig a partir da linha de comando"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:344
@@ -368,12 +488,17 @@ msgid ""
 "the command with certain options as described in <xref linkend=\"pro."
 "admsupport.submit.cli\"/>."
 msgstr ""
+"O procedimento a seguir mostra como criar um arquivo Supportconfig, mas sem "
+"enviá-lo para suporte diretamente. Para fazer o upload, é necessário "
+"executar o comando com certas opções, conforme descrito em <xref linkend=\""
+"pro.admsupport.submit.cli\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:352
 msgid ""
 "Open a shell and become <systemitem class=\"username\">root</systemitem>."
 msgstr ""
+"Abra um shell e torne-se <systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:357
@@ -382,26 +507,29 @@ msgid ""
 "without any options. Some options are very common and are displayed in the "
 "following list:"
 msgstr ""
+"Execute <command>supportconfig</command>. Geralmente, é suficiente executar "
+"esta ferramenta sem opções. Algumas opções são muito comuns e são exibidas "
+"na seguinte lista:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:364
 msgid "<option>-E <replaceable>MAIL</replaceable></option>"
-msgstr ""
+msgstr "<option>-E <replaceable>EMAIL</replaceable></option>"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:365
 msgid "<option>-N <replaceable>NAME</replaceable></option>"
-msgstr ""
+msgstr "<option>-N <replaceable>NOME</replaceable></option>"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:366
 msgid "<option>-O <replaceable>COMPANY</replaceable></option>"
-msgstr ""
+msgstr "<option>-O <replaceable>EMPRESA</replaceable></option>"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:367
 msgid "<option>-P <replaceable>PHONE</replaceable></option>"
-msgstr ""
+msgstr "<option>-P <replaceable>TELEFONE</replaceable></option>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:369
@@ -410,16 +538,19 @@ msgid ""
 "(<option>-O</option>), your name (<option>-N</option>), and your phone "
 "number (<option>-P</option>)."
 msgstr ""
+"Define seus dados de contato: endereço de email (<opção>-E</option>), nome "
+"da empresa (<opção>-O</option>), seu nome (<opção>-N</ opção>) e seu número "
+"de telefone (<opção>-P</opção>)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:377
 msgid "<option>-i <replaceable>KEYWORDS</replaceable></option>"
-msgstr ""
+msgstr "<option>-i <replaceable>PALAVRAS CHAVE</replaceable></option>"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:378
 msgid "<option>-F</option>"
-msgstr ""
+msgstr "<option>-F</option>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:380
@@ -428,22 +559,28 @@ msgid ""
 "replaceable> is a comma separated list of case-sensitive keywords. Get a "
 "list of all keywords with <command>supportconfig -F</command>."
 msgstr ""
+"Limita os recursos a serem verificados. O espaço reservado "
+"<replaceable>KEYWORDS</replaceable> é uma lista separada por vírgula de "
+"palavras-chave com distinção entre maiúsculas e minúsculas. Obtenha uma "
+"lista de todas as palavras-chave com <command>supportconfig -F</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:388
 msgid "<option>-r <replaceable>SRNUMBER</replaceable></option>"
-msgstr ""
+msgstr "<option>-r<replaceable>NUMERO SR</replaceable></option>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:390
 msgid ""
 "Defines your service request number when uploading the generated TAR archive."
 msgstr ""
+"Define o número da sua solicitação de serviço ao fazer upload do arquivo TAR "
+"gerado."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:399
 msgid "Wait for the tool to complete the operation."
-msgstr ""
+msgstr "Aguarde a ferramenta concluir a operação."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:404
@@ -453,11 +590,14 @@ msgid ""
 "replaceable>_<replaceable>DATE</replaceable>_<replaceable>TIME</replaceable>."
 "tbz</filename>"
 msgstr ""
+"O local padrão do arquivamento é <filename>/var/log</filename>, com o "
+"formato de nome de arquivo <filename>nts_<replaceable>HOST</replaceable>_<rep"
+"laceable>DATE</replaceable>_<replaceable>TIME</replaceable>.tbz </filename>"
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:414
 msgid "Understanding the Output of <command>supportconfig</command>"
-msgstr ""
+msgstr "Compreendendo a saída do <comando>supportconfig</command>"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:415
@@ -465,6 +605,8 @@ msgid ""
 "Wether you run <command>supportconfig</command> through YaST or directly, "
 "the script gives you a summary of what it did."
 msgstr ""
+"Quando você executa o <command>supportconfig</command> através do YaST ou "
+"diretamente, o script fornece um resumo do que ele fez."
 
 #. (itstool) path: sect2/screen
 #: xml/adm_support.xml:419
@@ -497,6 +639,42 @@ msgid ""
 "  Log file md5sum:   bf23e0e15e9382c49f92cbce46000d8b\n"
 "============================================================================="
 msgstr ""
+"                     Support Utilities - Supportconfig\n"
+"                          Versão do script: 3.0-98 \n"
+"                          Data do script: 2017 06 01\n"
+"[...]\n"
+"Reunindo informações do sistema\n"
+"  Diretório dos dados:    /var/log/nts_d251_180201_1525 <co xml:id=\""
+"co.admsupport.script.datadir\"/>\n"
+"\n"
+"  Verificação básica de integridade do servidor...                 Concluído "
+"<co xml:id=\"co.admsupport.script.done\"/>\n"
+"  Base de dados RPM...                              Concluído <xref linkend="
+"\"co.admsupport.script.done\"/>\n"
+"  Ambiente básico...                         Concluído <xref linkend=\""
+"co.admsupport.script.done\"/>\n"
+"  Módulos do sistema...                            Concluído <xref linkend=\""
+"co.admsupport.script.done\"/>\n"
+"[...]\n"
+"  Lista do sistema de arquivos...                          Ignorado <xref "
+"linkend=\"co.admsupport.script.done\"/>\n"
+"[...]\n"
+"  Histórico de comandos...                           Excluido <co xml:id=\""
+"co.admsupport.script.excluded\"/>\n"
+"[...]\n"
+"  Supportconfig Plugins:                       1 <co xml:id=\""
+"co.admsupport.script.plugin\"/>\n"
+"    Plugin: pstree...                          Concluído\n"
+"[...]\n"
+"Criando o tarball\n"
+"\n"
+"==[ CONCLUÍDO "
+"]===================================================================\n"
+"  Tarball do arquivo de log: /var/log/nts_d251_180201_1525.tbz <co xml:id=\""
+"co.admsupport.script.archive\"/>\n"
+"  Tamanho do arquivo de log:     732K\n"
+"  Arquivo de log md5sum:   bf23e0e15e9382c49f92cbce46000d8b\n"
+"============================================================================="
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:453
@@ -504,6 +682,9 @@ msgid ""
 "The temporary data directory to store the results. This directory is "
 "archived as tar file, see <xref linkend=\"co.admsupport.script.archive\"/>."
 msgstr ""
+"O diretório de dados temporário para armazenar os resultados. Este diretório "
+"está arquivado como arquivo tar, consulte <xref linkend=\""
+"co.admsupport.script.archive\"/>."
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:459
@@ -512,6 +693,9 @@ msgid ""
 "executed successfully. The result is stored in a file (see <xref linkend="
 "\"tab.admsupport.features-and-filenames\"/>)."
 msgstr ""
+"O recurso foi ativado (por padrão ou selecionado manualmente) e executado "
+"com sucesso. O resultado é armazenado em um arquivo (consulte <xref linkend="
+"\"tab.admsupport.features-and-nomenames\"/>)."
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:466
@@ -519,6 +703,8 @@ msgid ""
 "The feature was skipped because some files of one or more RPM packages were "
 "changed."
 msgstr ""
+"O recurso foi ignorado porque alguns arquivos de um ou mais pacotes RPM "
+"foram alterados."
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:472
@@ -526,6 +712,8 @@ msgid ""
 "The feature was excluded because it was unselected via the <option>-x</"
 "option> option."
 msgstr ""
+"O recurso foi excluído porque não foi selecionado pela opção "
+"<option>-x</option>."
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:478
@@ -534,6 +722,9 @@ msgid ""
 "command>. The plug-in was found in the directory <filename class=\"directory"
 "\">/usr/lib/supportconfig/plugins/</filename>. See the man page for details."
 msgstr ""
+"O script encontrou um plug-in e executa o plug-in <command>pstree</command>. "
+"O plug-in foi localizado no diretório <filename class=\"directory\">/usr/lib/"
+"supportconfig/plugins/</filename>. Veja a página de manual para detalhes."
 
 #. (itstool) path: callout/para
 #: xml/adm_support.xml:486
@@ -541,11 +732,13 @@ msgid ""
 "The tar file name of the archive, by default compressed with <command>bzip2</"
 "command>."
 msgstr ""
+"O nome do arquivo tar do arquivo compactado, por padrão, compactado com "
+"<command>bzip2</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:494
 msgid "Common Supportconfig Options"
-msgstr ""
+msgstr "Opções comuns do Supportconfig"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:495
@@ -555,27 +748,32 @@ msgid ""
 "<option>-h</option> or refer to the man page. The following list gives a "
 "brief overview of some common use cases:"
 msgstr ""
+"O utilitário <command>supportconfig</command> geralmente é chamado sem "
+"nenhuma opção. Exiba uma lista de todas as opções com "
+"<command>supportconfig</command><option>-h</option> ou consulte a página do "
+"manual. A lista a seguir fornece uma breve visão geral de alguns casos de "
+"uso comuns:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:503
 msgid "Reducing the Size of the Information Being Gathered"
-msgstr ""
+msgstr "Reduzindo o tamanho das informações que estão sendo coletadas"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:505
 msgid "Use the minimal option (<option>-m</option>):"
-msgstr ""
+msgstr "Use a opção mínima (<option>-m</option>):"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:508
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -m"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -m"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:512
 msgid "Limiting the Information to a Specific Topic"
-msgstr ""
+msgstr "Limitando as informações a um tópico específico"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:514
@@ -587,12 +785,19 @@ msgid ""
 "the LVM configuration. In that case it makes sense to gather the minimum "
 "Supportconfig information around LVM only:"
 msgstr ""
+"Se você já localizou um problema relacionado apenas a uma área ou conjunto "
+"de recursos específicos, deve limitar as informações coletadas à área "
+"específica para a próxima execução do <command> supportconfig </command>. "
+"Por exemplo, se você detectou problemas com o LVM e deseja testar uma "
+"alteração recente que você fez na configuração do LVM. Nesse caso, faz "
+"sentido reunir as informações mínimas do Supportconfig apenas em torno do "
+"LVM:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:524
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -i LVM"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -i LVM"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:525
@@ -600,12 +805,15 @@ msgid ""
 "Additional keywords can be separated through commas. For example, an "
 "additional disk test:"
 msgstr ""
+"Palavras-chave adicionais podem ser separadas por vírgulas. Por exemplo, um "
+"teste de disco adicional:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:529
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -i LVM,DISK"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -i LVM,DISK"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:530
@@ -613,39 +821,43 @@ msgid ""
 "For a complete list of feature keywords that you can use for limiting the "
 "collected information to a specific area, run:"
 msgstr ""
+"Para obter uma lista completa das palavras-chave dos recursos que você pode "
+"usar para limitar as informações coletadas a uma área específica, execute:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:534
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -F"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -F"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:538
 msgid "Including Additional Contact Information in the Output:"
-msgstr ""
+msgstr "Incluindo informações adicionais de contato na saída:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:540
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -E tux@example.org -N \"Tux Penguin\" -O \"Penguin Inc.\" ..."
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -E tux@"
+"example.org -N \"Tux Penguin\" -O \"Penguin Inc.\" ..."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:542
 msgid "(all in one line)"
-msgstr ""
+msgstr "(tudo em uma linha)"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:548
 msgid "Collecting Already Rotated Log Files"
-msgstr ""
+msgstr "Coletando arquivos de log já rotacionados"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:550
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -l"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -l"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:551
@@ -653,11 +865,13 @@ msgid ""
 "This is especially useful in high logging environments or after a kernel "
 "crash when syslog rotates the log files after a reboot."
 msgstr ""
+"Isso é especialmente útil em ambientes de alto registro ou após uma falha do "
+"kernel quando o syslog gira os arquivos de log após uma reinicialização."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:560
 msgid "Overview of the Archive Content"
-msgstr ""
+msgstr "Visão geral do conteúdo do arquivo"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:561
@@ -667,6 +881,11 @@ msgid ""
 "more or less files. The set of features can be limited through the <option>-"
 "i</option> option (see <xref linkend=\"sec.admsupport.options\"/>)."
 msgstr ""
+"O arquivo TAR contém todos os resultados dos recursos. Dependendo do que "
+"você selecionou (todo ou apenas um pequeno conjunto), o arquivo morto pode "
+"conter mais ou menos arquivos. O conjunto de recursos pode ser limitado "
+"através da opção <option>-i</option> (consulte <xref linkend=\""
+"sec.admsupport.options\"/>)."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:568
@@ -674,27 +893,32 @@ msgid ""
 "To list the content of the archive, use the following <command>tar</command> "
 "command:"
 msgstr ""
+"Para listar o conteúdo do arquivo, use o seguinte comando "
+"<command>tar</command>:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_support.xml:572
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt><command>tar</command> xf /var/log/nts_earth_180131_1545.tbz"
 msgstr ""
+"<prompt role=\"root\">root # </prompt><command>tar</command> xf /var/log/"
+"nts_earth_180131_1545.tbz"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:573
 msgid "The following file names are always available inside the TAR archive:"
 msgstr ""
+"Os seguintes nomes de arquivo estão sempre disponíveis dentro do arquivo TAR:"
 
 #. (itstool) path: variablelist/title
 #: xml/adm_support.xml:577
 msgid "Minimum Files in Archive"
-msgstr ""
+msgstr "Arquivos mínimos no arquivo"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:579
 msgid "<filename>basic-environment.txt</filename>"
-msgstr ""
+msgstr "<filename>basic-environment.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:581
@@ -702,11 +926,13 @@ msgid ""
 "Contains the date when this script was executed and system information like "
 "version of the distribution, hypervisor information, and more."
 msgstr ""
+"Contém a data em que esse script foi executado e informações do sistema, "
+"como versão da distribuição, informações do hipervisor e mais."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:587
 msgid "<filename>basic-health-check.txt</filename>"
-msgstr ""
+msgstr "<filename>basic-health-check.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:589
@@ -714,11 +940,14 @@ msgid ""
 "Contains some basic health checks like uptime, virtual memory statistics, "
 "free memory and hard disk, checks for zombie processes, and more."
 msgstr ""
+"Contém algumas verificações básicas de funcionamento, como tempo de "
+"atividade, estatísticas da memória virtual, memória livre e disco rígido, "
+"verificações de processos zumbis e muito mais."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:596
 msgid "<filename>hardware.txt</filename>"
-msgstr ""
+msgstr "<filename>hardware.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:598
@@ -727,21 +956,24 @@ msgid ""
 "list of all connected hardware, interrupts, I/O ports, kernel boot messages, "
 "and more."
 msgstr ""
+"Contém verificações básicas de hardware, como informações sobre a "
+"arquitetura da CPU, lista de todos os hardwares conectados, interrupções, "
+"portas de E/S, mensagens de inicialização do kernel e muito mais."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:606
 msgid "<filename>messages.txt</filename>"
-msgstr ""
+msgstr "<filename>messages.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:608
 msgid "Contains log messages from the system journal."
-msgstr ""
+msgstr "Contém mensagens de log do diário do sistema."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:614
 msgid "<filename>rpm.txt</filename>"
-msgstr ""
+msgstr "<filename>rpm.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:616
@@ -749,11 +981,13 @@ msgid ""
 "Contains a list of all installed RPM packages, the name, where they are "
 "coming from, and their versions."
 msgstr ""
+"Contém uma lista de todos os pacotes RPM instalados, o nome, de onde eles "
+"vêm e suas versões."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:621
 msgid "<filename>summary.xml</filename>"
-msgstr ""
+msgstr "<filename>summary.xml</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:623
@@ -761,11 +995,13 @@ msgid ""
 "Contains some information in XML format like distribution, the version, and "
 "product specific fragments."
 msgstr ""
+"Contém algumas informações no formato XML, como distribuição, versão e "
+"fragmentos específicos do produto."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:628
 msgid "<filename>supportconfig.txt</filename>"
-msgstr ""
+msgstr "<filename>supportconfig.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:630
@@ -773,11 +1009,12 @@ msgid ""
 "Contains information about the <command>supportconfig</command> script "
 "itself."
 msgstr ""
+"Contém informações sobre o próprio script <command>supportconfig</command>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:637
 msgid "<filename>y2log.txt</filename>"
-msgstr ""
+msgstr "<filename>y2log.txt</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:639
@@ -785,6 +1022,8 @@ msgid ""
 "Contains YaST specific information like specific packages, configuration "
 "files, and log files."
 msgstr ""
+"Contém informações específicas do YaST, como pacotes específicos, arquivos "
+"de configuração e arquivos de log."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:646
@@ -793,726 +1032,729 @@ msgid ""
 "available features and their file names. Further service packs can extend "
 "the list, as can plug-ins."
 msgstr ""
+"<xref linkend=\"tab.admsupport.features-and-filenames\"/> lista todos os "
+"recursos disponíveis e seus nomes de arquivo. Service packs adicionais podem "
+"estender a lista, assim como os plug-ins."
 
 #. (itstool) path: table/title
 #: xml/adm_support.xml:652
 msgid "Comparison of Features and File Names in the TAR Archive"
-msgstr ""
+msgstr "Comparação de recursos e nomes de arquivos no arquivo TAR"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:656
 msgid "Feature"
-msgstr ""
+msgstr "Característica"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:657
 msgid "File name"
-msgstr ""
+msgstr "Nome do arquivo"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:662
 msgid "<parameter>AFP</parameter>"
-msgstr ""
+msgstr "<parameter>AFP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:663
 msgid "<filename>novell-afp.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-afp.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:666
 msgid "<parameter>APPARMOR</parameter>"
-msgstr ""
+msgstr "<parameter>APPARMOR</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:667
 msgid "<filename>security-apparmor.txt</filename>"
-msgstr ""
+msgstr "<filename>security-apparmor.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:670
 msgid "<parameter>AUDIT</parameter>"
-msgstr ""
+msgstr "<parameter>AUDIT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:671
 msgid "<filename>security-audit.txt</filename>"
-msgstr ""
+msgstr "<filename>security-audit.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:674
 msgid "<parameter>AUTOFS</parameter>"
-msgstr ""
+msgstr "<parameter>AUTOFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:675
 msgid "<filename>fs-autofs.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-autofs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:678
 msgid "<parameter>BOOT</parameter>"
-msgstr ""
+msgstr "<parameter>BOOT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:679
 msgid "<filename>boot.txt</filename>"
-msgstr ""
+msgstr "<filename>boot.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:682
 msgid "<parameter>BTRFS</parameter>"
-msgstr ""
+msgstr "<parameter>BTRFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:683
 msgid "<filename>fs-btrfs.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-btrfs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:686
 msgid "<parameter>DAEMONS</parameter>"
-msgstr ""
+msgstr "<parameter>DAEMONS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:687
 msgid "<filename>chkconfig.txt</filename>"
-msgstr ""
+msgstr "<filename>chkconfig.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:690
 msgid "<parameter>CIFS</parameter>"
-msgstr ""
+msgstr "<parameter>CIFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:691
 msgid "<filename>novell-cifs.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-cifs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:694
 msgid "<parameter>CIMOM</parameter>"
-msgstr ""
+msgstr "<parameter>CIMOM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:695
 msgid "<filename>cimom.txt</filename>"
-msgstr ""
+msgstr "<filename>cimom.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:698
 msgid "<parameter>CRASH</parameter>"
-msgstr ""
+msgstr "<parameter>CRASH</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:699
 msgid "<filename>crash.txt</filename>"
-msgstr ""
+msgstr "<filename>crash.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:702
 msgid "<parameter>CRON</parameter>"
-msgstr ""
+msgstr "<parameter>CRON</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:703
 msgid "<filename>cron.txt</filename>"
-msgstr ""
+msgstr "<filename>cron.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:706
 msgid "<parameter>DFS</parameter>"
-msgstr ""
+msgstr "<parameter>DFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:707
 msgid "<filename>novell-dfs.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-dfs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:710
 msgid "<parameter>DHCP</parameter>"
-msgstr ""
+msgstr "<parameter>DHCP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:711
 msgid "<filename>dhcp.txt</filename>"
-msgstr ""
+msgstr "<filename>dhcp.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:714
 msgid "<parameter>DISK</parameter>"
-msgstr ""
+msgstr "<parameter>DISK</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:715
 msgid "<filename>fs-diskio.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-diskio.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:718
 msgid "<parameter>DNS</parameter>"
-msgstr ""
+msgstr "<parameter>DNS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:719
 msgid "<filename>dns.txt</filename>"
-msgstr ""
+msgstr "<filename>dns.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:722
 msgid "<parameter>DOCKER</parameter>"
-msgstr ""
+msgstr "<parameter>DOCKER</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:723
 msgid "<filename>cocker.txt</filename>"
-msgstr ""
+msgstr "<filename>cocker.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:726
 msgid "<parameter>DRBD</parameter>"
-msgstr ""
+msgstr "<parameter>DRBD</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:727
 msgid "<filename>drbd.txt</filename>"
-msgstr ""
+msgstr "<filename>drbd.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:730
 msgid "<parameter>DSFW</parameter>"
-msgstr ""
+msgstr "<parameter>DSFW</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:731
 msgid "<filename>novell-dsfw.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-dsfw.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:734
 msgid "<parameter>EDIR</parameter>"
-msgstr ""
+msgstr "<parameter>EDIR</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:735
 msgid "<filename>novell-edir.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-edir.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:738
 msgid "<parameter>ENV</parameter>"
-msgstr ""
+msgstr "<parameter>ENV</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:739
 msgid "<filename>env.txt</filename>"
-msgstr ""
+msgstr "<filename>env.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:742
 msgid "<parameter>ETC</parameter>"
-msgstr ""
+msgstr "<parameter>ETC</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:743
 msgid "<filename>etc.txt</filename>"
-msgstr ""
+msgstr "<filename>etc.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:746
 msgid "<parameter>EVMS</parameter>"
-msgstr ""
+msgstr "<parameter>EVMS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:747
 msgid "<filename>evms.txt</filename>"
-msgstr ""
+msgstr "<filename>evms.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:750
 msgid "<parameter>HA</parameter>"
-msgstr ""
+msgstr "<parameter>HA</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:751
 msgid "<filename>ha.txt</filename>"
-msgstr ""
+msgstr "<filename>ha.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:754
 msgid "<parameter>HAPROXY</parameter>"
-msgstr ""
+msgstr "<parameter>HAPROXY</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:755
 msgid "<filename>haproxy.txt</filename>"
-msgstr ""
+msgstr "<filename>haproxy.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:758
 msgid "<parameter>HISTORY</parameter>"
-msgstr ""
+msgstr "<parameter>HISTORY</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:759
 msgid "<filename>shell_history.txt</filename>"
-msgstr ""
+msgstr "<filename>shell_history.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:762
 msgid "<parameter>IB</parameter>"
-msgstr ""
+msgstr "<parameter>IB</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:763
 msgid "<filename>ib.txt</filename>"
-msgstr ""
+msgstr "<filename>ib.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:766
 msgid "<parameter>IMAN</parameter>"
-msgstr ""
+msgstr "<parameter>IMAN</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:767
 msgid "<filename>novell-iman.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-iman.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:770
 msgid "<parameter>ISCSI</parameter>"
-msgstr ""
+msgstr "<parameter>ISCSI</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:771
 msgid "<filename>fs-iscsi.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-iscsi.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:774
 msgid "<parameter>KVM</parameter>"
-msgstr ""
+msgstr "<parameter>KVM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:775
 msgid "<filename>kvm.txt</filename>"
-msgstr ""
+msgstr "<filename>kvm.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:778
 msgid "<parameter>LDAP</parameter>"
-msgstr ""
+msgstr "<parameter>LDAP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:779
 msgid "<filename>ldap.txt</filename>"
-msgstr ""
+msgstr "<filename>ldap.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:782
 msgid "<parameter>LUM</parameter>"
-msgstr ""
+msgstr "<parameter>LUM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:783
 msgid "<filename>novell-lum.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-lum.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:786
 msgid "<parameter>LVM</parameter>"
-msgstr ""
+msgstr "<parameter>LVM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:787
 msgid "<filename>lvm.txt</filename>"
-msgstr ""
+msgstr "<filename>lvm.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:790
 msgid "<parameter>LXC</parameter>"
-msgstr ""
+msgstr "<parameter>LXC</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:791
 msgid "<filename>lxc.txt</filename>"
-msgstr ""
+msgstr "<filename>lxc.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:794
 msgid "<parameter>MEM</parameter>"
-msgstr ""
+msgstr "<parameter>MEM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:795
 msgid "<filename>memory.txt</filename>"
-msgstr ""
+msgstr "<filename>memory.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:798
 msgid "<parameter>MOD</parameter>"
-msgstr ""
+msgstr "<parameter>MOD</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:799
 msgid "<filename>modules.txt</filename>"
-msgstr ""
+msgstr "<filename>modules.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:802
 msgid "<parameter>MPIO</parameter>"
-msgstr ""
+msgstr "<parameter>MPIO</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:803
 msgid "<filename>mpio.txt</filename>"
-msgstr ""
+msgstr "<filename>mpio.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:806
 msgid "<parameter>NCP</parameter>"
-msgstr ""
+msgstr "<parameter>NCP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:807
 msgid "<filename>novell-ncp.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-ncp.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:810
 msgid "<parameter>NCS</parameter>"
-msgstr ""
+msgstr "<parameter>NCS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:811
 msgid "<filename>novell-ncs.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-ncs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:814
 msgid "<parameter>NET</parameter>"
-msgstr ""
+msgstr "<parameter>NET</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:815
 msgid "<filename>network-*.txt</filename>"
-msgstr ""
+msgstr "<filename>network-*.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:818
 msgid "<parameter>NFS</parameter>"
-msgstr ""
+msgstr "<parameter>NFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:819
 msgid "<filename>nfs.txt</filename>"
-msgstr ""
+msgstr "<filename>nfs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:822
 msgid "<parameter>NIT</parameter>"
-msgstr ""
+msgstr "<parameter>NIT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:823
 msgid "<filename>novell-nit.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-nit.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:826
 msgid "<parameter>NSS</parameter>"
-msgstr ""
+msgstr "<parameter>NSS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:827
 msgid "<filename>novell-nss.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-nss.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:830
 msgid "<parameter>NTP</parameter>"
-msgstr ""
+msgstr "<parameter>NTP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:831
 msgid "<filename>ntp.txt</filename>"
-msgstr ""
+msgstr "<filename>ntp.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:834
 msgid "<parameter>OCFS2</parameter>"
-msgstr ""
+msgstr "<parameter>OCFS2</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:835
 msgid "<filename>ocfs2.txt</filename>"
-msgstr ""
+msgstr "<filename>ocfs2.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:838
 msgid "<parameter>OES</parameter>"
-msgstr ""
+msgstr "<parameter>OES</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:839
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:842
 msgid "<parameter>OFILES</parameter>"
-msgstr ""
+msgstr "<parameter>OFILES</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:843
 msgid "<filename>open-files.txt</filename>"
-msgstr ""
+msgstr "<filename>open-files.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:846
 msgid "<parameter>PAM</parameter>"
-msgstr ""
+msgstr "<parameter>PAM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:847
 msgid "<filename>pam.txt</filename>"
-msgstr ""
+msgstr "<filename>pam.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:850
 msgid "<parameter>PRINT</parameter>"
-msgstr ""
+msgstr "<parameter>PRINT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:851
 msgid "<filename>print.txt</filename>"
-msgstr ""
+msgstr "<filename>print.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:854
 msgid "<parameter>PROC</parameter>"
-msgstr ""
+msgstr "<parameter>PROC</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:855
 msgid "<filename>proc.txt</filename>"
-msgstr ""
+msgstr "<filename>proc.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:858
 msgid "<parameter>PROXY</parameter>"
-msgstr ""
+msgstr "<parameter>PROXY</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:859
 msgid "<filename>novell-proxymgmt.txt</filename>"
-msgstr ""
+msgstr "<parameter>PROXY</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:862
 msgid "<parameter>SAM</parameter>"
-msgstr ""
+msgstr "<parameter>SAM</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:863
 msgid "<filename>sam.txt</filename>"
-msgstr ""
+msgstr "<filename>sam.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:866
 msgid "<parameter>SAR</parameter>"
-msgstr ""
+msgstr "<parameter>SAR</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:867
 msgid "<filename>sar.txt</filename>"
-msgstr ""
+msgstr "<filename>sar.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:870
 msgid "<parameter>SLERT</parameter>"
-msgstr ""
+msgstr "<parameter>SLERT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:871
 msgid "<filename>slert.txt</filename>"
-msgstr ""
+msgstr "<filename>slert.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:874
 msgid "<parameter>SLP</parameter>"
-msgstr ""
+msgstr "<parameter>SLP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:875
 msgid "<filename>slp.txt</filename>"
-msgstr ""
+msgstr "<filename>slp.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:878
 msgid "<parameter>SMT</parameter>"
-msgstr ""
+msgstr "<parameter>SMT</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:879
 msgid "<filename>smt.txt</filename>"
-msgstr ""
+msgstr "<filename>smt.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:882
 msgid "<parameter>SMART</parameter>"
-msgstr ""
+msgstr "<parameter>SMART</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:883
 msgid "<filename>fs-smartmon.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-smartmon.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:886
 msgid "<parameter>SMB</parameter>"
-msgstr ""
+msgstr "<parameter>SMB</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:887
 msgid "<filename>samba.txt</filename>"
-msgstr ""
+msgstr "<filename>samba.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:890
 msgid "<parameter>SMS</parameter>"
-msgstr ""
+msgstr "<parameter>SMS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:891
 msgid "<filename>novell-sms.txt</filename>"
-msgstr ""
+msgstr "<filename>novell-sms.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:894
 msgid "<parameter>SRAID</parameter>"
-msgstr ""
+msgstr "<parameter>SRAID</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:895
 msgid "<filename>fs-softraid.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-softraid.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:898
 msgid "<parameter>SSH</parameter>"
-msgstr ""
+msgstr "<parameter>SSH</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:899
 msgid "<filename>ssh.txt</filename>"
-msgstr ""
+msgstr "<filename>ssh.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:902
 msgid "<parameter>SSSD</parameter>"
-msgstr ""
+msgstr "<parameter>SSSD</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:903
 msgid "<filename>sssd.txt</filename>"
-msgstr ""
+msgstr "<filename>sssd.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:906
 msgid "<parameter>SYSCONFIG</parameter>"
-msgstr ""
+msgstr "<parameter>SYSCONFIG</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:907
 msgid "<filename>sysconfig.txt</filename>"
-msgstr ""
+msgstr "<filename>sysconfig.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:910
 msgid "<parameter>SYSFS</parameter>"
-msgstr ""
+msgstr "<parameter>SYSFS</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:911
 msgid "<filename>sysfs.txt</filename>"
-msgstr ""
+msgstr "<filename>sysfs.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:914
 msgid "<parameter>UDEV</parameter>"
-msgstr ""
+msgstr "<parameter>UDEV</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:915
 msgid "<filename>udev.txt</filename>"
-msgstr ""
+msgstr "<filename>udev.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:918
 msgid "<parameter>UFILES</parameter>"
-msgstr ""
+msgstr "<parameter>UFILES</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:919
 msgid "<filename>fs-files-additional.txt</filename>"
-msgstr ""
+msgstr "<filename>fs-files-additional.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:922
 msgid "<parameter>UP</parameter>"
-msgstr ""
+msgstr "<parameter>UP</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:923
 msgid "<filename>updates.txt</filename>"
-msgstr ""
+msgstr "<filename>updates.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:926
 msgid "<parameter>UPD</parameter>"
-msgstr ""
+msgstr "<parameter>UPD</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:927
 msgid "<filename>updates-daemon.txt</filename>"
-msgstr ""
+msgstr "<filename>updates-daemon.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:930
 msgid "<parameter>WEB</parameter>"
-msgstr ""
+msgstr "<parameter>WEB</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:931
 msgid "<filename>web.txt</filename>"
-msgstr ""
+msgstr "<filename>web.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:934
 msgid "<parameter>X</parameter>"
-msgstr ""
+msgstr "<parameter>X</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:935
 msgid "<filename>x.txt</filename>"
-msgstr ""
+msgstr "<filename>x.txt</filename>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:938
 msgid "<parameter>XEN</parameter>"
-msgstr ""
+msgstr "<parameter>XEN</parameter>"
 
 #. (itstool) path: row/entry
 #: xml/adm_support.xml:939
 msgid "<filename>xen.txt</filename>"
-msgstr ""
+msgstr "<filename>xen.txt</filename>"
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:949
 msgid "Submitting Information to Global Technical Support"
-msgstr ""
+msgstr "Enviando informações ao suporte técnico global"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:951
@@ -1524,6 +1766,12 @@ msgid ""
 "request first. For details, see <xref linkend=\"sec.admsupport.supportconfig."
 "sr\"/>."
 msgstr ""
+"Use o módulo YaST <guimenu>Suporte</guimenu> ou o utilitário de linha de "
+"comando <command>supportconfig</command> para enviar informações do sistema "
+"ao Suporte Técnico Global. Quando você tiver um problema no servidor e "
+"desejar a assistência do suporte, precisará abrir uma solicitação de serviço "
+"primeiro. Para obter detalhes, consulte <xref linkend=\""
+"sec.admsupport.supportconfig.sr\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:960
@@ -1533,11 +1781,15 @@ msgid ""
 "<replaceable>12345678901</replaceable> with the service request number you "
 "created in <xref linkend=\"sec.admsupport.supportconfig.sr\"/>."
 msgstr ""
+"Os exemplos a seguir usam <replaceable>12345678901</replaceable> como um "
+"espaço reservado para o seu número de solicitação de serviço. Substitua "
+"<replaceable>12345678901</replaceable> pelo número da solicitação de serviço "
+"que você criou em <xref linkend=\"sec.admsupport.supportconfig.sr\"/>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:968
 msgid "Submitting Information to Support with YaST"
-msgstr ""
+msgstr "Enviando informações para suporte com o YaST"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:969
@@ -1550,11 +1802,18 @@ msgid ""
 "and submit a Supportconfig archive in one go, see <xref linkend=\"sec."
 "admsupport.yast\"/>."
 msgstr ""
+"O procedimento a seguir pressupõe que você já criou um arquivo "
+"Supportconfig, mas ainda não o carregou. Certifique-se de incluir suas "
+"informações de contato no arquivo, conforme descrito em <xref linkend=\""
+"sec.admsupport.yast\"/>, <xref linkend=\"st.supportconfig.contact\" "
+"xrefstyle=\"select: label nopage\"/>. Para obter instruções sobre como gerar "
+"e enviar um arquivo Supportconfig de uma só vez, consulte <xref linkend=\""
+"sec.admsupport.yast\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:984
 msgid "Click <guimenu>Upload</guimenu>."
-msgstr ""
+msgstr "Clique em <guimenu>Carregar</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:989
@@ -1562,6 +1821,8 @@ msgid ""
 "In <guimenu>Package with log files</guimenu> specify the path to the "
 "existing Supportconfig archive or <guimenu>Browse</guimenu> for it."
 msgstr ""
+"No <guimenu>Pacote com arquivos de log</guimenu>, especifique o caminho para "
+"o arquivo Supportconfig existente ou <guimenu>Navegue</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:995
@@ -1570,6 +1831,9 @@ msgid ""
 "refer to <xref linkend=\"sec.admsupport.supportconfig.upload\"/> for details "
 "of which upload servers are available."
 msgstr ""
+"O YaST propõe automaticamente um servidor de upload. Se você deseja modificá-"
+"lo, consulte <xref linkend=\"sec.admsupport.supportconfig.upload\"/> para "
+"obter detalhes de quais servidores de upload estão disponíveis."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1579,17 +1843,17 @@ msgstr ""
 #: xml/adm_support.xml:1003 xml/adm_support.xml:1006
 msgctxt "_"
 msgid "external ref='yast2-support-conf-upload.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2-support-conf-upload.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1021
 msgid "Click <guimenu>Finish</guimenu>."
-msgstr ""
+msgstr "Clique em <guimenu>Concluir</ guimenu>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1028
 msgid "Submitting Information to Support from Command Line"
-msgstr ""
+msgstr "Enviando informações para suporte da linha de comando"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:1029
@@ -1599,49 +1863,59 @@ msgid ""
 "to generate and submit a Supportconfig archive in one go, see <xref linkend="
 "\"sec.admsupport.yast\"/>."
 msgstr ""
+"O procedimento a seguir pressupõe que você já criou um arquivo "
+"Supportconfig, mas ainda não o carregou. Para obter instruções sobre como "
+"gerar e enviar um arquivo Supportconfig de uma só vez, consulte <xref "
+"linkend=\"sec.admsupport.yast\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1036
 msgid "Servers with Internet connectivity:"
-msgstr ""
+msgstr "Servidores com conectividade com a Internet:"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1041
 msgid "To use the default upload target, run:"
-msgstr ""
+msgstr "Para usar o destino de upload padrão, execute:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1044
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -ur <replaceable>12345678901</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -ur "
+"<replaceable>12345678901</replaceable>"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1047
 msgid "For the secure upload target, use the following:"
-msgstr ""
+msgstr "Para o destino de upload seguro, use o seguinte:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1051
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -ar <replaceable>12345678901</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -ar "
+"<replaceable>12345678901</replaceable>"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1056
 msgid "Servers <emphasis>without</emphasis> Internet connectivity"
-msgstr ""
+msgstr "Servidores <emphasis>sem</emphasis> conectividade com a Internet"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1061
 msgid "Run the following:"
-msgstr ""
+msgstr "Execute o seguinte:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1064
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -r <replaceable>12345678901</replaceable>"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -r "
+"<replaceable>12345678901</replaceable>"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1067
@@ -1651,6 +1925,11 @@ msgid ""
 "use depends on your location in the world. For an overview, see <xref "
 "linkend=\"sec.admsupport.supportconfig.upload\"/>."
 msgstr ""
+"Carregue manualmente o arquivo <filename>/var/log/"
+"nts_<replaceable>SR12345678901</replaceable>*tbz</filename> para um de "
+"nossos servidores FTP. Qual usar depende da sua localização no mundo. Para "
+"obter uma visão geral, consulte <xref linkend=\"sec.admsupport.supportconfig."
+"upload\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1078
@@ -1658,11 +1937,13 @@ msgid ""
 "After the TAR archive arrives in the incoming directory of our FTP server, "
 "it becomes automatically attached to your service request."
 msgstr ""
+"Depois que o arquivo TAR chega no diretório de entrada do nosso servidor "
+"FTP, ele é automaticamente anexado à sua solicitação de serviço."
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:1088
 msgid "Analyzing System Information"
-msgstr ""
+msgstr "Analisando informações do sistema"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:1090
@@ -1681,6 +1962,20 @@ msgid ""
 "<command>scatool</command> is running. No analysis cycles happen on the "
 "production server."
 msgstr ""
+"Os relatórios do sistema criados com o <command>supportconfig</command> "
+"podem ser analisados quanto a problemas conhecidos para ajudar a resolver os "
+"problemas mais rapidamente. Para esse fim, <phrase role=\"productname\"> <"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase> <phrase os=\"sled\">O SUSE Linux Enterprise "
+"Desktop</phrase></phrase> fornece um appliance e uma ferramenta de linha de "
+"comando para <literal>Supportconfig Analysis</literal> (SCA). O dispositivo "
+"SCA é uma ferramenta do lado do servidor que não é interativa. A ferramenta "
+"SCA (<command>scatool</command> fornecida pelo pacote <package>sca-server-"
+"report</package>) é executada no lado do cliente e é executada na linha de "
+"comandos. Ambas as ferramentas analisam os arquivos Supportconfig dos "
+"servidores afetados. A análise inicial do servidor ocorre no dispositivo SCA "
+"ou na estação de trabalho em que o <command>scatool</command> está em "
+"execução. Nenhum ciclo de análise acontece no servidor de produção."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:1104
@@ -1691,6 +1986,11 @@ msgid ""
 "a Supportconfig archive for one known issue. The patterns are available as "
 "RPM packages."
 msgstr ""
+"Além disso, o appliance e a ferramenta de linha de comando precisam de "
+"padrões específicos do produto que permitam analisar a saída Supportconfig "
+"dos produtos associados. Cada padrão é um script que analisa e avalia um "
+"arquivo Supportconfig para um problema conhecido. Os padrões estão "
+"disponíveis como pacotes RPM."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:1122
@@ -1698,11 +1998,13 @@ msgid ""
 "You can also develop your own patterns as briefly described in <xref linkend="
 "\"sec.admsupport.sca.patterns\"/>."
 msgstr ""
+"Você também pode desenvolver seus próprios padrões, conforme descrito "
+"brevemente em <xref linkend=\"sec.admsupport.sca.patterns\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:1128
 msgid "SCA Command Line Tool"
-msgstr ""
+msgstr "Ferramenta de Linha de Comando SCA"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1129
@@ -1713,11 +2015,16 @@ msgid ""
 "report showing its analysis results. For an example, see <xref linkend=\"fig."
 "scatool.html\"/>."
 msgstr ""
+"A ferramenta de linha de comando SCA permite analisar uma máquina local "
+"usando o <command> supportconfig </command> e os padrões de análise para o "
+"produto específico que está instalado na máquina local. A ferramenta cria um "
+"relatório HTML mostrando seus resultados de análise. Para um exemplo, "
+"consulte <xref linkend=\"fig.scatool.html\"/>."
 
 #. (itstool) path: figure/title
 #: xml/adm_support.xml:1137
 msgid "HTML Report Generated by SCA Tool"
-msgstr ""
+msgstr "Relatório HTML Gerado pela Ferramenta SCA"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1727,7 +2034,7 @@ msgstr ""
 #: xml/adm_support.xml:1140 xml/adm_support.xml:1143
 msgctxt "_"
 msgid "external ref='sca_tool_report_html.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='sca_tool_report_html.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1147
@@ -1739,6 +2046,12 @@ msgid ""
 "matches the product installed on the machine where you want to run the "
 "<command>scatool</command> command."
 msgstr ""
+"O comando <command>scatool</command> é fornecido pelo pacote <package>sca-"
+"server-report</package>. Não está instalado por padrão. Além disso, você "
+"precisa do pacote <package>sca-patterns-base</package> e de qualquer um dos "
+"pacotes <package>sca-patterns-*</package> específicos do produto que "
+"correspondem ao produto instalado na máquina em que você deseja execute o "
+"comando <command>scatool</command>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1157
@@ -1751,16 +2064,23 @@ msgid ""
 "possible to run <command>supportconfig</command> on an external machine and "
 "to execute the subsequent analysis on the local machine."
 msgstr ""
+"Execute o comando <command>scatool</command> como usuário <systemitem class="
+"\"username\">root</systemitem> ou com <command>sudo</command>. Ao chamar a "
+"ferramenta SCA, analise um arquivo TAR existente "
+"<command>supportconfig</command> TAR ou deixe-o gerar e analisar um novo "
+"archive de uma só vez. A ferramenta também fornece um console interativo com "
+"preenchimento de guias. É possível executar <command>supportconfig</command> "
+"em uma máquina externa e executar a análise subsequente na máquina local."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1166
 msgid "Find some example commands below:"
-msgstr ""
+msgstr "Encontre alguns comandos de exemplo abaixo:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1171
 msgid "<command>sudo scatool</command><option>-s</option>"
-msgstr ""
+msgstr "<command>sudo scatool</command><option>-s</option>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1174
@@ -1772,6 +2092,12 @@ msgid ""
 "the analysis. It is usually written to the same directory where the "
 "Supportconfig archive can be found."
 msgstr ""
+"Chama <command>supportconfig</command> e gera um novo arquivo Supportconfig "
+"na máquina local. Analisa o arquivo para problemas conhecidos aplicando os "
+"padrões de análise SCA que correspondem ao produto instalado. Exibe o "
+"caminho para o relatório HTML gerado a partir dos resultados da análise. "
+"Geralmente, ele é gravado no mesmo diretório em que o arquivo Supportconfig "
+"pode ser encontrado."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1185
@@ -1779,6 +2105,8 @@ msgid ""
 "<command>sudo scatool </command><option>-s</option> <option>-o</"
 "option> <replaceable>/opt/sca/reports/</replaceable>"
 msgstr ""
+"<command>sudo scatool </command><option>-s</option> <option>-o</option> "
+"<replaceable>/opt/sca/reports/</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1188
@@ -1786,6 +2114,8 @@ msgid ""
 "Same as <command>sudo scatool</command> <option>-s</option>, only that the "
 "HTML report is written to the path specified with <option>-o</option>."
 msgstr ""
+"O mesmo que <command>sudo scatool</command> <option>-s</option>, apenas que "
+"o relatório HTML é gravado no caminho especificado com <option>-o</option>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1196
@@ -1793,6 +2123,8 @@ msgid ""
 "<command>sudo scatool </command><option>-a</"
 "option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable>"
 msgstr ""
+"<command>sudo scatool </command><option>-a</option> "
+"<replaceable>CAMINHO_PARA_O_DIRETÓRIO_DO_TARBALL</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1199
@@ -1802,6 +2134,9 @@ msgid ""
 "generated HTML report is saved in the same location as the Supportconfig "
 "archive or directory."
 msgstr ""
+"Analisa o arquivo Supportconfig especificado (ou o diretório especificado "
+"para onde o arquivo do Supportconfig foi extraído). O relatório HTML gerado "
+"é salvo no mesmo local que o arquivo ou diretório Supportconfig."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1208
@@ -1809,6 +2144,8 @@ msgid ""
 "<command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER."
 "COMPANY.COM</replaceable>"
 msgstr ""
+"<command>sudo scatool </command><option>-a</option> "
+"<replaceable>SLES_SERVER.COMPANY.COM</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1211
@@ -1820,11 +2157,18 @@ msgid ""
 "<filename>/var/log</filename> directory. (Only the Supportconfig archive is "
 "created on <replaceable>SLES_SERVER.COMPANY.COM</replaceable>)."
 msgstr ""
+"Estabelece uma conexão SSH com um servidor externo "
+"<replaceable>SLES_SERVER.COMPANY.COM</replaceable> e executa "
+"<command>supportconfig</command> no servidor. O arquivo Supportconfig é "
+"então copiado de volta para a máquina local e analisado lá. O relatório HTML "
+"gerado é salvo no diretório padrão <filename>/var/log</filename>. (Somente o "
+"arquivo Supportconfig é criado em "
+"<replaceable>SLES_SERVER.COMPANY.COM</replaceable>)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1223
 msgid "<command>sudo scatool</command><option>-c</option>"
-msgstr ""
+msgstr "<command>sudo scatool</command><option>-c</option>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1226
@@ -1832,6 +2176,8 @@ msgid ""
 "Starts the interactive console for <command>scatool</command>. Press <keycap "
 "function=\"tab\"/> twice to see the available commands."
 msgstr ""
+"Inicia o console interativo para <command>scatool</command>. Pressione <"
+"keycap function=\"tab\"/> duas vezes para ver os comandos disponíveis."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1233
@@ -1839,11 +2185,13 @@ msgid ""
 "For further options and information, run <command>sudo scatool -h</command> "
 "or see the <command>scatool</command> man page."
 msgstr ""
+"Para obter mais opções e informações, execute <command>sudo scatool "
+"-h</command> ou consulte a página do manual <command>scatool</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:1240
 msgid "SCA Appliance"
-msgstr ""
+msgstr "Dispositivo SCA"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:1241
@@ -1861,11 +2209,24 @@ msgid ""
 "via e-mail. For details, see <xref linkend=\"sec.admsupport.sca.appliance."
 "config.mail\"/>."
 msgstr ""
+"Se você decidir usar o dispositivo SCA para analisar os archive do "
+"Supportconfig, configure um servidor dedicado (ou máquina virtual) como o "
+"servidor do dispositivo SCA. O servidor do dispositivo SCA pode então ser "
+"usado para analisar os arquivos do Supportconfig de todas as máquinas da sua "
+"empresa executando o SUSE Linux Enterprise Server ou o SUSE Linux Enterprise "
+"Desktop. Você pode simplesmente fazer upload de arquivos do Supportconfig no "
+"servidor do dispositivo para análise. Interação não é necessária. Em um "
+"banco de dados MariaDB, o dispositivo SCA controla todos os arquivos do "
+"Supportconfig que foram analisados. Você pode ler os relatórios SCA "
+"diretamente da interface da Web do dispositivo. Como alternativa, você pode "
+"fazer com que o appliance envie o relatório HTML para qualquer usuário "
+"administrativo por email. Para obter detalhes, consulte <xref linkend=\""
+"sec.admsupport.sca.appliance.config.mail\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1255
 msgid "Installation Quick Start"
-msgstr ""
+msgstr "Início Rápido da Instalação"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1256
@@ -1877,17 +2238,23 @@ msgid ""
 "admsupport.sca.appliance.pre\"/> to <xref linkend=\"sec.admsupport.sca."
 "appliance.install\"/>."
 msgstr ""
+"Para instalar e configurar o dispositivo SCA de maneira muito rápida a "
+"partir da linha de comandos, siga as instruções aqui. O procedimento é "
+"destinado a especialistas e se concentra nos comandos de instalação e "
+"configuração simples. Para obter mais informações, consulte a descrição mais "
+"detalhada em <xref linkend=\"sec.admsupport.sca.appliance.pre\"/>a<xref "
+"linkend=\"sec.admsupport.sca.appliance.install\"/>."
 
 #. (itstool) path: itemizedlist/title
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1267 xml/adm_support.xml:1353
 msgid "Prerequisites"
-msgstr ""
+msgstr "Pré-requisitos"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1269
 msgid "Web and LAMP Pattern"
-msgstr ""
+msgstr "Padrão Web e LAMP"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1274
@@ -1895,11 +2262,14 @@ msgid ""
 "Web and Scripting Module (you must register the machine to be able to select "
 "this module)."
 msgstr ""
+"Módulo Web e script (você deve registrar a máquina para poder selecionar "
+"este módulo)."
 
 #. (itstool) path: note/title
 #: xml/adm_support.xml:1281
 msgid "<systemitem class=\"username\">root</systemitem> Privileges Required"
 msgstr ""
+"<systemitem class=\"username\">root</systemitem> Privilégios necessários"
 
 #. (itstool) path: note/para
 #: xml/adm_support.xml:1282
@@ -1907,11 +2277,13 @@ msgid ""
 "All commands in the following procedure must be run as <systemitem class="
 "\"username\">root</systemitem>."
 msgstr ""
+"Todos os comandos no procedimento a seguir devem ser executados como <"
+"systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1287
 msgid "Installation Using Anonymous FTP for Upload"
-msgstr ""
+msgstr "Instalação usando FTP anônimo para upload"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:1288
@@ -1920,6 +2292,10 @@ msgid ""
 "required. This way of setting up the appliance is therefore ideal for using "
 "cron jobs to create and upload Supportconfig archives."
 msgstr ""
+"Depois que o dispositivo estiver configurado e funcionando, não será "
+"necessária mais interação manual. Portanto, essa maneira de configurar o "
+"dispositivo é ideal para usar tarefas cron para criar e fazer upload de "
+"arquivos do Supportconfig."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1294
@@ -1927,6 +2303,8 @@ msgid ""
 "On the machine on which to install the appliance, log in to a console and "
 "execute the following commands:"
 msgstr ""
+"Na máquina na qual instalar o dispositivo, efetue login em um console e "
+"execute os seguintes comandos:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1298
@@ -1939,6 +2317,13 @@ msgid ""
 "systemctl start vsftpd\n"
 "yast ftp-server"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-"
+"appliance-* sca-patterns-* vsftpd\n"
+"systemctl enable apache2\n"
+"systemctl start apache2\n"
+"systemctl enable vsftpd\n"
+"systemctl start vsftpd\n"
+"yast ftp-server"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1306
@@ -1948,11 +2333,16 @@ msgid ""
 "<guimenu>Finish</guimenu> <guimenu>Yes</guimenu> </menuchoice> to "
 "<guimenu>Create /srv/ftp/upload</guimenu>."
 msgstr ""
+"No servidor FTP do YaST, selecione "
+"<menuchoice><guimenu>Autenticação</guimenu><guimenu>Ativar "
+"upload</guimenu><guimenu>Anônimo pode carregar</guimenu><guimenu>Concluir</gu"
+"imenu><guimenu>Sim</guimenu></menuchoice> para <guimenu>Crie /srv/ftp/"
+"upload</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1315 xml/adm_support.xml:1339
 msgid "Execute the following commands:"
-msgstr ""
+msgstr "Execute os seguintes comandos:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1318
@@ -1963,6 +2353,10 @@ msgid ""
 "mysql_secure_installation\n"
 "setup-sca -f"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl enable mysql\n"
+"systemctl start mysql\n"
+"mysql_secure_installation\n"
+"setup-sca -f"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1322
@@ -1970,11 +2364,13 @@ msgid ""
 "The mysql_secure_installation will create a MariaDB <systemitem class="
 "\"username\">root</systemitem> password."
 msgstr ""
+"O mysql_secure_installation criará uma senha MariaDB <systemitem class=\""
+"username\">root</systemitem>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1328
 msgid "Installation Using SCP/tmp for Upload"
-msgstr ""
+msgstr "Instalação usando SCP/tmp para upload"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:1329
@@ -1982,11 +2378,14 @@ msgid ""
 "This way of setting up the appliance requires manual interaction when typing "
 "the SSH password."
 msgstr ""
+"Essa maneira de configurar o dispositivo requer interação manual ao digitar "
+"a senha SSH."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1334
 msgid "On the machine on which to install the appliance, log in to a console."
 msgstr ""
+"Na máquina na qual o dispositivo será instalado, efetue login no console."
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1342
@@ -2000,16 +2399,26 @@ msgid ""
 "mysql_secure_installation\n"
 "setup-sca"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-"
+"appliance-* sca-patterns-*\n"
+"systemctl enable apache2\n"
+"systemctl start apache2\n"
+"sudo systemctl enable mysql\n"
+"systemctl start mysql\n"
+"mysql_secure_installation\n"
+"setup-sca"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1354
 msgid "To run an SCA appliance server, you need the following prerequisites:"
 msgstr ""
+"Para executar um servidor de dispositivo SCA, você precisa dos seguintes "
+"pré-requisitos:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1359
 msgid "All <systemitem>sca-appliance-*</systemitem> packages."
-msgstr ""
+msgstr "Todos os pacotes <systemitem>sca-appliance-*</systemitem>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1364
@@ -2019,31 +2428,35 @@ msgid ""
 "patterns-*</systemitem> for the type of Supportconfig archives that you want "
 "to analyze with the appliance."
 msgstr ""
+"O pacote <systemitem class=\"resource\">sca-patterns-base</systemitem>. Além "
+"disso, qualquer um dos <systemitem class=\"resource\">sca-"
+"patterns-*</systemitem> específico do produto para o tipo de archive "
+"Supportconfig que você deseja analisar com o dispositivo."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1372
 msgid "Apache"
-msgstr ""
+msgstr "Apache"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1377
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1382
 msgid "MariaDB"
-msgstr ""
+msgstr "MariaDB"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1387
 msgid "anonymous FTP server (optional)"
-msgstr ""
+msgstr "servidor FTP anônimo (opcional)"
 
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1394
 msgid "Installation and Basic Setup"
-msgstr ""
+msgstr "Instalação e configuração básica"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1395
@@ -2053,6 +2466,10 @@ msgid ""
 "so some preparations before installing and setting up the SCA appliance "
 "server:"
 msgstr ""
+"Conforme listado em <xref linkend=\"sec.admsupport.sca.appliance.pre\"/>, o "
+"dispositivo SCA possui várias dependências em outros pacotes. Portanto, você "
+"precisa fazer algumas preparações antes de instalar e configurar o servidor "
+"de dispositivo SCA:"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1403
@@ -2060,6 +2477,8 @@ msgid ""
 "For Apache and MariaDB, install the <systemitem>Web</systemitem> and "
 "<systemitem>LAMP</systemitem> installation patterns."
 msgstr ""
+"Para Apache e MariaDB, instale os padrões de instalação "
+"<systemitem>Web</systemitem> e <systemitem>LAMP</systemitem>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1409
@@ -2068,28 +2487,36 @@ msgid ""
 "\"sles\"> For more information, see <xref linkend=\"cha.apache2\"/> and "
 "<xref linkend=\"cha.ftp\"/>. </phrase>"
 msgstr ""
+"Configure o Apache, o MariaDB e, opcionalmente, um servidor FTP anônimo. <"
+"phrase os=\"sles\"> Para obter mais informações, consulte <xref linkend=\""
+"cha.apache2\"/> e <xref linkend=\"cha.ftp\"/>. </phrase>"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1416
 msgid "Configure Apache and MariaDB to start at boot time:"
 msgstr ""
+"Configure o Apache e o MariaDB para iniciar no momento da inicialização:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1419
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl enable apache2 mysql"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl enable apache2 "
+"mysql"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1422
 msgid "Start both services:"
-msgstr ""
+msgstr "Inicie os dois serviços:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1425
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl start apache2 mysql"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl start apache2 "
+"mysql"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1428
@@ -2097,11 +2524,13 @@ msgid ""
 "Now you can install the SCA appliance and set it up as described in <xref "
 "linkend=\"pro.sca.appl.install\"/>."
 msgstr ""
+"Agora você pode instalar o dispositivo SCA e configurá-lo conforme descrito "
+"em <xref linkend=\"pro.sca.appl.install\"/>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1433
 msgid "Installing and Configuring the SCA Appliance"
-msgstr ""
+msgstr "Instalando e configurando o dispositivo SCA"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:1434
@@ -2110,6 +2539,9 @@ msgid ""
 "for the basic configuration of the MariaDB administration and report "
 "database that is used by the SCA appliance."
 msgstr ""
+"Após instalar os pacotes, use o script <command>setup-sca</command> para a "
+"configuração básica do banco de dados de administração e relatório do "
+"MariaDB usado pelo dispositivo SCA."
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:1439
@@ -2117,27 +2549,32 @@ msgid ""
 "It can be used to configure the following options you have for uploading the "
 "Supportconfig archives from your machines to the SCA appliance:"
 msgstr ""
+"Ele pode ser usado para configurar as seguintes opções disponíveis para "
+"fazer upload dos arquivos do Supportconfig de suas máquinas para o "
+"dispositivo SCA:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1445
 msgid "<command>scp</command>"
-msgstr ""
+msgstr "<command>scp</command>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1450
 msgid "anonymous FTP server"
-msgstr ""
+msgstr "servidor FTP anônimo"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1456
 msgid "Install the appliance and the SCA base-pattern library:"
-msgstr ""
+msgstr "Instale o dispositivo e a biblioteca de padrões base SCA:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1459
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-appliance-* sca-patterns-base"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-"
+"appliance-* sca-patterns-base"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1462
@@ -2148,17 +2585,24 @@ msgid ""
 "install both the <systemitem>sca-patterns-sle12</systemitem> and "
 "<systemitem>sca-patterns-sle15</systemitem> packages."
 msgstr ""
+"Além disso, instale os pacotes de padrões para os tipos de arquivos do "
+"Supportconfig que você deseja analisar. Por exemplo, se você tiver "
+"servidores SUSE Linux Enterprise Server 12 e SUSE Linux Enterprise Server 15 "
+"em seu ambiente, instale os <systemitem>sca-patterns-sle12</systemitem> e o "
+"<systemitem>sca-patterns-sle15</systemitem> pacotes."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1469
 msgid "To install all available patterns:"
-msgstr ""
+msgstr "Para instalar todos os padrões disponíveis:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1472
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-patterns-*"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> zypper install sca-"
+"patterns-*"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1475
@@ -2167,6 +2611,9 @@ msgid ""
 "script. How to call it depends on how you want to upload the Supportconfig "
 "archives to the SCA appliance server:"
 msgstr ""
+"Para configuração básica do dispositivo SCA, use o script <command> setup-"
+"sca </command>. Como chamá-lo depende de como você deseja fazer upload dos "
+"arquivos archive Supportconfig no servidor do dispositivo SCA:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1482
@@ -2175,17 +2622,20 @@ msgid ""
 "ftp/upload</filename> directory, execute the setup script with the <option>-"
 "f</option> option. Follow the instructions on the screen:"
 msgstr ""
+"Se você configurou um servidor FTP anônimo que usa o diretório <filename>/"
+"srv/ftp/upload</filename>, execute o script de instalação com a opção "
+"<option>-f</option>. Siga as instruções na tela:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:1488
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> setup-sca -f"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> setup-sca -f"
 
 #. (itstool) path: note/title
 #: xml/adm_support.xml:1490
 msgid "FTP Server Using Another Directory"
-msgstr ""
+msgstr "Servidor FTP usando outro diretório"
 
 #. (itstool) path: note/para
 #: xml/adm_support.xml:1491
@@ -2195,6 +2645,10 @@ msgid ""
 "to the correct directory: <filename>/etc/sca/sdagent.conf</filename> and "
 "<filename>/etc/sca/sdbroker.conf</filename> ."
 msgstr ""
+"Se o seu servidor FTP usa outro diretório que não <filename>/srv/ftp/"
+"upload</filename>, ajuste os seguintes arquivos de configuração primeiro "
+"para fazê-los apontar para o diretório correto: <filename>/etc/sca/"
+"sdagent.conf</filename> e <filename>/etc/sca/sdbroker.conf</filename>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1501
@@ -2203,12 +2657,16 @@ msgid ""
 "directory of the SCA appliance server via <command>scp</command>, call the "
 "setup script without any parameters. Follow the instructions on the screen:"
 msgstr ""
+"Se você deseja fazer upload de arquivos Supportconfig no diretório "
+"<filename>/tmp</filename> do servidor do dispositivo SCA por meio de "
+"<command>scp</command>, chame o script de configuração sem nenhum parâmetro. "
+"Siga as instruções na tela:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:1507
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> setup-sca"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> setup-sca"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1510
@@ -2219,6 +2677,11 @@ msgid ""
 "that you have set up, and a Web user password with which to log in to the "
 "Web interface of the SCA appliance."
 msgstr ""
+"O script de instalação executa algumas verificações em relação a seus "
+"requisitos e configura os componentes necessários. Ele solicitará duas "
+"senhas: a senha do MySQL <systemitem class=\"username\">root</systemitem> do "
+"MariaDB que você configurou e uma senha de usuário da Web com a qual efetuar "
+"login na interface da Web do SCA utensílio."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1519
@@ -2226,6 +2689,9 @@ msgid ""
 "Enter the existing MariaDB <systemitem class=\"username\">root</systemitem> "
 "password. It will allow the SCA appliance to connect to the MariaDB."
 msgstr ""
+"Digite a senha existente do MariaDB <systemitem class=\"username\""
+">root</systemitem>. Isso permitirá que o dispositivo SCA se conecte ao "
+"MariaDB."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1525
@@ -2236,6 +2702,11 @@ msgid ""
 "password can be changed at any time later, see <xref linkend=\"sec."
 "admsupport.sca.appliance.config.passwd\"/>."
 msgstr ""
+"Defina uma senha para o usuário da Web. Ele será gravado em <filename>/srv/"
+"www/htdocs/sca/web-config.php</filename> e será definido como a senha do "
+"usuário <systemitem class=\"username\">scdiag</systemitem>. O nome de "
+"usuário e a senha podem ser alterados a qualquer momento posteriormente, "
+"consulte <xref linkend=\"sec.admsupport.sca.appliance.config.passwd\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1538
@@ -2247,11 +2718,17 @@ msgid ""
 "archiving mode or configuring e-mail notifications. For details on that, see "
 "<xref linkend=\"sec.admsupport.sca.appliance.config\"/>."
 msgstr ""
+"Após a instalação e configuração bem-sucedidas, o dispositivo SCA está "
+"pronto para uso, consulte <xref linkend=\"sec.admsupport.sca.appliance.use\""
+"/>. No entanto, você deve modificar algumas opções, como alterar a senha da "
+"interface da Web, alterar a origem das atualizações do padrão SCA, ativar o "
+"modo de arquivamento ou configurar as notificações por email. Para detalhes "
+"sobre isso, consulte <xref linkend=\"sec.admsupport.sca.appliance.config\"/>."
 
 #. (itstool) path: warning/title
 #: xml/adm_support.xml:1547
 msgid "Data Protection"
-msgstr ""
+msgstr "Proteção de dados"
 
 #. (itstool) path: warning/para
 #: xml/adm_support.xml:1548
@@ -2260,11 +2737,14 @@ msgid ""
 "information, make sure to protect the data on the SCA appliance server "
 "against unauthorized access."
 msgstr ""
+"Como os relatórios no servidor do dispositivo SCA contêm informações "
+"relevantes à segurança, proteja os dados no servidor do dispositivo SCA "
+"contra acesso não autorizado."
 
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1557
 msgid "Using the SCA Appliance"
-msgstr ""
+msgstr "Usando o dispositivo SCA"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1558
@@ -2276,34 +2756,44 @@ msgid ""
 "server needs to be configured for the SCA appliance, see <xref linkend=\"pro."
 "sca.appl.install\"/>."
 msgstr ""
+"É possível fazer upload de arquivos do Supportconfig existentes no "
+"dispositivo SCA manualmente ou criar novos arquivos do Supportconfig e "
+"carregá-los no dispositivo SCA em uma etapa. O upload pode ser feito via FTP "
+"ou SCP. Para ambos, você precisa saber a URL onde o dispositivo SCA pode ser "
+"acessado. Para fazer upload via FTP, um servidor FTP precisa ser configurado "
+"para o dispositivo SCA, consulte <xref linkend=\"pro.sca.appl.install\"/>."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1567
 msgid "Uploading Supportconfig Archives to the SCA Appliance"
-msgstr ""
+msgstr "Fazendo Upload de Arquivos do Supportconfig no Dispositivo SCA"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1571
 msgid ""
 "For creating a Supportconfig archive and uploading it via (anonymous) FTP:"
-msgstr ""
+msgstr "Para criar um arquivo Supportconfig e enviá-lo via FTP (anônimo):"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:1575
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -U “ftp://<replaceable>SCA-APPLIANCE.COMPANY.COM</replaceable>/upload”"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -U "
+"“ftp://<replaceable>SCA-APPLIANCE.COMPANY.COM</replaceable>/upload”"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1578
 msgid "For creating a Supportconfig archive and uploading it via SCP:"
-msgstr ""
+msgstr "Para criar um arquivo Supportconfig e enviá-lo via SCP:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_support.xml:1581
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -U “scp://<replaceable>SCA-APPLIANCE.COMPANY.COM</replaceable>/tmp”"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> supportconfig -U "
+"“scp://<replaceable>SCA-APPLIANCE.COMPANY.COM</replaceable>/tmp”"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1582
@@ -2311,6 +2801,9 @@ msgid ""
 "You will be prompted for the <systemitem class=\"username\">root</"
 "systemitem> user password of the server running the SCA appliance."
 msgstr ""
+"Você será solicitado a fornecer a senha do usuário <systemitem class=\""
+"username\">root</systemitem> do servidor que está executando o dispositivo "
+"SCA."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1588
@@ -2321,11 +2814,17 @@ msgid ""
 "tmp</filename> directory or the <filename>/srv/ftp/upload</filename> "
 "directory (if FTP is configured for the SCA appliance server)."
 msgstr ""
+"Se você desejar fazer upload manualmente de um ou vários archive, copie os "
+"arquivos existentes (geralmente localizados em <filename>/var/log/"
+"nts_*.tbz</filename>) no dispositivo SCA. Como destino, use o diretório "
+"<filename>/tmp</filename> do servidor do dispositivo ou o diretório "
+"<filename>/srv/ftp/upload</filename> (se o FTP estiver configurado para o "
+"servidor do dispositivo SCA)."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1600
 msgid "Viewing SCA Reports"
-msgstr ""
+msgstr "Visualizando relatórios SCA"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1601
@@ -2333,38 +2832,45 @@ msgid ""
 "SCA reports can be viewed from any machine that has a browser installed and "
 "can access the report index page of the SCA appliance."
 msgstr ""
+"Os relatórios SCA podem ser visualizados em qualquer máquina que tenha um "
+"navegador instalado e podem acessar a página de índice de relatório do "
+"dispositivo SCA."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1607
 msgid ""
 "Start a Web browser and make sure that JavaScript and cookies are enabled."
 msgstr ""
+"Inicie um navegador da Web e verifique se o JavaScript e os cookies estão "
+"ativados."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1613
 msgid "As a URL, enter the report index page of the SCA appliance."
 msgstr ""
+"Inicie um navegador da Web e verifique se o JavaScript e os cookies estão "
+"ativados."
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1616
 #, no-wrap
 msgid "https://sca-appliance.company.com/sca"
-msgstr ""
+msgstr "https://sca-appliance.company.com/sca"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1617
 msgid "If in doubt, ask your system administrator."
-msgstr ""
+msgstr "Em caso de dúvida, pergunte ao administrador do sistema."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1622
 msgid "You will be prompted for a user name and a password to log in."
-msgstr ""
+msgstr "Você será solicitado a inserir um nome de usuário e uma senha."
 
 #. (itstool) path: figure/title
 #: xml/adm_support.xml:1626
 msgid "HTML Report Generated by SCA Appliance"
-msgstr ""
+msgstr "Relatório HTML Gerado pelo Dispositivo SCA"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2374,17 +2880,18 @@ msgstr ""
 #: xml/adm_support.xml:1629 xml/adm_support.xml:1632
 msgctxt "_"
 msgid "external ref='sca_appl_report_html.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='sca_appl_report_html.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1638
 msgid "After logging in, click the date of the report you want to read."
-msgstr ""
+msgstr "Após o login, clique na data do relatório que você deseja ler."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1643
 msgid "Click the <guimenu>Basic Health</guimenu> category first to expand it."
 msgstr ""
+"Clique na categoria <guimenu>Saúde básica</guimenu> primeiro para expandi-la."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1648
@@ -2393,6 +2900,9 @@ msgid ""
 "opens the corresponding article in the SUSE Knowledge base. Read the "
 "proposed solution and follow the instructions."
 msgstr ""
+"Na coluna <guimenu>Mensagem</guimenu>, clique em uma entrada individual. "
+"Isso abre o artigo correspondente na base de conhecimento do SUSE. Leia a "
+"solução proposta e siga as instruções."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1656
@@ -2401,6 +2911,9 @@ msgid ""
 "Analysis Report</guimenu> shows any additional entries, click them. Read the "
 "proposed solution and follow the instructions."
 msgstr ""
+"Se a coluna <guimenu>Soluções</guimenu> do <guimenu> Relatório de análise de "
+"configuração do suporte </guimenu> mostrar entradas adicionais, clique "
+"nelas. Leia a solução proposta e siga as instruções."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1664
@@ -2409,17 +2922,22 @@ msgid ""
 "support/kb/\"/>) for results that directly relate to the problem identified "
 "by SCA. Work at resolving them."
 msgstr ""
+"Verifique a base de conhecimento do SUSE (<link xlink:href=\"http://www.suse."
+"com/support/kb/\"/>)) para obter resultados diretamente relacionados ao "
+"problema identificado pelo SCA. Trabalhe para resolvê-los."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1672
 msgid ""
 "Check for results that can be addressed proactively to avoid future problems."
 msgstr ""
+"Verifique os resultados que podem ser abordados de forma proativa para "
+"evitar problemas futuros."
 
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1681
 msgid "Customizing the SCA Appliance"
-msgstr ""
+msgstr "Customizando o dispositivo SCA"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1682
@@ -2428,11 +2946,14 @@ msgid ""
 "interface, how to change the source for the SCA pattern updates, how to "
 "enable archiving mode, and how to configure e-mail notifications."
 msgstr ""
+"As seções a seguir mostram como alterar a senha da interface da Web, como "
+"alterar a origem das atualizações do padrão SCA, como ativar o modo de "
+"arquivamento e como configurar as notificações por email."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1688
 msgid "Password for the Web Interface"
-msgstr ""
+msgstr "Senha para a interface da Web"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1689
@@ -2444,11 +2965,17 @@ msgid ""
 "to a secure password at the earliest possibility. You can also modify the "
 "user name."
 msgstr ""
+"A interface da Web do SCA Appliance requer um nome de usuário e senha para "
+"efetuar login. O nome de usuário padrão é <literal>scdiag</literal> e a "
+"senha padrão é <literal>linux</literal> (se não especificado de outra forma, "
+"consulte <xref linkend=\"pro.sca.appl.install\"/>). Altere a senha padrão "
+"para uma senha segura o mais cedo possível. Você também pode modificar o "
+"nome do usuário."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1698
 msgid "Changing User Name or Password for the Web Interface"
-msgstr ""
+msgstr "Alterando nome de usuário ou senha para a interface da Web"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1700 xml/adm_support.xml:1746 xml/adm_support.xml:1789
@@ -2457,12 +2984,15 @@ msgid ""
 "Log in as <systemitem class=\"username\">root</systemitem> user at the "
 "system console of the SCA appliance server."
 msgstr ""
+"Efetue login como usuário <systemitem class=\"username\">root</systemitem> "
+"no console do sistema do servidor do dispositivo SCA."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1706
 msgid ""
 "Open <filename>/srv/www/htdocs/sca/web-config.php</filename> in an editor."
 msgstr ""
+"Abra <filename>/srv/www/htdocs/sca/web-config.php</filename> em um editor."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1712
@@ -2470,16 +3000,18 @@ msgid ""
 "Change the values of <literal>$username</literal> and <literal>$password</"
 "literal> as desired."
 msgstr ""
+"Altere os valores de <literal>$ username </literal> e "
+"<literal>$password</literal> conforme desejado."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1718
 msgid "Save the file and exit."
-msgstr ""
+msgstr "Salve o arquivo e saia."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1725
 msgid "Updates of SCA Patterns"
-msgstr ""
+msgstr "Atualizações dos padrões SCA"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1726
@@ -2491,12 +3023,20 @@ msgid ""
 "command>. A regular system update will update all SCA appliance and pattern "
 "packages. To update the SCA appliance and patterns manually, run:"
 msgstr ""
+"Por padrão, todos os pacotes <systemitem class=\"resource\">sca-"
+"patterns-*</systemitem> são atualizados regularmente por um trabalho cron <"
+"systemitem class=\"username\">root</systemitem> que executa a tarefa cron do "
+"<filename>sdagent-script de patterns</filename> todas as noites, que, por "
+"sua vez, executa o <command>zypper update sca-patterns-*</command>. Uma "
+"atualização regular do sistema atualizará todos os pacotes de dispositivos e "
+"padrões SCA. Para atualizar o dispositivo e os padrões SCA manualmente, "
+"execute:"
 
 #. (itstool) path: sect4/screen
 #: xml/adm_support.xml:1734
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> zypper update sca-*"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> zypper update sca-*"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1735
@@ -2509,38 +3049,46 @@ msgid ""
 "gets the updates from the currently configured update channel. If that "
 "channel is located on an RMT server, the packages will be pulled from there."
 msgstr ""
+"As atualizações são instaladas na atualização do SUSE Linux Enterprise <"
+"phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\""
+"sles; sled\"> atualização de 15 </phrase></phrase> repositório por padrão. "
+"Você pode alterar a fonte das atualizações para um servidor RMT, se "
+"desejado. Quando o <filename>sdagent-patterns</filename> executa o <command>"
+"zypper update sca-patterns-*</command>, ele obtém as atualizações do canal "
+"de atualização configurado no momento. Se esse canal estiver localizado em "
+"um servidor RMT, os pacotes serão extraídos de lá."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1744
 msgid "Disabling Automatic Updates of SCA Patterns"
-msgstr ""
+msgstr "Desativando atualizações automáticas de padrões SCA"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1752
 msgid "Open <filename>/etc/sca/sdagent-patterns.conf</filename> in an editor."
-msgstr ""
+msgstr "Abra <filename>/etc/sca/sdagent-patterns.conf</filename> em um editor."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1760 xml/adm_support.xml:1800
 msgid "Change the entry"
-msgstr ""
+msgstr "Altere a entrada"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1763
 #, no-wrap
 msgid "UPDATE_FROM_PATTERN_REPO=1"
-msgstr ""
+msgstr "UPDATE_FROM_PATTERN_REPO=1"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1764 xml/adm_support.xml:1804
 msgid "to"
-msgstr ""
+msgstr "para"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1767
 #, no-wrap
 msgid "UPDATE_FROM_PATTERN_REPO=0"
-msgstr ""
+msgstr "UPDATE_FROM_PATTERN_REPO=0"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1770 xml/adm_support.xml:1810
@@ -2548,11 +3096,13 @@ msgid ""
 "Save the file and exit. The machine does not require any restart to apply "
 "the change."
 msgstr ""
+"Salve o arquivo e saia. A máquina não requer reinicialização para aplicar a "
+"alteração."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1778
 msgid "Archiving Mode"
-msgstr ""
+msgstr "Modo de arquivamento"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1779
@@ -2563,28 +3113,33 @@ msgid ""
 "copies of Supportconfig archives from a machine. By default, archiving mode "
 "is disabled."
 msgstr ""
+"Todos os arquivos do Supportconfig são excluídos do dispositivo SCA após "
+"serem analisados e seus resultados armazenados no banco de dados MariaDB. No "
+"entanto, para fins de solução de problemas, pode ser útil manter cópias dos "
+"arquivos do Supportconfig de uma máquina. Por padrão, o modo de arquivamento "
+"está desativado."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1787
 msgid "Enabling Archiving Mode in the SCA Appliance"
-msgstr ""
+msgstr "Ativando o Modo de Arquivamento no Dispositivo SCA"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1795 xml/adm_support.xml:1884
 msgid "Open <filename>/etc/sca/sdagent.conf</filename> in an editor."
-msgstr ""
+msgstr "Abra <filename/etc/sca/sdagent.conf</filename> em um editor."
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1803
 #, no-wrap
 msgid "ARCHIVE_MODE=0"
-msgstr ""
+msgstr "ARCHIVE_MODE=0"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1807
 #, no-wrap
 msgid "ARCHIVE_MODE=1"
-msgstr ""
+msgstr "ARCHIVE_MODE=1"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1816
@@ -2593,11 +3148,14 @@ msgid ""
 "Supportconfig files to the <filename>/var/log/archives/saved</filename> "
 "directory, instead of deleting them."
 msgstr ""
+"Depois de ativar o modo de arquivamento, o dispositivo SCA salvará os "
+"arquivos Supportconfig no diretório <filename>/var/log/archives/"
+"saved</filename>, em vez de excluí-los."
 
 #. (itstool) path: sect4/title
 #: xml/adm_support.xml:1823
 msgid "Sending SCA Reports via E-Mail"
-msgstr ""
+msgstr "Enviando relatórios SCA por email"
 
 #. (itstool) path: sect4/para
 #: xml/adm_support.xml:1824
@@ -2608,67 +3166,73 @@ msgid ""
 "Define a level of status messages that trigger the sending of reports "
 "(<literal>STATUS_NOTIFY_LEVEL</literal>)."
 msgstr ""
+"O dispositivo SCA pode enviar por email um arquivo HTML de relatório para "
+"cada configuração de suporte analisada. Este recurso está desativado por "
+"padrão. Ao ativá-lo, você pode definir uma lista de endereços de email para "
+"os quais os relatórios devem ser enviados. Defina um nível de mensagens de "
+"status que acionam o envio de relatórios "
+"(<literal>STATUS_NOTIFY_LEVEL</literal>)."
 
 #. (itstool) path: variablelist/title
 #: xml/adm_support.xml:1832
 msgid "Possible Values for <literal>STATUS_NOTIFY_LEVEL</literal>"
-msgstr ""
+msgstr "Valores possíveis para <literal>STATUS_NOTIFY_LEVEL</literal>"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1834
 msgid "$STATUS_OFF"
-msgstr ""
+msgstr "$STATUS_OFF"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1836
 msgid "Deactivate sending of HTML reports."
-msgstr ""
+msgstr "Desative o envio de relatórios HTML."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1842
 msgid "$STATUS_CRITICAL"
-msgstr ""
+msgstr "$STATUS_CRITICAL"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1844
 msgid "Send only SCA reports that include a CRITICAL."
-msgstr ""
+msgstr "Envie apenas relatórios SCA que incluem um CRÍTICO."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1850
 msgid "$STATUS_WARNING"
-msgstr ""
+msgstr "$STATUS_WARNING"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1852
 msgid "Send only SCA reports that include a WARNING or CRITICAL."
-msgstr ""
+msgstr "Envie apenas relatórios SCA que incluem um AVISO ou CRÍTICO."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1858
 msgid "$STATUS_RECOMMEND"
-msgstr ""
+msgstr "$STATUS_RECOMMEND"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1860
 msgid "Send only SCA reports that include a RECOMMEND, WARNING or CRITICAL."
-msgstr ""
+msgstr "Envie apenas relatórios SCA que incluam RECOMENDAR, AVISO ou CRÍTICO."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_support.xml:1866
 msgid "$STATUS_SUCCESS"
-msgstr ""
+msgstr "$STATUS_SUCCESS"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1868
 msgid ""
 "Send SCA reports that include a SUCCESS, RECOMMEND, WARNING or CRITICAL."
-msgstr ""
+msgstr "Envie relatórios SCA que incluem SUCESSO, RECOMENDAR, AVISO ou CRÍTICO."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1876
 msgid "Configuring E-Mail Notifications for SCA Reports"
-msgstr ""
+msgstr "Configurando notificações por email para relatórios SCA"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1889
@@ -2677,6 +3241,9 @@ msgid ""
 "default, it is set to <literal>$STATUS_OFF</literal> (e-mail notifications "
 "are disabled)."
 msgstr ""
+"Pesquise a entrada <systemitem>STATUS_NOTIFY_LEVEL</systemitem>. Por padrão, "
+"é definido como <literal>$STATUS_OFF</literal> (as notificações por email "
+"estão desabilitadas)."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1896
@@ -2685,27 +3252,32 @@ msgid ""
 "level of status messages that you want to have e-mail reports for, for "
 "example:"
 msgstr ""
+"Para ativar as notificações por email, altere <literal>$STATUS_OFF</literal> "
+"para o nível de mensagens de status para as quais você deseja receber "
+"relatórios por email, por exemplo:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1901
 #, no-wrap
 msgid "STATUS_NOTIFY_LEVEL=$STATUS_SUCCESS"
-msgstr ""
+msgstr "STATUS_NOTIFY_LEVEL=$STATUS_SUCCESS"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1902
 msgid "For details, see <xref linkend=\"vl.sca.mails.notify.level\"/>."
-msgstr ""
+msgstr "Para detalhes, veja <xref linkend=\"vl.sca.mails.notify.level\"/>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1907
 msgid "To define the list of recipients to which the reports should be sent:"
 msgstr ""
+"Para definir a lista de destinatários para os quais os relatórios devem ser "
+"enviados:"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1912
 msgid "Search for the entry <literal>EMAIL_REPORT='root'</literal>."
-msgstr ""
+msgstr "Pesquise pela entrada <literal>EMAIL_REPORT='root'</literal>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1917
@@ -2714,12 +3286,15 @@ msgid ""
 "reports should be sent. The e-mail addresses must be separated by spaces. "
 "For example:"
 msgstr ""
+"Substitua <literal>root</literal> por uma lista de endereços de email para "
+"os quais os relatórios SCA devem ser enviados. Os endereços de email devem "
+"ser separados por espaços. Por exemplo:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1922
 #, no-wrap
 msgid "EMAIL_REPORT='tux@my.company.com wilber@your.company.com'"
-msgstr ""
+msgstr "EMAIL_REPORT='tux@my.company.com wilber@your.company.com'"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1927
@@ -2728,11 +3303,14 @@ msgid ""
 "the changes. All future SCA reports will be e-mailed to the specified "
 "addresses."
 msgstr ""
+"Salve o arquivo e saia. A máquina não requer reinicialização para aplicar as "
+"alterações. Todos os futuros relatórios SCA serão enviados por email para os "
+"endereços especificados."
 
 #. (itstool) path: sect3/title
 #: xml/adm_support.xml:1937
 msgid "Backing Up and Restoring the Database"
-msgstr ""
+msgstr "Fazendo backup e restaurando o banco de dados"
 
 #. (itstool) path: sect3/para
 #: xml/adm_support.xml:1938
@@ -2741,11 +3319,15 @@ msgid ""
 "the <command>scadb</command> command as described below. <command>scadb</"
 "command> is provided by the package <package>sca-appliance-broker</package>."
 msgstr ""
+"Para fazer backup e restaurar o banco de dados MariaDB que armazena os "
+"relatórios SCA, use o comando <command>scadb</command> conforme descrito "
+"abaixo. <command>scadb</command> é fornecido pelo pacote <package>sca-"
+"appliance-broker</package>."
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:1945
 msgid "Backing Up the Database"
-msgstr ""
+msgstr "Fazendo backup do banco de dados"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1947 xml/adm_support.xml:2017
@@ -2753,34 +3335,38 @@ msgid ""
 "Log in as <systemitem class=\"username\">root</systemitem> user at the "
 "system console of the server running the SCA appliance."
 msgstr ""
+"Efetue login como usuário <systemitem class=\"username\">root</systemitem> "
+"no console do sistema do servidor executando o dispositivo SCA."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1953
 msgid "Put the appliance into maintenance mode by executing:"
-msgstr ""
+msgstr "Coloque o dispositivo no modo de manutenção executando:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1956
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>scadb maint"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>scadb maint"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1959
 msgid "Start the backup with:"
-msgstr ""
+msgstr "Inicie o backup com:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1962
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>scadb backup"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>scadb backup"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1963
 msgid ""
 "The data is saved to a TAR archive: <filename>sca-backup-*sql.gz</filename>."
 msgstr ""
+"Os dados são salvos em um arquivo TAR: <filename>sca-"
+"backup-*sql.gz</filename>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1969
@@ -2789,34 +3375,41 @@ msgid ""
 "(see <xref linkend=\"sec.admsupport.sca.patterns\"/>), back up this data, "
 "too:"
 msgstr ""
+"Se você estiver usando o banco de dados de criação de padrões para "
+"desenvolver seus próprios padrões (consulte <xref linkend=\""
+"sec.admsupport.sca.patterns\"/>), faça backup desses dados também:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:1974
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sdpdb backup"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>sdpdb backup"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1975
 msgid ""
 "The data is saved to a TAR archive: <filename>sdp-backup-*sql.gz</filename>."
 msgstr ""
+"Os dados são salvos em um arquivo TAR: <filename>sdp-"
+"backup-*sql.gz</filename>."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:1981
 msgid ""
 "Copy the following data to another machine or an external storage medium:"
 msgstr ""
+"Copie os seguintes dados em outra máquina ou em uma mídia de armazenamento "
+"externo:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1987
 msgid "<filename>sca-backup-*sql.gz</filename>"
-msgstr ""
+msgstr "<filename>sca-backup-*sql.gz</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1992
 msgid "<filename>sdp-backup-*sql.gz</filename>"
-msgstr ""
+msgstr "<filename>sdp-backup-*sql.gz</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:1997
@@ -2824,27 +3417,29 @@ msgid ""
 "<filename>/usr/lib/sca/patterns/local</filename> (only needed if you have "
 "created custom patterns)"
 msgstr ""
+"<filename>/usr/lib/sca/patterns/local</filename> (necessário apenas se você "
+"criou padrões personalizados)"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2005 xml/adm_support.xml:2055
 msgid "Reactivate the SCA appliance with:"
-msgstr ""
+msgstr "Reative o dispositivo SCA com:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:2008 xml/adm_support.xml:2058
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>scadb reset agents"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>scadb reset agents"
 
 #. (itstool) path: procedure/title
 #: xml/adm_support.xml:2012
 msgid "Restoring the Database"
-msgstr ""
+msgstr "Restaurando o banco de dados"
 
 #. (itstool) path: procedure/para
 #: xml/adm_support.xml:2013
 msgid "To restore the database from your backup, proceed as follows:"
-msgstr ""
+msgstr "Para restaurar o banco de dados do seu backup, faça o seguinte:"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2023
@@ -2852,28 +3447,30 @@ msgid ""
 "Copy the newest <filename>sca-backup-*sql.gz</filename> and <filename>sdp-"
 "backup-*sql.gz</filename> TAR archives to the SCA appliance server."
 msgstr ""
+"Copie os arquivos TAR mais recentes <filename>sca-backup-*sql.gz</filename> "
+"e <filename>sdp-backup-*sql.gz</filename> TAR no servidor do dispositivo SCA."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2030
 msgid "To decompress the files, run:"
-msgstr ""
+msgstr "Para descompactar os arquivos, execute:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:2033
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>gzip -d *-backup-*sql.gz"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>gzip -d *-backup-*sql.gz"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2036
 msgid "To import the data into the database, execute:"
-msgstr ""
+msgstr "Para importar os dados para o banco de dados, execute:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:2039
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>scadb import sca-backup-*sql"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>scadb import sca-backup-*sql"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2042
@@ -2881,12 +3478,14 @@ msgid ""
 "If you are using the pattern creation database to create your own patterns, "
 "also import the following data with:"
 msgstr ""
+"Se você estiver usando o banco de dados de criação de padrões para criar "
+"seus próprios padrões, importe também os seguintes dados com:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:2046
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sdpdb import sdp-backup-*sql"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>sdpdb import sdp-backup-*sql"
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2049
@@ -2894,22 +3493,24 @@ msgid ""
 "If you are using custom patterns, also restore <filename>/usr/lib/sca/"
 "patterns/local</filename> from your backup data."
 msgstr ""
+"Se você estiver usando padrões personalizados, também restaure <filename>/"
+"usr/lib/sca/patterns/local</filename> a partir dos dados de backup."
 
 #. (itstool) path: step/para
 #: xml/adm_support.xml:2061
 msgid "Update the pattern modules in the database with:"
-msgstr ""
+msgstr "Atualize os módulos padrão no banco de dados com:"
 
 #. (itstool) path: step/screen
 #: xml/adm_support.xml:2064
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sdagent-patterns -u"
-msgstr ""
+msgstr "<prompt role=\"root\">root # </prompt>sdagent-patterns -u"
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:2071
 msgid "Developing Custom Analysis Patterns"
-msgstr ""
+msgstr "Desenvolvendo padrões de análise personalizados"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:2072
@@ -2925,11 +3526,21 @@ msgid ""
 "href=\"http://www.suse.com/communities/conversations/sca-pattern-development/"
 "\"/>."
 msgstr ""
+"O dispositivo SCA é fornecido com um ambiente completo de desenvolvimento de "
+"padrões (o SCA Pattern Database) que permite desenvolver seus próprios "
+"padrões customizados. Os padrões podem ser escritos em qualquer linguagem de "
+"programação. Para disponibilizá-los para o processo de análise "
+"Supportconfig, eles precisam ser salvos em <filename>/usr/lib/sca/patterns/"
+"local</filename> e serem executáveis. O dispositivo SCA e a ferramenta SCA "
+"executarão os padrões customizados nos novos arquivos do Supportconfig como "
+"parte do relatório de análise. Para obter instruções detalhadas sobre como "
+"criar (e testar) seus próprios padrões, consulte <link xlink:href=\""
+"http://www.suse.com/communities/conversations/sca-pattern-development/\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:2087
 msgid "Gathering Information during the Installation"
-msgstr ""
+msgstr "Coletando informações durante a instalação"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:2088
@@ -2939,6 +3550,10 @@ msgid ""
 "command>. This command will create a <filename>.tar.xz</filename> archive in "
 "the directory <filename>/tmp</filename>."
 msgstr ""
+"Durante a instalação, o <command>supportconfig</command> não está "
+"disponível. No entanto, você pode coletar arquivos de log do YaST usando "
+"<command>save_y2logs</command>. Este comando criará um arquivo "
+"<filename>.tar.xz</filename> no diretório <filename>/tmp</filename>."
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:2097
@@ -2948,11 +3563,16 @@ msgid ""
 "<command>linuxrc</command> is a small command that runs before YaST starts. "
 "This log file is available at <filename>/var/log/linuxrc.log</filename>."
 msgstr ""
+"Se os problemas aparecerem muito cedo durante a instalação, você poderá "
+"coletar informações do arquivo de log criado pelo <command>linuxrc</command>"
+". <command>linuxrc</command> é um pequeno comando executado antes do YaST "
+"iniciar. Este arquivo de log está disponível em <filename>/var/log/"
+"linuxrc.log</filename>."
 
 #. (itstool) path: important/title
 #: xml/adm_support.xml:2105
 msgid "Installation Log Files Not Available in the Installed System"
-msgstr ""
+msgstr "Arquivos de log de instalação não disponíveis no sistema instalado"
 
 #. (itstool) path: important/para
 #: xml/adm_support.xml:2106
@@ -2961,11 +3581,14 @@ msgid ""
 "installed system anymore. Properly save the installation log files while the "
 "installer is still running."
 msgstr ""
+"Os arquivos de log disponíveis durante a instalação não estão mais "
+"disponíveis no sistema instalado. Salve corretamente os arquivos de log de "
+"instalação enquanto o instalador ainda estiver em execução."
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:2115
 msgid "Support of Kernel Modules"
-msgstr ""
+msgstr "Suporte de módulos do kernel"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:2117
@@ -2976,32 +3599,41 @@ msgid ""
 "operating system. Every kernel module in SUSE Linux Enterprise has a "
 "<literal>supported</literal> flag that can take three possible values:"
 msgstr ""
+"Um requisito importante para todos os sistemas operacionais empresariais é o "
+"nível de suporte que você recebe para o seu ambiente. Os módulos do kernel "
+"são o conector mais relevante entre o hardware (<quote>controladores</quote>)"
+" e o sistema operacional. Todo módulo do kernel no SUSE Linux Enterprise "
+"possui um sinalizador <literal>suportado</literal> que pode assumir três "
+"valores possíveis:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2128
 msgid "<quote>yes</quote>, thus <literal>supported</literal>"
-msgstr ""
+msgstr "<quote>yes</ quote>, portanto <literal>suportado</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2133
 msgid "<quote>external</quote>, thus <literal>supported</literal>"
-msgstr ""
+msgstr "<quote>externo</quote>, portanto <literal>suportado</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2138
 msgid "<quote/> (empty, not set), thus <literal>unsupported</literal>"
 msgstr ""
+"<quote/> (vazio, não definido), portanto <literal>não suportado</literal>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_support.xml:2144
 msgid "The following rules apply:"
-msgstr ""
+msgstr "As seguintes regras se aplicam:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2150
 msgid ""
 "All modules of a self-recompiled kernel are by default marked as unsupported."
 msgstr ""
+"Todos os módulos de um kernel auto-recompilado são marcados por padrão como "
+"não suportados."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2156
@@ -3009,6 +3641,9 @@ msgid ""
 "Kernel modules supported by SUSE partners and delivered using <literal>SUSE "
 "SolidDriver Program</literal> are marked <quote>external</quote>."
 msgstr ""
+"Os módulos do kernel suportados pelos parceiros do SUSE e entregues usando o "
+"<literal>SUSE SolidDriver Program</literal> estão marcados como <quote>"
+"external </quote>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2163
@@ -3025,6 +3660,18 @@ msgid ""
 "<replaceable>FLAVOR</replaceable>-extra</systemitem> package is not part of "
 "the SUSE Linux Enterprise media."
 msgstr ""
+"Se o sinalizador <literal>suportado</literal> não estiver definido, o "
+"carregamento deste módulo danificará o kernel. Kernels contaminados não são "
+"suportados. Os módulos do Kernel não suportados estão incluídos em um pacote "
+"RPM extra "
+"(<systemitem>kernel-<replaceable>FLAVOR</replaceable>-extra</systemitem>). "
+"Esse pacote está disponível apenas para o SUSE Linux Enterprise Desktop e a "
+"Extensão da Estação de Trabalho SUSE Linux Enterprise. Esses kernels não "
+"serão carregados por padrão (<replaceable>FLAVOR</replaceable>=<literal>padrã"
+"o</literal>|<literal>xen</literal>|...). Além disso, esses módulos não "
+"suportados não estão disponíveis no instalador e o pacote <systemitem class="
+"\"resource\">kernel-<replaceable>FLAVOR</replaceable>-extra</systemitem> não "
+"faz parte da mídia do SUSE Linux Enterprise."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2178
@@ -3034,11 +3681,15 @@ msgid ""
 "linux/Documentation/sysctl/kernel.txt</filename> and the state of <filename>/"
 "proc/sys/kernel/tainted</filename>."
 msgstr ""
+"Os módulos do kernel não fornecidos sob uma licença compatível com a licença "
+"do kernel Linux também contaminam o kernel. Para obter detalhes, consulte "
+"<filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename> e o "
+"estado de <filename>/proc/sys/kernel/tainted</filename>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:2188
 msgid "Technical Background"
-msgstr ""
+msgstr "Formação técnica"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2192
@@ -3051,6 +3702,13 @@ msgid ""
 "the installed system. See <filename>/usr/src/linux/Documentation/sysctl/"
 "kernel.txt</filename> for more information."
 msgstr ""
+"Kernel Linux: o valor de <filename>/proc/sys/kernel/unsupported</filename> é "
+"padronizado como <literal>2</literal> no SUSE Linux Enterprise <phrase role="
+"\"productnumber\"> <phrase os=\"osuse\">15.0</phrase><phrase os=\"sles; "
+"sled\">15</phrase></phrase> (<literal>não avise no syslog ao carregar "
+"módulos não suportados</literal>). Esse padrão é usado no instalador e no "
+"sistema instalado. Veja <filename>/usr/src/linux/Documentation/sysctl/"
+"kernel.txt</filename> para obter mais informações."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2203
@@ -3062,11 +3720,18 @@ msgid ""
 "otherwise it will not. For information on how to override this behavior, see "
 "<xref linkend=\"sec.admsupport.kernel.unsupported\"/>."
 msgstr ""
+"<command> modprobe </command>: O utilitário <command>modprobe</command> para "
+"verificar as dependências do módulo e carregar módulos apropriadamente "
+"verifica o valor do sinalizador <literal>suportado</literal>. Se o valor for "
+"<quote>yes</quote> ou <quote>externo</quote>, o módulo será carregado, caso "
+"contrário, não será. Para obter informações sobre como substituir esse "
+"comportamento, consulte <xref linkend=\"sec.admsupport.kernel.unsupported\""
+"/>."
 
 #. (itstool) path: note/title
 #: xml/adm_support.xml:2212
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #. (itstool) path: note/para
 #: xml/adm_support.xml:2213
@@ -3074,11 +3739,13 @@ msgid ""
 "SUSE does not generally support the removal of storage modules via "
 "<command>modprobe -r</command>."
 msgstr ""
+"O SUSE geralmente não suporta a remoção de módulos de armazenamento via "
+"<command>modprobe -r</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_support.xml:2223
 msgid "Working with Unsupported Modules"
-msgstr ""
+msgstr "Trabalhando com módulos não suportados"
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:2224
@@ -3087,6 +3754,10 @@ msgid ""
 "loading an unsupported module is required. For example, for testing or "
 "debugging purposes, or if your hardware vendor provides a hotfix."
 msgstr ""
+"Embora a capacidade de suporte geral seja importante, podem ocorrer "
+"situações em que é necessário carregar um módulo não suportado. Por exemplo, "
+"para fins de teste ou depuração, ou se o seu fornecedor de hardware fornece "
+"um hotfix."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2231
@@ -3097,6 +3768,11 @@ msgid ""
 "unsupported module is needed in the initrd, do not forget to run "
 "<command>dracut</command> <option>-f</option> to update the initrd."
 msgstr ""
+"Para substituir o padrão, edite <filename>/etc/modprobe.d/10-unsupported-"
+"modules.conf</filename> e altere o valor da variável "
+"<varname>allow_unsupported_modules</varname> para <literal>1</literal>. Se "
+"um módulo não suportado for necessário no initrd, não se esqueça de executar "
+"<command>dracut</command> <option>-f</option> para atualizar o initrd."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2239
@@ -3105,6 +3781,10 @@ msgid ""
 "allow-unsupported-modules</option> option with <command>modprobe</command>. "
 "For more information, see the <command>modprobe</command> man page."
 msgstr ""
+"Se você quiser tentar carregar um módulo apenas uma vez, poderá usar a opção "
+"<option>--allow-unsupported-modules</option> com <command>modprobe</command>"
+". Para obter mais informações, consulte a página do manual "
+"<command>modprobe</command>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2247
@@ -3122,6 +3802,19 @@ msgid ""
 "kernel command line option (<option>oem-modules=1</option>) is not used, the "
 "default still is to disallow unsupported modules."
 msgstr ""
+"Durante a instalação, os módulos não suportados podem ser adicionados "
+"através dos discos de atualização do driver e serão carregados. Para impor o "
+"carregamento de módulos não suportados durante a inicialização e depois, use "
+"a opção de linha de comando do kernel <option>oem-modules</option>. Ao "
+"instalar e inicializar o pacote <systemitem class=\"resource\">suse-module-"
+"tools</systemitem>, o sinalizador do kernel "
+"<literal>TAINT_NO_SUPPORT</literal> (<filename>/proc/sys/kernel/tainted</"
+"filename >) serão avaliados. Se o kernel já estiver contaminado, "
+"<literal>allow_unsupported_modules</literal> será ativado. Isso impedirá que "
+"módulos não suportados falhem no sistema que está sendo instalado. Se nenhum "
+"módulo não suportado estiver presente durante a instalação e a outra opção "
+"especial de linha de comando do kernel (<option>oem-modules=1</option>) não "
+"for usada, o padrão ainda é desabilitar os módulos não suportados."
 
 #. (itstool) path: sect2/para
 #: xml/adm_support.xml:2264
@@ -3129,11 +3822,13 @@ msgid ""
 "Remember that loading and running unsupported modules will make the kernel "
 "and the whole system unsupported by SUSE."
 msgstr ""
+"Lembre-se de que carregar e executar módulos não suportados fará com que o "
+"kernel e todo o sistema não sejam suportados pelo SUSE."
 
 #. (itstool) path: sect1/title
 #: xml/adm_support.xml:2271
 msgid "For More Information"
-msgstr ""
+msgstr "Para maiores informações"
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2277
@@ -3141,6 +3836,8 @@ msgid ""
 "<command>man supportconfig</command>—The <command>supportconfig</command> "
 "man page."
 msgstr ""
+"<command>man supportconfig</command>—A página do manual "
+"<command>supportconfig</command>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2283
@@ -3148,28 +3845,35 @@ msgid ""
 "<command>man supportconfig.conf</command>—The man page of the Supportconfig "
 "configuration file."
 msgstr ""
+"<command>man supportconfig.conf</command>—A página do manual do arquivo de "
+"configuração Supportconfig."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2289
 msgid "<command>man scatool</command>—The <command>scatool</command> man page."
 msgstr ""
+"<command>man scatool</command>—A página do manual <command>scatool</command>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2295
 msgid "<command>man scadb</command>—The <command>scadb</command> man page."
 msgstr ""
+"<comando>man scadb</command> - A página do manual <command>scadb</command>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2300
 msgid ""
 "<command>man setup-sca</command>—The <command>setup-sca</command> man page."
 msgstr ""
+"<command>man setup-sca</command>—A página do manual <command>setup-"
+"sca</command>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2306
 msgid ""
 "<link xlink:href=\"https://mariadb.com/kb/en/\"/>—The MariaDB documentation."
 msgstr ""
+"<link xlink:href=\"https://mariadb.com/kb/en/\"/>—A documentação do MariaDB."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2312
@@ -3177,12 +3881,15 @@ msgid ""
 "<link xlink:href=\"http://httpd.apache.org/docs/\"/> and <xref linkend=\"cha."
 "apache2\"/>—Documentation about the Apache Web server."
 msgstr ""
+"<link xlink:href=\"http://httpd.apache.org/docs/\"/> and <xref linkend=\"cha."
+"apache2\"/>—Documentação sobre o servidor da Web Apache."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2319
 msgid ""
 "<xref linkend=\"cha.ftp\"/>—Documentation of how to set up an FTP server."
 msgstr ""
+"<xref linkend=\"cha.ftp\"/>—Documentação de como configurar um servidor FTP."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2325
@@ -3191,6 +3898,9 @@ msgid ""
 "development/\"/>—Instructions on how to create (and test) your own SCA "
 "patterns."
 msgstr ""
+"<link xlink:href=\"http://www.suse.com/communities/conversations/"
+"sca-pattern-development/\"/>—Instruções sobre como criar (e testar) seus "
+"próprios padrões SCA."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2331
@@ -3199,6 +3909,9 @@ msgid ""
 "server-health-check-supportconfig/\"/>—A Basic Server Health Check with "
 "Supportconfig."
 msgstr ""
+"<link xlink:href=\"http://www.suse.com/communities/conversations/"
+"basic-server-health-check-supportconfig/\"/>—Uma verificação de integridade "
+"básica do servidor com Supportconfig."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2337
@@ -3207,6 +3920,9 @@ msgid ""
 "cool_tools/create-your-own-supportconfig-plugin/\"/>—Create Your Own "
 "Supportconfig Plugin."
 msgstr ""
+"<link xlink:href=\"https://www.novell.com/communities/coolsolutions/"
+"cool_tools/create-your-own-supportconfig-plugin/\"/>—Crie seu próprio plug-"
+"in Supportconfig."
 
 #. (itstool) path: listitem/para
 #: xml/adm_support.xml:2343
@@ -3215,3 +3931,6 @@ msgid ""
 "central-supportconfig-repository/\"/>—Creating a Central Supportconfig "
 "Repository."
 msgstr ""
+"<link xlink:href=\"http://www.suse.com/communities/conversations/"
+"creating-a-central-supportconfig-repository/\"/>—Criando um Repositório "
+"Central de Configuração de Suporte."
