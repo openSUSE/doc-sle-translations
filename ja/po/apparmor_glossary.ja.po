@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_glossary-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -24,17 +26,17 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:16
 msgid "Abstraction"
-msgstr ""
+msgstr "抽象"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:18
 msgid "See <emphasis>profile foundation classes</emphasis> below."
-msgstr ""
+msgstr "下記の <emphasis>プロファイルファウンデーションクラス</emphasis> をお読みください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:24
 msgid "Apache"
-msgstr ""
+msgstr "Apache"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:26
@@ -47,7 +49,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:35
 msgid "application fire-walling"
-msgstr ""
+msgstr "アプリケーションファイアウオール"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:37
@@ -61,7 +63,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:46
 msgid "attack signature"
-msgstr ""
+msgstr "攻撃シグネーチャ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:48
@@ -70,6 +72,8 @@ msgid ""
 "hacker attack. Intrusion detection systems might use attack signatures to "
 "distinguish between legitimate and potentially malicious activity."
 msgstr ""
+"ウイルスやクラッカーからの攻撃を表わす、システムやネットワーク動作のパターンのことを指します。侵入検知システムでは、攻撃シグネーチャを利用して、正当な動作"
+"と不正な動作を識別し、不正な動作のみを防止するように作られています。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:54
@@ -84,7 +88,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:63
 msgid "GUI"
-msgstr ""
+msgstr "GUI"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:65
@@ -94,11 +98,13 @@ msgid ""
 "application. Its elements include windows, icons, buttons, cursors, and "
 "scrollbars."
 msgstr ""
+"グラフィカルユーザインターフェイス (Graphical User Interface) の略です。コンピュータの利用者とアプリケーションとの間を取り持つ"
+"、直感的で使いやすいインターフェイスを意味します。ウインドウやアイコン、ボタンやカーソル、スクロールバーなどの要素が含まれます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:74
 msgid "globbing"
-msgstr ""
+msgstr "グロブ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:76
@@ -115,7 +121,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:88
 msgid "HIP"
-msgstr ""
+msgstr "HIP"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:90
@@ -126,11 +132,14 @@ msgid ""
 "network level before they can <quote>hurt</quote> the application they "
 "target."
 msgstr ""
+"ホスト侵入防止 (Host Intrusion Prevention) の略です。オペレーティングシステムのカーネルと共に動作し、不正なアプリケーション動"
+"作を未知の攻撃手法として判断して、防止するための仕組みです。また、ネットワークレベルでは、ホスト宛の不正なパケットを防いで、目的のアプリケーションが "
+"<quote>傷つく</quote> 前にブロックすることもできます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:100
 msgid "mandatory access control"
-msgstr ""
+msgstr "強制アクセス制御"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:102
@@ -140,11 +149,13 @@ msgid ""
 "mandatory in the sense that they cannot be modified by users or their "
 "programs."
 msgstr ""
+"ユーザやファイル、その他のオブジェクトなどに対して割り当てられたセキュリティ属性に従って、オブジェクトに対するアクセスを制限する手法を指します。この制限は"
+"、ユーザやプログラムなどから変更することができないように作られていることから、これを <quote>強制</quote> と表わしています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:111
 msgid "profile"
-msgstr ""
+msgstr "プロファイル"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:113
@@ -156,19 +167,19 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:120
 msgid "profile foundation classes"
-msgstr ""
+msgstr "プロファイルファウンデーションクラス"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:122
 msgid ""
 "Profile building blocks needed for common application activities, such as "
 "DNS lookup and user authentication."
-msgstr ""
+msgstr "DNS 参照やユーザ認証など、一般的なアプリケーション動作に必要な、プロファイルの構築ブロックを意味する用語です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:129
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:131
@@ -185,7 +196,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:141
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:143
@@ -193,11 +204,12 @@ msgid ""
 "Secure Shell. A service that allows you to access your server from a remote "
 "computer and issue text commands through a secure connection."
 msgstr ""
+"Secure SHell の略です。リモートのコンピュータからテキストコマンドを受け付けることのできるサービスで、その通信を暗号化するのが特長です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:150
 msgid "streamlined access control"
-msgstr ""
+msgstr "直感的なアクセス制御"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:152
@@ -211,7 +223,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:161
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:163
@@ -220,18 +232,20 @@ msgid ""
 "addresses that refer to objects on the World Wide Web. A URL is one kind of "
 "URI."
 msgstr ""
+"統一資源識別子 (Universal Resource Identifier) の略です。 World Wide Web "
+"の世界において、特定の資源を表わすための名前や場所を指し示すための一般的な用語です。なお、 URL は URI の一部として存在しています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:171
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:173
 msgid ""
 "Uniform Resource Locator. The global address of documents and other "
 "resources on the Web."
-msgstr ""
+msgstr "統一資源位置指定子 (Uniform Resource Locator) の略です。 Web 上での文書やその他の資源を指し示す位置情報です。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:177
@@ -239,7 +253,7 @@ msgid ""
 "The first part of the address indicates what protocol to use and the second "
 "part specifies the IP address or the domain name where the resource is "
 "located."
-msgstr ""
+msgstr "位置情報の最初のパートは使用すべきプロトコルで、 2 番目にはリソースの存在する IP アドレスやドメイン名などが書かれます。"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:182
@@ -253,7 +267,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_glossary.xml:191
 msgid "vulnerabilities"
-msgstr ""
+msgstr "脆弱性"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_glossary.xml:193
@@ -266,3 +280,7 @@ msgid ""
 "an unacceptable impact in the form of unauthorized access to information or "
 "the disruption of critical processing."
 msgstr ""
+"攻撃を受けやすい状態のままになっているシステムやネットワークの要素を示す用語です。コンピュータシステムでは、それが正しく動作し続け、許可を与えていないユー"
+"ザに対して制御を許さないようにする必要がありますが、設計面や管理面、実装面の弱さもしくは欠陥により、ハードウエアやファームウエア、ソフトウエアに対する不正"
+"な制御が許されてしまうことがあります。脆弱な箇所に対して攻撃が成功してしまうと、許可を与えていないユーザに対して制御を許し、情報を漏洩させたり重要な処理が"
+"中断されてしまったりすることがあります。"
