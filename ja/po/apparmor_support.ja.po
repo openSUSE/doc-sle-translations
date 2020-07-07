@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_support-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: xml/apparmor_support.xml:9
 msgid "Support"
-msgstr ""
+msgstr "サポート"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_support.xml:16
@@ -54,7 +56,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:34
 msgid "Using the Man Pages"
-msgstr ""
+msgstr "マニュアルページの使用"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:36
@@ -68,97 +70,97 @@ msgstr ""
 #. (itstool) path: table/title
 #: xml/apparmor_support.xml:44
 msgid "Man Pages: Sections and Categories"
-msgstr ""
+msgstr "マニュアルページ: セクションと分類"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:49
 msgid "Section"
-msgstr ""
+msgstr "セクション"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:54
 msgid "Category"
-msgstr ""
+msgstr "分類"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:63
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:68
 msgid "User commands"
-msgstr ""
+msgstr "ユーザコマンド"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:75
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:80
 msgid "System calls"
-msgstr ""
+msgstr "システムコール"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:87
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:92
 msgid "Library functions"
-msgstr ""
+msgstr "ライブラリ関数"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:99
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:104
 msgid "Device driver information"
-msgstr ""
+msgstr "デバイスドライバの情報"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:111
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:116
 msgid "Configuration file formats"
-msgstr ""
+msgstr "設定ファイルの書式"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:123
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:128
 msgid "Games"
-msgstr ""
+msgstr "ゲーム"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:135
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:140
 msgid "High level concepts"
-msgstr ""
+msgstr "高レベルな考え方の説明"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:147
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_support.xml:152
 msgid "Administrator commands"
-msgstr ""
+msgstr "管理者向けコマンド"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:161
@@ -167,6 +169,9 @@ msgid ""
 "example, <systemitem>exit(2)</systemitem> describes the exit system call, "
 "while <systemitem>exit(3)</systemitem> describes the exit C library function."
 msgstr ""
+"セクション番号は、同じ名前のマニュアルページを識別する方法として使用されています。たとえば "
+"<systemitem>exit(2)</systemitem> であれば exit という名前のシステムコールに関する説明を、 "
+"<systemitem>exit(3)</systemitem> であれば exit という名前の C 言語ライブラリ関数に関する説明が書かれています。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:168
@@ -176,107 +181,107 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:174
 msgid "<systemitem>aa-audit(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-audit(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:179
 msgid "<systemitem>aa-autodep(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-autodep(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:184
 msgid "<systemitem>aa-complain(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-complain(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:189
 msgid "<systemitem>aa-decode(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-decode(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:194
 msgid "<systemitem>aa-disable(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-disable(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:199
 msgid "<systemitem>aa-easyprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-easyprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:204
 msgid "<systemitem>aa-enforce(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-enforce(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:209
 msgid "<systemitem>aa-enxec(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-enxec(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:214
 msgid "<systemitem>aa-genprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-genprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:219
 msgid "<systemitem>aa-logprof(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-logprof(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:224
 msgid "<systemitem>aa-notify(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-notify(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:229
 msgid "<systemitem>aa-status(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-status(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:234
 msgid "<systemitem>aa-unconfined(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa-unconfined(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:239
 msgid "<systemitem>aa_change_hat(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>aa_change_hat(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:244
 msgid "<systemitem>logprof.conf(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>logprof.conf(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:249
 msgid "<systemitem>apparmor.d(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor.d(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:254
 msgid "<systemitem>apparmor.vim(5)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor.vim(5)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:259
 msgid "<systemitem>apparmor(7)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor(7)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:264
 msgid "<systemitem>apparmor_parser(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor_parser(8)</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:269
 msgid "<systemitem>apparmor_status(8)</systemitem>"
-msgstr ""
+msgstr "<systemitem>apparmor_status(8)</systemitem>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:276
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:278
@@ -298,7 +303,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_support.xml:293
 msgid "Troubleshooting"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_support.xml:295
@@ -310,7 +315,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:301
 msgid "How to React to odd Application Behavior?"
-msgstr ""
+msgstr "おかしなアプリケーション動作に対する対応"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:302
@@ -359,22 +364,22 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:335
 msgid "File Locking"
-msgstr ""
+msgstr "ファイルロック (施錠) 関連"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:340
 msgid "Network Access Control"
-msgstr ""
+msgstr "ネットワークアクセス制御"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:345
 msgid "The <literal>SYS_PTRACE</literal> Capability"
-msgstr ""
+msgstr "<literal>SYS_PTRACE</literal> のケーパビリティ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_support.xml:350
 msgid "Directory Path Access"
-msgstr ""
+msgstr "ディレクトリパスへのアクセス"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:355
@@ -397,13 +402,17 @@ msgid ""
 "name=\"/home/tux/.qt/.qtrc.lock\" pid=28730 comm=\"httpd2-prefork\" \\\n"
 "requested_mask=\"::k\" denied_mask=\"::k\" fsuid=30 ouid=0\n"
 msgstr ""
+"type=AVC msg=audit(1389862802.727:13939): apparmor=\"DENIED\" \\\n"
+"operation=\"file_lock\" parent=2692 profile=\"/usr/bin/opera\" \\\n"
+"name=\"/home/tux/.qt/.qtrc.lock\" pid=28730 comm=\"httpd2-prefork\" \\\n"
+"requested_mask=\"::k\" denied_mask=\"::k\" fsuid=30 ouid=0\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:369
 msgid ""
 "Update the profile using the <command>aa-logprof</command> command as "
 "outlined below."
-msgstr ""
+msgstr "この場合は、上述の手順で <command>aa-logprof</command> を使用し、プロファイルを更新してください。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:373
@@ -424,6 +433,10 @@ msgid ""
 "operation=\"socket_create\" family=\"inet\" parent=29985 profile=\"/bin/ping\" \\\n"
 "sock_type=\"raw\" pid=30251 comm=\"ping\"\n"
 msgstr ""
+"type=AVC msg=audit(1389864332.233:13947): apparmor=\"DENIED\" \\\n"
+"operation=\"socket_create\" family=\"inet\" parent=29985 profile=\"/bin/"
+"ping\" \\\n"
+"sock_type=\"raw\" pid=30251 comm=\"ping\"\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:386
@@ -449,13 +462,13 @@ msgstr ""
 #: xml/apparmor_support.xml:401
 #, no-wrap
 msgid "/proc/*/fd/**  rw,"
-msgstr ""
+msgstr "/proc/*/fd/**  rw,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:402
 msgid ""
 "in the old syntax would translate to the following rules in the new syntax:"
-msgstr ""
+msgstr "新しいカーネルを使用する場合は、下記のように修正してください:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:406
@@ -464,6 +477,8 @@ msgid ""
 "capability SYS_PTRACE,\n"
 "/proc/*/fd/**  rw,"
 msgstr ""
+"capability SYS_PTRACE,\n"
+"/proc/*/fd/**  rw,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:408
@@ -500,7 +515,7 @@ msgstr ""
 #: xml/apparmor_support.xml:432
 #, no-wrap
 msgid "/proc/net/*  r,\n"
-msgstr ""
+msgstr "/proc/net/*  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:434
@@ -519,6 +534,8 @@ msgid ""
 "/proc/net/*  r,\n"
 "/proc/net/*/  r,\n"
 msgstr ""
+"/proc/net/*  r,\n"
+"/proc/net/*/  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:445
@@ -528,6 +545,9 @@ msgid ""
 "filename> (but does not allow a directory listing of <filename>/proc/net/</"
 "filename> itself):"
 msgstr ""
+"なお、下記のルールは古い書式でも新しい書式でも同じように動作するルールで、 <filename>/proc/net</filename> "
+"以下のファイルとディレクトリの両方に対してアクセス許可を設定しています (ただし、 <filename>/proc/net/</filename> "
+"自身の内容一覧は許可していません):"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:451
@@ -536,6 +556,8 @@ msgid ""
 "\n"
 "/proc/net/**  r,\n"
 msgstr ""
+"\n"
+"/proc/net/**  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:454
@@ -545,6 +567,9 @@ msgid ""
 "recursively access directories under <filename>/proc/net</filename> while "
 "the second one explicitly allows for recursive file access only."
 msgstr ""
+"上述の新しい書式でファイルとディレクトリのアクセスを区別したい場合は、下記のように 2 つのルールに分割してください。 1 つめのルールは "
+"<filename>/proc/net</filename> 以下のディレクトリに対するアクセス許可を再帰的に設定していて、 2 "
+"つめのルールはファイルに対するアクセス許可を再帰的に設定しています。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:461
@@ -553,6 +578,8 @@ msgid ""
 "/proc/net/**/  r,\n"
 "/proc/net/**[^/]  r,"
 msgstr ""
+"/proc/net/**/  r,\n"
+"/proc/net/**[^/]  r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:463
@@ -566,7 +593,7 @@ msgstr ""
 #: xml/apparmor_support.xml:468
 #, no-wrap
 msgid "/proc/net/foo**  r,"
-msgstr ""
+msgstr "/proc/net/foo**  r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:469
@@ -578,6 +605,10 @@ msgid ""
 "slash. The second rule matched neither file nor directory in the old syntax, "
 "but matches directories only in the new syntax:"
 msgstr ""
+"新しい書式でファイルアクセスとディレクトリアクセスを区別し、 <literal>**</literal> というグロブパターンを使用したい場合は、"
+"下記のように 2 つのルールに分割してください。 1 "
+"つめのルールでは古い書式でファイルとディレクトリの両方にマッチしますが、新しい書式では末尾にスラッシュがないことから、ファイルにのみマッチします。 2 "
+"つめのルールは、古い書式ではファイルにもディレクトリにもマッチしませんが、新しい書式ではディレクトリにのみマッチします:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_support.xml:478
@@ -586,6 +617,8 @@ msgid ""
 "/proc/net/**foo  r,\n"
 "/proc/net/**foo/  r,\n"
 msgstr ""
+"/proc/net/**foo  r,\n"
+"/proc/net/**foo/  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:481
@@ -609,6 +642,9 @@ msgid ""
 "/proc/net/foo?/  r,\n"
 "/proc/net/foo?/bar  r,\n"
 msgstr ""
+"/proc/net/foo?  r,\n"
+"/proc/net/foo?/  r,\n"
+"/proc/net/foo?/bar  r,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:497
@@ -616,12 +652,12 @@ msgid ""
 "To find and resolve issues related to syntax changes, take some time after "
 "the update to check the profiles you want to keep and proceed as follows for "
 "each application you kept the profile for:"
-msgstr ""
+msgstr "書式の変更に伴う問題を検出および解決するには、システムの更新後にそれぞれのアプリケーションに対して下記の手順でプロファイルの確認を行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:504
 msgid "Put the application's profile into complain mode:"
-msgstr ""
+msgstr "まずはアプリケーションのプロファイルを不平モードに切り替えます:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:507
@@ -635,20 +671,21 @@ msgid ""
 "Log entries are made for any actions violating the current profile, but the "
 "profile is not enforced and the application's behavior not restricted."
 msgstr ""
+"このように設定することで、プロファイルへの違反は記録されるものの、プロファイルが強制されることはなく、アプリケーションの動作も阻害されなくなります。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:515
 msgid ""
 "Run the application covering all the tasks you need this application to be "
 "able to perform."
-msgstr ""
+msgstr "アプリケーションの動作を一通り試して、必要なリソースに一通りアクセスさせます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:521
 msgid ""
 "Update the profile according to the log entries made while running the "
 "application:"
-msgstr ""
+msgstr "あとはアプリケーションの実行時に生成されたログ項目にあわせて、プロファイルを更新します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:525
@@ -659,7 +696,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:528
 msgid "Put the resulting profile back into enforce mode:"
-msgstr ""
+msgstr "最後にプロファイルを強制モードに戻します:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_support.xml:531
@@ -670,7 +707,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:537
 msgid "Resolving Issues with Apache"
-msgstr ""
+msgstr "Apache での問題解決"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:538
@@ -685,7 +722,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:566
 msgid "How to Exclude Certain Profiles from the List of Profiles Used?"
-msgstr ""
+msgstr "使用するプロファイルの一覧から特定のプロファイルを除外する方法"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:567
@@ -700,7 +737,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_support.xml:579
 msgid "Can I Manage Profiles for Applications not Installed on my System?"
-msgstr ""
+msgstr "システムにインストールされていないアプリケーションのプロファイル管理方法"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_support.xml:580
@@ -815,7 +852,7 @@ msgstr ""
 msgid ""
 "If your problem has already been reported, check this bug report and add "
 "extra information to it, if necessary."
-msgstr ""
+msgstr "既に同じ問題が報告されている場合は、そのバグレポートを開いて、補足できる情報があれば情報提供を行なってください。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:669
@@ -824,6 +861,8 @@ msgid ""
 "from the top navigation bar and proceed to the <guimenu>Enter Bug</guimenu> "
 "page."
 msgstr ""
+"これまでに同じ問題が報告されていない場合は、上部のナビゲーションバーから <guimenu>New</guimenu> を押して、 <guimenu>"
+"Enter Bug</guimenu> のページに移動してください。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:676
@@ -846,10 +885,13 @@ msgid ""
 "description including log files. You may create attachments to your bug "
 "report for screenshots, log files, or test cases."
 msgstr ""
+"次に問題点の概要を <guimenu>Summary</guimenu> 欄に、詳細や再現手順などを "
+"<guimenu>Description</guimenu> 欄にそれぞれ入力します。ログファイルの内容などを貼り付けてもかまいません。また、スクリーンシ"
+"ョットやログファイル、テストケースなどの添付を行なうこともできます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_support.xml:695
 msgid ""
 "Click <guimenu>Submit</guimenu> after you have entered all the details to "
 "send your report to the developers."
-msgstr ""
+msgstr "必要な項目を入力したら、 <guimenu>Submit</guimenu> を押すと、レポート内容が開発者に送信されます。"
