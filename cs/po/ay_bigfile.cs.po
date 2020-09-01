@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:48+0200\n"
-"PO-Revision-Date: 2020-08-23 16:23+0000\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/ay_bigfile-master/cs/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. (itstool) path: bugtracker/assignee
 #: xml/ay_bigfile.xml:17
 msgid "fs@suse.com"
-msgstr ""
+msgstr "fs@suse.com"
 
 #. (itstool) path: info/title
 #: xml/ay_bigfile.xml:20
@@ -66,7 +66,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_bigfile.xml:34 xml/ay_bigfile.xml:188 xml/ay_bigfile.xml:15539
 msgid "Introduction"
-msgstr ""
+msgstr "Úvod"
 
 #. (itstool) path: chapter/para
 #: xml/ay_bigfile.xml:36
@@ -3042,7 +3042,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_bigfile.xml:2424
 msgid "Partitioning"
-msgstr ""
+msgstr "Rozdělení na oddíly"
 
 #. (itstool) path: sect2/title
 #: xml/ay_bigfile.xml:2431
@@ -5723,12 +5723,12 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_bigfile.xml:4926
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #. (itstool) path: sect2/title
 #: xml/ay_bigfile.xml:4933
 msgid "Product Selection"
-msgstr ""
+msgstr "Výběr produktu"
 
 #. (itstool) path: sect2/para
 #: xml/ay_bigfile.xml:4934
@@ -6565,7 +6565,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_bigfile.xml:5665
 msgid "Upgrade"
-msgstr ""
+msgstr "Upgrade"
 
 #. (itstool) path: sect1/para
 #: xml/ay_bigfile.xml:5667
@@ -13822,7 +13822,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_bigfile.xml:13462
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "Konfigurace brány firewall"
 
 #. (itstool) path: sect1/para
 #: xml/ay_bigfile.xml:13464
@@ -15964,7 +15964,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_bigfile.xml:15712
 msgid "Command Line Options"
-msgstr ""
+msgstr "Možnosti příkazového řádku"
 
 #. (itstool) path: sect2/para
 #: xml/ay_bigfile.xml:15713
