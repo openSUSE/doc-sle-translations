@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"PO-Revision-Date: 2020-09-09 23:55+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1018,6 +1018,29 @@ msgid ""
 "---              dbpdaemon:     524288  0x0080000\n"
 "---                    slp:    1048576  0x0100000"
 msgstr ""
+"<prompt>tux &gt; </prompt>sfcbd -t ?\n"
+"---   Traceable Components:     Int       Hex  [Sledovatelné komponenty]\n"
+"---            providerMgr:          1  0x0000001\n"
+"---            providerDrv:          2  0x0000002\n"
+"---             cimxmlProc:          4  0x0000004\n"
+"---             httpDaemon:          8  0x0000008\n"
+"---                upCalls:         16  0x0000010\n"
+"---               encCalls:         32  0x0000020\n"
+"---        ProviderInstMgr:         64  0x0000040\n"
+"---       providerAssocMgr:        128  0x0000080\n"
+"---              providers:        256  0x0000100\n"
+"---            indProvider:        512  0x0000200\n"
+"---       internalProvider:       1024  0x0000400\n"
+"---             objectImpl:       2048  0x0000800\n"
+"---                  xmlIn:       4096  0x0001000\n"
+"---                 xmlOut:       8192  0x0002000\n"
+"---                sockets:      16384  0x0004000\n"
+"---              memoryMgr:      32768  0x0008000\n"
+"---               msgQueue:      65536  0x0010000\n"
+"---             xmlParsing:     131072  0x0020000\n"
+"---         responseTiming:     262144  0x0040000\n"
+"---              dbpdaemon:     524288  0x0080000\n"
+"---                    slp:    1048576  0x0100000"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:652
@@ -1026,11 +1049,15 @@ msgid ""
 "generate too many messages, is <option>-t</option> <replaceable>2019</"
 "replaceable>."
 msgstr ""
+"Užitečnou hodnotou, která odhaluje vnitřní funkce sfcbd, ale negeneruje "
+"příliš mnoho zpráv, je <option>-t</option> <replaceable>2019</replaceable> ("
+"hex 7E3 = providerMgr + providerDrv + encCalls + ProviderInstMgr + "
+"providerAssocMgr + providers + indProvider + internalProvider)."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:663
 msgid "SFCB Configuration File"
-msgstr ""
+msgstr "Konfigurační soubor SFCB"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:664
@@ -1039,6 +1066,9 @@ msgid ""
 "sfcb/sfcb.cfg</filename> after starting up. This behavior can be overridden "
 "using <option>-c</option> option at start-up."
 msgstr ""
+"SFCB po spuštění načte svou běhovou konfiguraci z konfiguračního souboru "
+"<filename>/etc/sfcb/sfcb.cfg</filename>. Toto chování lze přepsat pomocí "
+"možnosti <option>-c</option> při spuštění."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:669
@@ -1048,6 +1078,10 @@ msgid ""
 "this file, you can use any text editor that saves the file in a format that "
 "is native to the environment you are using."
 msgstr ""
+"Konfigurační soubor obsahuje páry <option>možnost</option> : "
+"<replaceable>HODNOTA</replaceable>, jeden na řádek. Pro změny tohoto souboru "
+"můžete použít libovolný textový editor, který soubor uloží ve formátu "
+"nativním pro používané prostředí."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:675
@@ -1055,6 +1089,8 @@ msgid ""
 "Any setting that has the options commented out with a number sign (#) uses "
 "the default setting."
 msgstr ""
+"Každé nastavení, které má možnosti zakomentované znakem čísla (#), používá "
+"výchozí nastavení."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:679
@@ -1063,11 +1099,14 @@ msgid ""
 "<filename>/etc/sfcb/sfcb.cfg</filename> and <filename>/usr/share/doc/"
 "packages/sblim-sfcb/README</filename> for their complete list."
 msgstr ""
+"Následující seznam možností nemusí být úplný. Jejich úplný seznam najdete v "
+"obsahu <filename>/etc/sfcb/sfcb.cfg</filename> a <filename>/usr/share/doc/"
+"packages/sblim-sfcb/README</filename>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:686
 msgid "httpPort"
-msgstr ""
+msgstr "httpPort"
 
 #. (itstool) path: sect3/bridgehead
 #: xml/adm_wbem.xml:687 xml/adm_wbem.xml:699 xml/adm_wbem.xml:755
@@ -1089,6 +1128,9 @@ msgid ""
 "Specifies the local port value that sfcbd should listen to receive HTTP "
 "(insecure) requests from CIM clients. Default is <literal>5988</literal> ."
 msgstr ""
+"Určuje hodnotu místního portu, kterému má sfcbd naslouchat, aby přijímal "
+"požadavky HTTP (nezabezpečené) od klientů CIM. Výchozí hodnota je "
+"<literal>5988</literal>."
 
 #. (itstool) path: sect3/bridgehead
 #: xml/adm_wbem.xml:692 xml/adm_wbem.xml:704 xml/adm_wbem.xml:761
