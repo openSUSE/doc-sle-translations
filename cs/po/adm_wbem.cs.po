@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-09 23:55+0000\n"
+"PO-Revision-Date: 2020-09-10 18:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1144,17 +1144,17 @@ msgstr ""
 #: xml/adm_wbem.xml:1343 xml/adm_wbem.xml:1356 xml/adm_wbem.xml:1369
 #: xml/adm_wbem.xml:1382
 msgid "Syntax"
-msgstr ""
+msgstr "Syntaxe"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:693
 msgid "<literal>httpPort:</literal> <replaceable>PORT_NUMBER</replaceable>"
-msgstr ""
+msgstr "<literal>httpPort:</literal> <replaceable>ČÍSLO_PORTU</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:698
 msgid "enableHttp"
-msgstr ""
+msgstr "enableHttp"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:700
@@ -1162,18 +1162,20 @@ msgid ""
 "Specifies whether SFCB should accept HTTP client connections. Default is "
 "<literal>false</literal> ."
 msgstr ""
+"Určuje, zda má SFCB přijímat připojení klientů HTTP. Výchozí hodnota je "
+"<literal>false</literal> (ne)."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:705
 msgid "<literal>enableHttp:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>enableHttp:</literal> <replaceable>MOŽNOST</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:713 xml/adm_wbem.xml:825 xml/adm_wbem.xml:894
 #: xml/adm_wbem.xml:966 xml/adm_wbem.xml:1038 xml/adm_wbem.xml:1172
 #: xml/adm_wbem.xml:1278
 msgid "Option"
-msgstr ""
+msgstr "Možnost"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:718 xml/adm_wbem.xml:830 xml/adm_wbem.xml:899
@@ -1186,28 +1188,28 @@ msgstr "Popis"
 #: xml/adm_wbem.xml:727 xml/adm_wbem.xml:839 xml/adm_wbem.xml:908
 #: xml/adm_wbem.xml:980 xml/adm_wbem.xml:1052 xml/adm_wbem.xml:1186
 msgid "true"
-msgstr ""
+msgstr "true (pravda; ano)"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:732
 msgid "Enables HTTP connections."
-msgstr ""
+msgstr "Povoluje připojení HTTP."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:739 xml/adm_wbem.xml:851 xml/adm_wbem.xml:920
 #: xml/adm_wbem.xml:992 xml/adm_wbem.xml:1064 xml/adm_wbem.xml:1198
 msgid "false"
-msgstr ""
+msgstr "false (nepravda; ne)"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:744
 msgid "Disables HTTP connections."
-msgstr ""
+msgstr "Zakáže připojení HTTP."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:754
 msgid "httpProcs"
-msgstr ""
+msgstr "httpProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:756
@@ -1215,6 +1217,8 @@ msgid ""
 "Specifies the maximum number of simultaneous HTTP client connections before "
 "new incoming HTTP requests are blocked. Default is <literal>8</literal> ."
 msgstr ""
+"Určuje maximální počet současných připojení klienta HTTP před blokováním "
+"nových příchozích požadavků HTTP. Výchozí hodnota je <literal>8</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:762
@@ -1222,11 +1226,12 @@ msgid ""
 "<literal>httpProcs:</literal> <replaceable>MAX_NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>httpProcs:</literal> <replaceable>MAX_POČET_SPOJENÍ</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:768
 msgid "httpUserSFCB, httpUser"
-msgstr ""
+msgstr "httpUserSFCB, httpUser"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:770
@@ -1240,16 +1245,24 @@ msgid ""
 "option> is set to <literal>false</literal>. the default is <literal>true</"
 "literal>."
 msgstr ""
+"Tyto možnosti určují, pod jakým uživatelem bude server HTTP spuštěn. Pokud "
+"<option>httpUserSFCB</option> je <literal>true</literal>, bude HTTP spuštěn "
+"pod stejným uživatelem jako hlavní proces SFCB. Pokud je "
+"<literal>false</literal>, použije se uživatelské jméno zadané pro "
+"<option>httpUser</option>. Toto nastavení se používá pro servery HTTP i "
+"HTTPS. <option>httpUser</option> <emphasis>musí</emphasis> být zadán, pokud "
+"je <option>httpUserSFCB</option> nastaven na <literal>false</literal>. "
+"Výchozí hodnota je <literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:781
 msgid "<literal>httpUserSFCB: true</literal>"
-msgstr ""
+msgstr "<literal>httpUserSFCB: true</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:786
 msgid "httpLocalOnly"
-msgstr ""
+msgstr "httpLocalOnly"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:788
@@ -1257,16 +1270,18 @@ msgid ""
 "Specifies whether to limit HTTP requests to localhost only. Default is "
 "<literal>false</literal>."
 msgstr ""
+"Určuje, zda omezit požadavky HTTP pouze na localhost. Výchozí hodnota je "
+"<literal>false</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:793
 msgid "<literal>httpLocalOnly: false</literal>"
-msgstr ""
+msgstr "<literal>httpLocalOnly: false</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:798
 msgid "httpsPort"
-msgstr ""
+msgstr "httpsPort"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:800
@@ -1274,16 +1289,18 @@ msgid ""
 "Specifies the local port value where sfcbd listens for HTTPS requests from "
 "CIM clients. Default is <literal>5989</literal> ."
 msgstr ""
+"Určuje hodnotu místního portu, kde sfcbd naslouchá požadavkům HTTPS od "
+"klientů CIM. Výchozí hodnota je <literal>5989</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:805
 msgid "<literal>httpsPort: port_number</literal>"
-msgstr ""
+msgstr "<literal>httpsPort: číslo_portu</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:810
 msgid "enableHttps"
-msgstr ""
+msgstr "enableHttps"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:812
@@ -1291,26 +1308,28 @@ msgid ""
 "Specifies if SFCB will accept HTTPS client connections. Default is "
 "<literal>true</literal> ."
 msgstr ""
+"Určuje, zda SFCB přijme připojení klienta HTTPS. Výchozí hodnota je "
+"<literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:817
 msgid "<literal>enableHttps: option</literal>"
-msgstr ""
+msgstr "<literal>enableHttps: možnost</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:844
 msgid "Enables HTTPS connections."
-msgstr ""
+msgstr "Povoluje připojení HTTPS."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:856
 msgid "Disables HTTPS connections."
-msgstr ""
+msgstr "Zakazuje připojení HTTPS."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:866
 msgid "httpsProcs"
-msgstr ""
+msgstr "httpsProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:868
@@ -1318,6 +1337,8 @@ msgid ""
 "Specifies the maximum number of simultaneous HTTPS client connections before "
 "new incoming HTTPS requests are blocked. Default is <literal>8</literal> ."
 msgstr ""
+"Určuje maximální počet současných HTTPS připojení klienta před blokováním "
+"nových příchozích požadavků HTTPS. Výchozí hodnota je <literal>8</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:874
@@ -1325,11 +1346,12 @@ msgid ""
 "<literal>httpsProcs:</literal> <replaceable>MAX_NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>httpsProcs:</literal> <replaceable>MAX_POČET_PŘIPOJENÍ</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:879
 msgid "enableInterOp"
-msgstr ""
+msgstr "enableInterOp"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:881
@@ -1337,26 +1359,28 @@ msgid ""
 "Specifies if SFCB will provide the <emphasis>interop</emphasis> namespace "
 "for indication support. Default is <literal>true</literal> ."
 msgstr ""
+"Určuje, zda SFCB poskytne <emphasis>interop</emphasis> prostor názvů pro "
+"podporu indikace. Výchozí hodnota je <literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:886
 msgid "<literal>enableInterOp:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>enableInterOp:</literal> <replaceable>MOŽNOST</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:913
 msgid "Enables interop namespace."
-msgstr ""
+msgstr "Povoluje prostor názvů pro interop."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:925
 msgid "Disables interop namespace."
-msgstr ""
+msgstr "Zakazuje prostor názvů pro interop."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:935
 msgid "provProcs"
-msgstr ""
+msgstr "provProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:937
@@ -1366,17 +1390,22 @@ msgid ""
 "of the existing providers will first be automatically unloaded. Default is "
 "<literal>32</literal> ."
 msgstr ""
+"Určuje maximální počet současných procesů poskytovatele. Po překročení, "
+"vyžaduje-li nový příchozí požadavek načtení nového poskytovatele, bude jeden "
+"z existujících poskytovatelů napřed automaticky uvolněn. Výchozí hodnota je "
+"<literal>32</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:944 xml/adm_wbem.xml:1015
 msgid ""
 "<literal>provProcs:</literal> <replaceable>MAX_NUMBER_OF_PROCS</replaceable>"
 msgstr ""
+"<literal>provProcs:</literal> <replaceable>MAX_POČET_PROCS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:949
 msgid "doBasicAuth"
-msgstr ""
+msgstr "doBasicAuth"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:951
@@ -1385,6 +1414,9 @@ msgid ""
 "before it accepts the request. Default value is <literal>true</literal> "
 "which means that basic client authentication is performed."
 msgstr ""
+"Zapne nebo vypne základní ověřování na základě identifikátoru uživatele "
+"klienta, než přijme požadavek. Výchozí hodnota je <literal>true</literal>, "
+"což znamená, že se provádí základní ověření klienta."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:958
