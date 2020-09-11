@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"PO-Revision-Date: 2020-09-11 20:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_security-master/cs/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: xml/book_security.xml:20
 msgid "<citetitle>Security Guide</citetitle>"
-msgstr ""
+msgstr "<citetitle>Průvodce zabezpečením</citetitle>"
 
 #. (itstool) path: info/productname
 #: xml/book_security.xml:21
@@ -53,6 +53,11 @@ msgid ""
 "software like <phrase>AppArmor</phrase> or the auditing system that reliably "
 "collects information about any security-relevant events."
 msgstr ""
+"Představuje základní koncepty zabezpečení systému, které pokrývají místní i "
+"síťové bezpečnostní aspekty. Ukazuje, jak používat vlastní bezpečnostní "
+"software k produktu, jako je <phrase>AppArmor</phrase> nebo auditovací "
+"systém, který spolehlivě shromažďuje informace o všech událostech "
+"souvisejících s bezpečností."
 
 #. (itstool) path: bugtracker/assignee
 #: xml/book_security.xml:32
