@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-10 18:47+0000\n"
+"PO-Revision-Date: 2020-09-11 20:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1421,17 +1421,17 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:958
 msgid "<literal>doBasicAuth:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>doBasicAuth:</literal> <replaceable>MOŽNOST</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:985
 msgid "Enables basic authentication."
-msgstr ""
+msgstr "Povolí základní ověřování."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:997
 msgid "Disables basic authentication."
-msgstr ""
+msgstr "Zakáže základní ověřování."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1007
