@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"PO-Revision-Date: 2020-09-11 20:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_sle_admin-master/cs/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: xml/book_sle_admin.xml:20
 msgid "<citetitle>Administration Guide</citetitle>"
-msgstr ""
+msgstr "<citetitle>Průvodce správou</citetitle>"
 
 #. (itstool) path: info/productname
 #: xml/book_sle_admin.xml:20
