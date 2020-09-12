@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-11 20:47+0000\n"
+"PO-Revision-Date: 2020-09-12 22:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1436,7 +1436,7 @@ msgstr "Zakáže základní ověřování."
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1007
 msgid "basicAuthLib"
-msgstr ""
+msgstr "basicAuthLib"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1009
@@ -1445,11 +1445,14 @@ msgid ""
 "authenticate the client user identifier. Default is "
 "<literal>sfcBasicPAMAuthentication</literal> ."
 msgstr ""
+"Určuje název místní knihovny. Server SFCB načte knihovnu k ověření "
+"identifikátoru uživatele klienta. Výchozí hodnota je "
+"<literal>sfcBasicPAMAuthentication</literal>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1020
 msgid "useChunking"
-msgstr ""
+msgstr "useChunking"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1022
@@ -1459,26 +1462,31 @@ msgid ""
 "to the client in smaller <quote>chunks</quote>, rather than buffer the data "
 "and send it back all in one chunk. Default is <literal>true</literal> ."
 msgstr ""
+"Tato možnost zapíná a vypíná použití HTTP/HTTPS <quote>chunking</quote> "
+"(kouskování). Pokud je zapnuto, server vrátí klientovi velké objemy dat "
+"odpovědí v menších <quote>blocích</quote>, místo aby data ukládal do "
+"mezipaměti a odesílal je zpět v jednom bloku. Výchozí hodnota je "
+"<literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1030
 msgid "<literal>useChunking:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>useChunking:</literal> <replaceable>MOŽNOST</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1057
 msgid "Enables HTTP/HTTPS data chunking."
-msgstr ""
+msgstr "Povoluje kouskování dat HTTP/HTTPS."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1069
 msgid "Disables HTTP/HTTPS data chunking."
-msgstr ""
+msgstr "Zakáže kouskování dat HTTP/HTTPS."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1079
 msgid "keepaliveTimeout"
-msgstr ""
+msgstr "keepaliveTimeout"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1081
@@ -1488,16 +1496,20 @@ msgid ""
 "<literal>0</literal> disables HTTP keep-alive. Default is <literal>0</"
 "literal>."
 msgstr ""
+"Určuje maximální čas v sekundách, po který proces SFCB HTTP čeká mezi dvěma "
+"požadavky na jednom připojení, než se ukončí. Nastavením na "
+"<literal>0</literal> zakážete udržování protokolu HTTP. Výchozí hodnota je "
+"<literal>0</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1088
 msgid "<literal>keepaliveTimeout:</literal> <replaceable>SECS</replaceable>"
-msgstr ""
+msgstr "<literal>keepaliveTimeout:</literal> <replaceable>SEKUND</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1093
 msgid "keepaliveMaxRequest"
-msgstr ""
+msgstr "keepaliveMaxRequest"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1095
@@ -1506,6 +1518,9 @@ msgid ""
 "Setting it to <literal>0</literal> disables HTTP keep-alive. Default value "
 "is <literal>10</literal> ."
 msgstr ""
+"Určuje maximální počet po sobě jdoucích požadavků na jedno připojení. "
+"Nastavením na <literal>0</literal> zakážete udržování protokolu HTTP. "
+"Výchozí hodnota je <literal>10</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1101
