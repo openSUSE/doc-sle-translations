@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2020-09-09 18:19+0000\n"
+"PO-Revision-Date: 2020-09-13 13:47+0000\n"
 "Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/apps_evolution-master/de/>\n"
@@ -140,7 +140,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:79
 msgid "Otherwise, proceed to <guimenu>Identity</guimenu>."
-msgstr ""
+msgstr "Andernfalls fahren Sie mit <guimenu>Identität</guimenu> fort."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:85
@@ -151,6 +151,8 @@ msgstr ""
 #: xml/apps_evolution.xml:86
 msgid "The <guimenu>Identity</guimenu> page is the next step in the assistant."
 msgstr ""
+"Die Seite <guimenu>Identität</guimenu> ist der nächste Schritt des "
+"Assistenten."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:91
@@ -171,6 +173,8 @@ msgstr ""
 #: xml/apps_evolution.xml:101
 msgid "(Optional) Type an address in the <guimenu>Reply-To</guimenu> field."
 msgstr ""
+"(Optional) Geben Sie eine Adresse in das Feld <guimenu>Antworten an</guimenu>"
+" ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:104
@@ -218,6 +222,8 @@ msgid ""
 "The <guimenu>Receiving E-mail</guimenu> page lets you determine the server "
 "that you want to use to receive e-mail."
 msgstr ""
+"Auf der Seite <guimenu>E-Mail-Empfang</guimenu> können Sie den Server "
+"bestimmen, den Sie für den Empfang von E-Mails verwenden möchten."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:133
@@ -379,6 +385,8 @@ msgid ""
 "If you selected IMAP+, POP, or USENET News as the server type, you need to "
 "specify additional information."
 msgstr ""
+"Wenn Sie IMAP+, POP oder USENET News als Servertyp gewählt haben, müssen Sie "
+"zusätzliche Informationen angeben."
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:224 xml/apps_evolution.xml:274
@@ -397,6 +405,8 @@ msgid ""
 "Type the host name of your e-mail server into the text box <guimenu>Server</"
 "guimenu>."
 msgstr ""
+"Geben Sie den Hostnamen Ihres E-Mail-Servers in das Textfeld "
+"<guimenu>Server</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:237 xml/apps_evolution.xml:281
@@ -404,6 +414,8 @@ msgid ""
 "Type your user name for the account into the text box <guimenu>Username</"
 "guimenu>."
 msgstr ""
+"Geben Sie Ihren Benutzernamen für das Konto in das Textfeld "
+"<guimenu>Benutzername</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:243 xml/apps_evolution.xml:826
@@ -411,6 +423,9 @@ msgid ""
 "Choose a security setting supported by your mail server. For security "
 "reasons, avoid using <guimenu>No Encryption</guimenu>."
 msgstr ""
+"Wählen Sie eine Sicherheitseinstellung, die von Ihrem Mail-Server "
+"unterstützt wird. Vermeiden Sie aus Sicherheitsgründen die Verwendung von "
+"<guimenu>Keine Verschlüsselung</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:249
