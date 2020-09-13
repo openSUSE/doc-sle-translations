@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-12 22:47+0000\n"
+"PO-Revision-Date: 2020-09-13 17:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1528,11 +1528,13 @@ msgid ""
 "<literal>keepaliveMaxRequest:</literal> <replaceable>NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>keepaliveMaxRequest:</literal> "
+"<replaceable>POČET_SPOJENÍ</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1106
 msgid "registrationDir"
-msgstr ""
+msgstr "registrationDir"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1108
@@ -1541,16 +1543,19 @@ msgid ""
 "registration data, the staging area, and the static repository. Default is "
 "<filename>/var/lib/sfcb/registration</filename> ."
 msgstr ""
+"Určuje registrační adresář, který obsahuje registrační údaje poskytovatele, "
+"pracovní oblast a statické úložiště. Výchozí hodnota je <filename>/var/lib/"
+"sfcb/registration</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1114
 msgid "<literal>registrationDir:</literal> <replaceable>DIR</replaceable>"
-msgstr ""
+msgstr "<literal>registrationDir:</literal> <replaceable>ADR</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1119
 msgid "providerDirs"
-msgstr ""
+msgstr "providerDirs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1121
@@ -1559,16 +1564,19 @@ msgid ""
 "provider libraries. Default is <filename>/usr/lib64 /usr/lib64 /usr/lib64/"
 "cmpi</filename>."
 msgstr ""
+"Určuje seznam adresářů oddělených mezerami, kde SFCB hledá knihovny "
+"poskytovatelů. Výchozí hodnota je <filename>/usr/lib64 /usr/lib64 /usr/lib64/"
+"cmpi</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1127
 msgid "<literal>providerDirs:</literal> <replaceable>DIR</replaceable>"
-msgstr ""
+msgstr "<literal>providerDirs:</literal> <replaceable>ADR</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1132
 msgid "providerSampleInterval"
-msgstr ""
+msgstr "providerSampleInterval"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1134
@@ -1576,17 +1584,20 @@ msgid ""
 "Specifies the interval in seconds at which the provider manager is checking "
 "for idle providers. Default is <literal>30</literal>."
 msgstr ""
+"Určuje interval v sekundách, ve kterém správce poskytovatelů kontroluje "
+"nečinné poskytovatele. Výchozí hodnota je <literal>30</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1139
 msgid ""
 "<literal>providerSampleInterval:</literal> <replaceable>SECS</replaceable>"
 msgstr ""
+"<literal>providerSampleInterval:</literal> <replaceable>SECS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1144
 msgid "providerTimeoutInterval"
-msgstr ""
+msgstr "providerTimeoutInterval"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1146
@@ -1594,17 +1605,20 @@ msgid ""
 "Specifies the interval in seconds before an idle provider gets unloaded by "
 "the provider manager. Default is <literal>60</literal>."
 msgstr ""
+"Určuje interval v sekundách před uvolněním nečinného poskytovatele správcem "
+"poskytovatele. Výchozí hodnota je <literal>60</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1151
 msgid ""
 "<literal>providerTimeoutInterval:</literal> <replaceable>SECS</replaceable>"
 msgstr ""
+"<literal>providerTimeoutInterval:</literal> <replaceable>SECS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1156
 msgid "providerAutoGroup"
-msgstr ""
+msgstr "providerAutoGroup"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1158
@@ -1613,11 +1627,15 @@ msgid ""
 "option is set to <literal>true</literal>, all providers in the same shared "
 "library are executed in the same process."
 msgstr ""
+"Neurčuje-li registrační soubor poskytovatele žádnou jinou skupinu a možnost "
+"je nastavena na <literal>true</literal>, budou všichni poskytovatelé ve "
+"stejné sdílené knihovně spuštěni ve stejném procesu."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1164
 msgid "<literal>providerAutoGroup:</literal> <replaceable>OPTION</replaceable>"
 msgstr ""
+"<literal>providerAutoGroup:</literal> <replaceable>MOŽNOST</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1191
