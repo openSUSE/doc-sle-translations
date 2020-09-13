@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-09-13 17:47+0000\n"
+"PO-Revision-Date: 2020-09-13 20:47+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/cs/>\n"
@@ -1640,17 +1640,17 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1191
 msgid "Enables grouping of providers."
-msgstr ""
+msgstr "Umožňuje seskupování poskytovatelů."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1203
 msgid "Disables grouping of providers."
-msgstr ""
+msgstr "Zakáže seskupování poskytovatelů."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1213
 msgid "sslCertificateFilePath"
-msgstr ""
+msgstr "sslCertificateFilePath"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1215
@@ -1661,17 +1661,23 @@ msgid ""
 "<literal>true</literal>. Default is <filename>/etc/sfcb/server.pem</"
 "filename>."
 msgstr ""
+"Určuje název souboru, který obsahuje certifikát serveru. Soubor musí být ve "
+"formátu PEM (Privacy Enhanced Mail, RFC 1421 a RFC 1424). Tento soubor je "
+"vyžadován, pouze pokud je <literal>enableHttps</literal> nastaven na "
+"<literal>true</literal>. Výchozí hodnota je <filename>/etc/sfcb/"
+"server.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1223
 msgid ""
 "<literal>sslCertificateFilePath:</literal> <replaceable>PATH</replaceable>"
 msgstr ""
+"<literal>sslCertificateFilePath:</literal> <replaceable>CESTA</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1228
 msgid "sslKeyFilePath"
-msgstr ""
+msgstr "sslKeyFilePath"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1230
@@ -1682,16 +1688,21 @@ msgid ""
 "set to <literal>true</literal>. Default is <filename>/etc/sfcb/file.pem</"
 "filename>."
 msgstr ""
+"Určuje název souboru, který obsahuje soukromý klíč pro certifikát serveru. "
+"Soubor musí být ve formátu PEM a nemusí být chráněn heslem. Tento soubor je "
+"vyžadován, pouze pokud je <literal>enableHttps</literal> nastaven na "
+"<literal>true</literal>. Výchozí hodnota je <filename>/etc/sfcb/"
+"file.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1238
 msgid "<literal>sslKeyFilePath:</literal> <replaceable>PATH</replaceable>"
-msgstr ""
+msgstr "<literal>sslKeyFilePath:</literal> <replaceable>CESTA</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1243
 msgid "sslClientTrustStore"
-msgstr ""
+msgstr "sslClientTrustStore"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1245
@@ -1702,6 +1713,11 @@ msgid ""
 "<literal>accept</literal> or <literal>require</literal>. Default is "
 "<filename>/etc/sfcb/client.pem</filename>."
 msgstr ""
+"Určuje název souboru, který obsahuje buď CA, nebo certifikáty klientů "
+"podepsané samy sebou. Tento soubor musí být ve formátu PEM a je vyžadován, "
+"pouze pokud je <literal>sslClientCertificate</literal> nastaven na "
+"<literal>accept</literal> nebo <literal>require</literal>. Výchozí hodnota "
+"je <filename>/etc/sfcb/client.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1253
