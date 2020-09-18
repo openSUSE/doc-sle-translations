@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2020-07-31 05:04+0000\n"
+"PO-Revision-Date: 2020-09-18 19:48+0000\n"
 "Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_shell-master/de/>\n"
@@ -31,6 +31,11 @@ msgid ""
 "automated task execution. Shells complement GUIs well, and this chapter "
 "gives an overview of some aspects of shells, in this case the Bash shell."
 msgstr ""
+"Heutzutage benutzen viele Menschen Computer mit einer grafischen "
+"Benutzeroberfläche (GUI) wie GNOME. Obwohl GUIs viele Funktionen bieten, "
+"sind sie bei der automatisierten Ausführung von Aufgaben eingeschränkt. "
+"Shells ergänzen GUIs gut, und dieses Kapitel gibt einen Überblick über "
+"einige Aspekte von Shells, in diesem Fall der Bash-Shell."
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_shell.xml:26
@@ -40,7 +45,7 @@ msgstr "Ja"
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:31
 msgid "What is <quote>The Shell</quote>?"
-msgstr ""
+msgstr "Was ist <quote>Die Shell</quote>?"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:38
