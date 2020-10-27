@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2020-10-27 01:00+0000\n"
+"PO-Revision-Date: 2020-10-27 01:49+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_shell-master/ja/>\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:48
 msgid "Knowing the Bash Configuration Files"
-msgstr ""
+msgstr "bash の設定ファイルについて"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:49
@@ -86,7 +86,7 @@ msgstr "<quote>通常の</quote> 対話的なシェル"
 msgid ""
 "This is normally the case when starting xterm, konsole, gnome-terminal or "
 "similar tools."
-msgstr ""
+msgstr "xterm, konsole, gnome-terminal などのツールを通じて bash を開始した場合は、こちらのシェルになります。"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:74
@@ -96,7 +96,7 @@ msgstr "非対話型のシェル"
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:75
 msgid "This is used when invoking a shell script at the command line."
-msgstr ""
+msgstr "コマンドラインでシェルスクリプトを実行すると、こちらのシェルになります。"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:81
@@ -274,6 +274,9 @@ msgid ""
 "# Output the following line: <co xml:id=\"co.adm.shell.comment\"/>\n"
 "echo \"Hello World\" <co xml:id=\"co.adm.shell.echo\"/>"
 msgstr ""
+"#!/bin/sh <co xml:id=\"co.adm.shell.shebang\"/>\n"
+"# 下記の行を出力します: <co xml:id=\"co.adm.shell.comment\"/>\n"
+"echo \"Hello World\" <co xml:id=\"co.adm.shell.echo\"/>"
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:287
