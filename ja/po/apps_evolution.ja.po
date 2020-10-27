@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2020-09-09 18:20+0000\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/apps_evolution-master/ja/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_evolution.xml:9
