@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:24+0200\n"
-"PO-Revision-Date: 2020-09-09 18:22+0000\n"
+"PO-Revision-Date: 2020-10-27 01:51+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/common_intro_feedback_i-master/ja/>\n"
@@ -16,12 +16,12 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: sect1/title
 #: xml/common_intro_feedback_i.xml:10
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 #. (itstool) path: docmanager/translation
 #: xml/common_intro_feedback_i.xml:14
@@ -31,12 +31,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/common_intro_feedback_i.xml:18
 msgid "Several feedback channels are available:"
-msgstr ""
+msgstr "複数のフィードバック方法が用意されています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/common_intro_feedback_i.xml:24
 msgid "Bugs and Enhancement Requests"
-msgstr ""
+msgstr "バグや機能拡張リクエスト"
 
 #. (itstool) path: listitem/para
 #: xml/common_intro_feedback_i.xml:26
@@ -88,7 +88,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/common_intro_feedback_i.xml:58
 msgid "User Comments"
-msgstr ""
+msgstr "ユーザコメント"
 
 #. (itstool) path: listitem/para
 #: xml/common_intro_feedback_i.xml:60
@@ -99,6 +99,9 @@ msgid ""
 "<link xlink:href=\"http://www.suse.com/documentation/feedback.html\"/> and "
 "enter your comments there."
 msgstr ""
+"本マニュアルを含む、本製品のドキュメンテーションに対するコメントや、提案をお待ちしております。オンライン版のドキュメンテーションの場合は、各ページの末尾に"
+"あるユーザコメント機能をお使いください。また、  <link xlink:href=\"http://www.suse.com/"
+"documentation/feedback.html\"/> でコメントを入力していただいてもかまいません。"
 
 #. (itstool) path: varlistentry/term
 #: xml/common_intro_feedback_i.xml:70
