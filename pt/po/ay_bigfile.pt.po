@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:48+0200\n"
-"PO-Revision-Date: 2020-12-04 20:27+0000\n"
+"PO-Revision-Date: 2020-12-05 00:26+0000\n"
 "Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
 "Language-Team: Portuguese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/ay_bigfile-master/pt/>\n"
@@ -2129,7 +2129,7 @@ msgstr ""
 #: xml/ay_bigfile.xml:13916 xml/ay_bigfile.xml:14037 xml/ay_bigfile.xml:14679
 #: xml/ay_bigfile.xml:15085 xml/ay_bigfile.xml:16010 xml/ay_bigfile.xml:17036
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #. (itstool) path: entry/para
 #: xml/ay_bigfile.xml:1698 xml/ay_bigfile.xml:5743 xml/ay_bigfile.xml:6071
