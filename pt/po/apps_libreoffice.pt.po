@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2020-12-03 16:26+0000\n"
+"PO-Revision-Date: 2020-12-04 20:26+0000\n"
 "Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
 "Language-Team: Portuguese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/apps_libreoffice-master/pt/>\n"
@@ -16,7 +16,9 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "créditos-tradutor"
+msgstr ""
+"créditos-tradutor\n"
+"Luís Tiago Favas <opensuse.overseverely@aleeas.com>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_libreoffice.xml:17
@@ -38,7 +40,7 @@ msgstr ""
 #. (itstool) path: docmanager/translation
 #: xml/apps_libreoffice.xml:32
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:36
