@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2020-12-04 20:26+0000\n"
+"PO-Revision-Date: 2020-12-05 00:26+0000\n"
 "Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
 "Language-Team: Portuguese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/apparmor_profiles_yast-master/pt/>\n"
@@ -263,7 +263,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:200
 msgid "File"
-msgstr ""
+msgstr "Ficheiro"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:202
