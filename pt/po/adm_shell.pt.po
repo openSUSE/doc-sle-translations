@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2020-12-03 16:26+0000\n"
+"PO-Revision-Date: 2020-12-04 20:26+0000\n"
 "Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
 "Language-Team: Portuguese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_shell-master/pt/>\n"
@@ -16,12 +16,14 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "créditos-tradutor"
+msgstr ""
+"créditos-tradutor\n"
+"Luís Tiago Favas <opensuse.overseverely@aleeas.com>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/adm_shell.xml:13
 msgid "Bash and Bash Scripts"
-msgstr ""
+msgstr "Bash e Bash Scripts"
 
 #. (itstool) path: abstract/para
 #: xml/adm_shell.xml:16
@@ -31,16 +33,22 @@ msgid ""
 "automated task execution. Shells complement GUIs well, and this chapter "
 "gives an overview of some aspects of shells, in this case the Bash shell."
 msgstr ""
+"Hoje em dia, muitas pessoas utilizam computadores com recurso a uma "
+"interface gráfica de utilizador (GUI) como o GNOME. Embora possam oferecer "
+"muitas funcionalidades, são muito limitadas na execução de tarefas "
+"automatizadas. As Shells (ou interpretadores de linha de comando) "
+"complementam os GUIs muito bem, e este capítulo dá uma visão geral de alguns "
+"aspetos das mesmas, neste caso da shell Bash."
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_shell.xml:26
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:31
 msgid "What is <quote>The Shell</quote>?"
-msgstr ""
+msgstr "O que é a <quote>Shell</quote>?"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:38
@@ -51,6 +59,12 @@ msgid ""
 "features and characteristics. If you need further information about other "
 "shells, search for <emphasis>shell</emphasis> in YaST."
 msgstr ""
+"Tradicionalmente, <emphasis>a</emphasis> shell é Bash (Bourne again Shell, "
+"do inglês \"Shell nascida outra vez\"). Quando este capítulo referência a "
+"palavra <quote>shell</quote> está se a referir ao Bash. Existem mais shells "
+"disponíveis (ash, csh, ksh, zsh, …) sendo que cada uma integra "
+"funcionalidades e características diferentes. Se precisar de mais informação "
+"sobre outras shell, pesquise por <emphasis>shell</emphasis> no YaST."
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:48
