@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2020-12-05 00:26+0000\n"
+"PO-Revision-Date: 2020-12-05 17:26+0000\n"
 "Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
 "Language-Team: Portuguese <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_shell-master/pt/>\n"
@@ -539,7 +539,7 @@ msgstr "<prompt>tux &gt; </prompt>ls &gt;&gt; listing.txt"
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:435
 msgid "<literal>Command &lt; File</literal>"
-msgstr ""
+msgstr "<literal>Comando &lt; Ficheiro</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:438
@@ -548,17 +548,19 @@ msgid ""
 "<command>read</command> command reads in the content of the file into the "
 "variable:"
 msgstr ""
+"Lê o ficheiro como input para um comando. Por exemplo, o comando "
+"<command>read</command> lê o conteúdo de um ficheiro para uma variável:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:443
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>read a &lt; foo"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>read a &lt; foo"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:447
 msgid "<literal>Command1 | Command2</literal>"
-msgstr ""
+msgstr "<literal>Comando1 | Comando2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:450
@@ -569,12 +571,17 @@ msgid ""
 "<command>grep</command> to filter only those lines which contain "
 "<literal>cpu</literal>:"
 msgstr ""
+"Redireciona o output do comando na esquerda como input do comando da "
+"direita. No  exemplo a seguir, o comando <command>cat</command> faz output "
+"do conteúdo presente no ficheiro <filename>/proc/cpuinfo</filename>. O "
+"output é depois utilizado pelo comando <command>grep</command> para filtrar "
+"por apenas as linhas que contêm a palavra <literal>cpu</literal>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:457
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:462
@@ -586,17 +593,23 @@ msgid ""
 "for a file starting with <filename>foo</filename>, but suppresses its errors "
 "by redirecting it to <filename>/dev/null</filename>:"
 msgstr ""
+"Cada canal tem um <emphasis>descritor de ficheiro</emphasis>: 0 (zero) para "
+"input padrão, 1 para output padrão e 2 para erro padrão.  É permitido "
+"inserir o descritor de ficheiro antes dos caracteres <literal>&lt;</literal> "
+"ou <literal>&gt;</literal>. No exemplo a seguir, a linha procura por um "
+"ficheiro começado por <filename>foo</filename>, mas suprime os erros ao "
+"redireciona-los para <filename>/dev/null</filename>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:471
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:474
 msgid "Using Aliases"
-msgstr ""
+msgstr "Utilizando Pseudónimos"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:476
@@ -604,12 +617,15 @@ msgid ""
 "An alias is a shortcut definition of one or more commands. The syntax for an "
 "alias is:"
 msgstr ""
+"Um pseudónimo é um atalho definido por um ou mais comandos. A sintaxe para "
+"um é a seguinte:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:481
 #, no-wrap
 msgid "alias <replaceable>NAME</replaceable>=<replaceable>DEFINITION</replaceable>"
 msgstr ""
+"alias<replaceable>NOME</replaceable>=<replaceable>Definição</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:483
@@ -619,12 +635,16 @@ msgid ""
 "modification time (<option>-t</option>), and prints it in reverse sorted "
 "order (<option>-r</option>):"
 msgstr ""
+"Por exemplo, a seguinte linha define um alias de nome <command>lt</command> "
+"que faz output de uma longa listagem (<option>-l</option>), ordena-a pela "
+"data de modificação (<option>-t</option>), e imprime-a por ordem inversa "
+"(<option>-r</option>):"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:489
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:491
@@ -632,11 +652,15 @@ msgid ""
 "To view all alias definitions, use <command>alias</command>. Remove your "
 "alias with <command>unalias</command> and the corresponding alias name."
 msgstr ""
+"Para ver todas as definições dos pseudónimos, utilize o comando "
+"<command>alias</command>.  Para remover um pseudónimo insira o comando "
+"<command>unalias</command> em conjunto com o nome correspondente do "
+"pseudónimo que deseja eliminar."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:497
 msgid "Using Variables in Bash"
-msgstr ""
+msgstr "Utilizando Variáveis no Bash"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:499
@@ -645,6 +669,9 @@ msgid ""
 "variables, can be accessed in all shells. In contrast, local variables are "
 "visible in the current shell only."
 msgstr ""
+"Uma variável de shell pode ser global ou local. Variáveis globais, ou "
+"variáveis de ambiente, podem ser acedidas por todas as shells. No entanto, "
+"variáveis locais apenas são visíveis à shell atual."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:505
@@ -653,12 +680,15 @@ msgid ""
 "command. If you need to know the value of a variable, insert the name of "
 "your variable as an argument:"
 msgstr ""
+"Para visualizar todas as variáveis de ambiente, utilize o comando "
+"<command>printenv</command>. Se desejar saber o valor de uma variável, "
+"insira o nome da mesma como argumento para o comando:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:511
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>printenv PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>printenv PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:513
@@ -666,12 +696,14 @@ msgid ""
 "A variable, be it global or local, can also be viewed with <command>echo</"
 "command>:"
 msgstr ""
+"Uma variável, independentemente de ser global ou local, pode também ser "
+"visualizada com o comando <command>echo</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:518
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>echo $PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>echo $PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:520
@@ -679,12 +711,14 @@ msgid ""
 "To set a local variable, use a variable name followed by the equal sign, "
 "followed by the value:"
 msgstr ""
+"Para definir uma variável local, use o nome da variável seguido do sinal de "
+"igual, seguido do valor:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:525
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>PROJECT=\"SLED\""
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>PROJECT=\"SLED\""
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:527
@@ -692,23 +726,26 @@ msgid ""
 "Do not insert spaces around the equal sign, otherwise you get an error. To "
 "set an environment variable, use <command>export</command>:"
 msgstr ""
+"Não insira espaços entre o símbolo igual, caso contrário receberá um erro. "
+"Poderá definir uma variável de ambiente , utilizando o comando "
+"<command>export</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:532
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>export NAME=\"tux\""
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>export NAME=\"tux\""
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:534
 msgid "To remove a variable, use <command>unset</command>:"
-msgstr ""
+msgstr "Para remover uma variável, utilize o comando <command>unset</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:538
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>unset NAME"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>unset NAME"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:540
@@ -716,36 +753,38 @@ msgid ""
 "The following table contains some common environment variables which can be "
 "used in you shell scripts:"
 msgstr ""
+"A tabela seguinte contêm algumas variáveis de ambiente comuns que podem ser "
+"utilizadas nos seus shell scripts:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:546
 msgid "Useful Environment Variables"
-msgstr ""
+msgstr "Variáveis de Ambiente Úteis"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:551
 msgid "<envar>HOME</envar>"
-msgstr ""
+msgstr "<envar>HOME</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:556
 msgid "the home directory of the current user"
-msgstr ""
+msgstr "a diretoria home(a pasta pessoal) do utilizador atual"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:563
 msgid "<envar>HOST</envar>"
-msgstr ""
+msgstr "<envar>HOST</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:568
 msgid "the current host name"
-msgstr ""
+msgstr "o nome de host atual"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:575
 msgid "<envar>LANG</envar>"
-msgstr ""
+msgstr "<envar>LANG</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:580
@@ -753,62 +792,72 @@ msgid ""
 "when a tool is localized, it uses the language from this environment "
 "variable. English can also be set to <literal>C</literal>"
 msgstr ""
+"quando uma ferramenta fornece traduções noutras línguas, a mesma escolhe a "
+"linguagem baseada no valor desta variável de ambiente. Inglês pode também "
+"ser definida para <literal>C</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:588
 msgid "<envar>PATH</envar>"
-msgstr ""
+msgstr "<envar>PATH</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:593
 msgid "the search path of the shell, a list of directories separated by colon"
 msgstr ""
+"o caminho de pesquisa da shell, uma lista de diretorias separadas por dois "
+"pontos"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:600
 msgid "<envar>PS1</envar>"
-msgstr ""
+msgstr "<envar>PS1</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:605
 msgid "specifies the normal prompt printed before each command"
 msgstr ""
+"especifica o texto/símbolo utilizado para representar a prontidão do sistema "
+"para executar o próximo comando (prompt) normal impresso antes de cada "
+"comando"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:612
 msgid "<envar>PS2</envar>"
-msgstr ""
+msgstr "<envar>PS2</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:617
 msgid ""
 "specifies the secondary prompt printed when you execute a multi-line command"
 msgstr ""
+"especifica o prompt secundário utilizado para executar comandos de múltiplas "
+"linhas"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:625
 msgid "<envar>PWD</envar>"
-msgstr ""
+msgstr "<envar>PWD</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:630
 msgid "current working directory"
-msgstr ""
+msgstr "diretoria atual onde a shell se encontra"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:637
 msgid "<envar>USER</envar>"
-msgstr ""
+msgstr "<envar>USER</envar>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:642
 msgid "the current user"
-msgstr ""
+msgstr "o utilizador atual"
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:652
 msgid "Using Argument Variables"
-msgstr ""
+msgstr "Utilizando Variáveis de Argumento"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:659
@@ -816,12 +865,14 @@ msgid ""
 "For example, if you have the script <command>foo.sh</command> you can "
 "execute it like this:"
 msgstr ""
+"Por exemplo, se tiver um script <command>foo.sh</command> pode executá-lo da "
+"seguinte maneira:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:663
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>foo.sh \"Tux Penguin\" 2000 "
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>foo.sh \"Tux Penguin\" 2000 "
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:664
@@ -831,6 +882,11 @@ msgid ""
 "<envar>$2</envar> for the second, and so on. You can have up to nine "
 "parameters. To get the script name, use <envar>$0</envar>."
 msgstr ""
+"Para aceder aos argumentos que são passados ao seu script, necessita de "
+"utilizar argumentos posicionais. Estes são <envar>$1</envar> para o primeiro "
+"argumento, <envar>$2</envar> para o segundo, e assim adiante. Pode definir "
+"até nove argumentos. Para aceder ao nome do script, utilize o argumento "
+"<envar>$0</envar>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:670
@@ -838,6 +894,8 @@ msgid ""
 "The following script <command>foo.sh</command> prints all arguments from 1 "
 "to 4:"
 msgstr ""
+"O seguinte script <command>foo.sh</command> imprime todos os argumentos de 1 "
+"a 4:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:674
@@ -846,22 +904,25 @@ msgid ""
 "#!/bin/sh\n"
 "echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 msgstr ""
+"#!/bin/sh\n"
+"echo \\\"$1\\\" \\\"$2\\\" \\\"$3\\\" \\\"$4\\\""
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:676
 msgid "If you execute this script with the above arguments, you get:"
 msgstr ""
+"Se executar este script com os argumentos acima mencionados, você obtém:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_shell.xml:679
 #, no-wrap
 msgid "\"Tux Penguin\" \"2000\" \"\" \"\""
-msgstr ""
+msgstr "\"Tux Penguin\" \"2000\" \"\" \"\""
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:756
 msgid "Using Variable Substitution"
-msgstr ""
+msgstr "Utilizando Substituição de Variáveis"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:757
@@ -870,16 +931,18 @@ msgid ""
 "from the left or right side. The following list contains the possible syntax "
 "forms:"
 msgstr ""
+"Substituição de variáveis aplica um padrão no contexto de uma variável ou "
+"pelo lado esquerdo ou direito. A lista seguinte contêm as sintaxes possíveis:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:764
 msgid "<literal>${VAR#pattern}</literal>"
-msgstr ""
+msgstr "<literal>${VAR#padrão}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:767
 msgid "removes the shortest possible match from the left:"
-msgstr ""
+msgstr "remove a correspondência mais curta possível da esquerda:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:770
@@ -889,16 +952,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file#*/}\n"
 "home/tux/book/book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file#*/}\n"
+"home/tux/book/book.tar.bz2"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:776
 msgid "<literal>${VAR##pattern}</literal>"
-msgstr ""
+msgstr "<literal>${VAR##padrão}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:779
 msgid "removes the longest possible match from the left:"
-msgstr ""
+msgstr "remove a correspondência mais longa possível da esquerda:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:782
@@ -908,16 +974,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file##*/}\n"
 "book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file##*/}\n"
+"book.tar.bz2"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:788
 msgid "<literal>${VAR%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${VAR%padrão}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:791
 msgid "removes the shortest possible match from the right:"
-msgstr ""
+msgstr "remove a correspondência mais curta possível da direita:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:794
@@ -927,16 +996,19 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file%.*}\n"
 "/home/tux/book/book.tar"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file%.*}\n"
+"/home/tux/book/book.tar"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:800
 msgid "<literal>${VAR%%pattern}</literal>"
-msgstr ""
+msgstr "<literal>${VAR%%padrão}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:803
 msgid "removes the longest possible match from the right:"
-msgstr ""
+msgstr "remove a correspondência mais longa possível da direita:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:806
@@ -946,11 +1018,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file%%.*}\n"
 "/home/tux/book/book"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file%%.*}\n"
+"/home/tux/book/book"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:812
 msgid "<literal>${VAR/pattern_1/pattern_2}</literal>"
-msgstr ""
+msgstr "<literal>${VAR/padrão_1/padrão_2}</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:815
@@ -959,6 +1034,8 @@ msgid ""
 "<replaceable>PATTERN_1</replaceable> with <replaceable>PATTERN_2</"
 "replaceable>:"
 msgstr ""
+"substitui o conteúdo de <replaceable>VAR</replaceable> do "
+"<replaceable>PADRÃO_1</replaceable> com <replaceable>PADRÃO_2</replaceable>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:820
@@ -968,11 +1045,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>echo ${file/tux/wilber}\n"
 "/home/wilber/book/book.tar.bz2"
 msgstr ""
+"<prompt>tux &gt; </prompt>file=/home/tux/book/book.tar.bz2\n"
+"<prompt>tux &gt; </prompt>echo ${file/tux/wilber}\n"
+"/home/wilber/book/book.tar.bz2"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:842
 msgid "Grouping and Combining Commands"
-msgstr ""
+msgstr "Agrupar e Combinar Comandos"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:844
@@ -982,16 +1062,21 @@ msgid ""
 "failure of its operation. If it is 0 (zero) the command was successful, "
 "everything else marks an error which is specific to the command."
 msgstr ""
+"As shells permitem-lhe concatenar e agrupar comandos para execução "
+"condicional. Cada comando retorna um código de saída que determina o sucesso "
+"ou falha da sua operação. Se devolver um 0 (zero) o comando correu com "
+"sucesso, se devolver qualquer outro significa um determinado tipo de erro "
+"que é específico para o comando em questão."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:851
 msgid "The following list shows, how commands can be grouped:"
-msgstr ""
+msgstr "A seguinte lista mostra-lhe, como os comandos podem ser agrupados:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:857
 msgid "<literal>Command1 ; Command2</literal>"
-msgstr ""
+msgstr "<literal>Comando1 ; Comando2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:860
@@ -1001,17 +1086,21 @@ msgid ""
 "and then prints its file properties with <command>ls</command> regardless of "
 "their exit codes:"
 msgstr ""
+"executa os comandos em ordem sequencial. O código de saída não é verificado. "
+"A seguinte linha mostra o conteúdo do ficheiro com o comando "
+"<command>cat</command> e imprime as propriedades do ficheiro com o comando "
+"<command>ls</command> independentemente dos códigos de saída:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:866
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat filelist.txt ; ls -l filelist.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>cat filelist.txt ; ls -l filelist.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:870
 msgid "<literal>Command1 &amp;&amp; Command2</literal>"
-msgstr ""
+msgstr "<literal>Comando1 &amp;&amp; Comando2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:873
@@ -1021,17 +1110,23 @@ msgid ""
 "properties only, when the previous command was successful (compare it with "
 "the previous entry in this list):"
 msgstr ""
+"corre o comando da direita, se o comando da esquerda correr com sucesso ("
+"lógico E). A seguinte linha mostra o conteúdo do ficheiro e imprime as "
+"propriedades do mesmo apenas, quando o comando anterior é bem sucedido (isto "
+"é compara o código de saída do primeiro comando e se for bem sucedido "
+"executa o segundo):"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:879
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat filelist.txt &amp;&amp; ls -l filelist.txt"
 msgstr ""
+"<prompt>tux &gt; </prompt>cat filelist.txt &amp;&amp; ls -l filelist.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:883
 msgid "<literal>Command1 || Command2</literal>"
-msgstr ""
+msgstr "<literal>Comando1 || Comando2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:886
@@ -1041,3 +1136,7 @@ msgid ""
 "filename> when the creation of the directory in <filename>/home/tux/foo</"
 "filename> has failed:"
 msgstr ""
+"corre o comando da direita, quando o comando da esquerda falha (lógico OU). "
+"A seguinte linha cria  apenas uma diretoria em <filename>/home/wilber/"
+"bar</filename> quando a criação de uma diretoria em <filename>/home/tux/"
+"foo</filename> falha:"
