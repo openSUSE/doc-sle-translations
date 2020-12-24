@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-07-31 05:04+0000\n"
+"PO-Revision-Date: 2020-12-24 14:26+0000\n"
 "Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_sudo-master/de/>\n"
@@ -124,12 +124,16 @@ msgid ""
 "The <command>id -un</command> command prints the login name of the current "
 "user."
 msgstr ""
+"Der Befehl <command>id -un</command> gibt den Anmeldenamen des aktuellen "
+"Benutzers aus."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:77
 msgid ""
 "The password is not shown during input, neither as clear text nor as bullets."
 msgstr ""
+"Das Passwort wird bei der Eingabe nicht angezeigt, weder als Klartext noch "
+"als Punkte."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:83
@@ -138,6 +142,10 @@ msgid ""
 "privileges. If you run the same command without the <command>sudo</command> "
 "prefix, it is run with the privileges of the current user again."
 msgstr ""
+"Nur Befehle, die mit <command>sudo</command> gestartet werden, werden mit "
+"erhöhten Rechten ausgeführt. Wenn Sie denselben Befehl ohne das Präfix "
+"<command>sudo</command> ausführen, wird er wieder mit den Rechten des "
+"aktuellen Benutzers ausgeführt."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:90
@@ -145,6 +153,8 @@ msgid ""
 "For a limited amount of time, you do not need to enter the <systemitem class="
 "\"username\">root</systemitem> password again."
 msgstr ""
+"Für eine begrenzte Zeit müssen Sie das <systemitem class=\"username\""
+">root</systemitem>-Passwort nicht erneut eingeben."
 
 #. (itstool) path: tip/title
 #: xml/adm_sudo.xml:97
@@ -155,6 +165,8 @@ msgstr ""
 #: xml/adm_sudo.xml:98
 msgid "I/O redirection does not work as you would probably expect:"
 msgstr ""
+"Die I/O-Umleitung funktioniert nicht so, wie Sie es wahrscheinlich erwarten "
+"würden:"
 
 #. (itstool) path: tip/screen
 #: xml/adm_sudo.xml:101
@@ -188,7 +200,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:122
 msgid "Starting a Shell"
-msgstr ""
+msgstr "Starten einer Shell"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:123
@@ -198,6 +210,10 @@ msgid ""
 "command>, it is recommended to rather use one of the built-in mechanisms to "
 "start a shell:"
 msgstr ""
+"Das Hinzufügen von <command>sudo</command> vor jedem Befehl kann lästig "
+"sein. Sie könnten zwar eine Shell als Befehl <command>sudo bash</command> "
+"angeben, es wird aber empfohlen, lieber einen der eingebauten Mechanismen "
+"zum Starten einer Shell zu verwenden:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:130
@@ -212,6 +228,11 @@ msgid ""
 "shell (with the <option>-c</option> option), else the shell is run in "
 "interactive mode."
 msgstr ""
+"Startet eine Shell, die durch die Umgebungsvariable <envar>SHELL</envar> "
+"oder die Standard-Shell des Zielbenutzers angegeben ist. Wenn ein Befehl "
+"angegeben wird, wird dieser an die Shell übergeben (mit der Option "
+"<option>-c</option>), ansonsten wird die Shell im interaktiven Modus "
+"ausgeführt."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:139
@@ -237,6 +258,10 @@ msgid ""
 "processed and the current working directory is set to the target user's home "
 "directory."
 msgstr ""
+"Wie <option>-s</option>, aber startet die Shell als Login-Shell. Das "
+"bedeutet, dass die Startdateien der Shell (<filename>.profile</filename> "
+"usw.) verarbeitet werden und das aktuelle Arbeitsverzeichnis auf das "
+"Heimatverzeichnis des Zielbenutzers gesetzt wird."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:157
@@ -253,13 +278,15 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:169
 msgid "Environment Variables"
-msgstr ""
+msgstr "Umgebungsvariablen"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:170
 msgid ""
 "By default, <command>sudo</command> does not propagate environment variables:"
 msgstr ""
+"Standardmäßig werden bei <command>sudo</command> keine Umgebungsvariablen "
+"übertragen:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:173
