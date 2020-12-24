@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2020-07-31 05:06+0000\n"
+"PO-Revision-Date: 2020-12-24 14:26+0000\n"
 "Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_wbem-master/de/>\n"
@@ -561,7 +561,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:461
 msgid "Environment Variables"
-msgstr ""
+msgstr "Umgebungsvariablen"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:462
