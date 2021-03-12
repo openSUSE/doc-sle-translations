@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"PO-Revision-Date: 2021-03-12 17:56+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_opensuse_reference-master/cs/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: xml/book_opensuse_reference.xml:21
 msgid "<citetitle>Reference</citetitle>"
-msgstr ""
+msgstr "<citetitle>Reference</citetitle>"
 
 #. (itstool) path: info/productname
 #: xml/book_opensuse_reference.xml:21
@@ -48,19 +48,19 @@ msgstr ""
 #. (itstool) path: part/title
 #: xml/book_opensuse_reference.xml:34
 msgid "Advanced Administration"
-msgstr ""
+msgstr "Pokročilá správa"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_reference.xml:48
 msgid "System"
-msgstr ""
+msgstr "Systém"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_reference.xml:63
 msgid "Services"
-msgstr ""
+msgstr "Služby"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_reference.xml:80
 msgid "Mobile Computers"
-msgstr ""
+msgstr "Mobilní počítače"
