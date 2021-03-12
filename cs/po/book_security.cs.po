@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2020-09-11 20:47+0000\n"
+"PO-Revision-Date: 2021-03-12 17:56+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_security-master/cs/>\n"
@@ -72,24 +72,24 @@ msgstr "Ověření"
 #. (itstool) path: part/title
 #: xml/book_security.xml:50
 msgid "Local Security"
-msgstr ""
+msgstr "Místní zabezpečení"
 
 #. (itstool) path: part/title
 #: xml/book_security.xml:63
 msgid "Network Security"
-msgstr ""
+msgstr "Zabezpečení sítě"
 
 #. (itstool) path: part/title
 #: xml/book_security.xml:73
 msgid "Confining Privileges with <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Oprávnění omezena účinkem <phrase>AppArmor</phrase>"
 
 #. (itstool) path: part/title
 #: xml/book_security.xml:89
 msgid "SELinux"
-msgstr ""
+msgstr "SELinux"
 
 #. (itstool) path: part/title
 #: xml/book_security.xml:95
 msgid "<citetitle>The Linux Audit Framework</citetitle>"
-msgstr ""
+msgstr "<citetitle>The Linux Audit Framework</citetitle>"
