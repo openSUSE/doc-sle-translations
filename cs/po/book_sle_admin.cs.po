@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2020-09-11 20:47+0000\n"
+"PO-Revision-Date: 2021-03-12 17:56+0000\n"
 "Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_sle_admin-master/cs/>\n"
@@ -51,6 +51,8 @@ msgid ""
 "Covers system administration tasks like maintaining, monitoring and "
 "customizing an initially installed system."
 msgstr ""
+"Pokrývá úkoly správy systému, jako je údržba, monitorování a přizpůsobení "
+"dříve nainstalovaného systému."
 
 #. (itstool) path: bugtracker/assignee
 #: xml/book_sle_admin.xml:31
@@ -65,27 +67,27 @@ msgstr "ano"
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:41
 msgid "Common Tasks"
-msgstr ""
+msgstr "Běžné úkoly"
 
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:56
 msgid "Booting a Linux System"
-msgstr ""
+msgstr "Zavádění systému Linux"
 
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:66
 msgid "System"
-msgstr ""
+msgstr "Systém"
 
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:85
 msgid "Hardware Configuration"
-msgstr ""
+msgstr "Konfigurace hardwaru"
 
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:92
 msgid "Services"
-msgstr ""
+msgstr "Služby"
 
 #. (itstool) path: part/title
 #: xml/book_sle_admin.xml:110
