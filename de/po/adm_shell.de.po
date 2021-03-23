@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2020-09-18 19:48+0000\n"
-"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"PO-Revision-Date: 2021-03-23 18:56+0000\n"
+"Last-Translator: Gemineo <vistatec@gemineo.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/adm_shell-master/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr "Übersetzer-Credits"
 #. (itstool) path: chapter/title
 #: xml/adm_shell.xml:13
 msgid "Bash and Bash Scripts"
-msgstr ""
+msgstr "Bash und Bash Scripts"
 
 #. (itstool) path: abstract/para
 #: xml/adm_shell.xml:16
@@ -56,21 +56,27 @@ msgid ""
 "features and characteristics. If you need further information about other "
 "shells, search for <emphasis>shell</emphasis> in YaST."
 msgstr ""
+"Üblicherweise ist <emphasis>die</emphasis> Shell Bash (Bourne again Shell). "
+"Wenn in diesem Kapitel von <quote>der Shell</quote> die Rede ist, ist Bash "
+"gemeint. Es gibt noch weitere Shells (ash, csh, ksh, zsh ...), die jeweils "
+"unterschiedliche Funktionen und Eigenschaften aufweisen. Wenn Sie weitere "
+"Informationen über andere Shells benötigen, suchen Sie in YaST nach "
+"<emphasis>shell</emphasis>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_shell.xml:48
 msgid "Knowing the Bash Configuration Files"
-msgstr ""
+msgstr "Wissen zu Bash Configuration Files"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:49
 msgid "A shell can be invoked as an:"
-msgstr ""
+msgstr "Eine Shell kann aufgerufen werden als:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:55
 msgid "Interactive login shell"
-msgstr ""
+msgstr "Interaktive Anmelde-Shell"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:56
@@ -78,11 +84,14 @@ msgid ""
 "This is used when logging in to a machine, invoking Bash with the <option>--"
 "login</option> option or when logging in to a remote machine with SSH."
 msgstr ""
+"Dies wird verwendet, wenn Sie sich bei einer Maschine anmelden, Bash mit der "
+"Option <option>--login</option> aufrufen oder sich mit SSH bei einer "
+"Remotemaschine anmelden."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:65
 msgid "<quote>Ordinary</quote> interactive shell"
-msgstr ""
+msgstr "<quote>Herkömmliche</quote> interaktive Shell"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:66
@@ -90,16 +99,20 @@ msgid ""
 "This is normally the case when starting xterm, konsole, gnome-terminal or "
 "similar tools."
 msgstr ""
+"Dies ist normalerweise der Fall, wenn Sie xterm, konsole, gnome-terminal "
+"oder ähnliche Tools starten."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:74
 msgid "Non-interactive shell"
-msgstr ""
+msgstr "Nicht interaktive Shell"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:75
 msgid "This is used when invoking a shell script at the command line."
 msgstr ""
+"Dies wird verwendet, wenn ein Shell-Skript in der Befehlszeile aufgerufen "
+"wird."
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:81
@@ -108,11 +121,14 @@ msgid ""
 "be read. The following tables show the login and non-login shell "
 "configuration files."
 msgstr ""
+"Je nach Art der verwendeten Shell werden unterschiedliche "
+"Konfigurationsdateien gelesen. Die folgenden Tabellen enthalten die Shell-"
+"Konfigurationsdateien mit und ohne Anmeldung."
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:87
 msgid "Bash Configuration Files for Login Shells"
-msgstr ""
+msgstr "Bash-Konfigurationsdateien für Anmelde-Shells"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:92 xml/adm_shell.xml:214
@@ -135,6 +151,8 @@ msgid ""
 "Do not modify this file, otherwise your modifications may be destroyed "
 "during your next update!"
 msgstr ""
+"Ändern Sie diese Datei nicht, da sonst Ihre Änderungen beim nächsten Update "
+"verlorengehen können."
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:119
@@ -145,6 +163,8 @@ msgstr "<filename>/etc/profile.local</filename>"
 #: xml/adm_shell.xml:124
 msgid "Use this file if you extend <filename>/etc/profile</filename>"
 msgstr ""
+"Verwenden Sie diese Datei, wenn Sie <filename>/etc/profile</filename> "
+"erweitern"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:131
@@ -154,7 +174,7 @@ msgstr "<filename>/etc/profile.d/</filename>"
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:136
 msgid "Contains system-wide configuration files for specific programs"
-msgstr ""
+msgstr "Enthält systemweite Konfigurationsdateien für bestimmte Programme"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:143
@@ -164,7 +184,7 @@ msgstr "<filename>~/.profile</filename>"
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:148
 msgid "Insert user specific configuration for login shells here"
-msgstr ""
+msgstr "Benutzerspezifische Konfiguration für Anmelde-Shells hier einfügen"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:157
@@ -172,71 +192,76 @@ msgid ""
 "Note that the login shell also sources the configuration files listed under "
 "<xref linkend=\"tab.adm.shell.configs.nonloginshells\"/>."
 msgstr ""
+"Beachten Sie, dass die Anmelde-Shell auch die Konfigurationsdateien bezieht, "
+"die unter <xref linkend=\"tab.adm.shell.configs.nonloginshells\"/> "
+"aufgelistet sind."
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:162
 msgid "Bash Configuration Files for Non-Login Shells"
-msgstr ""
+msgstr "Bash-Konfigurationsdateien für Shells ohne Anmeldung"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:167
 msgid "<filename>/etc/bash.bashrc</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:180
 msgid "<filename>/etc/bash.bashrc.local</filename>"
-msgstr ""
+msgstr "<filename>/etc/bash.bashrc.local</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:185
 msgid "Use this file to insert your system-wide modifications for Bash only"
 msgstr ""
+"Verwenden Sie diese Datei, um Ihre systemweiten Änderungen nur für Bash "
+"einzufügen"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:192
 msgid "<filename>~/.bashrc</filename>"
-msgstr ""
+msgstr "<filename>~/.bashrc</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:197
 msgid "Insert user specific configuration here"
-msgstr ""
+msgstr "Benutzerspezifische Konfiguration hier einfügen"
 
 #. (itstool) path: sect2/para
 #: xml/adm_shell.xml:205
 msgid "Additionally, Bash uses some more files:"
-msgstr ""
+msgstr "Zusätzlich verwendet die einige weitere Dateien:"
 
 #. (itstool) path: table/title
 #: xml/adm_shell.xml:209
 msgid "Special Files for Bash"
-msgstr ""
+msgstr "Spezielle Dateien für Bash"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:228
 msgid "<filename>~/.bash_history</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_history</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:233
 msgid "Contains a list of all commands you have typed"
-msgstr ""
+msgstr "Enthält eine Liste aller Befehle, die Sie eingegeben haben"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:240
 msgid "<filename>~/.bash_logout</filename>"
-msgstr ""
+msgstr "<filename>~/.bash_logout</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:245
 msgid "Executed when logging out"
-msgstr ""
+msgstr "Wird beim Abmelden ausgeführt"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:252
 msgid "<filename>~/.alias</filename>"
-msgstr ""
+msgstr "<filename>~/.alias</filename>"
 
 #. (itstool) path: entry/para
 #: xml/adm_shell.xml:257
@@ -244,11 +269,13 @@ msgid ""
 "User defined aliases of frequently used commands. See <command>man 1 alias</"
 "command> for more details about defining aliases."
 msgstr ""
+"Benutzerdefinierte Aliase häufig verwendeter Befehle. Weitere Details zum "
+"Definieren von Aliasen finden Sie unter <command>man 1 alias</command>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:272
 msgid "Writing Shell Scripts"
-msgstr ""
+msgstr "Schreib-Shell-Skripte"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:274
@@ -257,11 +284,15 @@ msgid ""
 "collecting data, searching for a word or phrase in a text and other useful "
 "things. The following example shows a small shell script that prints a text:"
 msgstr ""
+"Mit Shell-Skripte ist es ganz einfach, eine Vielzahl von Aufgaben "
+"auszuführen: das Sammeln von Daten, die Suche nach einem Wort oder einer "
+"Phrase in einem Text und vieles mehr. Das folgende Beispiel zeigt ein "
+"kleines Shell-Skript, das einen Text ausgibt:"
 
 #. (itstool) path: example/title
 #: xml/adm_shell.xml:281
 msgid "A Shell Script Printing a Text"
-msgstr ""
+msgstr "Shell-Skript für Textausgabe"
 
 #. (itstool) path: example/screen
 #: xml/adm_shell.xml:282
@@ -271,6 +302,9 @@ msgid ""
 "# Output the following line: <co xml:id=\"co.adm.shell.comment\"/>\n"
 "echo \"Hello World\" <co xml:id=\"co.adm.shell.echo\"/>"
 msgstr ""
+"#!/bin/sh <co xml:id=\"co.adm.shell.shebang\"/>\n"
+"# Geben Sie die folgende Zeile aus: <co xml:id=\"co.adm.shell.comment\"/>\n"
+"echo \"Hello World\" <co xml:id=\"co.adm.shell.echo\"/>"
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:287
@@ -281,6 +315,11 @@ msgid ""
 "script. In this case, the specified interpreter is <command>/bin/sh</"
 "command>."
 msgstr ""
+"Die erste Zeile beginnt mit den Zeichen <emphasis>Shebang</emphasis> "
+"(<literal>#!</literal>), die anzeigen, dass diese Datei ein Skript ist. Der "
+"Interpreter, der nach dem <emphasis>Shebang</emphasis> angegeben wird, führt "
+"das Skript aus. In diesem Fall ist der angegebene Interpreter <command>/bin/"
+"sh</command>."
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:295
@@ -291,6 +330,11 @@ msgid ""
 "understand your script. Commenting is considered good practice in the "
 "development community."
 msgstr ""
+"Die zweite Zeile ist ein Kommentar, der mit dem Rautenzeichen beginnt. Wir "
+"empfehlen Ihnen, schwierige Zeilen zu kommentieren. Mit der richtigen "
+"Kommentierung können Sie sich den Zweck und die Funktion der Zeile merken. "
+"Außerdem verstehen andere Leser Ihr Skript so hoffentlich. Das Kommentieren "
+"gilt in der Entwickler-Community als gute Praxis."
 
 #. (itstool) path: callout/para
 #: xml/adm_shell.xml:303
@@ -298,11 +342,15 @@ msgid ""
 "The third line uses the built-in command <command>echo</command> to print "
 "the corresponding text."
 msgstr ""
+"Die dritte Zeile verwendet den integrierten Befehl <command>echo</command>, "
+"um den entsprechenden Text auszugeben."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:311
 msgid "Before you can run this script, there are a few prerequisites:"
 msgstr ""
+"Bevor Sie dieses Skript ausführen können, müssen einige Voraussetzungen "
+"erfüllt sein:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:317
@@ -310,6 +358,8 @@ msgid ""
 "Every script should contain a Shebang line (as in the example above). If the "
 "line is missing, you need to call the interpreter manually."
 msgstr ""
+"Jedes Skript sollte eine Shebang-Zeile enthalten (wie im Beispiel oben). "
+"Wenn die Zeile fehlt, müssen Sie den Interpreter manuell aufrufen."
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:323
@@ -322,6 +372,13 @@ msgid ""
 "<filename>~/bin/</filename>. The above example gets the name <filename>hello."
 "sh</filename>."
 msgstr ""
+"Sie können das Skript speichern, wo Sie möchten. Es ist jedoch ratsam, es in "
+"einem Verzeichnis zu speichern, in dem die Shell es finden kann. Der "
+"Suchpfad in einer Shell wird durch die Umgebungsvariable <envar>PATH</envar> "
+"bestimmt. Normalerweise hat ein herkömmlicher Benutzer keinen Schreibzugriff "
+"auf <filename>/usr/bin</filename>. Daher empfiehlt es sich, Ihre Skripte im "
+"Verzeichnis <filename>~/bin/</filename> des Benutzers zu speichern. Das "
+"Beispiel oben erhält den Namen <filename>hello.sh</filename>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:334
@@ -329,12 +386,14 @@ msgid ""
 "The script needs executable permissions. Set the permissions with the "
 "following command:"
 msgstr ""
+"Das Skript benötigt ausführbare Berechtigungen. Legen Sie die Berechtigungen "
+"mit folgendem Befehl fest:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:338
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>chmod +x ~/bin/hello.sh"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>chmod +x ~/bin/hello.sh"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:342
@@ -342,11 +401,13 @@ msgid ""
 "If you have fulfilled all of the above prerequisites, you can execute the "
 "script in the following ways:"
 msgstr ""
+"Wenn Sie alle oben genannten Voraussetzungen erfüllt haben, können Sie das "
+"Skript auf folgende Arten ausführen:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:350
 msgid "As Absolute Path"
-msgstr ""
+msgstr "Als absoluten Pfad"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:351
@@ -354,11 +415,13 @@ msgid ""
 "The script can be executed with an absolute path. In our case, it is "
 "<command>~/bin/hello.sh</command>."
 msgstr ""
+"Das Skript kann mit einem absoluten Pfad ausgeführt werden. In unserem Fall "
+"ist es <command>~/bin/hello.sh</command>."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:359
 msgid "Everywhere"
-msgstr ""
+msgstr "Überall"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:360
@@ -367,21 +430,25 @@ msgid ""
 "the script is located, you can execute the script with <command>hello.sh</"
 "command>."
 msgstr ""
+"Wenn die Umgebungsvariable <envar>PATH</envar> das Verzeichnis enthält, in "
+"dem sich das Skript befindet, können Sie das Skript mit "
+"<command>hello.sh</command> ausführen."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:370
 msgid "Redirecting Command Events"
-msgstr ""
+msgstr "Befehlsereignisse umleiten"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:372
 msgid "Each command can use three channels, either for input or output:"
 msgstr ""
+"Jeder Befehl kann drei Kanäle verwenden, entweder für die Ein- oder Ausgabe:"
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:379
 msgid "Standard Output"
-msgstr ""
+msgstr "Standardausgabe"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:380
@@ -389,37 +456,41 @@ msgid ""
 "This is the default output channel. Whenever a command prints something, it "
 "uses the standard output channel."
 msgstr ""
+"Dies ist der Standardausgabekanal. Bei jeder Ausgabe eines Befehls wird der "
+"Standardausgabekanal verwendet."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:388
 msgid "Standard Input"
-msgstr ""
+msgstr "Standardeingabe"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:389
 msgid ""
 "If a command needs input from users or other commands, it uses this channel."
 msgstr ""
+"Wenn für einen Befehl Eingaben von Benutzern oder andere Befehle "
+"erforderlich sind, wird dieser Kanal verwendet."
 
 #. (itstool) path: formalpara/title
 #: xml/adm_shell.xml:397
 msgid "Standard Error"
-msgstr ""
+msgstr "Standardfehler"
 
 #. (itstool) path: formalpara/para
 #: xml/adm_shell.xml:398
 msgid "Commands use this channel for error reporting."
-msgstr ""
+msgstr "Befehle verwenden diesen Kanal für Fehlerberichte."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:405
 msgid "To redirect these channels, there are the following possibilities:"
-msgstr ""
+msgstr "Für die Umleitung dieser Kanäle gibt es folgende Möglichkeiten:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:411
 msgid "<literal>Command &gt; File</literal>"
-msgstr ""
+msgstr "<literal>Befehl &gt; Datei</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:414
@@ -428,17 +499,20 @@ msgid ""
 "deleted. For example, the <command>ls</command> command writes its output "
 "into the file <filename>listing.txt</filename>:"
 msgstr ""
+"Speichert die Ausgabe des Befehls in eine Datei, eine vorhandene Datei wird "
+"gelöscht. Zum Beispiel schreibt der Befehl <command>ls</command> die Ausgabe "
+"in die Datei <filename>listing.txt</filename>:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:419
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ls &gt; listing.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>ls &gt; listing.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:423
 msgid "<literal>Command &gt;&gt; File</literal>"
-msgstr ""
+msgstr "<literal>Befehl &gt;&gt; Datei</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:426
@@ -447,17 +521,20 @@ msgid ""
 "command> command appends its output to the file <filename>listing.txt</"
 "filename>:"
 msgstr ""
+"Hängt die Ausgabe des Befehls an eine Datei an. Zum Beispiel hängt der "
+"Befehl <command>ls</command> seine Ausgabe an die Datei "
+"<filename>listing.txt</filename> an:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:431
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>ls &gt;&gt; listing.txt"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>ls &gt;&gt; listing.txt"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:435
 msgid "<literal>Command &lt; File</literal>"
-msgstr ""
+msgstr "<literal>Befehl &lt; Datei</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:438
@@ -466,17 +543,19 @@ msgid ""
 "<command>read</command> command reads in the content of the file into the "
 "variable:"
 msgstr ""
+"Liest die Datei als Eingabe für den angegebenen Befehl. Zum Beispiel liest "
+"der Befehl <command>read</command> den Inhalt der Datei in die Variable ein:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:443
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>read a &lt; foo"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>read a &lt; foo"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_shell.xml:447
 msgid "<literal>Command1 | Command2</literal>"
-msgstr ""
+msgstr "<literal>Befehl1 | Befehl2</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_shell.xml:450
@@ -487,12 +566,17 @@ msgid ""
 "<command>grep</command> to filter only those lines which contain "
 "<literal>cpu</literal>:"
 msgstr ""
+"Leitet die Ausgabe des linken Befehls als Eingabe für den rechten Befehl um. "
+"Zum Beispiel gibt der Befehl <command>cat</command> den Inhalt der Datei "
+"<filename>/proc/cpuinfo</filename> aus. Diese Ausgabe wird von "
+"<command>grep</command> verwendet, um nur die Zeilen zu filtern, die "
+"<literal>cpu</literal> enthalten:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_shell.xml:457
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>cat /proc/cpuinfo | grep cpu"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:462
@@ -504,17 +588,23 @@ msgid ""
 "for a file starting with <filename>foo</filename>, but suppresses its errors "
 "by redirecting it to <filename>/dev/null</filename>:"
 msgstr ""
+"Jeder Kanal hat einen <emphasis>Dateideskriptor</emphasis>: 0 (Null) für "
+"Standardeingabe, 1 für Standardausgabe und 2 für Standardfehler. Es ist "
+"erlaubt, diesen Dateideskriptor vor einem <literal>&lt;</literal>- oder "
+"<literal>&gt;</literal>-Zeichen einzuzufügen. Die folgende Zeile sucht z. B. "
+"nach einer Datei, die mit <filename>foo</filename> beginnt, unterdrückt aber "
+"ihre Fehler, indem sie sie zu <filename>/dev/null</filename> umleitet:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:471
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>find / -name \"foo*\" 2&gt;/dev/null"
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:474
 msgid "Using Aliases"
-msgstr ""
+msgstr "Aliasse verwenden"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:476
@@ -522,12 +612,15 @@ msgid ""
 "An alias is a shortcut definition of one or more commands. The syntax for an "
 "alias is:"
 msgstr ""
+"Ein Alias ist eine Abkürzungsdefinition für mindestens einen Befehl. Die "
+"Syntax für einen Alias lautet:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:481
 #, no-wrap
 msgid "alias <replaceable>NAME</replaceable>=<replaceable>DEFINITION</replaceable>"
 msgstr ""
+"alias <replaceable>NAME</replaceable>=<replaceable>DEFINITION</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:483
@@ -537,12 +630,16 @@ msgid ""
 "modification time (<option>-t</option>), and prints it in reverse sorted "
 "order (<option>-r</option>):"
 msgstr ""
+"Die folgende Zeile definiert beispielsweise den Alias <command>lt</command>, "
+"der eine lange Auflistung ausgibt (Option <option>-l</option>), diese nach "
+"Änderungszeit sortiert (<option>-t</option>) und in umgekehrter "
+"Sortierreihenfolge ausgibt (<option>-r</option>):"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:489
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>alias lt='ls -ltr'"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:491
@@ -550,11 +647,14 @@ msgid ""
 "To view all alias definitions, use <command>alias</command>. Remove your "
 "alias with <command>unalias</command> and the corresponding alias name."
 msgstr ""
+"Um alle Aliasdefinitionen anzuzeigen, verwenden Sie <command>alias</command>"
+". Entfernen Sie Ihren Alias mit <command>unalias</command> und dem "
+"entsprechenden Aliasnamen."
 
 #. (itstool) path: sect1/title
 #: xml/adm_shell.xml:497
 msgid "Using Variables in Bash"
-msgstr ""
+msgstr "Variablen in Bash verwenden"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:499
@@ -563,6 +663,9 @@ msgid ""
 "variables, can be accessed in all shells. In contrast, local variables are "
 "visible in the current shell only."
 msgstr ""
+"Eine Shell-Variable kann global oder lokal sein. Auf globale Variablen, oder "
+"Umgebungsvariablen, kann in allen Shells zugegriffen werden. Im Gegensatz "
+"dazu sind lokale Variablen nur in der aktuellen Shell sichtbar."
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:505
@@ -571,12 +674,15 @@ msgid ""
 "command. If you need to know the value of a variable, insert the name of "
 "your variable as an argument:"
 msgstr ""
+"Um alle Umgebungsvariablen anzuzeigen, verwenden Sie den Befehl "
+"<command>printenv</command>. Wenn Sie den Wert einer Variable benötigen, "
+"fügen Sie den Namen Ihrer Variable als Argument ein:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:511
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>printenv PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>printenv PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:513
@@ -584,12 +690,14 @@ msgid ""
 "A variable, be it global or local, can also be viewed with <command>echo</"
 "command>:"
 msgstr ""
+"Eine Variable, ob global oder lokal, kann auch mit <command>echo</command> "
+"angezeigt werden:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:518
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>echo $PATH"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>echo $PATH"
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:520
@@ -597,12 +705,14 @@ msgid ""
 "To set a local variable, use a variable name followed by the equal sign, "
 "followed by the value:"
 msgstr ""
+"Um eine lokale Variable zu festzulegen, verwenden Sie einen Variablennamen, "
+"gefolgt von einem Gleichheitszeichen, gefolgt von dem Wert:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:525
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>PROJECT=\"SLED\""
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>PROJECT=\"SLED\""
 
 #. (itstool) path: sect1/para
 #: xml/adm_shell.xml:527
@@ -610,6 +720,9 @@ msgid ""
 "Do not insert spaces around the equal sign, otherwise you get an error. To "
 "set an environment variable, use <command>export</command>:"
 msgstr ""
+"Fügen Sie keine Leerzeichen um das Gleichheitszeichen ein, sonst erhalten "
+"Sie einen Fehler. Um eine Umgebungsvariable festzulegen, verwenden Sie "
+"<command>exportieren</command>:"
 
 #. (itstool) path: sect1/screen
 #: xml/adm_shell.xml:532
