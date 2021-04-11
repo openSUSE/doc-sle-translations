@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2021-04-11 17:59+0000\n"
+"PO-Revision-Date: 2021-04-11 20:58+0000\n"
 "Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/art_opensuse_install_quick-master/fr/>\n"
@@ -17,8 +17,6 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Crédits translation\n"
-"Lucie Charrier c.chalu@free.fr, 2021"
 
 #. (itstool) path: chapter/title
 #: xml/art_opensuse_install_quick.xml:16
@@ -28,7 +26,7 @@ msgstr "<citetitle>Installation démarrage rapide</citetitle>"
 #. (itstool) path: docmanager/translation
 #: xml/art_opensuse_install_quick.xml:21
 msgid "yes"
-msgstr "oui"
+msgstr ""
 
 #. (itstool) path: abstract/para
 #: xml/art_opensuse_install_quick.xml:24
@@ -237,9 +235,9 @@ msgid ""
 "Other <guimenu>License Translations</guimenu> are available. Proceed with "
 "<guimenu>Next</guimenu>."
 msgstr ""
-"Read the License Agreement. It is presented in the language you have chosen. "
-"Other <guimenu>License Translations</guimenu> are available. Proceed with "
-"<guimenu>Next</guimenu>."
+"Lisez le contrat de licence. Il est présenté dans la langue que vous avez "
+"choisie. D'autres <guimenu>Traductions de la licence</guimenu> sont "
+"disponibles. Continuez avec <guimenu>Suivant</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_opensuse_install_quick.xml:132
@@ -854,6 +852,11 @@ msgid ""
 "manager support. If you have not installed a desktop, the system boots into "
 "a login shell (<guimenu>Text Mode</guimenu>)."
 msgstr ""
+"Si vous avez choisi d'installer un système de bureau, le système démarre "
+"dans la cible <guimenu>graphique</guimenu>, avec prise en charge du réseau, "
+"du multi-utilisateur et du gestionnaire d'affichage. Si vous n'avez pas "
+"installé de bureau, le système démarre dans un shell de connexion (<guimenu>"
+"Text Mode</guimenu>)."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_opensuse_install_quick.xml:490
@@ -862,17 +865,23 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/art_opensuse_install_quick.xml:493
+#, fuzzy
 msgid ""
 "View detailed hardware information by clicking <guimenu>System</guimenu>. In "
 "the resulting screen you can also change <guimenu>Kernel Settings</guimenu>—"
 "see <xref linkend=\"sec.yast_install.proposal.system\"/> for more "
 "information."
 msgstr ""
+"Affichez des informations matérielles détaillées en cliquant sur "
+"<guimenu>System</guimenu>. Dans l'écran résultant, vous pouvez également "
+"modifier les <guimenu>Paramètres du noyau</guimenu>-voir <xref linkend=\""
+"sec.yast_install.proposal.system\"/> pour plus d'informations."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_opensuse_install_quick.xml:502
+#, fuzzy
 msgid "<guimenu>Firewall and SSH</guimenu>"
-msgstr ""
+msgstr "<guimenu>Pare-feu et SSH</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_opensuse_install_quick.xml:505
@@ -881,6 +890,9 @@ msgid ""
 "for the public zone. See <xref linkend=\"sec.security.firewall.firewalld\"/> "
 "for configuration details."
 msgstr ""
+"Par défaut, le pare-feu est activé avec toutes les interfaces réseau "
+"configurées pour la zone publique. Voir <xref linkend=\""
+"sec.security.firewall.firewalld\"/> pour les détails de configuration."
 
 #. (itstool) path: listitem/para
 #: xml/art_opensuse_install_quick.xml:510
@@ -889,11 +901,15 @@ msgid ""
 "logging in from remote is not possible by default. Click <guimenu>enable</"
 "guimenu> and <guimenu>open</guimenu> to toggle these settings."
 msgstr ""
+"Le service SSH est désactivé par défaut, son port (22) est fermé. Par "
+"conséquent, la connexion à distance n'est pas possible par défaut. Cliquez "
+"sur <guimenu>enable</guimenu> et <guimenu>open</guimenu> pour changer ces "
+"paramètres."
 
 #. (itstool) path: sect3/title
 #: xml/art_opensuse_install_quick.xml:522
 msgid "Start the Installation"
-msgstr ""
+msgstr "Démarrer l'installation"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -908,6 +924,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/art_opensuse_install_quick.xml:533
+#, fuzzy
 msgid ""
 "After you have finalized the system configuration on the "
 "<guimenu>Installation Settings</guimenu> screen, click <guimenu>Install</"
@@ -916,11 +933,18 @@ msgid ""
 "to this point no changes have been made to your system. After you click "
 "<guimenu>Install</guimenu> a second time, the installation process starts."
 msgstr ""
+"Après avoir finalisé la configuration du système sur l'écran <guimenu>"
+"Paramètres d'installation</guimenu>, cliquez sur <guimenu>Install</guimenu>. "
+"Selon votre sélection de logiciels, vous devrez peut-être accepter les "
+"accords de licence avant que l'écran de confirmation de l'installation ne "
+"s'affiche. Jusqu'à ce stade, aucune modification n'a été apportée à votre "
+"système. Après avoir cliqué une deuxième fois sur <guimenu>Install</guimenu>"
+", le processus d'installation commence."
 
 #. (itstool) path: sect3/title
 #: xml/art_opensuse_install_quick.xml:545
 msgid "The Installation Process"
-msgstr ""
+msgstr "Le processus d'installation"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -935,6 +959,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/art_opensuse_install_quick.xml:556
+#, fuzzy
 msgid ""
 "During the installation, the progress is shown in detail on the "
 "<guimenu>Details</guimenu> tab. The <guimenu><phrase role=\"productname"
@@ -943,6 +968,12 @@ msgid ""
 "phrase></phrase> Release Notes</guimenu> tab shows important information; "
 "reading them is recommended."
 msgstr ""
+"Pendant l'installation, la progression est indiquée en détail dans l'onglet "
+"<guimenu>Details</guimenu>. L'onglet <guimenu><phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> Release Notes</guimenu> présente des informations "
+"importantes ; leur lecture est recommandée."
 
 #. (itstool) path: sect3/para
 #: xml/art_opensuse_install_quick.xml:562
@@ -952,3 +983,8 @@ msgid ""
 "are not using a graphical desktop or are working from remote, refer to <xref "
 "linkend=\"cha.yast.text\"/> for information on using YaST from a terminal."
 msgstr ""
+"Une fois la séquence d'installation terminée, l'ordinateur est redémarré "
+"dans le système installé. Connectez-vous et lancez YaST pour régler le "
+"système avec précision. Si vous n'utilisez pas un bureau graphique ou si "
+"vous travaillez à distance, reportez-vous à <xref linkend=\"cha.yast.text\"/>"
+" pour obtenir des informations sur l'utilisation de YaST depuis un terminal."
