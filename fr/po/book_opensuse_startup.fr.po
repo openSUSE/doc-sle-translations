@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2021-04-11 17:58+0000\n"
+"PO-Revision-Date: 2021-04-11 20:58+0000\n"
 "Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/book_opensuse_startup-master/fr/>\n"
@@ -17,8 +17,6 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Crédits translation\n"
-"Lucie Charrier c.chalu@free.fr, 2021"
 
 #. (itstool) path: info/title
 #: xml/book_opensuse_startup.xml:18
@@ -43,24 +41,24 @@ msgstr ""
 #. (itstool) path: part/title
 #: xml/book_opensuse_startup.xml:28
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_startup.xml:38
 msgid "Administration"
-msgstr ""
+msgstr "Administration"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_startup.xml:49
 msgid "Managing and Updating Software"
-msgstr ""
+msgstr "Gestion et mise à jour des logiciels"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_startup.xml:59
 msgid "The Bash Shell"
-msgstr ""
+msgstr "Le shell bash"
 
 #. (itstool) path: part/title
 #: xml/book_opensuse_startup.xml:67
 msgid "Help and Troubleshooting"
-msgstr ""
+msgstr "Aide et dépannage"
