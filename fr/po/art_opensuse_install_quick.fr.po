@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2021-04-11 17:58+0000\n"
+"PO-Revision-Date: 2021-04-11 17:59+0000\n"
 "Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/art_opensuse_install_quick-master/fr/>\n"
@@ -818,6 +818,7 @@ msgstr "<guimenu>Logiciel</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_opensuse_install_quick.xml:463
+#, fuzzy
 msgid ""
 "The default scope of software includes the base system and X Window with the "
 "selected desktop. Clicking <guimenu>Software</guimenu> opens the "
@@ -829,6 +830,16 @@ msgid ""
 "guimenu> to switch to the YaST <guimenu>Software Manager</guimenu>. See "
 "<xref linkend=\"cha.yast-software\"/> for more information."
 msgstr ""
+"Les logiciels par défaut comprennent le système de base et X Window avec le "
+"bureau sélectionné. Un clic sur <guimenu>Logiciel</guimenu> ouvre l'écran "
+"<guimenu>Sélection des logiciels et tâches système</guimenu>, où vous pouvez "
+"modifier la sélection des logiciels en sélectionnant ou en désélectionnant "
+"des patterns. Chaque pattern contient plusieurs logiciels nécessaires à des "
+"fonctions spécifiques (par exemple, un serveur Web et LAMP ou un serveur "
+"d'impression). Pour une sélection plus détaillée basée sur les progiciels à "
+"installer, sélectionnez <guimenu>Details</guimenu> pour passer au <guimenu>"
+"Software Manager</guimenu> de YaST. Voir <xref linkend=\"cha.yast-software\""
+"/> pour plus d'informations."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_opensuse_install_quick.xml:478
