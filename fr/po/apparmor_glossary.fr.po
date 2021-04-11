@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2021-04-11 17:57+0000\n"
+"PO-Revision-Date: 2021-04-11 20:57+0000\n"
 "Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/apparmor_glossary-master/fr/>\n"
@@ -17,8 +17,6 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Crédits translation\n"
-"Lucie Charrier c.chalu@free.fr, 2021"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_glossary.xml:9
