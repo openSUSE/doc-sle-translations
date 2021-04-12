@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:19+0200\n"
-"PO-Revision-Date: 2021-04-11 20:56+0000\n"
+"PO-Revision-Date: 2021-04-12 10:56+0000\n"
 "Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/"
 "doc-sle-translations/main-sleds-master/fr/>\n"
@@ -77,7 +77,7 @@ msgstr ""
 #. (itstool) path: docmanager/translation
 #: xml/MAIN.SLEDS.xml:51
 msgid "yes"
-msgstr ""
+msgstr "yes (oui)"
 
 #. (itstool) path: bugtracker/product
 #: xml/MAIN.SLEDS.xml:62
