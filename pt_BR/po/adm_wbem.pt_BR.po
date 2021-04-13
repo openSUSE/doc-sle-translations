@@ -2,34 +2,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:22+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_wbem-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: chapter/title
 #: xml/adm_wbem.xml:12
 msgid "Web Based Enterprise Management Using SFCB"
-msgstr ""
+msgstr "Gerenciamento corporativo baseado na Web usando SFCB"
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_wbem.xml:16
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:21
 msgid "Introduction and Basic Concept"
-msgstr ""
+msgstr "Introdução e conceito básico"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:23
@@ -40,6 +42,11 @@ msgid ""
 "the Distributed Management Task Force. The following paragraphs describe "
 "their basic components."
 msgstr ""
+"O SUSE® Linux Enterprise Server (SLES) fornece uma coleção de ferramentas "
+"baseadas em padrões abertos para o gerenciamento unificado de sistemas e "
+"ambientes de computação diferentes. Nossas soluções corporativas implementam "
+"os padrões propostos pela Força-Tarefa de Gerenciamento Distribuído. Os "
+"parágrafos a seguir descrevem seus componentes básicos."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:31
@@ -54,6 +61,15 @@ msgid ""
 "emphasis> and <emphasis>Common Information Model </emphasis> are one of "
 "their key technologies."
 msgstr ""
+"A Distributed Management Task Force, Inc (DMTF) é a organização do setor que "
+"lidera o desenvolvimento de padrões de gerenciamento para ambientes "
+"corporativos e da Internet. Seu objetivo é unificar padrões e iniciativas de "
+"gerenciamento e permitir soluções de gerenciamento mais integradas, "
+"econômicas e interoperáveis. Os padrões DMTF fornecem componentes comuns de "
+"gerenciamento de sistema para controle e comunicação. Suas soluções são "
+"independentes de plataformas e tecnologias. <emphasis>Gerenciamento "
+"corporativo baseado na Web</emphasis> e <emphasis>Common Information "
+"Model</emphasis> são uma de suas principais tecnologias."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:43
@@ -64,21 +80,27 @@ msgid ""
 "to deliver a well-integrated collection of management tools using Web "
 "technologies. WBEM consists of the following standards:"
 msgstr ""
+"O Gerenciamento Empresarial Baseado na Web (WBEM) é um conjunto de "
+"tecnologias padrão de gerenciamento e Internet. O WBEM foi desenvolvido para "
+"unificar o gerenciamento de ambientes de computação corporativa. Ele fornece "
+"a capacidade do setor de fornecer uma coleção bem integrada de ferramentas "
+"de gerenciamento usando tecnologias da Web. O WBEM consiste nos seguintes "
+"padrões:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:53
 msgid "A data model: the Common Information Model (CIM) standard"
-msgstr ""
+msgstr "Um modelo de dados: o padrão Common Information Model (CIM)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:58
 msgid "An encoding specification: CIM-XML Encoding Specification"
-msgstr ""
+msgstr "Uma especificação de codificação: Especificação de codificação CIM-XML"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:63
 msgid "A transport mechanism: CIM operations over HTTP"
-msgstr ""
+msgstr "Um mecanismo de transporte: operações do CIM sobre HTTP"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:69
@@ -89,6 +111,11 @@ msgid ""
 "systems, networks, services and applications. There are two parts to CIM — "
 "the CIM Specification and the CIM Schema."
 msgstr ""
+"O Common Information Model é um modelo de informação conceitual que descreve "
+"o gerenciamento do sistema. Não está vinculado a uma implementação "
+"específica e permite o intercâmbio de informações de gerenciamento entre "
+"sistemas, redes, serviços e aplicativos de gerenciamento. Existem duas "
+"partes no CIM - a Especificação CIM e o Esquema CIM."
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:79
@@ -103,6 +130,15 @@ msgid ""
 "and <emphasis>references</emphasis> as types of <emphasis>properties</"
 "emphasis>."
 msgstr ""
+"A especificação <emphasis>CIM</emphasis> descreve a linguagem, a nomeação e "
+"o meta-esquema. O meta-esquema é uma definição formal do modelo. Ele define "
+"os termos usados para expressar o modelo e seu uso e semântica. Os elementos "
+"do meta-esquema são <emphasis>classes</emphasis>, "
+"<emphasis>propriedades</emphasis> e <emphasis>métodos</emphasis>. O meta-"
+"esquema também suporta <emphasis>indicações</emphasis> e "
+"<emphasis>associações</emphasis> como tipos de <emphasis>classes</emphasis> "
+"e <emphasis>referências</emphasis> como tipos de "
+"<emphasis>propriedades</emphasis>."
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:92
@@ -112,6 +148,10 @@ msgid ""
 "well understood conceptual framework within which it is possible to organize "
 "the available information about the managed environment."
 msgstr ""
+"O esquema <emphasis>CIM</emphasis> fornece as descrições reais do modelo. "
+"Ele fornece um conjunto de classes com propriedades e associações que "
+"fornecem uma estrutura conceitual bem compreendida na qual é possível "
+"organizar as informações disponíveis sobre o ambiente gerenciado."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:102
@@ -121,6 +161,10 @@ msgid ""
 "CIM standard. CIMOM manages communication between CIMOM providers and a CIM "
 "client, where the administrator manages the system."
 msgstr ""
+"O Common Information Model Object Manager (CIMOM) é um gerenciador de "
+"objetos CIM ou, mais especificamente, um aplicativo que gerencia objetos de "
+"acordo com o padrão CIM. O CIMOM gerencia a comunicação entre os provedores "
+"CIMOM e um cliente CIM, em que o administrador gerencia o sistema."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:109
@@ -130,6 +174,10 @@ msgid ""
 "instruments one or more aspects of the CIMOM's schema. These providers "
 "interact directly with the hardware."
 msgstr ""
+"Os <emphasis>fornecedores CIMOM</emphasis> são softwares que executam "
+"tarefas específicas no CIMOM solicitadas pelos aplicativos clientes. Cada "
+"provedor instrumenta um ou mais aspectos do esquema do CIMOM. Esses "
+"provedores interagem diretamente com o hardware."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:116
@@ -140,6 +188,11 @@ msgid ""
 "(or CIM server) from the SBLIM project called <emphasis>Small Footprint CIM "
 "Broker</emphasis> ."
 msgstr ""
+"A <emphasis>Instrumentação Linux para Gerenciamento Baseada em Padrões "
+"(SBLIM)</emphasis> é uma coleção de ferramentas projetadas para oferecer "
+"suporte ao Gerenciamento Empresarial Baseado na Web (WBEM). O SUSE® Linux "
+"Enterprise Server usa o CIMOM de código aberto (ou servidor CIM) do projeto "
+"SBLIM chamado <emphasis>Small Footprint CIM Broker</emphasis>."
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:124
@@ -153,11 +206,20 @@ msgid ""
 "various transport protocols, such as HTTP, HTTPS, Unix domain sockets, "
 "Service Location Protocol (SLP), and Java Database Connectivity (JDBC)."
 msgstr ""
+"O <emphasis>Small Footprint CIM Broker</emphasis> é um servidor CIM "
+"destinado ao uso em ambientes incorporados ou limitados por recursos. Ele "
+"foi projetado para ser modular e leve ao mesmo tempo. É baseado em padrões "
+"abertos e suporta provedores CMPI, codificação CIM-XML e <emphasis>Managed "
+"Object Format (MOF)</emphasis>. É altamente configurável e executa "
+"estabilidade, mesmo se o provedor travar. Também é facilmente acessível, "
+"pois suporta vários protocolos de transporte, como HTTP, HTTPS, soquetes de "
+"domínio Unix, SLP (Service Location Protocol) e Java Database Connectivity "
+"(JDBC)."
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:136
 msgid "Setting Up SFCB"
-msgstr ""
+msgstr "Configurando o SFCB"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:138
@@ -171,11 +233,19 @@ msgid ""
 "that is already running. Make sure the following packages are installed on "
 "your system:"
 msgstr ""
+"Para configurar o ambiente Small Footprint CIM Broker (SFCB), verifique se o "
+"padrão <guimenu>Gerenciamento corporativo baseado na Web</guimenu> no YaST "
+"foi selecionado durante <phrase role=\"productname\"> <phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\"> instalação do SUSE Linux "
+"Enterprise Server </phrase> <phrase os=\"sled\"> instalação do SUSE Linux "
+"Enterprise Desktop </phrase></phrase>. Como alternativa, selecione-o como um "
+"componente para instalar em um servidor que já esteja em execução. Verifique "
+"se os seguintes pacotes estão instalados no seu sistema:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:148
 msgid "cim-schema, Common Information Model (CIM) Schema"
-msgstr ""
+msgstr "esquema cim, esquema do Modelo de informação comum (CIM)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:150
@@ -186,11 +256,16 @@ msgid ""
 "details for integration with other management models. The schema provides "
 "the actual model descriptions."
 msgstr ""
+"Contém o CIM (Common Information Model). O CIM é um modelo para descrever "
+"informações gerais de gerenciamento em ambientes de rede ou corporativos. O "
+"CIM consiste em uma especificação e um esquema. A especificação define os "
+"detalhes para integração com outros modelos de gerenciamento. O esquema "
+"fornece as descrições reais do modelo."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:160
 msgid "python2-pywbem"
-msgstr ""
+msgstr "python2-pywbem"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:162
@@ -198,11 +273,13 @@ msgid ""
 "Contains a Python module for making CIM operation calls through the WBEM "
 "protocol to query and update managed objects."
 msgstr ""
+"Contém um módulo Python para fazer chamadas de operação CIM por meio do "
+"protocolo WBEM para consultar e atualizar objetos gerenciados."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:169
 msgid "cmpi-provider-register, CIMOM neutral provider registration utility"
-msgstr ""
+msgstr "cmpi-provider-register, utilitário de registro de provedor neutro CIMOM"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:172
@@ -210,11 +287,13 @@ msgid ""
 "Contains a utility allowing CMPI provider packages to register with whatever "
 "CIMOM happens to be present on the system."
 msgstr ""
+"Contém um utilitário que permite que os pacotes do provedor CMPI se "
+"registrem no CIMOM que estiver presente no sistema."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:179
 msgid "sblim-sfcb, Small Footprint CIM Broker"
-msgstr ""
+msgstr "sblim-sfcb, Small Footprint CIM Broker"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:181
@@ -225,21 +304,28 @@ msgid ""
 "constrained environments. SFCB supports providers written against the Common "
 "Manageability Programming Interface (CMPI)."
 msgstr ""
+"Contém o Footprint CIM Broker. É um servidor CIM em conformidade com o "
+"protocolo CIM Operations over HTTP. É robusto, com baixo consumo de recursos "
+"e, portanto, adequado especificamente para ambientes incorporados e com "
+"recursos limitados. O SFCB oferece suporte a provedores criados com base na "
+"Common Manageability Programming Interface (CMPI)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:191
 msgid "sblim-sfcc"
-msgstr ""
+msgstr "sblim-sfcc"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:193
 msgid "Contains Small Footprint CIM Client library runtime libraries."
 msgstr ""
+"Contém bibliotecas de tempo de execução da biblioteca do cliente Small "
+"Footprint CIM."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:199
 msgid "sblim-wbemcli"
-msgstr ""
+msgstr "sblim-wbemcli"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:201
@@ -247,11 +333,14 @@ msgid ""
 "Contains WBEM command line interface. It is a stand-alone command line WBEM "
 "client especially suited for basic systems management tasks."
 msgstr ""
+"Contém interface de linha de comando WBEM. É um cliente WBEM de linha de "
+"comando independente, especialmente adequado para tarefas básicas de "
+"gerenciamento de sistemas."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:210
 msgid "Starting, Stopping and Checking Status for SFCB"
-msgstr ""
+msgstr "Iniciando, parando e verificando o status do SFCB"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:211
@@ -260,26 +349,30 @@ msgid ""
 "Management software and is started by default at system start-up. The "
 "following table explains how to start, stop and check status for sfcbd."
 msgstr ""
+"O servidor CIM sfcbd daemon é instalado junto com o software Enterprise "
+"Management com base na Web e é iniciado por padrão na inicialização do "
+"sistema. A tabela a seguir explica como iniciar, parar e verificar o status "
+"do sfcbd."
 
 #. (itstool) path: table/title
 #: xml/adm_wbem.xml:217
 msgid "Commands for Managing sfcbd"
-msgstr ""
+msgstr "Comandos para gerenciar sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:224
 msgid "Task"
-msgstr ""
+msgstr "Tarefa"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:229
 msgid "Linux Command"
-msgstr ""
+msgstr "Comando Linux"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:238
 msgid "Start sfcbd"
-msgstr ""
+msgstr "Iniciar sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:243
@@ -287,11 +380,13 @@ msgid ""
 "Enter <command>systemctl start sfcb</command> as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Digite <command>systemctl start sfcb</command> como <systemitem class=\""
+"username\">root</systemitem> na linha de comandos."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:251
 msgid "Stop sfcbd"
-msgstr ""
+msgstr "Parar sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:256
@@ -299,11 +394,13 @@ msgid ""
 "Enter <command>systemctl stop sfcb</command> as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Digite <command>systemctl stop sfcb</command> como <systemitem class=\""
+"username\">root</systemitem> na linha de comandos."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:264
 msgid "Check sfcbd status"
-msgstr ""
+msgstr "Verificar status do sfcbd"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:269
@@ -311,11 +408,13 @@ msgid ""
 "Enter <command>systemctl status sfcb</command>as <systemitem class=\"username"
 "\">root</systemitem> in the command line."
 msgstr ""
+"Digite <command>systemctl status sfcb</command> como <systemitem class=\""
+"username\">root</systemitem> na linha de comandos."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:281
 msgid "Ensuring Secure Access"
-msgstr ""
+msgstr "Garantindo acesso seguro"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:282
@@ -323,11 +422,14 @@ msgid ""
 "The default setup of SFCB is relatively secure. However, check that the "
 "access to SFCB components is as secure as required for your organization."
 msgstr ""
+"A configuração padrão do SFCB é relativamente segura. No entanto, verifique "
+"se o acesso aos componentes SFCB é tão seguro quanto necessário para sua "
+"organização."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:287
 msgid "Certificates"
-msgstr ""
+msgstr "Certificados"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:288
@@ -336,6 +438,9 @@ msgid ""
 "communication to occur. When SFCB is installed, it has a self-signed "
 "certificate generated."
 msgstr ""
+"O transporte Secure Socket Layers (SSL) exige um certificado para que a "
+"comunicação segura ocorra. Quando o SFCB é instalado, ele gera um "
+"certificado autoassinado."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:293
@@ -346,21 +451,25 @@ msgid ""
 "literal> setting in <filename>/etc/sfcb/sfcb.cfg</filename>. The file must "
 "be in PEM format."
 msgstr ""
+"Você pode substituir o caminho para o certificado padrão por um comercial ou "
+"autoassinado, alterando a configuração  <literal>sslCertificateFilePath: "
+"<replaceable>PATH_FILENAME</replaceable> </literal> em <filename>/etc/sfcb/"
+"sfcb.cfg</filename>. O arquivo deve estar no formato PEM."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:300
 msgid "The default generated server certificate is in the following location:"
-msgstr ""
+msgstr "O certificado do servidor gerado padrão está no seguinte local:"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:303
 msgid "<filename>/etc/sfcb/server.pem</filename>"
-msgstr ""
+msgstr "<filename>/etc/sfcb/server.pem</filename>"
 
 #. (itstool) path: note/title
 #: xml/adm_wbem.xml:307
 msgid "Paths to SSL Certificates"
-msgstr ""
+msgstr "Caminhos para Certificados SSL"
 
 #. (itstool) path: note/para
 #: xml/adm_wbem.xml:308
@@ -371,6 +480,11 @@ msgid ""
 "filename>, <filename>/etc/sfcb/file.pem</filename> and <filename>/etc/sfcb/"
 "server.pem</filename> are symbolic links to these files."
 msgstr ""
+"Os arquivos de certificado gerados padrão <filename>servercert.pem</filename>"
+" e <filename>serverkey.pem</filename> são armazenados no diretório "
+"<filename>/etc/ssl/servercerts</filename>. Os arquivos <filename>/etc/sfcb/"
+"client.pem</filename>, <filename>/etc/sfcb/file.pem</filename> e <filename>/"
+"etc/sfcb/server.pem</filename> são links simbólicos para esses arquivos."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:319
@@ -378,6 +492,8 @@ msgid ""
 "To generate a new certificate, enter the following command as <systemitem "
 "class=\"username\">root</systemitem> in the command line:"
 msgstr ""
+"Para gerar um novo certificado, digite o seguinte comando como <systemitem "
+"class=\"username\">root</systemitem> na linha de comandos:"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:323
@@ -391,6 +507,13 @@ msgid ""
 "writing new private key to '/var/tmp/sfcb.0Bjt69/key.pem'\n"
 "-----"
 msgstr ""
+"<prompt>tux &gt; </prompt>sh /usr/share/sfcb/genSslCert.sh\n"
+"Gerando certificados SSL em .\n"
+"Gerando uma chave privada RSA de 2048 bits\n"
+"...................................................................+++\n"
+".+++\n"
+"escrevendo nova chave privada em '/var/tmp/sfcb.0Bjt69/key.pem'\n"
+"-----"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:330
@@ -402,6 +525,12 @@ msgid ""
 "need to append it to the command. If these files already exist, a warning "
 "message is displayed and the old certificates are not overwritten."
 msgstr ""
+"Por padrão, o script gera os certificados <filename>client.pem</filename>, "
+"<filename>file.pem</filename> e <filename>server.pem</filename> no diretório "
+"de trabalho atual. Se você deseja que o script gere os certificados no "
+"diretório <filename>/etc/sfcb</filename>, é necessário anexá-lo ao comando. "
+"Se esses arquivos já existirem, uma mensagem de aviso será exibida e os "
+"certificados antigos não serão substituídos."
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:339
@@ -414,6 +543,12 @@ msgid ""
 "WARNING: client.pem SSL Certificate trust store already exists.\n"
 "         old file will be kept intact."
 msgstr ""
+"<prompt>tux &gt; </prompt>sh /usr/share/sfcb/genSslCert.sh /etc/sfcb\n"
+"Gerando certificados SSL em.\n"
+"AVISO: o arquivo de certificado SSL server.pem já existe.\n"
+"         o arquivo antigo será mantido intacto.\n"
+"AVISO: o armazenamento confiável do certificado SSL client.pem já existe.\n"
+"         o arquivo antigo será mantido intacto."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:345
@@ -421,6 +556,8 @@ msgid ""
 "You must remove the old certificates from the file system and run the "
 "command again."
 msgstr ""
+"Você deve remover os certificados antigos do sistema de arquivos e executar "
+"o comando novamente."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:349
@@ -428,11 +565,13 @@ msgid ""
 "To change the way SFCB uses certificates, see <xref linkend=\"sec.wbem."
 "setting.secure.auth\"/>."
 msgstr ""
+"Para alterar a maneira como o SFCB usa certificados, consulte <xref linkend="
+"\"sec.wbem.setting.secure.auth\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:355
 msgid "Ports"
-msgstr ""
+msgstr "Ports"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:356
@@ -441,11 +580,14 @@ msgid ""
 "secure port 5989. The following paragraphs explain the communication port "
 "setup and recommended configuration."
 msgstr ""
+"Por padrão, o SFCB está configurado para aceitar todas as comunicações "
+"através da porta segura 5989. Os parágrafos a seguir explicam a instalação "
+"da porta de comunicação e a configuração recomendada."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:363
 msgid "Port 5989 (secure)"
-msgstr ""
+msgstr "Porta 5989 (segura)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:365
@@ -459,11 +601,20 @@ msgid ""
 "routers and firewalls if they are present between the client application and "
 "the nodes being monitored."
 msgstr ""
+"A porta segura que as comunicações SFCB usam através dos serviços HTTPS. "
+"Esse é o padrão. Com essa configuração, todas as comunicações entre o CIMOM "
+"e os aplicativos clientes são criptografadas quando enviadas pela Internet "
+"entre servidores e estações de trabalho. Os usuários devem se autenticar com "
+"o aplicativo cliente para acessar o servidor SFCB. Recomendamos que você "
+"mantenha essa configuração. Para que o SFCB CIMOM se comunique com os "
+"aplicativos necessários, essa porta deve estar aberta nos roteadores e "
+"firewalls se estiverem presentes entre o aplicativo cliente e os nós que "
+"estão sendo monitorados."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:379
 msgid "Port 5988 (insecure)"
-msgstr ""
+msgstr "Porta 5988 (não segura)"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:381
@@ -479,6 +630,16 @@ msgid ""
 "open in routers and firewalls between the client application and the nodes "
 "being monitored."
 msgstr ""
+"A porta insegura que as comunicações SFCB usam via serviços HTTP. Esta "
+"configuração está desativada por padrão. Com essa configuração, todas as "
+"comunicações entre o CIMOM e os aplicativos clientes são abertas para "
+"revisão quando enviadas pela Internet entre servidores e estações de "
+"trabalho por qualquer pessoa, sem autenticação. Recomendamos que você use "
+"essa configuração apenas ao tentar depurar um problema com o CIMOM. Quando o "
+"problema for resolvido, desative a opção de porta não segura novamente. Para "
+"que o SFCB CIMOM se comunique com os aplicativos necessários que requerem "
+"acesso não seguro, essa porta deve estar aberta em roteadores e firewalls "
+"entre o aplicativo cliente e os nós que estão sendo monitorados."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:396
@@ -486,11 +647,13 @@ msgid ""
 "To change the default port assignments, see <xref linkend=\"sec.wbem.setting."
 "secure.ports\"/>."
 msgstr ""
+"Para alterar as atribuições de porta padrão, consulte  <xref linkend=\""
+"sec.wbem.setting.secure.ports\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:402
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticação"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:403
@@ -503,6 +666,14 @@ msgid ""
 "Authentication Modules (PAM) approach; therefore the local root user can "
 "authenticate to the SFCB CIMOM with local root user credentials."
 msgstr ""
+"O SFCB suporta autenticação básica HTTP e autenticação baseada em "
+"certificados de cliente (conexões HTTP sobre SSL). A autenticação HTTP "
+"básica é ativada especificando <literal>doBasicAuth=true</literal> no "
+"arquivo de configuração SFCB (<filename>/etc/sfcb/sfcb.cfg</filename> por "
+"padrão). A instalação do SUSE® Linux Enterprise Server do SUSE® Linux "
+"suporta a abordagem de Módulos de autenticação conectável (PAM); portanto, o "
+"usuário raiz local pode autenticar no SFCB CIMOM com credenciais de usuário "
+"raiz local."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:412
@@ -516,6 +687,14 @@ msgid ""
 "<literal>sslClientTrustStore</literal>). If the client fails to do so, the "
 "connection will be rejected by the CIM server."
 msgstr ""
+"Se a propriedade de configuração <literal>sslClientCertificate</literal> "
+"estiver definida como <literal>accept</literal> ou <literal>require</literal>"
+", o adaptador SFCB HTTP solicitará um certificado aos clientes ao conectar "
+"via HTTP sobre SSL (HTTPS). Se <literal>require</literal> for especificado, "
+"o cliente <emphasis role=\"bold\"> deverá </emphasis> fornecer um "
+"certificado válido (de acordo com o armazenamento confiável do cliente "
+"especificado por meio de <literal>sslClientTrustStore</literal>). Se o "
+"cliente falhar, a conexão será rejeitada pelo servidor CIM."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:422
@@ -527,11 +706,17 @@ msgid ""
 "will not be executed. If this function cannot verify the certificate, the "
 "HTTP basic authentication will take place instead."
 msgstr ""
+"A configuração <literal>sslClientCertificate=accept</literal> pode não ser "
+"óbvia. É muito útil se a autenticação de certificado básico e de cliente for "
+"permitida. Se o cliente puder fornecer um certificado válido, a conexão "
+"HTTPS será estabelecida e o procedimento básico de autenticação não será "
+"executado. Se essa função não puder verificar o certificado, a autenticação "
+"básica HTTP ocorrerá."
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:434
 msgid "SFCB CIMOM Configuration"
-msgstr ""
+msgstr "Configuração SFCB CIMOM"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:436
@@ -540,26 +725,29 @@ msgid ""
 "highly configurable. Several options can control its behavior. You can "
 "control the SFCB server in three ways:"
 msgstr ""
+"O SFCB é uma implementação leve do servidor CIM, mas também é altamente "
+"configurável. Várias opções podem controlar seu comportamento. Você pode "
+"controlar o servidor SFCB de três maneiras:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:444
 msgid "by setting appropriate environment variables"
-msgstr ""
+msgstr "configurando variáveis de ambiente apropriadas"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:449
 msgid "by using command line options"
-msgstr ""
+msgstr "usando opções de linha de comando"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:454
 msgid "by changing its configuration file"
-msgstr ""
+msgstr "alterando seu arquivo de configuração"
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:461
 msgid "Environment Variables"
-msgstr ""
+msgstr "Variáveis Do Ambiente"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:462
@@ -568,11 +756,14 @@ msgid ""
 "to restart the SFCB daemon by <command>systemctl restart sfcb</command> for "
 "these changes to take effect."
 msgstr ""
+"Várias variáveis de ambiente afetam diretamente o comportamento do SFCB. "
+"Você precisa reiniciar o daemon SFCB por <command>systemctl restart "
+"sfcb</command> para que essas alterações tenham efeito."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:469
 msgid "<literal>PATH</literal>"
-msgstr ""
+msgstr "<literal>PATH</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:472
@@ -580,11 +771,13 @@ msgid ""
 "Specifies the path to the <systemitem>sfcbd</systemitem> daemon and "
 "utilities."
 msgstr ""
+"Especifica o caminho para o daemon e utilitários "
+"<systemitem>sfcbd</systemitem>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:479
 msgid "<literal>LD_LIBRARY_PATH</literal>"
-msgstr ""
+msgstr "<literal>LD_LIBRARY_PATH</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:482
@@ -593,11 +786,14 @@ msgid ""
 "this path to the system-wide dynamic loader configuration file <filename>/"
 "etc/ld.so.conf</filename> ."
 msgstr ""
+"Especifica o caminho para as bibliotecas de tempo de execução sfcb. Como "
+"alternativa, você pode adicionar esse caminho ao arquivo de configuração do "
+"carregador dinâmico em todo o sistema <filename>/etc/ld.so.conf</filename>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:490
 msgid "<literal>SFCB_PAUSE_PROVIDER</literal>"
-msgstr ""
+msgstr "<literal>SFCB_PAUSE_PROVIDER</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:493
@@ -606,11 +802,14 @@ msgid ""
 "loaded for the first time. You can then attach a runtime debugger to the "
 "provider's process for debugging purposes."
 msgstr ""
+"Especifica o nome do provedor. O servidor SFCB pausa após o carregamento do "
+"provedor pela primeira vez. Em seguida, você pode anexar um depurador de "
+"tempo de execução ao processo do provedor para fins de depuração."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:501
 msgid "<literal>SFCB_PAUSE_CODEC</literal>"
-msgstr ""
+msgstr "<literal>SFCB_PAUSE_CODEC</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:504
@@ -619,11 +818,14 @@ msgid ""
 "literal>. The SFCB server pauses after the codec is loaded for the first "
 "time. You can then attach a runtime debugger to the process."
 msgstr ""
+"Especifica o nome do codec SFCB (atualmente suporta apenas <literal> http "
+"</literal>. O servidor SFCB pausa após o carregamento do codec pela primeira "
+"vez. Você pode anexar um depurador de tempo de execução ao processo."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:513
 msgid "<literal>SFCB_TRACE</literal>"
-msgstr ""
+msgstr "<literal>SFCB_TRACE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:516
@@ -631,11 +833,14 @@ msgid ""
 "Specifies the level of debug messages for SFCB. Valid values are 0 (no debug "
 "messages), or 1 (key debug messages) to 4 (all debug messages). Default is 1."
 msgstr ""
+"Especifica o nível de mensagens de depuração para SFCB. Os valores válidos "
+"são 0 (sem mensagens de depuração) ou 1 (principais mensagens de depuração) "
+"a 4 (todas as mensagens de depuração). O padrão é 1."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:524
 msgid "<literal>SFCB_TRACE_FILE</literal>"
-msgstr ""
+msgstr "<literal>SFCB_TRACE_FILE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:527
@@ -644,11 +849,14 @@ msgid ""
 "(STDERR). Setting this variable causes the debug messages to be written to a "
 "specified file instead."
 msgstr ""
+"Por padrão, o SFCB envia suas mensagens de depuração para a saída de erro "
+"padrão (STDERR). Definir essa variável faz com que as mensagens de depuração "
+"sejam gravadas em um arquivo especificado."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:535
 msgid "<literal>SBLIM_TRACE</literal>"
-msgstr ""
+msgstr "<literal>SBLIM_TRACE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:538
@@ -656,11 +864,14 @@ msgid ""
 "Specifies the level of debug messages for SBLIM providers. Valid values are "
 "0 (no debug messages), or 1 (key debug messages) to 4 (all debug messages)."
 msgstr ""
+"Especifica o nível de mensagens de depuração para provedores SBLIM. Os "
+"valores válidos são 0 (sem mensagens de depuração) ou 1 (principais "
+"mensagens de depuração) a 4 (todas as mensagens de depuração)."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:546
 msgid "<literal>SBLIM_TRACE_FILE</literal>"
-msgstr ""
+msgstr "<literal>SBLIM_TRACE_FILE</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:549
@@ -669,11 +880,14 @@ msgid ""
 "this variable causes the trace messages to be written to a specified file "
 "instead."
 msgstr ""
+"Por padrão, o provedor SBLIM envia suas mensagens de rastreio para STDERR. "
+"Definir essa variável faz com que as mensagens de rastreamento sejam "
+"gravadas em um arquivo especificado."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:560
 msgid "Command Line Options"
-msgstr ""
+msgstr "Opções de linha de comando"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:561
@@ -682,11 +896,14 @@ msgid ""
 "options that switch particular runtime features on or off. Enter these "
 "options when SFCB daemon starts."
 msgstr ""
+"<systemitem> sfcbd </systemitem>, o daemon SFCB, possui várias opções de "
+"linha de comando que ativam ou desativam determinados recursos de tempo de "
+"execução. Insira essas opções quando o daemon SFCB for iniciado."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:568
 msgid "<literal>-c, --config-file</literal>=<replaceable>FILE</replaceable>"
-msgstr ""
+msgstr "<literal>-c, --config-file</literal>=<replaceable>ARQUIVO</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:571
@@ -695,21 +912,25 @@ msgid ""
 "sfcb.cfg</filename> by default. With this option, you can specify an "
 "alternative configuration file."
 msgstr ""
+"Quando o daemon SFCB é iniciado, ele lê sua configuração em <filename>/etc/"
+"sfcb/sfcb.cfg</filename> por padrão. Com esta opção, você pode especificar "
+"um arquivo de configuração alternativo."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:579
 msgid "<literal>-d, --daemon</literal>"
-msgstr ""
+msgstr "<literal>-d, --daemon</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:582
 msgid "Forces sfcbd and its child processes to run in the background."
 msgstr ""
+"Força o sfcbd e seus processos filhos a serem executados em segundo plano."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:588
 msgid "<literal>-s, --collect-stats</literal>"
-msgstr ""
+msgstr "<literal>-s, --collect-stats</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:591
@@ -718,12 +939,17 @@ msgid ""
 "will be written to the <filename>sfcbStat</filename> file in the current "
 "working directory. By default, no statistics are collected."
 msgstr ""
+"Ativa a coleta de estatísticas de tempo de execução. Várias estatísticas de "
+"tempo de execução sfcbd serão gravadas no arquivo "
+"<filename>sfcbStat</filename> no diretório de trabalho atual. Por padrão, "
+"nenhuma estatística é coletada."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:599
 msgid ""
 "<literal>-l, --syslog-level</literal>=<replaceable>LOGLEVEL</replaceable>"
 msgstr ""
+"<literal>-l, --syslog-level</literal>=<replaceable>LOGLEVEL</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:602
@@ -732,24 +958,31 @@ msgid ""
 "<replaceable>LOGLEVEL</replaceable> can be one of LOG_INFO, LOG_DEBUG, or "
 "LOG_ERR, which is the default."
 msgstr ""
+"Especifica o nível de detalhamento do recurso de log do sistema. "
+"<replaceable>LOGLEVEL</replaceable> pode ser um dos LOG_INFO, LOG_DEBUG ou "
+"LOG_ERR, que é o padrão."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:610
 msgid ""
 "<literal>-k, --color-trace</literal>=<replaceable>LOGLEVEL</replaceable>"
 msgstr ""
+"<literal>-k, --color-trace</literal>=<replaceable>LOGLEVEL</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:613
 msgid ""
 "Prints trace output in a different color per process for easier debugging."
 msgstr ""
+"Imprime a saída de rastreamento em uma cor diferente por processo para "
+"facilitar a depuração."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:620
 msgid ""
 "<literal>-t, --trace-components</literal>=<replaceable>NUM</replaceable>"
 msgstr ""
+"<literal>-t, --trace-components</literal>=<replaceable>NUM</replaceable>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:623
@@ -759,6 +992,11 @@ msgid ""
 "trace. After you specify <option>-t ?</option>, it lists all the components "
 "and their associated integer bitmask:"
 msgstr ""
+"Ativa as mensagens de rastreamento no nível do componente, em que "
+"<replaceable>NUM</replaceable> é um número inteiro de máscara de bits com "
+"edição OR que define qual componente rastrear. Depois de especificar "
+"<option>-t?</option>, ele lista todos os componentes e sua máscara de bits "
+"inteira associada:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_wbem.xml:629
@@ -788,6 +1026,29 @@ msgid ""
 "---              dbpdaemon:     524288  0x0080000\n"
 "---                    slp:    1048576  0x0100000"
 msgstr ""
+"<prompt>tux &gt; </prompt>sfcbd -t ?\n"
+"---   Componentes Rastreáveis:     Int       Hex\n"
+"---            providerMgr:          1  0x0000001\n"
+"---            providerDrv:          2  0x0000002\n"
+"---             cimxmlProc:          4  0x0000004\n"
+"---             httpDaemon:          8  0x0000008\n"
+"---                upCalls:         16  0x0000010\n"
+"---               encCalls:         32  0x0000020\n"
+"---        ProviderInstMgr:         64  0x0000040\n"
+"---       providerAssocMgr:        128  0x0000080\n"
+"---              providers:        256  0x0000100\n"
+"---            indProvider:        512  0x0000200\n"
+"---       internalProvider:       1024  0x0000400\n"
+"---             objectImpl:       2048  0x0000800\n"
+"---                  xmlIn:       4096  0x0001000\n"
+"---                 xmlOut:       8192  0x0002000\n"
+"---                sockets:      16384  0x0004000\n"
+"---              memoryMgr:      32768  0x0008000\n"
+"---               msgQueue:      65536  0x0010000\n"
+"---             xmlParsing:     131072  0x0020000\n"
+"---         responseTiming:     262144  0x0040000\n"
+"---              dbpdaemon:     524288  0x0080000\n"
+"---                    slp:    1048576  0x0100000"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:652
@@ -796,11 +1057,13 @@ msgid ""
 "generate too many messages, is <option>-t</option> <replaceable>2019</"
 "replaceable>."
 msgstr ""
+"Um valor útil que revela as funções internas do sfcbd, mas não gera muitas "
+"mensagens, é <option>-t</option><replaceable>2019</replaceable>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:663
 msgid "SFCB Configuration File"
-msgstr ""
+msgstr "Arquivo de configuração SFCB"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:664
@@ -809,6 +1072,10 @@ msgid ""
 "sfcb/sfcb.cfg</filename> after starting up. This behavior can be overridden "
 "using <option>-c</option> option at start-up."
 msgstr ""
+"O SFCB lê sua configuração de tempo de execução no arquivo de configuração "
+"<filename>/etc/sfcb/sfcb.cfg</filename> após a inicialização. Esse "
+"comportamento pode ser substituído usando a opção <option> -c </option> na "
+"inicialização."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:669
@@ -818,6 +1085,10 @@ msgid ""
 "this file, you can use any text editor that saves the file in a format that "
 "is native to the environment you are using."
 msgstr ""
+"O arquivo de configuração contém a opção <option>opção</option>: pares "
+"<replaceable>VALUE</replaceable>, um por linha. Ao fazer alterações nesse "
+"arquivo, você pode usar qualquer editor de texto que salve o arquivo em um "
+"formato nativo do ambiente em uso."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:675
@@ -825,6 +1096,8 @@ msgid ""
 "Any setting that has the options commented out with a number sign (#) uses "
 "the default setting."
 msgstr ""
+"Qualquer configuração que tenha as opções comentadas com um sinal de número "
+"(#) usa a configuração padrão."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:679
@@ -833,11 +1106,14 @@ msgid ""
 "<filename>/etc/sfcb/sfcb.cfg</filename> and <filename>/usr/share/doc/"
 "packages/sblim-sfcb/README</filename> for their complete list."
 msgstr ""
+"A lista de opções a seguir pode não estar completa. Veja o conteúdo de </etc/"
+"sfcb/sfcb.cfg</filename> e <filename>/usr/share/doc/packages/sblim-sfcb/"
+"README</filename> para obter sua lista completa."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:686
 msgid "httpPort"
-msgstr ""
+msgstr "httpPort"
 
 #. (itstool) path: sect3/bridgehead
 #: xml/adm_wbem.xml:687 xml/adm_wbem.xml:699 xml/adm_wbem.xml:755
@@ -851,7 +1127,7 @@ msgstr ""
 #: xml/adm_wbem.xml:1335 xml/adm_wbem.xml:1350 xml/adm_wbem.xml:1363
 #: xml/adm_wbem.xml:1376
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:688
@@ -859,6 +1135,9 @@ msgid ""
 "Specifies the local port value that sfcbd should listen to receive HTTP "
 "(insecure) requests from CIM clients. Default is <literal>5988</literal> ."
 msgstr ""
+"Especifica o valor da porta local que o sfcbd deve receber para receber "
+"solicitações HTTP (inseguras) de clientes CIM. O padrão é <literal> 5988 "
+"</literal>."
 
 #. (itstool) path: sect3/bridgehead
 #: xml/adm_wbem.xml:692 xml/adm_wbem.xml:704 xml/adm_wbem.xml:761
@@ -872,17 +1151,17 @@ msgstr ""
 #: xml/adm_wbem.xml:1343 xml/adm_wbem.xml:1356 xml/adm_wbem.xml:1369
 #: xml/adm_wbem.xml:1382
 msgid "Syntax"
-msgstr ""
+msgstr "Sintaxe"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:693
 msgid "<literal>httpPort:</literal> <replaceable>PORT_NUMBER</replaceable>"
-msgstr ""
+msgstr "<literal>httpPort:</literal> <replaceable>PORT_NUMBER</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:698
 msgid "enableHttp"
-msgstr ""
+msgstr "enableHttp"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:700
@@ -890,52 +1169,54 @@ msgid ""
 "Specifies whether SFCB should accept HTTP client connections. Default is "
 "<literal>false</literal> ."
 msgstr ""
+"Especifica se o SFCB deve aceitar conexões do cliente HTTP. O padrão é "
+"<literal>false</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:705
 msgid "<literal>enableHttp:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>enableHttp:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:713 xml/adm_wbem.xml:825 xml/adm_wbem.xml:894
 #: xml/adm_wbem.xml:966 xml/adm_wbem.xml:1038 xml/adm_wbem.xml:1172
 #: xml/adm_wbem.xml:1278
 msgid "Option"
-msgstr ""
+msgstr "Opção"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:718 xml/adm_wbem.xml:830 xml/adm_wbem.xml:899
 #: xml/adm_wbem.xml:971 xml/adm_wbem.xml:1043 xml/adm_wbem.xml:1177
 #: xml/adm_wbem.xml:1283
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:727 xml/adm_wbem.xml:839 xml/adm_wbem.xml:908
 #: xml/adm_wbem.xml:980 xml/adm_wbem.xml:1052 xml/adm_wbem.xml:1186
 msgid "true"
-msgstr ""
+msgstr "true"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:732
 msgid "Enables HTTP connections."
-msgstr ""
+msgstr "Habilita conexões HTTP."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:739 xml/adm_wbem.xml:851 xml/adm_wbem.xml:920
 #: xml/adm_wbem.xml:992 xml/adm_wbem.xml:1064 xml/adm_wbem.xml:1198
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:744
 msgid "Disables HTTP connections."
-msgstr ""
+msgstr "Desativa conexões HTTP."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:754
 msgid "httpProcs"
-msgstr ""
+msgstr "httpProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:756
@@ -943,6 +1224,9 @@ msgid ""
 "Specifies the maximum number of simultaneous HTTP client connections before "
 "new incoming HTTP requests are blocked. Default is <literal>8</literal> ."
 msgstr ""
+"Especifica o número máximo de conexões simultâneas do cliente HTTP antes que "
+"novas solicitações HTTP recebidas sejam bloqueadas. O padrão é "
+"<literal>8</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:762
@@ -950,11 +1234,12 @@ msgid ""
 "<literal>httpProcs:</literal> <replaceable>MAX_NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>httpProcs:</literal> <replaceable>MAX_NUM_DE_CONEXÕES</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:768
 msgid "httpUserSFCB, httpUser"
-msgstr ""
+msgstr "httpUserSFCB, httpUser"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:770
@@ -968,16 +1253,24 @@ msgid ""
 "option> is set to <literal>false</literal>. the default is <literal>true</"
 "literal>."
 msgstr ""
+"Essas opções controlam em qual usuário o servidor HTTP será executado. Se "
+"<option>httpUserSFCB</option> for <literal>true /literal>, o HTTP será "
+"executado no mesmo usuário que o processo principal do SFCB. Se for "
+"<literal>false</literal>, o nome de usuário especificado para "
+"<option>httpUser</option> será usado. Essa configuração é usada para "
+"servidores HTTP e HTTPS. <option>httpUser</option> <emphasis>deve</emphasis> "
+"ser especificado se <option>httpUserSFCB</option> estiver definido como "
+"<literal>false</literal>. o padrão é <literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:781
 msgid "<literal>httpUserSFCB: true</literal>"
-msgstr ""
+msgstr "<literal>httpUserSFCB: true</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:786
 msgid "httpLocalOnly"
-msgstr ""
+msgstr "httpLocalOnly"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:788
@@ -985,16 +1278,18 @@ msgid ""
 "Specifies whether to limit HTTP requests to localhost only. Default is "
 "<literal>false</literal>."
 msgstr ""
+"Especifica se as solicitações HTTP devem ser limitadas apenas ao host local. "
+"O padrão é <literal>false</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:793
 msgid "<literal>httpLocalOnly: false</literal>"
-msgstr ""
+msgstr "<literal>httpLocalOnly: false</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:798
 msgid "httpsPort"
-msgstr ""
+msgstr "httpsPort"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:800
@@ -1002,16 +1297,18 @@ msgid ""
 "Specifies the local port value where sfcbd listens for HTTPS requests from "
 "CIM clients. Default is <literal>5989</literal> ."
 msgstr ""
+"Especifica o valor da porta local em que o sfcbd atende a solicitações HTTPS "
+"de clientes CIM. O padrão é <literal>5989</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:805
 msgid "<literal>httpsPort: port_number</literal>"
-msgstr ""
+msgstr "<literal>httpsPort: port_number</literal>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:810
 msgid "enableHttps"
-msgstr ""
+msgstr "enableHttps"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:812
@@ -1019,26 +1316,28 @@ msgid ""
 "Specifies if SFCB will accept HTTPS client connections. Default is "
 "<literal>true</literal> ."
 msgstr ""
+"Especifica se o SFCB aceitará conexões do cliente HTTPS. O padrão é "
+"<literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:817
 msgid "<literal>enableHttps: option</literal>"
-msgstr ""
+msgstr "<literal>enableHttps: option</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:844
 msgid "Enables HTTPS connections."
-msgstr ""
+msgstr "Habilita conexões HTTPS."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:856
 msgid "Disables HTTPS connections."
-msgstr ""
+msgstr "Desativa conexões HTTPS."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:866
 msgid "httpsProcs"
-msgstr ""
+msgstr "httpsProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:868
@@ -1046,6 +1345,9 @@ msgid ""
 "Specifies the maximum number of simultaneous HTTPS client connections before "
 "new incoming HTTPS requests are blocked. Default is <literal>8</literal> ."
 msgstr ""
+"Especifica o número máximo de conexões simultâneas do cliente HTTPS antes "
+"que as novas solicitações HTTPS recebidas sejam bloqueadas. O padrão é "
+"<literal>8</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:874
@@ -1053,11 +1355,13 @@ msgid ""
 "<literal>httpsProcs:</literal> <replaceable>MAX_NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>httpsProcs:</literal> "
+"<replaceable>MAX_NUMBER_OF_CONNECTIONS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:879
 msgid "enableInterOp"
-msgstr ""
+msgstr "enableInterOp"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:881
@@ -1065,26 +1369,28 @@ msgid ""
 "Specifies if SFCB will provide the <emphasis>interop</emphasis> namespace "
 "for indication support. Default is <literal>true</literal> ."
 msgstr ""
+"Especifica se o SFCB fornecerá o espaço de nome <emphasis>interop</emphasis> "
+"para suporte à indicação. O padrão é <literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:886
 msgid "<literal>enableInterOp:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>enableInterOp:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:913
 msgid "Enables interop namespace."
-msgstr ""
+msgstr "Habilita o espaço para nome de interoperabilidade."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:925
 msgid "Disables interop namespace."
-msgstr ""
+msgstr "Desativa o namespace de interoperabilidade."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:935
 msgid "provProcs"
-msgstr ""
+msgstr "provProcs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:937
@@ -1094,17 +1400,22 @@ msgid ""
 "of the existing providers will first be automatically unloaded. Default is "
 "<literal>32</literal> ."
 msgstr ""
+"Especifica o número máximo de processos simultâneos do provedor. Após esse "
+"ponto, se uma nova solicitação de entrada exigir o carregamento de um novo "
+"provedor, um dos fornecedores existentes será primeiro descarregado "
+"automaticamente. O padrão é <literal>32</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:944 xml/adm_wbem.xml:1015
 msgid ""
 "<literal>provProcs:</literal> <replaceable>MAX_NUMBER_OF_PROCS</replaceable>"
 msgstr ""
+"<literal>provProcs:</literal> <replaceable>MAX_NUMBER_OF_PROCS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:949
 msgid "doBasicAuth"
-msgstr ""
+msgstr "doBasicAuth"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:951
@@ -1113,26 +1424,30 @@ msgid ""
 "before it accepts the request. Default value is <literal>true</literal> "
 "which means that basic client authentication is performed."
 msgstr ""
+"Ativa ou desativa a autenticação básica com base no identificador de usuário "
+"do cliente antes de aceitar a solicitação. O valor padrão é "
+"<literal>true</literal>, o que significa que a autenticação básica do "
+"cliente é realizada."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:958
 msgid "<literal>doBasicAuth:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>doBasicAuth:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:985
 msgid "Enables basic authentication."
-msgstr ""
+msgstr "Habilita autenticação básica."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:997
 msgid "Disables basic authentication."
-msgstr ""
+msgstr "Desabilita a autenticação básica."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1007
 msgid "basicAuthLib"
-msgstr ""
+msgstr "basicAuthLib"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1009
@@ -1141,11 +1456,14 @@ msgid ""
 "authenticate the client user identifier. Default is "
 "<literal>sfcBasicPAMAuthentication</literal> ."
 msgstr ""
+"Especifica o nome da biblioteca local. O servidor SFCB carrega a biblioteca "
+"para autenticar o identificador de usuário do cliente. O padrão é "
+"<literal>sfcBasicPAMAuthentication</literal>."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1020
 msgid "useChunking"
-msgstr ""
+msgstr "useChunking"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1022
@@ -1155,26 +1473,31 @@ msgid ""
 "to the client in smaller <quote>chunks</quote>, rather than buffer the data "
 "and send it back all in one chunk. Default is <literal>true</literal> ."
 msgstr ""
+"Esta opção ativa ou desativa o uso de HTTP/HTTPS <quote>chunking</quote>. Se "
+"ativado, o servidor retornará grandes volumes de dados de resposta ao "
+"cliente em <quote>pequenos pedaços</quote>, em vez de armazenar em buffer os "
+"dados e enviá-los de volta em um único pedaço. O padrão é "
+"<literal>true</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1030
 msgid "<literal>useChunking:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>useChunking:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1057
 msgid "Enables HTTP/HTTPS data chunking."
-msgstr ""
+msgstr "Permite chunking de dados HTTP/HTTPS."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1069
 msgid "Disables HTTP/HTTPS data chunking."
-msgstr ""
+msgstr "Desativa a chunking de dados HTTP/HTTPS."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1079
 msgid "keepaliveTimeout"
-msgstr ""
+msgstr "keepaliveTimeout"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1081
@@ -1184,16 +1507,20 @@ msgid ""
 "<literal>0</literal> disables HTTP keep-alive. Default is <literal>0</"
 "literal>."
 msgstr ""
+"Especifica o tempo máximo em segundos que o processo HTTP SFCB aguarda entre "
+"duas solicitações em uma conexão antes de terminar. Definir como "
+"<literal>0</literal> desativa o HTTP keep-alive. O padrão é "
+"<literal>0</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1088
 msgid "<literal>keepaliveTimeout:</literal> <replaceable>SECS</replaceable>"
-msgstr ""
+msgstr "<literal>keepaliveTimeout:</literal> <replaceable>SECS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1093
 msgid "keepaliveMaxRequest"
-msgstr ""
+msgstr "keepaliveMaxRequest"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1095
@@ -1202,6 +1529,9 @@ msgid ""
 "Setting it to <literal>0</literal> disables HTTP keep-alive. Default value "
 "is <literal>10</literal> ."
 msgstr ""
+"Especifica o número máximo de solicitações consecutivas em uma conexão. "
+"Definir como <literal>0</literal> desativa o HTTP keep-alive. O valor padrão "
+"é <literal>10</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1101
@@ -1209,11 +1539,13 @@ msgid ""
 "<literal>keepaliveMaxRequest:</literal> <replaceable>NUMBER_OF_CONNECTIONS</"
 "replaceable>"
 msgstr ""
+"<literal>keepaliveMaxRequest:</literal> "
+"<replaceable>NUMBER_OF_CONNECTIONS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1106
 msgid "registrationDir"
-msgstr ""
+msgstr "registrationDir"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1108
@@ -1222,16 +1554,19 @@ msgid ""
 "registration data, the staging area, and the static repository. Default is "
 "<filename>/var/lib/sfcb/registration</filename> ."
 msgstr ""
+"Especifica o diretório de registro, que contém os dados de registro do "
+"provedor, a área de preparação e o repositório estático. O padrão é "
+"<filename>/var/lib/sfcb/registration</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1114
 msgid "<literal>registrationDir:</literal> <replaceable>DIR</replaceable>"
-msgstr ""
+msgstr "<literal>registrationDir:</literal> <replaceable>DIR</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1119
 msgid "providerDirs"
-msgstr ""
+msgstr "providerDirs"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1121
@@ -1240,16 +1575,19 @@ msgid ""
 "provider libraries. Default is <filename>/usr/lib64 /usr/lib64 /usr/lib64/"
 "cmpi</filename>."
 msgstr ""
+"Especifica uma lista de diretórios separados por espaço em que o SFCB está "
+"procurando bibliotecas de provedores. O padrão é <filename>/usr/lib64/usr/"
+"lib64/usr/lib64/cmpi</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1127
 msgid "<literal>providerDirs:</literal> <replaceable>DIR</replaceable>"
-msgstr ""
+msgstr "<literal>providerDirs:</literal> <replaceable>DIR</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1132
 msgid "providerSampleInterval"
-msgstr ""
+msgstr "providerSampleInterval"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1134
@@ -1257,17 +1595,20 @@ msgid ""
 "Specifies the interval in seconds at which the provider manager is checking "
 "for idle providers. Default is <literal>30</literal>."
 msgstr ""
+"Especifica o intervalo em segundos em que o gerenciador de provedores está "
+"procurando provedores inativos. O padrão é <literal>30</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1139
 msgid ""
 "<literal>providerSampleInterval:</literal> <replaceable>SECS</replaceable>"
 msgstr ""
+"<literal>providerSampleInterval:</literal> <replaceable>SECS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1144
 msgid "providerTimeoutInterval"
-msgstr ""
+msgstr "providerTimeoutInterval"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1146
@@ -1275,17 +1616,20 @@ msgid ""
 "Specifies the interval in seconds before an idle provider gets unloaded by "
 "the provider manager. Default is <literal>60</literal>."
 msgstr ""
+"Especifica o intervalo em segundos antes de um provedor inativo ser "
+"descarregado pelo gerente do provedor. O padrão é <literal>60</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1151
 msgid ""
 "<literal>providerTimeoutInterval:</literal> <replaceable>SECS</replaceable>"
 msgstr ""
+"<literal>providerTimeoutInterval:</literal> <replaceable>SECS</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1156
 msgid "providerAutoGroup"
-msgstr ""
+msgstr "providerAutoGroup"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1158
@@ -1294,26 +1638,29 @@ msgid ""
 "option is set to <literal>true</literal>, all providers in the same shared "
 "library are executed in the same process."
 msgstr ""
+"Se o arquivo de registro do provedor não especificar nenhum outro grupo e a "
+"opção estiver configurada como <literal>true</literal>, todos os provedores "
+"na mesma biblioteca compartilhada serão executados no mesmo processo."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1164
 msgid "<literal>providerAutoGroup:</literal> <replaceable>OPTION</replaceable>"
-msgstr ""
+msgstr "<literal>providerAutoGroup:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1191
 msgid "Enables grouping of providers."
-msgstr ""
+msgstr "Permite o agrupamento de fornecedores."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1203
 msgid "Disables grouping of providers."
-msgstr ""
+msgstr "Desativa o agrupamento de fornecedores."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1213
 msgid "sslCertificateFilePath"
-msgstr ""
+msgstr "sslCertificateFilePath"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1215
@@ -1324,17 +1671,23 @@ msgid ""
 "<literal>true</literal>. Default is <filename>/etc/sfcb/server.pem</"
 "filename>."
 msgstr ""
+"Especifica o nome do arquivo que contém o certificado do servidor. O arquivo "
+"deve estar no formato PEM (Privacy Enhanced Mail, RFC 1421 e RFC 1424). Este "
+"arquivo é necessário apenas se <literal>enableHttps</literal> estiver "
+"definido como <literal>true</literal>. O padrão é <filename>/etc/sfcb/"
+"server.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1223
 msgid ""
 "<literal>sslCertificateFilePath:</literal> <replaceable>PATH</replaceable>"
 msgstr ""
+"<literal>sslCertificateFilePath:</literal> <replaceable>CAMINHO</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1228
 msgid "sslKeyFilePath"
-msgstr ""
+msgstr "sslKeyFilePath"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1230
@@ -1345,16 +1698,21 @@ msgid ""
 "set to <literal>true</literal>. Default is <filename>/etc/sfcb/file.pem</"
 "filename>."
 msgstr ""
+"Especifica o nome do arquivo que contém o certificado do servidor. O arquivo "
+"deve estar no formato PEM (Privacy Enhanced Mail, RFC 1421 e RFC 1424). Este "
+"arquivo é necessário apenas se <literal>enableHttps</literal> estiver "
+"definido como <literal>true</literal>. O padrão é <filename>/etc/sfcb/"
+"server.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1238
 msgid "<literal>sslKeyFilePath:</literal> <replaceable>PATH</replaceable>"
-msgstr ""
+msgstr "<literal>sslKeyFilePath:</literal> <replaceable>CAMINHO</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1243
 msgid "sslClientTrustStore"
-msgstr ""
+msgstr "sslClientTrustStore"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1245
@@ -1365,16 +1723,22 @@ msgid ""
 "<literal>accept</literal> or <literal>require</literal>. Default is "
 "<filename>/etc/sfcb/client.pem</filename>."
 msgstr ""
+"Especifica o nome do arquivo que contém a CA ou os certificados "
+"autoassinados dos clientes. Esse arquivo deve estar no formato PEM e será "
+"necessário apenas se <literal>sslClientCertificate</literal> estiver "
+"definido como <literal>accept</literal> ou <literal>exigir</literal>. O "
+"padrão é <filename>/etc/sfcb/client.pem</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1253
 msgid "<literal>sslClientTrustStore:</literal> <replaceable>PATH</replaceable>"
 msgstr ""
+"<literal>sslClientTrustStore:</literal> <replaceable>CAMINHO</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1258
 msgid "sslClientCertificate"
-msgstr ""
+msgstr "sslClientCertificate"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1260
@@ -1387,47 +1751,55 @@ msgid ""
 "client does not present a certificate. Default value is <literal>ignore</"
 "literal>."
 msgstr ""
+"Especifica a maneira como o SFCB lida com a autenticação baseada em "
+"certificado de cliente. Se definido como <literal>ignore</literal>, ele não "
+"solicitará um certificado ao cliente. Se definido como "
+"<literal>accept</literal>, solicitará um certificado ao cliente, mas não "
+"falhará se o cliente não apresentar um. Se definido como "
+"<literal>require</literal>, recusará a conexão do cliente se o cliente não "
+"apresentar um certificado. O valor padrão é <literal>ignore</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1270
 msgid ""
 "<literal>sslClientCertificate:</literal> <replaceable>OPTION</replaceable>"
 msgstr ""
+"<literal>sslClientCertificate:</literal> <replaceable>OPÇÃO</replaceable>"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1292
 msgid "ignore"
-msgstr ""
+msgstr "ignore"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1297 xml/adm_wbem.xml:1309
 msgid "Disables requesting a client certificate."
-msgstr ""
+msgstr "Desativa a solicitação de um certificado de cliente."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1304
 msgid "accept"
-msgstr ""
+msgstr "accept"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1312
 msgid "Will not fail if no certificate is present."
-msgstr ""
+msgstr "Não falhará se nenhum certificado estiver presente."
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1319
 msgid "require"
-msgstr ""
+msgstr "require"
 
 #. (itstool) path: entry/para
 #: xml/adm_wbem.xml:1324
 msgid "Refuses the client connection without a valid certificate."
-msgstr ""
+msgstr "Recusa a conexão do cliente sem um certificado válido."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1334
 msgid "certificateAuthLib"
-msgstr ""
+msgstr "certificateAuthLib"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1336
@@ -1437,16 +1809,22 @@ msgid ""
 "<literal>sslClientCertificate</literal> is not set to <literal>ignore</"
 "literal>. Default value is <filename>sfcCertificateAuthentication</filename>."
 msgstr ""
+"Especifica o nome da biblioteca local a ser solicitada para autenticação do "
+"usuário com base no certificado do cliente. Isso é solicitado apenas se "
+"<literal>sslClientCertificate</literal> não estiver definido como "
+"<literal>ignore</literal>. O valor padrão é "
+"<filename>sfcCertificateAuthentication</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1344
 msgid "<literal>certificateAuthLib:</literal> <replaceable>FILE</replaceable>"
 msgstr ""
+"<literal>certificateAuthLib:</literal> <replaceable>ARQUIVO</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1349
 msgid "traceLevel"
-msgstr ""
+msgstr "traceLevel"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1351
@@ -1455,16 +1833,19 @@ msgid ""
 "environment variable <literal>SFCB_TRACE_LEVEL</literal>. Default value is "
 "<literal>0</literal>."
 msgstr ""
+"Especifica o nível de rastreio para SFCB. Você pode substituí-lo definindo a "
+"variável de ambiente <literal>SFCB_TRACE_LEVEL</literal>. O valor padrão é "
+"<literal>0</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1357
 msgid "<literal>traceLevel:</literal> <replaceable>NUM_LEVEL</replaceable>"
-msgstr ""
+msgstr "<literal>traceLevel:</literal> <replaceable>NUM_NÍVEL</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1362
 msgid "traceMask"
-msgstr ""
+msgstr "traceMask"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1364
@@ -1473,16 +1854,19 @@ msgid ""
 "option <option>--trace-components</option>. Default value is <literal>0</"
 "literal>."
 msgstr ""
+"Especifica a máscara de rastreamento para SFCB. você pode substituí-lo pela "
+"opção de linha de comando <option>--trace-components</option>. O valor "
+"padrão é <literal>0</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1370
 msgid "<literal>traceMask:</literal> <replaceable>MASK</replaceable>"
-msgstr ""
+msgstr "<literal>traceMask:</literal> <replaceable>MÁSCARA</replaceable>"
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1375
 msgid "traceFile"
-msgstr ""
+msgstr "traceFile"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1377
@@ -1491,16 +1875,19 @@ msgid ""
 "environment variable <literal>SFCB_TRACE_FILE</literal>. Default value is "
 "<literal>stderr</literal> (standard error output)."
 msgstr ""
+"Especifica o arquivo de rastreamento para SFCB. Você pode substituí-lo "
+"definindo a variável de ambiente <literal>SFCB_TRACE_FILE</literal>. O valor "
+"padrão é <literal>stderr</literal> (saída de erro padrão)."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1383
 msgid "<literal>traceFile:</literal> <replaceable>OUTPUT</replaceable>"
-msgstr ""
+msgstr "<literal>traceFile:</literal> <replaceable>SAÍDA</replaceable>"
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:1390
 msgid "Advanced SFCB Tasks"
-msgstr ""
+msgstr "Tarefas avançadas do SFCB"
 
 #. (itstool) path: sect1/para
 #: xml/adm_wbem.xml:1392
@@ -1510,27 +1897,31 @@ msgid ""
 "and experience with the Linux command line. This chapter includes the "
 "following tasks:"
 msgstr ""
+"Este capítulo aborda tópicos mais avançados relacionados ao uso do SFCB. "
+"Para entendê-los, você precisa ter conhecimento básico do sistema de "
+"arquivos Linux e experiência com a linha de comandos do Linux. Este capítulo "
+"inclui as seguintes tarefas:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1401
 msgid "Installing CMPI providers"
-msgstr ""
+msgstr "Instalando Provedores CMPI"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:1406 xml/adm_wbem.xml:1698
 msgid "Testing SFCB"
-msgstr ""
+msgstr "Testando SFCB"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1411
 msgid "Using <command>wbemcli</command> CIM client"
-msgstr ""
+msgstr "Usando o cliente CIM <command>wbemcli</command>"
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:1418
 msgid "Installing CMPI Providers"
-msgstr ""
+msgstr "Instalando provedores CMPI"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1419
@@ -1541,6 +1932,12 @@ msgid ""
 "confile.16\"/>. The provider must also be properly registered using "
 "<command>sfcbstage</command> and <command>sfcbrepos</command> commands."
 msgstr ""
+"Para instalar um provedor CMPI, é necessário garantir que sua biblioteca "
+"compartilhada seja copiada em um dos diretórios especificados pela opção de "
+"configuração <literal>providerDirs</literal>, consulte <xref linkend=\""
+"sec.wbem.config.confile.16 \"/>. O provedor também deve ser registrado "
+"corretamente usando os comandos <command>sfcbstage</command> e "
+"<command>sfcbrepos</command>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1427
@@ -1549,11 +1946,14 @@ msgid ""
 "takes care of the proper registration. Most SBLIM providers are prepared for "
 "SFCB."
 msgstr ""
+"O pacote do provedor geralmente é preparado para o SFCB, para que sua "
+"instalação cuide do registro adequado. A maioria dos provedores de SBLIM "
+"está preparada para o SFCB."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1433
 msgid "Class Repository"
-msgstr ""
+msgstr "Repositório de Classes"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1434
@@ -1564,21 +1964,27 @@ msgid ""
 "literal> or <literal>root/interop</literal>, which respectively translate to "
 "the class repository directory path on the file system"
 msgstr ""
+"<emphasis>Repositório de classes</emphasis> é um local em que o SFCB "
+"armazena informações sobre classes CIM. Geralmente consiste em uma árvore de "
+"diretórios com componentes de namespace. Os namespaces CIM típicos são "
+"<literal>root/cimv2</literal> ou <literal>root/interop</literal>, que são "
+"convertidos respectivamente no caminho do diretório do repositório de "
+"classes no sistema de arquivos"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1442
 msgid "<filename>/var/lib/sfcb/registration/repository/root/cimv2</filename>"
-msgstr ""
+msgstr "<filename>/var/lib/sfcb/registration/repository/root/cimv2</filename>"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1445
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1448
 msgid "<filename>/var/lib/sfcb/registration/repository/root/interop</filename>"
-msgstr ""
+msgstr "<filename>/var/lib/sfcb/registration/repository/root/interop</filename>"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1451
@@ -1588,6 +1994,10 @@ msgid ""
 "classes registered under that namespace. It also contains necessary "
 "information about their CIM superclasses."
 msgstr ""
+"Cada diretório de namespace contém o arquivo "
+"<filename>classSchemas</filename>. O arquivo possui uma representação "
+"binária compilada de todas as classes CIM registradas nesse espaço de nome. "
+"Ele também contém informações necessárias sobre suas superclasses CIM."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1457
@@ -1600,11 +2010,18 @@ msgid ""
 "<filename>classSchemas</filename> files are decoded and the class hierarchy "
 "for each namespace is built."
 msgstr ""
+"Além disso, cada diretório de namespace pode conter um arquivo "
+"<filename>qualifiers</filename> que contém todos os qualificadores para o "
+"namespace. Quando o sfcbd for reiniciado, o provedor de classes examinará o "
+"diretório <filename>/var/lib/sfcb/registration/repository/</filename> e "
+"todos os seus subdiretórios para determinar os namespaces registrados. Os "
+"arquivos <filename>classSchemas</filename> são decodificados e a hierarquia "
+"de classes para cada namespace é criada."
 
 #. (itstool) path: sect3/title
 #: xml/adm_wbem.xml:1468
 msgid "Adding New Classes"
-msgstr ""
+msgstr "Adicionando novas classes"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1469
@@ -1613,6 +2030,9 @@ msgid ""
 "remove classes offline and restart SFCB service with <command>systemctl "
 "restart sfcb</command> to register the changes."
 msgstr ""
+"O SFCB não pode fazer manipulações de classe CIM ao vivo. Você precisa "
+"adicionar, alterar ou remover classes offline e reiniciar o serviço SFCB com "
+"<command>systemctl restart sfcb</command> para registrar as alterações."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1474
@@ -1622,11 +2042,15 @@ msgid ""
 "systems, it is the directory structure under <filename>/var/lib/sfcb/stage/</"
 "filename>."
 msgstr ""
+"Para armazenar informações de classe e registro de provedores, o SFCB usa um "
+"local chamado <emphasis>staging area</emphasis>. Nos sistemas SUSE® Linux "
+"Enterprise Server, é a estrutura de diretórios em <filename>/var/lib/sfcb/"
+"stage/</filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1479
 msgid "To add a new provider, you need to:"
-msgstr ""
+msgstr "Para adicionar um novo provedor, você precisa:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1484
@@ -1635,6 +2059,9 @@ msgid ""
 "subdirectory of staging area directory (<filename>/var/lib/sfcb/stage/mofs</"
 "filename>)."
 msgstr ""
+"Copie os arquivos de definição da classe de provedor no subdiretório "
+"<filename>./mofs</filename> do diretório da área de temporariedade "
+"(<filename>/var/lib/sfcb/stage/mofs</filename>)."
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1491
@@ -1643,6 +2070,9 @@ msgid ""
 "type of provider, and the name of the executable library file into the "
 "<filename>./regs</filename> subdirectory."
 msgstr ""
+"Copie um arquivo de registro que contenha o nome da classe ou classes e o "
+"tipo de provedor e o nome do arquivo da biblioteca executável no "
+"subdiretório <filename>./regs </filename>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1498
@@ -1654,11 +2084,18 @@ msgid ""
 "<filename>sfcbrepos</filename> command. The <filename>interop.mof</filename> "
 "will only be compiled into the <emphasis>interop</emphasis> namespace."
 msgstr ""
+"Existem dois arquivos padrão <quote>mof</quote> (definição de classe) no "
+"diretório temporário: <filename>indicação.mof </filename> e <filename> "
+"interop.mof </ filename>. Os arquivos MOF no diretório do estágio raiz "
+"<filename>/var/lib/sfcb/stage/mofs</filename> serão copiados em cada espaço "
+"de nome após a execução do comando <filename>sfcbrepos</filename>. O "
+"<filename>interop.mof</filename> será compilado apenas no espaço de nome "
+"<emphasis>interop</emphasis>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1507
 msgid "The directory layout may look like the following example:"
-msgstr ""
+msgstr "O layout do diretório pode parecer com o seguinte exemplo:"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1510
@@ -1667,6 +2104,8 @@ msgid ""
 "<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage\n"
 "default.reg  mofs  regs"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage\n"
+"default.reg  mofs  regs"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1512
@@ -1675,6 +2114,8 @@ msgid ""
 "<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage/mofs\n"
 "indication.mof  root"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage/mofs\n"
+"indication.mof  root"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1514
@@ -1683,6 +2124,8 @@ msgid ""
 "<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage/mofs/root\n"
 "cimv2  interop  suse  virt"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls /var/lib/sfcb/stage/mofs/root\n"
+"cimv2  interop  suse  virt"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1516
@@ -1701,6 +2144,18 @@ msgid ""
 "OMC_StorageVolumeStorageSynchronized.mof\n"
 "OMC_SystemStorageCapabilities.mof"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls -1 /var/lib/sfcb/stage/mofs/root/cimv2 | less\n"
+"Linux_ABIParameter.mof\n"
+"Linux_BaseIndication.mof\n"
+"Linux_Base.mof\n"
+"Linux_DHCPElementConformsToProfile.mof\n"
+"Linux_DHCPEntity.mof\n"
+"[..]\n"
+"OMC_StorageSettingWithHints.mof\n"
+"OMC_StorageVolumeDevice.mof\n"
+"OMC_StorageVolume.mof\n"
+"OMC_StorageVolumeStorageSynchronized.mof\n"
+"OMC_SystemStorageCapabilities.mof"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1528
@@ -1719,6 +2174,18 @@ msgid ""
 "ReferencedProfile.mof\n"
 "RegisteredProfile.mof"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls -1 /var/lib/sfcb/stage/mofs/root/interop\n"
+"ComputerSystem.mof\n"
+"ElementConformsToProfile.mof\n"
+"HostSystem.mof\n"
+"interop.mof\n"
+"Linux_DHCPElementConformsToProfile.mof\n"
+"[..]\n"
+"OMC_SMIElementSoftwareIdentity.mof\n"
+"OMC_SMISubProfileRequiresProfile.mof\n"
+"OMC_SMIVolumeManagementSoftware.mof\n"
+"ReferencedProfile.mof\n"
+"RegisteredProfile.mof"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1540
@@ -1737,6 +2204,18 @@ msgid ""
 "OMC_Server.sfcb.reg\n"
 "RegisteredProfile.reg"
 msgstr ""
+"<prompt>tux &gt; </prompt>ls -1 /var/lib/sfcb/stage/regs\n"
+"AllocationCapabilities.reg\n"
+"Linux_ABIParameter.reg\n"
+"Linux_BaseIndication.reg\n"
+"Linux_DHCPGlobal.reg\n"
+"Linux_DHCPRegisteredProfile.reg\n"
+"[..]\n"
+"OMC_Base.sfcb.reg\n"
+"OMC_CopyServices.sfcb.reg\n"
+"OMC_PowerManagement.sfcb.reg\n"
+"OMC_Server.sfcb.reg\n"
+"RegisteredProfile.reg"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1552
@@ -1761,16 +2240,37 @@ msgid ""
 "   type: instance association\n"
 "   namespace: root/interop"
 msgstr ""
+"<prompt>tux &gt; </prompt>cat /var/lib/sfcb/stage/regs/"
+"Linux_DHCPRegisteredProfile.reg\n"
+"[Linux_DHCPRegisteredProfile]\n"
+"   provedor: Linux_DHCPRegisteredProfileProvider\n"
+"   localização: cmpiLinux_DHCPRegisteredProfile\n"
+"   tipo: instance\n"
+"   namespace: root/interop\n"
+"#\n"
+"[Linux_DHCPElementConformsToProfile]\n"
+"   provedor: Linux_DHCPElementConformsToProfileProvider\n"
+"   localização: cmpiLinux_DHCPElementConformsToProfile\n"
+"   tipo: instance association\n"
+"   namespace: root/cimv2\n"
+"#\n"
+"[Linux_DHCPElementConformsToProfile]\n"
+"   provedor: Linux_DHCPElementConformsToProfileProvider\n"
+"   localização: cmpiLinux_DHCPElementConformsToProfile\n"
+"   tipo: instance association\n"
+"   namespace: root/interop"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1570
 msgid "SFCB uses a custom provider registration file for each provider."
 msgstr ""
+"O SFCB usa um arquivo de registro de provedor personalizado para cada "
+"provedor."
 
 #. (itstool) path: note/title
 #: xml/adm_wbem.xml:1574
 msgid "SBLIM Providers Registration Files"
-msgstr ""
+msgstr "Arquivos de registro de provedores SBLIM"
 
 #. (itstool) path: note/para
 #: xml/adm_wbem.xml:1575
@@ -1778,11 +2278,13 @@ msgid ""
 "All SBLIM providers on the SBLIM Web site already include a registration "
 "file that is used to generate the .reg file for SFCB."
 msgstr ""
+"Todos os provedores SBLIM no site da SBLIM já incluem um arquivo de registro "
+"usado para gerar o arquivo .reg para SFCB."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1580
 msgid "The format of SFCB registration file is:"
-msgstr ""
+msgstr "O formato do arquivo de registro SFCB é:"
 
 #. (itstool) path: sect3/screen
 #: xml/adm_wbem.xml:1583
@@ -1797,46 +2299,54 @@ msgid ""
 "   unload: never\n"
 "   namespace: &lt;namespace-for-class&gt; ...\n"
 msgstr ""
+"\n"
+"[&lt;class-name&gt;]\n"
+"   provedor: &lt;provide-name&gt;\n"
+"   localização: &lt;library-name&gt;\n"
+"   tipo: [instance] [association] [method] [indication]\n"
+"   grupo: &lt;group-name&gt;\n"
+"   não carregado: never\n"
+"   namespace: &lt;namespace-for-class&gt; ...\n"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1592
 msgid "where:"
-msgstr ""
+msgstr "onde:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1597
 msgid "<literal>&lt;class-name&gt;</literal>"
-msgstr ""
+msgstr "<literal>&lt;class-name&gt;</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1600
 msgid "The CIM class name (required)"
-msgstr ""
+msgstr "O nome da classe CIM (obrigatório)"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1606
 msgid "<literal>&lt;provider-name&gt;</literal>"
-msgstr ""
+msgstr "<literal>&lt;provider-name&gt;</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1609
 msgid "The CMPI provider name (required)"
-msgstr ""
+msgstr "O nome do provedor CMPI (obrigatório)"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1615
 msgid "<literal>&lt;location-name&gt;</literal>"
-msgstr ""
+msgstr "<literal>&lt;location-name&gt;</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1618
 msgid "The name of the provider library (required)"
-msgstr ""
+msgstr "O nome da biblioteca do provedor (obrigatório)"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1624
 msgid "<literal>type</literal>"
-msgstr ""
+msgstr "<literal>type</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1627
@@ -1845,11 +2355,14 @@ msgid ""
 "<literal>instance</literal>, <literal>association</literal>, "
 "<literal>method</literal> or <literal>indication</literal>."
 msgstr ""
+"O tipo do provedor (obrigatório). Pode ser qualquer combinação de: "
+"<literal>instance</literal>, <literal>association</literal>, "
+"<literal>method</literal> ou <literal>indication</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1635
 msgid "<literal>&lt;group-name&gt;</literal>"
-msgstr ""
+msgstr "<literal>&lt;group-name&gt;</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1638
@@ -1859,11 +2372,15 @@ msgid ""
 "&lt;group-name&gt; will be executed under the same process. By default each "
 "provider will be run as a separate process."
 msgstr ""
+"Vários provedores podem ser agrupados e executados em um único processo para "
+"minimizar ainda mais os recursos de tempo de execução. Todos os provedores "
+"registrados no mesmo &lt;group-name&gt; serão executados no mesmo processo. "
+"Por padrão, cada provedor será executado como um processo separado."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1647
 msgid "<literal>unload</literal>"
-msgstr ""
+msgstr "<literal>unload</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1650
@@ -1874,11 +2391,16 @@ msgid ""
 "provider will be unloaded when its idle times exceed the value specified in "
 "the configuration file."
 msgstr ""
+"Especifica a política de descarregamento para o provedor. Atualmente, a "
+"única opção suportada é <option>nunca</option>, que especifica que o "
+"provedor não será monitorado por períodos de inatividade e nunca será "
+"descarregado. Por padrão, cada provedor será descarregado quando seus tempos "
+"de inatividade excederem o valor especificado no arquivo de configuração."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_wbem.xml:1660
 msgid "<literal>namespace</literal>"
-msgstr ""
+msgstr "<literal>namespace</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1663
@@ -1887,6 +2409,9 @@ msgid ""
 "required, although for most providers this will be <literal>root/cimv2</"
 "literal>."
 msgstr ""
+"Lista de namespaces para os quais esse provedor pode ser executado. Isso é "
+"necessário, embora para a maioria dos provedores seja <literal>root/"
+"cimv2</literal>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1671
@@ -1895,6 +2420,10 @@ msgid ""
 "the staging area, you need to rebuild the SFCB class repository with the "
 "command <command>sfcbrepos</command> <option>-f</option>."
 msgstr ""
+"Depois que todas as definições de classe e arquivos de registro do provedor "
+"estiverem armazenados na área de preparação, você precisará reconstruir o "
+"repositório de classes SFCB com o comando <command>sfcbrepos</command> "
+"<option>-f</option>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1676
@@ -1903,6 +2432,9 @@ msgid ""
 "repository, restart SFCB with command <command>systemctl restart sfcb</"
 "command>."
 msgstr ""
+"Você pode adicionar, alterar ou remover classes dessa maneira. Após "
+"reconstruir o repositório de classes, reinicie o SFCB com o comando <command>"
+"systemctl restart sfcb</command>."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1681
@@ -1911,6 +2443,9 @@ msgid ""
 "class mof files and registration files to the correct locations in the "
 "staging area."
 msgstr ""
+"Como alternativa, o pacote SFCB contém um utilitário que copiará arquivos de "
+"classe de provedor e arquivos de registro para os locais corretos na área de "
+"preparação."
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1686
@@ -1918,6 +2453,8 @@ msgid ""
 "<command>sfcbstage</command> <option>-r</option> <literal>[provider.reg] "
 "[class1.mof] [class2.mof] ...</literal>"
 msgstr ""
+"<command>sfcbstage</command> <option>-r</option> <literal>[provider.reg] "
+"[class1.mof] [class2.mof] ...</literal>"
 
 #. (itstool) path: sect3/para
 #: xml/adm_wbem.xml:1690
@@ -1925,6 +2462,8 @@ msgid ""
 "After running this command you still need to rebuild the class repository "
 "and restart SFCB service."
 msgstr ""
+"Depois de executar este comando, você ainda precisará reconstruir o "
+"repositório de classes e reiniciar o serviço SFCB."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1699
@@ -1932,6 +2471,8 @@ msgid ""
 "The SFCB package includes two testing scripts: <command>wbemcat</command> "
 "and <command>xmltest</command>."
 msgstr ""
+"O pacote SFCB inclui dois scripts de teste: <command>wbemcat</command> e "
+"<command>xmltest</command>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1703
@@ -1941,6 +2482,10 @@ msgid ""
 "displays the returned results. The following file contains the CIM-XML "
 "representation of a standard EnumerateClasses request:"
 msgstr ""
+"<command> wbemcat </command> envia dados CIM-XML brutos via protocolo HTTP "
+"para o host SFCB especificado (localhost por padrão) atendendo na porta "
+"5988. Em seguida, exibe os resultados retornados. O arquivo a seguir contém "
+"a representação CIM-XML de uma solicitação EnumerateClasses padrão:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_wbem.xml:1709
@@ -1975,6 +2520,34 @@ msgid ""
 "  &lt;/MESSAGE&gt;\n"
 "&lt;/CIM&gt;"
 msgstr ""
+"&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n"
+"&lt;CIM CIMVERSION=\"2.0\" DTDVERSION=\"2.0\"&gt;\n"
+"  &lt;MESSAGE ID=\"4711\" PROTOCOLVERSION=\"1.0\"&gt;\n"
+"    &lt;SIMPLEREQ&gt;\n"
+"      &lt;IMETHODCALL NAME=\"EnumerateClasses\"&gt;\n"
+"        &lt;LOCALNAMESPACEPATH&gt;\n"
+"          &lt;NAMESPACE NAME=\"root\"/&gt;\n"
+"          &lt;NAMESPACE NAME=\"cimv2\"/&gt;\n"
+"        &lt;/LOCALNAMESPACEPATH&gt;\n"
+"        &lt;IPARAMVALUE NAME=\"ClassName\"&gt;\n"
+"          &lt;CLASSNAME NAME=\"\"/&gt;\n"
+"        &lt;/IPARAMVALUE&gt;\n"
+"        &lt;IPARAMVALUE NAME=\"DeepInheritance\"&gt;\n"
+"          &lt;VALUE&gt;TRUE&lt;/VALUE&gt;\n"
+"        &lt;/IPARAMVALUE&gt;\n"
+"        &lt;IPARAMVALUE NAME=\"LocalOnly\"&gt;\n"
+"          &lt;VALUE&gt;FALSE&lt;/VALUE&gt;\n"
+"        &lt;/IPARAMVALUE&gt;\n"
+"        &lt;IPARAMVALUE NAME=\"IncludeQualifiers\"&gt;\n"
+"          &lt;VALUE&gt;FALSE&lt;/VALUE&gt;\n"
+"        &lt;/IPARAMVALUE&gt;\n"
+"        &lt;IPARAMVALUE NAME=\"IncludeClassOrigin\"&gt;\n"
+"          &lt;VALUE&gt;TRUE&lt;/VALUE&gt;\n"
+"        &lt;/IPARAMVALUE&gt;\n"
+"      &lt;/IMETHODCALL&gt;\n"
+"    &lt;/SIMPLEREQ&gt;\n"
+"  &lt;/MESSAGE&gt;\n"
+"&lt;/CIM&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1737
@@ -1983,6 +2556,9 @@ msgid ""
 "for which there is a registered provider. Suppose you save the file as "
 "<filename>cim_xml_test.xml</filename>."
 msgstr ""
+"O envio dessa solicitação ao SFCB CIMOM retorna uma lista de todas as "
+"classes suportadas para as quais existe um provedor registrado. Suponha que "
+"você salve o arquivo como <filename>cim_xml_test.xml</filename>."
 
 #. (itstool) path: sect2/screen
 #: xml/adm_wbem.xml:1742
@@ -2013,6 +2589,33 @@ msgid ""
 "&lt;/MESSAGE&gt;\n"
 "&lt;/CIM&gt;"
 msgstr ""
+"<prompt>tux &gt; </prompt>wbemcat cim_xml_test.xml | less\n"
+"HTTP/1.1 200 OK\n"
+"Content-Type: application/xml; charset=\"utf-8\"\n"
+"Content-Length: 337565\n"
+"Cache-Control: no-cache\n"
+"CIMOperation: MethodResponse\n"
+"\n"
+"&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n"
+"&lt;CIM CIMVERSION=\"2.0\" DTDVERSION=\"2.0\"&gt;\n"
+"&lt;MESSAGE ID=\"4711\" PROTOCOLVERSION=\"1.0\"&gt;\n"
+"&lt;SIMPLERSP&gt;\n"
+"&lt;IMETHODRESPONSE NAME=\"EnumerateClasses\"&gt;\n"
+"[..]\n"
+"&lt;CLASS NAME=\"Linux_DHCPParamsForEntity\" SUPERCLASS=\"CIM_Component\"&gt;"
+"\n"
+"&lt;PROPERTY.REFERENCE NAME=\"GroupComponent\" REFERENCECLASS=\""
+"Linux_DHCPEntity\"&gt;\n"
+"&lt;/PROPERTY.REFERENCE&gt;\n"
+"&lt;PROPERTY.REFERENCE NAME=\"PartComponent\" REFERENCECLASS=\""
+"Linux_DHCPParams\"&gt;\n"
+"&lt;/PROPERTY.REFERENCE&gt;\n"
+"&lt;/CLASS&gt;\n"
+"&lt;/IRETURNVALUE&gt;\n"
+"&lt;/IMETHODRESPONSE&gt;\n"
+"&lt;/SIMPLERSP&gt;\n"
+"&lt;/MESSAGE&gt;\n"
+"&lt;/CIM&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1766
@@ -2020,6 +2623,8 @@ msgid ""
 "The classes listed will vary depending on what providers are installed on "
 "your system."
 msgstr ""
+"As classes listadas variam de acordo com quais provedores estão instalados "
+"no seu sistema."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1770
@@ -2030,6 +2635,11 @@ msgid ""
 "yet exist a corresponding <quote>OK</quote> file, it will be created for "
 "later use:"
 msgstr ""
+"O segundo script <command>xmltest</command> também é usado para enviar um "
+"arquivo de teste CIM-XML bruto ao SFCB CIMOM. Em seguida, ele compara os "
+"resultados retornados com um arquivo de resultado <quote>OK</quote> salvo "
+"anteriormente. Se ainda não existir um arquivo <quote>OK</quote>, ele será "
+"criado para uso posterior:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_wbem.xml:1777
@@ -2041,11 +2651,16 @@ msgid ""
 "<prompt role=\"root\">root # </prompt>xmltest cim_xml_test.xml\n"
 "Running test cim_xml_test.xml ... Passed"
 msgstr ""
+"<prompt>tux &gt; </prompt>xmltest cim_xml_test.xml\n"
+"Executando teste cim_xml_test.xml ... OK\n"
+"        Salvando resposta como cim_xml_test.OK\n"
+"<prompt role=\"root\">root # </prompt>xmltest cim_xml_test.xml\n"
+"Executando teste cim_xml_test.xml ... Passou"
 
 #. (itstool) path: sect2/title
 #: xml/adm_wbem.xml:1785
 msgid "Command Line CIM Client: wbemcli"
-msgstr ""
+msgstr "Cliente CIM da linha de comandos: wbemcli"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1786
@@ -2056,6 +2671,12 @@ msgid ""
 "server and display returned results. It is independent of CIMOM library and "
 "can be used with all WBEM compliant implementations."
 msgstr ""
+"Além do <command>wbemcat</command> e <command>xmltest</command>, o projeto "
+"SBLIM inclui um cliente CIM da linha de comandos mais avançado "
+"<command>wbemcli</command>. O cliente é usado para enviar solicitações CIM "
+"ao servidor SFCB e exibir os resultados retornados. É independente da "
+"biblioteca CIMOM e pode ser usado com todas as implementações compatíveis "
+"com WBEM."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1793
@@ -2064,6 +2685,9 @@ msgid ""
 "providers registered to your SFCB, send the <quote>EnumerateClasses</quote> "
 "(ec) request to SFCB:"
 msgstr ""
+"Por exemplo, se você precisar listar todas as classes implementadas pelos "
+"provedores SBLIM registrados no seu SFCB, envie a solicitação "
+"<quote>EnumerateClasses</quote> (ec) ao SFCB:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_wbem.xml:1798
@@ -2122,6 +2746,65 @@ msgid ""
 "&lt;/PROPERTY&gt;\n"
 "[..]"
 msgstr ""
+"<prompt>tux &gt; </prompt>wbemcli -dx ec http://localhost/root/cimv2\n"
+"To server: &lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n"
+"&lt;CIM CIMVERSION=\"2.0\" DTDVERSION=\"2.0\"&gt;\n"
+"&lt;MESSAGE ID=\"4711\" PROTOCOLVERSION=\"1.0\"&gt;&lt;SIMPLEREQ&gt;&lt;"
+"IMETHODCALL \\\n"
+"    NAME=\"EnumerateClasses\"&gt;&lt;LOCALNAMESPACEPATH&gt;&lt;NAMESPACE "
+"NAME=\"root\"&gt; \\\n"
+"    &lt;/NAMESPACE&gt;&lt;NAMESPACE NAME=\"cimv2\"&gt;&lt;/NAMESPACE&gt; \\\n"
+"    &lt;/LOCALNAMESPACEPATH&gt;\n"
+"&lt;IPARAMVALUE NAME=\"DeepInheritance\"&gt;&lt;VALUE&gt;TRUE&lt;/VALUE&gt; "
+"\\\n"
+"    &lt;/IPARAMVALUE&gt;\n"
+"&lt;IPARAMVALUE NAME=\"LocalOnly\""
+"&gt;&lt;VALUE&gt;FALSE&lt;/VALUE&gt;&lt;/IPARAMVALUE&gt;\n"
+"&lt;IPARAMVALUE NAME=\"IncludeQualifiers\""
+"&gt;&lt;VALUE&gt;FALSE&lt;/VALUE&gt; \\\n"
+"    &lt;/IPARAMVALUE&gt;\n"
+"&lt;IPARAMVALUE NAME=\"IncludeClassOrigin\""
+"&gt;&lt;VALUE&gt;TRUE&lt;/VALUE&gt; \\\n"
+"    &lt;/IPARAMVALUE&gt;\n"
+"&lt;/IMETHODCALL&gt;&lt;/SIMPLEREQ&gt;\n"
+"&lt;/MESSAGE&gt;&lt;/CIM&gt;\n"
+"From server: Content-Type: application/xml; charset=\"utf-8\"\n"
+"From server: Content-Length: 337565\n"
+"From server: Cache-Control: no-cache\n"
+"From server: CIMOperation: MethodResponse\n"
+"From server: &lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n"
+"&lt;CIM CIMVERSION=\"2.0\" DTDVERSION=\"2.0\"&gt;\n"
+"&lt;MESSAGE ID=\"4711\" PROTOCOLVERSION=\"1.0\"&gt;\n"
+"&lt;SIMPLERSP&gt;\n"
+"&lt;IMETHODRESPONSE NAME=\"EnumerateClasses\"&gt;\n"
+"&lt;IRETURNVALUE&gt;\n"
+"&lt;CLASS NAME=\"CIM_ResourcePool\" SUPERCLASS=\"CIM_LogicalElement\"&gt;\n"
+"&lt;PROPERTY NAME=\"Generation\" TYPE=\"uint64\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"ElementName\" TYPE=\"string\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"Description\" TYPE=\"string\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"Caption\" TYPE=\"string\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"InstallDate\" TYPE=\"datetime\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"[..]\n"
+"&lt;CLASS NAME=\"Linux_Ext4FileSystem\" SUPERCLASS=\""
+"CIM_UnixLocalFileSystem\"&gt;\n"
+"&lt;PROPERTY NAME=\"FSReservedCapacity\" TYPE=\"uint64\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"TotalInodes\" TYPE=\"uint64\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"FreeInodes\" TYPE=\"uint64\"&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"ResizeIncrement\" TYPE=\"uint64\"&gt;\n"
+"&lt;VALUE&gt;0&lt;/VALUE&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"&lt;PROPERTY NAME=\"IsFixedSize\" TYPE=\"uint16\"&gt;\n"
+"&lt;VALUE&gt;0&lt;/VALUE&gt;\n"
+"&lt;/PROPERTY&gt;\n"
+"[..]"
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1850
@@ -2132,6 +2815,11 @@ msgid ""
 "literal> followed by <literal>Linux_Ext4FileSystem</literal>. Similar "
 "entries will appear for all of the other registered classes."
 msgstr ""
+"A opção <option>-dx</option> mostra o XML real enviado ao SFCB por "
+"<command>wbemcli</command> e o XML real recebido. No exemplo acima, a "
+"primeira de muitas classes retornadas foi <literal>CIM_ResourcePool</literal>"
+" seguida por <literal>Linux_Ext4FileSystem</literal>. Entradas semelhantes "
+"aparecerão para todas as outras classes registradas."
 
 #. (itstool) path: sect2/para
 #: xml/adm_wbem.xml:1858
@@ -2139,6 +2827,8 @@ msgid ""
 "If you omit the <option>-dx</option> option, <command>wbemcli</command> will "
 "display only a compact representation of the returned data:"
 msgstr ""
+"Se você omitir a opção <option>-dx</option>, o <command>wbemcli</command> "
+"exibirá apenas uma representação compacta dos dados retornados:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_wbem.xml:1862
@@ -2165,43 +2855,65 @@ msgid ""
 "    TransitioningToState=,PercentageSpaceUse=\n"
 "    [..]"
 msgstr ""
+"<prompt>tux &gt; </prompt>wbemcli ec http://localhost/root/cimv2\n"
+"localhost:5988/root/cimv2:CIM_ResourcePool Generation=,ElementName=, \\\n"
+"    Description=,Caption=,InstallDate=,Name=,OperationalStatus=, \\\n"
+"    StatusDescriptions=,Status=,HealthState=,PrimaryStatus=, \\\n"
+"    DetailedStatus=,OperatingStatus=,CommunicationStatus=,InstanceID=, \\\n"
+"    PoolID=,Primordial=,Capacity=,Reserved=,ResourceType=, \\\n"
+"    OtherResourceType=,ResourceSubType=, \\AllocationUnits=\n"
+"localhost:5988/root/cimv2:Linux_Ext4FileSystem FSReservedCapacity=, \\\n"
+"    TotalInodes=,FreeInodes=,ResizeIncrement=,IsFixedSize=,NumberOfFiles=, \\"
+"\n"
+"    OtherPersistenceType=,PersistenceType=,FileSystemType=,ClusterSize=, \\\n"
+"    MaxFileNameLength=,CodeSet=,CasePreserved=,CaseSensitive=, \\\n"
+"    CompressionMethod=,EncryptionMethod=,ReadOnly=,AvailableSpace=, \\\n"
+"    FileSystemSize=,BlockSize=,Root=,Name=,CreationClassName=,CSName=, \\\n"
+"    CSCreationClassName=,Generation=,ElementName=,Description=,Caption=, \\\n"
+"    InstanceID=,InstallDate=,OperationalStatus=,StatusDescriptions=, \\\n"
+"    Status=,HealthState=,PrimaryStatus=,DetailedStatus=,OperatingStatus= \\\n"
+"    ,CommunicationStatus=,EnabledState=,OtherEnabledState=,RequestedState= \\"
+"\n"
+"    ,EnabledDefault=,TimeOfLastStateChange=,AvailableRequestedStates=, \\\n"
+"    TransitioningToState=,PercentageSpaceUse=\n"
+"    [..]"
 
 #. (itstool) path: sect1/title
 #: xml/adm_wbem.xml:1885
 msgid "For More Information"
-msgstr ""
+msgstr "Para maiores informações"
 
 #. (itstool) path: variablelist/title
 #: xml/adm_wbem.xml:1888
 msgid "For more details about WBEM and SFCB, see the following sources:"
-msgstr ""
+msgstr "Para mais detalhes sobre o WBEM e o SFCB, consulte as seguintes fontes:"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1893
 msgid "Distributed Management Task Force Web site"
-msgstr ""
+msgstr "Site da Força-Tarefa de Gerenciamento Distribuído"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1902
 msgid "Web-Based Enterprise Management (WBEM) Web site"
-msgstr ""
+msgstr "Web-Based Enterprise Management (WBEM) Web site"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1911
 msgid "Common Information Model (CIM) Web site"
-msgstr ""
+msgstr "Common Information Model (CIM) Web site"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1920
 msgid "Standards Based Linux Instrumentation (SBLIM) Web site"
-msgstr ""
+msgstr "Standards Based Linux Instrumentation (SBLIM) Web site"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1929
 msgid "Small Footprint CIM Broker (SFCB) Web site"
-msgstr ""
+msgstr "Small Footprint CIM Broker (SFCB) Web site"
 
 #. (itstool) path: listitem/para
 #: xml/adm_wbem.xml:1938
 msgid "SBLIM providers packages"
-msgstr ""
+msgstr "Pacotes de provedores SBLIM"

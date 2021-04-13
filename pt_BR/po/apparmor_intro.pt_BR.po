@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:23+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_intro-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_intro.xml:9
 msgid "Introducing <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Apresentando o <phrase>AppArmor</phrase>"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_intro.xml:16
@@ -29,6 +31,11 @@ msgid ""
 "want to possess. The program fails to keep that trust if there is a bug in "
 "the program that allows the attacker to acquire said privilege."
 msgstr ""
+"Muitas vulnerabilidades de segurança resultam de erros nos programas "
+"<emphasis>confiáveis</emphasis>. Um programa confiável é executado com "
+"privilégios que os invasores desejam possuir. O programa falha em manter "
+"essa confiança se houver um erro no programa que permita ao invasor adquirir "
+"o referido privilégio."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_intro.xml:23
@@ -43,16 +50,26 @@ msgid ""
 "behavior without relying on attack signatures, so it can prevent attacks "
 "even if previously unknown vulnerabilities are being exploited."
 msgstr ""
+"<phrase>AppArmor®</phrase> é uma solução de segurança de aplicativo "
+"projetada especificamente para aplicar confinamento de privilégios a "
+"programas suspeitos. <phrase>AppArmor</phrase> permite que o administrador "
+"especifique o domínio de atividades que o programa pode executar, "
+"desenvolvendo um <emphasis>perfil</emphasis> de segurança. Um perfil de "
+"segurança é uma lista de arquivos que o programa pode acessar e as operações "
+"que o programa pode executar. O <phrase>AppArmor</phrase> protege os "
+"aplicativos, reforçando o bom comportamento dos aplicativos sem depender de "
+"assinaturas de ataques, para impedir ataques, mesmo que vulnerabilidades "
+"anteriormente desconhecidas estejam sendo exploradas."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_intro.xml:35
 msgid "<phrase>AppArmor</phrase> Components"
-msgstr ""
+msgstr "Componentes do <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_intro.xml:36
 msgid "<phrase>AppArmor</phrase> consists of:"
-msgstr ""
+msgstr "O <phrase>AppArmor</phrase> consiste em:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:41
@@ -60,6 +77,8 @@ msgid ""
 "A library of <phrase>AppArmor</phrase> profiles for common Linux* "
 "applications, describing what files the program needs to access."
 msgstr ""
+"Uma biblioteca de perfis <phrase>AppArmor</phrase> para aplicativos comuns "
+"do Linux*, descrevendo quais arquivos o programa precisa acessar."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:47
@@ -68,6 +87,9 @@ msgid ""
 "building blocks) needed for common application activities, such as DNS "
 "lookup and user authentication."
 msgstr ""
+"Uma biblioteca de classes de fundação do perfil <phrase>AppArmor</phrase> ("
+"blocos de construção do perfil) necessárias para atividades comuns do "
+"aplicativo, como pesquisa de DNS e autenticação do usuário."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:54
@@ -76,6 +98,10 @@ msgid ""
 "profiles, so that you can change the existing profiles to suit your needs "
 "and create new profiles for your own local and custom applications."
 msgstr ""
+"Um conjunto de ferramentas para desenvolver e aprimorar perfis "
+"<phrase>AppArmor</phrase>, para que você possa alterar os perfis existentes "
+"para atender às suas necessidades e criar novos perfis para seus próprios "
+"aplicativos locais e personalizados."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:61
@@ -84,6 +110,9 @@ msgid ""
 "enabled to provide enhanced security in the form of unique subprocess "
 "confinement (including Apache)."
 msgstr ""
+"Vários aplicativos especialmente modificados que são "
+"<phrase>AppArmor</phrase> ativados para fornecer segurança aprimorada na "
+"forma de confinamento exclusivo de subprocessos (incluindo Apache)."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:68
@@ -94,11 +123,16 @@ msgid ""
 "\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
 "Enterprise Desktop</phrase></phrase> system."
 msgstr ""
+"Os códigos do kernel relacionados ao <phrase>AppArmor</phrase> e scripts de "
+"controle associados para impor políticas <phrase>AppArmor</phrase> no seu "
+"sistema <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® "
+"Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_intro.xml:76
 msgid "Background Information on <phrase>AppArmor</phrase> Profiling"
-msgstr ""
+msgstr "Informações básicas sobre a criação de perfil <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_intro.xml:78
@@ -106,6 +140,8 @@ msgid ""
 "For more information about the science and security of <phrase>AppArmor</"
 "phrase>, refer to the following papers:"
 msgstr ""
+"Para obter mais informações sobre a ciência e a segurança do "
+"<phrase>AppArmor</phrase>, consulte os seguintes documentos:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:85
@@ -114,6 +150,9 @@ msgid ""
 "Cowan, Steve Beattie, Greg Kroah-Hartman, Calton Pu, Perry Wagle, and Virgil "
 "Gligor"
 msgstr ""
+"<citetitle>SubDomain: Parsimonious Server Security</citetitle> por Crispin "
+"Cowan, Steve Beattie, Greg Kroah-Hartman, Calton Pu, Perry Wagle e Virgil "
+"Gligor"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:89
@@ -125,6 +164,12 @@ msgid ""
 "phrase> product. This paper should be used only for background, and not for "
 "technical documentation."
 msgstr ""
+"Descreve o design e a implementação inicial do <phrase>AppArmor</phrase>. "
+"Publicado nos anais da USENIX LISA Conference, dezembro de 2000, Nova "
+"Orleans, LA. Este documento está desatualizado, descrevendo a sintaxe e os "
+"recursos diferentes do produto atual <phrase>AppArmor</phrase>. Este "
+"documento deve ser usado apenas para background e não para documentação "
+"técnica."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:100
@@ -133,6 +178,9 @@ msgid ""
 "Attack</citetitle> by Crispin Cowan, Seth Arnold, Steve Beattie, Chris "
 "Wright, and John Viega"
 msgstr ""
+"<citetitle>Defcon captura a bandeira: defendendo códigos vulneráveis de "
+"ataques intensos</citetitle> por Crispin Cowan, Seth Arnold, Steve Beattie, "
+"Chris Wright e John Viega"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:103
@@ -142,11 +190,15 @@ msgid ""
 "the Proceedings of the DARPA Information Survivability Conference and Expo "
 "(DISCEX III), April 2003, Washington, DC."
 msgstr ""
+"Um bom guia para o uso estratégico e tático do <phrase>AppArmor</phrase> "
+"para resolver problemas graves de segurança em um período muito curto. "
+"Publicado nos Anais da DARPA Information Survivability Conference and Expo ("
+"DISCEX III), abril de 2003, Washington, DC."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_intro.xml:112
 msgid "<citetitle>AppArmor for Geeks</citetitle> by Seth Arnold"
-msgstr ""
+msgstr "<citetitle> AppArmor for Geeks </citetitle> por Seth Arnold"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_intro.xml:114
@@ -155,3 +207,6 @@ msgid ""
 "details of <phrase>AppArmor</phrase>. It is available at <link xlink:href="
 "\"http://en.opensuse.org/SDB:AppArmor_geeks\"/>."
 msgstr ""
+"Este documento tenta transmitir uma melhor compreensão dos detalhes técnicos "
+"do <phrase>AppArmor</phrase>. Está disponível em <link xlink:href=\""
+"http://en.opensuse.org/SDB:AppArmor_geeks\"/>."

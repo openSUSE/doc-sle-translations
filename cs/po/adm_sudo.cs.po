@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:30+0200\n"
-"PO-Revision-Date: 2018-09-30 01:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/adm_sudo-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/adm_sudo.xml:11
 msgid "sudo"
-msgstr ""
+msgstr "sudo"
 
 #. (itstool) path: docmanager/translation
 #: xml/adm_sudo.xml:16
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:19
@@ -37,6 +41,14 @@ msgid ""
 "Instead, it is recommended to work as a normal, unprivileged user and use "
 "the <command>sudo</command> command to run commands with elevated privileges."
 msgstr ""
+"Mnoho příkazů a systémových nástrojů musí být spuštěno jako <systemitem "
+"class=\"username\">root</systemitem> pro úpravu souborů a/nebo provádění "
+"úkolů, které smí provádět pouze superuživatel. Z bezpečnostních důvodů a aby "
+"se zabránilo náhodnému spouštění nebezpečných příkazů, je obecně vhodné "
+"nepřihlásit se přímo jako <systemitem class=\"username\">root</systemitem>. "
+"Místo toho se doporučuje pracovat jako normální, neprivilegovaný uživatel a "
+"pomocí příkazu <command>sudo</command> spouštět příkazy se zvýšenými "
+"oprávněními."
 
 #. (itstool) path: chapter/para
 #: xml/adm_sudo.xml:27
@@ -63,21 +75,42 @@ msgid ""
 "specified. This can be used to assign roles with specific abilities to "
 "certain users and groups."
 msgstr ""
+"Na <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> je příkaz "
+"<command>sudo</command> standardně konfigurován tak, aby účinkoval podobně "
+"jako su. Navíc <command>sudo</command> nabízí možnost, aby uživatelé mohli "
+"spouštět příkazy s oprávněními jakéhokoli jiného uživatele vysoce "
+"konfigurovatelným způsobem. To lze použít k přiřazení rolí se specifickými "
+"oprávněními určitým uživatelům a skupinám. Je například možné povolit členům "
+"skupiny<systemitem class=\"groupname\">users</systemitem> spustit příkaz s "
+"právy <systemitem class=\"username\">wilber</systemitem>. Přístup k příkazu "
+"lze dále omezit například zákazem stanovení jakékoli možnosti "
+"příkazu.Zatímco příkaz su vždy vyžaduje heslo uživatele <systemitem class=\""
+"username\">root</systemitem> k jeho ověření pomocí PAM, příkaz "
+"<command>sudo</command> lze konfigurovat ověření Vaším vlastním přihlášením. "
+"To zvyšuje bezpečnost, aniž musíte znát heslo superuživatele <systemitem "
+"class=\"username\">root</systemitem>. Můžete například povolit členům "
+"skupiny <systemitem class=\"groupname\">users</systemitem> vydat příkaz "
+"<command>frobnicate</command> jako uživatel <systemitem class=\"username\""
+">wilber</systemitem>, s tím omezením, že nejsou zadány žádné argumenty. To "
+"lze použít k přiřazení rolí se specifickými schopnostmi určitým uživatelům a "
+"skupinám."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:44
 msgid "Basic <command>sudo</command> Usage"
-msgstr ""
+msgstr "Základní použití příkazu <command>sudo</command>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:46
 msgid "<command>sudo</command> is simple to use, yet very powerful."
-msgstr ""
+msgstr "<command>sudo</command> je snadný k použití, ale velmi výkonný."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:51
 msgid "Running a Single Command"
-msgstr ""
+msgstr "Spuštění jednoho příkazu"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:52
@@ -87,6 +120,11 @@ msgid ""
 "It will prompt for the root password and, if authenticated successfully, run "
 "the command as <systemitem class=\"username\">root</systemitem>:"
 msgstr ""
+"Když jste přihlášen jako běžný uživatel, můžete vydat jakýkoli příkaz jako <"
+"systemitem class=\"username\">root</systemitem>, když tomu příkazu "
+"předřadíte <command>sudo</command>. Budete požádán o zadání hesla uživatele "
+"root a po úspěšném ověření provedete ten příkaz jako <systemitem class=\""
+"username\">root</systemitem>:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:57
@@ -104,6 +142,18 @@ msgid ""
 "<co xml:id=\"co.sudo.usage.nopw\"/>\n"
 "root\n"
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>id -un</command><co xml:id=\""
+"co.sudo.usage.id\"/>\n"
+"tux\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>id -un</command>\n"
+"heslo uživatele root:<co xml:id=\"co.sudo.usage.pw\"/>\n"
+"root\n"
+"<prompt>tux &gt; </prompt><command>id -un</command>\n"
+"tux<co xml:id=\"co.sudo.usage.after\"/>\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> <command>id -un</command>\n"
+"<co xml:id=\"co.sudo.usage.nopw\"/>\n"
+"root\n"
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:71
@@ -111,12 +161,15 @@ msgid ""
 "The <command>id -un</command> command prints the login name of the current "
 "user."
 msgstr ""
+"Příkaz <command>id -un</command> vypíše přihlašovací jméno aktuálního "
+"uživatele."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:77
 msgid ""
 "The password is not shown during input, neither as clear text nor as bullets."
 msgstr ""
+"Heslo není zobrazeno při zadávání, ani jako prostý text, ani jako odrážky."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:83
@@ -125,6 +178,10 @@ msgid ""
 "privileges. If you run the same command without the <command>sudo</command> "
 "prefix, it is run with the privileges of the current user again."
 msgstr ""
+"Pouze příkazy spuštěné příkazem <command>sudo</command> jsou spouštěny se "
+"zvýšenými oprávněními. Pokud spustíte stejný příkaz bez předpony "
+"<command>sudo</command>, bude znovu spuštěn s oprávněními aktuálního "
+"uživatele."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:90
@@ -132,16 +189,19 @@ msgid ""
 "For a limited amount of time, you do not need to enter the <systemitem class="
 "\"username\">root</systemitem> password again."
 msgstr ""
+"Po určitou omezenou dobu nemusíte znovu zadávat heslo superuživatele <"
+"systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: tip/title
 #: xml/adm_sudo.xml:97
 msgid "I/O Redirection"
-msgstr ""
+msgstr "Přesměrování vstupu a výstupu"
 
 #. (itstool) path: tip/para
 #: xml/adm_sudo.xml:98
 msgid "I/O redirection does not work as you would probably expect:"
 msgstr ""
+"Přesměrování vstupu/výstupu (I/O) nefunguje tak, jak byste asi očekávali:"
 
 #. (itstool) path: tip/screen
 #: xml/adm_sudo.xml:101
@@ -153,6 +213,12 @@ msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> cat &lt; /proc/1/maps\n"
 "bash: /proc/1/maps: Permission denied\n"
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> echo s &gt; /proc/sysrq-"
+"trigger\n"
+"bash: /proc/sysrq-trigger: Oprávnění odepřeno\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> cat &lt; /proc/1/maps\n"
+"bash: /proc/1/maps: Oprávnění odepřeno\n"
 
 #. (itstool) path: tip/para
 #: xml/adm_sudo.xml:107
@@ -162,6 +228,10 @@ msgid ""
 "with user privileges. You can either start a shell like in <xref linkend="
 "\"sec.sudo.shell\"/> or use the <command>dd</command> utility instead:"
 msgstr ""
+"Se zvýšeným oprávněním běží pouze "
+"<command>echo</command>/<command>cat</command>, zatímco přesměrování provede "
+"uživatelský shell s právy uživatele. Můžete buď spustit shell jako v <xref "
+"linkend=\"sec.sudo.shell\"/> nebo použít program <command>dd</command>:"
 
 #. (itstool) path: tip/screen
 #: xml/adm_sudo.xml:114
@@ -171,11 +241,14 @@ msgid ""
 "echo s | sudo dd of=/proc/sysrq-trigger\n"
 "sudo dd if=/proc/1/maps | cat \n"
 msgstr ""
+"\n"
+"echo s | sudo dd of=/proc/sysrq-trigger\n"
+"sudo dd if=/proc/1/maps | cat \n"
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:122
 msgid "Starting a Shell"
-msgstr ""
+msgstr "Spuštění shellu"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:123
@@ -185,11 +258,15 @@ msgid ""
 "command>, it is recommended to rather use one of the built-in mechanisms to "
 "start a shell:"
 msgstr ""
+"Může být obtížné přidat před každým příkazem <command>sudo</command>. "
+"Přestože byste mohli spustit shell jako příkaz <command>sudo bash</command>, "
+"pro spuštění shellu doporučujeme raději použít jeden z vestavěných "
+"mechanismů:"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:130
 msgid "<literal>sudo -s (&lt;command&gt;)</literal>"
-msgstr ""
+msgstr "<literal>sudo -s (&lt;command&gt;)</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:133
@@ -199,6 +276,9 @@ msgid ""
 "shell (with the <option>-c</option> option), else the shell is run in "
 "interactive mode."
 msgstr ""
+"Spustí shell určený proměnnou prostředí <envar>SHELL</envar> nebo výchozím "
+"prostředím cílového uživatele. Je-li zadán příkaz, je předán do shellu (s "
+"volbou <option>-c</option>), jinak je shell spuštěn v interaktivním režimu."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:139
@@ -210,11 +290,16 @@ msgid ""
 "<prompt>root:/home/tux # </prompt>exit\n"
 "<prompt>tux:~ &gt; </prompt>\n"
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>sudo -i\n"
+"heslo uživatele root:\n"
+"<prompt>root:/home/tux # </prompt>exit\n"
+"<prompt>tux:~ &gt; </prompt>\n"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:148
 msgid "<literal>sudo -i (&lt;command&gt;)</literal>"
-msgstr ""
+msgstr "<literal>sudo -i (&lt;command&gt;)</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:151
@@ -224,6 +309,10 @@ msgid ""
 "processed and the current working directory is set to the target user's home "
 "directory."
 msgstr ""
+"Jako <option>-s</option>, ale spustí shell jako přihlašovací shell. To "
+"znamená, že jsou zpracovány startovací soubory shellu "
+"(<filename>.profile</filename> atd.) a aktuální pracovní adresář je nastaven "
+"do domovského adresáře cílového uživatele."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:157
@@ -236,17 +325,23 @@ msgid ""
 "<prompt>tux:~ &gt; </prompt>\n"
 "            "
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>sudo -i\n"
+"heslo uživatele root:\n"
+"<prompt>root:~ # </prompt>exit\n"
+"<prompt>tux:~ &gt; </prompt>\n"
+"            "
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:169
 msgid "Environment Variables"
-msgstr ""
+msgstr "Proměnné prostředí"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:170
 msgid ""
 "By default, <command>sudo</command> does not propagate environment variables:"
-msgstr ""
+msgstr "Standardně <command>sudo</command> nepřevezme proměnné prostředí:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:173
@@ -261,6 +356,14 @@ msgid ""
 "<prompt>tux &gt; </prompt>\n"
 "      "
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt>ENVVAR=test env | grep ENVVAR\n"
+"ENVVAR=test\n"
+"<prompt>tux &gt; </prompt>ENVVAR=test sudo env | grep ENVVAR\n"
+"heslo uživatele root:\n"
+"<co xml:id=\"co.sudo.env.novar\"/>\n"
+"<prompt>tux &gt; </prompt>\n"
+"      "
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:183
@@ -268,6 +371,8 @@ msgid ""
 "The empty output shows that the environment variable <envar>ENVVAR</envar> "
 "did not exist in the context of the command run with <command>sudo</command>."
 msgstr ""
+"Prázdný výstup ukazuje, že proměnná prostředí <envar>ENVVAR</envar> v "
+"kontextu příkazu spuštěného pomocí <command>sudo</command> neexistovala."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:190
@@ -275,22 +380,25 @@ msgid ""
 "This behavior can be changed by the <literal>env_reset</literal> option, see "
 "<xref linkend=\"tab.adm.sudo.options\"/>."
 msgstr ""
+"Toto chování lze změnit volbou <literal>env_reset</literal>, viz <xref "
+"linkend=\"tab.adm.sudo.options\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:197
 msgid "Configuring <command>sudo</command>"
-msgstr ""
+msgstr "Konfigurace <command>sudo</command>"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:199
 msgid ""
 "<command>sudo</command> is a very flexible tool with extensive configuration."
 msgstr ""
+"<command>sudo</command> je velmi flexibilní nástroj s rozsáhlou konfigurací."
 
 #. (itstool) path: note/title
 #: xml/adm_sudo.xml:204
 msgid "Locked yourself out of sudo"
-msgstr ""
+msgstr "Zamkli jste se mimo sudo"
 
 #. (itstool) path: note/para
 #: xml/adm_sudo.xml:205
@@ -300,11 +408,15 @@ msgid ""
 "systemitem> password to get a root shell. To fix the error, run "
 "<command>visudo</command>."
 msgstr ""
+"Pokud jste se omylem zamkli mimo <command>sudo</command>, použijte <command>"
+"su -</command> a heslo uživatele <systemitem class=\"username\""
+">root</systemitem>, abyste se dostali do shellu uživatele root. Chybu "
+"opravte spuštěním <command>visudo</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:213
 msgid "Editing the Configuration Files"
-msgstr ""
+msgstr "Úpravy konfiguračních souborů"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:217
@@ -316,6 +428,11 @@ msgid ""
 "to the opened file and check for syntax errors before saving the "
 "modifications."
 msgstr ""
+"Hlavní konfigurační soubor zásad pro <command>sudo</command> je <filename>/"
+"etc/sudoers</filename>. Vzhledem k tomu, že je možné se v systému kvůli "
+"chybám v tomto souboru zamknout, důrazně doporučujeme pro úpravy použít "
+"<command>visudo</command>. Zabráníte současným změnám v otevřeném souboru a "
+"před uložením úprav příkaz zkontroluje, zda nedošlo k syntaktickým chybám."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:225
@@ -323,12 +440,14 @@ msgid ""
 "Despite its name, you can also use editors other than vi by setting the "
 "<envar>EDITOR</envar> environment variable, for example:"
 msgstr ""
+"Můžete použít i jiné editory než vi nastavením proměnné prostředí "
+"<envar>EDITOR</envar>, například:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:229
 #, no-wrap
 msgid "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo"
-msgstr ""
+msgstr "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:230
@@ -339,29 +458,36 @@ msgid ""
 "sudoers.d/</filename> directory. Any file in there is automatically "
 "included. To create or edit a file in that subdirectory, run:"
 msgstr ""
+"Samotný soubor <filename>/etc/sudoers</filename> je však dodáván systémovými "
+"balíčky a změny se mohou při aktualizacích poškodit. Doporučujeme proto do "
+"souborů v adresáři <filename>/etc/sudoers.d/</filename> vložit vlastní "
+"konfiguraci. Každý tam existující soubor je automaticky vložen. Chcete-li "
+"vytvořit nebo upravit soubor v tomto podadresáři, spusťte:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:237
 #, no-wrap
 msgid "sudo visudo -f /etc/sudoers.d/<replaceable>NAME</replaceable>"
-msgstr ""
+msgstr "sudo visudo -f /etc/sudoers.d/<replaceable>NÁZEV</replaceable>"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:238
 msgid ""
 "Alternatively with a different editor (for example <command>nano</command>):"
-msgstr ""
+msgstr "Alternativně s jiným editorem (například <command>nano</command>):"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:242
 #, no-wrap
 msgid "sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo -f /etc/sudoers.d/<replaceable>NAME</replaceable>"
 msgstr ""
+"sudo EDITOR=<replaceable>/usr/bin/nano</replaceable> visudo -f /etc/sudoers."
+"d/<replaceable>NÁZEV</replaceable>"
 
 #. (itstool) path: note/title
 #: xml/adm_sudo.xml:244
 msgid "Ignored Files in <filename>/etc/sudoers.d</filename>"
-msgstr ""
+msgstr "Ignorované soubory v <filename>/etc/sudoers.d</filename>"
 
 #. (itstool) path: note/para
 #: xml/adm_sudo.xml:245
@@ -370,6 +496,10 @@ msgid ""
 "filename>, used for <filename>/etc/sudoers.d</filename>, ignores files that "
 "end in <literal>~</literal> (tilde) or contain a <literal>.</literal> (dot)."
 msgstr ""
+"Příkaz <literal>#includedir</literal> v <filename>/etc/sudoers</filename>, "
+"použitý pro <filename>/etc/sudoers.d</filename>, ignoruje soubory názvů "
+"končících na <literal>~</literal> (tilda) nebo obsahující "
+"<literal>.</literal> (tečku)."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:252
@@ -377,11 +507,13 @@ msgid ""
 "For more information on the <command>visudo</command> command, run "
 "<command>man 8 visudo</command>."
 msgstr ""
+"Další informace o příkazu <command>visudo</command> získáte spuštěním "
+"<command>man 8 visudo</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:259
 msgid "Basic sudoers Configuration Syntax"
-msgstr ""
+msgstr "Základní syntaxe konfigurace sudoers"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:260
@@ -391,6 +523,10 @@ msgid ""
 "ON or OFF. The most important syntax constructs for sudoers configuration "
 "files are:"
 msgstr ""
+"V konfiguračních souborech sudoers existují dva typy voleb: řetězce a "
+"příznaky. Zatímco řetězce mohou obsahovat jakoukoli hodnotu, příznaky lze "
+"jen zapnout nebo vypnout. Nejdůležitější konstrukty syntaxe pro konfigurační "
+"soubory sudoers jsou:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:266
@@ -402,6 +538,14 @@ msgid ""
 "Defaults env_keep += \"DISPLAY HOME\" # Add DISPLAY and HOME to env_keep\n"
 "tux ALL = NOPASSWD: /usr/bin/frobnicate, PASSWD: /usr/bin/journalctl <co xml:id=\"co.sudo.syntax.rule\"/>\n"
 msgstr ""
+"\n"
+"# Vše, co je na řádku za \"#\", se ignoruje <co xml:id=\"co.sudo.syntax."
+"comment\"/>\n"
+"Defaults !insults # Vypnout příznak insults <co xml:id=\"co.sudo.syntax."
+"flag\"/>\n"
+"Defaults env_keep += \"DISPLAY HOME\" # Přidat DISPLAY a HOME k env_keep\n"
+"tux ALL = NOPASSWD: /usr/bin/frobnicate, PASSWD: /usr/bin/journalctl <co "
+"xml:id=\"co.sudo.syntax.rule\"/>\n"
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:274
@@ -410,41 +554,46 @@ msgid ""
 "<literal>#includedir</literal> are normal commands. Followed by digits, it "
 "specifies a UID."
 msgstr ""
+"Jsou dvě výjimky: <literal>#include</literal> a "
+"<literal>#includedir</literal> jsou normální příkazy. Následují-li číslice, "
+"je to specifikace UID."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:281
 msgid "Remove the <literal>!</literal> to set the specified flag to ON."
 msgstr ""
+"K nastavení udaného příznaku na \"zapnuto\" (ON) odstraňte "
+"<literal>!</literal>."
 
 #. (itstool) path: callout/para
 #: xml/adm_sudo.xml:286
 msgid "See <xref linkend=\"sec.sudo.conf.rule\"/>."
-msgstr ""
+msgstr "Viz <xref linkend=\"sec.sudo.conf.rule\"/>."
 
 #. (itstool) path: table/title
 #: xml/adm_sudo.xml:292
 msgid "Useful Flags and Options"
-msgstr ""
+msgstr "Užitečné příznaky a volby"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:297
 msgid "Option name"
-msgstr ""
+msgstr "Název volby"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:302
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:307
 msgid "Example"
-msgstr ""
+msgstr "Příklad"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:315
 msgid "<literal>targetpw</literal>"
-msgstr ""
+msgstr "<literal>targetpw</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:318
@@ -453,17 +602,20 @@ msgid ""
 "password of the target user (ON) (for example <systemitem class=\"username"
 "\">root</systemitem>) or the invoking user (OFF)."
 msgstr ""
+"Tento příznak určuje, zda je vyvolávající uživatel povinen zadat heslo "
+"cílového uživatele (ON) (například <systemitem class=\"username\""
+">root</systemitem>) nebo vyvolávajícího uživatele (OFF)."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:325
 #, no-wrap
 msgid "Defaults targetpw # Turn targetpw flag ON"
-msgstr ""
+msgstr "Defaults targetpw # Zapnout příznak targetpw ON"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:329
 msgid "<literal>rootpw</literal>"
-msgstr ""
+msgstr "<literal>rootpw</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:332
@@ -472,17 +624,20 @@ msgid ""
 "\"username\">root</systemitem> password instead of the target user's or the "
 "invoker's. The default is OFF."
 msgstr ""
+"Pokud je nastaveno, <command>sudo</command> vyzve k zadání hesla uživatele <"
+"systemitem class=\"username\">root</systemitem> místo cílového nebo "
+"volajícího uživatele. Výchozí hodnota je VYPNUTO."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:338
 #, no-wrap
 msgid "Defaults !rootpw # Turn rootpw flag OFF"
-msgstr ""
+msgstr "Defaults !rootpw # Vypnout příznak rootpw (OFF)"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:342
 msgid "<literal>env_reset</literal>"
-msgstr ""
+msgstr "<literal>env_reset</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:345
@@ -494,17 +649,24 @@ msgid ""
 "variables listed in <literal>env_keep</literal> get imported from the "
 "calling environment. The default is ON."
 msgstr ""
+"Je-li zapnut (ON), vytvoří <command>sudo</command> minimální prostředí a "
+"nastaví pouze proměnné <envar>TERM</envar>, <envar>PATH</envar>, "
+"<envar>HOME</envar>, <envar>MAIL</envar>, <envar>SHELL</envar>, "
+"<envar>LOGNAME</envar>, <envar>USER</envar>, <envar>USERNAME</envar> a "
+"<envar>SUDO_*</envar>. Navíc importuje z volajícího prostředí proměnné, "
+"jejichž seznam je v <literal>env_keep</literal>. Výchozí stav příznaku: "
+"zapnut (ON)."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:356
 #, no-wrap
 msgid "Defaults env_reset # Turn env_reset flag ON"
-msgstr ""
+msgstr "Defaults env_reset # Zapne příznak env_reset"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:360
 msgid "<literal>env_keep</literal>"
-msgstr ""
+msgstr "<literal>env_keep</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:363
@@ -512,6 +674,8 @@ msgid ""
 "List of environment variables to keep when the <literal>env_reset</literal> "
 "flag is ON."
 msgstr ""
+"Seznam proměnných prostředí k přenosu z volajícího prostředí, když je "
+"příznak <literal>env_reset</literal> zapnut (ON)."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:369
@@ -523,11 +687,16 @@ msgid ""
 "Defaults env_keep += \"JRE_HOME\" # Add JRE_HOME\n"
 "Defaults env_keep -= \"JRE_HOME\" # Remove JRE_HOME\n"
 msgstr ""
+"\n"
+"# Nastaví env_keep, aby obsahovala EDITOR a PROMPT\n"
+"Defaults env_keep = \"EDITOR PROMPT\"\n"
+"Defaults env_keep += \"JRE_HOME\" # Přidá JRE_HOME\n"
+"Defaults env_keep -= \"JRE_HOME\" # Odstraní JRE_HOME\n"
 
 #. (itstool) path: row/entry
 #: xml/adm_sudo.xml:378
 msgid "<literal>env_delete</literal>"
-msgstr ""
+msgstr "<literal>env_delete</literal>"
 
 #. (itstool) path: entry/para
 #: xml/adm_sudo.xml:381
@@ -535,6 +704,8 @@ msgid ""
 "List of environment variables to remove when the <literal>env_reset</"
 "literal> flag is OFF."
 msgstr ""
+"Seznam proměnných prostředí, které nepřenést z volajícího prostředí, když je "
+"příznak <literal>env_reset</literal> vypnut (OFF)."
 
 #. (itstool) path: entry/screen
 #: xml/adm_sudo.xml:387
@@ -546,6 +717,11 @@ msgid ""
 "Defaults env_delete += \"JRE_HOME\" # Add JRE_HOME\n"
 "Defaults env_delete -= \"JRE_HOME\" # Remove JRE_HOME\n"
 msgstr ""
+"\n"
+"# Nastaví env_delete, aby obsahovala EDITOR a PROMPT\n"
+"Defaults env_delete = \"EDITOR PROMPT\"\n"
+"Defaults env_delete += \"JRE_HOME\" # Přidá JRE_HOME\n"
+"Defaults env_delete -= \"JRE_HOME\" # Odstraní JRE_HOME\n"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:398
@@ -554,6 +730,9 @@ msgid ""
 "a collection of users, hosts, and commands. Furthermore, it is possible to "
 "apply an option only to a specific set of users."
 msgstr ""
+"Direktivu <literal> Výchozí </literal> lze také použít k vytvoření aliasu "
+"pro kolekci uživatelů, hostitelů a příkazů. Lze také volbu použít pouze na "
+"určenou skupinu uživatelů."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:403
@@ -561,11 +740,13 @@ msgid ""
 "For detailed information about the <filename>/etc/sudoers</filename> "
 "configuration file, consult <command>man 5 sudoers</command>."
 msgstr ""
+"Podrobné údaje o konfiguračním souboru <filename>/etc/sudoers</filename> "
+"zjistíte v <command>man 5 sudoers</command>."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:410
 msgid "Rules in sudoers"
-msgstr ""
+msgstr "Pravidla platná v sudoers"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:411
@@ -574,6 +755,9 @@ msgid ""
 "only cover the basics. Each rule follows the basic scheme (<literal>[]</"
 "literal> marks optional parts):"
 msgstr ""
+"Pravidla v konfiguraci sudoers mohou být velmi složitá, proto se tato část "
+"bude zabývat pouze základy. Každé pravidlo se řídí základním schématem "
+"(<literal> [] </literal> označuje volitelné části):"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:416
@@ -583,16 +767,20 @@ msgid ""
 "#Who      Where         As whom      Tag                What\n"
 "User_List Host_List = [(User_List)] [NOPASSWD:|PASSWD:] Cmnd_List\n"
 msgstr ""
+"\n"
+"#Kdo       Kde            Jako kdo       Příznak                          "
+"Co\n"
+"User_List Host_List = [(User_List)] [NOPASSWD:|PASSWD:] Cmnd_List\n"
 
 #. (itstool) path: variablelist/title
 #: xml/adm_sudo.xml:421
 msgid "Syntax for sudoers Rules"
-msgstr ""
+msgstr "Syntaxe pravidel pro sudoers"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:423
 msgid "<literal>User_List</literal>"
-msgstr ""
+msgstr "<literal>User_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:426
@@ -602,11 +790,15 @@ msgid ""
 "the format <literal>#UID</literal>. Negation can be performed with a "
 "<literal>!</literal> prefix."
 msgstr ""
+"Jeden nebo více identifikátorů (oddělených <literal>,</literal>): Buď jméno "
+"uživatele, skupina ve formátu <literal>%SKUPINA</literal> nebo ID uživatele "
+"ve formátu <literal>#UID</literal>. Negaci lze provést předponou "
+"<literal>!</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:435
 msgid "<literal>Host_List</literal>"
-msgstr ""
+msgstr "<literal>Host_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:438
@@ -616,11 +808,15 @@ msgid ""
 "<literal>!</literal> prefix. <literal>ALL</literal> is the usual choice for "
 "<literal>Host_List</literal>."
 msgstr ""
+"Jeden nebo více identifikátorů (oddělených <literal>,</literal>): buď (plně "
+"kvalifikovaný) název hostitele nebo IP adresa. Negaci lze provést předponou "
+"<literal>!</literal>. <literal>ALL</literal> je obvyklá volba pro "
+"<literal>Host_List</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:447
 msgid "<literal>NOPASSWD:|PASSWD:</literal>"
-msgstr ""
+msgstr "<literal>NOPASSWD:|PASSWD:</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:450
@@ -628,6 +824,8 @@ msgid ""
 "The user will not be prompted for a password when running commands matching "
 "<literal>CMDSPEC</literal> after <literal>NOPASSWD:</literal>."
 msgstr ""
+"Při spuštění příkazů odpovídajících <literal>CMDSPEC</literal> uvedených za "
+"<literal>NOPASSWD:</literal> nebude uživatel vyzván k zadání hesla."
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:454
@@ -635,17 +833,19 @@ msgid ""
 "<literal>PASSWD</literal> is the default, it only needs to be specified when "
 "both are on the same line:"
 msgstr ""
+"<literal>PASSWD</literal> je výchozí; musí být zadán, pouze pokud jsou oba "
+"na stejném řádku:"
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:458
 #, no-wrap
 msgid "tux ALL = PASSWD: /usr/bin/foo, NOPASSWD: /usr/bin/bar"
-msgstr ""
+msgstr "tux ALL = PASSWD: /usr/bin/foo, NOPASSWD: /usr/bin/bar"
 
 #. (itstool) path: varlistentry/term
 #: xml/adm_sudo.xml:462
 msgid "<literal>Cmnd_List</literal>"
-msgstr ""
+msgstr "<literal>Cmnd_List</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/adm_sudo.xml:465
@@ -653,6 +853,8 @@ msgid ""
 "One or more (separated by <literal>,</literal>) specifiers: A path to an "
 "executable, followed by allowed arguments or nothing."
 msgstr ""
+"Jeden nebo více specifikátorů (oddělených <literal>,</literal>): Cesta ke "
+"spustitelnému souboru, následovaná povolenými argumenty, nebo nic (prázdný)."
 
 #. (itstool) path: listitem/screen
 #: xml/adm_sudo.xml:469
@@ -663,6 +865,10 @@ msgid ""
 "/usr/bin/foo bar # Only \"/usr/bin/foo bar\" allowed\n"
 "/usr/bin/foo \"\"  # No arguments allowed\n"
 msgstr ""
+"\n"
+"/usr/bin/foo     # povoleno cokoli\n"
+"/usr/bin/foo bar # povoleno pouze \"/usr/bin/foo bar\"\n"
+"/usr/bin/foo \"\"  # Argumenty nejsou povoleny\n"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:477
@@ -670,6 +876,8 @@ msgid ""
 "<literal>ALL</literal> can be used as <literal>User_List</literal>, "
 "<literal>Host_List</literal>, and <literal>Cmnd_List</literal>."
 msgstr ""
+"Místo <literal>User_List</literal>, <literal>Host_List</literal> a "
+"<literal>Cmnd_List</literal> lze použít <literal>ALL</literal>."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:481
@@ -677,12 +885,14 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "all commands as root without entering a password:"
 msgstr ""
+"Pravidlo, které umožňuje <systemitem class=\"username\">tux</systemitem> "
+"spouštět všechny příkazy jako root bez zadání hesla:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:485
 #, no-wrap
 msgid "tux ALL = NOPASSWD: ALL"
-msgstr ""
+msgstr "tux ALL = NOPASSWD: ALL"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:486
@@ -690,12 +900,14 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "<command>systemctl restart apache2</command>:"
 msgstr ""
+"Pravidlo, které umožňuje <systemitem class=\"username\">tux</systemitem> "
+"spouštět <command>systemctl restart apache2</command>:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:490
 #, no-wrap
 msgid "tux ALL = /usr/bin/systemctl restart apache2"
-msgstr ""
+msgstr "tux ALL = /usr/bin/systemctl restart apache2"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:491
@@ -703,28 +915,31 @@ msgid ""
 "A rule that allows <systemitem class=\"username\">tux</systemitem> to run "
 "<command>wall</command> as <systemitem>admin</systemitem> with no arguments:"
 msgstr ""
+"Pravidlo, které umožňuje <systemitem class=\"username\">tux</systemitem> "
+"spustit <command>wall</command> jako <systemitem>admin</systemitem> bez "
+"argumentů:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:495
 #, no-wrap
 msgid "tux ALL = (admin) /usr/bin/wall \"\""
-msgstr ""
+msgstr "tux ALL = (admin) /usr/bin/wall \"\""
 
 #. (itstool) path: warning/title
 #: xml/adm_sudo.xml:497
 msgid "Dangerous constructs"
-msgstr ""
+msgstr "Nebezpečné konstrukce"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:498
 msgid "Constructs of the kind"
-msgstr ""
+msgstr "Konstrukce typu"
 
 #. (itstool) path: warning/screen
 #: xml/adm_sudo.xml:501
 #, no-wrap
 msgid "ALL ALL = ALL"
-msgstr ""
+msgstr "ALL ALL = ALL"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:502
@@ -733,11 +948,14 @@ msgid ""
 "literal>, otherwise anyone can run commands as <systemitem class=\"username"
 "\">root</systemitem>."
 msgstr ""
+"<emphasis>nesmí být</emphasis> použity bez <literal>Defaults "
+"targetpw</literal>, jinak může kdokoli spouštět příkazy jako <systemitem "
+"class=\"username\">root</systemitem>."
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:510
 msgid "Common Use Cases"
-msgstr ""
+msgstr "Případy běžného použití"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:512
@@ -745,6 +963,8 @@ msgid ""
 "Although the default configuration is often sufficient for simple setups and "
 "desktop environments, custom configurations can be very useful."
 msgstr ""
+"Přestože výchozí konfigurace je často dostatečná pro jednoduchá nastavení v "
+"prostředí stolních počítačů, vlastní konfigurace mohou být velmi užitečné."
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:518
@@ -752,6 +972,8 @@ msgid ""
 "Using <command>sudo</command> without <systemitem class=\"username\">root</"
 "systemitem> Password"
 msgstr ""
+"Použití <command>sudo</command> bez hesla uživatele <systemitem class=\""
+"username\">root</systemitem>"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:519
@@ -763,12 +985,18 @@ msgid ""
 "\">wheel</systemitem> can run all commands with <command>sudo</command> as "
 "root."
 msgstr ""
+"V případech se zvláštními omezeními (<quote>uživatel X může spustit příkaz Y "
+"pouze jako <systemitem class=\"username\">root</systemitem></quote>) to není "
+"možné. V jiných případech je však výhodné mít nějaký druh odstupu. Členové "
+"skupiny <systemitem class=\"groupname\">wheel</systemitem> mohou běžně "
+"spouštět všechny příkazy s <command>sudo</command> jako root."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:528
 msgid ""
 "Add yourself to the <systemitem class=\"groupname\">wheel</systemitem> group"
 msgstr ""
+"Přidejte se do skupiny <systemitem class=\"groupname\">wheel</systemitem>"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:532
@@ -779,11 +1007,16 @@ msgid ""
 "logging out and in again. Verify that the change was successful by running "
 "<command>groups <replaceable>USERNAME</replaceable></command>."
 msgstr ""
+"Není-li Váš uživatelský účet již členem skupiny <systemitem class=\""
+"groupname\">wheel</systemitem>, přidejte jej spuštěním <command>sudo usermod "
+"-a -G wheel <replaceable>UŽIVATEL</replaceable></command>, pak se odhlaste a "
+"opět přihlaste. Ověřte, že změna byla úspěšná, příkazem "
+"<command>groups<replaceable>UŽIVATEL</replaceable></command>."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:542
 msgid "Make authentication with the invoking user's password the default."
-msgstr ""
+msgstr "Nastavte ověřování pomocí hesla volajícího uživatele jako výchozí."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:545
@@ -792,17 +1025,20 @@ msgid ""
 "<command>visudo</command> (see <xref linkend=\"sec.sudo.conf.edit\"/>) and "
 "add:"
 msgstr ""
+"Vytvořte soubor <filename>/etc/sudoers.d/userpw</filename> příkazem "
+"<command>visudo</command> (viz <xref linkend=\"sec.sudo.conf.edit\"/>) a "
+"přidejte:"
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:550
 #, no-wrap
 msgid "Defaults !targetpw"
-msgstr ""
+msgstr "Defaults !targetpw"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:553
 msgid "Select a new default rule."
-msgstr ""
+msgstr "Vyberte nové výchozí pravidlo."
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:556
@@ -811,6 +1047,9 @@ msgid ""
 "the specific line in <filename>/etc/sudoers</filename> and comment out the "
 "default rule."
 msgstr ""
+"V závislosti na tom, zda chcete, aby uživatelé znovu zadávali svá hesla, "
+"odkomentujte konkrétní řádek v <filename>/etc/sudoers</filename> a "
+"zakomentujte výchozí pravidlo."
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:561
@@ -823,11 +1062,17 @@ msgid ""
 "## Same thing without a password\n"
 "# %wheel ALL=(ALL) NOPASSWD: ALL\n"
 msgstr ""
+"\n"
+"## Odkomentováním umožníte členům skupiny wheel provést jakýkoli příkaz\n"
+"# %wheel ALL=(ALL) ALL\n"
+"\n"
+"## Totéž bez nutnosti zadávat heslo\n"
+"# %wheel ALL=(ALL) NOPASSWD: ALL\n"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:570
 msgid "Make the default rule more restrictive"
-msgstr ""
+msgstr "Upravte výchozí pravidlo, aby bylo více omezující"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:573
@@ -835,17 +1080,20 @@ msgid ""
 "Comment out or remove the allow-everything rule in <filename>/etc/sudoers</"
 "filename>:"
 msgstr ""
+"Zakomentujte nebo odstraňte vše-dovolující pravidlo v <filename>/etc/"
+"sudoers</filename>:"
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:577
 #, no-wrap
 msgid "ALL     ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!"
 msgstr ""
+"ALL     ALL=(ALL) ALL   # POZOR! Toto používat jen s 'Defaults targetpw'!"
 
 #. (itstool) path: warning/title
 #: xml/adm_sudo.xml:579
 msgid "Dangerous rule in sudoers"
-msgstr ""
+msgstr "Nebezpečná pravidla v sudoers"
 
 #. (itstool) path: warning/para
 #: xml/adm_sudo.xml:580
@@ -854,11 +1102,14 @@ msgid ""
 "<emphasis>any</emphasis> command as <systemitem class=\"username\">root</"
 "systemitem>!"
 msgstr ""
+"Nezapomeňte na tento krok, jinak může <emphasis>kterýkoli</emphasis> "
+"uživatel provést <emphasis>libovolný</emphasis> příkaz jako <systemitem "
+"class=\"username\">root</systemitem>!"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:587
 msgid "Test the configuration"
-msgstr ""
+msgstr "Otestujte konfiguraci"
 
 #. (itstool) path: step/para
 #: xml/adm_sudo.xml:590
@@ -866,6 +1117,8 @@ msgid ""
 "Try to run <command>sudo</command> as member and non-member of <systemitem "
 "class=\"groupname\">wheel</systemitem>."
 msgstr ""
+"Zkuste spustit <command>sudo</command> jako člen a jako nečlen skupiny <"
+"systemitem class=\"groupname\">wheel</systemitem>."
 
 #. (itstool) path: step/screen
 #: xml/adm_sudo.xml:594
@@ -883,11 +1136,22 @@ msgid ""
 "wilber is not in the sudoers file.  This incident will be reported.\n"
 "          "
 msgstr ""
+"\n"
+"<prompt>tux:~ &gt; </prompt>groups\n"
+"users wheel\n"
+"<prompt>tux:~ &gt; </prompt>sudo id -un\n"
+"tux's password:\n"
+"root\n"
+"<prompt>wilber:~ &gt; </prompt>groups\n"
+"users\n"
+"<prompt>wilber:~ &gt; </prompt>sudo id -un\n"
+"wilber není v souboru sudoers.  Tento konflikt bude ohlášen.\n"
+"          "
 
 #. (itstool) path: sect2/title
 #: xml/adm_sudo.xml:610
 msgid "Using <command>sudo</command> with X.Org Applications"
-msgstr ""
+msgstr "Použití <command>sudo</command> s aplikacemi X.Org"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:611
@@ -895,6 +1159,8 @@ msgid ""
 "When starting graphical applications with <command>sudo</command>, you will "
 "encounter the following error:"
 msgstr ""
+"Při spouštění grafických aplikací příkazem <command>sudo</command> se ohlásí "
+"chyba:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:615
@@ -906,11 +1172,17 @@ msgid ""
 "xterm: DISPLAY is not set\n"
 "      "
 msgstr ""
+"\n"
+"<prompt>tux &gt; </prompt><command>sudo</command> xterm\n"
+"xterm: Xt error: Can't open display: %s   [chyba Xt: nelze otevřít displej:]"
+"\n"
+"xterm: DISPLAY is not set    [DISPLAY nenastaven]\n"
+"      "
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:620
 msgid "YaST will pick the ncurses interface instead of the graphical one."
-msgstr ""
+msgstr "YaST vybere rozhraní ncurses místo grafického rozhraní."
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:623
@@ -921,40 +1193,47 @@ msgid ""
 "sudoers.d/xorg</filename>, (see <xref linkend=\"sec.sudo.conf.edit\"/>) and "
 "add the following line:"
 msgstr ""
+"Chcete-li použít X.Org v aplikacích spuštěných příkazem "
+"<command>sudo</command>, je třeba přenést proměnné prostředí "
+"<envar>DISPLAY</envar> a <envar>XAUTHORITY</envar>. Chcete-li to "
+"nakonfigurovat, vytvořte soubor <filename>/etc/sudoers.d/xorg</filename> ("
+"viz <xref linkend=\"sec.sudo.conf.edit\"/>) a přidejte následující řádek:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:630
 #, no-wrap
 msgid "Defaults env_keep += \"DISPLAY XAUTHORITY\""
-msgstr ""
+msgstr "Defaults env_keep += \"DISPLAY XAUTHORITY\""
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:631
 msgid ""
 "If not set already, set the <envar>XAUTHORITY</envar> variable as follows:"
 msgstr ""
+"Nastavte proměnnou <envar>XAUTHORITY</envar> (pokud již není nastavena) "
+"takto:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:634
 #, no-wrap
 msgid "export XAUTHORITY=~/.Xauthority"
-msgstr ""
+msgstr "export XAUTHORITY=~/.Xauthority"
 
 #. (itstool) path: sect2/para
 #: xml/adm_sudo.xml:635
 msgid "Now X.Org applications can be run as usual:"
-msgstr ""
+msgstr "Nyní lze spustit aplikace X.Org jako obvykle:"
 
 #. (itstool) path: sect2/screen
 #: xml/adm_sudo.xml:638
 #, no-wrap
 msgid "sudo yast2"
-msgstr ""
+msgstr "sudo yast2"
 
 #. (itstool) path: sect1/title
 #: xml/adm_sudo.xml:650
 msgid "More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/adm_sudo.xml:652
@@ -964,3 +1243,7 @@ msgid ""
 "information can be found in the man page: <command>man 8 sudo</command>, "
 "while the configuration is documented in <command>man 5 sudoers</command>."
 msgstr ""
+"Rychlý přehled dostupných přepínačů příkazového řádku lze získat příkazem "
+"<command>sudo --help</command>. Vysvětlení a další důležité informace lze "
+"nalézt na stránce manuálu: <command>man 8 sudo</command>. Konfigurace je "
+"dokumentována v <command>man 5 sudoers</command>."

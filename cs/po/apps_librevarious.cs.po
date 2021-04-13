@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_librevarious-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_librevarious.xml:8
 msgid "LibreOffice Impress, Base, Draw, and Math"
-msgstr ""
+msgstr "LibreOffice Impress, Base, Draw a Math"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_librevarious.xml:12
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/apps_librevarious.xml:22
@@ -34,11 +38,14 @@ msgid ""
 "presentations, design databases, draw up graphics and diagrams, and create "
 "mathematical formulas."
 msgstr ""
+"Kromě LibreOffice Writer a LibreOffice Calc obsahuje LibreOffice také moduly "
+"Impress, Base, Draw a Math. S nimi můžete vytvářet prezentace, navrhovat "
+"databáze, kreslit grafiku a diagramy a vytvářet matematické vzorce."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librevarious.xml:28
 msgid "Using Presentations with Impress"
-msgstr ""
+msgstr "Používání prezentací s Impress"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:30
@@ -47,11 +54,15 @@ msgid ""
 "printing. If you have used other presentation software, Impress makes it "
 "easy to switch. It works very similarly to other presentation software."
 msgstr ""
+"Pomocí LibreOffice Impress můžete vytvářet prezentace pro zobrazení na "
+"obrazovce nebo tisk. Pokud jste k přípravě prezentace použili jiný "
+"prezentační software, Impress usnadňuje přechod. Funguje velmi podobně jako "
+"ostatní prezentační software."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librevarious.xml:37
 msgid "Creating a Presentation"
-msgstr ""
+msgstr "Vytvoření prezentace"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librevarious.xml:38
@@ -62,11 +73,16 @@ msgid ""
 "scratch with no templates, close the template selection with "
 "<guimenu>Cancel</guimenu>."
 msgstr ""
+"Nový dokument Impress lze vytvořit dvěma způsoby. Při spuštění aplikace "
+"Impress se otevře dialogové okno <guimenu>Vybrat šablonu</guimenu>. Chcete-"
+"li použít jednu ze šablon, vyberte ji a klikněte na "
+"<guimenu>Otevřít</guimenu>. Chcete-li začít od nuly bez šablon, zavřete "
+"výběr šablony pomocí <guimenu>Zrušit</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librevarious.xml:48
 msgid "Using Master Pages"
-msgstr ""
+msgstr "Používání Vzorových stránek"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librevarious.xml:49
@@ -74,11 +90,14 @@ msgid ""
 "Master pages give your presentation a consistent look by defining what fonts "
 "and other design elements are used. Impress uses two types of master pages:"
 msgstr ""
+"Vzorové (předlohové) stránky dávají vaší prezentaci konzistentní vzhled tím, "
+"že definují, jaká písma a další prvky návrhu se používají. Impress používá "
+"dva typy vzorových stránek:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librevarious.xml:56
 msgid "Master Slide"
-msgstr ""
+msgstr "Předlohový snímek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librevarious.xml:58
@@ -89,22 +108,27 @@ msgid ""
 "of every slide that uses that master page, as well as any information you "
 "want to appear in a header or footer."
 msgstr ""
+"Obsahuje prvky, které se objevují na všech snímcích. Můžete například chtít, "
+"aby se vaše firemní logo objevilo na stejném místě na každém snímku. "
+"Předloha snímku také určuje styl formátování textu pro záhlaví a obrys "
+"každého snímku, který používá tuto předlohu, a také všechny informace, které "
+"chcete zobrazit v záhlaví nebo zápatí."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librevarious.xml:68
 msgid "Master Notes"
-msgstr ""
+msgstr "Předlohové poznámky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librevarious.xml:70
 msgid ""
 "Determines the formatting and appearance of the notes in your presentation."
-msgstr ""
+msgstr "Určuje formátování a vzhled poznámek v prezentaci."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:78
 msgid "Creating a Master Slide"
-msgstr ""
+msgstr "Vytvoření předlohového snímku"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:79
@@ -112,6 +136,8 @@ msgid ""
 "Impress comes with a collection of preformatted master pages. To customize "
 "presentations further, create your own slide masters."
 msgstr ""
+"Impress se dodává s kolekcí předformátovaných vzorových stránek. Chcete-li "
+"prezentace dále upravit, vytvořte si vlastní předlohy snímků."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:85
@@ -119,6 +145,8 @@ msgid ""
 "Start Impress with an existing presentation or create a new one as described "
 "in <xref linkend=\"sec.oo.various.impress.create\"/>."
 msgstr ""
+"Spusťte Impress s existující prezentací nebo vytvořte novou, jak je popsáno "
+"v <xref linkend=\"sec.oo.various.impress.create\"/>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:91
@@ -126,6 +154,8 @@ msgid ""
 "Click <menuchoice> <guimenu>View</guimenu> <guimenu>Master Slide</guimenu> </"
 "menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Zobrazit</guimenu> <guimenu>Předloha "
+"snímku</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:95
@@ -133,17 +163,22 @@ msgid ""
 "This opens the current master slide in <guimenu>Master View</guimenu>. The "
 "<guimenu>Master View</guimenu> toolbar appears."
 msgstr ""
+"Tím se otevře aktuální předlohový snímek v <guimenu>Zobrazení "
+"předlohy</guimenu>. Objeví se panel nástrojů <guimenu>Zobrazení "
+"předlohy</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:101
 msgid ""
 "Right-click the left-hand panel, then click <guimenu>New Master</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši na levý panel a poté klepněte na <guimenu>"
+"Nová předloha</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:107
 msgid "Edit the master slide until it has the desired look."
-msgstr ""
+msgstr "Upravte předlohový snímek na požadovaný vzhled."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:110
@@ -151,6 +186,8 @@ msgid ""
 "Master view allows editing outline styles by directly formatting the sample "
 "text on the slide."
 msgstr ""
+"Zobrazení předlohy umožňuje úpravy stylů osnovy přímým formátováním "
+"ukázkového textu na snímku."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:116
@@ -159,11 +196,16 @@ msgid ""
 "toolbar, click <guimenu>Close Master View</guimenu>. Alternatively, choose "
 "<menuchoice><guimenu>View</guimenu><guimenu>Normal</guimenu></menuchoice>."
 msgstr ""
+"Chcete-li dokončit úpravy předlohových snímků, klikněte na panelu nástrojů "
+"<guimenu>Zobrazení předlohy</guimenu> na <guimenu>Zavřít předlohu</guimenu>. "
+"Nebo zvolte "
+"<menuchoice><guimenu>Zobrazit</guimenu><guimenu>Normální</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: tip/title
 #: xml/apps_librevarious.xml:125
 msgid "Collect Master Slides in a Template"
-msgstr ""
+msgstr "Uložit předlohové snímky do šablony"
 
 #. (itstool) path: tip/para
 #: xml/apps_librevarious.xml:126
@@ -173,11 +215,15 @@ msgid ""
 "want to create presentations that use those master slides, open a new "
 "presentation with your template."
 msgstr ""
+"Když jste vytvořili všechny společné snímky, které chcete použít ve všech "
+"prezentacích, můžete je uložit do šablony Impress. Poté, kdykoli chcete "
+"vytvořit prezentace, které používají tyto společné snímky, otevřete novou "
+"prezentaci se svou šablonou."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:135
 msgid "Applying a Master Slide"
-msgstr ""
+msgstr "Použití předlohového snímku"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:136
@@ -185,11 +231,13 @@ msgid ""
 "Master slides can be applied to selected slides or to all slides of a "
 "presentation."
 msgstr ""
+"Předlohové snímky lze aplikovat na zvolené snímky nebo na všechny snímky "
+"prezentace."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:142
 msgid "Open your presentation."
-msgstr ""
+msgstr "Otevřete svou prezentaci."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:147
@@ -197,6 +245,8 @@ msgid ""
 "(Optional) To apply a master slide to multiple slides but not all slides: "
 "Select the slides that you want a slide master applied to."
 msgstr ""
+"(Volitelné) Použití předlohového snímku na více snímků, ale ne na všechny "
+"snímky: Zvolte snímky, na které se má použít předlohový snímek."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:152
@@ -204,6 +254,8 @@ msgid ""
 "To select multiple slides, press<keycap function=\"control\"/> in the "
 "<guimenu>Slides Pane</guimenu> while clicking the slides you want to use."
 msgstr ""
+"Chcete-li vybrat více snímků, podržte <keycap function=\"control\"/> v "
+"<guimenu>Panelu snímků</guimenu> a klikněte na snímky, které chcete použít."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:159
@@ -212,6 +264,9 @@ msgid ""
 "guimenu> and click the master page you want to apply. The master slide is "
 "applied to the corresponding page or pages."
 msgstr ""
+"V panelu <emphasis>Úkoly</emphasis> otevřete <guimenu>Předlohové "
+"stránky</guimenu> a klikněte na předlohovou stránku, kterou chcete použít. "
+"Předlohový snímek se použije na odpovídající stránku nebo stránky."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:164
@@ -219,11 +274,14 @@ msgid ""
 "If you do not see the <guimenu>Task Pane</guimenu>, click <menuchoice> "
 "<guimenu>View</guimenu> <guimenu>Task Pane</guimenu> </menuchoice>."
 msgstr ""
+"Nevidíte-li <guimenu>podokno úloh</guimenu>, klikněte na <menuchoice> "
+"<guimenu>Zobrazit</guimenu> <guimenu>Rozvržení snímku</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librevarious.xml:174
 msgid "Using Databases with Base"
-msgstr ""
+msgstr "Používání databází v Base"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:176
@@ -232,6 +290,9 @@ msgid ""
 "to store many kinds of information. From a simple address book or recipe "
 "file to a sophisticated document management system."
 msgstr ""
+"LibreOffice obsahuje databázový modul Base. Pomocí Base vytvoříte databázi "
+"pro ukládání mnoha druhů informací. Od jednoduchého adresáře nebo souboru "
+"receptů po sofistikovaný systém správy dokumentů."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:182
@@ -241,6 +302,10 @@ msgid ""
 "fields for business and personal use. Databases created in Base can be used "
 "as data sources, such as when creating form letters."
 msgstr ""
+"Tabulky, formuláře, dotazy a sestavy lze vytvořit ručně nebo pomocí "
+"praktických průvodců. Například Průvodce tabulkami obsahuje několik běžných "
+"polí pro obchodní a osobní použití. Databáze vytvořené v Base lze použít "
+"jako zdroje dat, například při vytváření dopisů - formulářů."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:189
@@ -249,11 +314,14 @@ msgid ""
 "Find more information at the sources listed in <xref linkend=\"sec.oo.oview."
 "help\"/>."
 msgstr ""
+"Podrobný návrh databáze v Base přesahuje rámec tohoto dokumentu. Další "
+"informace najdete ve zdrojích uvedených v <xref linkend=\"sec.oo.oview.help\""
+"/>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librevarious.xml:196
 msgid "Creating a Database Using Predefined Options"
-msgstr ""
+msgstr "Vytvoření databáze pomocí předdefinovaných možností"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librevarious.xml:197
@@ -264,27 +332,32 @@ msgid ""
 "predefined fields, but it should be easy to follow them to use the "
 "predefined fields for any of the built-in database options."
 msgstr ""
+"Aplikace Base obsahuje několik předdefinovaných databázových polí, která vám "
+"pomohou vytvořit databázi. Průvodce vás provede kroky vytvoření nové "
+"databáze. Kroky v této části jsou specifické pro vytvoření adresáře pomocí "
+"předdefinovaných polí, ale mělo by být snadné je sledovat, aby bylo možné "
+"použít předdefinovaná pole pro některou z předdefinovaných možností databáze."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librevarious.xml:204
 msgid ""
 "The process for creating a database can be broken into several subprocesses:"
-msgstr ""
+msgstr "Proces vytváření databáze lze rozdělit do několika podprocesů:"
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:231
 msgid "Creating the Database"
-msgstr ""
+msgstr "Vytvoření databáze"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:234
 msgid "Start LibreOffice Base."
-msgstr ""
+msgstr "Spusťte LibreOffice Base."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:237
 msgid "The <guimenu>Database Wizard</guimenu> starts."
-msgstr ""
+msgstr "Spustí se <guimenu>Průvodce databází</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:240
@@ -293,11 +366,14 @@ msgid ""
 "guimenu> format, use an existing database file, or connecting to an existing "
 "database."
 msgstr ""
+"Můžete si vybrat mezi vytvořením nové databáze ve formátu <guimenu>Vestavěná "
+"HSQLDB</guimenu>, použitím existujícího databázového souboru nebo připojením "
+"k existující databázi."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:247 xml/apps_librevarious.xml:358
 msgid "Proceed with <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Pokračujte <guimenu>Next</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:252
@@ -310,11 +386,18 @@ msgid ""
 "directory where you want to save the database, specify a name for the "
 "database, then click <guimenu>Save</guimenu>."
 msgstr ""
+"V případě, že jste vytvořili novou databázi, klikněte na <guimenu>Ano, "
+"zaregistrujte databázi pro mě</guimenu>, zpřístupněte informace o své "
+"databázi ostatním modulům LibreOffice a zaškrtněte políčka pro <guimenu>"
+"Otevřete databázi pro úpravy</guimenu> a <guimenu>Vytvářejte tabulky pomocí "
+"průvodce tabulkou</guimenu>. Poté klikněte na <guimenu>Dokončit</guimenu>. "
+"Vyhledejte adresář, do kterého chcete databázi uložit, zadejte název "
+"databáze a klikněte na <guimenu>Uložit</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:265
 msgid "Setting Up the Database Table"
-msgstr ""
+msgstr "Nastavení tabulky databáze"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:266
@@ -325,16 +408,21 @@ msgid ""
 "click <guimenu>Use Wizard to Create Table</guimenu>. Next, define the fields "
 "you want to use in your database table."
 msgstr ""
+"Po vytvoření databáze, pokud jste zaškrtli políčko <guimenu>Vytvořit tabulky "
+"pomocí průvodce tabulkou</guimenu>, otevře se průvodce tabulkou. Pokud tak "
+"neučiníte, přejděte do oblasti <guimenu>Úloha</guimenu> a klikněte na "
+"<guimenu>Použít průvodce k vytvoření tabulky</guimenu>. Dále definujte pole, "
+"která chcete použít v databázi."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:274
 msgid "In this example, set up an address database."
-msgstr ""
+msgstr "V tomto příkladu nastavíte databázi adres."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:279
 msgid "For this example, click <guimenu>Personal</guimenu>."
-msgstr ""
+msgstr "V tomto příkladu klikněte na <guimenu>Osobní</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:282
@@ -344,6 +432,10 @@ msgid ""
 "templates listed under <guimenu>Business</guimenu> contain predefined "
 "business tables."
 msgstr ""
+"Seznam <guimenu>Ukázkové tabulky</guimenu> se změní tak, aby zobrazoval "
+"předdefinované tabulky pro osobní použití, kde je šablona tabulky adres. "
+"Šablony tabulek uvedené <guimenu>Podnikání</guimenu> obsahují tabulky "
+"předdefinované pro podnkání."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:290
@@ -351,6 +443,8 @@ msgid ""
 "In the <guimenu>Sample tables</guimenu> list, click <guimenu>Addresses</"
 "guimenu>."
 msgstr ""
+"V seznamu <guimenu>Ukázkové tabulky</guimenu> klikněte na "
+"<guimenu>Adresy</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:294
@@ -358,6 +452,8 @@ msgid ""
 "The available fields for the predefined address book appear in the "
 "<guimenu>Available fields</guimenu> menu."
 msgstr ""
+"Dostupná pole pro předdefinovaný adresář se zobrazí v nabídce <guimenu>"
+"Dostupná pole</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:300
@@ -365,6 +461,8 @@ msgid ""
 "In the <guimenu>Available fields</guimenu> menu, click the fields you want "
 "to use in your address book."
 msgstr ""
+"V nabídce <guimenu>Dostupná pole</guimenu> klikněte na pole, která chcete "
+"použít v adresáři."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:304
@@ -373,6 +471,9 @@ msgid ""
 "items, hold <keycap function=\"shift\"/> and click each of the items "
 "separately."
 msgstr ""
+"Vyberte jednu položku po druhé klikáním. Chcete-li vybrat více položek, "
+"podržte klávesu <keycap function=\"shift\"/> a klepněte na každou vybíranou "
+"položku."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:311
@@ -381,6 +482,9 @@ msgid ""
 "left arrow</guimenu> to move selected items to or off the <guimenu>Selected "
 "fields</guimenu> list."
 msgstr ""
+"Klepnutím na ikony <guimenu>šipka vpravo</guimenu> a <guimenu>šipka "
+"vlevo</guimenu> přesunete vybrané položky do seznamu <guimenu>Vybraná "
+"pole</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:316
@@ -388,6 +492,8 @@ msgid ""
 "To move all available fields to the <guimenu>Selected fields</guimenu> menu, "
 "click the icon <guimenu>double right arrow</guimenu>."
 msgstr ""
+"Chcete-li přesunout všechna dostupná pole do nabídky <guimenu>Vybraná "
+"pole</guimenu>, klikněte na ikonu <guimenu>dvojitá šipka vpravo</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:322
@@ -396,13 +502,15 @@ msgid ""
 "to adjust the order of the selected entries, then click <guimenu>Next</"
 "guimenu>."
 msgstr ""
+"Upravte pořadí vybraných položek pomocí ikon <guimenu>šipka nahoru</guimenu> "
+"a <guimenu>šipka dolů</guimenu> a poté klikněte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:327
 msgid ""
 "The fields appear in the table and forms in the order in which they are "
 "listed."
-msgstr ""
+msgstr "Pole se zobrazí v tabulce a formulářích v pořadí, v jakém jsou uvedena."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -412,12 +520,12 @@ msgstr ""
 #: xml/apps_librevarious.xml:334 xml/apps_librevarious.xml:337
 msgctxt "_"
 msgid "external ref='oo-wizard-base.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo-wizard-base.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:343
 msgid "Make sure each of the fields is defined correctly."
-msgstr ""
+msgstr "Zkontrolujte, zda je každé pole správně definováno."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:346
@@ -426,6 +534,9 @@ msgid ""
 "required field. For this example, leave the settings as they are, then click "
 "<guimenu>Next</guimenu>."
 msgstr ""
+"Můžete změnit název pole, typ, maximální počet znaků a to, zda je to povinné "
+"pole. V tomto příkladu ponechte nastavení tak, jak jsou, a klikněte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:353
@@ -434,6 +545,9 @@ msgid ""
 "<guimenu>Automatically add a primary key</guimenu> are activated. "
 "Additionally activate <guimenu>Auto value</guimenu>."
 msgstr ""
+"Ujistěte se, že je zaškrtnuto <guimenu>Vytvořit primární klíč</guimenu> a "
+"<guimenu>Automaticky přidat primární klíč</guimenu>. Navíc zaškrtněte "
+"<guimenu>Automatickou hodnotu</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:363
@@ -441,21 +555,25 @@ msgid ""
 "Give the table a name, and activate <guimenu>Create a form based on this "
 "table</guimenu>."
 msgstr ""
+"Pojmenujte tabulku a zaškrtněte <guimenu>Vytvořte formulář založený na této "
+"tabulce</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:367
 msgid "Proceed with <guimenu>Finish</guimenu>."
-msgstr ""
+msgstr "Pokračujte na <guimenu>Dokončit</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:374
 msgid "Creating a Form"
-msgstr ""
+msgstr "Vytvoření formuláře"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:375
 msgid "Next, create the form to use when entering data into your address book."
 msgstr ""
+"Dále vytvořte formulář, který chcete použít při zadávání dat do svého "
+"adresáře."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:378
@@ -465,6 +583,10 @@ msgid ""
 "<guimenu>Tables</guimenu>, right-click the correct table. Click "
 "<guimenu>Form Wizard</guimenu>."
 msgstr ""
+"Po předchozím kroku byste již měli být v <guimenu>Průvodci "
+"formulářem</guimenu>. Pokud ne, otevřete ho přechodem do hlavního okna. V "
+"části <guimenu>Tabulky</guimenu> klepněte pravým tlačítkem myši na správnou "
+"tabulku. Klikněte na <guimenu>Průvodce formulářem</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:386
@@ -473,6 +595,9 @@ msgid ""
 "move all available fields to the <guimenu>Fields in the form</guimenu> list, "
 "then click <guimenu>Next</guimenu>."
 msgstr ""
+"V <guimenu>Průvodci formulářem</guimenu> kliknutím na ikonu dvojité šipky "
+"doprava přesuňte všechna dostupná pole do seznamu <guimenu>Pole ve "
+"formuláři</guimenu> a potom klepněte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:393
@@ -480,17 +605,21 @@ msgid ""
 "To add a subform, activate <guimenu>Add Subform</guimenu>, then click "
 "<guimenu>Next</guimenu>."
 msgstr ""
+"Chcete-li přidat podformulář, označte <guimenu>Přidat podformulář</guimenu> "
+"a poté klikněte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:397 xml/apps_librevarious.xml:417
 msgid "For this example, accept the default selections."
-msgstr ""
+msgstr "V tomto příkladu přijměte výchozí výběr."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:402
 msgid ""
 "Select how you want to arrange your form, then click <guimenu>Next</guimenu>."
 msgstr ""
+"Vyberte, jak chcete uspořádat formulář, a klikněte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:408
@@ -498,11 +627,15 @@ msgid ""
 "Select <guimenu>The form is to display all data</guimenu> and leave all of "
 "the check boxes deactivated, then click <guimenu>Next</guimenu>."
 msgstr ""
+"Vyberte <guimenu>Formulář má zobrazit všechna data</guimenu> a nechat "
+"všechna zaškrtávací políčka prázdná, poté klikněte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:414
 msgid "Apply a style and field border, then click <guimenu>Next</guimenu>."
 msgstr ""
+"Použijte styl a ohraničení pole, potom klikněte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:422
@@ -510,11 +643,13 @@ msgid ""
 "Name the form, activate <guimenu>Modify the form</guimenu>, then click "
 "<guimenu>Finish</guimenu>."
 msgstr ""
+"Pojmenujte formulář, zaškrtněte <guimenu>Upravit formulář</guimenu> a "
+"klikněte na <guimenu>Dokončit</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:430
 msgid "Modifying the Form"
-msgstr ""
+msgstr "Úpravy formuláře"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:431
@@ -522,6 +657,7 @@ msgid ""
 "After the form has been defined, you can modify the appearance of the form "
 "to suit your preferences."
 msgstr ""
+"Po definování formuláře můžete upravit vzhled formuláře podle svých potřeb."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:435
@@ -532,11 +668,16 @@ msgid ""
 "<guimenu>Forms</guimenu> area, right-click the correct form. Select "
 "<guimenu>Edit</guimenu>."
 msgstr ""
+"Po předchozím kroku byste již měli být v editoru <guimenu>Formulář "
+"databáze</guimenu>. Pokud ne, vyberte správný formulář kliknutím na "
+"<guimenu>Formuláře</guimenu> na postranním panelu hlavního okna. Poté v "
+"oblasti <guimenu>Formuláře</guimenu> klepněte pravým tlačítkem na správný "
+"formulář. Vyberte <guimenu>Upravit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:444
 msgid "Arrange the fields on the form by dragging them to their new locations."
-msgstr ""
+msgstr "Uspořádejte pole ve formuláři přetažením do nových umístění."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:447
@@ -544,16 +685,18 @@ msgid ""
 "For example, move the field <guimenu>First Name</guimenu>, so it appears to "
 "the right of the field <guimenu>Last Name</guimenu>."
 msgstr ""
+"Například: přesuňte pole <guimenu>Jméno</guimenu>, takže se zobrazí vpravo "
+"od pole <guimenu>Příjmení</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:453
 msgid "When you have finished modifying the form, save it and close it."
-msgstr ""
+msgstr "Po dokončení úpravy formuláře jej uložte a zavřete."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librevarious.xml:460
 msgid "Further Steps"
-msgstr ""
+msgstr "Další kroky"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:461
@@ -562,6 +705,9 @@ msgid ""
 "enter your data. You can also design queries and reports to help sort and "
 "display the data."
 msgstr ""
+"Po vytvoření databázových tabulek a formulářů jste připraveni zadat data. "
+"Můžete také navrhovat dotazy a sestavy, které vám pomohou třídit a "
+"zobrazovat data."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librevarious.xml:466
@@ -569,11 +715,13 @@ msgid ""
 "Refer to LibreOffice online help and other sources listed in <xref linkend="
 "\"sec.oo.oview.help\"/> for additional information about Base."
 msgstr ""
+"Další informace o Base najdete v online nápovědě LibreOffice a dalších "
+"zdrojích uvedených v <xref linkend=\"sec.oo.oview.help\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librevarious.xml:474
 msgid "Creating Graphics with Draw"
-msgstr ""
+msgstr "Tvorba grafiky pomocí Draw"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:476
@@ -583,16 +731,20 @@ msgid ""
 "application that lets you import graphics, including other LibreOffice "
 "modules. You can also create Adobe* Flash* (SWF) versions of your drawings."
 msgstr ""
+"Pomocí LibreOffice Draw můžete vytvářet grafiku a diagramy. Výkresy můžete "
+"exportovat do nejběžnějších formátů vektorové grafiky a importovat je do "
+"jakékoli aplikace, která umožňuje importovat grafiku, včetně dalších modulů "
+"LibreOffice. Můžete také vytvořit verze svých kreseb v Adobe* Flash* (SWF)."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librevarious.xml:487
 msgid "Creating a Graphic"
-msgstr ""
+msgstr "Vytvoření grafiky"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:489
 msgid "Start LibreOffice Draw."
-msgstr ""
+msgstr "Spusťte LibreOffice Draw."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:494
@@ -601,6 +753,9 @@ msgid ""
 "to create a graphic. To create a new shape or text object, use the shape "
 "buttons of the toolbar:"
 msgstr ""
+"K vytvoření grafiky použijte panel nástrojů <guimenu>Kreslení</guimenu> na "
+"pravé straně okna. Chcete-li vytvořit nový tvar nebo textový objekt, "
+"použijte tlačítka tvaru na panelu nástrojů:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librevarious.xml:501
@@ -608,6 +763,8 @@ msgid ""
 "To create a single shape or text object, click a shape button once. Then "
 "click and drag over the document to create an object."
 msgstr ""
+"Chcete-li vytvořit jeden tvar nebo textový objekt, klikněte jednou na "
+"tlačítko tvaru. Poté kliknutím a tažením přes dokument vytvořte objekt."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librevarious.xml:507
@@ -616,11 +773,14 @@ msgid ""
 "click and drag over the document to create objects. When you are done, click "
 "the mouse pointer icon in the toolbar."
 msgstr ""
+"Chcete-li vytvořit více tvarů nebo textových objektů, poklepejte na tlačítko "
+"tvaru. Poté klepnutím a tažením přes dokument vytvořte objekty. Po dokončení "
+"klikněte na ikonu ukazatele myši na panelu nástrojů."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:516
 msgid "Save the graphic."
-msgstr ""
+msgstr "Uložte grafiku."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:522
@@ -631,6 +791,11 @@ msgid ""
 "file</guimenu> and click <guimenu>Search</guimenu> to navigate to the Draw "
 "file to insert."
 msgstr ""
+"Chcete-li vložit existující grafiku Draw do dokumentu LibreOffice, vyberte "
+"<menuchoice> <guimenu>Vložit</guimenu> <guimenu>Objekt</guimenu> <guimenu>"
+"OLE objekt</guimenu> </menuchoice>. Vyberte <guimenu>Vytvořit ze "
+"souboru</guimenu> a po kliknutí na <guimenu>Hledat</guimenu> najděte soubor "
+"grafiky, který chcete vložit."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:528
@@ -638,6 +803,8 @@ msgid ""
 "To be able to edit the graphic later on its own, activate <guimenu>Link to "
 "file</guimenu>."
 msgstr ""
+"Aby bylo možné grafiku později upravit samostatně, aktivujte <guimenu>Odkaz "
+"na soubor</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:532
@@ -645,11 +812,13 @@ msgid ""
 "If you insert a file as OLE object, you can edit the object later by double-"
 "clicking it."
 msgstr ""
+"Pokud vložíte soubor jako objekt OLE, můžete objekt upravit později "
+"poklepáním."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librevarious.xml:538
 msgid "Opening Draw From Other LibreOffice Modules"
-msgstr ""
+msgstr "Otevření Draw z jiných modulů LibreOffice"
 
 #. (itstool) path: procedure/para
 #: xml/apps_librevarious.xml:539
@@ -658,6 +827,9 @@ msgid ""
 "LibreOffice modules, so you can create a drawing that is automatically "
 "imported into your document."
 msgstr ""
+"Jednou obzvláště užitečnou funkcí Draw je možnost otevřít ho z jiných modulů "
+"LibreOffice, takže můžete vytvořit výkres, který se automaticky importuje do "
+"Vašeho dokumentu."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:548
@@ -667,31 +839,36 @@ msgid ""
 "guimenu> <guimenu>LibreOffice Drawing</guimenu> <guimenu>OK</guimenu> </"
 "menuchoice>."
 msgstr ""
+"V modulu LibreOffice (například ve Writeru) klikněte na <menuchoice> "
+"<guimenu>Vložit</guimenu> <guimenu>Objekt</guimenu> <guimenu>Objekt "
+"OLE</guimenu> <guimenu>Kresba LibreOffice</guimenu> <guimenu>OK</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:554
 msgid "The user interface of Writer will now be replaced by that of Draw."
 msgstr ""
+"Uživatelské rozhraní Writeru bude nyní nahrazeno uživatelským rozhraním Draw."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:559
 msgid "Create your drawing."
-msgstr ""
+msgstr "Vytvořte svoji kresbu."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:564
 msgid "Click in your document, outside the Draw frame."
-msgstr ""
+msgstr "Klikněte do dokumentu mimo rámeček Draw."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:567
 msgid "The drawing is automatically inserted into your document."
-msgstr ""
+msgstr "Kresba se automaticky vloží do dokumentu."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librevarious.xml:574
 msgid "Creating Mathematical Formulas with Math"
-msgstr ""
+msgstr "Vytváření matematických vzorců pomocí Math"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:576
@@ -703,11 +880,17 @@ msgid ""
 "imported into other documents. Math functions can be inserted into other "
 "LibreOffice documents like any other graphic object."
 msgstr ""
+"Je obvykle obtížné vkládat do dokumentů složité matematické vzorce. Aby byl "
+"tento úkol snazší, editor rovnic LibreOffice Math umožňuje vytvářet vzorce "
+"pomocí operátorů, funkcí a pomocníků formátování. Tyto vzorce pak můžete "
+"uložit jako objekt, který lze importovat do jiných dokumentů. Matematické "
+"vzorce lze vložit do jiných dokumentů LibreOffice jako jakýkoli jiný "
+"grafický objekt."
 
 #. (itstool) path: note/title
 #: xml/apps_librevarious.xml:586
 msgid "Math is For Creating Mathematical Formulas"
-msgstr ""
+msgstr "Math slouží k vytváření matematických vzorců"
 
 #. (itstool) path: note/para
 #: xml/apps_librevarious.xml:587
@@ -715,16 +898,19 @@ msgid ""
 "Math is not a calculator. The functions it creates are graphical objects. "
 "Even if they are imported into Calc, these functions cannot be evaluated."
 msgstr ""
+"Math není kalkulačka. Zápisy funkcí, které vytváří, jsou grafické objekty. "
+"Dokonce ani kdyby byly importovány do aplikace Calc, nelze tyto funkce "
+"vyhodnocovat."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:593
 msgid "To create a formula, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li vytvořit vzorec, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:599
 msgid "Start LibreOffice Math."
-msgstr ""
+msgstr "Spusťte LibreOffice Math."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:604
@@ -732,6 +918,8 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>New</guimenu> "
 "<guimenu>Formula</guimenu> </menuchoice>. The formula window opens."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Nový</guimenu> "
+"<guimenu>Vzorec</guimenu> </menuchoice>. Otevře se okno vzorce."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:610
@@ -739,17 +927,19 @@ msgid ""
 "Enter your formula in the lower part of the window. For example, the "
 "binomial theorem in LibreOffice Math syntax is:"
 msgstr ""
+"V dolní části okna zadejte vzorec. Například binomická věta v syntaxi "
+"LibreOffice Math je:"
 
 #. (itstool) path: step/screen
 #: xml/apps_librevarious.xml:614
 #, no-wrap
 msgid "(a + b)^2 = a^2 + 2 a b + b^2"
-msgstr ""
+msgstr "(a + b)^2 = a^2 + 2 a b + b^2"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:615
 msgid "The result is displayed in the upper part of the window."
-msgstr ""
+msgstr "Výsledek se zobrazí v horní části okna."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:620
@@ -759,21 +949,26 @@ msgid ""
 "<menuchoice> <guimenu>Tools</guimenu> <guimenu>Symbols</guimenu> </"
 "menuchoice> to, for example, insert Greek or other special characters."
 msgstr ""
+"Z  postranního panelu <guimenu>Prvky vzorce</guimenu> nebo kliknutím pravým "
+"tlačítkem na spodní část okna vložte další výrazy. Pokud potřebujete "
+"symboly, použijte <menuchoice> <guimenu>Nástroje</guimenu> "
+"<guimenu>Symboly</guimenu> </menuchoice> například k vložení řeckých nebo "
+"jiných speciálních znaků."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:628
 msgid "Save the document."
-msgstr ""
+msgstr "Uložte dokument."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:634
 msgid "The result is shown in <xref linkend=\"fig.oo.various.math\"/>:"
-msgstr ""
+msgstr "Výsledek ukazuje <xref linkend=\"fig.oo.various.math\"/>:"
 
 #. (itstool) path: figure/title
 #: xml/apps_librevarious.xml:639
 msgid "Mathematical Formula in LibreOffice Math"
-msgstr ""
+msgstr "Matematický vzorec v LibreOffice Math"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -783,19 +978,19 @@ msgstr ""
 #: xml/apps_librevarious.xml:642 xml/apps_librevarious.xml:645
 msgctxt "_"
 msgid "external ref='oo_formula.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo_formula.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librevarious.xml:650
 msgid ""
 "It is possible to include your formula in Writer, for example. To do so, "
 "proceed as follows:"
-msgstr ""
+msgstr "Je možné například vložit vzorec do Writeru. Postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:657
 msgid "Create a new Writer document or open an already existing one."
-msgstr ""
+msgstr "Vytvořte nový dokument Writeru nebo otevřete již existující."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:662
@@ -804,11 +999,14 @@ msgid ""
 "<guimenu>OLE Object</guimenu> </menuchoice> in the main menu. The "
 "<guimenu>Insert OLE Object</guimenu> window appears."
 msgstr ""
+"V hlavní nabídce vyberte <menuchoice> <guimenu>Vložit</guimenu> "
+"<guimenu>Objekt</guimenu> <guimenu>OLE objekt</guimenu> </menuchoice>. "
+"Zobrazí se okno <guimenu>Vložit objekt OLE</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:669
 msgid "Select <guimenu>Create from file</guimenu>."
-msgstr ""
+msgstr "Vyberte <guimenu>Vytvořit ze souboru</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:674
@@ -816,6 +1014,8 @@ msgid ""
 "Click <guimenu>Search</guimenu> to locate your formula. To choose the "
 "formula file, click <guimenu>Open</guimenu>."
 msgstr ""
+"Kliknutím na <guimenu>Hledat</guimenu> vyhledejte vzorec. Chcete-li vybrat "
+"soubor vzorců, klikněte na <guimenu>Otevřít</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:678
@@ -823,6 +1023,8 @@ msgid ""
 "To be able to edit the formula later on its own, activate <guimenu>Link to "
 "file</guimenu>."
 msgstr ""
+"Chcete-li vzorec později upravit samostatně, aktivujte <guimenu>Odkaz na "
+"soubor</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librevarious.xml:684
@@ -830,3 +1032,5 @@ msgid ""
 "Confirm with <guimenu>OK</guimenu>. The formula is inserted at the current "
 "cursor position."
 msgstr ""
+"Potvrďte pomocí <guimenu>OK</guimenu>. Vzorec se vloží na aktuální pozici "
+"kurzoru."

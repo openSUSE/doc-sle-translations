@@ -2,25 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/audit_setup-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #. (itstool) path: procedure/title
 #: xml/audit_setup.xml:9 xml/audit_setup.xml:27
 msgid "Setting Up the Linux Audit Framework"
-msgstr ""
+msgstr "Linux 監査フレームワークの設定"
 
 #. (itstool) path: chapter/para
 #: xml/audit_setup.xml:16
@@ -99,7 +101,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:78
 msgid "Controlling the Audit Daemon"
-msgstr ""
+msgstr "監査デーモンの制御について"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:79
@@ -118,7 +120,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:90
 msgid "Determining the Components to Audit"
-msgstr ""
+msgstr "監査対象のコンポーネントの決定"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:92
@@ -127,6 +129,8 @@ msgid ""
 "degree you want to use it. Check the following general rules to determine "
 "which use case best applies to you and your requirements:"
 msgstr ""
+"独自の監査設定を作成する前に、まずはどの程度監査するのかを決定する必要があります。下記の一般的な判断基準を利用して、用途や環境に合わせたコンポーネントを選"
+"択してください:"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:100
@@ -156,7 +160,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:125
 msgid "Configuring the Audit Daemon"
-msgstr ""
+msgstr "監査デーモンの設定"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:127
@@ -200,6 +204,32 @@ msgid ""
 "tcp_client_max_idle = 0\n"
 "cp_client_max_idle = 0"
 msgstr ""
+"log_file = /var/log/audit/audit.log\n"
+"log_format = RAW\n"
+"log_group = root\n"
+"priority_boost = 4\n"
+"flush = INCREMENTAL\n"
+"freq = 20\n"
+"num_logs = 5\n"
+"disp_qos = lossy\n"
+"dispatcher = /sbin/audispd\n"
+"name_format = NONE\n"
+"##name = mydomain\n"
+"max_log_file = 6\n"
+"max_log_file_action = ROTATE\n"
+"space_left = 75\n"
+"space_left_action = SYSLOG\n"
+"action_mail_acct = root\n"
+"admin_space_left = 50\n"
+"admin_space_left_action = SUSPEND\n"
+"disk_full_action = SUSPEND\n"
+"disk_error_action = SUSPEND\n"
+"##tcp_listen_port =\n"
+"tcp_listen_queue = 5\n"
+"tcp_max_per_addr = 1\n"
+"##tcp_client_ports = 1024-65535\n"
+"tcp_client_max_idle = 0\n"
+"cp_client_max_idle = 0"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:164
@@ -242,6 +272,23 @@ msgid ""
 "disk_full_action = SUSPEND         ### or HALT\n"
 "disk_error_action = SUSPEND        ### or HALT"
 msgstr ""
+"log_file = <replaceable>監査ログ記録専用のパーティションのパス</replaceable>/audit.log\n"
+"log_format = RAW\n"
+"priority_boost = 4\n"
+"flush = SYNC                       ### DATA でもかまいません\n"
+"freq = 20\n"
+"num_logs = 4\n"
+"dispatcher = /sbin/audispd\n"
+"disp_qos = lossy\n"
+"max_log_file = 5\n"
+"max_log_file_action = KEEP_LOGS\n"
+"space_left = 75\n"
+"space_left_action = EMAIL\n"
+"action_mail_acct = root\n"
+"admin_space_left = 50\n"
+"admin_space_left_action = SINGLE   ### HALT でもかまいません\n"
+"disk_full_action = SUSPEND         ### HALT でもかまいません\n"
+"disk_error_action = SUSPEND        ### HALT でもかまいません"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:201
@@ -249,11 +296,13 @@ msgid ""
 "The <literal>###</literal> precedes comments where you can choose from "
 "several options. Do not add the comments to your actual configuration files."
 msgstr ""
+"<literal>###</literal> "
+"以降はコメントで、その他の選択肢を説明しているものです。実際の設定ファイル内には、このようなコメントは追加しないでください。"
 
 #. (itstool) path: tip/title
 #: xml/audit_setup.xml:208
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報について"
 
 #. (itstool) path: tip/para
 #: xml/audit_setup.xml:209
@@ -266,7 +315,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:217
 msgid "Enabling Audit for System Calls"
-msgstr ""
+msgstr "システムコールに対する監査の有効化"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:219
@@ -287,12 +336,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:227
 msgid "There are different levels of auditing activity available:"
-msgstr ""
+msgstr "利用可能な監査機能には、下記のものがあります:"
 
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:233
 msgid "Basic Logging"
-msgstr ""
+msgstr "基本的なログ機能"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:235
@@ -310,14 +359,14 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:248
 msgid "Advanced Logging with System Call Auditing"
-msgstr ""
+msgstr "システムコールを監査する高度なログ機能"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:250
 msgid ""
 "To audit system calls and get meaningful file watches, you need to enable "
 "audit contexts for system calls."
-msgstr ""
+msgstr "システムコールを監視し、意味のあるファイル監視を実施したい場合は、システムコールに対する監査コンテキストを有効化する必要があります。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:258
@@ -341,7 +390,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:273
 msgid "Setting Up Audit Rules"
-msgstr ""
+msgstr "監査ルールの設定"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:275
@@ -373,7 +422,7 @@ msgstr ""
 msgid ""
 "A simple rule set for very basic auditing on a few important files and "
 "directories could look like this:"
-msgstr ""
+msgstr "いくつかの主要なファイルとディレクトリに対して、非常に基本的に設定のみを行なったシンプルなルールセットは下記のとおりです:"
 
 #. (itstool) path: sect1/screen
 #: xml/audit_setup.xml:303
@@ -398,6 +447,24 @@ msgid ""
 "\n"
 "### add your own rules"
 msgstr ""
+"# 基本的な監査システムのパラメータ\n"
+"-D\n"
+"-b 8192\n"
+"-f 1\n"
+"-e 1\n"
+"\n"
+"# ファイルやディレクトリの監視 (キー機能付き)\n"
+"-w /var/log/audit/ -k LOG_audit\n"
+"-w /etc/audit/auditd.conf -k CFG_audit_conf -p rxwa\n"
+"-w /etc/audit/audit.rules -k CFG_audit_rules -p rxwa\n"
+"\n"
+"-w /etc/passwd -k CFG_passwd -p rwxa\n"
+"-w /etc/sysconfig/ -k CFG_sysconfig\n"
+"\n"
+"# システムコールルールの例\n"
+"-a entry,always -S umask\n"
+"\n"
+"### 以下に独自のルールを追加してください"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:322
@@ -414,7 +481,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:333
 msgid "Choosing the Failure Flag"
-msgstr ""
+msgstr "失敗フラグの選択について"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:334
@@ -427,6 +494,10 @@ msgid ""
 "option> (system continues to run, issues a warning and audit stops) for any "
 "other setup to avoid loss of data or data corruption."
 msgstr ""
+"失敗フラグを設定する場合、 <option>-f 2</option> はお使いの監査システムに対する制限を超過した場合、システムを即時にシャットダウンさ"
+"せる設定であり、ディスクに未書き込みのデータが存在していても、それを書き込まずにシャットダウンさせてしまうことに注意してください。この方式によるシャットダ"
+"ウンは正常終了ではありませんので、セキュリティを最重視するシステムにのみ使用するものとし、通常は <option>-f 1</option> "
+"を設定して、警告を発して監査システムを停止させるだけの処理に留めてください。これにより、データの損失や破壊などを防ぐことができます。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:346
@@ -451,6 +522,11 @@ msgid ""
 "Using the file name as part of the key also makes it easier for you to "
 "identify events of this type in the log file."
 msgstr ""
+"ログファイル内での識別を行なう目的で、ファイルやディレクトリに対する監視にキーを設定することができます。キーを使用することで、特定のルールに関連するイベン"
+"トを容易に取り出すことができるようになります。また、キーを設定する場合は、単なるログファイルの監視と設定ファイルの監視を区別して設定することをお勧めします"
+"。この場合、 <literal>LOG</literal> で始まるキーをログファイル監視用に、 <literal>CFG</literal> で始まるキ"
+"ーを設定ファイル監視用に使用しています。それ以外にも、キーの一部をファイル名と同じに設定しておくと、ログファイル内で必要な項目を簡単に見つけられるようにな"
+"ります。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:371
@@ -460,6 +536,9 @@ msgid ""
 "created. Any file that is added to your system while audit is already "
 "running is not watched unless you extend the rule set to watch this new file."
 msgstr ""
+"また、ファイルやディレクトリの作成に対する監視に対してもう 1 つ注意しておくべき点として、ルールの作成時に存在していないファイルに対しては、監視を設定す"
+"ることができないという点です。監査システムが動作している間にシステムに追加されたファイルは、そのファイルに対して後からルールセットに追加しない限り、監視す"
+"ることができません。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:379
@@ -471,7 +550,7 @@ msgstr ""
 #. (itstool) path: important/title
 #: xml/audit_setup.xml:385
 msgid "Changing Audit Rules"
-msgstr ""
+msgstr "監査ルールの変更について"
 
 #. (itstool) path: important/para
 #: xml/audit_setup.xml:386
@@ -479,11 +558,13 @@ msgid ""
 "After you change audit rules, always restart the audit daemon with "
 "<command>systemctl restart auditd</command> to reread the changed rules."
 msgstr ""
+"監査ルールを変更した後は、変更点を読み込ませるため、 <command>systemctl restart auditd</command> "
+"と入力して実行し、監査デーモンを再起動してください。"
 
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:403
 msgid "Configuring Audit Reports"
-msgstr ""
+msgstr "監査レポートの設定"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:405
@@ -494,11 +575,14 @@ msgid ""
 "get meaningful statistics on the nature and frequency of the events you are "
 "monitoring. To analyze individual events in detail, use the ausearch tool."
 msgstr ""
+"未加工の監査ログを読んでお使いのシステムの動作を確認するような面倒な事態を避けるため、時間範囲を指定して独自の監査レポートを作成し、手間を省くことをお勧め"
+"します。独自の監査レポートを読むことで、注目したい範囲を絞り込むことができるほか、お使いのシステムの特徴を統計から取得し、更に細かいイベント監視の基礎資料"
+"とすることができるようになります。さらに細かく個別のイベントの詳細を追跡したい場合は、 ausearch ツールをお使いください。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:414
 msgid "Before setting up audit reporting, consider the following:"
-msgstr ""
+msgstr "監査レポート機能を設定する前に、まずは下記を考慮しておくことをお勧めします:"
 
 #. (itstool) path: listitem/para
 #: xml/audit_setup.xml:420
@@ -523,7 +607,7 @@ msgstr ""
 msgid ""
 "When and at which intervals should the reports run? Set up appropriate "
 "automated reporting using cron."
-msgstr ""
+msgstr "レポートの作成間隔とタイミングをどうするのか？ ... cron 等を利用して適切な自動化を構成してください。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:444
@@ -532,6 +616,8 @@ msgid ""
 "attempts to access your audit, PAM, and system configuration. Proceed as "
 "follows to find out about file events on your system:"
 msgstr ""
+"この例では、監査システムや PAM 、システムの設定へのアクセス試行に対して監査を行なう想定でレポートを作成しています。お使いのシステム内のファイルイベン"
+"トに関するレポートを作成するには、下記の手順で行ないます:"
 
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:452
@@ -541,6 +627,9 @@ msgid ""
 "quote> record, because these might have failed because of insufficient "
 "permissions to access a file or a file not being there:"
 msgstr ""
+"全てのイベントに対して完全な概要レポートを生成していて、何らかの異常が存在していないかどうかを調べたい場合は、 <quote>failed "
+"syscalls</quote> "
+"の箇所をご確認ください。この失敗は、許可のないファイルに対するアクセスのほか、存在していないファイルに対するアクセスなどが含まれるためです:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:459
@@ -580,6 +669,8 @@ msgid ""
 "Run a summary report for failed events and check the <quote>files</quote> "
 "record for the number of failed file access events:"
 msgstr ""
+"さらに失敗イベントに対する概要レポートを作成する (<option>--failed</option>) と、 <quote>files</quote> "
+"内にファイルアクセスの失敗数が表示されるようになります:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:492
@@ -618,7 +709,7 @@ msgstr ""
 msgid ""
 "To list the files that could not be accessed, run a summary report of failed "
 "file events:"
-msgstr ""
+msgstr "アクセスのできなかったファイルを一覧表示したい場合は、さらにファイルイベントに限定してレポートを作成します:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:524
@@ -675,6 +766,8 @@ msgid ""
 "From the summary report, then proceed to isolate these items of interest "
 "from the log and find out their event IDs for further analysis:"
 msgstr ""
+"上記の概要レポートを読むことで、ようやくログファイルの中から調査対象を絞り込むことができました。あとはさらに詳しく調べるため、イベント ID "
+"を取得します:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:566
@@ -689,7 +782,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/audit_setup.xml:572
 msgid "Use the event ID to get a detailed record for each item of interest:"
-msgstr ""
+msgstr "あとはイベント ID を指定して詳細情報を取得します:"
 
 #. (itstool) path: step/screen
 #: xml/audit_setup.xml:575
@@ -706,7 +799,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/audit_setup.xml:585
 msgid "Focusing on a Certain Time Frame"
-msgstr ""
+msgstr "特定の時間帯のみに着目したい場合について"
 
 #. (itstool) path: tip/para
 #: xml/audit_setup.xml:586
@@ -732,7 +825,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/audit_setup.xml:605
 msgid "Configuring Log Visualization"
-msgstr ""
+msgstr "ログの可視化の設定"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:607
@@ -742,6 +835,9 @@ msgid ""
 "with any other <command>aureport</command> command, the plotting commands "
 "are scriptable and can easily be configured to run as cron jobs."
 msgstr ""
+"<command>mkbar</command> や <command>mkgraph</command> "
+"のスクリプトを使用することで、グラフの形で監査の統計情報を可視化することができます。 <command>aureport</command> "
+"コマンドと同様に、グラフ化のコマンドもスクリプトとして実行することができますので、グラフ化までの部分を簡単に cron ジョブにすることができます。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:614
@@ -758,7 +854,7 @@ msgstr ""
 #. (itstool) path: warning/title
 #: xml/audit_setup.xml:624
 msgid "Downloaded Content Is Dangerous"
-msgstr ""
+msgstr "ダウンロードコンテンツの危険性について"
 
 #. (itstool) path: warning/para
 #: xml/audit_setup.xml:625
@@ -808,7 +904,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:659
 msgid "Create a Summary of Events"
-msgstr ""
+msgstr "イベントの概要グラフの作成"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:661
@@ -819,7 +915,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:665
 msgid "Create a Summary of File Events"
-msgstr ""
+msgstr "ファイルイベントの概要グラフの作成"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:667
@@ -830,7 +926,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:671
 msgid "Create a Summary of Login Events"
-msgstr ""
+msgstr "ログインイベントの概要グラフの作成"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:673
@@ -841,7 +937,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:677
 msgid "Create a Summary of User Events"
-msgstr ""
+msgstr "ユーザイベントの概要グラフの作成"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:679
@@ -852,7 +948,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:683
 msgid "Create a Summary of System Call Events"
-msgstr ""
+msgstr "システムコールイベントの概要グラフの作成"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:685
@@ -872,6 +968,13 @@ msgid ""
 "<command>mkbar</command> script for an example. Any of the above commands "
 "produces a PNG file containing a bar chart of the requested data."
 msgstr ""
+"上述のイベントタイプに対する失敗イベントのみの概要グラフを作成したい場合は、それぞれの <command>aureport</command> "
+"コマンド内に <option>--failed</option> オプションを追加してください。また、特定の時間帯のみに絞りたい場合は、それぞれの "
+"<command>aureport</command> コマンド内に <option>-ts</option> および "
+"<option>-te</option> オプションを追加してください。また、これらのコマンドラインに <command>grep</command> "
+"や <command>egrep</command> を追加して、正規表現で出力をフィルタすることで、さらに細かく調整を行なうことができます。詳しくは "
+"<command>mkbar</command> スクリプト内のコメントなどをお読みください。また、上記のコマンドラインはいずれも、 PNG "
+"ファイルの書かれた棒グラフを生成します。"
 
 #. (itstool) path: sect1/para
 #: xml/audit_setup.xml:702
@@ -884,7 +987,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:711
 msgid "Users versus Executables"
-msgstr ""
+msgstr "ユーザと実行ファイルの関係性グラフ"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:713
@@ -895,7 +998,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:717
 msgid "Users versus Files"
-msgstr ""
+msgstr "ユーザとファイルの関係性グラフ"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:719
@@ -906,7 +1009,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:723
 msgid "System Calls versus Commands"
-msgstr ""
+msgstr "システムコールとコマンドの関係性グラフ"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:725
@@ -917,7 +1020,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/audit_setup.xml:729
 msgid "System Calls versus Files"
-msgstr ""
+msgstr "システムコールとファイルの関係性グラフ"
 
 #. (itstool) path: listitem/screen
 #: xml/audit_setup.xml:731

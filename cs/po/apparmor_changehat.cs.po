@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_changehat-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_changehat.xml:9
 msgid "Profiling Your Web Applications Using ChangeHat"
-msgstr ""
+msgstr "Profilování webových aplikací pomocí ChangeHat"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:16
@@ -32,6 +36,12 @@ msgid ""
 "This is known as a <emphasis>hat</emphasis> or <emphasis>subprofile</"
 "emphasis>."
 msgstr ""
+"Profil <phrase>AppArmor®</phrase> obsahuje zásady zabezpečení pro "
+"jednotlivou instanci nebo proces programu. Platí pro spustitelný program, "
+"ale pokud část programu potřebuje jiná přístupová oprávnění než jeho jiné "
+"části, může program <quote>\"změnit klobouky\"</quote>, aby použil jiný "
+"bezpečnostní kontext, odlišný od přístupu hlavního programu, což se nazývá "
+"<emphasis>klobouk</emphasis> nebo <emphasis>podprofil</emphasis> (subprofil)."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:24
@@ -44,6 +54,14 @@ msgid ""
 "security domains at specific times during the application execution. One "
 "example of a ChangeHat-aware application is the Apache Web server."
 msgstr ""
+"ChangeHat umožňuje programům změnit <emphasis>klobouk</emphasis> uvnitř "
+"profilu <phrase>AppArmor</phrase>. To umožňuje definovat zabezpečení na "
+"jemnější úrovni než pro celý proces. Tato funkce vyžaduje, aby každá "
+"aplikace byla vytvořena <quote>ChangeHat-aware</quote> (vědoma si změny "
+"klobouku), což znamená, že je upravena tak, aby podala žádost modulu "
+"<phrase>AppArmor</phrase> a ten pak přepínal domény zabezpečení v určitých "
+"časech během její činnosti. Jedním příkladem aplikace podporující ChangeHat "
+"je webový server Apache."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:33
@@ -54,6 +72,11 @@ msgid ""
 "containing profile followed by the subprofile name, separated by a "
 "<literal>^</literal>."
 msgstr ""
+"Profil může mít libovolný počet podprofilů (\"klobouků\"), ale jsou možné "
+"pouze dvě úrovně: podprofil nemůže mít další podprofily. Podprofil je napsán "
+"jako samostatný profil. Jeho název se skládá z názvu hlavního (nadřazeného) "
+"profilu následovaného názvem podprofilu, odděleným znakem "
+"<literal>^</literal>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:40
@@ -64,6 +87,11 @@ msgid ""
 "hats are in the same file as the parent profile, then the parent profile and "
 "all hats must be recompiled."
 msgstr ""
+"Podprofily jsou buď uloženy ve stejném souboru jako nadřazený profil, nebo v "
+"samostatném souboru. Druhý případ se doporučuje na webech s mnoha klobouky - "
+"umožňuje kešování zásad, aby zpracovával změny na úrovních jednotlivých "
+"klobouků. Pokud jsou všechny klobouky ve stejném souboru jako nadřazený "
+"profil, je nutno překompilovat nadřazený profil a všechny klobouky."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:47
@@ -71,46 +99,49 @@ msgid ""
 "An external subprofile that is going to be used as a hat, must begin with "
 "the word <literal>hat</literal> or the <literal>^</literal> character."
 msgstr ""
+"Externí podprofil, který bude použit jako klobouk, musí začínat slovem "
+"<literal>hat</literal> nebo znakem <literal>^</literal>."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:51
 msgid ""
 "The following two subprofiles <emphasis>cannot</emphasis> be used as a hat:"
 msgstr ""
+"Následující dva podprofily <emphasis>nelze</emphasis> použít jako klobouk:"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:55
 #, no-wrap
 msgid "/foo//bar { }"
-msgstr ""
+msgstr "/foo//bar { }"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:56 xml/apparmor_changehat.xml:64
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:59
 #, no-wrap
 msgid "profile /foo//bar { }"
-msgstr ""
+msgstr "profile /foo//bar { }"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:60
 msgid "While the following two are treated as hats:"
-msgstr ""
+msgstr "Avšak následující dva jsou považovány za klobouky:"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:63
 #, no-wrap
 msgid "^/foo//bar { }"
-msgstr ""
+msgstr "^/foo//bar { }"
 
 #. (itstool) path: chapter/screen
 #: xml/apparmor_changehat.xml:67
 #, no-wrap
 msgid "hat /foo//bar { } # this syntax is not highlighted in vim"
-msgstr ""
+msgstr "hat /foo//bar { } # tato syntaxe nebude ve vim zvýrazněna"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:68
@@ -124,6 +155,13 @@ msgid ""
 "interpreter (such as PERL, PHP, or Java) is isolating pieces of code such "
 "that they do not have direct access to the memory of the containing process."
 msgstr ""
+"Pozor, bezpečnost klobouků je výrazně slabší než u úplných hlavních profilů. "
+"Při použití určitých typů chyb v programu může útočník uniknout z klobouku "
+"do obsahujícího profilu. Důvodem je to, že zabezpečení klobouků je určeno "
+"tajným klíčem zpracovaným procesem obsahujícím kód a kód spuštěný v klobouku "
+"nesmí mít přístup ke klíči. Proto je change_hat nejužitečnější u aplikačních "
+"serverů, kde interpret jazyka (např. PERL, PHP nebo Java) izoluje části kódu "
+"tak, že nemají přímý přístup do paměti procesu, který je obsahuje."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_changehat.xml:79
@@ -135,21 +173,27 @@ msgid ""
 "<literal>mod_apparmor</literal> described next in <xref linkend=\"sec."
 "apparmor.hat.config.directives\"/>."
 msgstr ""
+"Zbytek této kapitoly popisuje použití change_hat s Apache, aby obsahoval "
+"komponenty webového serveru spuštěné pomocí <literal>mod_perl</literal> a "
+"<literal>mod_php</literal>. Podobné přístupy lze použít s jakýmkoli "
+"aplikačním serverem poskytnutím aplikačního modulu podobného "
+"<literal>mod_apparmor</literal> popsanému dále v <xref linkend=\""
+"sec.apparmor.hat.config.directives\"/>."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_changehat.xml:87
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:88
 msgid "For more information, see the <command>change_hat</command> man page."
-msgstr ""
+msgstr "Další informace viz stránku man <command>change_hat</command>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_changehat.xml:93
 msgid "Configuring Apache for <systemitem>mod_apparmor</systemitem>"
-msgstr ""
+msgstr "Konfigurace Apache pro <systemitem>mod_apparmor</systemitem>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:95
@@ -160,6 +204,11 @@ msgid ""
 "Enterprise Server)</phrase>. This module makes the Apache Web server "
 "ChangeHat aware. Install it along with Apache."
 msgstr ""
+"<phrase>AppArmor</phrase> poskytuje <literal>mod_apparmor</literal> modul ("
+"balíček <systemitem class=\"resource\">apache2-mod-apparmor</systemitem>) "
+"pro program Apache <phrase os = \"sled\" > (pouze u SUSE Linux Enterprise "
+"Server)</phrase>. Tento modul umožňuje webovému serveru Apache pracovat s "
+"ChangeHat. Nainstalujte jej společně s Apache."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:102
@@ -168,6 +217,9 @@ msgid ""
 "<phrase>AppArmor</phrase> security profiles in the order given for every URI "
 "request that it receives."
 msgstr ""
+"Když je si Apache \"vědom\" ChangeHat, zkontroluje následující přizpůsobené "
+"bezpečnostní profily <phrase>AppArmor</phrase> v pořadí určeném pro každý "
+"požadavek URI, který obdrží."
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_changehat.xml:110
@@ -175,21 +227,23 @@ msgid ""
 "URI-specific hat. For example, <filename>^www_app_name/templates/classic/"
 "images/bar_left.gif</filename>"
 msgstr ""
+"Klobouk specifický pro URI. Například <filename>^www_app_name/templates/"
+"classic/images/bar_left.gif</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_changehat.xml:116
 msgid "<literal>DEFAULT_URI</literal>"
-msgstr ""
+msgstr "<literal>VÝCHOZÍ_URI</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_changehat.xml:121
 msgid "<literal>HANDLING_UNTRUSTED_INPUT</literal>"
-msgstr ""
+msgstr "<literal>ZPRACOVÁNÍ_NEDŮVĚRYHODNÉHO_VSTUPU</literal>"
 
 #. (itstool) path: note/title
 #: xml/apparmor_changehat.xml:128
 msgid "Apache Configuration"
-msgstr ""
+msgstr "Konfigurace Apache"
 
 #. (itstool) path: note/para
 #: xml/apparmor_changehat.xml:129
@@ -198,12 +252,17 @@ msgid ""
 "systemitem>, make sure the module is enabled, and then restart Apache by "
 "executing the following command:"
 msgstr ""
+"Nainstalujete-li <systemitem class=\"resource\">apache2-mod-"
+"apparmor</systemitem>, ujistěte se, že je modul povolen, a restartujte "
+"Apache provedením příkazu:"
 
 #. (itstool) path: note/screen
 #: xml/apparmor_changehat.xml:135
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>a2enmod apparmor &amp;&amp; sudo systemctl reload apache2"
 msgstr ""
+"<prompt>tux &gt; </prompt>a2enmod apparmor &amp;&amp; sudo systemctl reload "
+"apache2"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:138
@@ -216,11 +275,19 @@ msgid ""
 "configuration files, you need to reload Apache with <command>sudo systemctl "
 "reload apache2</command>, so the changes are recognized."
 msgstr ""
+"Apache je konfigurován umístěním direktiv do konfiguračních souborů v "
+"prostém textu. Hlavním konfiguračním souborem je obvykle <filename>/etc/"
+"apache2/httpd.conf</filename>. Při kompilaci Apache můžete označit umístění "
+"tohoto souboru. Direktivy mohou být umístěny do kteréhokoli z těchto "
+"konfiguračních souborů, kde změní způsob, jakým se Apache chová. Když "
+"provedete změny v hlavních konfiguračních souborech, musíte znovu načíst "
+"Apache pomocí <command>sudo systemctl reload apache2</command>, aby byly "
+"změny přijaty."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:150
 msgid "Virtual Host Directives"
-msgstr ""
+msgstr "Direktivy virtuálního hostitele"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:151
@@ -230,6 +297,10 @@ msgid ""
 "more information on Apache virtual host directives, refer to <link xlink:"
 "href=\"http://httpd.apache.org/docs/2.4/en/mod/core.html#virtualhost\"/>."
 msgstr ""
+"Direktivy &lt;VirtualHost&gt; a &lt;/VirtualHost&gt; se používají k uzavření "
+"skupiny direktiv, které se aplikují pouze na určeného virtuálního hostitele. "
+"Více informací o těchto direktivách Apache najdete na <link xlink:href=\""
+"http://httpd.apache.org/docs/2.4/en/mod/core.html#virtualhost\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:158
@@ -238,6 +309,10 @@ msgid ""
 "literal>. It is used similarly to <literal>AAHatName</literal>, for example, "
 "<literal>AADefaultHatName My_Funky_Default_Hat</literal>."
 msgstr ""
+"Konfigurační klíčové slovo specifické pro ChangeHat je "
+"<literal>AADefaultHatName</literal>. Používá se podobně jako "
+"<literal>AAHatName</literal>, například <literal>AADefaultHatName "
+"My_Funky_Default_Hat</literal>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:164
@@ -250,6 +325,13 @@ msgid ""
 "<literal>AADefaultHatName</literal> hat does not exist, it falls back to the "
 "<literal>DEFAULT_URI</literal> hat if it exists/"
 msgstr ""
+"Umožňuje určit výchozí klobouk, který se má použít pro virtuální hostitele a "
+"další direktivy serveru Apache, takže můžete mít různá výchozí nastavení pro "
+"různé virtuální hostitele. To lze potlačit směrnicí "
+"<literal>AAHatName</literal> a je kontrolováno, pouze když neexistuje "
+"odpovídající <literal>AAHatName</literal> nebo klobouk pojmenovaný URI. "
+"Pokud klobouk <literal>AADefaultHatName</literal> neexistuje, použije se "
+"klobouk <literal>DEFAULT_URI</literal>, pokud existuje/"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:173
@@ -257,11 +339,13 @@ msgid ""
 "If none of those are matched, it goes back to the <quote>parent</quote> "
 "Apache hat."
 msgstr ""
+"Pokud se žádný z nich neshoduje, přejde se zpět do "
+"<quote>rodičovského</quote> klobouku Apache."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:180
 msgid "Location and Directory Directives"
-msgstr ""
+msgstr "Direktivy umístění a adresáře"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:181
@@ -272,6 +356,10 @@ msgid ""
 "directives at <link xlink:href=\"http://httpd.apache.org/docs/2.4/en/"
 "sections.html\"/>."
 msgstr ""
+"Direktivy umístění a adresářů určují názvy klobouků v konfiguračním souboru "
+"programu, takže Apache volá klobouk pro své zabezpečení. Pro Apache najdete "
+"dokumentaci o direktivách pro umístění a adresáře na <link xlink:href=\""
+"http://httpd.apache.org/docs/2.4/en/sections.html\"/>."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:188
@@ -279,6 +367,8 @@ msgid ""
 "The location directive example below specifies that, for a given location, "
 "<literal>mod_apparmor</literal> should use a specific hat:"
 msgstr ""
+"Následující příklad direktivy umístění udává, že pro dané umístění by měl "
+"<literal>mod_apparmor</literal> používat konkrétní klobouk:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_changehat.xml:192
@@ -288,6 +378,9 @@ msgid ""
 "  AAHatName MY_HAT_NAME\n"
 "&lt;/Location&gt;\n"
 msgstr ""
+"&lt;Location /foo/&gt;\n"
+"  AAHatName NÁZEV_KLOBOUKU\n"
+"&lt;/Location&gt;\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:196
@@ -296,6 +389,10 @@ msgid ""
 "<filename>/foo/</filename> (<filename>/foo/</filename>, <filename>/foo/bar</"
 "filename>, <filename>/foo/cgi/path/blah_blah/blah</filename>, etc.)."
 msgstr ""
+"Toto je pokus o použití <literal>NÁZEV_KLOBOUKU</literal>pro každý URI "
+"začínající <filename>/foo/</filename> (např. <filename>/foo/</filename>, "
+"<filename>/foo/bar</filename>, <filename>/foo/cgi/path/blah_blah/"
+"blah</filename>, atd.)."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:202
@@ -303,6 +400,8 @@ msgid ""
 "The directory directive works similarly to the location directive, except it "
 "refers to a path in the file system as in the following example:"
 msgstr ""
+"Direktiva adresářů funguje podobně jako direktiva umístění, kromě toho, že "
+"odkazuje na cestu v systému souborů, jako v následujícím příkladu:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_changehat.xml:207
@@ -313,11 +412,15 @@ msgid ""
 "  AAHatName example.org\n"
 "&lt;/Directory&gt;"
 msgstr ""
+"&lt;Directory \"/srv/www/www.example.org/docs\"&gt;\n"
+"  # Všimněte si, že chybí koncové lomítko\n"
+"  AAHatName example.org\n"
+"&lt;/Directory&gt;"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_changehat.xml:214
 msgid "Managing ChangeHat-Aware Applications"
-msgstr ""
+msgstr "Správa aplikací schopných ChangeHat"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_changehat.xml:216
@@ -330,11 +433,18 @@ msgid ""
 "command line tools, as YaST's <phrase>AppArmor</phrase> module has limited "
 "functionality."
 msgstr ""
+"V předchozí části jste se dozvěděli o <literal>mod_apparmor</literal> a o "
+"tom, jak vám pomáhá zabezpečit konkrétní webovou aplikaci. Tato část vás "
+"provede příkladem ze skutečného života. Je to vytvoření klobouku pro webovou "
+"aplikaci a její zabezpečení pomocí funkce change_hat z "
+"<phrase>AppArmor</phrase>. Tato kapitola se zaměřuje na nástroje příkazového "
+"řádku <phrase>AppArmor</phrase>, protože YaST modul <phrase>AppArmor</phrase>"
+" má omezenou funkčnost."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:226
 msgid "With <phrase>AppArmor</phrase>'s Command Line Tools"
-msgstr ""
+msgstr "S nástroji příkazového řádku <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:227
@@ -347,22 +457,30 @@ msgid ""
 "drivers available for PHP—MariaDB in this example. You can install the "
 "required packages with"
 msgstr ""
+"Pro ilustraci si zvolíme webovou aplikaci s názvem "
+"<emphasis>Adminer</emphasis> (<link xlink:href=\"http://www.adminer.org/en/\""
+"/>). Je to plnohodnotný nástroj pro správu databází SQL, napsaný jako jediný "
+"soubor PHP. Aby Adminer fungoval, musíte nastavit webový server Apache, PHP "
+"a jeho modul pro Apache, a jeden z databázových ovladačů dostupných pro PHP -"
+" v tomto příkladu MariaDB. Požadované balíčky můžete nainstalovat pomocí"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_changehat.xml:238
 #, no-wrap
 msgid "zypper in apache2 apache2-mod_apparmor apache2-mod_php5 php5 php5-mysql\n"
 msgstr ""
+"programu zypper: apache2, apache2-mod_apparmor, apache2-mod_php5, php5 a "
+"php5-mysql\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:241
 msgid "To set up the Web environment for running Adminer, follow these steps:"
-msgstr ""
+msgstr "Webové prostředí pro aplikaci Adminer nastavíte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:246
 msgid "Setting Up a Web Server Environment"
-msgstr ""
+msgstr "Nastavte prostředí webového serveru"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:248
@@ -370,34 +488,39 @@ msgid ""
 "Make sure <literal>apparmor</literal> and <literal>php5</literal> modules "
 "are enabled for Apache. To enable the modules in any case, use:"
 msgstr ""
+"Zařiďte, aby moduly <literal>apparmor</literal> a <literal>php5</literal> "
+"byly v Apache vždy zapnuty. Použijte:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:252
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt>a2enmod apparmor php5"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt>a2enmod apparmor php5"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:253
 msgid "and then restart Apache with"
-msgstr ""
+msgstr "a pak Apache restartujte příkazem"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:256 xml/apparmor_changehat.xml:345
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart apache2"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart apache2"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:259
 msgid "Make sure MariaDB is running. If unsure, restart it with"
 msgstr ""
+"Zajistěte, aby běžel MariaDB (via mysql). Případně ho restartujte příkazem"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:262
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart mysql"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart mysql"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:269
@@ -407,6 +530,10 @@ msgid ""
 "<filename>adminer.php</filename>, so that its full path is <filename>/srv/"
 "www/htdocs/adminer/adminer.php</filename>."
 msgstr ""
+"Stáhněte si Adminer z <link xlink:href=\"http://www.adminer.org\"/>, "
+"zkopírujte do <filename>/srv/www/htdocs/adminer/</filename> a přejmenujte na "
+"<filename>adminer.php</filename>, takže jeho úplná cesta je <filename>/srv/"
+"www/htdocs/adminer/adminer.php</filename>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:277
@@ -416,11 +543,15 @@ msgid ""
 "Adminer to a remote server, replace <literal>localhost</literal> with the "
 "real host name of the server."
 msgstr ""
+"Otestujte Adminer ve svém webovém prohlížeči zadáním <literal>http://"
+"localhost/adminer/adminer.php</literal> do pole URI. Instalujete-li Adminer "
+"na vzdálený server, změňte <literal>localhost</literal> na název toho "
+"serveru."
 
 #. (itstool) path: figure/title
 #: xml/apparmor_changehat.xml:284
 msgid "Adminer Login Page"
-msgstr ""
+msgstr "Přihlašovací (login) stránka Adminer"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -430,7 +561,7 @@ msgstr ""
 #: xml/apparmor_changehat.xml:287 xml/apparmor_changehat.xml:290
 msgctxt "_"
 msgid "external ref='aa_changehat_adminer.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='aa_changehat_adminer.png' md5='__failed__'"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:295
@@ -443,12 +574,22 @@ msgid ""
 "Check it with <command>aa-status</command>, and if needed, set Apache "
 "temporarily in complain mode with"
 msgstr ""
+"Narazíte-li na problémy se zobrazením přihlašovací stránky Adminer, zkuste "
+"vyhledat pomoc v protokolu chyb Apache <filename>/var/log/apache2/"
+"error.log</filename>. Dalším důvodem, proč nemůžete získat přístup na "
+"webovou stránku, může být to, že váš Apache je již ovládán "
+"<phrase>AppArmor</phrase> a jeho profil <phrase>AppArmor</phrase> je příliš "
+"omezen, než aby umožňoval zobrazit Adminer. Zkontrolujte to pomocí <command"
+">aa-status</command>, a je-li to nutné, nastavte Apache dočasně do režimu "
+"stížnosti příkazem"
 
 #. (itstool) path: tip/screen
 #: xml/apparmor_changehat.xml:303
 #, no-wrap
 msgid "<prompt role=\"root\">root # </prompt>sudo aa-complain usr.sbin.httpd2-prefork"
 msgstr ""
+"<prompt role=\"root\">root # </prompt>sudo aa-complain "
+"usr.sbin.httpd2-prefork"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:308
@@ -457,11 +598,15 @@ msgid ""
 "Apache's <literal>mod_apparmor</literal>, so that <phrase>AppArmor</phrase> "
 "can detect accesses to Adminer and change to the specific <quote>hat</quote>."
 msgstr ""
+"Když je webové prostředí pro správce připraveno, musíte zkonfigurovat "
+"<literal>mod_apparmor</literal> Apache, tak, aby <phrase>AppArmor</phrase> "
+"mohl detekovat přístupy k Admineru a zapojit konkrétní "
+"<quote>klobouk</quote>."
 
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:315
 msgid "Configuring <literal>mod_apparmor</literal>"
-msgstr ""
+msgstr "Konfigurujte <literal>mod_apparmor</literal>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:317
@@ -472,17 +617,24 @@ msgid ""
 "<command>vim</command> editor is used to create a new configuration file "
 "<filename>/etc/apache2/conf.d/apparmor.conf</filename>."
 msgstr ""
+"Apache má několik konfiguračních souborů v <filename>/etc/apache2/</filename>"
+" a <filename>/etc/apache2/conf.d/</filename>. Vyberte si Vámi preferovaný a "
+"otevřete ho v textovém editoru. V tomto příkladu je použit editor "
+"<command>vim</command> k vytvoření nového konfiguračního souboru <filename>/"
+"etc/apache2/conf.d/apparmor.conf</filename>."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:325
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/apache2/conf.d/apparmor.conf"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/apache2/conf.d/"
+"apparmor.conf"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:328
 msgid "Copy the following snippet into the edited file."
-msgstr ""
+msgstr "Do upraveného souboru zkopírujte následující kód."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:331
@@ -492,6 +644,9 @@ msgid ""
 "  AAHatName adminer\n"
 "&lt;/Directory&gt;"
 msgstr ""
+"&lt;Directory /srv/www/htdocs/adminer&gt;\n"
+"  AAHatName adminer\n"
+"&lt;/Directory&gt;"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:334
@@ -501,11 +656,15 @@ msgid ""
 "(and any file/directory inside) in Apache's document root. Remember, we "
 "placed the <filename>adminer.php</filename> application there."
 msgstr ""
+"Říká Apache, aby dal <phrase>AppArmoru</phrase> vědět o události change_hat, "
+"když webový uživatel přistupuje k adresáři <filename>/adminer</filename> (a "
+"ke všem souborům/adresářům uvnitř) v kořenovém adresáři dokumentů Apache. "
+"Tam jsme totiž umístili aplikaci <filename>adminer.php</filename>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:342
 msgid "Save the file, close the editor, and restart Apache with"
-msgstr ""
+msgstr "Uložte soubor, ukončete editor a restartujte Apache příkazem"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:349
@@ -518,11 +677,18 @@ msgid ""
 "related profile is named <filename>/etc/apparmor.d/usr.sbin.httpd2-prefork</"
 "filename>."
 msgstr ""
+"Apache nyní ví o našem Admineru a změní pro něj <quote>klobouk</quote>. Nyní "
+"je čas vytvořit příslušný klobouk pro Adminer v konfiguraci "
+"<phrase>AppArmor</phrase>. Pokud ještě nemáte profil "
+"<phrase>AppArmor</phrase>, vytvořte jej před pokračováním. Nezapomeňte, že "
+"pokud je hlavní binární soubor Apache <filename>/usr/sbin/"
+"httpd2-prefork</filename>, bude příslušný profil nazván <filename>/etc/"
+"apparmor.d/usr.sbin.httpd2-prefork</filename >."
 
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:359
 msgid "Creating a Hat for Adminer"
-msgstr ""
+msgstr "Vytvořte klobouk pro Adminer"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:361
@@ -531,6 +697,9 @@ msgid ""
 "usr.sbin.httpd2-prefork</filename> in a text editor. Its contents should be "
 "similar to the following:"
 msgstr ""
+"V textovém editoru otevřete (nebo vytvořte, pokud neexistuje) soubor "
+"<filename>/etc/apparmor.d/usr.sbin.httpd2-prefork</filename>. Jeho obsah by "
+"měl být podobný tomuto:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:366
@@ -563,6 +732,32 @@ msgid ""
 "  }\n"
 "}"
 msgstr ""
+"#include &lt;tunables/global&gt;\n"
+"\n"
+"/usr/sbin/httpd2-prefork {\n"
+"  #include &lt;abstractions/apache2-common&gt;\n"
+"  #include &lt;abstractions/base&gt;\n"
+"  #include &lt;abstractions/php5&gt;\n"
+"\n"
+"  capability kill,\n"
+"  capability setgid,\n"
+"  capability setuid,\n"
+"\n"
+"  /etc/apache2/** r,\n"
+"  /run/httpd.pid rw,\n"
+"  /usr/lib{,32,64}/apache2*/** mr,\n"
+"  /var/log/apache2/** rw,\n"
+"\n"
+"  ^DEFAULT_URI {\n"
+"    #include &lt;abstractions/apache2-common&gt;\n"
+"    /var/log/apache2/** rw,\n"
+"  }\n"
+"\n"
+"  ^HANDLING_UNTRUSTED_INPUT {\n"
+"    #include &lt;abstractions/apache2-common&gt;\n"
+"    /var/log/apache2/** w,\n"
+"  }\n"
+"}"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:394
@@ -570,6 +765,7 @@ msgid ""
 "Before the last closing curly bracket (<literal>}</literal>), insert the "
 "following section:"
 msgstr ""
+"Před poslední uzavírací složenou závorku (<literal>}</literal>) vložte sekci:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:398
@@ -578,6 +774,8 @@ msgid ""
 "^adminer flags=(complain) {\n"
 "}"
 msgstr ""
+"^adminer flags=(complain) {\n"
+"}"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:400
@@ -587,23 +785,32 @@ msgid ""
 "in complain mode. That is because we need to learn the hat profile by "
 "accessing Adminer later on."
 msgstr ""
+"Všimněte si přidání <literal>(complain)</literal> (stěžování) za názvem "
+"klobouku. Řekne to <phrase>AppArmoru</phrase>, aby nechal klobouk "
+"<systemitem>adminer</systemitem> v režimu stížnosti. Je to proto, že "
+"potřebujeme naučit profil klobouku pozdějším používáním Admineru."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:409
 msgid "Save the file, and then restart <phrase>AppArmor</phrase>, then Apache."
 msgstr ""
+"Uložte soubor a restartujte napřed <phrase>AppArmor</phrase> a pak Apache."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:412
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl reload apparmor apache2"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl reload apparmor "
+"apache2"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:415
 msgid ""
 "Check if the <systemitem>adminer</systemitem> hat really is in complain mode."
 msgstr ""
+"Zkontrolujte, zda je klobouk pro <systemitem>adminer</systemitem> skutečně v "
+"režimu stížností."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:419
@@ -623,6 +830,19 @@ msgid ""
 "   /usr/sbin/httpd2-prefork//adminer\n"
 "[...]\n"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-status\n"
+"apparmor module is loaded.\n"
+"39 profiles are loaded. [39 profilů zavedeno]\n"
+"37 profiles are in enforce mode. [37 profilů je ve vynucovacím režimu]\n"
+"[...]\n"
+"   /usr/sbin/httpd2-prefork\n"
+"   /usr/sbin/httpd2-prefork//DEFAULT_URI\n"
+"   /usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\n"
+"[...]\n"
+"2 profiles are in complain mode. [2 profily jsou v režimu stížností]\n"
+"   /usr/bin/getopt\n"
+"   /usr/sbin/httpd2-prefork//adminer\n"
+"[...]\n"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:433
@@ -630,6 +850,8 @@ msgid ""
 "As we can see, the <literal>httpd2-prefork//adminer</literal> is loaded in "
 "complain mode."
 msgstr ""
+"Jak vidno, <literal>httpd2-prefork//adminer</literal> je zaveden v režimu "
+"stížností."
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:440
@@ -641,11 +863,17 @@ msgid ""
 "<filename>adminer.php</filename> as we use it via the Web browser. "
 "<command>aa-logprof</command> then helps us with creating the hat's profile."
 msgstr ""
+"Naším posledním úkolem je najít správnou sadu pravidel pro klobouk pro "
+"<systemitem>adminer</systemitem>. Proto jsme nastavili klobouk "
+"<systemitem>adminer</systemitem> do stěžovacího režimu - protokol "
+"shromažďuje užitečné informace o požadavcích na přístup "
+"<filename>adminer.php</filename>, při jeho používání webovým prohlížečem. "
+"<command>aa-logprof</command> nám pak pomáhá s vytvářením profilu klobouku."
 
 #. (itstool) path: procedure/title
 #: xml/apparmor_changehat.xml:451
 msgid "Generating Rules for the <systemitem>adminer</systemitem> Hat"
-msgstr ""
+msgstr "Generování pravidel pro klobouk <systemitem>adminer</systemitem>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:453
@@ -653,6 +881,8 @@ msgid ""
 "Open Adminer in the Web browser. If you installed it locally, then the URI "
 "is <literal>http://localhost/adminer/adminer.php</literal>."
 msgstr ""
+"Otevřete Adminer ve webovém prohlížeči. Máte-li ho instalován lokálně, pak "
+"je URI <literal>http://localhost/adminer/adminer.php</literal>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:459
@@ -663,6 +893,12 @@ msgid ""
 "any operations with Adminer you like—create a new database, create a new "
 "table for it, set user privileges, and so on."
 msgstr ""
+"Vyberte databázový stroj, který chcete použít (v našem případě MariaDB), a "
+"přihlaste se k Admineru pomocí existující kombinace uživatelského jména a "
+"hesla pro databázi. Není třeba zadávat název databáze, jelikož to můžete "
+"udělat po přihlášení. Proveďte jakékoli operace s Adminerem dle Vaší vlastní "
+"volby - vytvořte novou databázi, vytvořte pro ni novou tabulku, nastavte "
+"uživatelská oprávnění atd."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:469
@@ -670,6 +906,8 @@ msgid ""
 "After the short testing of Adminer's user interface, switch back to console "
 "and examine the log for collected data."
 msgstr ""
+"Po krátkém testování uživatelského rozhraní Admineru přepněte zpět do "
+"konzole a zkontrolujte protokol, zda neobsahuje stížnosti."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:473
@@ -691,6 +929,26 @@ msgid ""
 "\n"
 "[(A)llow] / (D)eny / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)pts"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-logprof\n"
+"Reading log entries from /var/log/audit/audit.log. [Čtení položek záznamu "
+"...]\n"
+"Updating AppArmor profiles in /etc/apparmor.d. [Aktualizace profilů AppArmor "
+"v ...]\n"
+"Complain-mode changes: [Změny v režimu stížností:]\n"
+"\n"
+"Profile:  /usr/sbin/httpd2-prefork^adminer [Profil:]\n"
+"Path:     /dev/urandom [Cesta:]\n"
+"Mode:     r [Režim:]\n"
+"Severity: 3 [Závažnost:]\n"
+"\n"
+"  1 - #include &lt;abstractions/apache2-common&gt;\n"
+"[...]\n"
+" [8 - /dev/urandom]\n"
+"\n"
+"[(A)llow] / (D)eny / (G)lob / Glob w/(E)xt / (N)ew / Abo(r)t / (F)inish / (O)"
+"pts\n"
+"[ [Povolit] / Odepřít / Globbing / Globbing s příponou / Nový / Zrušit / "
+"Ukončit / Volby ]"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:488
@@ -698,12 +956,14 @@ msgid ""
 "From the <command>aa-logprof</command> message, it is clear that our new "
 "<systemitem>adminer</systemitem> hat was correctly detected:"
 msgstr ""
+"Ze zprávy <command>aa-logprof</command> je zřejmé, že náš nový klobouk "
+"<systemitem>adminer</systemitem> byl správně detekován:"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:492
 #, no-wrap
 msgid "Profile:  /usr/sbin/httpd2-prefork^adminer"
-msgstr ""
+msgstr "Profile:  /usr/sbin/httpd2-prefork^adminer"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:493
@@ -715,6 +975,12 @@ msgid ""
 "<command>aa-logprof</command> interface, see <xref linkend=\"sec.apparmor."
 "commandline.profiling.summary.genprof\"/>."
 msgstr ""
+"Příkaz <command>aa-logprof</command> vás požádá, abyste vybrali správné "
+"pravidlo pro každou objevenou událost <phrase>AppArmor</phrase>. Určete ten, "
+"který chcete použít, a potvrďte pomocí <guimenu>Povolit</guimenu>. Další "
+"informace o práci s rozhraními <command>aa-genprof</command> a <command>aa-"
+"logprof</command> naleznete v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.genprof\"/>."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:502
@@ -724,6 +990,10 @@ msgid ""
 "of rules affecting a specific common group of targets. Sometimes it is "
 "useful to include such an abstraction instead of a direct URI rule:"
 msgstr ""
+"<command>aa-logprof</command> obvykle nabízí několik platných pravidel pro "
+"zkoumanou událost. Některá jsou <emphasis>abstrakce</emphasis> - "
+"předdefinované sady pravidel ovlivňujících konkrétní společnou skupinu cílů. "
+"Někdy je užitečné zahrnout takovou abstrakci místo přímého pravidla URI:"
 
 #. (itstool) path: tip/screen
 #: xml/apparmor_changehat.xml:509
@@ -732,6 +1002,8 @@ msgid ""
 " 1 - #include &lt;abstractions/php5&gt;\n"
 " [2 - /var/lib/php5/sess_3jdmii9cacj1e3jnahbtopajl7p064ai242]"
 msgstr ""
+" 1 - #include &lt;abstractions/php5&gt;\n"
+" [2 - /var/lib/php5/sess_3jdmii9cacj1e3jnahbtopajl7p064ai242]"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_changehat.xml:511
@@ -739,11 +1011,13 @@ msgid ""
 "In the example above, it is recommended hitting <guimenu>1</guimenu> and "
 "confirming with <guimenu>A</guimenu> to allow the abstraction."
 msgstr ""
+"Ve výše uvedeném příkladu se doporučuje stisknout <guimenu>1</guimenu> a "
+"potvrdit pomocí <guimenu>A</guimenu>, aby se povolila abstrakce."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:518
 msgid "After the last change, you will be asked to save the changed profile."
-msgstr ""
+msgstr "Po poslední změně budete požádáni o uložení změněného profilu."
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:521
@@ -754,27 +1028,36 @@ msgid ""
 "\n"
 " (S)ave Changes / [(V)iew Changes] / Abo(r)t"
 msgstr ""
+"The following local profiles were changed. Would you like to save them?\n"
+"[ Změnily se následující lokální profily. Chcete je uložit? ]\n"
+" [1 - /usr/sbin/httpd2-prefork]\n"
+"\n"
+" (S)ave Changes / [(V)iew Changes] / Abo(r)t\n"
+"[ Uložit změny / Prohlížet změny / Zrušit ]"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:525
 msgid "Hit <guimenu>S</guimenu> to save the changes."
-msgstr ""
+msgstr "Změny uložíte stisknutím <guimenu>S</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:530
 msgid "Set the profile to enforce mode with <command>aa-enforce</command>"
 msgstr ""
+"Nastavte vynucovací režim profilu programem <command>aa-enforce</command>"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:533
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce usr.sbin.httpd2-prefork"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-enforce "
+"usr.sbin.httpd2-prefork"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:534
 msgid "and check its status with <command>aa-status</command>"
-msgstr ""
+msgstr "a ověřte jeho stav programem <command>aa-status</command>"
 
 #. (itstool) path: step/screen
 #: xml/apparmor_changehat.xml:537
@@ -791,6 +1074,16 @@ msgid ""
 "   /usr/sbin/httpd2-prefork//adminer\n"
 "[...]"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> aa-status\n"
+"apparmor module is loaded. [Modul Apparmor zaveden.]\n"
+"39 profiles are loaded. [39 profilů zavedeno.]\n"
+"38 profiles are in enforce mode. [38 profilů je ve vynucovacím režimu.]\n"
+"[...]\n"
+"   /usr/sbin/httpd2-prefork\n"
+"   /usr/sbin/httpd2-prefork//DEFAULT_URI\n"
+"   /usr/sbin/httpd2-prefork//HANDLING_UNTRUSTED_INPUT\n"
+"   /usr/sbin/httpd2-prefork//adminer\n"
+"[...]"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:547
@@ -798,6 +1091,8 @@ msgid ""
 "As you can see, the <literal>//adminer</literal> hat jumped from "
 "<emphasis>complain</emphasis> to <emphasis>enforce</emphasis> mode."
 msgstr ""
+"Jak vidno, klobouk <literal>//adminer</literal> přešel ze "
+"<emphasis>stěžovacího</emphasis> do <emphasis>vynucovacího</emphasis> režimu."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:553
@@ -807,11 +1102,15 @@ msgid ""
 "work well, and update the profile with <command>aa-logprof</command> until "
 "you are satisfied with the application's functionality."
 msgstr ""
+"Zkuste spustit Adminer ve webovém prohlížeči a narazíte-li na problémy s "
+"jeho spuštěním, přepněte jej do režimu stížnosti, opakujte kroky, které "
+"dříve nefungovaly dobře, a aktualizujte profil pomocí <command>aa-"
+"logprof</command>, dokud nebudete spokojeni s funkčností aplikace."
 
 #. (itstool) path: note/title
 #: xml/apparmor_changehat.xml:564
 msgid "Hat and Parent Profile Relationship"
-msgstr ""
+msgstr "Vztah podprofilu (\"klobouku\") a rodičovského profilu"
 
 #. (itstool) path: note/para
 #: xml/apparmor_changehat.xml:565
@@ -820,11 +1119,14 @@ msgid ""
 "of a process running under the parent profile <filename>usr.sbin.httpd2-"
 "prefork</filename>."
 msgstr ""
+"Profil <filename>^adminer</filename> je k dispozici pouze v kontextu procesu "
+"spuštěného pod nadřazeným profilem "
+"<filename>usr.sbin.httpd2-prefork</filename>."
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_changehat.xml:573
 msgid "Adding Hats and Entries to Hats in YaST"
-msgstr ""
+msgstr "Přidání klobouků a položek klobouků v YaST"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_changehat.xml:574
@@ -838,6 +1140,14 @@ msgid ""
 "ChangeHat subprofile from the <guimenu><phrase>AppArmor</phrase> Profile "
 "Dialog</guimenu> window as in the following."
 msgstr ""
+"Při použití dialogu <guimenu>Upravit profil</guimenu> (pokyny najdete v <"
+"xref xrefstyle=\"SectTitleOnPage\" linkend=\"sec.apparmor.yast.edit\"/>), "
+"nebo když přidáte nový profil pomocí <guimenu>Přidat profil "
+"manuálně</guimenu> (pokyny viz <xref xrefstyle=\"SectTitleOnPage\" linkend=\""
+"sec.apparmor.yast.add\"/>), máte možnost přidat klobouky (podprofily) ke "
+"svým profilům <phrase>AppArmor</phrase>. Do okna "
+"<guimenu><phrase>AppArmor</phrase>Dialog profilu</guimenu> přidejte "
+"podprofil ChangeHat, jak je ukázáno dále."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -847,7 +1157,7 @@ msgstr ""
 #: xml/apparmor_changehat.xml:590 xml/apparmor_changehat.xml:593
 msgctxt "_"
 msgid "external ref='hats_in_profiles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hats_in_profiles.png' md5='__failed__'"
 
 #. (itstool) path: informalfigure/mediaobject
 #: xml/apparmor_changehat.xml:586
@@ -858,6 +1168,11 @@ msgid ""
 "<imageobject role=\"html\"> <imagedata fileref=\"hats_in_profiles.png\" "
 "width=\"75%\" format=\"PNG\"/> </imageobject>"
 msgstr ""
+"<textobject role=\"description\"><phrase>Dialog profilu "
+"<phrase>AppArmor</phrase></phrase> </textobject> <imageobject role=\"fo\"> <"
+"imagedata format=\"PNG\" fileref=\"hats_in_profiles.png\" width=\"75%\"/> "
+"</imageobject> <imageobject role=\"html\"> <imagedata fileref=\""
+"hats_in_profiles.png\" width=\"75%\" format=\"PNG\"/> </imageobject>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:599
@@ -866,6 +1181,9 @@ msgid ""
 "click <guimenu>Add Entry</guimenu> then select <guimenu>Hat</guimenu>. The "
 "<guimenu>EnterHat Name</guimenu> dialog opens:"
 msgstr ""
+"V okně <guimenu><phrase>AppArmor</phrase>Dialog profilu</guimenu> klikněte "
+"na <guimenu>Přidat položku</guimenu> a vyberte <guimenu>Klobouk</guimenu>. "
+"Otevře se dialogové okno <guimenu>Zadejte název klobouku</guimenu>:"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -875,7 +1193,7 @@ msgstr ""
 #: xml/apparmor_changehat.xml:609 xml/apparmor_changehat.xml:612
 msgctxt "_"
 msgid "external ref='hat_createhat.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hat_createhat.png' md5='__failed__'"
 
 #. (itstool) path: informalfigure/mediaobject
 #: xml/apparmor_changehat.xml:605
@@ -886,6 +1204,11 @@ msgid ""
 "\"> <imagedata fileref=\"hat_createhat.png\" width=\"35%\" format=\"PNG\"/> "
 "</imageobject>"
 msgstr ""
+"<textobject role=\"description\"><phrase>Zadejte název klobouku</phrase> "
+"</textobject> <imageobject role=\"fo\"> <imagedata format=\"PNG\" fileref=\""
+"hat_createhat.png\" width=\"50%\"/> </imageobject> <imageobject role=\"html\""
+"> <imagedata fileref=\"hat_createhat.png\" width=\"35%\" format=\"PNG\"/> "
+"</imageobject>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:618
@@ -894,6 +1217,9 @@ msgid ""
 "The name is the URI that, when accessed, receives the permissions set in the "
 "hat."
 msgstr ""
+"Zadejte název klobouku, který chcete přidat do profilu "
+"<phrase>AppArmor</phrase>. Název je URI, který při přístupu obdrží oprávnění "
+"nastavená v klobouku."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:624
@@ -901,8 +1227,10 @@ msgid ""
 "Click <guimenu>Create Hat</guimenu>. You are returned to the "
 "<guimenu><phrase>AppArmor</phrase> Profile Dialog</guimenu> screen."
 msgstr ""
+"Klikněte na <guimenu>Vytvořit klobouk</guimenu>. Vrátíte se na obrazovku "
+"<guimenu>Dialog profilu <phrase>AppArmor</phrase></guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_changehat.xml:630
 msgid "After adding the new hat, click <guimenu>Done</guimenu>."
-msgstr ""
+msgstr "Po přidání nového klobouku klikněte na <guimenu>Hotovo</guimenu>."

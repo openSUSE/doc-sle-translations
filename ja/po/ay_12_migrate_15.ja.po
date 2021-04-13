@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/ay_12_migrate_15-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: appendix/title
 #: xml/ay_12_migrate_15.xml:11
@@ -47,7 +49,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:27
 msgid "Product Selection"
-msgstr ""
+msgstr "製品の選択"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:29
@@ -103,7 +105,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:64 xml/ay_12_migrate_15.xml:1078
 msgid "Software"
-msgstr ""
+msgstr "ソフトウエア"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:66
@@ -136,7 +138,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:92
 msgid "Maintenance Updates"
-msgstr ""
+msgstr "メンテナンス更新"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:93
@@ -145,11 +147,13 @@ msgid ""
 "updates at installation time. Maintenance updates are not available when "
 "using the DVD medium without registration."
 msgstr ""
+"登録サーバを使用することによってのみ、インストール時に全てのメンテナンス更新へのアクセスが許可されます。 DVD "
+"メディアを使用してインストールを行ない、登録処理を行なわない場合、メンテナンス更新は利用できなくなります。"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:101
 msgid "Adding Modules or Extensions Using the Registration Server"
-msgstr ""
+msgstr "登録サーバを利用したモジュールや拡張の追加"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:102
@@ -174,7 +178,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:117
 msgid "Adding Modules and Extensions (online)"
-msgstr ""
+msgstr "モジュールや拡張の追加 (オンライン)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:118
@@ -201,6 +205,28 @@ msgid ""
 " &lt;/addons&gt;\n"
 "&lt;/suse_register&gt;"
 msgstr ""
+"&lt;suse_register&gt;\n"
+" &lt;addons config:type=\"list\"&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-basesystem&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"  &lt;/addon&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-server-applications&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"   &lt;/addon&gt;\n"
+"  &lt;addon&gt;\n"
+"   &lt;name&gt;sle-module-live-patching&lt;/name&gt;\n"
+"   &lt;version&gt;15&lt;/version&gt;\n"
+"   &lt;arch&gt;x86_64&lt;/arch&gt;\n"
+"   "
+"&lt;reg_code&gt;<replaceable>REGISTRATION_CODE</replaceable>&lt;/reg_code&gt;"
+"\n"
+"  &lt;/addon&gt;\n"
+" &lt;/addons&gt;\n"
+"&lt;/suse_register&gt;"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:139
@@ -224,7 +250,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:154
 msgid "Adding Modules and Extensions (offline)"
-msgstr ""
+msgstr "モジュールや拡張の追加 (オフライン)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:155
@@ -244,7 +270,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:167
 msgid "Product Name Matching"
-msgstr ""
+msgstr "製品名の合致処理について"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:168
@@ -284,7 +310,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:198
 msgid "Renamed Software Patterns"
-msgstr ""
+msgstr "ソフトウエアパターンの名称変更"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:199
@@ -314,67 +340,67 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:221
 msgid "Basis-Devel"
-msgstr ""
+msgstr "Basis-Devel"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:226 xml/ay_12_migrate_15.xml:274
 msgid "devel_basis"
-msgstr ""
+msgstr "devel_basis"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:233
 msgid "gnome-basic"
-msgstr ""
+msgstr "gnome-basic"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:238
 msgid "gnome_basic"
-msgstr ""
+msgstr "gnome_basic"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:245
 msgid "Minimal"
-msgstr ""
+msgstr "Minimal"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:250
 msgid "enhanced_base"
-msgstr ""
+msgstr "enhanced_base"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:257
 msgid "printing"
-msgstr ""
+msgstr "printing"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:262
 msgid "print_server"
-msgstr ""
+msgstr "print_server"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:269
 msgid "SDK-C-C++"
-msgstr ""
+msgstr "SDK-C-C++"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:281
 msgid "SDK-Doc"
-msgstr ""
+msgstr "SDK-Doc"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:286
 msgid "technical_writing"
-msgstr ""
+msgstr "technical_writing"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:293
 msgid "SDK-YaST"
-msgstr ""
+msgstr "SDK-YaST"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:298
 msgid "devel_yast"
-msgstr ""
+msgstr "devel_yast"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:306
@@ -388,7 +414,7 @@ msgstr ""
 #. (itstool) path: itemizedlist/title
 #: xml/ay_12_migrate_15.xml:313
 msgid "Notes"
-msgstr ""
+msgstr "注意事項"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:315
@@ -408,6 +434,8 @@ msgid ""
 "and optionally use the <tag class=\"element\">packages</tag> tag to specify "
 "additional packages."
 msgstr ""
+"選択しているパターン内に必要なパッケージが含まれているかどうかを確認し、必要であれば <tag class=\"element\""
+">packages</tag> タグで追加のパッケージを指定してください。"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:329
@@ -421,7 +449,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:338
 msgid "Registration of Module and Extension Dependencies"
-msgstr ""
+msgstr "モジュールや拡張の登録での依存関係"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:340
@@ -450,11 +478,13 @@ msgid ""
 "You can list the available extensions and modules in a registered system "
 "using the <command>SUSEConnect --list-extensions</command> command."
 msgstr ""
+"登録済みのシステムで <command>SUSEConnect --list-extensions</command> "
+"コマンドを実行することで、利用可能な拡張とモジュールの一覧を取得することができます。"
 
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:360
 msgid "Partitioning"
-msgstr ""
+msgstr "パーティション設定"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:362
@@ -487,7 +517,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:382
 msgid "Setting Partition Numbers"
-msgstr ""
+msgstr "パーティション番号の設定"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:383
@@ -508,7 +538,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:396
 msgid "Forcing Primary Partitions"
-msgstr ""
+msgstr "プライマリパーティションの強制"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:397
@@ -523,7 +553,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:407
 msgid "Btrfs: Default Subvolume Name"
-msgstr ""
+msgstr "btrfs: 既定のサブボリューム名"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:408
@@ -537,7 +567,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:416
 msgid "Specifying the Btrfs Default Subvolume Name"
-msgstr ""
+msgstr "btrfs での既定サブボリューム名の指定"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:417 xml/ay_12_migrate_15.xml:432
@@ -557,11 +587,13 @@ msgid ""
 "To omit the subvolume prefix, set the <tag class=\"element"
 "\">subvolumes_prefix</tag> tag:"
 msgstr ""
+"サブボリュームに対するプレフィクスを省略したい場合は、下記のようにして <tag class=\"element\""
+">subvolumes_prefix</tag> を設定します:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:431
 msgid "Disabling Btrfs Subvolumes"
-msgstr ""
+msgstr "btrfs サブボリュームの無効化"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:440
@@ -570,11 +602,13 @@ msgid ""
 "\">btrfs_set_default_subvolume_name</tag> tag is not needed and, therefore, "
 "it is not supported anymore."
 msgstr ""
+"このような新しい動作により、従来使用されてきた <tag class=\"element\""
+">btrfs_set_default_subvolume_name</tag> タグは不要となりました。将来的には廃止される予定です。"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:448
 msgid "Btrfs: Disabling Subvolumes"
-msgstr ""
+msgstr "btrfs: サブボリュームの無効化"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:449
@@ -594,12 +628,17 @@ msgid ""
 " &lt;subvolumes_prefix&gt;&lt;![CDATA[]]&gt;&lt;/subvolumes_prefix&gt;\n"
 "&lt;/partition&gt;]]&gt;"
 msgstr ""
+"&lt;partition&gt;\n"
+" &lt;create_subvolumes config:type=\"boolean\""
+"&gt;false&lt;/create_subvolumes&gt;\n"
+" &lt;subvolumes_prefix&gt;&lt;![CDATA[]]&gt;&lt;/subvolumes_prefix&gt;\n"
+"&lt;/partition&gt;]]&gt;"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:463
 msgid ""
 "Reading an Existing <filename>/etc/fstab</filename> Is No Longer Supported"
-msgstr ""
+msgstr "既存の <filename>/etc/fstab</filename> を読み込む処理の非対応化"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:466
@@ -615,7 +654,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:474
 msgid "Setting for Aligning Partitions Has Been Dropped"
-msgstr ""
+msgstr "パーティションの配置調整設定の削除"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:477
@@ -628,7 +667,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:487
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "ファイアウオールの設定"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:488
@@ -664,94 +703,96 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:513
 msgid "Supported (but deprecated)"
-msgstr ""
+msgstr "サポート中 (ただし廃止予定)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:514
 msgid "Unsupported"
-msgstr ""
+msgstr "未サポート"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:520
 msgid "<tag class=\"element\">FW_CONFIGURATIONS_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_CONFIGURATIONS_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:525
 msgid "<tag class=\"element\">FW_ALLOW_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_ALLOW_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:532
 msgid "<tag class=\"element\">FW_DEV_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_DEV_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:537
 msgid "<tag class=\"element\">FW_IGNORE_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_IGNORE_FW_BROADCAST_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:544
 msgid "<tag class=\"element\">FW_LOG_DROP_ALL</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_DROP_ALL</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:549
 msgid "<tag class=\"element\">FW_IPSECT_TRUST</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_IPSECT_TRUST</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:556
 msgid "<tag class=\"element\">FW_LOG_DROP_CRIT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_DROP_CRIT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:561
 msgid "<tag class=\"element\">FW_LOAD_MODULES</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOAD_MODULES</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:568
 msgid "<tag class=\"element\">FW_MASQUERADE</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_MASQUERADE</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:573
 msgid "<tag class=\"element\">FW_LOG_ACCEPT_ALL</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_ACCEPT_ALL</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:580
 msgid ""
 "<tag class=\"element\">FW_SERVICES_\\{DMZ, INT, EXT}_\\{TCP, UDP, IP}</tag>"
 msgstr ""
+"<tag class=\"element\">FW_SERVICES_\\{DMZ, INT, EXT}_\\{TCP, UDP, IP}</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:585
 msgid "<tag class=\"element\">FW_LOG_ACCEPT_CRIT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_LOG_ACCEPT_CRIT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:595
 msgid "<tag class=\"element\">FW_PROTECT_FROM_INT</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_PROTECT_FROM_INT</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:605
 msgid "<tag class=\"element\">FW_ROUTE</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_ROUTE</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:615
 msgid "<tag class=\"element\">FW_SERVICES_\\{DMZ, EXT, INT}_RPC</tag>"
-msgstr ""
+msgstr "<tag class=\"element\">FW_SERVICES_\\{DMZ, EXT, INT}_RPC</tag>"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:625
 msgid ""
 "<tag class=\"element\">FW_SERVICES_ACCEPT_RELATED_\\{DMZ, EXT, INT}</tag>"
 msgstr ""
+"<tag class=\"element\">FW_SERVICES_ACCEPT_RELATED_\\{DMZ, EXT, INT}</tag>"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:634
@@ -770,7 +811,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/ay_12_migrate_15.xml:644
 msgid "Enabling and Starting the Firewall"
-msgstr ""
+msgstr "ファイアウオールの有効化と開始について"
 
 #. (itstool) path: note/para
 #: xml/ay_12_migrate_15.xml:645
@@ -805,7 +846,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:666
 msgid "Assigning Interfaces to Zones"
-msgstr ""
+msgstr "インターフェイスのゾーンへの割り当て"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:667
@@ -840,17 +881,17 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:690
 msgid "dmz"
-msgstr ""
+msgstr "dmz"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:691
 msgid "DMZ"
-msgstr ""
+msgstr "DMZ"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:694
 msgid "external"
-msgstr ""
+msgstr "external"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:696
@@ -858,11 +899,13 @@ msgid ""
 "EXT with <tag class=\"element\">FW_MASQUERADE</tag> set to <literal>yes</"
 "literal>"
 msgstr ""
+"<tag class=\"element\">FW_MASQUERADE</tag> が <literal>yes</literal> である場合の "
+"EXT"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:703
 msgid "public"
-msgstr ""
+msgstr "public"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:705
@@ -870,11 +913,12 @@ msgid ""
 "EXT with <tag class=\"element\">FW_MASQUERADE</tag> set to <literal>no</"
 "literal>"
 msgstr ""
+"<tag class=\"element\">FW_MASQUERADE</tag> が <literal>no</literal> である場合の EXT"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:712
 msgid "internal"
-msgstr ""
+msgstr "internal"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:714
@@ -882,11 +926,13 @@ msgid ""
 "INT with <tag class=\"element\">FW_PROTECT_FROM_INT</tag> set to "
 "<literal>yes</literal>"
 msgstr ""
+"<tag class=\"element\">FW_PROTECT_FROM_INT</tag> が <literal>yes</literal> "
+"である場合の INT"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:721
 msgid "trusted"
-msgstr ""
+msgstr "trusted"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:723
@@ -894,32 +940,34 @@ msgid ""
 "INT with <tag class=\"element\">FW_PROTECT_FROM_INT</tag> set to "
 "<literal>no</literal>"
 msgstr ""
+"<tag class=\"element\">FW_PROTECT_FROM_INT</tag> が <literal>no</literal> "
+"である場合の INT"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:730
 msgid "block"
-msgstr ""
+msgstr "block"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:731 xml/ay_12_migrate_15.xml:735
 #: xml/ay_12_migrate_15.xml:739 xml/ay_12_migrate_15.xml:743
 msgid "N/A"
-msgstr ""
+msgstr "(対応するものがありません)"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:734
 msgid "drop"
-msgstr ""
+msgstr "drop"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:738
 msgid "home"
-msgstr ""
+msgstr "home"
 
 #. (itstool) path: entry/para
 #: xml/ay_12_migrate_15.xml:742
 msgid "work"
-msgstr ""
+msgstr "work"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:748
@@ -932,7 +980,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/ay_12_migrate_15.xml:755
 msgid "Default Configuration"
-msgstr ""
+msgstr "既定の設定"
 
 #. (itstool) path: sect3/para
 #: xml/ay_12_migrate_15.xml:757
@@ -946,7 +994,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:765
 msgid "Assigning Zones: Default Configuration (Deprecated Syntax)"
-msgstr ""
+msgstr "ゾーンの割り当て: 既定の設定 (廃止予定の書式)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:766
@@ -998,7 +1046,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/ay_12_migrate_15.xml:804
 msgid "Masquerading and Protecting Internal Zones"
-msgstr ""
+msgstr "マスカレードと内部ゾーンの保護"
 
 #. (itstool) path: sect3/para
 #: xml/ay_12_migrate_15.xml:806
@@ -1012,7 +1060,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:813
 msgid "Masquerading and Protecting Internal Zones (Deprecated Syntax)"
-msgstr ""
+msgstr "マスカレードと内部ゾーンの保護 (廃止予定の書式)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:816
@@ -1066,7 +1114,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:858
 msgid "Opening Ports"
-msgstr ""
+msgstr "ポートを開く設定"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:859
@@ -1105,7 +1153,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:884
 msgid "Opening Ports (Deprecated Syntax)"
-msgstr ""
+msgstr "ポートを開く設定 (廃止予定の書式)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:887
@@ -1174,7 +1222,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:935
 msgid "Opening Services (Deprecated Syntax)"
-msgstr ""
+msgstr "サービスを開くための設定 (廃止予定の書式)"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:938
@@ -1221,7 +1269,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:967
 msgid "The services definition can be added via packages in both cases:"
-msgstr ""
+msgstr "サービスの定義は下記のいずれかの方式を利用して、パッケージ経由で追加することになります:"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:972
@@ -1249,7 +1297,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:991
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: listitem/para
 #: xml/ay_12_migrate_15.xml:994
@@ -1269,7 +1317,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1011
 msgid "NTP Configuration"
-msgstr ""
+msgstr "NTP の設定"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1013
@@ -1290,6 +1338,8 @@ msgid ""
 "by a set of high level options that are applied on top of the default "
 "settings:"
 msgstr ""
+"新しい書式では、低レベルの設定オプションをプロファイル内に含めるのではなく、 NTP "
+"の基本的な設定を直接タグとして書き込むことができるようになっています:"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:1031
@@ -1333,7 +1383,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1062
 msgid "The CA Management Module Has Been Dropped"
-msgstr ""
+msgstr "CA (証明機関) 管理モジュールの廃止"
 
 #. (itstool) path: sect1/para
 #: xml/ay_12_migrate_15.xml:1064
@@ -1352,7 +1402,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/ay_12_migrate_15.xml:1076
 msgid "Upgrade"
-msgstr ""
+msgstr "アップグレード"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1079
@@ -1373,11 +1423,13 @@ msgid ""
 "This makes the option <tag class=\"element\">only_installed_packages</tag> "
 "in the software section obsolete."
 msgstr ""
+"このような経緯により、ソフトウエア選択内での <tag class=\"element\">only_installed_packages</tag> "
+"オプションが廃止予定となっています。"
 
 #. (itstool) path: sect2/title
 #: xml/ay_12_migrate_15.xml:1094
 msgid "Registration"
-msgstr ""
+msgstr "登録"
 
 #. (itstool) path: sect2/para
 #: xml/ay_12_migrate_15.xml:1095
@@ -1388,11 +1440,14 @@ msgid ""
 "custom repositories, add them again using the <tag class=\"element\">add-on</"
 "tag> option."
 msgstr ""
+"登録済みのシステムをアップグレードする場合、古いリポジトリは全て削除されます。これは、古いリポジトリと新しいリポジトリを混在させることで発生する矛盾を回避"
+"する意図があるほか、古い製品に対するリポジトリ設定を消去する意味でも実施しています。古いリポジトリを維持しておきたい場合は、 <tag class=\""
+"element\">add-on</tag> オプションで再度追加を行なうよう設定してください。"
 
 #. (itstool) path: example/title
 #: xml/ay_12_migrate_15.xml:1103
 msgid "Minimal Registration Configuration for Upgrade"
-msgstr ""
+msgstr "アップグレード向けの最小限の登録設定"
 
 #. (itstool) path: example/screen
 #: xml/ay_12_migrate_15.xml:1106
@@ -1418,3 +1473,5 @@ msgid ""
 "omitting the <tag class=\"element\">suse_register</tag> option, you might "
 "need to adjust the repository setup manually."
 msgstr ""
+"未登録のシステムをアップグレードした場合や、 <tag class=\"element\">suse_register</tag> "
+"オプションを省略してアップグレードの登録を行なわなかった場合は、リポジトリの設定を手作業で実施する必要があるかもしれません。"

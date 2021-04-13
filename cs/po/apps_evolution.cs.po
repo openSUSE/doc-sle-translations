@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_evolution-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_evolution.xml:9
 msgid "Evolution: E-Mailing and Calendaring"
-msgstr ""
+msgstr "Evolution: E-Mail a kalendář"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_evolution.xml:13
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:16
@@ -34,6 +38,10 @@ msgid ""
 "others. It is a professional groupware program and an important part of the "
 "Internet-connected desktop."
 msgstr ""
+"Evolution usnadňuje ukládání, organizování a získávání vašich osobních "
+"údajů, takže můžete pracovat a efektivněji komunikovat s ostatními. Je to "
+"profesionální groupwarový program a důležitá součást pracovní plochy "
+"připojené k Internetu."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:25
@@ -43,6 +51,10 @@ msgid ""
 "computers, connected directly or over a network, for one person or for large "
 "groups."
 msgstr ""
+"Evolution vám pomůže pracovat ve skupině zpracováním e-mailů, kontaktních "
+"informací a jednoho nebo více kalendářů. Může operovat na jednom nebo "
+"několika počítačích připojených přímo nebo přes síť, pro jednu osobu nebo "
+"pro velké skupiny."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:31
@@ -53,6 +65,11 @@ msgid ""
 "you can use advanced features like search folders, which let you save "
 "searches as though they were ordinary e-mail folders."
 msgstr ""
+"Evolution vám pomůže rychle plnit běžné každodenní úkoly. Můžete například "
+"snadno znovu použít údaje schůzky nebo kontaktní informace zaslané e-mailem "
+"nebo poslat e-maily kontaktu nebo účastníkům schůzky. Pokud dostáváte hodně "
+"e-mailů, můžete použít pokročilé funkce, jako jsou složky hledání, které vám "
+"umožní uložit hledání, jako by to byly běžné složky e-mailů."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:38
@@ -60,11 +77,13 @@ msgid ""
 "This chapter introduces you to Evolution and helps you get started. For more "
 "details, refer to the Evolution application help."
 msgstr ""
+"Tato kapitola vás seznámí s Evolucí a pomůže vám začít. Další podrobnosti "
+"naleznete v nápovědě k aplikaci Evolution."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:43
 msgid "Starting Evolution"
-msgstr ""
+msgstr "Spuštění Evoluce"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:45
@@ -72,11 +91,13 @@ msgid ""
 "To start Evolution, , open the Activities Overview by pressing <keycap "
 "function=\"meta\"/> and search for <literal>evol</literal>."
 msgstr ""
+"Chcete-li spustit Evoluci, otevřete Přehled činností stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>evol</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:58
 msgid "Setup Assistant"
-msgstr ""
+msgstr "Pomocník nastavení"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:60
@@ -84,6 +105,8 @@ msgid ""
 "The first time you start Evolution, it opens an assistant to help you set up "
 "e-mail accounts and import data from other applications."
 msgstr ""
+"Při prvním spuštění aplikace Evolution se otevře asistent, který vám pomůže "
+"nastavit e-mailové účty a importovat data z jiných aplikací."
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:65
@@ -91,11 +114,13 @@ msgid ""
 "The <guimenu>Evolution Account Assistant</guimenu> helps you provide all the "
 "required information."
 msgstr ""
+"<guimenu>Pomocník účtu Evolution</guimenu> vám pomáhá dodat všechny "
+"požadované informace."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:71
 msgid "Restoring from a Backup File"
-msgstr ""
+msgstr "Obnova ze záložního souboru"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:72
@@ -106,37 +131,44 @@ msgid ""
 "activate the restoration option and select the backup file in the file "
 "chooser dialog."
 msgstr ""
+"Po spuštění asistenta se zobrazí stránka <guimenu>Vítejte</guimenu>. "
+"Přejděte na stránku <guimenu>Obnovit ze zálohy</guimenu>. Pokud jste dříve "
+"zálohovali svou konfiguraci Evolution a chcete ji obnovit, aktivujte možnost "
+"obnovy a vyberte záložní soubor v dialogu pro výběr souboru."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:79
 msgid "Otherwise, proceed to <guimenu>Identity</guimenu>."
-msgstr ""
+msgstr "Jinak pokračujte do menu <guimenu>Identita</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:85
 msgid "Defining Your Identity"
-msgstr ""
+msgstr "Definice Vaší identity"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:86
 msgid "The <guimenu>Identity</guimenu> page is the next step in the assistant."
-msgstr ""
+msgstr "Další krok pomocníka je stránka <guimenu>Identita</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:91
 msgid "Type your full name in the <guimenu>Full Name</guimenu> field."
-msgstr ""
+msgstr "Napište svoje celé jméno do pole <guimenu>Celé jméno</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:96
 msgid ""
 "Type your e-mail address in the <guimenu>E-mail Address</guimenu> field."
 msgstr ""
+"Do pole <guimenu>E-mailová adresa</guimenu> napište adresu své elektronické "
+"pošty."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:101
 msgid "(Optional) Type an address in the <guimenu>Reply-To</guimenu> field."
 msgstr ""
+"Vyplňte (nepovinně) pole adresy pro odpověď <guimenu>Reply-To</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:104
@@ -144,6 +176,8 @@ msgid ""
 "Only use this field if you want replies to e-mails from you to be sent to a "
 "different e-mail address."
 msgstr ""
+"Toto pole použijte pouze v případě, že chcete, aby odpovědi na e-maily byly "
+"zasílány na jinou e-mailovou adresu."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:110
@@ -151,6 +185,8 @@ msgid ""
 "(Optional) Type your organization name in the <guimenu>Organization</"
 "guimenu> field."
 msgstr ""
+"Zapište (nepovinně) název své organizace do pole "
+"<guimenu>Organizace</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:114
@@ -158,6 +194,8 @@ msgid ""
 "This is the company where you work, or the organization you represent when "
 "you send e-mails."
 msgstr ""
+"Je to společnost, ve které pracujete, nebo organizace, kterou zastupujete "
+"při odesílání e-mailů."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:120 xml/apps_evolution.xml:262
@@ -167,12 +205,12 @@ msgstr ""
 #: xml/apps_evolution.xml:708 xml/apps_evolution.xml:734
 #: xml/apps_evolution.xml:766 xml/apps_evolution.xml:858
 msgid "Proceed to the next page."
-msgstr ""
+msgstr "Přejděte na další stránku."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:128
 msgid "Receiving Mail"
-msgstr ""
+msgstr "Příjem pošty"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:129
@@ -180,6 +218,8 @@ msgid ""
 "The <guimenu>Receiving E-mail</guimenu> page lets you determine the server "
 "that you want to use to receive e-mail."
 msgstr ""
+"Stránka <guimenu>Příjem e-mailu</guimenu> umožňuje určit server, který "
+"chcete použít k přijímání e-mailů."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:133
@@ -188,6 +228,9 @@ msgid ""
 "are not sure about the type of server, contact your <phrase os=\"sles;sled"
 "\">system administrator or</phrase> e-mail provider."
 msgstr ""
+"Musíte určit typ serveru, ze kterého chcete přijímat poštu. Pokud si nejste "
+"jisti typem serveru, obraťte se na svého <phrase os=\"sles;sled\">správce "
+"systému</phrase> nebo na svého poskytovatele elektronické pošty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:138
@@ -195,11 +238,13 @@ msgid ""
 "Select a server type in the <guimenu>Server Type</guimenu> list. The "
 "following is a list of available server types:"
 msgstr ""
+"V seznamu <guimenu>Typ serveru</guimenu> vyberte typ serveru. Následuje "
+"seznam dostupných typů serverů:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:143
 msgid "Exchange Web Services:"
-msgstr ""
+msgstr "Služby Exchange webu:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:144
@@ -209,11 +254,15 @@ msgid ""
 "installed the connector for Microsoft* Exchange* which is packaged in "
 "<package>evolution-ews</package> ."
 msgstr ""
+"Umožňuje připojit se k novějším serverům Microsoft Exchange a synchronizovat "
+"e-maily, kalendář a kontaktní informace. Je k dispozici, pouze pokud jste "
+"nainstalovali konektor pro Microsoft* Exchange*, který je obsažen v balíčku "
+"<package>evolution-ews</package>."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:154
 msgid "IMAP+:"
-msgstr ""
+msgstr "IMAP+:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:155
@@ -221,11 +270,13 @@ msgid ""
 "Keeps the e-mail on your server, so you can access your e-mail from multiple "
 "systems."
 msgstr ""
+"Udržuje e-mail na serveru Vašeho poskytovatele, takže k e-mailu můžete "
+"přistupovat z více systémů."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:166
 msgid "POP:"
-msgstr ""
+msgstr "POP:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:167
@@ -233,22 +284,26 @@ msgid ""
 "Downloads your e-mail to your hard disk for permanent storage, freeing up "
 "space on the e-mail server."
 msgstr ""
+"Stáhne e-maily na Váš pevný disk pro trvalé uložení a uvolní tak místo na e-"
+"mailovém serveru."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:173
 msgid "USENET News:"
-msgstr ""
+msgstr "USENET News:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:174
 msgid ""
 "Connects to a news server and downloads a list of available news digests."
 msgstr ""
+"Připojí se ke zpravodajskému serveru a stáhne seznam dostupných přehledů "
+"zpráv."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:179
 msgid "Local Delivery:"
-msgstr ""
+msgstr "Local Delivery:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:180
@@ -258,11 +313,15 @@ msgid ""
 "If you want to leave mail in your system’s spool files, select "
 "<guimenu>Standard Unix Mbox Spool File</guimenu> instead."
 msgstr ""
+"Pokud chcete přesunout e-mail ze spoolu a uložit jej do svého domovského "
+"adresáře, musíte zadat cestu ke spoolu, který chcete použít. Pokud chcete "
+"nechat poštu v systémových spool souborech, vyberte místo toho <guimenu>"
+"Standardní spool soubor pro unixový Mbox </guimenu>."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:188
 msgid "MH Format Mail Directories:"
-msgstr ""
+msgstr "Adresáře mailu ve formátu MH:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:189
@@ -271,11 +330,14 @@ msgid ""
 "command>-style program, you need to provide the path to the mail directory "
 "you want to use."
 msgstr ""
+"Chcete-li stáhnout svůj e-mail pomocí <command>mh</command> nebo programu ve "
+"stylu <command>mh</command>, musíte zadat cestu k adresáři s poštou, který "
+"chcete použít."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:196
 msgid "Maildir Format Mail Directories:"
-msgstr ""
+msgstr "Adresáře mailu ve formátu Maildir:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:197
@@ -284,11 +346,14 @@ msgid ""
 "select this option. You need to provide the path to the mail directory you "
 "want to use."
 msgstr ""
+"Stáhnete-li si e-mail programem Qmail nebo jiným programem stylu Maildir, "
+"vyberte tuto možnost. Musíte zadat cestu k adresáři pošty, který chcete "
+"použít."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:204
 msgid "Standard Unix Mbox Spool File or Directory:"
-msgstr ""
+msgstr "Standardní unixový spool soubor či adresář:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:205
@@ -296,11 +361,13 @@ msgid ""
 "To read and store e-mail in the mail spool on your local system, select this "
 "option. You need to provide the path to the mail spool you want to use."
 msgstr ""
+"Tuto možnost vyberte, chcete-li číst a ukládat e-maily v mail spoolu "
+"místního systému. Musíte zadat cestu ke spoolu pošty, který chcete použít."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:212
 msgid "None:"
-msgstr ""
+msgstr "Žádný:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:213
@@ -308,11 +375,13 @@ msgid ""
 "If you do not plan to check e-mail with this account, select this option. "
 "There are no configuration options."
 msgstr ""
+"Neplánujete-li kontrolovat e-maily tímto účtem, vyberte tuto možnost. Nemá "
+"žádné konfigurační možnosti."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:219
 msgid "Configuration Options for IMAP+, POP, and USENET"
-msgstr ""
+msgstr "Konfigurační možnosti IMAP+, POP a USENET"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:220
@@ -320,6 +389,8 @@ msgid ""
 "If you selected IMAP+, POP, or USENET News as the server type, you need to "
 "specify additional information."
 msgstr ""
+"Pokud jste jako typ serveru vybrali IMAP +, POP nebo USENET News, musíte "
+"zadat další informace."
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:224 xml/apps_evolution.xml:274
@@ -328,6 +399,9 @@ msgid ""
 "setting, contact your <phrase os=\"sles;sled\">system administrator or</"
 "phrase> e-mail provider."
 msgstr ""
+"Nejste-li si jisti správnou adresou serveru, uživatelským jménem nebo "
+"nastavením zabezpečení, obraťte se na <phrase os=\"sles;sled\">správce "
+"systému</phrase> nebo na svého poskytovatele pošty."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:231
@@ -335,6 +409,8 @@ msgid ""
 "Type the host name of your e-mail server into the text box <guimenu>Server</"
 "guimenu>."
 msgstr ""
+"Do textového pole <guimenu>Server</guimenu> zadejte název vašeho e-mailového "
+"serveru."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:237 xml/apps_evolution.xml:281
@@ -342,6 +418,8 @@ msgid ""
 "Type your user name for the account into the text box <guimenu>Username</"
 "guimenu>."
 msgstr ""
+"Do textového pole zadejte své <guimenu>uživatelské jméno</guimenu> pro účet, "
+"který na serveru máte."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:243 xml/apps_evolution.xml:826
@@ -349,6 +427,8 @@ msgid ""
 "Choose a security setting supported by your mail server. For security "
 "reasons, avoid using <guimenu>No Encryption</guimenu>."
 msgstr ""
+"Vyberte nastavení zabezpečení podporované vaším poštovním serverem. Z "
+"bezpečnostních důvodů se vyhněte použití <guimenu>Nešifrovat</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:249
@@ -358,6 +438,10 @@ msgid ""
 "<guimenu>Check for Supported Types</guimenu>. Then choose one of the options "
 "without a strikeout."
 msgstr ""
+"V seznamu <guimenu>Ověřování</guimenu> vyberte typ ověřování (autentizace). "
+"Chcete-li, aby Evolution zkontroloval podporované typy ověřování, klikněte "
+"na <guimenu>Zjistit podporované typy</guimenu>. Poté vyberte jednu z "
+"nepřeškrtnutých možností."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:255 xml/apps_evolution.xml:308
@@ -366,11 +450,14 @@ msgid ""
 "Therefore clicking this button is not a guarantee that the shown mechanisms "
 "actually work."
 msgstr ""
+"Některé servery neohlašují ověřovací (autentizační) mechanismy, které "
+"podporují. Proto uvedené zjištění nezaručuje, že uvedené mechanismy skutečně "
+"fungují."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:269
 msgid "Configuration Options for Exchange Web Services"
-msgstr ""
+msgstr "Konfigurační možnosti pro služby Exchange webu"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:270
@@ -378,6 +465,8 @@ msgid ""
 "If you selected Exchange Web Services as the server type, you need to "
 "specify additional information."
 msgstr ""
+"Pokud jste jako typ serveru vybrali Exchange Web Services, musíte zadat "
+"další informace."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:287
@@ -385,6 +474,8 @@ msgid ""
 "Type the EWS URL of your e-mail server into the text box <guimenu>Host URL</"
 "guimenu>."
 msgstr ""
+"Do textového pole <guimenu>URL hostitele</guimenu> zadejte adresu EWS (Email "
+"Web Service) vašeho e-mailového serveru."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:291
@@ -392,6 +483,8 @@ msgid ""
 "If available, type the address of an Offline Address Book into the text box "
 "<guimenu>OAB URL</guimenu>."
 msgstr ""
+"Zadejte adresu adresáře offline, pokud je k dispozici, do textového pole "
+"<guimenu>OAB URL</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:295
@@ -400,6 +493,9 @@ msgid ""
 "Mailbox of other user</guimenu>. Then type the mailbox name into the text "
 "box below."
 msgstr ""
+"Pokud se vaše přihlašovací jméno a název vaší poštovní schránky liší, "
+"vyberte <guimenu>Otevřít poštovní schránku jiného uživatele</guimenu>. Poté "
+"zadejte název poštovní schránky do textového pole níže."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:302
@@ -409,11 +505,15 @@ msgid ""
 "<guimenu>Check for Supported Types</guimenu>. Then choose one of the options "
 "without a strikeout."
 msgstr ""
+"V seznamu <guimenu>Ověřování</guimenu> vyberte typ ověřování. Chcete-li, aby "
+"Evolution zkontroloval podporované typy autentizace, klikněte na <guimenu>"
+"Zkontrolovat podporované typy</guimenu>. Poté vyberte jednu z "
+"nepřeškrtnutých možností."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:322
 msgid "Local Configuration Options"
-msgstr ""
+msgstr "Možnosti místní konfigurace"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:323
@@ -423,11 +523,16 @@ msgid ""
 "or <guimenu>Standard Unix Mbox Spool File or Directory</guimenu>, specify "
 "the path to the local files or directories in the path field."
 msgstr ""
+"Pokud jste vybrali <guimenu>Místní doručování</guimenu>, <guimenu>Adresáře "
+"pošty ve formátu MH</guimenu>, <guimenu>Adresáře pošty ve formátu "
+"Maildir</guimenu> nebo <guimenu>Standardní spool soubor nebo adresář pro "
+"schránku Unixu</guimenu>, zadejte cestu k místním souborům nebo adresářům do "
+"pole cesty."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:333
 msgid "Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:334
@@ -435,11 +540,13 @@ msgid ""
 "After you have selected a mail delivery mechanism, you can set some "
 "preferences for its behavior."
 msgstr ""
+"Jakmile jste vybrali mechanismus doručování pošty, můžete nastavit některé "
+"předvolby jeho chování."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:339
 msgid "IMAP+ Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu u IMAP+"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:340
@@ -447,18 +554,20 @@ msgid ""
 "If you selected IMAP+ as the receiving server type, you will now see a page "
 "of options to specify the behavior of Evolution."
 msgstr ""
+"Pokud jste jako typ přijímajícího serveru vybrali IMAP+, zobrazí se nyní "
+"stránka možností pro specifikaci chování Evolution."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:346 xml/apps_evolution.xml:460
 #: xml/apps_evolution.xml:513 xml/apps_evolution.xml:575
 msgid "You can choose from the following options:"
-msgstr ""
+msgstr "Můžete si vybrat z těchto možností:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:351 xml/apps_evolution.xml:465
 #: xml/apps_evolution.xml:518 xml/apps_evolution.xml:580
 msgid "<guimenu>Check for new messages every ... minutes</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kontrolovat nové zprávy každých ... minut</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:354 xml/apps_evolution.xml:468
@@ -467,31 +576,35 @@ msgid ""
 "Select if you want Evolution to automatically check for new mail. Set how "
 "often to check."
 msgstr ""
+"Vyberte, zda chcete, aby Evolution automaticky vyhledával novou poštu. "
+"Nastavte, jak často ji má kontrolovat."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:361 xml/apps_evolution.xml:590
 msgid "<guimenu>Check for new message in all folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kontrolovat nové zprávy ve všech složkách</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:364 xml/apps_evolution.xml:593
 msgid "Select if you want to check for new messages in all folders."
-msgstr ""
+msgstr "Vyberte, zda chcete zkontrolovat nové zprávy ve všech složkách."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:370
 msgid "<guimenu>Check for new message in subscribed folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kontrolovat nové zprávy v odebíraných složkách</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:373
 msgid "Select if you want to check for new messages in subscribed folders."
 msgstr ""
+"Vyberte, zda chcete zkontrolovat nové zprávy ve složkách, které máte vybrané "
+"jako viditelné/odebírané."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:379
 msgid "<guimenu>Use Quick Resync if the server supports it</guimenu>"
-msgstr ""
+msgstr "<guimenu>Používat Quick Resync, ovládá-li ji server</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:382
@@ -499,11 +612,13 @@ msgid ""
 "Select to use Quick Resync which makes browsing mail faster on supported "
 "servers."
 msgstr ""
+"Tuto možnost vyberte, chcete-li použít Quick Resync (rychlou synchronizaci), "
+"která zrychluje procházení pošty na serverech podporujících tuto funkci."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:389 xml/apps_evolution.xml:599
 msgid "<guimenu>Listen for server change notifications</guimenu>"
-msgstr ""
+msgstr "<guimenu>Sledovat oznámení změn ze serveru</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:392 xml/apps_evolution.xml:602
@@ -513,16 +628,21 @@ msgid ""
 "you can usually deactivate <guimenu>Check for new messages every ... "
 "minutes</guimenu>."
 msgstr ""
+"Vyberte, zda má Evolution sledovat oznámení o změně. Aktivujete-li tuto "
+"možnost, Evolution vám ukáže poštu, jakmile dorazí. Proto můžete <guimenu>"
+"obvykle kontrolovat nové zprávy každých ... minut</guimenu>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:401
 msgid "<guimenu>Show only subscribed folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>Ukázat pouze odebírané složky</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:404
 msgid "Select if you want Evolution to show only subscribed folders."
 msgstr ""
+"Zvolte, chcete-li, aby Evolution zobrazoval pouze Vámi zvolené odebírané "
+"složky."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:407
@@ -531,12 +651,14 @@ msgid ""
 "folders shown in Evolution and to reduce the amount of mail that is "
 "downloaded."
 msgstr ""
+"Můžete se odhlásit od nepotřebných složek a snížit jak počet složek "
+"zobrazených v Evolution, tak množství stažené pošty."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:415 xml/apps_evolution.xml:528
 #: xml/apps_evolution.xml:611
 msgid "<guimenu>Apply filters to new messages in all folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>Na nové zprávy ve všech složkách aplikujte filtry</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:418
@@ -544,11 +666,13 @@ msgid ""
 "Select if you want to apply filters to new messages, and whether to do so in "
 "all folders or only in the Inbox folder."
 msgstr ""
+"Zvolte, zda chcete použít filtry na nové zprávy a zda to chcete ve všech "
+"složkách nebo pouze ve složce Doručená pošta."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:425 xml/apps_evolution.xml:620
 msgid "<guimenu>Check new messages for Junk contents</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kontrolujte nové zprávy na spam</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:428 xml/apps_evolution.xml:623
@@ -556,21 +680,26 @@ msgid ""
 "Select if you want to check new messages for junk content, and whether to do "
 "so in all folders or only in the Inbox folder."
 msgstr ""
+"Zvolte, zda chcete zkontrolovat, neobsahují-li nové zprávy nevyžádaný obsah, "
+"a chcete-li to provést ve všech složkách, nebo pouze ve složce Doručená "
+"pošta."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:435 xml/apps_evolution.xml:630
 msgid "<guimenu>Automatically synchronize remote mail locally</guimenu>"
-msgstr ""
+msgstr "<guimenu>Automaticky synchronizovat vzdálenou poštu lokálně</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:438 xml/apps_evolution.xml:633
 msgid "Select this to download all your mail, so you can read it offline."
 msgstr ""
+"Tuto možnost vyberte, chcete-li stáhnout veškerou poštu, abyste ji mohli "
+"číst offline."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:453
 msgid "POP Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu u POP"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:454
@@ -578,11 +707,13 @@ msgid ""
 "If you selected POP as the receiving server type, you will now see a page of "
 "options to specify the behavior of Evolution."
 msgstr ""
+"Jestliže jste jako typ přijímajícího serveru vybrali POP, zobrazí se nyní "
+"stránka možností pro specifikaci chování Evolution."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:475
 msgid "<guimenu>Leave messages on server</guimenu>"
-msgstr ""
+msgstr "<guimenu>Ponechat zprávy na serveru</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:478
@@ -591,11 +722,14 @@ msgid ""
 "when you download it to your computer. You can also set a period of time for "
 "which the messages will be kept on the server after they were downloaded."
 msgstr ""
+"Vyberte, zda chcete nechat poštu na serveru nebo ji ze serveru smazat, když "
+"ji stáhnete do počítače. Můžete také nastavit dobu, po kterou budou zprávy "
+"po stažení drženy na serveru."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:487
 msgid "<guimenu>Disable support for all POP3 extensions</guimenu>"
-msgstr ""
+msgstr "<guimenu>Vypnout podporu všech rozšíření POP3</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:490
@@ -603,11 +737,13 @@ msgid ""
 "Disabling POP3 extensions can help with old or misconfigured servers. Select "
 "if you have trouble receiving mail."
 msgstr ""
+"Zakázat rozšíření POP3 může pomoci se starými nebo nesprávně konfigurovanými "
+"servery. Vyberte, máte-li potíže s příjmem pošty."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:506
 msgid "USENET News Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu zpráv USENET"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:507
@@ -615,16 +751,18 @@ msgid ""
 "If you selected USENET News as the receiving server type, you will now see a "
 "page of options to specify the behavior of Evolution."
 msgstr ""
+"Jestliže jste jako typ přijímajícího serveru vybrali USENET News, zobrazí se "
+"vám stránka s možnostmi, jak určit chování Evolution."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:531 xml/apps_evolution.xml:614
 msgid "Select if you want to apply filters to new messages."
-msgstr ""
+msgstr "Vyberte, zda chcete na nové zprávy použít filtry."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:537
 msgid "<guimenu>Show folders in short notations</guimenu>"
-msgstr ""
+msgstr "<guimenu>Zobrazit složky v krátkém formátu</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:540
@@ -632,12 +770,16 @@ msgid ""
 "Abbreviate folder names, for example, <literal>comp.os.linux</literal> "
 "appears as <literal>c.o.linux</literal>."
 msgstr ""
+"Zkrátí názvy složek, například <literal>comp.os.linux</literal> zobrazí jako "
+"<literal>c.o.linux</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:548
 msgid ""
 "<guimenu>In the subscription dialog, show relative folder names</guimenu>"
 msgstr ""
+"<guimenu>V dialogu výběru složek pro odběr ukázat relativní názvy "
+"složek</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:551
@@ -646,11 +788,13 @@ msgid ""
 "<literal>evolution.mail</literal> would appear as <literal>evolution</"
 "literal>."
 msgstr ""
+"Zobrazit jen název složky. Například složka <literal>evolution.mail</literal>"
+" se zobrazí jako <literal>evolution</literal>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:568
 msgid "Exchange Web Services Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu od webových služeb Exchange"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:569
@@ -658,21 +802,24 @@ msgid ""
 "If you selected Exchange Web Services as the receiving server type, you will "
 "now see a page of options to specify the behavior of Evolution."
 msgstr ""
+"Jestliže jste jako typ přijímajícího serveru vybrali webovou službu Exchange "
+"Web Services, zobrazí se nyní stránka možností pro specifikaci chování "
+"Evolution."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:639
 msgid "<guimenu>Connection timeout (in seconds)</guimenu>"
-msgstr ""
+msgstr "<guimenu>Prodleva spojení (sekund)</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:642
 msgid "Set maximum time to wait for an answer from the server."
-msgstr ""
+msgstr "Nastavte maximální dobu čekání na odpověď ze serveru."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:648
 msgid "<guimenu>Cache offline address book</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kešovat off-line adresář</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:651
@@ -680,11 +827,14 @@ msgid ""
 "If you provided an OAB URL in the prior step, you can select caching an "
 "address book. This will make the address book available when offline."
 msgstr ""
+"Jestliže jste v předchozím kroku zadali adresu URL OAB (off-line adresáře), "
+"můžete vybrat ukládání do mezipaměti adresáře. Díky tomu bude adresář "
+"dostupný offline."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:668
 msgid "Local Delivery Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu místního doručení"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:669
@@ -692,6 +842,8 @@ msgid ""
 "If you selected that you want to receive mail through Local Delivery, you "
 "will now see a page of options to specify the behavior of Evolution."
 msgstr ""
+"Jestliže jste vybrali, že chcete přijímat poštu místním doručováním, zobrazí "
+"se nyní stránka možností pro specifikaci chování Evolution."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:675 xml/apps_evolution.xml:697
@@ -700,11 +852,14 @@ msgid ""
 "Select <guimenu>Check for new messages every ... minutes</guimenu> if you "
 "want Evolution to automatically check for new mail. Set how often to check."
 msgstr ""
+"Vyberte <guimenu>Zkontrolovat nové zprávy každých ... minut</guimenu>, pokud "
+"chcete, aby Evolution automaticky kontroloval novou poštu. Nastavte, jak "
+"často se má pošta kontrolovat."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:689
 msgid "MH-Format Mail Directories Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu poštovních adresářů ve formátu MH"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:690
@@ -713,6 +868,8 @@ msgid ""
 "Directories, you will now see a page of options to specify the behavior of "
 "Evolution."
 msgstr ""
+"Pokud jste vybrali, že chcete přijímat poštu přes poštovní adresáře formátu "
+"MH, zobrazí se nyní stránka možností pro specifikaci chování Evolution."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:702
@@ -720,11 +877,13 @@ msgid ""
 "Select <guimenu>Use the .folders summary file</guimenu> to use the "
 "<filename>.folders</filename> summary file."
 msgstr ""
+"Vyberte <guimenu>Použít souhrnný soubor .folders</guimenu>, aby se soubor "
+"<filename>.folders</filename> použil."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:715
 msgid "Maildir-Format Mail Directories Receiving Options"
-msgstr ""
+msgstr "Možnosti příjmu poštovních adresářů ve formátu Maildir"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:716
@@ -733,6 +892,9 @@ msgid ""
 "Directories, you will now see a page of options to specify the behavior of "
 "Evolution."
 msgstr ""
+"Jestliže jste vybrali, že chcete přijímat poštu prostřednictvím poštovních "
+"adresářů ve formátu Maildir, zobrazí se nyní stránka možností pro "
+"specifikaci chování Evolution."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:728 xml/apps_evolution.xml:754
@@ -740,11 +902,13 @@ msgid ""
 "Select <guimenu>Apply filters to new messages in Inbox</guimenu> if you want "
 "to apply filters to new messages."
 msgstr ""
+"Vyberte <guimenu>Aplikovat filtry na nové zprávy v Inbox</guimenu>, chcete-"
+"li aplikovat filtry na nové zprávy."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:741
 msgid "Standard Unix Mbox Spool or Directory Receiving Options"
-msgstr ""
+msgstr "Standardní unixová spool schránka nebo Možnosti příjmu do adresáře"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:742
@@ -753,6 +917,9 @@ msgid ""
 "or Directories, you will now see a page of options to specify the behavior "
 "of Evolution."
 msgstr ""
+"Jestliže jste vybrali, že chcete přijímat poštu prostřednictvím spool "
+"souboru unixové schránky (m[ail]box) nebo adresářů, zobrazí se nyní stránka "
+"možností pro specifikaci chování Evolution."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:760
@@ -760,11 +927,14 @@ msgid ""
 "Select <guimenu>Store status headers in Elm/Pine/Mutt format</guimenu> to "
 "store status headers in a way compatible with Elm, Pine, and Mutt."
 msgstr ""
+"Vyberte <guimenu>Uložit záhlaví stavu ve formátu Elm/Pine/Mutt</guimenu>, "
+"chcete-li uložit záhlaví stavu způsobem kompatibilním s e-mailovými klienty "
+"Elm, Pine a Mutt."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:775
 msgid "Sending Mail"
-msgstr ""
+msgstr "Odesílání e-mailu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:776
@@ -774,21 +944,25 @@ msgid ""
 "server configuration is necessary for this. Otherwise, this page will be "
 "skipped."
 msgstr ""
+"Nyní, když jste zadali informace o tom, jak máte v plánu přijímat poštu, "
+"Evolution potřebuje vědět, jak ji chcete odeslat. K tomu je obvykle nutná "
+"konfigurace jiného serveru/služby (SMTP). Jinak (je-li použit stejný server "
+"jako pro příjem pošty) bude tato stránka přeskočena."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:783
 msgid "Select a server type from the <guimenu>Server Type</guimenu> list."
-msgstr ""
+msgstr "Ze seznamu <guimenu>Typ serveru</guimenu> vyberte typ serveru."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:786
 msgid "The following server types are available:"
-msgstr ""
+msgstr "Dostupné typy odesílacích serverů/služeb:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:790
 msgid "Sendmail:"
-msgstr ""
+msgstr "Sendmail:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:791
@@ -797,11 +971,14 @@ msgid ""
 "flexible, but is not as easy to configure, so you should select this option "
 "only if you know how to set up a Sendmail service."
 msgstr ""
+"K odesílání pošty z vašeho systému bude použit program Sendmail. Sendmail je "
+"flexibilnější, ale není tak snadno konfigurovatelný, takže tuto možnost "
+"byste měli vybrat pouze tehdy, pokud víte, jak nastavit službu Sendmail."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:798
 msgid "SMTP:"
-msgstr ""
+msgstr "SMTP:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:799
@@ -809,16 +986,20 @@ msgid ""
 "Sends mail using a separate mail server. This is the most common choice for "
 "sending mail. If you choose SMTP, there are additional configuration options."
 msgstr ""
+"Odesílá poštu pomocí samostatného poštovního serveru/služby. Toto je "
+"nejběžnější volba pro odesílání pošty. Pokud zvolíte SMTP, existují další "
+"možnosti konfigurace."
 
 #. (itstool) path: procedure/title
 #: xml/apps_evolution.xml:806
 msgid "SMTP Configuration"
-msgstr ""
+msgstr "Konfigurace SMTP"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:808
 msgid "Type the host address in the <guimenu>Server</guimenu> field."
 msgstr ""
+"Zadejte adresu hostitele (např. DNS název) do pole <guimenu>Server</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:811
@@ -826,30 +1007,32 @@ msgid ""
 "If you are not sure what your host address is, contact your <phrase os="
 "\"sles;sled\">system administrator or</phrase> e-mail provider."
 msgstr ""
+"Neznáte-li přesnou adresu hostitele, kontaktujte svého <phrase os=\"sles;"
+"sled\">správce systému</phrase> nebo poskytovatele e-mailových služeb."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:817
 msgid "Select if your server requires authentication."
-msgstr ""
+msgstr "Zvolte, když hostitel - server vyžaduje ověření."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:820
 msgid ""
 "If you selected that your server requires authentication, you need to "
 "provide the following information:"
-msgstr ""
+msgstr "Vyžaduje-li server ověření, musíte ještě zadat tyto údaje:"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:832
 msgid ""
 "Select your authentication type in the <guimenu>Authentication</guimenu> "
 "list."
-msgstr ""
+msgstr "Vyberte typ ověření ze seznamu <guimenu>Ověření</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:836
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:839
@@ -857,6 +1040,9 @@ msgid ""
 "Click <guimenu>Check for Supported Types</guimenu> to have Evolution check "
 "for supported types. Then choose one of the options without a strikeout."
 msgstr ""
+"Po kliknutí na <guimenu>Zkontrolovat podporované typy</guimenu> zjistí "
+"Evolution typy ověření, které server podporuje, a zobrazí je. Poté vyberte "
+"jednu z nepřeškrtnutých možností."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:844
@@ -865,16 +1051,20 @@ msgid ""
 "Therefore, clicking this button is not a guarantee that the shown mechanisms "
 "actually work."
 msgstr ""
+"Některé servery neohlašují ověřovací mechanismy, které podporují. Proto "
+"klepnutí na toto tlačítko není zárukou, že uvedené mechanismy skutečně "
+"fungují."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:851
 msgid "Type your user name in the <guimenu>Username</guimenu> field."
 msgstr ""
+"Zadejte své uživatelské jméno do pole <guimenu>Uživatelské jméno</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:866
 msgid "Final Steps"
-msgstr ""
+msgstr "Závěrečné kroky"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:867
@@ -884,6 +1074,9 @@ msgid ""
 "account name on the <guimenu>Name</guimenu> field. Proceed to the next page "
 "and confirm your changes."
 msgstr ""
+"Po dokončení procesu konfigurace e-mailu je třeba stanovit název účtu, který "
+"může být libovolný. Do pole <guimenu>Název</guimenu> zadejte název účtu. "
+"Přejděte na další stránku a potvrďte své změny."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:873
@@ -892,16 +1085,19 @@ msgid ""
 "passwords and whether you want to save them or want to always enter them "
 "when starting Evolution."
 msgstr ""
+"V závislosti na vaší konfiguraci můžete být nyní vyzváni k zadání vašich e-"
+"mailových hesel a toho, zda je chcete uložit, nebo je chcete vždy při "
+"spuštění Evolution zadat."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:878
 msgid "The Evolution main window will then open for the first time."
-msgstr ""
+msgstr "Poté se poprvé otevře hlavní okno Evolution."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:884
 msgid "Using Evolution"
-msgstr ""
+msgstr "Používání Evolution"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:886
@@ -910,11 +1106,13 @@ msgid ""
 "using Evolution. This section sums up the most important parts of the user "
 "interface."
 msgstr ""
+"Po dokončení konfigurace při prvním spuštění jste připraveni začít používat "
+"Evolution. Tento oddíl shrnuje nejdůležitější části uživatelského rozhraní."
 
 #. (itstool) path: figure/title
 #: xml/apps_evolution.xml:893
 msgid "Evolution Window"
-msgstr ""
+msgstr "Okno Evolution"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -924,23 +1122,25 @@ msgstr ""
 #: xml/apps_evolution.xml:896 xml/apps_evolution.xml:899
 msgctxt "_"
 msgid "external ref='evolution.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='evolution.png' md5='__failed__'"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:906
 msgid "Menu Bar"
-msgstr ""
+msgstr "Panel hlavního menu"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:908
 msgid ""
 "The menu bar gives you access to nearly all of the features of Evolution."
 msgstr ""
+"Panel menu umožňuje přístup téměř ke všem funkcím e-mailového klienta "
+"Evolution."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:914
 msgid "Folder List"
-msgstr ""
+msgstr "Seznam složek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:916
@@ -949,11 +1149,14 @@ msgid ""
 "To see the contents of a folder, click the folder name. The contents are "
 "displayed in the e-mail list."
 msgstr ""
+"Seznam složek vám pro každý účet poskytne seznam jemu dostupných složek. "
+"Chcete-li zobrazit obsah složky, klikněte na její název. Obsah se zobrazí v "
+"seznamu e-mailů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:924
 msgid "Toolbar"
-msgstr ""
+msgstr "Panel nástrojů"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:926
@@ -961,11 +1164,13 @@ msgid ""
 "The toolbar gives you fast and easy access to the frequently used features "
 "in each component."
 msgstr ""
+"Panel nástrojů umožňuje rychlý a snadný přístup k často používaným funkcím "
+"každé komponenty Evolution."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:933
 msgid "Search Bar"
-msgstr ""
+msgstr "Vyhledávací lišta"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:935
@@ -975,11 +1180,15 @@ msgid ""
 "a search term, and an account or folder. The Search bar can also save "
 "frequently used searches to a search folder."
 msgstr ""
+"Vyhledávací lišta umožňuje hledat e-maily. Můžete filtrovat e-maily, "
+"kontakty a položky kalendáře a úkoly podle různých kritérií: jmenovky, "
+"hledaného výrazu a účtu nebo složky. Vyhledávací lišta může také uložit "
+"často používaná vyhledávání do vyhledávací složky."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:944 xml/apps_evolution.xml:1188
 msgid "Message List"
-msgstr ""
+msgstr "Seznam zpráv"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:946
@@ -987,11 +1196,13 @@ msgid ""
 "The message list displays a list of e-mails that you have received. To view "
 "an e-mail in the preview pane, select the e-mail."
 msgstr ""
+"Seznam zpráv zobrazuje seznam přijatých e-mailů. Chcete-li zobrazit e-mail v "
+"podokně náhledu, vyberte jej."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:953
 msgid "Shortcut Bar"
-msgstr ""
+msgstr "Lišta zástupců"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:955
@@ -999,11 +1210,13 @@ msgid ""
 "The shortcut bar at the left lets you switch between folders and program "
 "components."
 msgstr ""
+"Nalevo umístěná lišta zástupců umožňuje přepínat mezi složkami a "
+"komponentami programu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:962
 msgid "Statusbar"
-msgstr ""
+msgstr "Stavový řádek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:964
@@ -1011,6 +1224,8 @@ msgid ""
 "The statusbar periodically displays a message, or informs you about the "
 "progress of a task, such as sending e-mail."
 msgstr ""
+"Stavový řádek pravidelně zobrazuje zprávu nebo vás informuje o průběhu "
+"úkolu, například odeslání e-mailu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:968
@@ -1019,23 +1234,25 @@ msgid ""
 "Online/Offline indicator to switch between being using Evolution in online "
 "or offline mode."
 msgstr ""
+"Zcela nalevo je umístěn indikátor Offline/Online. Jeho klikáním přepínáte "
+"mezi režimy Evolution - offline a online."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:976 xml/apps_evolution.xml:1200
 msgid "Preview Pane"
-msgstr ""
+msgstr "Podokno náhledu"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:978
 msgid ""
 "The preview pane displays the contents of the e-mails that are selected in "
 "the e-mail list."
-msgstr ""
+msgstr "Podokno náhledu zobrazuje obsah e-mailů vybraných v seznamu e-mailů."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:987
 msgid "The Menu Bar"
-msgstr ""
+msgstr "Panel menu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:988
@@ -1043,11 +1260,13 @@ msgid ""
 "The menu bar’s contents always provide all the possible actions for any view "
 "of your data."
 msgstr ""
+"Obsah panelu menu vždy poskytuje všechny možné akce pro jakékoli zobrazení "
+"vašich dat."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:993
 msgid "File:"
-msgstr ""
+msgstr "Soubor:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:994
@@ -1056,51 +1275,54 @@ msgid ""
 "falls under this menu, such as creating things, saving them to disk, "
 "printing them, and quitting the program itself."
 msgstr ""
+"Do této nabídky obvykle spadá vše, co souvisí se souborem nebo operacemi "
+"aplikace, jako je vytváření souborů, jejich ukládání na disk, jejich tisk a "
+"ukončení celého programu."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1001
 msgid "Edit:"
-msgstr ""
+msgstr "Úpravy:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1002
 msgid "Contains tools to edit text and most configuration options."
-msgstr ""
+msgstr "Obsahuje nástroje pro úpravu textu a většinu možností konfigurace."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1007
 msgid "View:"
-msgstr ""
+msgstr "Zobrazení:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1008
 msgid "Allows configuring the appearance of Evolution."
-msgstr ""
+msgstr "Umožňuje konfiguraci vzhledu Evolution."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1013
 msgid "Message:"
-msgstr ""
+msgstr "Zpráva:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1014
 msgid "Contains actions that can be applied to a message."
-msgstr ""
+msgstr "Obsahuje možné akce, které lze provést se zprávou."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1019
 msgid "Folder:"
-msgstr ""
+msgstr "Složka:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1020
 msgid "Contains actions that can be performed on folders."
-msgstr ""
+msgstr "Obsahuje akce, které lze provádět se složkami."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1025
 msgid "Search:"
-msgstr ""
+msgstr "Hledat:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1026
@@ -1108,21 +1330,23 @@ msgid ""
 "Lets you search for messages, or phrases within a message. You can also see "
 "previous searches you have made."
 msgstr ""
+"Umožňuje vyhledávat zprávy nebo části textu zpráv. Můžete také vidět "
+"předchozí vyhledávání, která jste provedli."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1032
 msgid "Help:"
-msgstr ""
+msgstr "Nápověda:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1033
 msgid "Opens the Evolution application help."
-msgstr ""
+msgstr "Otevře nápovědu aplikace Evolution."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1040
 msgid "The Shortcut Bar"
-msgstr ""
+msgstr "Lišta zástupců"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1041
@@ -1132,6 +1356,9 @@ msgid ""
 "buttons at the bottom are shortcuts to the individual components, such as "
 "Mail and Contacts."
 msgstr ""
+"Lišta zástupců je sloupec na levé straně hlavního okna. V horní části je "
+"seznam složek pro zvolenou komponentu Evolution. Tlačítka dole jsou zástupci "
+"jednotlivých komponent, například Pošta a Kontakty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1047
@@ -1143,6 +1370,13 @@ msgid ""
 "guimenu>, for local information. For example, the folder list for the e-mail "
 "component shows all your e-mail accounts, local folders, and search folders."
 msgstr ""
+"Seznam složek organizuje vaše e-maily, kalendáře, seznamy kontaktů a seznamy "
+"úkolů do stromu. Většina lidí najde jednu až čtyři složky na základně "
+"stromu, v závislosti na komponentě a konfiguraci systému. Každá komponenta "
+"Evolution má alespoň jednu složku, nazvanou <guimenu>Na tomto "
+"počítači</guimenu>, kde jsou místní informace. Například seznam složek "
+"komponenty Pošta zobrazuje všechny vaše e-mailové účty, místní složky a "
+"složky hledání."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1056
@@ -1151,16 +1385,19 @@ msgid ""
 "it. In Evolution, you can create own e-mail folders, address books, "
 "calendars, task lists, or memo lists."
 msgstr ""
+"Dostáváte-li velké množství e-mailů, budete potřebovat další způsoby "
+"uspořádávání. V aplikaci Evolution můžete vytvářet vlastní e-mailové složky, "
+"adresáře, kalendáře, seznamy úkolů nebo seznamy poznámek."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:1062
 msgid "Creating a folder"
-msgstr ""
+msgstr "Vytvoření složky"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1063
 msgid "To create a new folder:"
-msgstr ""
+msgstr "K vytvoření nové složky:"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1068
@@ -1168,59 +1405,61 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>New</"
 "guimenu><guimenu>Mail Folder</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Soubor</guimenu> "
+"<guimenu>Nový</guimenu><guimenu>Složka pošty</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1074
 msgid ""
 "Type the name of the folder in the <guimenu>Folder Name</guimenu> field."
-msgstr ""
+msgstr "Zadejte název složky do pole <guimenu>Název složky</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1079
 msgid "Select the location of the new folder."
-msgstr ""
+msgstr "Zvolte umístění nové složky."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1084
 msgid "Click <guimenu>Create</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>Vytvořit</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:1091
 msgid "Folder Management"
-msgstr ""
+msgstr "Správa složek"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1092
 msgid ""
 "Right-click a folder or subfolder to display a menu with the following "
 "options:"
-msgstr ""
+msgstr "Pravý klik složky nebo podsložky zobrazí nabídku možností:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1097
 msgid "<guimenu>Mark All Messages As Read</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Označit všechny zprávy jako přečtené</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1098
 msgid "Marks all the messages in the folder as read."
-msgstr ""
+msgstr "Označí všechny zprávy ve složce jako přečtené."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1103
 msgid "<guimenu>New Folder</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Nová složka</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1104
 msgid "Creates a new folder or subfolder in the same location."
-msgstr ""
+msgstr "Vytvoří novou složku nebo podsložku v tomtéž umístění."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1109
 msgid "<guimenu>Copy Folder To</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Kopírovat složku do</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1110
@@ -1228,62 +1467,64 @@ msgid ""
 "Copies the folder to a different location. When you select this item, "
 "Evolution offers a choice of locations to copy the folder to."
 msgstr ""
+"Zkopíruje složku do jiného umístění. Když vyberete tuto položku, Evolution "
+"nabídne výběr umístění, do kterých se složka může zkopírovat."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1116
 msgid "<guimenu>Move Folder To</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Přesunout složku do</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1117
 msgid "Moves the folder to another location."
-msgstr ""
+msgstr "Přesune složku do jiného umístění."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1122
 msgid "<guimenu>Delete</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Smazat</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1123
 msgid "Deletes the folder and all contents."
-msgstr ""
+msgstr "Smaže složku a všechen její obsah."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1128
 msgid "<guimenu>Rename</guimenu>:"
-msgstr ""
+msgstr "<guimenu>Přejmenovat</guimenu>:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1129
 msgid "Lets you change the name of the folder."
-msgstr ""
+msgstr "Umožní Vám změnit název složky."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1134
 msgid "Refresh:"
-msgstr ""
+msgstr "Aktualizovat:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1135
 msgid "Refreshes the folder."
-msgstr ""
+msgstr "Aktualizuje zobrazení složky."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1140
 msgid "Properties:"
-msgstr ""
+msgstr "Vlastnosti:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1141
 msgid "Shows the number of total and unread messages in a folder."
-msgstr ""
+msgstr "Ukáže počet všech a nepřečtených zpráv ve složce."
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1145
 msgid ""
 "You can also rearrange folders and messages by dragging and dropping them."
-msgstr ""
+msgstr "Složky a zprávy můžete také přeskupit přetažením."
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1148
@@ -1291,41 +1532,43 @@ msgid ""
 "Any time new e-mail arrives in an e-mail folder, that folder label is "
 "displayed in bold text, along with the number of new messages in that folder."
 msgstr ""
+"Kdykoli do e-mailové složky dorazí nový e-mail, zobrazí se její název tučně "
+"spolu s počtem nových zpráv v dané složce."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1157
 msgid "Using E-Mail"
-msgstr ""
+msgstr "Používání e-mailu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1158
 msgid "The e-mail component of Evolution has the following standout features:"
-msgstr ""
+msgstr "E-mailová komponenta Evolution má tyto standardní funkce:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1163
 msgid "It supports multiple e-mail sources from many protocols."
-msgstr ""
+msgstr "Podporuje více e-mailových zdrojů a mnoho protokolů."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1168
 msgid "It lets you guard your privacy with encryption."
-msgstr ""
+msgstr "Umožní Vám chránit vaše soukromí šifrováním."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1173
 msgid "It can speedily handle large amounts of e-mail."
-msgstr ""
+msgstr "Dokáže rychle zpracovat velké množství e-mailů."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1178
 msgid "Search folders allow you to come back to often-used searches."
-msgstr ""
+msgstr "Složky vyhledávání umožňují návrat k často používaným hledáním."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1183
 msgid "Below is a summary of the user interface elements of the e-mail window."
-msgstr ""
+msgstr "Níže je uveden přehled prvků uživatelského rozhraní v okně e-mailu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1190
@@ -1335,11 +1578,15 @@ msgid ""
 "the <guimenu>Show</guimenu> drop-down box above the message you can filter "
 "the message list view using predefined and custom labels."
 msgstr ""
+"Seznam zpráv zobrazuje všechny e-maily, které máte. To zahrnuje všechny vaše "
+"přečtené a nepřečtené zprávy a zprávy označené jako smazané. V rozevíracím "
+"seznamu <guimenu>Zobrazit</guimenu> nad zprávou můžete filtrovat zobrazení "
+"seznamu zpráv pomocí předdefinovaných a vlastních štítků."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1202
 msgid "This is where your e-mail is displayed."
-msgstr ""
+msgstr "Zde je zobrazen Váš e-mail."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1205
@@ -1349,6 +1596,10 @@ msgid ""
 "open in a new window. To change the size of a pane, drag the divider between "
 "the two panes."
 msgstr ""
+"Pokud zjistíte, že podokno náhledu je příliš malé, můžete změnit velikost "
+"podokna, zvětšit celé okno nebo poklepáním na zprávu v seznamu zpráv ji "
+"otevřít v novém okně. Chcete-li změnit velikost podokna, posuňte oddělovač "
+"mezi dvěma podokny."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1211
@@ -1357,6 +1608,10 @@ msgid ""
 "menu of possible actions. This includes moving or deleting them, creating "
 "filters or search folders based on them, and marking them as junk mail."
 msgstr ""
+"Stejně jako u složek můžete v seznamu zpráv kliknout pravým tlačítkem myši a "
+"získat nabídku možných akcí. Jsou to: přesouvání nebo mazání, vytváření "
+"filtrů nebo prohledávání složek na jejich základě a označení zpráv jako "
+"nevyžádané pošty."
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1217
@@ -1365,11 +1620,15 @@ msgid ""
 "<guimenu>Forward</guimenu>, appear as buttons in the toolbar and are also "
 "located in the right-click menu."
 msgstr ""
+"Akce související s e-mailovou zprávou, jako např. "
+"<guimenu>Odpovědět</guimenu> a <guimenu>Přeposlat</guimenu>, se zobrazují "
+"jako tlačítka na panelu nástrojů a jsou také umístěny v nabídce po kliknutí "
+"pravým tlačítkem."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1225
 msgid "Templates"
-msgstr ""
+msgstr "Šablony"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1227
@@ -1377,11 +1636,13 @@ msgid ""
 "Evolution allows you to create and edit message templates that you can use "
 "at any time to send mail with the same pattern."
 msgstr ""
+"Evolution umožňuje vytvářet a upravovat šablony zpráv, které můžete kdykoli "
+"použít k odesílání pošty stejného typu."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1237
 msgid "Calendaring"
-msgstr ""
+msgstr "Kalendář"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1238
@@ -1392,21 +1653,26 @@ msgid ""
 "where you can keep a list of tasks separate from your calendar appointments. "
 "Below that, there is a list for memos."
 msgstr ""
+"Chcete-li začít používat kalendář, klikněte na <guimenu>Kalendář</guimenu> "
+"na panelu zástupců. Ve výchozím nastavení kalendář zobrazuje dnešní rozvrh "
+"na linkovaném pozadí. Vpravo nahoře je seznam <guimenu>Úkoly</guimenu>, kde "
+"můžete seznam úkolů uchovávat odděleně od schůzek v kalendáři. Níže je "
+"seznam poznámek."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1247
 msgid "Appointment List"
-msgstr ""
+msgstr "Seznam schůzek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1249
 msgid "The appointment list displays all your scheduled appointments."
-msgstr ""
+msgstr "Seznam schůzek zobrazuje všechny Vaše naplánované schůzky."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1255
 msgid "Month Pane"
-msgstr ""
+msgstr "Podokno Měsíc"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1257
@@ -1415,11 +1681,13 @@ msgid ""
 "range of days in the month pane to display a custom range of days in the "
 "appointment list."
 msgstr ""
+"Podokno měsíce je malé zobrazení kalendářního měsíce. Můžete také vybrat "
+"rozsah dní v podokně měsíce a zobrazit vlastní rozsah dní v seznamu schůzek."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1265
 msgid "Tasks"
-msgstr ""
+msgstr "Úkoly"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1267
@@ -1428,11 +1696,14 @@ msgid ""
 "times associated with them. You can see a larger view of your task list by "
 "clicking <guimenu>Tasks</guimenu> in the shortcut bar."
 msgstr ""
+"Úkoly se liší od schůzek, protože obvykle nemají přidružené termíny. "
+"Kliknutím na <guimenu>Úkoly</guimenu> na panelu zástupců zvětšíte zobrazení "
+"seznamu úkolů."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1275
 msgid "Memos"
-msgstr ""
+msgstr "Poznámky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1277
@@ -1441,11 +1712,14 @@ msgid ""
 "larger view of your Memo list by clicking <guimenu>Memos</guimenu> in the "
 "shortcut bar."
 msgstr ""
+"Poznámky, tak jako úkoly, nemají přidružené termíny. Kliknutím na ikonu "
+"<guimenu>Poznámky</guimenu> na panelu zástupců můžete zobrazit větší "
+"zobrazení seznamu poznámek."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1288
 msgid "Managing Contacts"
-msgstr ""
+msgstr "Správa kontaktů"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1289
@@ -1454,6 +1728,9 @@ msgid ""
 "shortcut bar. The Evolution contacts component can handle all of the "
 "functions of an address book or phone book."
 msgstr ""
+"Chcete-li použít složku kontaktů, klikněte na <guimenu>Kontakty</guimenu> na "
+"panelu zástupců. Komponenta kontaktů Evolution zvládne všechny funkce "
+"adresáře nebo telefonního seznamu."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1294
@@ -1463,6 +1740,11 @@ msgid ""
 "right-click an e-mail address or double-click an empty space in the right "
 "pane. You can also search contacts using the search bar."
 msgstr ""
+"Dokáže však více než papírový adresář. Chcete-li sdílet svůj adresář v síti, "
+"můžete použít adresáře LDAP. Chcete-li vytvořit novou položku kontaktu, "
+"klepněte pravým tlačítkem myši na e-mailovou adresu nebo poklepejte na "
+"prázdné místo v pravém podokně. Kontakty můžete hledat i pomocí vyhledávací "
+"lišty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1300
@@ -1471,11 +1753,14 @@ msgid ""
 "card-based view. You can select other views from the <guimenu>View</guimenu> "
 "menu."
 msgstr ""
+"Ve výchozím nastavení se na displeji zobrazují všechny vaše kontakty v "
+"abecedním pořadí. Z nabídky <guimenu>Zobrazit</guimenu> můžete vybrat další "
+"pohledy."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:1308
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:1310
@@ -1483,6 +1768,8 @@ msgid ""
 "Get more information about Evolution from the application help available via "
 "<keycap>F1</keycap>."
 msgstr ""
+"Další informace o Evolution získáte z nápovědy k aplikaci dostupné po "
+"stisknutí <keycap>F1</keycap>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:1315
@@ -1490,3 +1777,5 @@ msgid ""
 "Find more information on the project home page <link xlink:href=\"https://"
 "wiki.gnome.org/Apps/Evolution\"/>."
 msgstr ""
+"Další informace najdete na domovské stránce projektu <link xlink:href=\""
+"https://wiki.gnome.org/Apps/Evolution\"/>."

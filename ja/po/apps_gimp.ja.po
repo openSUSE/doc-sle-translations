@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-15 19:49+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_gimp-master/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_gimp.xml:9
 msgid "GIMP: Manipulating Graphics"
-msgstr ""
+msgstr "GIMP: 画像の編集"
 
 #. (itstool) path: abstract/para
 #: xml/apps_gimp.xml:12
@@ -48,7 +50,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:33
 msgid "Graphics Formats"
-msgstr ""
+msgstr "画像形式"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:35
@@ -57,11 +59,13 @@ msgid ""
 "intended for working with raster graphics, which are most often used for "
 "digital photographs or scanned images."
 msgstr ""
+"デジタル画像には 2 種類のものがあります。一方はビットマップ (ラスタ) 画像、もう一方はベクトル画像です。 GIMP "
+"では、デジタルカメラやスキャナ画像などのほとんどで使用される、ビットマップ画像を扱うことを主な目的として開発されています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_gimp.xml:42
 msgid "Raster Images"
-msgstr ""
+msgstr "ビットマップ (ラスタ) 画像"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_gimp.xml:43
@@ -72,18 +76,21 @@ msgid ""
 "large. It is not possible to increase the size of a raster image without "
 "losing quality."
 msgstr ""
+"ビットマップ画像はピクセル (点) の集まりで画像を表わすものです。ピクセルとは、それぞれが別々の色を持ちうる小さいブロックで、高解像度の画像ほど多数のピ"
+"クセルを使用して画像を表わします。このような仕組みから、高解像度の画像ほど巨大なデータになる仕組みです。また、画像を拡大しようとすると、きれいには拡大でき"
+"ず、見た目の品質が損なわれてしまいます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:52
 msgid ""
 "GIMP supports most common formats of raster graphics, like JPEG, PNG, GIF, "
 "BMP, TIFF, PSD, and more."
-msgstr ""
+msgstr "GIMP では、 JPEG, PNG, GIF, BMP, TIFF, PSD など、ほとんどのビットマップ形式に対応しています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_gimp.xml:58
 msgid "Vector Images"
-msgstr ""
+msgstr "ベクトル画像"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_gimp.xml:59
@@ -95,6 +102,9 @@ msgid ""
 "very large. However, their file size is usually independent of their display "
 "size."
 msgstr ""
+"ビットマップ画像とは異なり、ベクトル画像は各々のピクセルに関する情報は保持していません。その代わり、点や線、曲線や多角形などの形で画像を保存しています。そ"
+"のため、ベクトル画像は容易に拡大や縮小を行なうことができます。また、データサイズはその内容に依存して決まりますが、表示する際のサイズとは無関係に、大きくも"
+"小さくもなりうる仕組みです。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:69
@@ -105,11 +115,15 @@ msgid ""
 "very limited support for vector graphics. For example, GIMP can open and "
 "rasterize vector graphics in SVG format or work with vector paths."
 msgstr ""
+"ベクトル画像は、写真のように多数の色を複雑に並べるような画像には向いていません。また、ベクトル画像は Inkscape "
+"などのように、ベクトル画像向けの特殊なアプリケーションを使用する必要があります。 GIMP "
+"でもベクトル画像には対応していますが、サポート範囲は非常に限られています。たとえば GIMP では SVG "
+"形式の画像を読み込んで表示することができるほか、ベクトルの線に関する情報を扱うこともできます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:77
 msgid "GIMP supports only the most common color spaces:"
-msgstr ""
+msgstr "GIMP では、下記のような一般的な色空間に対応しています:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:83
@@ -141,7 +155,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:109
 msgid "Starting GIMP"
-msgstr ""
+msgstr "GIMP の起動"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:111
@@ -153,7 +167,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:117
 msgid "User Interface Overview"
-msgstr ""
+msgstr "ユーザインターフェイスの概要"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:119
@@ -164,6 +178,9 @@ msgid ""
 "longer needed, they can also be closed. Closing the image window when it is "
 "empty quits the application."
 msgstr ""
+"既定では、 GIMP は 3 つのウインドウを表示します。ツールボックス、メニューバー付きの画像ウインドウ (初期状態では空の画像を表示します) 、そして"
+"いくつかのドッキング可能なダイアログウインドウです。それぞれのウインドウは、画面内で自由に配置することができますし、不要であれば閉じることもできます。また"
+"、画像ウインドウに空の画像が表示されている状態で、そのウインドウを閉じると、アプリケーションが終了します。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:127
@@ -171,6 +188,8 @@ msgid ""
 "In the default configuration, GIMP saves your window layout when you quit. "
 "Dialogs left open reappear when you next start the program."
 msgstr ""
+"既定の設定では、 GIMP "
+"は終了時にウインドウの配置を保存します。ダイアログを表示させたまま終了した場合も、次回のプログラム起動時に表示するようになっています。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:132
@@ -183,7 +202,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:139
 msgid "The Image Window"
-msgstr ""
+msgstr "画像ウインドウ"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:140
@@ -194,13 +213,17 @@ msgid ""
 "in its own window. If there is more than one open image, each image has its "
 "own image window. There is always at least one image window open."
 msgstr ""
+"何も画像を読み込んでいない場合、画像ウインドウは空の状態になり、メニューバーとドロップエリアが表示されます。ドロップエリアはファイルを直接読み込むことので"
+"きる領域で、ドラッグ＆ドロップ (ファイルマネージャなどでファイルをマウスの左ボタンで選択し、ボタンを押したまま領域まで移動させてボタンを離す) すること"
+"で読み込みを行なうことができます。また、新しく画像を作成したり、既存の画像を読み込んだり、スキャナで画像をスキャンしたりした場合は、それぞれが別々のウイン"
+"ドウ内に表示されます。つまり、複数の画像は別々のウインドウ内に表示されます。また、画像ウインドウを全て閉じると、アプリケーションを終了することになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:147
 msgid ""
 "In Single-Window Mode, all image windows are accessible from a tab bar at "
 "the top of the window."
-msgstr ""
+msgstr "シングルウインドウモードの場合、画像ウインドウはタブ化されて表示されます。タブはウインドウの上部に表示されます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:151
@@ -209,6 +232,8 @@ msgid ""
 "functions. You can also access the menu by right-clicking the image or "
 "clicking the small arrow button in the top left corner of the rulers."
 msgstr ""
+"ウインドウの上部にあるメニューバーは、全ての画像機能にアクセスするための仕組みです。画像内でマウスの右ボタンを押すか、もしくは画像の左上にある定規内の小さ"
+"い三角形ボタンを押すことでも、メニューを表示することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:156
@@ -237,7 +262,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_gimp.xml:176 xml/apps_gimp.xml:190
 msgid "The Toolbox"
-msgstr ""
+msgstr "ツールボックス"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:177
@@ -255,6 +280,8 @@ msgid ""
 "top, there is a drop area which can be used to open any image file by simply "
 "dragging and dropping it there."
 msgstr ""
+"それぞれのツールに関する簡単な説明を読みたい場合は、マウスカーソルをアイコンの上にあわせてください。また最上部には、ドラッグ＆ドロップで画像を開くことので"
+"きるドロップエリアも用意されています。"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -276,6 +303,9 @@ msgid ""
 "lower left to reset the colors to the default. Click the box to open a color "
 "selection dialog."
 msgstr ""
+"ツールボックスの中程には、現在の描画色および背景色が 2 つの長方形で描かれています。描画色の既定値は黒、背景色の既定値は白です。その右上にある両方向の矢"
+"印ボタンを押すと、描画色と背景色を入れ替えることができます。また、左下にある白黒の長方形を押すと、それぞれの色を既定値に戻すことができます。色を選択したい"
+"場合は、それぞれの長方形の上でマウスの左ボタンを押してください。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:208
@@ -284,11 +314,13 @@ msgid ""
 "If it is not visible, open it by double-clicking the icon of the tool in the "
 "toolbox."
 msgstr ""
+"ツールボックスの下には、現在選択しているツールに対するオプションダイアログが表示されます。オプションダイアログが表示されない場合は、ツールボックス内のアイ"
+"コンをダブルクリックしてください。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:216
 msgid "Layers, Channels, Paths, Undo"
-msgstr ""
+msgstr "レイヤ／チャンネル／パス／取り消し"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:217
@@ -303,7 +335,7 @@ msgstr ""
 msgid ""
 "<guimenu>Channels</guimenu> shows the color channels of the current image "
 "and can manipulate them."
-msgstr ""
+msgstr "<guimenu>チャンネル</guimenu> には現在の画像に対するカラーチャンネルが表示され、ここからそれらを操作することもできます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:226
@@ -318,7 +350,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:237
 msgid "Getting Started"
-msgstr ""
+msgstr "基本操作"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:239
@@ -327,11 +359,13 @@ msgid ""
 "easy to use after they work out a few basics. Crucial basic functions are "
 "creating, opening, and saving images."
 msgstr ""
+"GIMP は新しく使い始めた場合には少しわかりにくいかもしれませんが、いくつかの基本機能を学ぶことで少しずつ使いやすさが分かってきます。主な基本機能は、画"
+"像の作成と読み込み、そして保存です。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:246
 msgid "Creating a New Image"
-msgstr ""
+msgstr "新しい画像の作成"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:249
@@ -350,7 +384,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apps_gimp.xml:261
 msgid "Custom Templates"
-msgstr ""
+msgstr "独自のテンプレートについて"
 
 #. (itstool) path: note/para
 #: xml/apps_gimp.xml:262
@@ -359,6 +393,9 @@ msgid ""
 "<guimenu>Dockable Dialogs</guimenu> <guimenu>Templates</guimenu> </"
 "menuchoice> and use the controls offered by the window that opens."
 msgstr ""
+"独自のテンプレートを作成するには、 <menuchoice> <guimenu>ウィンドウ</guimenu> "
+"<guimenu>ドッキング可能なダイアログ</guimenu> <guimenu>テンプレート</guimenu> </menuchoice> "
+"を選択し、表示されたウインドウが提供する機能でテンプレートを追加してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:271
@@ -367,6 +404,8 @@ msgid ""
 "create in pixels or another unit. Click the name of the unit to select "
 "another unit from the list of available units."
 msgstr ""
+"<guimenu>キャンバスサイズ (画像サイズ)</guimenu> には、画像のサイズをピクセル単位、もしくはその他の単位で指定します。単位を変更した"
+"い場合は、単位のドロップダウンボックスを選択して、一覧の中から選んでください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:278
@@ -383,6 +422,8 @@ msgid ""
 "graphics. For print images, use a higher resolution, such as 300 pixels per "
 "inch."
 msgstr ""
+"GIMP での既定の解像度は 72 ピクセル／インチです。これは一般的な画面表示に対応するもので、ほとんどの Web "
+"ページ向け画像でも使用されています。印刷目的の画像の場合は、 300 ピクセル／インチなど、より高い解像度を指定してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:288
@@ -402,6 +443,9 @@ msgid ""
 "guimenu> or <guimenu>Transparency</guimenu> for a transparent image. "
 "Transparency is represented by a gray checkerboard pattern."
 msgstr ""
+"<guimenu>塗りつぶし色</guimenu> では、画像を塗りつぶす色を選択します。ツールボックス内で選択している "
+"<guimenu>描画色</guimenu> や <guimenu>背景色</guimenu> のほか、 <guimenu>白</guimenu> "
+"もしくは透明画像向けに <guimenu>透明</guimenu> を選択することもできます。なお、透明色はグレーの市松模様で表わされます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:304
@@ -411,7 +455,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:312
 msgid "Opening an Existing Image"
-msgstr ""
+msgstr "既存の画像の読み込み"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:313
@@ -430,17 +474,17 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:324
 msgid "Saving and Exporting Images"
-msgstr ""
+msgstr "画像の保存とエクスポート"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:326
 msgid "GIMP makes a distinction between saving and exporting images."
-msgstr ""
+msgstr "GIMP では、画像の保存とエクスポートを区別して扱います。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_gimp.xml:331
 msgid "Saving an Image"
-msgstr ""
+msgstr "画像の保存"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_gimp.xml:332
@@ -450,6 +494,8 @@ msgid ""
 "repeatedly opening and saving the image will neither degrade its quality nor "
 "how well it can be edited."
 msgstr ""
+"作成もしくは編集した画像は、一切のデータを失うことなく全ての情報を保存することができます。これにはたとえば、レイヤやパスの情報なども含まれます。これにより"
+"、一般的な画像形式で発生しうる、品質の劣化などを防ぐことができるようになります。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:340
@@ -463,7 +509,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_gimp.xml:349
 msgid "Exporting an image"
-msgstr ""
+msgstr "画像のエクスポート"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_gimp.xml:350
@@ -473,6 +519,9 @@ msgid ""
 "often tell you which properties will be lost and ask you to decide how to "
 "proceed."
 msgstr ""
+"作成もしくは編集した画像をエクスポートすると、様々な情報が失われてしまいます。たとえば、ほとんどのエクスポート形式ではレイヤ機能に対応していない、などの問"
+"題があります。また、エクスポート時には、 GIMP "
+"でどのような情報が失われるのか、およびどれだけの品質でエクスポートを行なうのかを指定できるものもあります。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:358
@@ -487,7 +536,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:379
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:382
@@ -499,11 +548,15 @@ msgid ""
 "acceptable image quality with reasonable compression. Repeatedly opening a "
 "JPEG and then saving can quickly result in poor image quality."
 msgstr ""
+"写真のほか、透過機能を必要としない Web ページ画像で使用する一般的なファイル形式です。この圧縮形式では、ファイルサイズを大幅に小さくすることができます"
+"が、圧縮時に一部の情報が失われます。このファイル形式の場合、エクスポート時に品質を指定することができますので、プレビューを表示させて確認するとよいでしょう"
+"。一般的には 75% から 85% 程度の品質を指定すると、圧縮率と品質を両立させることができます。ただし、 JPEG "
+"形式で読み込んでエクスポートする処理を行なうたびに、画像の品質が劣化することに注意してください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:394
 msgid "GIF"
-msgstr ""
+msgstr "GIF"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:397
@@ -518,7 +571,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:408
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:411
@@ -535,19 +588,19 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_gimp.xml:425
 msgid "Editing Images"
-msgstr ""
+msgstr "画像の編集"
 
 #. (itstool) path: sect1/para
 #: xml/apps_gimp.xml:427
 msgid ""
 "GIMP provides several tools for making changes to images. The functions "
 "described here are those most interesting for smaller edits."
-msgstr ""
+msgstr "GIMP には画像を編集するための様々なツールが用意されています。ここで説明している機能は、小規模な編集作業を行なう際に使用する機能です。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:433
 msgid "Changing the Size of an Image"
-msgstr ""
+msgstr "画像のサイズ変更"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:434
@@ -557,6 +610,8 @@ msgid ""
 "printing. Images can easily be made smaller either by scaling them down or "
 "by cutting off parts of them."
 msgstr ""
+"スキャナでスキャンした画像やデジタルカメラで撮影した写真を使用する場合、一般に Web ページに表示する場合であっても、印刷を行なう場合であっても、サイズ"
+"を変更しなければならないことがよくあります。画像を小さくしたい場合は、サイズを縮小するか、画像の一部を切り取って対応することになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:440
@@ -565,11 +620,14 @@ msgid ""
 "graphics, quality is lost when an image is enlarged. It is recommended to "
 "keep a copy of your original image before scaling or cropping."
 msgstr ""
+"画像の拡大については、問題が発生しうる可能性を考慮しなければなりません。ビットマップ画像の仕組み上、画像を拡大してもきれいには拡大できず、結果として荒い画"
+"像になって品質が落ちてしまうためです。このようなことから、画像を縮小する場合や、切り抜きを行なう場合は、あらかじめ元のファイルを別に保存しておくことをお勧"
+"めします。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:447
 msgid "Cropping an Image"
-msgstr ""
+msgstr "画像の切り抜き"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:450
@@ -585,6 +643,8 @@ msgid ""
 "Click a starting corner and drag to outline the area to keep. A rectangle "
 "showing the crop area will appear."
 msgstr ""
+"まずは切り抜きたいエリアの角を選んでマウスの左ボタンを押し、ボタンを押したまま対向の角まで移動して、ボタンを離します。この際、切り抜きエリアを表わす長方形"
+"が表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:463
@@ -596,6 +656,9 @@ msgid ""
 "different position without resizing, click anywhere near its center and drag "
 "to the desired position."
 msgstr ""
+"長方形のサイズを調整したい場合は、マウスのポインタを任意の角や辺に移動して、マウスの左ボタンを押したままサイズを変更して、ボタンを離してください。幅と高さ"
+"の両方をいっぺんに変更したい場合は角を使用し、幅もしくは高さのいずれかを変更したい場合は、辺を使用します。サイズを変更することなく、長方形を異なる場所に移"
+"動したい場合は、中央付近を選択して移動してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:473
@@ -608,7 +671,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:482
 msgid "Scaling an Image"
-msgstr ""
+msgstr "画像の拡大・縮小"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:485
@@ -616,6 +679,8 @@ msgid ""
 "Select <menuchoice> <guimenu>Image</guimenu><guimenu>Scale Image</guimenu></"
 "menuchoice> to change the overall size of an image."
 msgstr ""
+"画像全体のサイズを変更したい場合は、 <menuchoice> "
+"<guimenu>画像</guimenu><guimenu>画像の拡大・縮小</guimenu></menuchoice> を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:491
@@ -641,6 +706,8 @@ msgid ""
 "resulting image. The default <guimenu>Cubic</guimenu> interpolation method "
 "usually is a good standard to use."
 msgstr ""
+"また、 <guimenu>補完方法</guimenu> のオプションを使用することで、生成される画像の品質を制御することができます。一般的には、既定値の "
+"<guimenu>キュービック</guimenu> 方式でかまいません。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:509
@@ -650,7 +717,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:516
 msgid "Changing the Canvas Size"
-msgstr ""
+msgstr "キャンバスサイズの変更"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:517
@@ -660,6 +727,8 @@ msgid ""
 "can only see part of the image. If the canvas is larger, you see the "
 "original image with extra space around it."
 msgstr ""
+"キャンバスは画像の中の見える領域全体を表わします。キャンバスと画像はお互いに独立していて、キャンバスが画像よりも小さいと、画像の一部のみが表示されますし、"
+"逆にキャンバスのほうが大きいと、元の画像の周囲に余分な領域が見えることになります。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:525
@@ -673,7 +742,7 @@ msgstr ""
 msgid ""
 "In the dialog that opens, enter the new size. To make sure the dimensions of "
 "the image stay the same, click the chain icon."
-msgstr ""
+msgstr "ダイアログボックスが表示されたら、新しいサイズを指定します。縦横の比率を従来通りにしたい場合は、鎖のアイコンを押して繋いだ状態にします。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:537
@@ -682,6 +751,8 @@ msgid ""
 "positioned in comparison to the new size. Use the <guimenu>Offset</guimenu> "
 "values or drag the box inside the frame at the bottom."
 msgstr ""
+"サイズを変更した後は、既存の画像をどのように配置すべきなのかを指定します。 <guimenu>オフセット</guimenu> "
+"の値を変更するか、枠内の画像を移動させて変更してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:545
@@ -691,7 +762,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:554
 msgid "Selecting Parts of Images"
-msgstr ""
+msgstr "画像の部分選択"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:555
@@ -708,14 +779,14 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:565
 msgid "Using the Selection Tools"
-msgstr ""
+msgstr "選択ツールの使用"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:566
 msgid ""
 "The main selection tools are easy to use. The more complicated paths tool is "
 "not described here."
-msgstr ""
+msgstr "主な選択ツールはいずれも使いやすいものです。複雑な選択ツールについては、本章では説明していません。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:570
@@ -724,11 +795,13 @@ msgid ""
 "subtracted from, or intersect with an existing selection, use the "
 "<guimenu>Mode</guimenu> row in the tool options."
 msgstr ""
+"新しい選択で既存の選択を置き換えるのか、もしくは新しい選択を既存の選択に追加するのか、もしくは既存の選択から新しい選択を削除するのか、既存のものと交差させ"
+"るのかなどについては、ツールオプション内の <guimenu>モード</guimenu> の行で指定してください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:581
 msgid "Rectangle Select"
-msgstr ""
+msgstr "矩形選択"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:583
@@ -739,11 +812,15 @@ msgid ""
 "<guimenu>Tool Options</guimenu> dialog. To create a square, hold <keycap "
 "function=\"shift\"/> while selecting a region."
 msgstr ""
+"このツールでは、長方形もしくは正方形の領域を選択することができます。縦横比や幅、高さなどを固定したい場合は、 "
+"<guimenu>ツールオプション</guimenu> 内で <guimenu>値を固定</guimenu> "
+"を選んだあと、必要な項目を選択してください。また、正方形で選択を行ないたい場合は、範囲を選択する際に <keycap function=\"shift\""
+"/> を押したまま選択してください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:593
 msgid "Ellipse Select"
-msgstr ""
+msgstr "楕円選択"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:595
@@ -752,11 +829,13 @@ msgid ""
 "available as with the rectangular selection. To create a circle, hold "
 "<keycap function=\"shift\"/> while selecting a region."
 msgstr ""
+"楕円もしくは正円で選択を行ないたい場合に使用します。オプションは矩形選択の場合と同じです。正円で選択を行ないたい場合は、 <keycap "
+"function=\"shift\"/> を押したまま選択してください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:603
 msgid "Free Select (Lasso)"
-msgstr ""
+msgstr "自由選択 (投げ輪)"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:605
@@ -768,11 +847,15 @@ msgid ""
 "and press it again where the segment should end. To complete the selection, "
 "hover the pointer above the starting point and click inside the circle."
 msgstr ""
+"このツールを使用することで、フリーハンドでの選択と多角形による選択の両方を行なうことができます。フリーハンドで範囲を選択したい場合は、開始位置でマウスの左"
+"ボタンを押し、ボタンを押したままマウスを移動させていってください。また、多角形の選択を行ないたい場合は、いずれかの角でマウスの左ボタンを押して離したあと、"
+"次の角までマウスを動かしてマウスの左ボタンを押して離す、を繰り返してください。選択を完了するには、開始位置までマウスを移動させ、表示された円を押してくださ"
+"い。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:617
 msgid "Fuzzy Select (Magic Wand)"
-msgstr ""
+msgstr "ファジー選択 (魔法の杖)"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:619
@@ -787,7 +870,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:629
 msgid "Select by Color"
-msgstr ""
+msgstr "色域を選択"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:631
@@ -804,7 +887,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:644
 msgid "Scissors"
-msgstr ""
+msgstr "電脳はさみ"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:646
@@ -813,24 +896,26 @@ msgid ""
 "connected based on color differences. Click the first point to close the "
 "area. Convert it to a regular selection by clicking inside it."
 msgstr ""
+"このツールは、画像内の点を複数個選択していって範囲を決める仕組みです。点を選択するたびに、点と点とが色の類似性を元にした線で結ばれます。最初の点を再度選択"
+"することで、範囲を決めることができます。また、内側をマウスのボタンで押すことで、通常の選択に変換することもできます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_gimp.xml:654
 msgid "Foreground Selection"
-msgstr ""
+msgstr "前景抽出選択"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:656
 msgid ""
 "The <guimenu>Foreground Selection</guimenu> tool lets you semi-automatically "
 "select an object in a photograph with minimal manual effort."
-msgstr ""
+msgstr "<guimenu>前景抽出選択</guimenu> ツールは、写真の中にある前景部分を、最小限の手間で半自動的に選択する機能を提供します。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:664
 msgid ""
 "To use the <guimenu>Foreground Selection</guimenu> tool, follow these steps:"
-msgstr ""
+msgstr "<guimenu>前景抽出選択</guimenu> ツールを使用するには、下記の手順で行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:670
@@ -840,6 +925,9 @@ msgid ""
 "<guimenu>Tools</guimenu> <guimenu>Selection Tools</guimenu> "
 "<guimenu>Foreground Select</guimenu> </menuchoice> from the menu."
 msgstr ""
+"<guimenu>ツールボックス</guimenu> 内のアイコンを押すか、もしくはメニューから<menuchoice> "
+"<guimenu>ツール</guimenu> <guimenu>選択ツール</guimenu> <guimenu>前景抽出選択</guimenu> "
+"</menuchoice> を選び、 <guimenu>前景抽出選択</guimenu> ツールを有効化します。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:678
@@ -848,20 +936,22 @@ msgid ""
 "as possible from the background but include the whole object. At this point, "
 "the tool works like the <guimenu>Fuzzy Select</guimenu> tool."
 msgstr ""
+"抽出したい前景を大まかに選びます。ただし、できる限り背景を含まないように、前景部分全体を含むように選択します。この時点では、このツールは "
+"<guimenu>ファジー選択</guimenu> ツールのような選択方式になっています。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:684
 msgid ""
 "When you release the mouse button, the deselected part of the image is "
 "covered with a dark blue mask."
-msgstr ""
+msgstr "マウスのボタンを離すと、画像の中の背景 (前景ではない) 部分が濃い青色のマスクで覆われるようになります。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:690
 msgid ""
 "Draw a continuous line through the foreground object going over colors which "
 "will be kept for the extraction. Do not paint over background pixels."
-msgstr ""
+msgstr "次に前景部分を覆っていくように、一筆書きで線を描いていってください。このとき、背景部分に触れないように注意してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:695
@@ -870,6 +960,8 @@ msgid ""
 "dark blue mask. If parts of the object are also masked, paint over them. The "
 "mask will adapt."
 msgstr ""
+"マウスのボタンを離すと、背景部分の青色マスクが変化します。前景として正しく指定できていない箇所があった場合は、再度マウスの左ボタンで前景を選んでください。"
+"するとマスクが再度修正されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:702
@@ -881,7 +973,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:710
 msgid "Using the Quick Mask"
-msgstr ""
+msgstr "クイックマスクの使用"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:711
@@ -906,11 +998,13 @@ msgid ""
 "The <guimenu>Quick Mask</guimenu> highlights the deselected parts of the "
 "image with a red overlay. Areas appearing in their normal color are selected."
 msgstr ""
+"<guimenu>クイックマスク</guimenu> "
+"では、画像の選択範囲外の箇所が赤く表示されます。通常の色で表示されている箇所が選択範囲内を表わします。"
 
 #. (itstool) path: note/title
 #: xml/apps_gimp.xml:730
 msgid "Changing the Color of the Mask"
-msgstr ""
+msgstr "マスクの色の変更について"
 
 #. (itstool) path: note/para
 #: xml/apps_gimp.xml:731
@@ -920,11 +1014,13 @@ msgid ""
 "from the menu. Click the colored box in the dialog that opens to select a "
 "new color."
 msgstr ""
+"クイックマスクで使用する色を変更したい場合は、クイックマスクのボタンをマウスの右ボタンで押して、 <guimenu>色と不透明度の設定</guimenu>"
+" を選択します。表示されたダイアログボックス内にある、色の付いた箱のボタンを押すと、色を変更することができます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:740
 msgid "To modify the selection, use the paint tools."
-msgstr ""
+msgstr "選択範囲を変更するには、通常の描画ツールを使用します。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:743
@@ -934,6 +1030,8 @@ msgid ""
 "create a partial selection. Partial selections allow a smooth transition "
 "between selected and deselected areas."
 msgstr ""
+"白色もしくは黒色で描画を行ない、選択範囲を決めていきます。白色で描画した箇所が選択の範囲内を、黒色で描画した箇所が選択の範囲外を表わすことになります。また"
+"、白と黒の中間 (灰色) で描画した箇所は、部分的に選択することを表わします。これにより、選択範囲をきっちり区別せず、滑らかな選択を行なうことができます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:751
@@ -942,11 +1040,13 @@ msgid ""
 "icon in the lower left corner of the image window. The selection is then "
 "displayed with the marching ants."
 msgstr ""
+"選択範囲の描画が完了したら、画像ウインドウの左下にあるクイックマスクのボタンを押して、通常モードに切り替えます。すると選択範囲が作成され、動く点線が現われ"
+"ます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:762
 msgid "Applying and Removing Color"
-msgstr ""
+msgstr "色の適用と削除"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:763
@@ -956,6 +1056,8 @@ msgid ""
 "select a tool and move the mouse pointer onto an image, the appearance of "
 "the mouse pointer changes to reflect the chosen tool."
 msgstr ""
+"ほとんどの画像処理では、色の適用や色の取り除き処理を行ないます。通常は画像の一部を選択して色の適用範囲を選択します。ツールを選択して画像の上にマウスカーソ"
+"ルを移動させると、マウスポインタは選択したツールにあわせた表示に変化します。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:769
@@ -965,11 +1067,13 @@ msgid ""
 "see exactly where you will be painting in the image and how large of an area "
 "will be painted."
 msgstr ""
+"多くのツールでは、現在のツールのアイコンがカーソルの脇に表示されます。描画ツールの場合は、現在選択されているブラシの外観が表示され、どこに描画しようとして"
+"いるのかや、どれだけの範囲に描画が及ぶのかが分かるようになっています。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:776
 msgid "Selecting Colors"
-msgstr ""
+msgstr "色の選択"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:777
@@ -978,13 +1082,15 @@ msgid ""
 "used by the paint tools. The background color is used much more rarely, but "
 "it can easily be switched to become the foreground color."
 msgstr ""
+"GIMP のツールボックスには常に 2 つの色見本が表示されます。描画色は描画ツールで使用する色で、背景色はあまり使用されることはありませんが、描画色との"
+"間で容易に切り替えることができるようになっています。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:784
 msgid ""
 "To change the color displayed in a swatch, click the swatch. A dialog with "
 "five tabs opens."
-msgstr ""
+msgstr "色を変更したい場合は、変更したい色をマウスの左ボタンで押してください。すると 5 つのタブがあるダイアログが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:790
@@ -998,7 +1104,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: xml/apps_gimp.xml:797
 msgid "The Basic Color Selector Dialog"
-msgstr ""
+msgstr "基本色選択ダイアログ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1026,6 +1132,8 @@ msgid ""
 "colors. Click the arrow to copy the current color to the history. A color "
 "can then be selected by clicking it in the history."
 msgstr ""
+"<guimenu>現在</guimenu> の右側にある三角形が描かれたボタンを押すと、色を保存することができます。ボタンを押すことで、履歴内に現在の色が"
+"保存されます。あとからその色を選びたい場合は、履歴の中から選んでください。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:819
@@ -1043,6 +1151,9 @@ msgid ""
 "modify the currently selected color. Experiment a bit to find out what works "
 "best for you."
 msgstr ""
+"色選択の機能は、既定では色相を選択するように設定されています。彩度や赤・緑・青の各値を指定して色を選択したい場合は、右側にあるそれぞれのラジオボタンを押し"
+"て指定を行なってください。スライダと数値は、現在選択されている色を変更するためにも使用することができます。少しの調整を行なうだけで最適な色を選ぶことができ"
+"ます。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:832 xml/apps_gimp.xml:929
@@ -1056,11 +1167,13 @@ msgid ""
 "tool. With the tool options, set whether the foreground or background color "
 "should be selected."
 msgstr ""
+"お使いの画像内に現われている色を選択したい場合は、スポイトの形をしたツールをお使いください。ツールオプションでは、描画色と背景色のどちらに適用するのかを選"
+"択することもできます。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:844
 msgid "Painting and Erasing"
-msgstr ""
+msgstr "描画と消しゴム"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:845
@@ -1069,6 +1182,8 @@ msgid ""
 "options available to fine-tune each tool. Pressure sensitivity options apply "
 "only when a pressure-sensitive graphics tablet is used."
 msgstr ""
+"描画や消しゴムツールを使用したい場合は、ツールボックス内にあるツールをお使いください。それぞれのツールには多数のオプションが用意されています。また、筆圧関"
+"係のオプションは、筆圧対応の入力装置を使用している場合にのみ使用できます。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:850
@@ -1079,11 +1194,14 @@ msgid ""
 "fills based on color boundaries in the image. Adjusting the threshold "
 "modifies its sensitivity to color changes."
 msgstr ""
+"鉛筆、ブラシ、エアブラシ、消しゴムの各ツールは、それぞれ実際に存在するものと同じように使用することができます。インクツールはカリグラフィペンのように動作し"
+"ますので、左ボタンを押したまま移動させてください。また塗りつぶしツールは画像内の特定の色範囲を塗りつぶすもので、同じ色の範囲を変更することができます。閾値"
+"を設定することで、少しだけ色の違う箇所も範囲に含めることができるようになります。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_gimp.xml:859
 msgid "Adding Text"
-msgstr ""
+msgstr "テキストの追加"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:860
@@ -1091,6 +1209,8 @@ msgid ""
 "To add text, use the text tool. Use the tool options to select the desired "
 "font and text properties. Click into the image, then start writing."
 msgstr ""
+"テキストを描画するにはテキストツールを使用します。ツールオプションを設定することで、フォントやテキストの属性を指定することもできます。テキストツールを選択"
+"したあとは、そのままテキストを入力していってください。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:864
@@ -1113,13 +1233,15 @@ msgid ""
 "image using information from another part of the image. If desired, it can "
 "instead take information from a pattern."
 msgstr ""
+"スタンプ描画 (クローン) ツールは画像をレタッチする際の現実的な方法です。この仕組みにより、画像内の別の場所から情報を採取して、画像内に描画を行なうこと"
+"ができます。また、必要であればパターンを使用して情報を採取することもできます。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:878
 msgid ""
 "When retouching, use a small brush with soft edges. In this way, the "
 "modifications can blend better with the original image."
-msgstr ""
+msgstr "レタッチを行なうにあたっては、境界のあいまいな小さいブラシを使用することをお勧めします。これにより、元の画像とうまく混ざるようになります。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:882
@@ -1129,6 +1251,8 @@ msgid ""
 "tool. When you move the cursor while painting, the source point, marked by a "
 "cross, moves as well."
 msgstr ""
+"画像内の複製元を選択するには、 <keycap function=\"control\"/> を押しながらマウスの左ボタンで選択を行ないます。選択を行なっ"
+"たら、複製先の箇所でマウスの左ボタンを押してください。描画時にマウスカーソルを動かすと、複製元も同時に動かすことになります。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_gimp.xml:888
@@ -1137,17 +1261,19 @@ msgid ""
 "default setting), the source resets to the original when you release the "
 "left mouse button."
 msgstr ""
+"また、 <guimenu>位置合わせ</guimenu> を <guimenu>なし</guimenu> (既定値) "
+"に設定すると、マウスの左ボタンを離すたびに複製元が元の位置に戻されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:897
 msgid "Adjusting Color Levels"
-msgstr ""
+msgstr "色レベルの調整"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:898
 msgid ""
 "Images often need a little adjusting to get ideal print or display results."
-msgstr ""
+msgstr "画像を印刷もしくは表示するにあたっては、色を調整しなければならなくなることがあります。"
 
 #. (itstool) path: step/para
 #: xml/apps_gimp.xml:903
@@ -1181,11 +1307,12 @@ msgid ""
 "If <guimenu>Preview</guimenu> is checked, the image window shows a preview "
 "of the image with the modifications applied."
 msgstr ""
+"なお、 <guimenu>プレビュー</guimenu> にチェックが入っていると、画像ウインドウ内の表示が変化し、調整後の画像が表示されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:937
 msgid "Undoing Mistakes"
-msgstr ""
+msgstr "誤操作の取り消し"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:938
@@ -1204,6 +1331,8 @@ msgid ""
 "undone. Use the buttons to undo and redo changes. In this way, you can often "
 "work back to the base image."
 msgstr ""
+"ダイアログ内には、取り消しを行なうことのできる作業内容と、その時点での画像状態が一覧で表示されます。それぞれのボタンを押して取り消しややり直しを行なってく"
+"ださい。これにより、元の画像状態にすぐに戻すことができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:950
@@ -1218,7 +1347,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:960
 msgid "Layers"
-msgstr ""
+msgstr "レイヤ"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:961
@@ -1227,6 +1356,8 @@ msgid ""
 "on separate layers, you can change, move, or delete those parts without "
 "damaging the rest of the image."
 msgstr ""
+"レイヤは GIMP における重要な要素のうちの 1 "
+"つです。レイヤを使用して画像を加工していくことで、加工対象以外のレイヤに影響が及ばないようにすることができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:966
@@ -1237,6 +1368,9 @@ msgid ""
 "layers can shift position, moving sections of the image to other locations. "
 "New sheets can be added and others can be removed or made invisible."
 msgstr ""
+"レイヤの動作を例えるとしたら、透明なシートを複数枚重ね合わせて画像を作り出すようなイメージです。画像を複数のレイヤから構成させることで、前後関係を入れ替え"
+"たり、並べ替えたりすることもできます。また、個別のレイヤや複数のレイヤをまとめて移動させたり、位置を移動させたりすることもできます。さらに、レイヤの追加や"
+"削除、不可視化なども設定することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:974
@@ -1249,27 +1383,32 @@ msgid ""
 "used for toggling image visibility (eye icon when visible) and for linking "
 "layers. Linked layers are marked with the chain icon and moved as a group."
 msgstr ""
+"<guimenu>レイヤー</guimenu> ダイアログを使用することで、画像内に存在するレイヤを表示することができます。なお、テキストツールを使用した"
+"場合は、自動的に特殊なレイヤが作成されます。また、レイヤは選択することで有効化することができます。ダイアログの下部には、追加の機能が用意されていますし、レ"
+"イヤを選んでマウスの右ボタンを押すことで、さらに詳細な機能を利用することができます。画像の左側にある 2 つのアイコン領域は、レイヤの可視性 "
+"(可視状態の場合は目のアイコンが表示されます) "
+"とレイヤ間のリンクを表わすためのものです。レイヤ間のリンクが設定されると、鎖型のアイコンが表示され、グループとして移動できるようになります。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:986
 msgid "Image Modes"
-msgstr ""
+msgstr "画像モード"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:987
 msgid "GIMP has three image modes:"
-msgstr ""
+msgstr "GIMP には 3 種類の画像モードが用意されています:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:992
 msgid ""
 "RGB is a normal color mode and is the best mode for editing most images."
-msgstr ""
+msgstr "RGB は通常の色モードで、ほとんどの画像編集に最適なモードです。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:997
 msgid "Grayscale is used for black-and-white images."
-msgstr ""
+msgstr "グレースケールは白黒の画像を扱う際に使用します。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_gimp.xml:1002
@@ -1277,6 +1416,8 @@ msgid ""
 "Indexed mode limits the colors in the image to a set number. The maximum "
 "number of colors in this mode is 255. It is mainly used for GIF images."
 msgstr ""
+"インデックスモードは、画像に対して使用する色数を制限するためのモードです。このモードでは、最大 255 までの色を設定することができます。主に GIF "
+"画像で使用するものです。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:1008
@@ -1286,11 +1427,13 @@ msgid ""
 "that requires an indexed image, GIMP offers to index the image when "
 "exporting."
 msgstr ""
+"インデックスモードを使用する場合は、まず RGB モードで通常通り編集を行なってから、エクスポートする前にインデックスモードに切り替えるとよいでしょう。な"
+"お、インデックスモードを必要とする形式にエクスポートする場合は、 GIMP 側でインデックスモードに切り替えるよう促します。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_gimp.xml:1017
 msgid "Special Effects"
-msgstr ""
+msgstr "特殊効果"
 
 #. (itstool) path: sect2/para
 #: xml/apps_gimp.xml:1018

@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:24+0200\n"
-"PO-Revision-Date: 2018-09-30 01:24+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:51+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/bootconcept-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/bootconcept.xml:9
@@ -42,19 +44,19 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/bootconcept.xml:30
 msgid "Terminology"
-msgstr ""
+msgstr "用語説明"
 
 #. (itstool) path: sect1/para
 #: xml/bootconcept.xml:31
 msgid ""
 "This chapter uses terms that can be interpreted ambiguously. To understand "
 "how they are used here, read the definitions below:"
-msgstr ""
+msgstr "この章では、誤解を生みやすい用語に関して、詳しい説明を行なっています:"
 
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:37
 msgid "<systemitem>init</systemitem>"
-msgstr ""
+msgstr "<systemitem>init</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:39
@@ -65,14 +67,14 @@ msgstr ""
 #: xml/bootconcept.xml:44
 msgid ""
 "The <systemitem>initramfs</systemitem> process mounting the root file system"
-msgstr ""
+msgstr "ルートファイルシステムをマウントするための <systemitem>initramfs</systemitem> の処理"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:50
 msgid ""
 "The operating system process that starts all other processes that is "
 "executed from the real root file system"
-msgstr ""
+msgstr "実際のルートファイルシステムをマウントしたあとに実行される、様々なプログラムを起動するためのオペレーティングシステムの処理"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:56
@@ -89,7 +91,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:68
 msgid "<systemitem>initrd</systemitem> / <systemitem>initramfs</systemitem>"
-msgstr ""
+msgstr "<systemitem>initrd</systemitem> / <systemitem>initramfs</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:72
@@ -99,6 +101,9 @@ msgid ""
 "mounted from <filename>/dev/ram</filename> as the temporary root file "
 "system. Mounting this file system requires a file system driver."
 msgstr ""
+"<systemitem>initrd</systemitem> (INITial Ram Disk (初期 RAM ディスク) の略) "
+"は一時的なルートファイルシステムのイメージを含むファイルで、カーネルによって読み込まれ、 <filename>/dev/ram</filename> "
+"からマウントされる仕組みです。このファイルシステムをマウントするには、ファイルシステムドライバが必要となります。"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:78
@@ -118,19 +123,19 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/bootconcept.xml:93
 msgid "The Linux Boot Process"
-msgstr ""
+msgstr "Linux の起動処理"
 
 #. (itstool) path: sect1/para
 #: xml/bootconcept.xml:94
 msgid ""
 "The Linux boot process consists of several stages, each represented by a "
 "different component:"
-msgstr ""
+msgstr "Linux の起動処理は、複数のフェーズ (段階) に分けられます。それぞれは別々のコンポーネントが使われます:"
 
 #. (itstool) path: sect2/title
 #: xml/bootconcept.xml:122
 msgid "The Initialization and Boot Loader Phase"
-msgstr ""
+msgstr "初期化とブートローダの処理フェーズ"
 
 #. (itstool) path: sect2/para
 #: xml/bootconcept.xml:125
@@ -139,6 +144,8 @@ msgid ""
 "devices are prepared. This process differs significantly between hardware "
 "architectures."
 msgstr ""
+"初期化フェーズでは、マシンのハードウエアの初期化を行ない、デバイスの準備を実施します。この処理は、ハードウエアのアーキテクチャによって異なる処理になります"
+"。"
 
 #. (itstool) path: sect2/para
 #: xml/bootconcept.xml:130
@@ -168,6 +175,9 @@ msgid ""
 "CMOS values. When the boot media and its geometry are recognized, the system "
 "control passes from the BIOS/UEFI to the boot loader."
 msgstr ""
+"コンピュータの電源を投入すると、 BIOS や UEFI が画面とキーボードを初期化し、メインメモリのテストを行ないます。この段階では、マシンはストレージ"
+"メディアにアクセスすることは行ないません。続いて現在の日付と時刻と、最も重要な周辺機器類に関する情報を CMOS "
+"から読み込みます。起動メディアとそのジオメトリ情報が認識できるようになると、システムは BIOS/UEFI からブートローダに処理を渡します。"
 
 #. (itstool) path: sect3/para
 #: xml/bootconcept.xml:150
@@ -257,7 +267,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/bootconcept.xml:224
 msgid "The Kernel Phase"
-msgstr ""
+msgstr "カーネルの処理フェーズ"
 
 #. (itstool) path: sect2/para
 #: xml/bootconcept.xml:225
@@ -280,7 +290,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/bootconcept.xml:239
 msgid "The <systemitem>initramfs</systemitem> file"
-msgstr ""
+msgstr "<systemitem>initramfs</systemitem> ファイル"
 
 #. (itstool) path: sect3/para
 #: xml/bootconcept.xml:240
@@ -325,7 +335,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: xml/bootconcept.xml:273
 msgid "Regenerating the initramfs"
-msgstr ""
+msgstr "initramfs の再生成"
 
 #. (itstool) path: sect4/para
 #: xml/bootconcept.xml:274
@@ -342,7 +352,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:315
 msgid "Adding Drivers Because of Hardware Changes"
-msgstr ""
+msgstr "ハードウエアを変更したことによってドライバを追加する必要がある場合"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:317
@@ -351,6 +361,8 @@ msgid ""
 "requires different drivers to be in the kernel at boot time, you must update "
 "the <systemitem>initramfs</systemitem> file."
 msgstr ""
+"ハードウエア (例: ハードディスク) の変更を行なった場合で、変更したハードウエアが起動時に必要であり、かつ従来とは異なるドライバを必要とする場合は、 "
+"<systemitem>initramfs</systemitem> ファイルの更新が必要になります。"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:322
@@ -371,6 +383,8 @@ msgid ""
 "Replace <replaceable>DRIVER1</replaceable> with the module name of the "
 "driver. If you need to add more than one driver, list them space-separated:"
 msgstr ""
+"<replaceable>ドライバ_1</replaceable> "
+"の箇所はドライバのモジュール名に置き換えてお使いください。なお、複数のドライバが必要な場合は、スペース区切りで指定します:"
 
 #. (itstool) path: listitem/screen
 #: xml/bootconcept.xml:332
@@ -386,7 +400,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:339
 msgid "Moving System Directories to a RAID or LVM"
-msgstr ""
+msgstr "システムディレクトリを RAID や LVM に移動した場合"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:341
@@ -396,6 +410,9 @@ msgid ""
 "create an <systemitem>initramfs</systemitem> that contains support for "
 "software RAID or LVM drivers."
 msgstr ""
+"スワップファイルや <filename>/usr</filename> などのシステムディレクトリを、 RAID や論理ボリュームに移動した場合も、 "
+"<systemitem>initramfs</systemitem> を再生成して、ソフトウエア RAID や LVM "
+"のドライバが含まれるようにする必要があります。"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:347
@@ -423,7 +440,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:375
 msgid "Changing Kernel Variables"
-msgstr ""
+msgstr "カーネルの変数を変更した場合"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:377
@@ -440,7 +457,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/bootconcept.xml:392
 msgid "Generate an initramfs"
-msgstr ""
+msgstr "initramfs の生成"
 
 #. (itstool) path: procedure/para
 #: xml/bootconcept.xml:393
@@ -452,13 +469,13 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/bootconcept.xml:398
 msgid "Generate a new <systemitem>initramfs</systemitem> file by running"
-msgstr ""
+msgstr "下記を実行して新しい <systemitem>initramfs</systemitem> ファイルを生成します:"
 
 #. (itstool) path: step/screen
 #: xml/bootconcept.xml:401
 #, no-wrap
 msgid "dracut <replaceable>MY_INITRAMFS</replaceable>"
-msgstr ""
+msgstr "dracut <replaceable>MY_INITRAMFS</replaceable>"
 
 #. (itstool) path: step/para
 #: xml/bootconcept.xml:402
@@ -488,6 +505,7 @@ msgstr ""
 #, no-wrap
 msgid "(cd /boot &amp;&amp; ln -sf <replaceable>MY_INITRAMFS</replaceable> initrd)"
 msgstr ""
+"(cd /boot &amp;&amp; ln -sf <replaceable>MY_INITRAMFS</replaceable> initrd)"
 
 #. (itstool) path: step/para
 #: xml/bootconcept.xml:421
@@ -499,7 +517,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/bootconcept.xml:432
 msgid "The init on initramfs Phase"
-msgstr ""
+msgstr "initramfs での初期化フェーズ"
 
 #. (itstool) path: sect2/para
 #: xml/bootconcept.xml:433
@@ -523,11 +541,15 @@ msgid ""
 "systemitem> on <systemitem>initramfs</systemitem> is responsible for the "
 "following tasks."
 msgstr ""
+"<systemitem>initramfs</systemitem> における <systemitem>init</systemitem> "
+"の主な目的は、実際のルートファイルシステムのマウントを準備し、アクセスすることにあります。システムの設定によっても異なりますが、 "
+"<systemitem>initramfs</systemitem> における <systemitem>init</systemitem> "
+"は、下記を実施します:"
 
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:454
 msgid "Loading Kernel Modules"
-msgstr ""
+msgstr "カーネルモジュールの読み込み"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:456
@@ -537,11 +559,13 @@ msgid ""
 "component being your hard disk). To access the final root file system, the "
 "kernel needs to load the proper file system drivers."
 msgstr ""
+"ハードウエア設定にも依存しますが、お使いのコンピュータのハードウエアコンポーネント (ハードディスクなどの最も重要なもの) に対して、特別なドライバが必要"
+"となる場合があります。最終的なルートファイルシステムにアクセスするため、カーネルは適切なファイルシステムドライバも読み込む必要があります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:465
 msgid "Providing Block Special Files"
-msgstr ""
+msgstr "ブロックスペシャルファイルの提供"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:467
@@ -556,7 +580,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:477
 msgid "Managing RAID and LVM Setups"
-msgstr ""
+msgstr "RAID と LVM の設定管理"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:479
@@ -565,11 +589,14 @@ msgid ""
 "LVM, <systemitem>init</systemitem> on <systemitem>initramfs</systemitem> "
 "sets up LVM or RAID to enable access to the root file system later."
 msgstr ""
+"RAID や LVM の中にルートファイルシステムを保持するような設定を行なっている場合、 "
+"<systemitem>initramfs</systemitem> 内の <systemitem>init</systemitem> は、 LVM や "
+"RAID を設定して後続の手順でルートファイルシステムにアクセスできるように構成します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:487
 msgid "Managing the Network Configuration"
-msgstr ""
+msgstr "ネットワーク設定の管理"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:489
@@ -579,6 +606,9 @@ msgid ""
 "proper network drivers are loaded and that they are set up to allow access "
 "to the root file system."
 msgstr ""
+"お使いのシステムのルートファイルシステムが、ネットワーク経由でマウントするもの (例: NFS) であった場合、 "
+"<systemitem>init</systemitem> "
+"は必要なネットワークドライバを読み込んで、ルートファイルシステムにアクセスできる状態にする必要があります。"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:495
@@ -597,7 +627,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/bootconcept.xml:509
 msgid "Handling of Mount Failures"
-msgstr ""
+msgstr "マウント失敗時の処理"
 
 #. (itstool) path: note/para
 #: xml/bootconcept.xml:510
@@ -611,11 +641,15 @@ msgid ""
 "the boot environment will cause the system to retry mounting the root file "
 "system. If successful, the boot will continue normally."
 msgstr ""
+"起動環境内でのルートファイルシステムのマウントが失敗した場合は、起動を続行するためにそれらを確認したり修復したりする必要があります。 ext3 や "
+"ext4 のファイルシステムである場合は、ファイルシステムチェッカーが自動で起動します。 XFS や btrfs のファイルシステムの場合は、修復処理が自"
+"動化されていませんので、指定可能なオプションを利用して手作業で修復作業を行ないます。修復が成功すると、起動環境はシステムに対してマウントのやり直しを指示し"
+"ます。これで問題なくマウントできれば、起動処理はそのまま続行されます。"
 
 #. (itstool) path: sect3/title
 #: xml/bootconcept.xml:524
 msgid "The init on initramfs Phase in the Installation Process"
-msgstr ""
+msgstr "インストール処理内での initramfs の処理"
 
 #. (itstool) path: sect3/para
 #: xml/bootconcept.xml:525
@@ -631,7 +665,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:536
 msgid "Finding the Installation Medium"
-msgstr ""
+msgstr "インストールメディアの検出"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:538
@@ -646,7 +680,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:548
 msgid "Initiating Hardware Recognition and Loading Appropriate Kernel Modules"
-msgstr ""
+msgstr "ハードウエア検出の実行と適切なカーネルモジュールの読み込み"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:552
@@ -673,7 +707,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/bootconcept.xml:571
 msgid "Loading the Installation System"
-msgstr ""
+msgstr "インストールシステムの読み込み"
 
 #. (itstool) path: listitem/para
 #: xml/bootconcept.xml:573
@@ -699,7 +733,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/bootconcept.xml:596
 msgid "The systemd Phase"
-msgstr ""
+msgstr "systemd の処理フェーズ"
 
 #. (itstool) path: sect2/para
 #: xml/bootconcept.xml:597

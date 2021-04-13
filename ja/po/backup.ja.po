@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:25+0200\n"
-"PO-Revision-Date: 2018-09-30 01:25+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/backup-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/backup.xml:16
 msgid "Backing Up User Data"
-msgstr ""
+msgstr "ユーザデータのバックアップ"
 
 #. (itstool) path: abstract/para
 #: xml/backup.xml:19
@@ -29,6 +31,8 @@ msgid ""
 "create scheduled backups or backups on request, and to play back a previous "
 "state of this data."
 msgstr ""
+"バックアップツールは、ホームディレクトリや選択したディレクトリなどのデータをバックアップしたり、復元したりするためのシンプルなフレームワークです。スケジュ"
+"ールを設定してバックアップを行なうことができるほか、必要に応じて随時バックアップを採取したり、特定のデータに対して古い内容を表示したりすることができます。"
 
 #. (itstool) path: docmanager/translation
 #: xml/backup.xml:28
@@ -56,14 +60,14 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/backup.xml:49
 msgid "Configuring Backups"
-msgstr ""
+msgstr "バックアップの設定"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:50
 msgid ""
 "Before you can start to backup data, configure which files to back up, which "
 "ones to ignore and where to store the backup."
-msgstr ""
+msgstr "データのバックアップを実施する前に、バックアップ対象のファイルと無視すべきファイル、そしてバックアップの保存先をそれぞれ設定します。"
 
 #. (itstool) path: step/para
 #: xml/backup.xml:56
@@ -101,11 +105,13 @@ msgid ""
 "backup(s) will be stored. It is recommended to choose a name that can easily "
 "be associated with backups for the respective machine and data."
 msgstr ""
+"いずれの保存先である場合でも、バックアップを保存するディレクトリ名を指定する必要があります。ディレクトリ名は、マシン名などの情報がわかりやすくなるよう、適"
+"切な名前を設定してください。"
 
 #. (itstool) path: sect1/title
 #: xml/backup.xml:90
 msgid "Creating Backups"
-msgstr ""
+msgstr "バックアップの作成"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:91
@@ -129,7 +135,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/backup.xml:107
 msgid "Restoring Data"
-msgstr ""
+msgstr "データの復元"
 
 #. (itstool) path: sect1/para
 #: xml/backup.xml:109

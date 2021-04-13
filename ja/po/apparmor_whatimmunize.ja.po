@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_whatimmunize-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_whatimmunize.xml:65
 msgid "Immunizing Programs"
-msgstr ""
+msgstr "プログラムに対する予防接種"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:72
@@ -149,7 +151,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:162
 msgid "<command>aa-status</command>"
-msgstr ""
+msgstr "<command>aa-status</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:165
@@ -161,7 +163,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:172
 msgid "<command>aa-unconfined</command>"
-msgstr ""
+msgstr "<command>aa-unconfined</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:175
@@ -176,7 +178,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:185
 msgid "<command>aa-autodep</command>"
-msgstr ""
+msgstr "<command>aa-autodep</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:188
@@ -192,7 +194,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:200
 msgid "<command>aa-genprof</command>"
-msgstr ""
+msgstr "<command>aa-genprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:203
@@ -210,7 +212,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:217
 msgid "<command>aa-logprof</command>"
-msgstr ""
+msgstr "<command>aa-logprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:220
@@ -226,7 +228,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:231
 msgid "<command>aa-easyprof</command>"
-msgstr ""
+msgstr "<command>aa-easyprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:234
@@ -244,7 +246,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:247
 msgid "<command>aa-complain</command>"
-msgstr ""
+msgstr "<command>aa-complain</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:250
@@ -259,7 +261,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:260
 msgid "<command>aa-enforce</command>"
-msgstr ""
+msgstr "<command>aa-enforce</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:263
@@ -274,7 +276,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:273
 msgid "<command>aa-disable</command>"
-msgstr ""
+msgstr "<command>aa-disable</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:276
@@ -289,7 +291,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:286
 msgid "<command>aa-exec</command>"
-msgstr ""
+msgstr "<command>aa-exec</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:289
@@ -306,7 +308,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:302
 msgid "<command>aa-notify</command>"
-msgstr ""
+msgstr "<command>aa-notify</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:305
@@ -321,7 +323,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:317
 msgid "Determining Programs to Immunize"
-msgstr ""
+msgstr "予防接種を行なうプログラムの決定"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:319
@@ -336,7 +338,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:329
 msgid "<systemitem class=\"daemon\">cron</systemitem> Jobs"
-msgstr ""
+msgstr "<systemitem class=\"daemon\">cron</systemitem> ジョブ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:331
@@ -354,7 +356,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:345
 msgid "Web Applications"
-msgstr ""
+msgstr "Web アプリケーション"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:347
@@ -368,7 +370,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:356
 msgid "Network Agents"
-msgstr ""
+msgstr "ネットワークエージェント"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:358
@@ -392,11 +394,16 @@ msgid ""
 "<command>cp</command> can copy any files that the parent shell script's "
 "profile can read and write."
 msgstr ""
+"逆に、権限を使用しないプログラムに対しては、プロファイルを作成する必要はありません。たとえばシェルスクリプトでは "
+"<command>cp</command> プログラムを利用してファイルのコピーを行ないますが、 <command>cp</command> "
+"プログラムには既定のプロファイルやサブプロファイルが提供されていません。これは <command>cp</command> "
+"プログラムが単純にファイルコピーの機能しか提供しないためで、呼び出し元のシェルスクリプトのプロファイルを引き継ぐだけで十分であるためです。そのため、 "
+"<command>cp</command> プログラムは、呼び出し元のシェルスクリプトのプロファイルの許可内容に応じてファイルをコピーすることになります。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:381
 msgid "Immunizing <systemitem class=\"daemon\">cron</systemitem> Jobs"
-msgstr ""
+msgstr "<systemitem class=\"daemon\">cron</systemitem> ジョブへの予防接種"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:383
@@ -420,6 +427,12 @@ msgid ""
 "/etc/cron.monthly/*\n"
 "/etc/cron.weekly/*\n"
 msgstr ""
+"/etc/crontab\n"
+"/etc/cron.d/*\n"
+"/etc/cron.daily/*\n"
+"/etc/cron.hourly/*\n"
+"/etc/cron.monthly/*\n"
+"/etc/cron.weekly/*\n"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:401
@@ -435,7 +448,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:412
 msgid "Immunizing Network Applications"
-msgstr ""
+msgstr "ネットワークアプリケーションへの予防接種"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:414
@@ -466,7 +479,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:447
 msgid "Below is a sample <command>aa-unconfined</command> output:"
-msgstr ""
+msgstr "下記は <command>aa-unconfined</command> の出力例です:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_whatimmunize.xml:451
@@ -488,19 +501,19 @@ msgstr ""
 msgid ""
 "The first portion is a number. This number is the process ID number (PID) of "
 "the listening program."
-msgstr ""
+msgstr "最初に表示されるのが番号です。この番号は、接続を待ち受けているプログラムのプロセス ID 番号 (PID) です。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_whatimmunize.xml:469
 msgid ""
 "The second portion is a string that represents the absolute path of the "
 "listening program"
-msgstr ""
+msgstr "次に表示されるのが文字列で、接続を待ち受けているプログラムの絶対パスです。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_whatimmunize.xml:475
 msgid "The final portion indicates the profile confining the program, if any."
-msgstr ""
+msgstr "最後に表示されるのが、プログラムの権限を制限しているプロファイル (もしあれば) です。"
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:482
@@ -517,6 +530,8 @@ msgid ""
 "interface and another, so it reports all unconfined processes, even those "
 "that might be listening to an internal LAN interface."
 msgstr ""
+"<command>aa-unconfined</command> ではネットワークインターフェイスを区別せずに扱います。そのため、内部の LAN "
+"インターフェイスのみで待ち受けているプロセスに対しても、ポートを開いていれば一覧に記載されることになります。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:494
@@ -529,6 +544,11 @@ msgid ""
 "tend to be running all the time, while network client applications tend only "
 "to be running when the user is interested in them."
 msgstr ""
+"ユーザが使用しているネットワーククライアントアプリケーションの検出は、お使いの環境によって異なる方法になります。 <command>aa-"
+"unconfined</command> ツールは、クライアントアプリケーションが開いているネットワークポートに対しても報告を行ないますが、 "
+"<command>aa-unconfined</command> で分析している最中に動作していたアプリケーションのみが検出されます。一般に、ネットワーク"
+"サーバアプリケーションは常に動作させておくものですが、クライアントアプリケーションは必要に応じて起動する仕組みであることから、常に検出されるとは限らないこ"
+"とになります。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:505
@@ -565,7 +585,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_whatimmunize.xml:530
 msgid "Immunizing Web Applications"
-msgstr ""
+msgstr "Web アプリケーションへの予防接種"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:531
@@ -621,6 +641,15 @@ msgid ""
 "profile, which is appropriate if you do not want to write individual "
 "profiles for each CGI script."
 msgstr ""
+"Apache が実行するそれぞれの CGI "
+"スクリプトに対していちいち実行許可を設定するのは、ユーザにとっては不便に感じるかもしれません。その代わりに管理者は、複数の CGI "
+"スクリプトに対してアクセスを制御することができます。たとえば <literal>/srv/www/cgi-bin/*.{pl,py,pyc} "
+"rix</literal> のように指定すると、 <literal>/srv/www/cgi-bin/</literal> ディレクトリ内にあって "
+"<filename>.pl</filename> (Perl スクリプト) もしくは <filename>.py</filename> や "
+"<filename>.pyc</filename> (Python スクリプト) "
+"で終わるファイル名のスクリプト全てを含めることができるようになります。この設定では、 <literal>ix</literal> と書かれていることから、"
+" Python スクリプトが Apache のプロファイルを引き継ぐようになります。このような設定は、それぞれの CGI "
+"スクリプトに対して、いちいち個別のプロファイルを作成したくない場合に便利です。"
 
 #. (itstool) path: note/para
 #: xml/apparmor_whatimmunize.xml:573
@@ -664,6 +693,10 @@ msgid ""
 "adding this subprofile allows the <filename>localtime.php</filename> page to "
 "execute and access to the local system time and locale files:"
 msgstr ""
+"<filename>mod_perl</filename> や <filename>mod_php</filename> のスクリプトの場合、"
+"これはリクエストした Perl スクリプトや PHP ページの名前になります。たとえば下記のようなサブプロファイルを設定したとすると、 "
+"<filename>localtime.php</filename> "
+"のページからローカルのシステム時刻とロケールファイルへのアクセスができるようになります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_whatimmunize.xml:609
@@ -678,6 +711,14 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"/usr/bin/httpd2-prefork {\n"
+"  # ...\n"
+"  ^/cgi-bin/localtime.php {\n"
+"    /etc/localtime                  r,\n"
+"    /srv/www/cgi-bin/localtime.php  r,\n"
+"    /usr/lib/locale/**              r,\n"
+"  }\n"
+"}\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:618
@@ -708,6 +749,20 @@ msgid ""
 "}\n"
 "    "
 msgstr ""
+"^DEFAULT_URI {\n"
+"    /usr/sbin/suexec2                  mixr,\n"
+"    /var/log/apache2/**                rwl,\n"
+"    @{HOME}/public_html                r,\n"
+"    @{HOME}/public_html/**             r,\n"
+"    /srv/www/htdocs                    r,\n"
+"    /srv/www/htdocs/**                 r,\n"
+"    /srv/www/icons/*.{gif,jpg,png}     r,\n"
+"    /srv/www/vhosts                    r,\n"
+"    /srv/www/vhosts/**                 r,\n"
+"    /usr/share/apache2/**              r,\n"
+"    /var/lib/php/sess_*                rwl\n"
+"}\n"
+"    "
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:639
@@ -722,7 +777,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_whatimmunize.xml:649
 msgid "Immunizing Network Agents"
-msgstr ""
+msgstr "ネットワークエージェントに対する予防接種"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_whatimmunize.xml:650
@@ -751,4 +806,4 @@ msgstr ""
 msgid ""
 "Refer to the man page of the <command>netstat</command> command for a "
 "detailed reference of all possible options."
-msgstr ""
+msgstr "利用可能なオプションについて、詳しくは <command>netstat</command> コマンドのマニュアルページをお読みください。"

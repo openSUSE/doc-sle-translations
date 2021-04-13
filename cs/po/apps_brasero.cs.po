@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_brasero-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_brasero.xml:14
 msgid "Brasero: Burning CDs and DVDs"
-msgstr ""
+msgstr "Brasero: Vypalování CD a DVD"
 
 #. (itstool) path: abstract/para
 #: xml/apps_brasero.xml:17
@@ -30,23 +34,28 @@ msgid ""
 "menu by clicking <menuchoice><guimenu>Applications</guimenu><guimenu>Sound "
 "&amp; Video</guimenu> <guimenu>Brasero</guimenu></menuchoice>."
 msgstr ""
+"Brasero je program GNOME pro zápis datových a zvukových CD a DVD. Chcete-li "
+"spustit aplikaci Brasero, otevřete Přehled činností stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>bras</literal>. Spusťte program z "
+"hlavní nabídky kliknutím na <menuchoice><guimenu>Aplikace</guimenu><guimenu>"
+"Zvuk &amp; Video</guimenu> <guimenu>Brasero</guimenu></menuchoice>."
 
 #. (itstool) path: abstract/para
 #: xml/apps_brasero.xml:28
 msgid ""
 "The following sections are a quick introduction on how to create your own CD "
 "or DVD."
-msgstr ""
+msgstr "Další sekce jsou stručným úvodem k vytvoření vlastního CD nebo DVD."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_brasero.xml:35
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:39
 msgid "Creating a Data CD or DVD"
-msgstr ""
+msgstr "Vytvoření datového CD nebo DVD"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:41
@@ -54,11 +63,13 @@ msgid ""
 "After starting Brasero for the first time, the main window appears as shown "
 "in <xref linkend=\"fig.brasero.main\" xrefstyle=\"select:label nopage\"/>."
 msgstr ""
+"Po prvním startu Brasero ukáže toto hlavní okno: <xref linkend=\"fig.brasero."
+"main\" xrefstyle=\"select:label nopage\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apps_brasero.xml:47
 msgid "Main View of Brasero"
-msgstr ""
+msgstr "Brasero, hlavní pohled"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -68,12 +79,12 @@ msgstr ""
 #: xml/apps_brasero.xml:50 xml/apps_brasero.xml:53
 msgctxt "_"
 msgid "external ref='brasero_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='brasero_main.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:58
 msgid "To create a data CD or DVD, proceed as follows:"
-msgstr ""
+msgstr "Postup vytváření datových CD nebo DVD:"
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:64
@@ -82,6 +93,9 @@ msgid ""
 "<guimenu>Project</guimenu> <guimenu>New Project</guimenu> <guimenu>New Data "
 "Project</guimenu> </menuchoice>. The project view appears."
 msgstr ""
+"Klikněte <guimenu>Datový projekt</guimenu> nebo zvolte <menuchoice> "
+"<guimenu>Projekt</guimenu> <guimenu>Nový projekt</guimenu> <guimenu>Nový "
+"datový projekt</guimenu> </menuchoice>. Zobrazí se projektový pohled."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:71
@@ -92,6 +106,11 @@ msgid ""
 "<guimenu>Show Side Panel</guimenu> </menuchoice> or press <keycap>F7</"
 "keycap>."
 msgstr ""
+"Přetáhněte požadované adresáře nebo jednotlivé soubory buď ze správce "
+"souborů, nebo kliknutím na ikonu \"plus\". Chcete-li zobrazit strukturu "
+"adresářů přímo v Braseru, vyberte <menuchoice> <guimenu>Pohled</guimenu> "
+"<guimenu>Ukázat postranní panel</guimenu> </menuchoice> nebo stiskněte "
+"<keycap>F7</keycap>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:80
@@ -99,12 +118,16 @@ msgid ""
 "Optionally, save the project under a name of your choice with <menuchoice> "
 "<guimenu>Project</guimenu> <guimenu>Save As</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li, uložte projekt pod Vámi zvoleným názvem podle pomocí <menuchoice> "
+"<guimenu>Projekt</guimenu> <guimenu>Uložit jako</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:86
 msgid ""
 "Name your medium. The original label is <guimenu>Data disc (date)</guimenu>."
 msgstr ""
+"Pojmenujte si médium. Výchozí štítek je <guimenu>Datový disk "
+"(datum)</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:92
@@ -112,6 +135,8 @@ msgid ""
 "Choose the output medium from the pull down menu next to the <guimenu>Burn</"
 "guimenu> button (CD/DVD or an ISO image file)."
 msgstr ""
+"Vyberte výstupní médium z rozbalovací nabídky vedle tlačítka "
+"<guimenu>Vypálit</guimenu> (CD/DVD nebo soubor ISO-obrazu)."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:98
@@ -119,11 +144,13 @@ msgid ""
 "Click <guimenu>Burn</guimenu>. A new dialog appears, depending on what "
 "medium you have selected in the previous step:"
 msgstr ""
+"Klikněte <guimenu>Vypálit</guimenu>. Zobrazí se nový dialog podle toho, jaké "
+"médium jste zvolili v předchozím kroku:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_brasero.xml:105
 msgid "CD/DVD"
-msgstr ""
+msgstr "CD/DVD"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_brasero.xml:106
@@ -133,26 +160,30 @@ msgid ""
 "whether to burn the image directly, close the session, verify the written "
 "data, and others."
 msgstr ""
+"Můžete definovat některé parametry, například rychlost vypalování nebo místo "
+"ukládání dočasných souborů. V části <guimenu>Možnosti</guimenu> můžete také "
+"zvolit, zda chcete obraz vypálit přímo, ukončit relaci, ověřit zapsaná data "
+"aj."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_brasero.xml:116
 msgid "ISO Image"
-msgstr ""
+msgstr "Obraz ISO"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_brasero.xml:117
 msgid "Specify a file name for your ISO image file."
-msgstr ""
+msgstr "Určete název souboru Vašeho ISO-obrazu."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:125
 msgid "Start the process with <guimenu>Burn</guimenu>."
-msgstr ""
+msgstr "Proces vypalování zahájíte stisknutím <guimenu>Vypálit</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:132
 msgid "Creating an Audio CD"
-msgstr ""
+msgstr "Vytváření zvukových CD"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:134
@@ -160,6 +191,7 @@ msgid ""
 "There are no significant differences between creating an audio CD and "
 "creating a data CD. Proceed as follows:"
 msgstr ""
+"Mezi vytvářením zvukových CD a datových CD nejsou významné rozdíly. Postup:"
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:141
@@ -167,6 +199,8 @@ msgid ""
 "Select <menuchoice> <guimenu>Project</guimenu> <guimenu>New Project</"
 "guimenu> <guimenu>New Audio Project</guimenu> </menuchoice>."
 msgstr ""
+"Zvolte <menuchoice> <guimenu>Projekt</guimenu> <guimenu>Nový "
+"Projekt</guimenu> <guimenu>Nový audio projekt</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:147
@@ -175,16 +209,19 @@ msgid ""
 "audio data must be in WAV or Ogg Vorbis format. Determine the sequence of "
 "the tracks by moving them up or down in the project directory."
 msgstr ""
+"Přetáhněte jednotlivé zvukové stopy do adresáře projektu. Zvuková data musí "
+"být ve formátu WAV nebo Ogg Vorbis. Určete posloupnost skladeb jejich "
+"přesunutím nahoru nebo dolů v adresáři projektu."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:154
 msgid "Click <guimenu>Burn</guimenu>. A dialog opens."
-msgstr ""
+msgstr "Klikněte <guimenu>Vypálit</guimenu>. Otevře se dialog."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:159
 msgid "Specify a drive to write to."
-msgstr ""
+msgstr "Určete jednotku pro zápis."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:164
@@ -193,21 +230,24 @@ msgid ""
 "preferences. When burning audio CDs, choose a lower burning speed to reduce "
 "the risk of burn errors."
 msgstr ""
+"Kliknutím <guimenu>Vlastnosti</guimenu> upravte rychlost vypalování a další "
+"předvolby. Při vypalování zvukových disků CD zvolte nižší rychlost "
+"vypalování, aby se snížilo riziko chyb vypalování."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:174
 msgid "Click <guimenu>Burn</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>Vypálit</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:181
 msgid "Copying a CD or DVD"
-msgstr ""
+msgstr "Kopírování CD a DVD"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:183
 msgid "To copy a CD or DVD, proceed as follows:"
-msgstr ""
+msgstr "Při kopírování CD a DVD postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:189
@@ -216,16 +256,20 @@ msgid ""
 "guimenu> <guimenu>New Project</guimenu> <guimenu>Copy Disc</guimenu> </"
 "menuchoice>. The <guimenu>Copy CD/DVD</guimenu> dialog opens."
 msgstr ""
+"Klikněte <guimenu>Kopírovat disk</guimenu> nebo zvolte menu <menuchoice> "
+"<guimenu>Projekt</guimenu> <guimenu>Nový projekt</guimenu> <guimenu>"
+"Kopírovat disk</guimenu> </menuchoice>. Otevře se dialog <guimenu>Kopírovat "
+"CD/DVD</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:197
 msgid "Specify the source drive you want to copy."
-msgstr ""
+msgstr "Určete jednotku, odkud chcete kopírovat."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:202
 msgid "Specify a drive or image file to write to."
-msgstr ""
+msgstr "Určete jednotku nebo soubor, kam chcete kopírovat."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:207
@@ -233,16 +277,18 @@ msgid ""
 "If necessary, change the burning speed, the temporary directory and other "
 "options in <guimenu>Properties</guimenu>."
 msgstr ""
+"Je-li třeba, změňte rychlost vypalování, dočasný adresář a další možnosti v "
+"menu <guimenu>Vlastnosti</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:213
 msgid "Click <guimenu>Copy</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>Kopírovat</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:220
 msgid "Writing ISO Images"
-msgstr ""
+msgstr "Zápis ISO-obrazů"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:222
@@ -255,11 +301,18 @@ msgid ""
 "the pop-up menu labeled <guimenu>Path</guimenu>. Start the burning process "
 "and click <guimenu>Burn</guimenu>."
 msgstr ""
+"Máte-li obraz ISO, klikněte na <guimenu>Vypálit obraz</guimenu> nebo "
+"přejděte na <menuchoice> <guimenu>Projekt</guimenu> <guimenu>Nový "
+"projekt</guimenu> <guimenu>Vypálit obraz</guimenu> </menuchoice>. Vyberte "
+"ISO-obraz, který chcete zapsat, a disk, na který ho chcete zapsat. V případě "
+"potřeby změňte parametry kliknutím na <guimenu>Vlastnosti</guimenu>. Vyberte "
+"umístění souboru ISO-obrazu z rozbalovací nabídky <guimenu>Cesta</guimenu>. "
+"Spusťte proces vypalování kliknutím na <guimenu>Vypálit</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:233
 msgid "Creating a Multisession CD or DVD"
-msgstr ""
+msgstr "Vytváření CD/DVD s více relacemi"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:235
@@ -270,11 +323,16 @@ msgid ""
 "of interest is that you are not only limited to data CDs or DVDs. You can "
 "also add audio sessions in a multisession disc."
 msgstr ""
+"Disky s více relacemi lze použít k zápisu dat ve více než jedné vypalovací "
+"relaci. To je užitečné například pro zápis záloh, které jsou menší než "
+"média. V každé relaci můžete přidat další záložní soubor. Stojí za zmínku, "
+"že se neomezujete pouze na datová CD/DVD. Na disk s více relacemi můžete "
+"také přidat zvukové relace."
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:243
 msgid "To start a new multisession disc, do the following:"
-msgstr ""
+msgstr "Chcete-li vytvořit nový disk s více sekcemi, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:249
@@ -284,6 +342,9 @@ msgid ""
 "do not fill up the entire disc, because otherwise you cannot append a new "
 "session."
 msgstr ""
+"Začněte datovým diskem, jak je popsáno v <xref linkend=\"sec.brasero."
+"creating\"/>. Nelze začít zvukovou CD relací. Ujistěte se, že nevyplníte "
+"celý disk, protože jinak nelze novou relaci připojit."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:257
@@ -291,6 +352,8 @@ msgid ""
 "Click <guimenu>Burn</guimenu>. The window <guimenu>Disc Burning Setup</"
 "guimenu> opens."
 msgstr ""
+"Klikněte<guimenu>Vypálit</guimenu>. Otevře se okno <guimenu>Nastavení "
+"vypalování disku</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:263
@@ -298,16 +361,19 @@ msgid ""
 "Select <guimenu>Leave the disc open to add other files later</guimenu> to "
 "make the disc multisession capable. Configure other options if needed."
 msgstr ""
+"Vyberte <guimenu>Ponechte disk otevřený, aby šlo později přidat další "
+"soubory</guimenu>, čímž založíte vícerelační disk. V případě potřeby "
+"konfigurujte další možnosti."
 
 #. (itstool) path: step/para
 #: xml/apps_brasero.xml:269
 msgid "Start the burning session with <guimenu>Burn</guimenu>."
-msgstr ""
+msgstr "Zahajte vypalovací proces stisknutím <guimenu>Vypálit</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_brasero.xml:276
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_brasero.xml:278
@@ -315,3 +381,5 @@ msgid ""
 "You can find more information about Brasero at <link xlink:href=\"https://"
 "wiki.gnome.org/Apps/Brasero\"/>."
 msgstr ""
+"Více informací o aplikaci Brasero naleznete zde: <link xlink:href=\""
+"https://wiki.gnome.org/Apps/Brasero\"/>."

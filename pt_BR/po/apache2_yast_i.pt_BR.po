@@ -2,29 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:23+0000\n"
+"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apache2_yast_i-master/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "tradutor-créditos"
 
 #. (itstool) path: sect2/title
 #: xml/apache2_yast_i.xml:9
 msgid "Configuring Apache with YaST"
-msgstr ""
+msgstr "Configurando o Apache com o YaST"
 
 #. (itstool) path: docmanager/translation
 #: xml/apache2_yast_i.xml:13
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. (itstool) path: sect2/para
 #: xml/apache2_yast_i.xml:16
@@ -38,11 +40,20 @@ msgid ""
 "call the <guimenu>HTTP Server</guimenu> module. For more information, see "
 "<xref linkend=\"sec.apache2.configuration.yast.server_configuration\"/>."
 msgstr ""
+"Para configurar seu servidor Web com o YaST, inicie o YaST e selecione "
+"<menuchoice><guimenu>Serviços de Rede</guimenu><guimenu>Servidor "
+"HTTP</guimenu></menuchoice>. Ao iniciar o módulo pela primeira vez, o "
+"<guimenu>Assistente para Servidor HTTP</guimenu> é iniciado, solicitando que "
+"você tome algumas decisões básicas sobre a administração do servidor. Após a "
+"conclusão do assistente, a caixa de diálogo <guimenu>Configuração do "
+"servidor HTTP</guimenu> é iniciada sempre que você chama o módulo <guimenu>"
+"Servidor HTTP<guimenu></guimenu>. Para obter mais informações, consulte <"
+"xref linkend=\"sec.apache2.configuration.yast.server_configuration\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/apache2_yast_i.xml:28
 msgid "HTTP Server Wizard"
-msgstr ""
+msgstr "Assistente de servidor HTTP"
 
 #. (itstool) path: sect3/para
 #: xml/apache2_yast_i.xml:29
@@ -51,11 +62,14 @@ msgid ""
 "dialog, you may enter the expert configuration mode to make even more "
 "specific settings."
 msgstr ""
+"O Assistente para servidor HTTP consiste em cinco etapas. Na última etapa da "
+"caixa de diálogo, você pode entrar no modo de configuração avançada para "
+"fazer configurações ainda mais específicas."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:35
 msgid "Network Device Selection"
-msgstr ""
+msgstr "Seleção de dispositivo de rede"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:36
@@ -67,6 +81,13 @@ msgid ""
 "not reserved by other services can be used. The default setting is to listen "
 "on all network interfaces (IP addresses) on port <systemitem>80</systemitem>."
 msgstr ""
+"Aqui, especifique as interfaces e portas de rede que o Apache usa para "
+"escutar solicitações recebidas. Você pode selecionar qualquer combinação de "
+"interfaces de rede existentes e seus respectivos endereços IP. Portas de "
+"todos os três intervalos (portas conhecidas, portas registradas e portas "
+"dinâmicas ou privadas) que não são reservadas por outros serviços podem ser "
+"usadas. A configuração padrão é escutar em todas as interfaces de rede ("
+"endereços IP) na porta <systemitem>80</systemitem>."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:45
@@ -79,16 +100,24 @@ msgid ""
 "interfaces, click <guimenu>Firewall Details</guimenu> to specify on which "
 "interface(s) the port(s) should be opened."
 msgstr ""
+"Marque <guimenu>Abrir porta no firewall</guimenu> para abrir as portas no "
+"firewall em que o servidor da Web ouve. Isso é necessário para "
+"disponibilizar o servidor Web na rede, que pode ser uma LAN, WAN ou a "
+"Internet pública. Manter a porta fechada é útil apenas em situações de teste "
+"em que nenhum acesso externo ao servidor da Web é necessário. Se você tiver "
+"várias interfaces de rede, clique em <guimenu>Detalhes do firewall</guimenu> "
+"para especificar em quais interfaces as portas devem ser abertas."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:54
 msgid "Click <guimenu>Next</guimenu> to continue with the configuration."
 msgstr ""
+"Clique em <guimenu>Avançar</ guimenu> para continuar com a configuração."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:59
 msgid "Modules"
-msgstr ""
+msgstr "Módulos"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:60
@@ -99,11 +128,16 @@ msgid ""
 "to <xref linkend=\"sec.apache2.configuration.yast.server_configuration."
 "modules\"/>. Click <guimenu>Next</guimenu> to advance to the next dialog."
 msgstr ""
+"A opção de configuração <guimenu>Módulos</guimenu> permite a ativação ou "
+"desativação dos idiomas de script aos quais o servidor da Web deve suportar. "
+"Para a ativação ou desativação de outros módulos, consulte <xref linkend=\""
+"sec.apache2.configuration.yast.server_configuration.modules\"/>. Clique em "
+"<guimenu>Próximo</guimenu> para avançar para a próxima caixa de diálogo."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:70
 msgid "Default Host"
-msgstr ""
+msgstr "Host Padrão"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:71
@@ -115,6 +149,12 @@ msgid ""
 "<emphasis>default host</emphasis>. Each virtual host inherits the default "
 "host's configuration."
 msgstr ""
+"Esta opção pertence ao servidor da Web padrão. Conforme explicado em <xref "
+"linkend=\"sec.apache2.configuration.manually.vhost\"/>, o Apache pode "
+"atender a vários hosts virtuais a partir de uma única máquina física. O "
+"primeiro host virtual declarado no arquivo de configuração é chamado de "
+"<emphasis>host padrão</emphasis>. Cada host virtual herda a configuração do "
+"host padrão."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:79
@@ -124,11 +164,16 @@ msgid ""
 "guimenu>. To add new directives, click <guimenu>Add</guimenu>. To delete a "
 "directive, select it and click <guimenu>Delete</guimenu>."
 msgstr ""
+"Para editar as configurações do host (também chamadas de "
+"<emphasis>diretivas</emphasis>), selecione a entrada apropriada na tabela e "
+"clique em <guimenu>Editar</guimenu>. Para adicionar novas diretivas, clique "
+"em <guimenu>Adicionar</guimenu>. Para excluir uma diretiva, selecione-a e "
+"clique em <guimenu>Excluir</guimenu>."
 
 #. (itstool) path: figure/title
 #: xml/apache2_yast_i.xml:87
 msgid "HTTP Server Wizard: Default Host"
-msgstr ""
+msgstr "Assistente de servidor HTTP: host padrão"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -138,17 +183,17 @@ msgstr ""
 #: xml/apache2_yast_i.xml:90 xml/apache2_yast_i.xml:93
 msgctxt "_"
 msgid "external ref='yast2_apache_wizard3.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2_apache_wizard3.png' md5='__failed__'"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:97
 msgid "Here is list of the default settings of the server:"
-msgstr ""
+msgstr "Aqui está uma lista das configurações padrão do servidor:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:102
 msgid "<systemitem>Document Root</systemitem>"
-msgstr ""
+msgstr "<systemitem>Document Root</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:105
@@ -156,11 +201,13 @@ msgid ""
 "Path to the directory from which Apache serves files for this host. "
 "<filename>/srv/www/htdocs</filename> is the default location."
 msgstr ""
+"Caminho para o diretório no qual o Apache serve arquivos para este host. "
+"<filename>/srv/www/htdocs</filename> é o local padrão."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:112
 msgid "<systemitem>Alias</systemitem>"
-msgstr ""
+msgstr "<systemitem>Alias</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:115
@@ -170,6 +217,11 @@ msgid ""
 "the <literal>Document Root</literal> in the file system can be accessed via "
 "a URL aliasing that path."
 msgstr ""
+"Usando as diretivas <systemitem>Alias</systemitem>, os URLs podem ser "
+"mapeados para os locais físicos do sistema de arquivos. Isso significa que "
+"um determinado caminho, mesmo fora da <literal>Document Root</literal>, no "
+"sistema de arquivos, pode ser acessado através de uma URL com o apelido "
+"desse caminho."
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:121
@@ -181,11 +233,17 @@ msgid ""
 "apache2/icons</filename> for the Apache icons displayed in the directory "
 "index view."
 msgstr ""
+"O padrão <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase><systemitem"
+">Alias</systemitem><filename>/icons</filename> aponta para <filename>/usr/"
+"share/apache2/icons</filename> para os ícones do Apache exibidos em a "
+"visualização do índice de diretório."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:130
 msgid "<systemitem>ScriptAlias</systemitem>"
-msgstr ""
+msgstr "<systemitem>ScriptAlias</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:133
@@ -196,11 +254,16 @@ msgid ""
 "designates the target directory as a CGI location, meaning that CGI scripts "
 "should be executed in that location."
 msgstr ""
+"Semelhante à diretiva <systemitem>Alias</systemitem>, a diretiva "
+"<systemitem>ScriptAlias</systemitem> mapeia uma URL para um local do sistema "
+"de arquivos. A diferença é que <systemitem>ScriptAlias</systemitem> designa "
+"o diretório de destino como um local CGI, o que significa que os scripts CGI "
+"devem ser executados nesse local."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:144
 msgid "<systemitem>Directory</systemitem>"
-msgstr ""
+msgstr "<systemitem>Diretório</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:147
@@ -208,6 +271,9 @@ msgid ""
 "With <systemitem>Directory</systemitem> settings, you can enclose a group of "
 "configuration options that will only apply to the specified directory."
 msgstr ""
+"Com as configurações do <systemitem>Diretório</systemitem>, você pode "
+"incluir um grupo de opções de configuração que serão aplicadas apenas ao "
+"diretório especificado."
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:152
@@ -217,11 +283,15 @@ msgid ""
 "www/cgi-bin</filename> are configured here. It should not be necessary to "
 "change the defaults."
 msgstr ""
+"Opções de acesso e exibição para os diretórios <filename>/srv/www/"
+"htdocs</filename>, <filename>/usr/share/apache2/icons</filename> e "
+"<filename>/srv/www/cgi-bin</filename> estão configurados aqui. Não deve ser "
+"necessário alterar os padrões."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:162
 msgid "<systemitem>Include</systemitem>"
-msgstr ""
+msgstr "<systemitem>Include</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:165
@@ -235,11 +305,19 @@ msgid ""
 "manual.conf</filename>, the <filename>apache2-manual</filename> "
 "configuration file is included."
 msgstr ""
+"Com include, arquivos de configuração adicionais podem ser especificados. "
+"Duas diretivas <systemitem>Include</systemitem> já estão pré-configuradas: "
+"<filename>/etc/apache2/conf.d/</filename> é o diretório que contém os "
+"arquivos de configuração que acompanham os módulos externos. Com esta "
+"diretiva, todos os arquivos neste diretório que terminam em "
+"<filename>.conf</filename> são incluídos. Com a segunda diretiva, <filename>/"
+"etc/apache2/conf.d/apache2-manual.conf</filename>, o arquivo de configuração "
+"<filename>apache2-manual</filename> está incluído."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:178
 msgid "<systemitem>Server Name</systemitem>"
-msgstr ""
+msgstr "<systemitem>Server Name</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:181
@@ -250,11 +328,17 @@ msgid ""
 "address. You cannot choose an arbitrary name here—the server must be "
 "<quote>known</quote> under this name."
 msgstr ""
+"Isso especifica o URL padrão usado pelos clientes para entrar em contato com "
+"o servidor da Web. Use um nome de domínio totalmente qualificado (FQDN) para "
+"acessar o servidor da Web em "
+"<literal>http://<replaceable>FQDN</replaceable>/</literal> ou seu endereço "
+"IP. Você não pode escolher um nome arbitrário aqui - o servidor deve ser "
+"<quote>conhecido</quote> sob esse nome."
 
 #. (itstool) path: varlistentry/term
 #: xml/apache2_yast_i.xml:191
 msgid "<systemitem>Server Administrator E-Mail</systemitem>"
-msgstr ""
+msgstr "<systemitem>E-mail do administrador do servidor</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apache2_yast_i.xml:194
@@ -262,6 +346,8 @@ msgid ""
 "E-mail address of the server administrator. This address is, for example, "
 "shown on error pages Apache creates."
 msgstr ""
+"Endereço de email do administrador do servidor. Este endereço é, por "
+"exemplo, mostrado nas páginas de erro criadas pelo Apache."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:222
@@ -269,11 +355,13 @@ msgid ""
 "After finishing with the <guimenu>Default Host</guimenu> step, click "
 "<guimenu>Next</guimenu> to continue with the configuration."
 msgstr ""
+"Após terminar com a etapa <guimenu>Host padrão</guimenu>, clique em "
+"<guimenu>Avançar</guimenu> para continuar com a configuração."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:228
 msgid "Virtual Hosts"
-msgstr ""
+msgstr "Hosts virtuais"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:229
@@ -283,6 +371,10 @@ msgid ""
 "have not made manual changes prior to starting the YaST HTTP wizard, no "
 "virtual host is present."
 msgstr ""
+"Nesta etapa, o assistente exibe uma lista de hosts virtuais já configurados ("
+"consulte <xref linkend=\"sec.apache2.configuration.manually.vhost\"/>). Se "
+"você não fez alterações manuais antes de iniciar o assistente HTTP do YaST, "
+"nenhum host virtual está presente."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:235
@@ -295,6 +387,14 @@ msgid ""
 "identified (name based or IP based). Specify the name or IP address with "
 "<guimenu>Change Virtual Host ID</guimenu>"
 msgstr ""
+"Para adicionar um host, clique em <guimenu>Adicionar</guimenu> para abrir "
+"uma caixa de diálogo para inserir informações básicas sobre o host, como "
+"<guimenu>Nome do Servidor</guimenu>, <guimenu>Raiz do Conteúdo do "
+"Servidor</guimenu> (<systemitem>DocumentRoot</systemitem>) e o <guimenu>E-"
+"mail do administrador</guimenu>. <guimenu>Resolução do servidor</guimenu> é "
+"usado para determinar como um host é identificado (com base em nome ou com "
+"base em IP). Especifique o nome ou o endereço IP com <guimenu>Alterar ID do "
+"host virtual</guimenu>"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:244
@@ -302,6 +402,8 @@ msgid ""
 "Clicking <guimenu>Next</guimenu> advances to the second part of the virtual "
 "host configuration dialog."
 msgstr ""
+"Clicar em <guimenu>Avançar</guimenu> avança para a segunda parte da caixa de "
+"diálogo de configuração do host virtual."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:248
@@ -319,11 +421,24 @@ msgid ""
 "available on the server under <literal>http://www.example.com/"
 "~<replaceable>USER</replaceable></literal>."
 msgstr ""
+"Na parte dois da configuração do host virtual, você pode especificar se "
+"deseja ativar scripts CGI e qual diretório usar para esses scripts. Também é "
+"possível ativar o SSL. Se você fizer isso, também deverá especificar o "
+"caminho para o certificado. Consulte <xref linkend=\"sec.apache2.ssl."
+"configuration\"/> para obter detalhes sobre SSL e certificados. Com a opção "
+"<guimenu>Índice de diretório</guimenu>, você pode especificar qual arquivo "
+"será exibido quando o cliente solicitar um diretório (por padrão, "
+"<filename>index.html</filename>). Adicione um ou mais nomes de arquivo ("
+"separados por espaço) para alterar isso. Com <guimenu>Habilitar HTML "
+"público</guimenu>, o conteúdo dos diretórios públicos dos usuários "
+"(<filename>~<replaceable>USER</replaceable>/public_html/</filename>) é "
+"disponibilizado no servidor em <literal>http://www.example.com/"
+"~<replaceable>USER</replaceable></literal>."
 
 #. (itstool) path: important/title
 #: xml/apache2_yast_i.xml:264
 msgid "Creating Virtual Hosts"
-msgstr ""
+msgstr "Criando hosts virtuais"
 
 #. (itstool) path: important/para
 #: xml/apache2_yast_i.xml:265
@@ -332,11 +447,15 @@ msgid ""
 "hosts, each host name must be resolved on the network. If using IP-based "
 "virtual hosts, you can assign only one host to each IP address available."
 msgstr ""
+"Não é possível adicionar hosts virtuais à vontade. Se estiver usando hosts "
+"virtuais baseados em nome, cada nome de host deverá ser resolvido na rede. "
+"Se você estiver usando hosts virtuais baseados em IP, poderá atribuir apenas "
+"um host a cada endereço IP disponível."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:274
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:275
@@ -350,11 +469,19 @@ msgid ""
 "the dialog described in <xref linkend=\"sec.apache2.configuration.yast."
 "server_configuration\"/>."
 msgstr ""
+"Esta é a etapa final do assistente. Aqui, determine como e quando o servidor "
+"Apache é iniciado: ao inicializar ou manualmente. Veja também um breve "
+"resumo da configuração feita até o momento. Se você estiver satisfeito com "
+"suas configurações, clique em <guimenu>Concluir</guimenu> para concluir a "
+"configuração. Para alterar algo, clique em <guimenu>Voltar</guimenu> até "
+"chegar à caixa de diálogo desejada. Clicar em <guimenu>Configuração avançada "
+"do servidor HTTP</guimenu> abre a caixa de diálogo descrita em <xref linkend="
+"\"sec.apache2.configuration.yast.server_configuration\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apache2_yast_i.xml:285
 msgid "HTTP Server Wizard: Summary"
-msgstr ""
+msgstr "Assistente para servidor HTTP: Resumo"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -364,12 +491,12 @@ msgstr ""
 #: xml/apache2_yast_i.xml:288 xml/apache2_yast_i.xml:291
 msgctxt "_"
 msgid "external ref='yast2_apache_wizard5.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2_apache_wizard5.png' md5='__failed__'"
 
 #. (itstool) path: sect3/title
 #: xml/apache2_yast_i.xml:298
 msgid "HTTP Server Configuration"
-msgstr ""
+msgstr "Configuração do servidor HTTP"
 
 #. (itstool) path: sect3/para
 #: xml/apache2_yast_i.xml:299
@@ -382,11 +509,19 @@ msgid ""
 "<guimenu>Finish</guimenu> to make them effective. Clicking <guimenu>Abort</"
 "guimenu> leaves the configuration module and discards your changes."
 msgstr ""
+"A caixa de diálogo <guimenu>Configuração do servidor HTTP</guimenu> também "
+"permite fazer ainda mais ajustes na configuração do que o assistente (que só "
+"é executado se você configurar o servidor da Web pela primeira vez). "
+"Consiste em quatro guias descritas a seguir. Nenhuma opção de configuração "
+"alterada aqui é efetiva imediatamente - você sempre deve confirmar suas "
+"alterações com <guimenu>Concluir</guimenu> para torná-las efetivas. Clicar "
+"em <guimenu>Abortar</guimenu> sai do módulo de configuração e descarta suas "
+"alterações."
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:310
 msgid "Listen Ports and Addresses"
-msgstr ""
+msgstr "Ouvir portas e endereços"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:311
@@ -403,6 +538,18 @@ msgid ""
 "interfaces, click <guimenu>Firewall Details</guimenu> to specify on which "
 "interface(s) the port(s) should be opened."
 msgstr ""
+"No <guimenu>Serviço HTTP</guimenu>, selecione se o Apache deve estar em "
+"execução (<guimenu>Ativado</guimenu>) ou parado "
+"(<guimenu>Desativado</guimenu>). Em <guimenu>Ouça em portas</guimenu>, "
+"<guimenu>Adicione</guimenu>, <guimenu>Editar</guimenu> ou "
+"<guimenu>Exclua</guimenu> endereços e portas nas quais o servidor deve estar "
+"disponível. O padrão é escutar em todas as interfaces na porta "
+"<literal>80</literal>. Você deve sempre verificar <guimenu>Abrir porta no "
+"firewall</guimenu>, porque, caso contrário, o servidor da Web não poderá ser "
+"acessado de fora. Manter a porta fechada é útil apenas em situações de teste "
+"em que nenhum acesso externo ao servidor da Web é necessário. Se você tiver "
+"várias interfaces de rede, clique em <guimenu>Detalhes do firewall</guimenu> "
+"para especificar em quais interfaces as portas devem ser abertas."
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:325
@@ -414,11 +561,18 @@ msgid ""
 "start_stop\"/>. These commands are effective immediately and their log "
 "messages are also displayed immediately."
 msgstr ""
+"Com <guimenu>Arquivos de log</guimenu>, observe o arquivo de log de acesso "
+"ou o arquivo de log de erros. Isso é útil se você quiser testar sua "
+"configuração. O arquivo de log é aberto em uma janela separada da qual você "
+"também pode reiniciar ou recarregar o servidor da Web. Para detalhes, "
+"consulte <xref linkend=\"sec.apache2.start_stop\"/>. Esses comandos são "
+"efetivos imediatamente e suas mensagens de log também são exibidas "
+"imediatamente."
 
 #. (itstool) path: figure/title
 #: xml/apache2_yast_i.xml:334
 msgid "HTTP Server Configuration: Listen Ports and Addresses"
-msgstr ""
+msgstr "Configuração do servidor HTTP: ouvir portas e endereços"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -428,12 +582,12 @@ msgstr ""
 #: xml/apache2_yast_i.xml:337 xml/apache2_yast_i.xml:340
 msgctxt "_"
 msgid "external ref='yast2_apache_config_listen.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2_apache_config_listen.png' md5='__failed__'"
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:346
 msgid "Server Modules"
-msgstr ""
+msgstr "Módulos de servidor"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:347
@@ -443,11 +597,16 @@ msgid ""
 "guimenu> to add a new module that is already installed but not yet listed. "
 "Learn more about modules in <xref linkend=\"sec.apache2.modules\"/>."
 msgstr ""
+"Você pode alterar o status (ativado ou desativado) dos módulos Apache2 "
+"clicando em <guimenu>Alternar status</guimenu>. Clique em <guimenu>Adicionar "
+"módulo</guimenu> para adicionar um novo módulo que já está instalado, mas "
+"ainda não está listado. Saiba mais sobre os módulos em <xref linkend=\""
+"sec.apache2.modules\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apache2_yast_i.xml:354
 msgid "HTTP Server Configuration: Server Modules"
-msgstr ""
+msgstr "Configuração do servidor HTTP: módulos de servidor"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -457,12 +616,12 @@ msgstr ""
 #: xml/apache2_yast_i.xml:357 xml/apache2_yast_i.xml:360
 msgctxt "_"
 msgid "external ref='yast2_apache_config_modules.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='yast2_apache_config_modules.png' md5='__failed__'"
 
 #. (itstool) path: sect4/title
 #: xml/apache2_yast_i.xml:366
 msgid "Main Host or Hosts"
-msgstr ""
+msgstr "Principal host ou hosts"
 
 #. (itstool) path: sect4/para
 #: xml/apache2_yast_i.xml:367
@@ -471,3 +630,6 @@ msgid ""
 "linkend=\"sec.apache2.configuration.yast.wizard.default_host\"/> and <xref "
 "linkend=\"sec.apache2.configuration.yast.wizard.virtual_hosts\"/>."
 msgstr ""
+"Essas caixas de diálogo são idênticas às já descritas. Confira <xref linkend="
+"\"sec.apache2.configuration.yast.wizard.default_host\"/> e <xref linkend=\""
+"sec.apache2.configuration.yast.wizard.virtual_hosts\"/>."

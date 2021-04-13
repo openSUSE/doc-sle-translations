@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/art_sle_install_quick-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: article/title
 #: xml/art_sle_install_quick.xml:14
 msgid "<citetitle>Installation Quick Start</citetitle>"
-msgstr ""
+msgstr "<citetitle>Rychlý start instalace</citetitle>"
 
 #. (itstool) path: article/subtitle
 #: xml/art_sle_install_quick.xml:15
@@ -30,6 +34,11 @@ msgid ""
 "\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled"
 "\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase>"
 
 #. (itstool) path: info/productnumber
 #: xml/art_sle_install_quick.xml:17
@@ -37,6 +46,8 @@ msgid ""
 "<phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os="
 "\"sles;sled\">15</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os="
+"\"sles;sled\">15</phrase></phrase>"
 
 #. (itstool) path: info/productname
 #: xml/art_sle_install_quick.xml:17
@@ -45,6 +56,9 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: abstract/para
 #: xml/art_sle_install_quick.xml:20
@@ -56,11 +70,16 @@ msgid ""
 "\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></"
 "phrase>."
 msgstr ""
+"Tento Rychlý start Vás krok za krokem provede instalací <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\""
+">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
+"Enterprise Desktop</phrase></phrase> <phrase role=\"productnumber\"><phrase "
+"os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
 
 #. (itstool) path: docmanager/translation
 #: xml/art_sle_install_quick.xml:26
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/art_sle_install_quick.xml:31
@@ -69,6 +88,9 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 msgstr ""
+"Vítejte v <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_install_quick.xml:33
@@ -83,11 +105,20 @@ msgid ""
 "\">For preparations required to boot into the installation system, refer to "
 "<xref linkend=\"cha.x86\"/>.</phrase>"
 msgstr ""
+"Při instalaci produktu na všechny podporované hardwarové platformy použijte "
+"následující postupy. Předpokládá se, že jste úspěšně nabootovali<phrase os=\""
+"sles\">/naIPLovali</phrase> instalační systém. Podrobnější pokyny k "
+"instalaci a strategie nasazení najdete v <xref linkend=\"book.sle."
+"deployment\"/>. <phrase os = \"sles\">Informace o přípravách vyžadovaných "
+"pro boot nebo IPL instalačního systému najdete v následujících částech výše "
+"zmíněného průvodce: </phrase> <phrase os=\"sled\"> Informace o přípravách "
+"vyžadovaných pro nabootování instalačního systému viz <xref linkend=\"cha."
+"x86\"/>. </phrase>"
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_install_quick.xml:68
 msgid "The Default Installation Procedure"
-msgstr ""
+msgstr "Výchozí postup instalace"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:69
@@ -102,6 +133,15 @@ msgid ""
 "Enterprise Desktop</phrase></phrase>. During the installation you can add "
 "functionality by selecting modules to be installed on top of the Installer."
 msgstr ""
+"Od verze <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15 "
+"obsahuje installační médium pouze Installer, minimální systém s příkazovým "
+"řádkem pro instalaci, aktualizaci a registraci <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Během instalace můžete přidat funkčnost "
+"Installeru výběrem modulů, které se nainstalují jako jeho nástavba."
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:76
@@ -112,6 +152,11 @@ msgid ""
 "without network access, a second installation medium, the SLE-15-Packages "
 "ISO image, is required."
 msgstr ""
+"Výchozí instalace vyžaduje přístup k síti, aby bylo možno kontaktovat "
+"Zákaznické centrum SUSE nebo místní server zrcadla / repliky úložiště ("
+"Repository Mirroring Tool) a získat data úložišť pro moduly. V případě, že "
+"chcete provést instalaci bez přístupu k síti, je vyžadováno druhé instalační "
+"médium, ISO-obraz SLE-15-Packages."
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:82
@@ -122,11 +167,16 @@ msgid ""
 "\"sles\">or IPL</phrase> into the installer from the Installer medium and "
 "start the installation."
 msgstr ""
+"Chcete-li nainstalovat <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>, nabootujte <phrase os=\"sles\">nebo spusťte "
+"IPL</phrase> instalátoru z instalačního média a spusťte instalaci."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:152
 msgid "Language, Keyboard, and Product Selection"
-msgstr ""
+msgstr "Volba jazyka, klávesnice a produktu"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -136,7 +186,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:156 xml/art_sle_install_quick.xml:160
 msgctxt "_"
 msgid "external ref='install_product_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_product_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -146,7 +196,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:157 xml/art_sle_install_quick.xml:161
 msgctxt "_"
 msgid "external ref='install_product_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_product_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:165
@@ -157,12 +207,19 @@ msgid ""
 "here, if necessary. Use the <guimenu>Keyboard Test</guimenu> text box to "
 "test the layout."
 msgstr ""
+"Nastavení <guimenu>Jazyk</guimenu> a <guimenu>Rozložení klávesnice</guimenu> "
+"jsou inicializována jazykem, který jste vybrali na úvodní obrazovce. Pokud "
+"jste výchozí nastavení nezměnili, bude to angličtina (USA). V případě "
+"potřeby zde změňte nastavení. Rozložení otestujte pomocí textového pole "
+"<guimenu>Test klávesnice</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:172
 msgid ""
 "With the Installer you can install all SUSE Linux Enterprise base products:"
 msgstr ""
+"Instalačním programem můžete nainstalovat všechny základní produkty SUSE "
+"Linux Enterprise:"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:177
@@ -171,6 +228,9 @@ msgid ""
 "phrase><phrase os=\"sled\">refer to <link xlink:href=\"https://www.suse.com/"
 "documentation/sles/\"/> for installation instructions</phrase>)"
 msgstr ""
+"SUSE Linux Enterprise Server (<phrase os=\"sles\">popsáno zde,</phrase><"
+"phrase os=\"sled\">návod k instalaci viz <link xlink:href=\"https://www.suse."
+"com/documentation/sles/\"/></phrase>)"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:184
@@ -179,11 +239,14 @@ msgid ""
 "phrase><phrase os=\"sles\">refer to <link xlink:href=\"https://www.suse.com/"
 "documentation/sled/\"/> for installation instructions</phrase>)"
 msgstr ""
+"SUSE Linux Enterprise Server (<phrase os=\"sled\">popsáno zde,</phrase><"
+"phrase os=\"sles\">návod k instalaci viz <link xlink:href=\"https://www.suse."
+"com/documentation/sled/\"/></phrase>)"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:191
 msgid "SUSE Linux Enterprise High Performance Computing"
-msgstr ""
+msgstr "Výkonný výpočetní systém SUSE Linux Enterprise"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:197
@@ -192,6 +255,8 @@ msgid ""
 "\"https://www.suse.com/documentation/sles-for-sap/\"/> for installation "
 "instructions)"
 msgstr ""
+"SUSE Linux Enterprise Server pro aplikace SAP (návod k instalaci viz <link "
+"xlink:href=\"https://www.suse.com/documentation/sles-for-sap/\"/>)"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:204
@@ -202,11 +267,15 @@ msgid ""
 "os=\"sled\">SUSE Linux Enterprise Desktop</phrase>. Proceed with "
 "<guimenu>Next</guimenu>."
 msgstr ""
+"Vyberte produkt k instalaci. Budete k němu potřebovat registrační kód. V "
+"tomto dokumentu se předpokládá, že jste vybrali <phrase os=\"sles\">SUSE "
+"Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase>. Pokračujte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:212
 msgid "License Agreement"
-msgstr ""
+msgstr "Licenční smlouva"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -216,7 +285,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:216 xml/art_sle_install_quick.xml:220
 msgctxt "_"
 msgid "external ref='install_license_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_license_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -226,7 +295,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:217 xml/art_sle_install_quick.xml:221
 msgctxt "_"
 msgid "external ref='install_license_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_license_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:225
@@ -239,11 +308,18 @@ msgid ""
 "\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
 "Enterprise Desktop</phrase></phrase>. Proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Přečtěte si Licenční smlouvu. Uvidíte ji v jazyce, který jste si zvolili na "
+"obrazovce bootu. Překlady jsou dostupné na rozbalovacím seznamu <guimenu>"
+"License Language</guimenu>. Smlouvu přijměte zaškrtnutím <guimenu>Souhlasím "
+"s podmínkami licence</guimenu>, pak instalujte <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Pokračujte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:234
 msgid "Network Settings"
-msgstr ""
+msgstr "Nastavení sítě"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -253,7 +329,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:238 xml/art_sle_install_quick.xml:241
 msgctxt "_"
 msgid "external ref='install_network.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_network.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:245
@@ -263,6 +339,10 @@ msgid ""
 "automatically configured via DHCP during the start of the installation, you "
 "will be taken to the registration step."
 msgstr ""
+"Provede se systémová analýza, kde instalační program zkoumá úložná zařízení "
+"a pokouší se najít jiné nainstalované systémy. Pokud byla síť automaticky "
+"zkonfigurována pomocí DHCP během začátku instalace, přejdete k registračnímu "
+"kroku."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:251
@@ -275,16 +355,23 @@ msgid ""
 "prefer to do an installation without network access, skip this step without "
 "making any changes and proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Není-li síť dosud zkonfigurována, otevře se dialogové okno <guimenu>"
+"Nastavení sítě</guimenu>. Vyberte síťové rozhraní ze seznamu a konfigurujte "
+"jej pomocí <guimenu>Upravit</guimenu>. Nebo <guimenu>Přidat</guimenu> "
+"rozhraní ručně. Další informace viz <xref linkend=\"sec.yast_install."
+"network\"/> a <xref linkend=\"sec.network.yast\"/>. Pokud dáváte přednost "
+"instalaci bez přístupu k síti, tento krok přeskočte bez provedení jakýchkoli "
+"změn a pokračujte <guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:263
 msgid "IBM Z: Disk Activation"
-msgstr ""
+msgstr "IBM Z: Aktivace disku"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:264
 msgid "Skip this step if you are not installing on IBM Z hardware."
-msgstr ""
+msgstr "Tento krok přeskočte, pokud neinstalujete na hardware IBM Z."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -294,7 +381,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:270 xml/art_sle_install_quick.xml:273
 msgctxt "_"
 msgid "external ref='install_zseries_disk_activation.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_zseries_disk_activation.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:277
@@ -307,11 +394,18 @@ msgid ""
 "if the corresponding devices are attached. Proceed with <guimenu>Next</"
 "guimenu> to set up the selected disk type."
 msgstr ""
+"Konfigurujte připojené pevné disky. Pro instalaci <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> zvolte DASD, SCSI disky připojené "
+"vláknem (Fibre Channel, zFCP) nebo iSCSI. Konfigurační tlačítka DASD a zFCP "
+"jsou zobrazena, pouze jsou-li příslušná zařízení připojena. Pokračujte na "
+"<guimenu>Další</guimenu> a nastavte disk zvoleného typu."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:287
 msgid "Registration"
-msgstr ""
+msgstr "Registrace"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -321,7 +415,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:292 xml/art_sle_install_quick.xml:298
 msgctxt "_"
 msgid "external ref='install_registration_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_registration_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -331,7 +425,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:294 xml/art_sle_install_quick.xml:300
 msgctxt "_"
 msgid "external ref='install_registration_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_registration_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:304
@@ -345,6 +439,14 @@ msgid ""
 "This enables you to install the system with the latest updates and patches "
 "available."
 msgstr ""
+"Chcete-li získat technickou podporu a aktualizace produktů, musíte se "
+"zaregistrovat a aktivovat svůj produkt v Zákaznickém centru SUSE nebo na "
+"místním registračním serveru. Registrace <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> v tomto stádiu instalace Vám dá i okamžitý přístup "
+"k úložišti aktualizací. To vám umožní nainstalovat systém s nejnovějšími "
+"dostupnými aktualizacemi a opravami."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:311
@@ -353,6 +455,8 @@ msgid ""
 "extensions, which you may install with the next step, are loaded from the "
 "registration server."
 msgstr ""
+"Při registraci jsou úložiště a závislosti modulů a rozšíření, která můžete "
+"nainstalovat v dalším kroku, načtena z registračního serveru."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:316
@@ -361,6 +465,9 @@ msgid ""
 "Registration</guimenu>. Proceed with the installation by following the "
 "instructions in <xref linkend=\"sec.sle.installquick.install_offline\"/>."
 msgstr ""
+"Jste-li offline nebo chcete přeskočit registraci, aktivujte <guimenu>"
+"Přeskočit registraci</guimenu>. Pak pokračujte v instalaci podle pokynů v <"
+"xref linkend=\"sec.sle.installquick.install_offline\"/>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:322
@@ -375,11 +482,19 @@ msgid ""
 "local SMT Server</guimenu> and either choose a URL from the drop-down box or "
 "type in an address."
 msgstr ""
+"Chcete-li se zaregistrovat v zákaznickém centru SUSE, zadejte <guimenu>e-"
+"mailovou adresu</guimenu> spojenou s Vaším účtem SCC a <guimenu>Registrační "
+"kód</guimenu> pro <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Pokud "
+"vaše organizace provozuje místní registrační server, můžete se alternativně "
+"zaregistrovat tam. Aktivujte <guimenu>Registrovat systém na místním serveru "
+"SMT</guimenu> a buď zvolte URL z rozbalovacího seznamu, nebo zadejte adresu."
 
 #. (itstool) path: note/title
 #: xml/art_sle_install_quick.xml:332
 msgid "Trusting Repositories"
-msgstr ""
+msgstr "Důvěryhodná úložiště"
 
 #. (itstool) path: note/para
 #: xml/art_sle_install_quick.xml:333
@@ -388,11 +503,14 @@ msgid ""
 "drivers may be added during the registration. If so, you will be asked to "
 "<guimenu>Trust</guimenu> each of these repositories."
 msgstr ""
+"V závislosti na vašem hardwaru mohou být během registrace přidána další "
+"úložiště obsahující hardwarové ovladače. Pokud ano, budete požádáni, abyste "
+"dali <guimenu>Důvěru</guimenu> každému z těchto úložišť."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:341
 msgid "Installing Product Patches at Installation Time"
-msgstr ""
+msgstr "Instalace záplat produktu při prvotní instalaci"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:342
@@ -406,11 +524,19 @@ msgid ""
 "without having to apply the updates after installation. Activating this "
 "option is recommended."
 msgstr ""
+"Poté, co <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> byl "
+"úspěšně zaregistrován, budete dotázáni, zda během instalace nainstalovat "
+"nejnovější dostupné aktualizace online. Pokud zvolíte možnost "
+"<guimenu>Ano</guimenu>, bude systém nainstalován s nejnovějšími balíčky a "
+"nebude už nutné instalovat aktualizace po instalaci. Doporučuje se aktivovat "
+"tuto možnost."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:352
 msgid "Extension and Module Selection"
-msgstr ""
+msgstr "Výběr rozšíření a modulů"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -420,7 +546,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:360 xml/art_sle_install_quick.xml:367
 msgctxt "_"
 msgid "external ref='install_extensions_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_extensions_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -430,7 +556,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:363 xml/art_sle_install_quick.xml:369
 msgctxt "_"
 msgid "external ref='install_extensions_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_extensions_sles.png' md5='__failed__'"
 
 #. (itstool) path: informalfigure/mediaobject
 #: xml/art_sle_install_quick.xml:354
@@ -443,6 +569,13 @@ msgid ""
 "\"install_extensions_sled.png\" width=\"100%\"/> <imagedata os=\"sles\" "
 "fileref=\"install_extensions_sles.png\" width=\"100%\"/> </imageobject>"
 msgstr ""
+"<textobject role=\"description\"> <phrase>Výběr rozšíření a modulů</phrase> "
+"</textobject> <imageobject role=\"fo\"> <imagedata os=\"sled\" fileref=\""
+"install_extensions_sled.png\" width=\"100%\"/> <imagedata os=\"sles\" "
+"fileref=\"install_extensions_sles.png\" width=\"100%\"/> </imageobject> <"
+"imageobject role=\"html\"> <imagedata os=\"sled\" fileref=\""
+"install_extensions_sled.png\" width=\"100%\"/> <imagedata os=\"sles\" "
+"fileref=\"install_extensions_sles.png\" width=\"100%\"/> </imageobject>"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:374
@@ -456,6 +589,13 @@ msgid ""
 "functionality to your product. They are offered as subscriptions and require "
 "a registration key that is liable for costs."
 msgstr ""
+"Po úspěšné registraci systému vypíše instalátor moduly a rozšíření dostupná "
+"pro <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase>. Moduly jsou komponenty, "
+"které vám umožňují připravit produkt podle vašich potřeb. Moduly jsou "
+"zdarma. Rozšíření přidávají do produktu funkčnost. Nabízejí se jako "
+"předplatné a vyžadují registrační klíč, který představuje náklady."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:382
@@ -467,6 +607,11 @@ msgid ""
 "suse.com/releasenotes/x86_64/SUSE-SLES/15/#Intro.Module\">Release Notes</"
 "link>."
 msgstr ""
+"Dostupnost určitých modulů nebo rozšíření závisí na produktu, který jste "
+"vybrali v prvním kroku této instalace. Pro popis modulů a jejich životních "
+"cyklů vyberte modul a podívejte se na doprovodný text. Podrobnější informace "
+"jsou k dispozici v <link xlink:href=\"https://www.suse.com/releasenotes/"
+"x86_64/SUSE-SLES/15/#Intro.Module\">Poznámkách k vydání</link>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:391
@@ -475,6 +620,9 @@ msgid ""
 "because it defines which software sources (repositories) are available for "
 "installation and in the running system."
 msgstr ""
+"Výběr modulů nepřímo ovlivňuje rozsah instalace, protože definuje, jaké "
+"zdroje softwaru (úložiště) jsou k dispozici pro instalaci a v běžícím "
+"systému."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -484,11 +632,15 @@ msgid ""
 "\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
 "Enterprise Desktop</phrase></phrase>:"
 msgstr ""
+"Pro <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> jsou dostupné tyto moduly a "
+"rozšíření:"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Basesystem Module"
-msgstr ""
+msgstr "Modul základního systému"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -502,31 +654,39 @@ msgid ""
 "phrase></phrase> versions. This module is selected for installation by "
 "default and should not be deselected."
 msgstr ""
+"Tento modul přidá základní systém na začátek seznamu instalátoru. Je "
+"vyžadován všemi ostatními moduly a rozšířeními. Rozsah instalace, která "
+"obsahuje pouze základní systém, je srovnatelný s instalačním vzorem "
+"<citetitle>\"minimální systém\"</citetitle> předchozích verzí <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>. Tento modul je vybrán k instalaci ve "
+"výchozím nastavení a jeho výběr by neměl být zrušen."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<emphasis>Dependencies:</emphasis> None"
-msgstr ""
+msgstr "<emphasis>Závislosti:</emphasis> Žádné"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Containers Module"
-msgstr ""
+msgstr "Modul kontejnerů"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "Contains support and tools for containers."
-msgstr ""
+msgstr "Obsahuje nástroje a podporu pro kontejnery."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<emphasis>Dependencies:</emphasis> Basesystem"
-msgstr ""
+msgstr "<emphasis>Závislosti:</emphasis> Základní systém"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Desktop Applications Module"
-msgstr ""
+msgstr "Modul aplikací pro stolní počítače/notebooky"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -535,11 +695,14 @@ msgid ""
 "system. <phrase os=\"sled\">This module is selected for installation by "
 "default; deselcting it is not recommended.</phrase>"
 msgstr ""
+"Přidá do systému grafické uživatelské rozhraní a základní aplikace pro "
+"stolní počítače/NB. <phrase os=\"sled\">Tento modul je vybrán k instalaci ve "
+"výchozím nastavení; nedoporučuje se ho odebrat.</phrase>"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Development Tools Module"
-msgstr ""
+msgstr "Modul vývojových nástrojů"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -548,16 +711,21 @@ msgid ""
 "for compiling and debugging applications. Replaces the former Software "
 "Development Kit (SDK)."
 msgstr ""
+"Obsahuje kompilátory (včetně <package>gcc</package>) a knihovny potřebné pro "
+"kompilaci a ladění aplikací. Nahrazuje dřívější Software Development Kit "
+"(SDK)."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<emphasis>Dependencies:</emphasis> Basesystem, Desktop Applications"
 msgstr ""
+"<emphasis>Závislosti:</emphasis> Základní systém, aplikace pro stolní "
+"počítač/NB"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Legacy Module"
-msgstr ""
+msgstr "Starší modul"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -570,16 +738,23 @@ msgid ""
 "\"sles;sled\">15</phrase></phrase>. This module is recommended when "
 "migrating from a previous product version."
 msgstr ""
+"Obsahuje balíčky, které byly dostupné ve starších verzích <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>, ale nejsou už zařazeny do SLES <phrase "
+"role=\"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;"
+"sled\">15</phrase></phrase>. Tento modul se doporučuje při migraci z "
+"předchozí verze produktu."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<emphasis>Dependencies:</emphasis> Basesystem, Server Applications"
-msgstr ""
+msgstr "<emphasis>Závislosti:</emphasis> Základní systém, serverové aplikace"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Public Cloud Module"
-msgstr ""
+msgstr "Veřejný cloudový modul"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -591,11 +766,17 @@ msgid ""
 "Amazon Web Services (AWS), Microsoft Azure, Google Compute Platform, or the "
 "SUSE OpenStack Cloud."
 msgstr ""
+"Obsahuje všechny nástroje nezbytné k vytváření obrazů systému k nasazení <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> do prostředí cloudu, "
+"například Amazon Web Services (AWS), Microsoft Azure, Google Compute "
+"Platform, nebo SUSE OpenStack Cloud."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Server Applications Module"
-msgstr ""
+msgstr "Modul serverových aplikací"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -604,11 +785,15 @@ msgid ""
 "name server, or Web server. <phrase os=\"sles\">This module is selected for "
 "installation by default; deselcting it is not recommended.</phrase>"
 msgstr ""
+"Přidává funkčnost serveru poskytováním síťových služeb, jako je DHCP server, "
+"DNS server nebo webový server. <phrase os=\"sles\">Tento modul je ve "
+"výchozím nastavení vybrán pro instalaci; nedoporučuje se odebrat "
+"jej.</phrase>"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Cloud Application Platform Tools Module"
-msgstr ""
+msgstr "Modul nástrojů SUSE Cloud Application Platform"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -616,11 +801,13 @@ msgid ""
 "Adds tools allowing you to interact with a SUSE Cloud Application Platform "
 "product."
 msgstr ""
+"Přidává nástroje umožňující interakci s produktem SUSE Cloud Application "
+"Platform."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Package Hub"
-msgstr ""
+msgstr "Osa balíčků SUSE"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -635,21 +822,30 @@ msgid ""
 "Enterprise Desktop</phrase></phrase>. For more information refer to <link "
 "xlink:href=\"https://packagehub.suse.com/\"/>."
 msgstr ""
+"Zajišťuje přístup k balíčkům pro <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> udržovaným komunitou openSUSE. Tyto balíčky jsou "
+"dodávány bez podpory L3 a nekolidují s podporou <phrase role=\"productname\""
+"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Další informace viz <link xlink:href=\""
+"https://packagehub.suse.com/\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Web and Scripting Module"
-msgstr ""
+msgstr "Webový a skriptovací modul"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "Contains packages intended for a running Web server."
-msgstr ""
+msgstr "Obsahuje balíčky určené pro provoz webového serveru."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Enterprise Storage"
-msgstr ""
+msgstr "Distribuovaná paměť SUSE Enterprise Storage"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -659,11 +855,15 @@ msgid ""
 "Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</"
 "phrase></phrase>. Requires a separate license key."
 msgstr ""
+"Přidává podporu distribuované paměti s Ceph k <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Vyžaduje samostatný licenční klíč."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Linux Enterprise High Availability Extension"
-msgstr ""
+msgstr "Rozšíření pro vysokou dostupnost SUSE Linux Enterprise"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -674,11 +874,15 @@ msgid ""
 "Enterprise Desktop</phrase></phrase>. This extension requires a separate "
 "license key."
 msgstr ""
+"Přidává klastrovou podporu pro nastavení kritická pro chod <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>. Vyžaduje samostatný licenční klíč."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Linux Enterprise Live Patching"
-msgstr ""
+msgstr "Záplatování za chodu SUSE Linux Enterprise"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -686,11 +890,13 @@ msgid ""
 "Adds support for performing critical patching without having to shut down "
 "the system. This extension requires a separate license key."
 msgstr ""
+"Přidává podporu pro provádění kritických oprav bez nutnosti vypínání "
+"systému. Toto rozšíření vyžaduje samostatný licenční klíč."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "SUSE Linux Enterprise Workstation Extension"
-msgstr ""
+msgstr "Rozšíření pracovních stanic SUSE Linux Enterprise"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -703,6 +909,14 @@ msgid ""
 "libraries. It allows to combine both products to create a fully featured "
 "workstation. This extension requires a separate license key."
 msgstr ""
+"Rozšiřuje funkčnost <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> with packages fromo balíčky ze SUSE Linux "
+"Enterprise Desktop, například přídavné aplikace pro pracovní stanice/NB ("
+"kancelářská sada, e-mailový klient, grafický editor, atd.) a knihovny. "
+"Umožní zkombinovat oba produkty a tím vytvořit plně vybavenou pracovní "
+"stanici. Toto rozšíření vyžaduje samostatný licenční klíč."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -714,6 +928,13 @@ msgid ""
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> subscription and is "
 "selected for installation by default; deselcting it is not recommended."
 msgstr ""
+"Obsahuje přídavné aplikace stolní/NB stanice, například kancelářskou sadu "
+"nebo multimediální software jako přehrávače hudby a videa. Toto rozšíření je "
+"vloženo do předplatného <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> a je vybráno k instalaci ve výchozím nastavení; "
+"odebrání se nedoporučuje."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -722,6 +943,8 @@ msgid ""
 "selecting a module, other modules may be selected automatically to fulfill "
 "dependencies."
 msgstr ""
+"Některé moduly závisejí na instalaci dalších modulů. Proto při výběru modulu "
+"mohou být automaticky vybrány další moduly pro dodržení závislostí."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -731,6 +954,10 @@ msgid ""
 "preselected for registration and installation. To avoid installing these "
 "recommendations, deselect them manually."
 msgstr ""
+"V závislosti na produktu může registrační server označit moduly a rozšíření "
+"podle doporučení. Doporučené moduly a rozšíření jsou předvoleny pro "
+"registraci a instalaci. Chcete-li se vyhnout instalaci těchto doporučených "
+"modulů/rozšíření, zrušte jejich výběr ručně."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -741,11 +968,15 @@ msgid ""
 "your choice, it may also be necessary to accept additional license "
 "agreements."
 msgstr ""
+"Vyberte moduly a rozšíření, které chcete nainstalovat, a pokračujte na "
+"<guimenu>Další</guimenu>. Pokud jste si vybrali jedno nebo více rozšíření, "
+"budete vyzváni k zadání příslušných registračních kódů. Podle vašeho výběru "
+"může být také nutné přijmout další licenční smlouvy."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:401
 msgid "Add-On Product"
-msgstr ""
+msgstr "Doplňkový produkt"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -755,7 +986,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:405 xml/art_sle_install_quick.xml:408
 msgctxt "_"
 msgid "external ref='install_addon.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_addon.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:412
@@ -768,11 +999,18 @@ msgid ""
 "Customer Center. Such add-on products may include third-party products and "
 "drivers or additional software for your system."
 msgstr ""
+"Dialog <guimenu>Doplňkový produkt</guimenu> Vám umožní přidat další zdroje "
+"softwaru (tzv. <quote>úložiště</quote>) k <phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>, které nejsou dodávány SUSE Customer Center. "
+"Takové doplňkové produkty mohou obsahovat produkty třetích stran a ovladače "
+"nebo přídavný software pro Váš systém."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:420
 msgid "Adding Drivers During the Installation"
-msgstr ""
+msgstr "Přidávání ovladačů během instalace"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:421
@@ -782,6 +1020,10 @@ msgid ""
 "<link xlink:href=\"http://drivers.suse.com/\"/>. These drivers have been "
 "created via the SUSE SolidDriver Program."
 msgstr ""
+"Úložiště aktualizace ovladačů můžete přidat také v dialogu <guimenu>Přídavný "
+"produkt</guimenu>. Aktualizace ovladačů pro SUSE Linux Enterprise jsou k "
+"dispozici na <link xlink:href=\"http://drivers.suse.com/\"/>. Tyto ovladače "
+"byly vytvořeny pomocí programu SUSE SolidDriver."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:428
@@ -791,6 +1033,10 @@ msgid ""
 "guimenu>. Specify a media type, a local path, or a network resource hosting "
 "the repository and follow the on-screen instructions."
 msgstr ""
+"Chcete-li tento krok přeskočit, pokračujte na <guimenu>Další</guimenu>. "
+"Jinak aktivujte <guimenu>Chtěl bych nainstalovat doplňkový produkt</guimenu>"
+". Určete typ média, lokální cestu nebo síťové umístění úložiště a postupujte "
+"podle pokynů na obrazovce."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:434
@@ -804,11 +1050,19 @@ msgid ""
 "registration key, you will be asked to enter it before proceeding to the "
 "next step."
 msgstr ""
+"Chcete-li stáhnout soubory popisující úložiště, zaškrtněte <guimenu>Stáhnout "
+"popisné soubory úložiště</guimenu>. Pokud je tato možnost deaktivována, "
+"budou popisné soubory staženy po zahájení instalace. Pokračujte na "
+"<guimenu>Další</guimenu> a v případě potřeby vložte médium. V závislosti na "
+"obsahu produktu může být nutné přijmout další licenční smlouvy. Pokračujte "
+"na <guimenu>Další</guimenu>. Jestliže jste si vybrali doplňkový produkt "
+"vyžadující registrační klíč, budete požádáni o jeho zadání před pokračováním "
+"k dalšímu kroku."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:446
 msgid "System Role"
-msgstr ""
+msgstr "Role systému"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -818,7 +1072,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:451 xml/art_sle_install_quick.xml:457
 msgctxt "_"
 msgid "external ref='install_system_role_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_system_role_sles.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -828,7 +1082,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:453 xml/art_sle_install_quick.xml:459
 msgctxt "_"
 msgid "external ref='install_system_role_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_system_role_sled.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:463
@@ -839,11 +1093,15 @@ msgid ""
 "installation. Refer to the description on screen to make your choice. Select "
 "a role and proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Dostupnost systémových rolí závisí na vašem výběru modulů a rozšíření. "
+"Systémové role definují například návrh rozdělení a sadu softwarových vzorů, "
+"které budou před instalací předvoleny. Podle svého výběru si přečtěte popis "
+"na obrazovce. Vyberte roli a pokračujte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:471 xml/art_sle_install_quick.xml:532
 msgid "Release Notes"
-msgstr ""
+msgstr "Poznámky k verzi"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:472 xml/art_sle_install_quick.xml:533
@@ -851,11 +1109,14 @@ msgid ""
 "From this point on, the Release Notes can be viewed from any screen during "
 "the installation process by selecting <guimenu>Release Notes</guimenu>."
 msgstr ""
+"Od tohoto okamžiku si poznámky k verzi můžete prohlížet z kterékoli "
+"obrazovky během instalačního procesu výběrem <guimenu>Poznámky k "
+"verzi</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:480
 msgid "Suggested Partitioning"
-msgstr ""
+msgstr "Navrhované rozdělení oddílů"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -865,7 +1126,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:484 xml/art_sle_install_quick.xml:487
 msgctxt "_"
 msgid "external ref='install_partitioner.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_partitioner.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:491
@@ -873,11 +1134,13 @@ msgid ""
 "Review the partition setup proposed by the system. If necessary, change it. "
 "You have the following options:"
 msgstr ""
+"Zkontrolujte nastavení oddílu navržené systémem. V případě potřeby je "
+"změňte. Máte následující možnosti:"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:497
 msgid "<guimenu>Guided Setup</guimenu>"
-msgstr ""
+msgstr "<guimenu>Nastavení s průvodcem</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:500
@@ -888,6 +1151,11 @@ msgid ""
 "root partition. If the disk(s) already contain partitions, decide whether to "
 "remove or resize them."
 msgstr ""
+"Spustí průvodce, který vám umožní upřesnit návrh rozdělení. Dostupné "
+"možnosti závisí na nastavení systému. V případě, že systém obsahuje více než "
+"jeden pevný disk, můžete si vybrat, které disky použijete a kam umístit "
+"kořenový oddíl. Pokud disky již obsahují oddíly, rozhodněte se, zda je "
+"chcete odebrat nebo změnit jejich velikost."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:507
@@ -896,11 +1164,14 @@ msgid ""
 "can change the file system for the root partition and decide whether to have "
 "a separate home partition or not."
 msgstr ""
+"V následujících krocích můžete také přidat podporu LVM (logických svazků) a "
+"šifrování disku. Můžete změnit systém souborů kořenového oddílu a rozhodnout "
+"se, zda budete mít samostatný domovský oddíl nebo ne."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:515
 msgid "<guimenu>Expert Partitioner</guimenu>"
-msgstr ""
+msgstr "<guimenu>Expert Partitioner</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:518
@@ -910,6 +1181,10 @@ msgid ""
 "partitioning setup and lets you create a custom setup. This option is "
 "intended for experts."
 msgstr ""
+"Otevírá <guimenu>Expert Partitioner</guimenu> (tvorba oddílů pro experty) "
+"popsaný v <xref linkend=\"sec.expert_partitioner\"/>. To vám dává plnou "
+"kontrolu nad nastavením oddílů a umožňuje vytvořit vlastní nastavení. Tato "
+"možnost je určena odborníkům."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:527
@@ -917,11 +1192,13 @@ msgid ""
 "To accept the proposed setup without any changes, choose <guimenu>Next</"
 "guimenu> to proceed."
 msgstr ""
+"Chcete-li přijmout navrhované nastavení bez jakýchkoli změn, pokračujte "
+"volbou <guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:541
 msgid "Clock and Time Zone"
-msgstr ""
+msgstr "Čas a časová zóna"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -931,7 +1208,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:545 xml/art_sle_install_quick.xml:548
 msgctxt "_"
 msgid "external ref='install_timezone.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_timezone.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:552
@@ -941,11 +1218,16 @@ msgid ""
 "<guimenu>Other Settings</guimenu>. See <xref linkend=\"sec.yast_install."
 "timezone\"/> for detailed information. Proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Vyberte čas a časové pásmo, které chcete použít ve vašem systému. Chcete-li "
+"čas upravit ručně nebo nakonfigurovat server NTP pro synchronizaci času, "
+"vyberte <guimenu>Další nastavení</guimenu>. Podrobné informace viz <xref "
+"linkend=\"sec.yast_install.timezone\"/>. Pokračujte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:562
 msgid "Local User"
-msgstr ""
+msgstr "Místní uživatel"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -955,7 +1237,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:566 xml/art_sle_install_quick.xml:569
 msgctxt "_"
 msgid "external ref='install_user.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_user.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:573
@@ -964,6 +1246,9 @@ msgid ""
 "Full Name</guimenu> field, the login name in the <guimenu>Username</guimenu> "
 "field, and the password in the <guimenu>Password</guimenu> field."
 msgstr ""
+"Chcete-li vytvořit místního uživatele, zadejte do pole <guimenu>Celé jméno "
+"uživatele</guimenu> jméno a příjmení, přihlašovací jméno do pole <guimenu>"
+"Uživatelské jméno</guimenu> a heslo do pole <guimenu>Heslo</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:579
@@ -972,6 +1257,9 @@ msgid ""
 "both uppercase and lowercase letters and numbers. The maximum length for "
 "passwords is 72 characters, and passwords are case-sensitive."
 msgstr ""
+"Heslo by mělo mít alespoň osm znaků a mělo by obsahovat písmena velké i malé "
+"abecedy a číslice. Maximální délka hesel je 72 znaků a hesla rozlišují "
+"písmena velké a malé abecedy."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:584
@@ -982,6 +1270,11 @@ msgid ""
 "Administrator</guimenu> but rather provide a separate <systemitem class="
 "\"username\">root</systemitem> password in the next installation step."
 msgstr ""
+"Z bezpečnostních důvodů se také rozhodně doporučuje <emphasis>ne</emphasis>"
+"povolovat <guimenu>Automatické přihlášení</guimenu>. <emphasis>Neměli byste "
+"také zadávat</emphasis> <guimenu>Toto heslo použít pro správce "
+"systému</guimenu>, ale v dalším kroku instalace byste měli zadat samostatné "
+"heslo pro uživatele <systemitem class=\"username\">root</systemitem>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:591
@@ -991,6 +1284,11 @@ msgid ""
 "Click <guimenu>Choose User</guimenu> for a list of available user accounts. "
 "Select one or more user."
 msgstr ""
+"Instalujete-li na systém, kde byla nalezena předchozí instalace systému "
+"Linux, můžete <guimenu>Importovat uživatelská data z předchozí "
+"instalace</guimenu>. Kliknutím na <guimenu>Zvolte uživatele</guimenu> "
+"zobrazíte seznam dostupných uživatelských účtů. Vyberte jednoho nebo více "
+"uživatelů."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:597
@@ -999,16 +1297,19 @@ msgid ""
 "LDAP) you may want to skip the creation of local users. Select <guimenu>Skip "
 "User Creation</guimenu> in this case."
 msgstr ""
+"V prostředí, kde je centrální správa uživatelů (například prostřednictvím "
+"NIS nebo LDAP), můžete přeskočit vytváření místních uživatelů. V takovém "
+"případě vyberte <guimenu>Přeskočit vytvoření uživatele</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:602
 msgid "Proceed with <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Pokračujte <guimenu>Next</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:607
 msgid "Password for the System Administrator <quote>root</quote>"
-msgstr ""
+msgstr "Heslo pro správce systému - uživatele <quote>root</quote>"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1018,7 +1319,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:611 xml/art_sle_install_quick.xml:614
 msgctxt "_"
 msgid "external ref='install_root.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_root.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:618
@@ -1026,6 +1327,8 @@ msgid ""
 "Type a password for the system administrator account (called the <systemitem "
 "class=\"username\">root</systemitem> user)."
 msgstr ""
+"Zadejte heslo pro účet správce systému (nazývaného <systemitem class=\""
+"username\">root</systemitem>)."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:622
@@ -1035,11 +1338,15 @@ msgid ""
 "<xref linkend=\"sec.yast_install.user.root\"/> for more information. Proceed "
 "with <guimenu>Next</guimenu>."
 msgstr ""
+"Nikdy byste neměli zapomenout heslo pro správce <systemitem class=\""
+"username\">root</systemitem>! Po zadání již nelze heslo získat. Další "
+"informace viz <xref linkend=\"sec.yast_install.user.root\"/>. Pokračujte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:629
 msgid "Passwords and Keyboard Layout"
-msgstr ""
+msgstr "Hesla a rozložení klávesnice"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:630
@@ -1048,11 +1355,14 @@ msgid ""
 "keyboard. In case of a system error or when you need to start your system in "
 "rescue mode a localized keyboard might not be available."
 msgstr ""
+"Doporučuje se používat pouze znaky, které jsou k dispozici na anglické "
+"klávesnici. V případě systémové chyby nebo potřebujete-li systém spustit v "
+"záchranném režimu, nemusí být lokalizovaná klávesnice k dispozici."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:639
 msgid "Installation Settings"
-msgstr ""
+msgstr "Nastavení instalace"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1062,7 +1372,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:643 xml/art_sle_install_quick.xml:647
 msgctxt "_"
 msgid "external ref='install_summary_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_summary_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1072,7 +1382,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:644 xml/art_sle_install_quick.xml:648
 msgctxt "_"
 msgid "external ref='install_summary_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_summary_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:652
@@ -1083,11 +1393,16 @@ msgid ""
 "Some settings, such as firewall or SSH can directly be changed by clicking "
 "the respective links."
 msgstr ""
+"Na obrazovce <guimenu>Nastavení instalace</guimenu> zkontrolujte a případně "
+"změňte několik navrhovaných nastavení instalace. Pro každé nastavení je "
+"uvedena aktuální konfigurace. Chcete-li to změnit, klikněte na nadpis. "
+"Některá nastavení, například firewall nebo SSH, lze přímo změnit kliknutím "
+"na příslušné odkazy."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:660
 msgid "Remote Access"
-msgstr ""
+msgstr "Vzdálený přístup"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:661
@@ -1097,11 +1412,15 @@ msgid ""
 "installation, you should check the <guimenu>Firewall and SSH</guimenu> "
 "settings."
 msgstr ""
+"Změny, které zde můžete provést, lze také kdykoli později provést z "
+"nainstalovaného systému. Pokud však potřebujete vzdálený přístup hned po "
+"instalaci, měli byste zkontrolovat nastavení <guimenu>Firewall a "
+"SSH</guimenu>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:670
 msgid "<guimenu>Software</guimenu>"
-msgstr ""
+msgstr "<guimenu>Software</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:673
@@ -1110,6 +1429,9 @@ msgid ""
 "have chosen for this installation. However, depending on your selection, not "
 "all packages available in a module are selected for installation."
 msgstr ""
+"Rozsah instalace je definován moduly a rozšířeními, které jste pro tuto "
+"instalaci vybrali. V závislosti na vašem výběru však nemusí být k instalaci "
+"vybrány všechny balíčky dostupné v modulu."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:679
@@ -1123,11 +1445,19 @@ msgid ""
 "the YaST <guimenu>Software Manager</guimenu>. See <xref linkend=\"cha.yast-"
 "software\"/> for more information."
 msgstr ""
+"Kliknutím na <guimenu>Software</guimenu> se otevře obrazovka <guimenu>Výběr "
+"softwaru a systémové úkoly</guimenu>, kde můžete výběr softwaru změnit "
+"výběrem nebo zrušením výběru vzorů instalace. Každý vzor obsahuje několik "
+"softwarových balíčků potřebných pro specifické funkce (například <guimenu>"
+"KVM Host Server</guimenu>). Chcete-li získat podrobnější výběr na základě "
+"nainstalovaných softwarových balíčků, vyberte <guimenu>Detaily</guimenu> a "
+"přejděte na YaST <guimenu>Správce softwaru</guimenu>. Další informace viz <"
+"xref linkend=\"cha.yast-software\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:693
 msgid "<guimenu>Booting</guimenu>"
-msgstr ""
+msgstr "<guimenu>Bootování</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:696
@@ -1136,11 +1466,14 @@ msgid ""
 "only recommended if really needed. Refer to <xref linkend=\"cha.grub2\"/> "
 "for details."
 msgstr ""
+"Tato část ukazuje konfiguraci zavaděče systému. Změna výchozích hodnot se "
+"doporučuje pouze tehdy, je-li to skutečně nutné. Podrobnosti viz <xref "
+"linkend=\"cha.grub2\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:704
 msgid "<guimenu>Firewall and SSH</guimenu>"
-msgstr ""
+msgstr "<guimenu>Firewall a SSH</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:711
@@ -1149,6 +1482,9 @@ msgid ""
 "for the public zone. See <xref linkend=\"sec.security.firewall.firewalld\"/> "
 "for configuration details."
 msgstr ""
+"Ve výchozím nastavení je Firewall povolen se všemi síťovými rozhraními "
+"nakonfigurovanými pro veřejnou zónu. Podrobnosti o konfiguraci viz <xref "
+"linkend=\"sec.security.firewall.firewalld\"/>."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:717
@@ -1157,11 +1493,14 @@ msgid ""
 "<guimenu>enable and open</guimenu> to toggle these settings. Note that if "
 "SSH is disabled, logging in from remote will not be possible."
 msgstr ""
+"Ve výchozím nastavení je služba SSH povolena, její port (22) je otevřený. "
+"Klepnutím na <guimenu>povolit a otevřít</guimenu> přepnete tato nastavení. "
+"Je-li SSH zakázán, nebude možné se přihlásit vzdáleně."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:725
 msgid "<guimenu>Kdump</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kdump</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:728
@@ -1171,11 +1510,15 @@ msgid ""
 "by debugging the dump file. Kdump is preconfigured and enabled by default. "
 "See <xref linkend=\"cha.tuning.kdump.basic\"/> for more information."
 msgstr ""
+"Kdump uloží obraz paměti (<quote>core dump</quote>) do systému souborů pro "
+"případ havárie jádra. To vám umožní najít příčinu havárie rozborem výpisu. "
+"Kdump je ve výchozím nastavení přednastaven a povolen. Další informace viz <"
+"xref linkend=\"cha.tuning.kdump.basic\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:738
 msgid "<guimenu>Default Systemd Target</guimenu>"
-msgstr ""
+msgstr "<guimenu>Výchozí cíl Systemd</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:741
@@ -1185,6 +1528,10 @@ msgid ""
 "display manager support. Switch to <guimenu>multi-user</guimenu> if you do "
 "not need to log in via display manager."
 msgstr ""
+"V případě, že jste nainstalovali modul desktopových aplikací, systém "
+"nabootuje do <guimenu>grafického</guimenu> rozhraní s podporou sítě, více "
+"uživatelů a správce zobrazení. Pokud se nepotřebujete přihlásit pomocí "
+"správce zobrazení, přepněte na <guimenu>více uživatelů</guimenu>."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:748
@@ -1196,11 +1543,16 @@ msgid ""
 "desktop system from the command line, it is recommended to not change this "
 "setting."
 msgstr ""
+"Systém <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> ve "
+"výchozím nastavení se spustí do grafické plochy. Protože nemá smysl spouštět "
+"stolní systém z příkazového řádku, doporučuje se toto nastavení neměnit."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:756
 msgid "<guimenu>System</guimenu>"
-msgstr ""
+msgstr "<guimenu>Systém</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:759
@@ -1210,11 +1562,15 @@ msgid ""
 "see <xref linkend=\"sec.yast_install.proposal.system\"/> for more "
 "information."
 msgstr ""
+"Podrobné informace o hardwaru zobrazíte kliknutím na "
+"<guimenu>Systém</guimenu>. Na výsledné obrazovce můžete také změnit <guimenu>"
+"Nastavení jádra</guimenu> - viz <xref linkend=\"sec.yast_install.proposal."
+"system\"/> pro více informací."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:771
 msgid "Start the Installation"
-msgstr ""
+msgstr "Spuštění instalace"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1224,7 +1580,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:775 xml/art_sle_install_quick.xml:779
 msgctxt "_"
 msgid "external ref='install_confirm_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_confirm_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1234,7 +1590,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:776 xml/art_sle_install_quick.xml:780
 msgctxt "_"
 msgid "external ref='install_confirm_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_confirm_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:784
@@ -1246,11 +1602,17 @@ msgid ""
 "to this point no changes have been made to your system. After you click "
 "<guimenu>Install</guimenu> a second time, the installation process starts."
 msgstr ""
+"Po dokončení konfigurace systému na obrazovce <guimenu>Nastavení "
+"instalace</guimenu> klikněte na <guimenu>Instalovat</guimenu>. V závislosti "
+"na výběru softwaru budete možná muset souhlasit s licenčními smlouvami, než "
+"se objeví obrazovka s potvrzením instalace. Dosud nebyly ve vašem systému "
+"provedeny žádné změny. Po druhém klepnutí na <guimenu>Instalovat</guimenu> "
+"se spustí instalační proces."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:796
 msgid "The Installation Process"
-msgstr ""
+msgstr "Proces instalace"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1260,7 +1622,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:800 xml/art_sle_install_quick.xml:804
 msgctxt "_"
 msgid "external ref='install_perform_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_perform_sled.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1270,7 +1632,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:801 xml/art_sle_install_quick.xml:805
 msgctxt "_"
 msgid "external ref='install_perform_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_perform_sles.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:809
@@ -1282,6 +1644,12 @@ msgid ""
 "phrase></phrase> Release Notes</guimenu> tab shows important information; "
 "reading them is recommended."
 msgstr ""
+"Během instalace se průběh zobrazuje podrobně na kartě "
+"<guimenu>Podrobnosti</guimenu>. Záložka <guimenu><phrase role=\"productname\""
+"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> Poznámky k verzi</guimenu> zobrazuje důležité "
+"informace; jejich čtení doporučujeme."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:815
@@ -1291,11 +1659,15 @@ msgid ""
 "are not using a graphical desktop or are working from remote, refer to <xref "
 "linkend=\"cha.yast.text\"/> for information on using YaST from a terminal."
 msgstr ""
+"Po dokončení instalační rutiny se počítač rebootuje do nainstalovaného "
+"systému. Přihlaste se, spusťte YaST a systém dolaďte. Pokud nepoužíváte "
+"grafickou plochu nebo pracujete ze vzdáleného systému, najdete informace o "
+"používání YaST z terminálu v <xref linkend=\"cha.yast.text\"/>."
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_install_quick.xml:826
 msgid "Installing without Registration"
-msgstr ""
+msgstr "Instalace bez registrace"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:827
@@ -1306,6 +1678,11 @@ msgid ""
 "extensions from the registration server. To enable a regular installation, "
 "SUSE offers a second installation medium, the SLE-15-Packages ISO image."
 msgstr ""
+"Provádíte-li instalaci bez připojení k registračnímu serveru, nemůžete během "
+"instalace zaregistrovat svůj systém. Z registračního serveru proto nebudete "
+"moci získat konfiguraci úložiště pro moduly a rozšíření. Pro umožnění "
+"pravidelné instalace nabízí SUSE druhé instalační médium, obraz ISO "
+"SLE-15-Packages."
 
 #. (itstool) path: note/title
 #: xml/art_sle_install_quick.xml:836
@@ -1314,6 +1691,9 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 msgstr ""
+"Registrace <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: note/para
 #: xml/art_sle_install_quick.xml:837
@@ -1324,6 +1704,11 @@ msgid ""
 "so, run <menuchoice><guimenu>YaST</guimenu> <guimenu>Product Registration</"
 "guimenu></menuchoice>."
 msgstr ""
+"Aby bylo možné načíst aktualizace a mít oprávnění pro podporu, musí být "
+"zaregistrován Váš systém a rozšíření. Nezaregistrujete-li se během "
+"instalace, můžete tak učinit kdykoli později z běžícího systému. Chcete-li "
+"to provést, spusťte <menuchoice> <guimenu>YaST</guimenu> <guimenu>Registraci "
+"produktu</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:846
@@ -1334,12 +1719,17 @@ msgid ""
 "disk, by burning the image to a DVD, or by making it available in the local "
 "network. Choose a method that is supported by your hardware."
 msgstr ""
+"Chcete-li provést instalaci bez registrace, ujistěte se, že během instalace "
+"je přístupný obraz systému SLE-15-Packages ISO. Toho dosáhnete zkopírováním "
+"na místní pevný disk nebo vyměnitelný flash disk, vypálením obrazu na DVD "
+"nebo jeho zpřístupněním v místní síti. Vyberte metodu, kterou váš hardware "
+"podporuje."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:855
 msgid ""
 "Copying Data from the SLE-15-Packages ISO Image to a Removable Flash Disk"
-msgstr ""
+msgstr "Kopírování dat z obrazu ISO SLE-15 na vyměnitelný flash disk"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:858
@@ -1347,6 +1737,8 @@ msgid ""
 "To copy the contents of an ISO image to a removable flash disk, use the "
 "following command."
 msgstr ""
+"Pro zkopírování obrazu ISO na vyměnitelný disk Flash použijte následující "
+"příkaz."
 
 #. (itstool) path: tip/screen
 #: xml/art_sle_install_quick.xml:862
@@ -1355,6 +1747,9 @@ msgid ""
 "<prompt>tux &gt; </prompt><command>sudo</command> dd if=<replaceable>PATH_TO_ISO_IMAGE</replaceable>\n"
 "    of=<replaceable>FLASH_STORAGE_PARTITION</replaceable> bs=4M &amp;&amp; sync"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> dd "
+"if=<replaceable>CESTA_K_OBRAZU_ISO</replaceable>\n"
+"    of=<replaceable>ODDÍL_FLASH_PAMĚTI</replaceable> bs=4M &amp;&amp; sync"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:864
@@ -1366,6 +1761,12 @@ msgid ""
 "identify the device, and its partition(s), insert it and use the commands "
 "shown in the example below:"
 msgstr ""
+"Text <replaceable>CESTA_K_OBRAZU_ISO</replaceable> je třeba nahradit "
+"relativní nebo absolutní cestou k tomuto obrazovému souboru ISO. Text "
+"<replaceable>ODDÍL_FLASH_DISKU</replaceable> musí být nahrazen cestou k "
+"oddílu na flash disk (obvykle jen s jedním oddílem). Chcete-li identifikovat "
+"flash disk a jeho oddíly, vložte ho a použijte příkazy uvedené v příkladu "
+"níže:"
 
 #. (itstool) path: tip/screen
 #: xml/art_sle_install_quick.xml:872
@@ -1377,11 +1778,17 @@ msgid ""
 "<prompt role=\"root\">root # </prompt>fdisk -l /dev/sdc | grep -e \"^/dev\"\n"
 "/dev/sdc1  *     2048 31490047 31488000  15G 83 Linux"
 msgstr ""
+"<prompt role=\"root\">root # </prompt>grep -Ff &lt;(hwinfo --disk --short) "
+"&lt;(hwinfo --usb --short)\n"
+"disk:\n"
+"  /dev/sdc             General USB Flash Disk  [Obecný flash disk USB]\n"
+"<prompt role=\"root\">root # </prompt>fdisk -l /dev/sdc | grep -e \"^/dev\"\n"
+"/dev/sdc1  *     2048 31490047 31488000  15G 83 Linux"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:877
 msgid "In this case the command to use would be for example:"
-msgstr ""
+msgstr "V tomto případě by příkaz měl být například:"
 
 #. (itstool) path: tip/screen
 #: xml/art_sle_install_quick.xml:880
@@ -1390,6 +1797,8 @@ msgid ""
 "dd if=/tmp/SLE-15-Packages-x86_64-DVD1.iso \\\n"
 " of=/dev/sdc1 bs=4M &amp;&amp; sync"
 msgstr ""
+"dd if=/tmp/SLE-15-Packages-x86_64-DVD1.iso \\\n"
+" of=/dev/sdc1 bs=4M &amp;&amp; sync"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:882
@@ -1398,11 +1807,15 @@ msgid ""
 "device. It also must not be mounted when running the <command>dd</command> "
 "command. Note that all data on the partition will be erased!"
 msgstr ""
+"Ujistěte se, že na flash disku/v zařízení existuje oddíl s dostatečnou "
+"velikostí (6 GB nebo více). Při spuštění příkazu <command>dd</command> nesmí "
+"být flash disk/zařízení připojeno. POZOR, všechna data v oddílu budou "
+"vymazána!"
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:891
 msgid "Starting the Installation without Registration"
-msgstr ""
+msgstr "Zahájení instalace bez registrace"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:892
@@ -1415,11 +1828,18 @@ msgid ""
 "phrase><phrase os=\"sled\"><xref linkend=\"sec.sle.installquick.install."
 "network\"/></phrase> from <xref linkend=\"sec.sle.installquick.install\"/>."
 msgstr ""
+"Instalace probíhá stejným pracovním postupem, jaký je uveden v <xref linkend="
+"\"sec.sle.installquick.install\"/>, liší se jen kroky pro registraci systému "
+"a přidání modulů/rozšíření. K zahájení instalace proveďte kroky <xref "
+"linkend=\"sec.sle.installquick.install.lang\"/> do <phrase os=\"sles\"><xref "
+"linkend=\"sec.sle.installquick.install.hdd\"/></phrase><phrase os=\"sled\"><"
+"xref linkend=\"sec.sle.installquick.install.network\"/></phrase> od <xref "
+"linkend=\"sec.sle.installquick.install\"/>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:905
 msgid "Skipping Registration"
-msgstr ""
+msgstr "Přeskočení registrace"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:906
@@ -1428,6 +1848,9 @@ msgid ""
 "Registration</guimenu>. Accept the warning with <guimenu>OK</guimenu> and "
 "proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Na obrazovce <guimenu>Registrace</guimenu> aktivujte <guimenu>Přeskočit "
+"registraci</guimenu>. Přijměte varování tlačítkem <guimenu>OK</guimenu> a "
+"pokračujte na <guimenu>Další</guimenu>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1437,7 +1860,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:915 xml/art_sle_install_quick.xml:921
 msgctxt "_"
 msgid "external ref='install_registration_offline_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_registration_offline_sles.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1447,12 +1870,12 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:917 xml/art_sle_install_quick.xml:923
 msgctxt "_"
 msgid "external ref='install_registration_offline_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_registration_offline_sled.png' md5='__failed__'"
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:931
 msgid "Accessing the SLE-15-Packages Image"
-msgstr ""
+msgstr "Přístup k obrazu SLE-15-Packages"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1462,7 +1885,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:935 xml/art_sle_install_quick.xml:938
 msgctxt "_"
 msgid "external ref='install_add-on_offline.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_add-on_offline.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:942
@@ -1475,11 +1898,18 @@ msgid ""
 "Proceed with <guimenu>Next</guimenu>. If you chose <guimenu>DVD</guimenu> as "
 "the data source, you will be prompted to insert the media."
 msgstr ""
+"V dialogu <guimenu>Přidat do produktu</guimenu> aktivujte <guimenu>Chci "
+"nainstalovat další doplněk produktu</guimenu> a určete zdroj pro obraz ISO "
+"SLE-15-Packages. Chcete-li nyní stáhnout soubory popisující úložiště, "
+"zaškrtněte <guimenu>Stáhnout popisné soubory úložiště</guimenu>. Je-li tato "
+"možnost deaktivována, budou staženy po spuštění instalace. Pokračujte na "
+"<guimenu>Další</guimenu>. Pokud jste jako zdroj dat zvolili "
+"<guimenu>DVD</guimenu>, budete vyzváni k vložení média."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:954
 msgid "Selecting Extensions and Modules"
-msgstr ""
+msgstr "Výběr rozšíření a modulů"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1489,7 +1919,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:958 xml/art_sle_install_quick.xml:961
 msgctxt "_"
 msgid "external ref='install_extensions_offline.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_extensions_offline.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:965
@@ -1498,6 +1928,8 @@ msgid ""
 "select a product, at least one module, and optionally, one or more "
 "extensions."
 msgstr ""
+"V dialogu <guimenu>Výběr rozšíření a modulu</guimenu> vyberte produkt, "
+"alespoň jeden modul a případně jedno nebo více rozšíření."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -1507,28 +1939,32 @@ msgid ""
 "listed below, otherwise you will end up with a system that may fail to "
 "install and is not covered by SUSE support."
 msgstr ""
+"Obrazy ISO SLE-15-Packages obsahují rozšíření a moduly pro všechny produkty "
+"SUSE Linux Enterprise. Nezapomeňte vybrat pouze níže uvedené moduly a "
+"rozšíření, jinak obdržíte systém, který se nemusí dát nainstalovat a na "
+"který se nevztahuje podpora SUSE."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid ""
 "Selecting a product is mandatory. Choose <guimenu>SLES 15 15-0</guimenu>."
-msgstr ""
+msgstr "Výběr produktu je povinný. Zvolte <guimenu>SLES 15 15-0</guimenu>."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid ""
 "Selecting a product is mandatory. Choose <guimenu>SLED 15 15-0</guimenu>."
-msgstr ""
+msgstr "Výběr produktu je povinný. Zvolte <guimenu>SLED 15 15-0</guimenu>."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Modules"
-msgstr ""
+msgstr "Moduly"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -1541,6 +1977,13 @@ msgid ""
 "os=\"sles\">Server-Applications-Module 15-0</guimenu><guimenu os=\"sled"
 "\">Desktop-Applications-Module 15-0</guimenu>."
 msgstr ""
+"Moduly rozšiřují funkčnost produktu <phrase role=\"productname\"><phrase os="
+"\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> a jsou zdarma. Instalace <guimenu>Basesystem-"
+"Module 15-0</guimenu> je nezbytná. Doporučuje se instalovat i <guimenu os=\""
+"sles\">Server-Applications-Module 15-0</guimenu><guimenu os=\"sled\">Desktop-"
+"Applications-Module 15-0</guimenu>."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -1550,11 +1993,14 @@ msgid ""
 "otherwise the installation will fail later on. Refer to the following list "
 "for details."
 msgstr ""
+"Pozor, většina modulů závisí na jiných modulech. Tyto závislosti zde nelze "
+"automaticky vyřešit. Nezapomeňte je vyřešit ručně, jinak instalace později "
+"selže. Podrobnosti najdete v následujícím seznamu."
 
 #. (itstool) path: formalpara/title
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Basesystem-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul základního systému 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1567,12 +2013,20 @@ msgid ""
 "Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</"
 "phrase></phrase> versions. <emphasis>Dependencies:</emphasis> None"
 msgstr ""
+"Tento modul přidá základní systém na horní část instalačního programu. Je to "
+"vyžadováno všemi ostatními moduly a rozšířeními. Rozsah instalace, která "
+"obsahuje pouze základní systém, je srovnatelný s instalačním vzorem "
+"<citetitle>minimální systém</citetitle> předchozího <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> versions. "
+"<emphasis>Závislosti:</emphasis> Žádné"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Containers-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul kontejnerů 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1580,11 +2034,13 @@ msgid ""
 "Contains support and tools for containers. <emphasis>Dependencies:</"
 "emphasis> Basesystem"
 msgstr ""
+"Obsahuje podporu a nástroje pro kontejnery. <emphasis>Závislosti:</emphasis> "
+"Základní systém"
 
 #. (itstool) path: formalpara/title
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Desktop-Applications-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul aplikací stolního počítače/NB 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1592,11 +2048,13 @@ msgid ""
 "Adds a graphical user interface and essential desktop applications to the "
 "system. <emphasis>Dependencies:</emphasis> Basesystem"
 msgstr ""
+"Přidá do systému grafické uživatelské rozhraní a základní aplikace pro "
+"stolní počítače. <emphasis>Závislosti:</emphasis> Základní systém"
 
 #. (itstool) path: formalpara/title
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Development-Tools-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul vývojářských nástrojů 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1604,12 +2062,14 @@ msgid ""
 "Contains compilers (including <package>gcc</package>) and libraries required "
 "for compiling and debugging applications."
 msgstr ""
+"Obsahuje kompilátory (včetně <package>gcc</package>) a knihovny potřebné pro "
+"kompilaci a ladění aplikací."
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Legacy-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul funkcí předchozí verze 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1623,12 +2083,20 @@ msgid ""
 "migrating from a previous SLES version. <emphasis>Dependencies:</emphasis> "
 "Basesystem, Server Applications"
 msgstr ""
+"Obsahuje balíčky dostupné v předchozích verzích <phrase role=\"productname\""
+"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>, ale už nepodporované ve SLES <phrase role=\""
+"productnumber\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\""
+">15</phrase></phrase>. Tento modul se doporučuje při migraci z předchozí "
+"verze SLES. <emphasis>Závislosti:</emphasis> Základní systém, serverové "
+"aplikace"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Public-Cloud-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul veřejného cloudu 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1641,12 +2109,19 @@ msgid ""
 "SUSE OpenStack Cloud. <emphasis>Dependencies:</emphasis> Basesystem, Server "
 "Applications"
 msgstr ""
+"Obsahuje všechny nástroje nutné pro vytvoření obrazů k nasazení <phrase role="
+"\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\""
+"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase> v cloudových prostředích, např. Amazon "
+"Web Services (AWS), Microsoft Azure, Google Compute Platform, nebo SUSE "
+"OpenStack Cloud. <emphasis>Závislosti:</emphasis> Základní systém, serverové "
+"aplikace"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Server-Applications-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul serverových aplikací 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1654,12 +2129,15 @@ msgid ""
 "Adds server functionality by providing network services such as DHCP server, "
 "name server, or Web server. <emphasis>Dependencies:</emphasis> Basesystem"
 msgstr ""
+"Přidává funkčnost serveru poskytováním síťových služeb, jako je DHCP server, "
+"DNS server nebo webový server. <emphasis>Závislosti:</emphasis> Základní "
+"systém"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Web-Scripting-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul skriptování webu 15-0</guimenu>"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1667,11 +2145,13 @@ msgid ""
 "Contains packages intended for a running Web server. <emphasis>Dependencies:"
 "</emphasis> Basesystem, Server Applications"
 msgstr ""
+"Obsahuje balíčky určené pro provoz webového serveru. "
+"<emphasis>Závislosti:</emphasis> Základní systém, serverové aplikace"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid "Extensions"
-msgstr ""
+msgstr "Rozšíření"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -1682,6 +2162,11 @@ msgid ""
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> and require a "
 "registration code which is liable for costs."
 msgstr ""
+"Volba rozšíření není povinná. Rozšíření přidávají další funkce jádra k <"
+"phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> a vyžadují registrační kód, "
+"který zvyšuje náklady."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -1691,6 +2176,9 @@ msgid ""
 "otherwise the installation will fail later on. Refer to the following list "
 "for details."
 msgstr ""
+"Rozšíření závisejí na modulech. Tyto závislosti zde nelze automaticky "
+"vyřešit. Nezapomeňte ručně vyřešit závislosti, jinak instalace později "
+"havaruje. Podrobnosti naleznete v následujícím seznamu."
 
 #. (itstool) path: formalpara/title
 #: xml/art_sle_install_quick.xml:0
@@ -1698,6 +2186,8 @@ msgid ""
 "SUSE Linux Enterprise High Availability Extension (<guimenu>SLEHA15 15-0</"
 "guimenu>)"
 msgstr ""
+"Rozšíření pro vysokou dostupnost SUSE Linux Enterprise (<guimenu>SLEHA15 "
+"15-0</guimenu>)"
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1709,6 +2199,12 @@ msgid ""
 "to install it. <emphasis>Dependencies:</emphasis> Basesystem, Server "
 "Applications"
 msgstr ""
+"Přidává klastrovou podporu pro vysoce kritická nastavení k <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>. Pro instalaci vyberte <guimenu>SLEHA15 "
+"15-0</guimenu>. <emphasis>Závislosti:</emphasis> základní systém, serverové "
+"aplikace"
 
 #. (itstool) path: formalpara/title
 #: xml/art_sle_install_quick.xml:0
@@ -1716,6 +2212,8 @@ msgid ""
 "SUSE Linux Enterprise Workstation Extension (<guimenu>SLEWE15 15-0</"
 "guimenu>)."
 msgstr ""
+"Rozšíření pracovní stanice SUSE Linux Enterprise (<guimenu>SLEWE15 "
+"15-0</guimenu>)."
 
 #. (itstool) path: formalpara/para
 #: xml/art_sle_install_quick.xml:0
@@ -1729,12 +2227,23 @@ msgid ""
 "workstation. Choose <guimenu>SLEWE15 15-0</guimenu> to install it. "
 "<emphasis>Dependencies:</emphasis> Basesystem, Desktop Applications"
 msgstr ""
+"Rozšiřuje funkčnost <phrase role=\"productname\"><phrase os=\"osuse\">"
+"openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> balíčky z SUSE Linux Enterprise Desktop, např. "
+"další aplikace pro stolní počítač/NB (kancelářská sada, e-mailový klient, "
+"grafický editor, atd.) a knihovny. Umožňuje kombinovat oba produkty a "
+"vytvořit tak plně funkční pracovní stanici. Chcete-li jej nainstalovat, "
+"vyberte <guimenu>SLEWE15 15-0</guimenu>. <emphasis>Závislosti:</emphasis> "
+"Základní systém, aplikace pro stolní počítač/NB"
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:0
 msgid ""
 "SUSE Linux Enterprise Workstation Extension (<guimenu>SLEWE15 15-0</guimenu>)"
 msgstr ""
+"Rozšíření pro pracovní stanici SUSE Linux Enterprise (<guimenu>SLEWE15 "
+"15-0</guimenu>)"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
@@ -1745,11 +2254,16 @@ msgid ""
 "and does nor require an additional registration code. Installing "
 "<guimenu>SLEWE15 15-0</guimenu> is recommended."
 msgstr ""
+"Obsahuje další nástroje pro stolní počítače, například kancelářskou sadu "
+"nebo multimediální software, jako jsou přehrávače hudby a videa. Rozšíření "
+"pracovní stanice SUSE Linux Enterprise Workstation pro SUSE Linux Enterprise "
+"Desktop je zdarma a nevyžaduje další registrační kód. Doporučuje se "
+"instalace <guimenu>SLEWE15 15-0</guimenu>."
 
 #. (itstool) path: warning/title
 #: xml/art_sle_install_quick.xml:0
 msgid "Forbidden Selections"
-msgstr ""
+msgstr "Zakázané kombinace výběru"
 
 #. (itstool) path: warning/para
 #: xml/art_sle_install_quick.xml:0
@@ -1761,46 +2275,51 @@ msgid ""
 "end up with a system that may fail to install and is not covered by SUSE "
 "support."
 msgstr ""
+"Na <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> <emphasis>NE</emphasis>"
+"instalujte žádný z následujících výběrů, jinak vytvoříte systém, který asi "
+"nepůjde nainstalovat a není pokryt podporou SUSE."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>HPC-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>HPC-modul 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SAP-Applications-Module 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Modul aplikací SAP 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SLE-15-HPC 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>SLE-15-HPC 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SLE-15-SAP 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>SLE-15-SAP 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SLED15 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>SLED15 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>Live-Patching 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>Opravy za provozu 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SLEHA15 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>SLEHA15 15-0</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:0
 msgid "<guimenu>SLES15 15-0</guimenu>"
-msgstr ""
+msgstr "<guimenu>SLES15 15-0</guimenu>"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:0
@@ -1808,11 +2327,13 @@ msgid ""
 "When you have finished selecting modules and extensions, proceed with "
 "<guimenu>Next</guimenu>."
 msgstr ""
+"Po dokončení výběru modulů a rozšíření pokračujte na "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:976
 msgid "Confirming the Extensions and Module Selection"
-msgstr ""
+msgstr "Potvrzení výběru rozšíření a modulů"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1822,7 +2343,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:981 xml/art_sle_install_quick.xml:987
 msgctxt "_"
 msgid "external ref='install_modlist_offline_sles.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_modlist_offline_sles.png' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1832,7 +2353,7 @@ msgstr ""
 #: xml/art_sle_install_quick.xml:983 xml/art_sle_install_quick.xml:989
 msgctxt "_"
 msgid "external ref='install_modlist_offline_sled.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='install_modlist_offline_sled.png' md5='__failed__'"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:993
@@ -1843,11 +2364,16 @@ msgid ""
 "<guimenu>Add</guimenu> you may optionally add other add-on products. Proceed "
 "with the installation with <guimenu>Next</guimenu>."
 msgstr ""
+"Všechny moduly vybrané pro instalaci jsou uvedeny v dialogu <guimenu>"
+"Instalace doplňkového produktu</guimenu>. Chcete-li seznam změnit, použijte "
+"možnosti <guimenu>Přidat</guimenu> nebo <guimenu>Odstranit</guimenu>. Pomocí "
+"<guimenu>Přidat</guimenu> můžete případně přidat další doplňkové produkty. "
+"Pokračujte v instalaci na <guimenu>Další</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:1003
 msgid "Finalizing the Installation"
-msgstr ""
+msgstr "Dokončení instalace"
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:1004
@@ -1856,3 +2382,6 @@ msgid ""
 "installation. Proceed with the step&gt;<xref linkend=\"sec.sle.installquick."
 "install.roles\"/> from <xref linkend=\"sec.sle.installquick.install\"/>."
 msgstr ""
+"Od tohoto okamžiku se instalace řídí stejnou cestou jako výchozí instalace. "
+"Pokračujte krokem&gt;<xref linkend=\"sec.sle.installquick.install.roles\"/> "
+"z <xref linkend=\"sec.sle.installquick.install\"/>."

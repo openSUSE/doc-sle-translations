@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-13 17:47+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_whatimmunize-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_whatimmunize.xml:65
@@ -32,6 +34,14 @@ msgid ""
 "<phrase>AppArmor</phrase> profiles enforce policies to make sure that "
 "programs do what they are supposed to do, but nothing else."
 msgstr ""
+"Um ein Computersystem effektiv zu härten, muss die Anzahl der Programme, die "
+"Privilegien vermitteln, auf ein Minimum reduziert und die Programme dann so "
+"weit wie möglich gesichert werden. Mit <phrase>AppArmor</phrase> brauchen "
+"Sie nur die Programme zu profilieren, die in Ihrer Umgebung Angriffen "
+"ausgesetzt sind, was den Arbeitsaufwand für das Härten Ihres Computers "
+"drastisch reduziert. <phrase>AppArmor</phrase> Profile setzen Richtlinien "
+"durch, die sicherstellen, dass Programme das tun, was sie tun sollen, aber "
+"sonst nichts."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:81
@@ -54,6 +64,12 @@ msgid ""
 "profile set and monitoring any policy violations or exceptions logged by "
 "<phrase>AppArmor</phrase>'s reporting facility."
 msgstr ""
+"Administratoren müssen sich nur um die Anwendungen kümmern, die für Angriffe "
+"anfällig sind, und für diese Profile erstellen. Das Absichern eines Systems "
+"läuft also darauf hinaus, den Profilsatz <phrase>AppArmor</phrase> zu "
+"erstellen und zu pflegen und alle Richtlinienverletzungen oder Ausnahmen zu "
+"überwachen, die von der Meldeeinrichtung von <phrase>AppArmor</phrase> "
+"protokolliert werden."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_whatimmunize.xml:96
@@ -106,7 +122,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_whatimmunize.xml:132
 msgid "Background Information for <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Hintergrundinformationen zu <phrase>AppArmor</phrase>"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_whatimmunize.xml:133
@@ -115,6 +131,9 @@ msgid ""
 "concept behind it, refer to <xref linkend=\"sec.apparmor.intro.background\"/"
 ">."
 msgstr ""
+"Einen vertieften Überblick über <phrase>AppArmor</phrase> und das dahinter "
+"stehende Gesamtkonzept erhalten Sie unter <xref linkend=\"sec.apparmor.intro."
+"background\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_whatimmunize.xml:139
@@ -128,6 +147,9 @@ msgid ""
 "<quote>behind the scenes</quote> (and under the hood of the YaST interface) "
 "when you run <phrase>AppArmor</phrase>."
 msgstr ""
+"Dieser Abschnitt vermittelt ein sehr grundlegendes Verständnis dessen, was "
+"<quote> hinter den Kulissen</quote> (und unter der Haube der YaST-"
+"Schnittstelle) geschieht, wenn Sie <phrase>AppArmor</phrase> ausführen."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_whatimmunize.xml:147
@@ -145,11 +167,13 @@ msgid ""
 "The following tools interact in the building and enforcement of "
 "<phrase>AppArmor</phrase> profiles and policies:"
 msgstr ""
+"Die folgenden Werkzeuge wirken bei der Erstellung und Durchsetzung von "
+"<phrase>AppArmor</phrase> Profilen und Richtlinien zusammen:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:162
 msgid "<command>aa-status</command>"
-msgstr ""
+msgstr "<command>aa-status</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:165
@@ -210,7 +234,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:217
 msgid "<command>aa-logprof</command>"
-msgstr ""
+msgstr "<command>aa-logprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:220
@@ -226,7 +250,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_whatimmunize.xml:231
 msgid "<command>aa-easyprof</command>"
-msgstr ""
+msgstr "<command>aa-easyprof</command>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_whatimmunize.xml:234

@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_profiles-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_profiles.xml:9
 msgid "Profile Components and Syntax"
-msgstr ""
+msgstr "Komponenty a syntaxe profilu"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles.xml:15
@@ -31,6 +35,12 @@ msgid ""
 "administrator is to determine a policy of strictest access and execute "
 "permissions for each application that needs to be hardened."
 msgstr ""
+"Vytváření profilů aplikace <phrase>AppArmor</phrase> k omezení aplikace je "
+"velmi jednoduché a intuitivní. <phrase>AppArmor</phrase> je dodáván s "
+"několika nástroji, které pomáhají při vytváření profilu. Nevyžaduje, abyste "
+"programovali nebo zpracovávali skripty. Jediným úkolem, který je na správci "
+"požadován, je určit politiku nejpřísnějšího přístupu a nastavit oprávnění "
+"pro každou aplikaci, kterou je třeba omezit."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles.xml:23
@@ -40,6 +50,10 @@ msgid ""
 "<phrase>AppArmor</phrase> offers intuitive tools to handle profile updates "
 "and modifications."
 msgstr ""
+"Aktualizace nebo úpravy aplikačních profilů jsou vyžadovány pouze v případě "
+"změny konfigurace softwaru nebo změny požadovaného rozsahu činností. "
+"<phrase>AppArmor</phrase> nabízí intuitivní nástroje pro aktualizace a "
+"úpravy profilu."
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles.xml:29
@@ -850,7 +864,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:645
 msgid "Network Access Control"
-msgstr ""
+msgstr "Ovládání přístupu k síti"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:647
@@ -2605,7 +2619,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1901 xml/apparmor_profiles.xml:1916
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1904

@@ -2,29 +2,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:19+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_pidgin-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/apps_pidgin.xml:9
+#, fuzzy
 msgid "Pidgin: Instant Messaging"
-msgstr ""
+msgstr "Pidgin: Instant Messaging"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_pidgin.xml:13
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:16
@@ -33,6 +36,9 @@ msgid ""
 "multiple accounts simultaneously. Chat live with your contacts, regardless "
 "of which IM system they use."
 msgstr ""
+"Pidgin ist ein Instant Messaging-Client (IM), mit dem Sie gleichzeitig eine "
+"Verbindung zu mehreren Konten herstellen können. Chatten Sie live mit Ihren "
+"Kontakten, unabhängig davon, welches IM-System sie verwenden."
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:21
@@ -42,6 +48,10 @@ msgid ""
 "Microsoft Office Communicator is also supported if you install the "
 "additional package <package>pidgin-plugin-sipe</package>."
 msgstr ""
+"Pidgin unterstützt die folgenden Instant Messaging-Protokolle: AIM, Bonjour, "
+"Gadu-Gadu, Google Talk, Groupwise, ICQ, IRC, SIMPLE, XMPP und Zephyr. "
+"Microsoft Office Communicator wird auch unterstützt, wenn Sie das "
+"zusätzliche Paket <package> pidgin-plugin-sipe </package> installieren."
 
 #. (itstool) path: chapter/para
 #: xml/apps_pidgin.xml:27
@@ -49,11 +59,13 @@ msgid ""
 "In the following, learn how to set up Pidgin and how to communicate with "
 "your contacts."
 msgstr ""
+"Im Folgenden erfahren Sie, wie Sie Pidgin einrichten und mit Ihren Kontakten "
+"kommunizieren."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:32
 msgid "Starting Pidgin"
-msgstr ""
+msgstr "Pidgin starten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:34
@@ -61,11 +73,13 @@ msgid ""
 "To start Pidgin, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>pid</literal>."
 msgstr ""
+"Um Pidgin zu starten, öffnen Sie die Aktivitätenübersicht, indem Sie <keycap "
+"function=\"meta\"/> drücken und nach <literal> pid </literal> suchen."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:40
 msgid "Configuring Accounts"
-msgstr ""
+msgstr "Konten konfigurieren"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:42
@@ -74,11 +88,15 @@ msgid ""
 "you want to use. For example, to use Pidgin to chat via AIM, you must first "
 "have an AIM account."
 msgstr ""
+"Um Pidgin verwenden zu können, müssen Sie bereits über ein Konto für den "
+"Nachrichtendienst verfügen, den Sie verwenden möchten. Um beispielsweise mit "
+"Pidgin über AIM chatten zu können, müssen Sie zunächst über ein AIM-Konto "
+"verfügen."
 
 #. (itstool) path: procedure/title
 #: xml/apps_pidgin.xml:49
 msgid "Adding and Editing Accounts in Pidgin"
-msgstr ""
+msgstr "Hinzufügen und Bearbeiten von Konten in Pidgin"
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:51
@@ -87,6 +105,9 @@ msgid ""
 "configure an account. Proceed with <guimenu>Add</guimenu> to add a new "
 "account."
 msgstr ""
+"Wenn Sie Pidgin zum ersten Mal starten, wird eine Meldung angezeigt, in der "
+"Sie aufgefordert werden, ein Konto zu konfigurieren. Fahren Sie mit <guimenu>"
+" Hinzufügen </guimenu> fort, um ein neues Konto hinzuzufügen."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:56
@@ -97,6 +118,12 @@ msgid ""
 "<guimenu>Add</guimenu> a new account, or <guimenu>Modify</guimenu> or "
 "<guimenu>Delete</guimenu> existing ones."
 msgstr ""
+"Wenn Sie bereits ein Konto konfiguriert haben und ein neues hinzufügen oder "
+"vorhandene ändern möchten, öffnen Sie diesen Dialog über <menuchoice> "
+"<guimenu> Accounts </guimenu> <guimenu> Accounts verwalten </guimenu> "
+"</menuchoice>. Entweder <guimenu> Hinzufügen </guimenu> eines neuen Kontos "
+"oder <guimenu> Ändern </guimenu> oder <guimenu> Löschen </guimenu> "
+"vorhandener Konten."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:66
@@ -104,6 +131,9 @@ msgid ""
 "The Add/Modify Account dialog opens. Use the <guimenu>Basic</guimenu> tab to "
 "select a protocol and enter or modify your login credentials."
 msgstr ""
+"Das Dialogfeld Konto hinzufügen / ändern wird geöffnet. Verwenden Sie die "
+"Registerkarte <guimenu> Basic </guimenu>, um ein Protokoll auszuwählen und "
+"Ihre Anmeldeinformationen einzugeben oder zu ändern."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:70
@@ -113,6 +143,10 @@ msgid ""
 "as address and port number need to be entered on the <guimenu>Advanced</"
 "guimenu> tab."
 msgstr ""
+"Die Verfügbarkeit anderer Registerkarten und die Daten, die Sie eingeben "
+"müssen, hängen vom ausgewählten Protokoll ab. In den meisten Fällen müssen "
+"Serverdetails wie Adresse und Portnummer auf der Registerkarte <guimenu> "
+"Erweitert </guimenu> eingegeben werden."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:76
@@ -122,6 +156,11 @@ msgid ""
 "(<guimenu>Use Global Proxy Settings</guimenu>) are preselected. This default "
 "should be sufficient for most users."
 msgstr ""
+"Auf der Registerkarte <guimenu> Proxy </guimenu> können Sie eine "
+"benutzerdefinierte Proxy-Konfiguration für das ausgewählte Protokoll "
+"eingeben. Standardmäßig sind die Systemeinstellungen (<guimenu> Globale "
+"Proxy-Einstellungen verwenden </guimenu>) vorausgewählt. Diese "
+"Standardeinstellung sollte für die meisten Benutzer ausreichend sein."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:84
@@ -131,11 +170,17 @@ msgid ""
 "resulting <guimenu>Accounts</guimenu> window. If you want to temporarily "
 "disable an account, deselect it in the <guimenu>Enabled</guimenu> column."
 msgstr ""
+"Fahren Sie mit <guimenu> Hinzufügen </guimenu> oder <guimenu> Speichern "
+"</guimenu> fort. Stellen Sie sicher, dass alle Konten, die Sie verwenden "
+"möchten, im daraufhin angezeigten Fenster <guimenu> Konten </guimenu> auf "
+"<guimenu> Aktiviert </guimenu> eingestellt sind. Wenn Sie ein Konto "
+"vorübergehend deaktivieren möchten, deaktivieren Sie es in der Spalte "
+"<guimenu> Aktiviert </guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:95
 msgid "Managing Contacts"
-msgstr ""
+msgstr "Kontakte verwalten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:97
@@ -144,11 +189,15 @@ msgid ""
 "<quote>Buddies</quote>). You can add and remove contacts and organize them "
 "in groups, so they are easy to find."
 msgstr ""
+"Verwenden Sie die <guimenu> Kontaktliste </guimenu>, um Ihre Kontakte zu "
+"verwalten (sogenannte <quote> Buddies </quote>). Sie können Kontakte "
+"hinzufügen, entfernen und in Gruppen organisieren, damit sie leicht zu "
+"finden sind."
 
 #. (itstool) path: procedure/title
 #: xml/apps_pidgin.xml:104
 msgid "Adding Contacts"
-msgstr ""
+msgstr "Kontakte hinzufügen"
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:106
@@ -156,12 +205,16 @@ msgid ""
 "To add a contact, click <menuchoice> <guimenu>Buddies</guimenu> <guimenu>Add "
 "Buddy</guimenu> </menuchoice>."
 msgstr ""
+"Um einen Kontakt hinzuzufügen, klicken Sie auf <menuchoice> <guimenu> "
+"Buddies </guimenu> <guimenu> Buddy hinzufügen </guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:112
 msgid ""
 "Select the <guimenu>Account</guimenu> for which you want to add a contact."
 msgstr ""
+"Wählen Sie das <guimenu> Konto </guimenu> aus, für das Sie einen Kontakt "
+"hinzufügen möchten."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:117
@@ -170,6 +223,10 @@ msgid ""
 "your contact for this name prior to adding the contact—this data is required "
 "and usually depends on the protocol."
 msgstr ""
+"Geben Sie den Benutzernamen des Kontakts unter <guimenu> Buddy 'Benutzername "
+"</guimenu> ein. Fragen Sie Ihren Kontakt nach diesem Namen, bevor Sie den "
+"Kontakt hinzufügen. Diese Daten sind erforderlich und hängen normalerweise "
+"vom Protokoll ab."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:124
@@ -179,6 +236,11 @@ msgid ""
 "contact with a custom name. With some protocols you can also send the "
 "contact an invite message with <guimenu>(Optional): Invite Message</guimenu>."
 msgstr ""
+"Standardmäßig wird der Kontakt unter dem Namen angezeigt, den er mit seinem "
+"Konto angegeben hat. Verwenden Sie <guimenu> (optional): Alias </guimenu>, "
+"um den Kontakt mit einem benutzerdefinierten Namen anzuzeigen. Bei einigen "
+"Protokollen können Sie dem Kontakt auch eine Einladungsnachricht mit "
+"<guimenu> (optional) senden: Nachricht einladen </guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:132
@@ -186,11 +248,14 @@ msgid ""
 "If you have sorted your contacts by group, choose an existing group from the "
 "drop-down text box or enter a new group name."
 msgstr ""
+"Wenn Sie Ihre Kontakte nach Gruppen sortiert haben, wählen Sie eine "
+"vorhandene Gruppe aus dem Dropdown-Textfeld aus oder geben Sie einen neuen "
+"Gruppennamen ein."
 
 #. (itstool) path: step/para
 #: xml/apps_pidgin.xml:138
 msgid "Proceed with <guimenu>Add</guimenu>."
-msgstr ""
+msgstr "Fahren Sie mit <guimenu>Hinzufügen</guimenu> fort."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:144
@@ -201,6 +266,12 @@ msgid ""
 "<guimenu>Offline Buddies</guimenu> and <guimenu>Empty Groups</guimenu> to "
 "make all contacts and groups appear in the <guimenu>Contact List</guimenu>."
 msgstr ""
+"Falls die Gruppen oder die neu hinzugefügten Kontakte nicht in der "
+"Kontaktliste angezeigt werden, überprüfen Sie die Anzeigeeinstellungen, "
+"indem Sie auf <menuchoice> <guimenu> Buddies </guimenu> <guimenu> Show "
+"</guimenu> </menuchoice> klicken. Aktivieren Sie <guimenu> Offline-Freunde "
+"</guimenu> und <guimenu> Leere Gruppen </guimenu>, damit alle Kontakte und "
+"Gruppen in der <guimenu> Kontaktliste </guimenu> angezeigt werden."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:153
@@ -208,11 +279,14 @@ msgid ""
 "To remove a contact from the list, right-click the name of that contact, "
 "select <guimenu>Remove</guimenu> and confirm your choice."
 msgstr ""
+"Um einen Kontakt aus der Liste zu entfernen, klicken Sie mit der rechten "
+"Maustaste auf den Namen dieses Kontakts, wählen Sie <guimenu> Entfernen "
+"</guimenu> und bestätigen Sie Ihre Auswahl."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:159
 msgid "Chatting with Friends"
-msgstr ""
+msgstr "Mit Freunden chatten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:161
@@ -223,6 +297,12 @@ msgid ""
 "To change your status, click the drop-down box at the bottom of the "
 "<guimenu>Contact List</guimenu> and select another option."
 msgstr ""
+"Um mit anderen Teilnehmern zu chatten, müssen Sie mit dem Internet verbunden "
+"sein. Nach einer erfolgreichen Anmeldung werden Sie normalerweise in der "
+"<guimenu> Kontaktliste </guimenu> als <guimenu> Verfügbar </guimenu> "
+"markiert und sind für andere sichtbar. Um Ihren Status zu ändern, klicken "
+"Sie auf das Dropdown-Feld unten in der <guimenu> Kontaktliste </guimenu> und "
+"wählen Sie eine andere Option aus."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:169
@@ -231,6 +311,10 @@ msgid ""
 "List</guimenu>. The chat screen opens. Type your message, then press <keycap "
 "function=\"enter\"/> to send."
 msgstr ""
+"Doppelklicken Sie zum Öffnen einer Chat-Sitzung auf einen Kontaktnamen in "
+"der <guimenu> Kontaktliste </guimenu>. Der Chat-Bildschirm wird geöffnet. "
+"Geben Sie Ihre Nachricht ein und drücken Sie zum Senden <keycap function=\""
+"enter\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:175
@@ -241,16 +325,24 @@ msgid ""
 "by side, use the mouse to drag a tab out of the window. A second window will "
 "open."
 msgstr ""
+"Wenn Sie mehr als eine Chat-Sitzung öffnen, wird die neue Sitzung als "
+"Registerkarte im vorhandenen Chat-Fenster angezeigt. Klicken Sie auf die "
+"Registerkarte dieser Sitzung, um alle Nachrichten einer Sitzung anzuzeigen "
+"und eine Antwort schreiben zu können. Um mehrere Sitzungen nebeneinander "
+"anzuzeigen, ziehen Sie mit der Maus eine Registerkarte aus dem Fenster. Ein "
+"zweites Fenster wird geöffnet."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:183
 msgid "To close a chat session, close the tab or window for it."
 msgstr ""
+"Um eine Chat-Sitzung zu schließen, schließen Sie die Registerkarte oder das "
+"Fenster dafür."
 
 #. (itstool) path: tip/title
 #: xml/apps_pidgin.xml:188
 msgid "Finding a Contact"
-msgstr ""
+msgstr "Kontakt finden"
 
 #. (itstool) path: tip/para
 #: xml/apps_pidgin.xml:189
@@ -261,11 +353,18 @@ msgid ""
 "letters to find a contact. Use <keycap function=\"down\"/> to move to the "
 "next result, or <keycap function=\"up\"/> to move to the previous result."
 msgstr ""
+"Wenn Ihre Kontaktliste sehr lang ist, sind Kontakte möglicherweise schwer zu "
+"finden. Verwenden Sie <keycombo> <keycap function=\"control\"/> <keycap> F </"
+" keycap> </keycombo>, um ein Suchfeld am Ende der Kontaktliste zu öffnen. "
+"Geben Sie einen oder mehrere Buchstaben ein, um einen Kontakt zu finden. "
+"Verwenden Sie <keycap function=\"down\"/>, um zum nächsten Ergebnis zu "
+"gelangen, oder <keycap function=\"up\"/>, um zum vorherigen Ergebnis zu "
+"gelangen."
 
 #. (itstool) path: sect1/title
 #: xml/apps_pidgin.xml:200
 msgid "For More Information"
-msgstr ""
+msgstr "Für mehr Informationen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:202
@@ -274,6 +373,10 @@ msgid ""
 "Pidgin. For more information, click <menuchoice> <guimenu>Help</guimenu> "
 "<guimenu>Online Help</guimenu> </menuchoice> to open the FAQs in a browser."
 msgstr ""
+"In diesem Kapitel werden nur die grundlegenden Konfigurations- und "
+"Verwendungsoptionen von Pidgin erläutert. Für weitere Informationen klicken "
+"Sie auf <menuchoice> <guimenu> Hilfe </guimenu> <guimenu> Online-Hilfe "
+"</guimenu> </menuchoice>, um die FAQs in einem Browser zu öffnen."
 
 #. (itstool) path: sect1/para
 #: xml/apps_pidgin.xml:207
@@ -281,3 +384,6 @@ msgid ""
 "For updates about new features and for the latest information, refer to the "
 "home page of the project at <link xlink:href=\"https://pidgin.im/\"/>."
 msgstr ""
+"Aktualisierungen zu neuen Funktionen und die neuesten Informationen finden "
+"Sie auf der Homepage des Projekts unter <link xlink: href=\"https://pidgin."
+"im/\"/>."

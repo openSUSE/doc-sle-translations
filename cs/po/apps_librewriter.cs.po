@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_librewriter-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_librewriter.xml:9
 msgid "LibreOffice Writer"
-msgstr ""
+msgstr "LibreOffice Writer"
 
 #. (itstool) path: abstract/para
 #: xml/apps_librewriter.xml:12
@@ -29,6 +33,10 @@ msgid ""
 "major word processors, and it includes some features that are usually found "
 "only in desktop publishing applications."
 msgstr ""
+"LibreOffice Writer je plně vybavený textový procesor s možností formátování "
+"stránky a textu. Jeho rozhraní je podobné rozhraním jiných hlavních "
+"textových procesorů a má i některé funkce, které se obvykle vyskytují pouze "
+"v aplikacích pro publikování na počítači."
 
 #. (itstool) path: abstract/para
 #: xml/apps_librewriter.xml:19
@@ -38,6 +46,10 @@ msgid ""
 "the LibreOffice help or at the sources listed in <xref linkend=\"sec.oo."
 "oview.help\"/>."
 msgstr ""
+"Tato kapitola upozorňuje na několik klíčových funkcí aplikace Writer. Další "
+"informace o těchto funkcích a úplné pokyny pro používání programu Writer "
+"najdete v nápovědě LibreOffice nebo ve zdrojích uvedených v <xref linkend=\""
+"sec.oo.oview.help\"/>."
 
 #. (itstool) path: abstract/para
 #: xml/apps_librewriter.xml:26
@@ -46,26 +58,29 @@ msgid ""
 "LibreOffice modules. For example, other modules use styles similarly to how "
 "they are used in Writer."
 msgstr ""
+"Mnoho informací v této kapitole lze použít i na další moduly LibreOffice. "
+"Například jiné moduly používají styly podobně, jako jsou používány v "
+"aplikaci Writer."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_librewriter.xml:34
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:38
 msgid "Creating a New Document"
-msgstr ""
+msgstr "Vytvoření nového dokumentu"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:40
 msgid "There are multiple ways to create a new Writer document:"
-msgstr ""
+msgstr "Nový dokument Writer lze vytvořit několika způsoby:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:47
 msgid "From Scratch"
-msgstr ""
+msgstr "Od nuly"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:48
@@ -73,11 +88,14 @@ msgid ""
 "To create a new empty document, click <menuchoice> <guimenu>File</guimenu> "
 "<guimenu>New</guimenu> <guimenu>Text Document</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li vytvořit nový prázdný dokument, klikněte na <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Nový</guimenu> <guimenu>Textový "
+"dokument</guimenu> </menuchoice>."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:57
 msgid "Using a Wizard"
-msgstr ""
+msgstr "Použití průvodce"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:58
@@ -86,11 +104,15 @@ msgid ""
 "a wizard. Click <menuchoice> <guimenu>File</guimenu> <guimenu>Wizards</"
 "guimenu> <guimenu>Letter</guimenu> </menuchoice> and follow the steps."
 msgstr ""
+"Chcete-li použít standardní formát a předdefinované prvky pro své vlastní "
+"dokumenty, použijte průvodce. Klikněte na <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Průvodci</guimenu> "
+"<guimenu>Dopis</guimenu> </menuchoice> a postupujte podle pokynů."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librewriter.xml:68
 msgid "From a Template"
-msgstr ""
+msgstr "Ze šablony"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librewriter.xml:69
@@ -100,6 +122,10 @@ msgid ""
 "<guimenu>Business Correspondence</guimenu>. From the list of text document "
 "templates, select the one that fits your needs."
 msgstr ""
+"Chcete-li použít šablonu, klikněte na <menuchoice> <guimenu>Soubor</guimenu> "
+"<guimenu>Nový</guimenu> <guimenu>Šablony</guimenu> </menuchoice> a otevřete "
+"například <guimenu>Obchodní korespondenci</guimenu>. Ze seznamu šablon "
+"textových dokumentů vyberte tu, která odpovídá vašim potřebám."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:80
@@ -110,11 +136,17 @@ msgid ""
 "format. A sample wizard dialog is shown in <xref linkend=\"fig.oo.writer."
 "createnew.wizard\" xrefstyle=\"select:label nopage\"/>."
 msgstr ""
+"Chcete-li například vytvořit obchodní dopis, klikněte na <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Průvodci</guimenu> "
+"<guimenu>Dopis</guimenu> </menuchoice>. Pomocí průvodce můžete snadno "
+"vytvořit základní dokument pomocí standardního formátu. Ukázkové dialogové "
+"okno průvodce se zobrazí v <xref linkend=\"fig.oo.writer.createnew.wizard\" "
+"xrefstyle=\"select:label nopage\"/>."
 
 #. (itstool) path: figure/title
 #: xml/apps_librewriter.xml:89
 msgid "A LibreOffice Wizard"
-msgstr ""
+msgstr "Průvodce LibreOffice"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -124,7 +156,7 @@ msgstr ""
 #: xml/apps_librewriter.xml:92 xml/apps_librewriter.xml:95
 msgctxt "_"
 msgid "external ref='oo-wizard.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo-wizard.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:100
@@ -136,11 +168,17 @@ msgid ""
 "under <guimenu>Insert</guimenu>, add extra items to your document, such as a "
 "table, picture, or chart."
 msgstr ""
+"Podle potřeby zadejte text v okně dokumentu. Pomocí nástrojů pro použití a "
+"změnu stylů nebo nástrojů pro přímé formátování upravte vzhled dokumentu. "
+"Chcete-li dokument vytisknout a uložit, použijte nabídku "
+"<guimenu>Soubor</guimenu> nebo příslušná tlačítka na panelu nástrojů. Pomocí "
+"možností v části <guimenu>Vložit</guimenu> přidejte do dokumentu další "
+"položky, například tabulku, obrázek nebo graf."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:111
 msgid "Formatting with Styles"
-msgstr ""
+msgstr "Formátování pomocí stylů"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:113
@@ -152,31 +190,37 @@ msgid ""
 "them a speaking name, such as <emphasis>Headline, first level</emphasis>. "
 "Using styles, rather than direct formatting has the following advantages:"
 msgstr ""
+"Tradičním formátováním kancelářských dokumentů je přímé formátování. To "
+"znamená, že používáte tlačítko, například <guimenu> tučné </guimenu>, které "
+"nastavuje určitou vlastnost (v tomto případě tučné písmo). Se styly můžete "
+"seskupit sadu vlastností (například velikost písma a hmotnost písma) a dát "
+"jim vypovídající název, například <emphasis>Titulek, první úroveň</emphasis>"
+". Použití stylů místo přímého formátování má následující výhody:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:124
 msgid "Gives your pages, paragraphs, texts, and lists a consistent look."
-msgstr ""
+msgstr "Dává vašim stránkám, odstavcům, textům a seznamům jednotný vzhled."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:129
 msgid "Makes it easy to consistently change formatting later."
-msgstr ""
+msgstr "Usnadňuje hromadné změny formátování později."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:134
 msgid "Allows reuse and import of styles from another document."
-msgstr ""
+msgstr "Umožňuje opětovné použití a import stylů z jiného dokumentu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:139
 msgid "Change one style and its properties are passed on to its descendants."
-msgstr ""
+msgstr "Změníte jeden styl a jeho vlastnosti jsou předávány jeho potomkům."
 
 #. (itstool) path: example/title
 #: xml/apps_librewriter.xml:146
 msgid "Use of Styles"
-msgstr ""
+msgstr "Použití stylů"
 
 #. (itstool) path: example/para
 #: xml/apps_librewriter.xml:147
@@ -186,6 +230,10 @@ msgid ""
 "be italicized. Now, without styles, you need to find all bold text and "
 "manually change it to italics."
 msgstr ""
+"Představte si, že zvýrazňujete text jeho výběrem a kliknutím na tlačítko "
+"<guimenu>Tučné</guimenu>. Později se rozhodnete, že chcete zvýrazněný text "
+"kurzívou. Nyní bez stylů musíte najít veškerý tučný text a ručně jej změnit "
+"na kurzívu."
 
 #. (itstool) path: example/para
 #: xml/apps_librewriter.xml:153
@@ -194,6 +242,9 @@ msgid ""
 "only need to change the style from bold to italics once. All text formatted "
 "with a style changes its appearance as the style is changed."
 msgstr ""
+"Jestliže jste však použili znakový styl od začátku, museli byste změnit styl "
+"z tučné na kurzívu pouze jednou. Celý text formátovaný stylem mění svůj "
+"vzhled při změně stylu."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:159
@@ -202,26 +253,29 @@ msgid ""
 "elements in a document. The following types of styles are available in "
 "Writer:"
 msgstr ""
+"LibreOffice může použít styly pro použití konzistentního formátování na "
+"různé prvky dokumentu. V aplikaci Writer jsou k dispozici následující typy "
+"stylů:"
 
 #. (itstool) path: table/title
 #: xml/apps_librewriter.xml:165
 msgid "Types of Styles"
-msgstr ""
+msgstr "Typy stylů"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:172
 msgid "Type of Style"
-msgstr ""
+msgstr "Typ stylu"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:177
 msgid "Function"
-msgstr ""
+msgstr "Funkce"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:186
 msgid "<guimenu>Paragraph</guimenu>"
-msgstr ""
+msgstr "<guimenu>Odstavec</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:191
@@ -231,11 +285,15 @@ msgid ""
 "set the font and font size, spacing above and below the heading, location of "
 "the heading, and other formatting specifications."
 msgstr ""
+"Použije standardizované formátování na různé typy odstavců v dokumentu. "
+"Například použijte styl odstavce na nadpis první úrovně a nastavte písmo a "
+"velikost písma, mezery nad a pod nadpisem, umístění nadpisu a další "
+"specifikace formátování."
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:201
 msgid "<guimenu>Character</guimenu>"
-msgstr ""
+msgstr "<guimenu>Charakter textu</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:206
@@ -244,11 +302,14 @@ msgid ""
 "emphasized text to appear in italics, you can create an emphasis style that "
 "italicizes selected text when you apply the style to it."
 msgstr ""
+"Použije standardizované formátování pro typy textu. Pokud například chcete, "
+"aby se zvýrazněný text objevil kurzívou, můžete vytvořit styl zvýraznění, "
+"který při použití stylu zvýrazní vybraný text."
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:215
 msgid "<guimenu>Frame</guimenu>"
-msgstr ""
+msgstr "<guimenu>Rámeček</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:220
@@ -258,6 +319,10 @@ msgid ""
 "and other formatting, so that all of your marginal notes have a consistent "
 "appearance."
 msgstr ""
+"Použije standardizované formátování na rámečky. Pokud například váš dokument "
+"používá okrajové poznámky, můžete vytvořit rámečky se zadanými ohraničeními, "
+"umístěním a jiným formátováním, aby všechny okrajové poznámky měly "
+"konzistentní vzhled."
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:226
@@ -266,11 +331,14 @@ msgid ""
 "the image together. Here, you can use frame style to make sure that all your "
 "images have the same size and background color, for example."
 msgstr ""
+"Rámečky se také používají pro titulky obrázků: Rámeček může udržovat titulek "
+"a obrázek pohromadě. Zde můžete použít styl rámečku, abyste se například "
+"ujistili, že všechny vaše obrázky mají stejnou velikost a barvu pozadí."
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:236
 msgid "<guimenu>Page</guimenu>"
-msgstr ""
+msgstr "<guimenu>Stránka</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:241
@@ -282,11 +350,17 @@ msgid ""
 "that you have bigger margins on the insides of pages and your page numbers "
 "appear on an outside corner."
 msgstr ""
+"Použije standardizované formátování na určený typ stránky. Pokud například "
+"každá stránka dokumentu obsahuje záhlaví a zápatí kromě první stránky, "
+"můžete použít styl první stránky, který zakáže záhlaví a zápatí. Můžete také "
+"použít různé styly stránek pro levou a pravou stránku, abyste měli větší "
+"okraje na vnitřních stranách stránek a čísla stránek se zobrazovala na "
+"vnějším rohu."
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:253
 msgid "<guimenu>List</guimenu>"
-msgstr ""
+msgstr "<guimenu>Seznam</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:258
@@ -295,6 +369,10 @@ msgid ""
 "can define a checklist with square check boxes and a bullet list with round "
 "bullets, then easily apply the correct style when creating your lists."
 msgstr ""
+"Použije standardizované formátování na určené typy seznamů. Můžete například "
+"definovat kontrolní seznam se čtvercovými zaškrtávacími políčky a seznam "
+"odrážek s kulatými odrážkami a poté snadno vytvořit správný styl při "
+"vytváření seznamů."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:270
@@ -304,6 +382,9 @@ msgid ""
 "<guimenu>Bold</guimenu>. Now, the text will be bold, no matter what is set "
 "in the style."
 msgstr ""
+"Přímé formátování přepíše všechny použité styly. Naformátujte například část "
+"textu nějakým stylem a také použitím tlačítka <guimenu>Tučně</guimenu>. Nyní "
+"bude text tučně, bez ohledu na to, co je nastaveno ve stylu."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:277
@@ -311,6 +392,9 @@ msgid ""
 "To remove all direct formatting, first select the appropriate text, then "
 "right-click it and choose <guimenu>Clear Direct Formatting</guimenu>."
 msgstr ""
+"Chcete-li odebrat veškeré přímé formátování, nejprve vyberte příslušný text, "
+"poté na něj klikněte pravým tlačítkem a vyberte možnost <guimenu>Smazat "
+"přímé formátování</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:282
@@ -323,11 +407,18 @@ msgid ""
 "consistent. If you change a style, the change is automatically applied to "
 "all paragraphs formatted with that style."
 msgstr ""
+"Podobně, pokud ručně formátujete odstavce pomocí <menuchoice> "
+"<guimenu>Formátovat</guimenu> <guimenu>Odstavec</guimenu> </menuchoice>, "
+"můžete způsobit nekonzistentní formátování odstavců. To platí zejména, pokud "
+"kopírujete a vkládáte odstavce z jiných dokumentů s odlišným formátováním. "
+"Pokud však použijete styly odstavců, formátování zůstane konzistentní. Pokud "
+"změníte styl, změna se automaticky použije na všechny odstavce formátované "
+"tím stylem."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:293
 msgid "The Side Bar Panel <guimenu>Styles and Formatting</guimenu>"
-msgstr ""
+msgstr "Postranní panel <guimenu>Styly a formátování</guimenu>"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:294
@@ -339,11 +430,17 @@ msgid ""
 "the button <guimenu>Styles</guimenu> in the side bar, or press <keycap>F11</"
 "keycap>."
 msgstr ""
+"Postranní panel <guimenu>Styly a formátování</guimenu> je všestranný "
+"formátovací nástroj pro použití stylů na text, odstavce, stránky, rámečky a "
+"seznamy. Chcete-li otevřít tento panel, klikněte na <menuchoice> "
+"<guimenu>Styly</guimenu> <guimenu>Styly a formátování</guimenu> </menuchoice>"
+" nebo na postranní liště klikněte na tlačítko <guimenu>Styly</guimenu>, nebo "
+"stiskněte klávesu <keycap>F11</keycap>."
 
 #. (itstool) path: figure/title
 #: xml/apps_librewriter.xml:303
 msgid "Styles and Formatting Panel"
-msgstr ""
+msgstr "Panel Styly a formátování"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -353,7 +450,7 @@ msgstr ""
 #: xml/apps_librewriter.xml:306 xml/apps_librewriter.xml:309
 msgctxt "_"
 msgid "external ref='oo-stylist.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo-stylist.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:313
@@ -364,11 +461,16 @@ msgid ""
 "paragraphs, frames, pages or lists. To learn more about styles, continue "
 "with the instructions below."
 msgstr ""
+"LibreOffice se dodává s několika předdefinovanými styly. Tyto styly můžete "
+"použít tak, jak jsou, upravovat je, nebo vytvářet nové styly. Ikony v horní "
+"části panelu slouží k zobrazení formátovacích stylů nejběžnějších prvků, "
+"jako jsou odstavce, rámečky, stránky a seznamy. Chcete-li se dozvědět více o "
+"stylech, pokračujte níže uvedenými pokyny."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:323
 msgid "Applying a Style"
-msgstr ""
+msgstr "Aplikování stylu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:324
@@ -378,6 +480,10 @@ msgid ""
 "guimenu>. For example, to apply a style to a paragraph, place the cursor "
 "anywhere in that paragraph and double-click the desired paragraph style."
 msgstr ""
+"Chcete-li použít styl, vyberte prvek, na který chcete styl použít, a dvakrát "
+"klikněte na styl na panelu <guimenu>Styly a formátování</guimenu>. Například "
+"pro použití stylu na odstavec umístěte kurzor kamkoli do tohoto odstavce a "
+"poklepejte na požadovaný styl odstavce."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:331
@@ -385,11 +491,13 @@ msgid ""
 "Alternatively, use the paragraph style selector in the toolbar "
 "<guimenu>Formatting</guimenu>."
 msgstr ""
+"Nebo použijte selektor stylů odstavců na panelu nástrojů "
+"<guimenu>Formátování</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:338
 msgid "Changing a Style"
-msgstr ""
+msgstr "Změna stylu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:339
@@ -398,11 +506,13 @@ msgid ""
 "than applying the change separately everywhere you want to apply the new "
 "formatting."
 msgstr ""
+"Změnou stylů můžete změnit formátování v celém dokumentu, namísto použití "
+"změny samostatně všude tam, kde chcete použít nové formátování."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:344
 msgid "To change an existing style, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li změnit stávající styl, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:349
@@ -410,16 +520,18 @@ msgid ""
 "In the panel <guimenu>Styles and Formatting</guimenu>, right-click the style "
 "you want to change."
 msgstr ""
+"Na panelu <guimenu>Styly a formátování</guimenu> klepněte pravým tlačítkem "
+"myši na styl, který chcete změnit."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:355
 msgid "Click <guimenu>Modify</guimenu>."
-msgstr ""
+msgstr "Klikněte na <guimenu>Upravit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:360
 msgid "Change the settings for the selected style."
-msgstr ""
+msgstr "Změňte nastavení pro vybraný styl."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:363
@@ -427,16 +539,17 @@ msgid ""
 "For information about the available settings, refer to the LibreOffice "
 "online help."
 msgstr ""
+"Informace o dostupných nastaveních najdete v online nápovědě k LibreOffice."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:369
 msgid "Click <guimenu>OK</guimenu> or <guimenu>Apply</guimenu>."
-msgstr ""
+msgstr "Klikněte na <guimenu>OK</guimenu> nebo <guimenu>Použít</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:377
 msgid "Creating a Style"
-msgstr ""
+msgstr "Vytvoření stylu"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:378
@@ -445,11 +558,14 @@ msgid ""
 "users. However, if you need a style that does not yet exist and want to "
 "create your own style, follow the procedure below:"
 msgstr ""
+"LibreOffice se dodává s kolekcí stylů, které vyhovují mnoha potřebám většiny "
+"uživatelů. Potřebujete-li však styl, který ještě neexistuje a chcete si "
+"vytvořit svůj vlastní styl, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:384
 msgid "Creating a New Style"
-msgstr ""
+msgstr "Vytvoření nového stylu"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:386
@@ -458,6 +574,9 @@ msgid ""
 "<guimenu>Styles</guimenu> <guimenu>Styles and Formatting</guimenu> </"
 "menuchoice>, or pressing <keycap>F11</keycap>."
 msgstr ""
+"Otevřete panel <guimenu>Styly a formátování</guimenu> z menu <menuchoice> "
+"<guimenu>Styly</guimenu> <guimenu>Styly a formátování</guimenu> </menuchoice>"
+" nebo stisknutím klávesy <keycap>F11</keycap> ."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:393
@@ -465,6 +584,8 @@ msgid ""
 "Make sure you are in the list of styles for the type of style you want to "
 "create."
 msgstr ""
+"Ujistěte se, že máte zobrazen seznam stylů pro typ stylu, který chcete "
+"vytvořit."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:397
@@ -473,6 +594,9 @@ msgid ""
 "character style list by clicking the corresponding icon in the panel "
 "<guimenu>Styles and Formatting</guimenu>."
 msgstr ""
+"Vytváříte-li například znakový styl, ujistěte se, že jste v seznamu "
+"znakových stylů, kliknutím na odpovídající ikonu na panelu <guimenu>Styly a "
+"formátování</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:404
@@ -480,6 +604,8 @@ msgid ""
 "Right-click anywhere in the list of styles in the panel <guimenu>Styles and "
 "Formatting</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši kamkoli do seznamu stylů na panelu <guimenu>"
+"Styly a formátování</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:410
@@ -487,30 +613,32 @@ msgid ""
 "To open the style dialog, click <guimenu>New</guimenu>. The "
 "<guimenu>Organizer</guimenu> tab is preselected."
 msgstr ""
+"Chcete-li otevřít dialogové okno stylu, klikněte na <guimenu>Nový</guimenu>. "
+"Karta záložky <guimenu>Organizátor</guimenu> je předvolená."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:416
 msgid "Configure three basic properties of the new style:"
-msgstr ""
+msgstr "Konfigurujte tři základní vlastnosti nového stylu:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:421 xml/apps_librewriter.xml:502
 #: xml/apps_librewriter.xml:625
 msgid "<guimenu>Name</guimenu>"
-msgstr ""
+msgstr "<guimenu>Název</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:424
 msgid "The name of your style. Choose any name you like."
-msgstr ""
+msgstr "Název vašeho stylu. Vyberte si libovolný název."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:430 xml/apps_librewriter.xml:514
 #: xml/apps_librewriter.xml:641
 msgid "<guimenu>Next Style</guimenu>"
-msgstr ""
+msgstr "<guimenu>Další styl</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:433
@@ -520,11 +648,15 @@ msgid ""
 "useful, for example, for headlines, after which you usually want to start a "
 "normal paragraph of text."
 msgstr ""
+"Styl, který následuje váš styl. Styl vybraný zde se používá při zahájení "
+"nového odstavce stisknutím klávesy <keycap function=\"enter\"/>. To je "
+"užitečné například pro nadpisy, po kterých obvykle chcete začít běžným "
+"odstavcem textu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librewriter.xml:442
 msgid "<guimenu>Inherit From</guimenu>"
-msgstr ""
+msgstr "<guimenu>Zděděn z</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librewriter.xml:445
@@ -535,6 +667,10 @@ msgid ""
 "This is useful when you only want to change the properties that need to be "
 "different."
 msgstr ""
+"Styl, na kterém závisí váš styl. Změní-li se vybraný styl, změní se také váš "
+"styl. Chcete-li například zajistit konzistentnost záhlaví, vytvořte styl "
+"záhlaví <quote>nadřazený</quote>, na němž závisejí následující záhlaví. To "
+"je užitečné, pokud chcete změnit pouze vlastnosti, které se mají lišit."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:455
@@ -542,18 +678,20 @@ msgid ""
 "For details about the style options available in any tab, click the "
 "<guimenu>Help</guimenu> button of the dialog."
 msgstr ""
+"Podrobnosti o možnostech stylu dostupných na libovolné kartě získáte "
+"kliknutím na tlačítko <guimenu>Nápověda</guimenu> v dialogu."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:461 xml/apps_librewriter.xml:575
 #: xml/apps_librewriter.xml:687 xml/apps_librewriter.xml:716
 #: xml/apps_librewriter.xml:739
 msgid "Confirm with <guimenu>OK</guimenu>. This closes the window."
-msgstr ""
+msgstr "Potvrďte <guimenu>OK</guimenu>. Tím se okno zavře."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librewriter.xml:467
 msgid "Example: Defining a Note Style"
-msgstr ""
+msgstr "Příklad: Definování stylu poznámky"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:468
@@ -561,11 +699,13 @@ msgid ""
 "Let us assume, you need a note with a different background and borders. To "
 "create such a style, proceed as follows:"
 msgstr ""
+"Předpokládejme, že potřebujete poznámku s jiným pozadím a hranicemi. Chcete-"
+"li vytvořit takový styl, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:473
 msgid "Creating a Note Style"
-msgstr ""
+msgstr "Vytvoření stylu poznámky"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:475 xml/apps_librewriter.xml:598
@@ -573,6 +713,8 @@ msgid ""
 "Press <keycap>F11</keycap>. The panel <guimenu>Styles and Formatting</"
 "guimenu> opens."
 msgstr ""
+"Stiskněte klávesu <keycap>F11</keycap>. Otevře se panel <guimenu>Styly a "
+"formátování</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:481
@@ -580,6 +722,8 @@ msgid ""
 "Make sure you are in the <guimenu>Paragraph Style</guimenu> list by checking "
 "that the pilcrow icon (¶) is selected."
 msgstr ""
+"Ujistěte se, že vidíte seznam <guimenu>Styl odstavce</guimenu>. "
+"Zkontrolujte, zda je vybrána ikona polštáře (¶)."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:487 xml/apps_librewriter.xml:610
@@ -587,37 +731,39 @@ msgid ""
 "Right-click anywhere in the list of styles in the panel <guimenu>Styles and "
 "Formatting</guimenu> and select <guimenu>New</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši kdekoli v seznamu stylů na panelu <guimenu>"
+"Styly a formátování</guimenu> a vyberte <guimenu>Nový</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:494
 msgid ""
 "Specify the following parameters in the tab <guimenu>Organizer</guimenu>:"
-msgstr ""
+msgstr "Na kartě <guimenu>Organizátor</guimenu> zadejte tyto parametry:"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:507 xml/apps_librewriter.xml:519
 msgid "Note"
-msgstr ""
+msgstr "Poznámka"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:526 xml/apps_librewriter.xml:653
 msgid "<guimenu>Inherit from</guimenu>"
-msgstr ""
+msgstr "<guimenu>Zděděno z</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:531
 msgid "- None -"
-msgstr ""
+msgstr "- Žádný -"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:538 xml/apps_librewriter.xml:665
 msgid "<guimenu>Category</guimenu>"
-msgstr ""
+msgstr "<guimenu>Kategorie</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:543
 msgid "Custom Styles"
-msgstr ""
+msgstr "Uživatelské styly"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:553
@@ -628,13 +774,17 @@ msgid ""
 "<guimenu>Above paragraph</guimenu> and <guimenu>Below paragraph</guimenu> "
 "accordingly."
 msgstr ""
+"Změňte odsazení na kartě <guimenu>Odsazení a řádkování</guimenu> pomocí "
+"textového pole <guimenu>Před textem</guimenu>. Pokud chcete také více místa "
+"nad a pod jednotlivými odstavci, změňte odpovídajícím způsobem hodnoty v "
+"<guimenu>Nad odstavcem</guimenu> a <guimenu>Pod odstavcem</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:563
 msgid ""
 "Switch to the tab <guimenu>Background</guimenu> and choose a color for the "
 "background."
-msgstr ""
+msgstr "Přepněte se na kartu <guimenu>Pozadí</guimenu> a vyberte barvu pozadí."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:569
@@ -642,6 +792,8 @@ msgid ""
 "Switch to the tab <guimenu>Borders</guimenu> and determine your line "
 "arrangements, line style, color and other parameters."
 msgstr ""
+"Přepněte se na kartu <guimenu>Ohraničení</guimenu> a určete uspořádání čar, "
+"styl čáry, barvu a další parametry."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:580
@@ -649,11 +801,13 @@ msgid ""
 "Select your text in your document and double-click the style <guimenu>Note</"
 "guimenu>. Your style parameters are applied to the text."
 msgstr ""
+"Vyberte text v dokumentu a poklepejte na styl <guimenu>Poznámka</guimenu>. "
+"Vlastnosti vašeho stylu se použijí na text."
 
 #. (itstool) path: sect3/title
 #: xml/apps_librewriter.xml:589
 msgid "Example: Defining an Even-Odd Page Style"
-msgstr ""
+msgstr "Příklad: Definování stylu sudé-liché stránky"
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:590
@@ -662,11 +816,14 @@ msgid ""
 "if they are supposed to be bound, use templates for even and odd pages. To "
 "create page styles for this, proceed as follows:"
 msgstr ""
+"Chcete-li vytvořit oboustranné tisky dokumentů, zejména pokud mají být "
+"svázány, použijte šablony pro sudé a liché stránky. Chcete-li k tomu účelu "
+"vytvořit styly stránky, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:596
 msgid "Create an Even (Left) Page Style"
-msgstr ""
+msgstr "Vytvořte styl sudé (levé) stránky"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:604
@@ -674,26 +831,28 @@ msgid ""
 "Make sure you are in the list <guimenu>Page Style</guimenu> by checking that "
 "the paper sheet icon is selected."
 msgstr ""
+"Ujistěte se, že pracujete v seznamu <guimenu>Styl stránky</guimenu> "
+"zaškrtnutím ikony listu papíru."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:617
 msgid "Enter the following parameters in the tab <guimenu>Organizer</guimenu>:"
-msgstr ""
+msgstr "Na kartě <guimenu>Organizátor</guimenu> zadejte tyto parametry:"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:634
 msgid "Left Content Page"
-msgstr ""
+msgstr "Levá obsahová stránka"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:646
 msgid "Leave empty, will be changed later"
-msgstr ""
+msgstr "Ponechte prázdné, bude změněno později"
 
 #. (itstool) path: entry/para
 #: xml/apps_librewriter.xml:658 xml/apps_librewriter.xml:670
 msgid "not applicable"
-msgstr ""
+msgstr "nehodí se"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:680
@@ -702,11 +861,14 @@ msgid ""
 "adapt the page format and margins (tab <guimenu>Page</guimenu>) or any "
 "headers and footers."
 msgstr ""
+"Na dalších kartách můžete podle potřeby měnit další parametry. Můžete také "
+"upravit formát stránky a okraje (karta <guimenu>Stránka</guimenu>) nebo "
+"záhlaví a zápatí."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:693
 msgid "Create an Odd (Right) Page Style"
-msgstr ""
+msgstr "Vytvořte styl liché (pravé) stránky"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:695
@@ -715,6 +877,9 @@ msgid ""
 "\"/> but use the string <literal>Right Content Page</literal> in the "
 "<guimenu>Organizer</guimenu> tab."
 msgstr ""
+"Postupujte podle pokynů na <xref linkend=\"pro.oo.writer.style.exa.page."
+"even\"/>, ale použijte řetězec <literal>Pravá obsahová stránka</literal> na "
+"kartě <guimenu>Organizátor</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:703
@@ -722,6 +887,8 @@ msgid ""
 "Select the entry <guimenu>Left Content Page</guimenu> from the drop-down box "
 "<guimenu>Next Style</guimenu>."
 msgstr ""
+"V rozbalovacím seznamu <guimenu>Další styl</guimenu> vyberte položku "
+"<guimenu>Levá obsahová stránka</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:709
@@ -730,16 +897,19 @@ msgid ""
 "different sizes for the left and right margin of your even page, mirror "
 "these values in your odd pages."
 msgstr ""
+"Vyberte stejné parametry jako pro styl levé stránky. Jestliže jste pro levý "
+"a pravý okraj vaší sudé stránky použili různé velikosti, zrcadlete tyto "
+"hodnoty na lichých stránkách."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:721
 msgid "Then connect the left page style with the right page style:"
-msgstr ""
+msgstr "Poté propojte styl levé stránky se stylem pravé stránky:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:725
 msgid "Connect the Right Page Style with the Left Page Style"
-msgstr ""
+msgstr "Propojte styl pravé stránky se stylem levé stránky"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:727
@@ -747,6 +917,8 @@ msgid ""
 "Right-click the entry <guimenu>Left Content Page</guimenu> and choose "
 "<guimenu>Modify</guimenu>."
 msgstr ""
+"Klepněte pravým tlačítkem myši na položku <guimenu>Levá obsahová "
+"stránka</guimenu> a vyberte <guimenu>Upravit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:733
@@ -754,6 +926,8 @@ msgid ""
 "Choose <guimenu>Right Content Page</guimenu> from the drop-down box "
 "<guimenu>Next Style</guimenu>."
 msgstr ""
+"V rozbalovacím seznamu <guimenu>Další styl</guimenu> vyberte <guimenu>Pravá "
+"obsahová stránka</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/apps_librewriter.xml:744
@@ -763,11 +937,15 @@ msgid ""
 "length of a page, the following page automatically receives the alternative "
 "page style."
 msgstr ""
+"Chcete-li připojit svůj styl, zkontrolujte, zda je vaše stránka levá (sudá) "
+"stránka, a poklepejte na <guimenu>Levá obsahová stránka</guimenu>. Kdykoli "
+"váš text překročí délku stránky, následující stránka automaticky obdrží styl "
+"alternativní stránky."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:754
 msgid "Working with Large Documents"
-msgstr ""
+msgstr "Práce s velkými dokumenty"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:756
@@ -775,11 +953,13 @@ msgid ""
 "You can use Writer to work on large documents. Large documents can be either "
 "a single file or a collection of files assembled into a single document."
 msgstr ""
+"Program Writer můžete použít k práci na velkých dokumentech. Velký dokument "
+"může být jeden soubor nebo kolekce souborů sestavených do jednoho dokumentu."
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:762
 msgid "Navigating in Large Documents"
-msgstr ""
+msgstr "Navigace ve velkých dokumentech"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:763
@@ -788,6 +968,9 @@ msgid ""
 "also lets you quickly jump to different elements. For example, use the "
 "Navigator to get a quick overview of all images included in a document."
 msgstr ""
+"Nástroj Navigátor zobrazuje informace o obsahu dokumentu. Umožňuje také "
+"rychle přejít na různé prvky. Jeho pomocí získáte například rychlý přehled o "
+"všech obrázcích obsažených v dokumentu."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:769
@@ -796,6 +979,10 @@ msgid ""
 "<guimenu>Navigator</guimenu> </menuchoice> or press <keycap>F5</keycap>. The "
 "elements listed in the Navigator vary with the document loaded in Writer."
 msgstr ""
+"Navigátor otevřete kliknutím na <menuchoice> <guimenu>Zobrazit</guimenu> "
+"<guimenu>Navigátor</guimenu> </menuchoice> nebo stiskněte <keycap>F5</keycap>"
+". Prvky uvedené v Navigátoru se liší podle dokumentu načteného v aplikaci "
+"Writer."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:775
@@ -803,17 +990,20 @@ msgid ""
 "The Navigator is also an element of the side bar: There, it can be opened "
 "using the button <guimenu>Navigator</guimenu> (a compass)."
 msgstr ""
+"Navigátor je také prvkem postranní lišty: Tam jej lze otevřít tlačítkem "
+"<guimenu>Navigátor</guimenu> (kompas)."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:779
 msgid ""
 "Double-click an item in the Navigator to jump to that item in the document."
 msgstr ""
+"Poklepáním na položku v Navigátoru přejdete na tuto položku v dokumentu."
 
 #. (itstool) path: figure/title
 #: xml/apps_librewriter.xml:783
 msgid "Navigator Tool in Writer"
-msgstr ""
+msgstr "Nástroj Navigátor ve Writeru"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -823,12 +1013,12 @@ msgstr ""
 #: xml/apps_librewriter.xml:786 xml/apps_librewriter.xml:789
 msgctxt "_"
 msgid "external ref='oo_navigator.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo_navigator.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_librewriter.xml:796
 msgid "Using Master Documents"
-msgstr ""
+msgstr "Použití hlavních dokumentů"
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:797
@@ -839,6 +1029,10 @@ msgid ""
 "formatting changes to a large document or to jump to each subdocument for "
 "editing."
 msgstr ""
+"Pokud pracujete s velmi velkým dokumentem, například s knihou, může být "
+"snazší spravovat knihu s hlavním dokumentem, než ponechat knihu v jediném "
+"souboru. Hlavní dokument umožňuje rychle použít změny formátování na velký "
+"dokument nebo přeskočit na každý vnořený dokument pro úpravy."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:804
@@ -851,11 +1045,19 @@ msgid ""
 "document, allowing multiple writers to work on their subdocuments at the "
 "same time without fear of overwriting the work of others."
 msgstr ""
+"Hlavní dokument je dokument Writeru, který slouží jako kontejner pro více "
+"souborů Writeru. Kapitoly nebo jiné vnořené dokumenty můžete udržovat jako "
+"jednotlivé soubory soustředěné (přes odkazy) v hlavním dokumentu. Hlavní "
+"dokumenty jsou také užitečné, když na jednom velkém dokumentu pracuje více "
+"uživatelů. Můžete oddělit sekce uživatelů do pod-dokumentů shromážděných v "
+"hlavním dokumentu a odkazovaných z něj, což umožňuje několika autorům "
+"pracovat na svých pod-dokumentech současně, aniž mohou přepsat/změnit práce "
+"ostatních."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:815
 msgid "Creating a Master Document"
-msgstr ""
+msgstr "Vytvoření hlavního dokumentu"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:817
@@ -863,11 +1065,13 @@ msgid ""
 "Click <menuchoice> <guimenu>New</guimenu> <guimenu>Master Document</guimenu> "
 "</menuchoice>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Nový</guimenu> <guimenu>Hlavní "
+"dokument</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:821
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:824
@@ -876,6 +1080,9 @@ msgid ""
 "<guimenu>Send</guimenu> <guimenu>Create Master Document</guimenu> </"
 "menuchoice>."
 msgstr ""
+"Otevřete existující dokument a klikněte na <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Odeslat</guimenu> <guimenu>Vytvořit "
+"hlavní dokument</guimenu> </menuchoice>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -885,7 +1092,7 @@ msgstr ""
 #: xml/apps_librewriter.xml:0
 msgctxt "_"
 msgid "external ref='libreoffice-writer-master-insert.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='libreoffice-writer-master-insert.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:836
@@ -898,16 +1105,23 @@ msgid ""
 "\"libreoffice-writer-master-insert.png\" width=\"1em\" format=\"PNG\"/></"
 "imageobject></inlinemediaobject>), then choose <guimenu>File</guimenu>."
 msgstr ""
+"Otevře se okno <guimenu>Navigátoru</guimenu>. V něm zvolte "
+"<guimenu>Vložit</guimenu> (<inlinemediaobject><textobject role=\""
+"description\"><phrase>Vložit</phrase></textobject><imageobject role=\"fo\"><"
+"imagedata fileref=\"libreoffice-writer-master-insert.png\" width=\"0.8em\" "
+"format=\"PNG\"/></imageobject><imageobject role=\"html\"><imagedata fileref"
+"=\"libreoffice-writer-master-insert.png\" width=\"1em\" format=\"PNG\""
+"/></imageobject></inlinemediaobject>), pak zvolte <guimenu>Soubor</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:843
 msgid "Select a file to add an existing file to the master document."
-msgstr ""
+msgstr "Vyberte existující soubor, který bude přidán do hlavního dokumentu."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:849
 msgid "Adding a New Document to a Master Document"
-msgstr ""
+msgstr "Přidání nového dokumentu do hlavního dokumentu"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:851
@@ -921,6 +1135,14 @@ msgid ""
 "imageobject></inlinemediaobject>), then choose <guimenu>New Document</"
 "guimenu>."
 msgstr ""
+"V okně nebo panelu <guimenu>Navigátor</guimenu> zvolte "
+"<guimenu>Vložit</guimenu> (<inlinemediaobject><textobject role=\""
+"description\"><phrase>Vložit</phrase></textobject><imageobject role=\"fo\"><"
+"imagedata fileref=\"libreoffice-writer-master-insert.png\" width=\"0.8em\" "
+"format=\"PNG\"/></imageobject><imageobject role=\"html\"><imagedata fileref"
+"=\"libreoffice-writer-master-insert.png\" width=\"1em\" format=\"PNG\""
+"/></imageobject></inlinemediaobject>), pak zvolte <guimenu>Nový "
+"dokument</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:858
@@ -928,6 +1150,8 @@ msgid ""
 "A file chooser opens, to allow saving the new document. Specify a name, then "
 "click <guimenu>Save</guimenu>."
 msgstr ""
+"Otevře se nástroj pro výběr souboru, který umožní uložení nového dokumentu. "
+"Zadejte název a klikněte na <guimenu>Uložit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:864
@@ -935,6 +1159,8 @@ msgid ""
 "When you are done editing the new document, save it. Then switch back to the "
 "master document."
 msgstr ""
+"Po dokončení úprav nového dokumentu jej uložte. Poté přepněte zpět na hlavní "
+"dokument."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:870
@@ -944,6 +1170,10 @@ msgid ""
 "guimenu>, then click <menuchoice><guimenu>Update</guimenu> "
 "<guimenu>Selection</guimenu></menuchoice>."
 msgstr ""
+"Aktualizujte hlavní dokument obsahem nového dokumentu. Chcete-li tak učinit, "
+"klepněte pravým tlačítkem myši na položku nového dokumentu v "
+"<guimenu>Navigátoru</guimenu> a poté klepněte na <menuchoice> "
+"<guimenu>Aktualizace</guimenu> <guimenu>Výběr</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:879
@@ -951,6 +1181,8 @@ msgid ""
 "To enter some text directly into the master document, select "
 "<menuchoice><guimenu>Insert</guimenu><guimenu>Text</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li zadat nějaký text přímo do hlavního dokumentu, vyberte "
+"<menuchoice><guimenu>Vložit</guimenu> <guimenu>Text</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_librewriter.xml:883
@@ -959,11 +1191,14 @@ msgid ""
 "with master documents. Look for the topic named <citetitle>Using Master "
 "Documents and Subdocuments</citetitle>."
 msgstr ""
+"Soubory nápovědy LibreOffice obsahují úplnější informace o práci s hlavními "
+"dokumenty. Vyhledejte téma s názvem <citetitle>Používání hlavních dokumentů "
+"a pod-dokumentů</citetitle>."
 
 #. (itstool) path: tip/title
 #: xml/apps_librewriter.xml:889
 msgid "Styles and Templates in Master Documents"
-msgstr ""
+msgstr "Styly a šablony v hlavních dokumentech"
 
 #. (itstool) path: tip/para
 #: xml/apps_librewriter.xml:890
@@ -973,6 +1208,10 @@ msgid ""
 "document, use the same template for each subdocument. Doing so is not "
 "mandatory."
 msgstr ""
+"Styly ze všech vašich vnořených dokumentů jsou importovány do hlavního "
+"dokumentu. Chcete-li zajistit, aby formátování bylo v celém hlavním "
+"dokumentu shodné, použijte pro každý vnořený dokument stejnou šablonu. Není "
+"to povinné."
 
 #. (itstool) path: tip/para
 #: xml/apps_librewriter.xml:896
@@ -984,11 +1223,16 @@ msgid ""
 "document will use the formatting specified for the style in the document "
 "imported first."
 msgstr ""
+"Jestliže jsou vnořené dokumenty formátovány odlišně, možná budete muset "
+"provést přeformátování, abyste úspěšně přenesli vnořené dokumenty do "
+"hlavního dokumentu bez vytváření nekonzistencí. Pokud například dva "
+"dokumenty v hlavním dokumentu obsahují styly se stejným názvem, použije "
+"hlavní dokument formátování určené pro styl v prvním importovaném dokumentu."
 
 #. (itstool) path: sect1/title
 #: xml/apps_librewriter.xml:908
 msgid "Using Writer as an HTML Editor"
-msgstr ""
+msgstr "Použití programu Writer jako editoru HTML"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:910
@@ -999,11 +1243,16 @@ msgid ""
 "good HTML. You can view the document as it will appear online, or you can "
 "directly edit the HTML code."
 msgstr ""
+"Kromě toho, že je Writer plně vybavený textový procesor, funguje také jako "
+"editor HTML. Stránky HTML můžete opatřit styly jako jakýkoli jiný dokument, "
+"ale existují specifické <guimenu>Styly HTML</guimenu>, které pomáhají "
+"vytvářet dobrý vzhled HTML. Dokument si můžete prohlédnout tak, jak bude "
+"vypadat online, nebo můžete přímo upravit kód HTML."
 
 #. (itstool) path: procedure/title
 #: xml/apps_librewriter.xml:919
 msgid "Creating an HTML Page"
-msgstr ""
+msgstr "Vytvoření stránky HTML"
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:921
@@ -1011,6 +1260,8 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>New</guimenu> "
 "<guimenu>HTML Document</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Nový</guimenu> "
+"<guimenu>HTML dokument</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:927
@@ -1018,6 +1269,8 @@ msgid ""
 "Press <keycap>F11</keycap> to open the panel <guimenu>Styles and Formatting</"
 "guimenu>."
 msgstr ""
+"Stisknutím klávesy <keycap>F11</keycap> otevřete panel <guimenu>Styly a "
+"formátování</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:933
@@ -1025,16 +1278,18 @@ msgid ""
 "At the bottom of the panel <guimenu>Styles and Formatting</guimenu>, click "
 "the drop-down box to open it."
 msgstr ""
+"Ve spodní části panelu <guimenu>Styly a formátování</guimenu> jej otevřete "
+"kliknutím na rozevírací pole."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:939
 msgid "Select <guimenu>HTML Styles</guimenu>."
-msgstr ""
+msgstr "Vyberte <guimenu>Styly HTML</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:944
 msgid "Create your HTML page, using the styles to tag your text."
-msgstr ""
+msgstr "Vytvořte si svou stránku HTML použitím stylů pro označení textu."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:949
@@ -1042,6 +1297,8 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>Save As</guimenu> </"
 "menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Uložit "
+"jako</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:955
@@ -1050,11 +1307,14 @@ msgid ""
 "sure that in the bottom drop-down box, <guimenu>HTML Document</guimenu> is "
 "selected."
 msgstr ""
+"Vyberte umístění, kam chcete soubor uložit, a pojmenujte jej. Ujistěte se, "
+"že v dolním rozbalovacím seznamu je vybrána položka <guimenu>HTML "
+"dokument</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_librewriter.xml:962
 msgid "Click <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:968
@@ -1064,6 +1324,11 @@ msgid ""
 "<guimenu>HTML Source</guimenu> </menuchoice>. In HTML Source mode, the "
 "<guimenu>Formatting and Styles</guimenu> list is not available."
 msgstr ""
+"Chcete-li upravit kód HTML přímo nebo zobrazit kód HTML vytvořený při úpravě "
+"souboru HTML jako dokumentu Writer, klikněte na <menuchoice> "
+"<guimenu>Zobrazit</guimenu> <guimenu>Zdroj HTML</guimenu> </menuchoice>. V "
+"režimu zdroje HTML není seznam <guimenu>Formátování a styly</guimenu> k "
+"dispozici."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:976
@@ -1071,6 +1336,8 @@ msgid ""
 "The first time you switch to <guimenu>HTML Source</guimenu> mode, you are "
 "prompted to save the file as HTML, if you have not already done so."
 msgstr ""
+"Při prvním přepnutí do režimu <guimenu>Zdroj HTML</guimenu> se zobrazí výzva "
+"k uložení souboru jako HTML, pokud jste tak již neučinili."
 
 #. (itstool) path: sect1/para
 #: xml/apps_librewriter.xml:981
@@ -1079,3 +1346,7 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenu>HTML source</guimenu></"
 "menuchoice> again."
 msgstr ""
+"Chcete-li přepnout zpět z režimu <guimenu>Zdroj HTML</guimenu> do režimu "
+"Vzhled na webu (Web Layout), znovu klikněte na "
+"<menuchoice><guimenu>Zobrazit</guimenu> <guimenu>Zdroj HTML</guimenu> "
+"</menuchoice>."

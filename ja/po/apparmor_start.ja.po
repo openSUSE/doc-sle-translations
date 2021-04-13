@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:49+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_start-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_start.xml:9
 msgid "Getting Started"
-msgstr ""
+msgstr "入門"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_start.xml:16
@@ -70,42 +72,42 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:54
 msgid "<systemitem class=\"resource\">apparmor-docs</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-docs</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:59
 msgid "<systemitem class=\"resource\">apparmor-parser</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-parser</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:64
 msgid "<systemitem class=\"resource\">apparmor-profiles</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-profiles</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:69
 msgid "<systemitem class=\"resource\">apparmor-utils</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-utils</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:74
 msgid "<systemitem class=\"resource\">audit</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">audit</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:79
 msgid "<systemitem class=\"resource\">libapparmor1</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">libapparmor1</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:84
 msgid "<systemitem class=\"resource\">perl-libapparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">perl-libapparmor</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:89
 msgid "<systemitem class=\"resource\">yast2-apparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">yast2-apparmor</systemitem>"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_start.xml:96
@@ -192,6 +194,10 @@ msgid ""
 "the window. Check that <guimenu>Enabled</guimenu> changed to "
 "<guimenu>Disabled</guimenu> in the <literal>apparmor</literal> row."
 msgstr ""
+"<literal>apparmor</literal> と書かれた行を探してマウスの左ボタンで選択し、ウインドウの下部にある <!-- NOTE: \""
+"Enable/Disable\" is not available since Leap 15.0? --> "
+"<guimenu>有効／無効</guimenu> を押します。これで <guimenu>有効</guimenu> と書かれていた列が "
+"<guimenu>無効</guimenu> になります。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:165
@@ -240,7 +246,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:206
 msgid "Choosing Applications to Profile"
-msgstr ""
+msgstr "プロファイルを作成するアプリケーションの選択"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:208
@@ -249,21 +255,23 @@ msgid ""
 "particular setup, so only use profiles for those applications you actually "
 "run. Use the following list to determine the most likely candidates:"
 msgstr ""
+"お使いの環境で攻撃を受ける可能性のあるプログラムのみが、保護を必要とするプログラムとなります。それらに該当するアプリケーションのみに対してプロファイルを作"
+"成してください。一般的な例としては、下記のようなものがあります:"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:216
 msgid "Network Agents"
-msgstr ""
+msgstr "ネットワークエージェント"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:217
 msgid "Web Applications"
-msgstr ""
+msgstr "Web アプリケーション"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:218
 msgid "Cron Jobs"
-msgstr ""
+msgstr "cron ジョブ"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:221
@@ -276,7 +284,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: xml/apparmor_start.xml:228
 msgid "Output of <command>aa-unconfined</command>"
-msgstr ""
+msgstr "<command>aa-unconfined</command> の出力"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_start.xml:229
@@ -287,6 +295,10 @@ msgid ""
 "19947 /usr/lib/postfix/master not confined\n"
 "1328 /usr/sbin/smbd confined by '/usr/sbin/smbd (enforce)'"
 msgstr ""
+"19848 /usr/sbin/cupsd not confined\n"
+"19887 /usr/sbin/sshd not confined\n"
+"19947 /usr/lib/postfix/master not confined\n"
+"1328 /usr/sbin/smbd confined by '/usr/sbin/smbd (enforce)'"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:235
@@ -300,7 +312,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_start.xml:242 xml/apparmor_start.xml:368
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_start.xml:243
@@ -312,7 +324,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:250
 msgid "Building and Modifying Profiles"
-msgstr ""
+msgstr "プロファイルの作成と修正"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:252
@@ -339,7 +351,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:267
 msgid "For each application, perform the following steps to create a profile:"
-msgstr ""
+msgstr "それぞれのアプリケーションに対してプロファイルを作成するには、下記の手順を実施します:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:273
@@ -352,7 +364,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:278
 msgid "<emphasis>or</emphasis>"
-msgstr ""
+msgstr "<!-- NOTE: nothing needed -->"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:281
@@ -371,6 +383,8 @@ msgid ""
 "it logs any activity of the program you are executing, but does not yet "
 "restrict it."
 msgstr ""
+"基本的なプロファイルが新しく作成され、学習 (learning) "
+"モードに設定されます。学習モードとは、プログラムの動作がログに記録されるものの、プロファイルによる制限が課されないモードのことを指します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:296
@@ -439,17 +453,17 @@ msgstr ""
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:352
 msgid "<filename>/var/log/audit/audit.log</filename>"
-msgstr ""
+msgstr "<filename>/var/log/audit/audit.log</filename>"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:354
 msgid "The command <command>journalctl | grep -i apparmor</command>"
-msgstr ""
+msgstr "<command>journalctl | grep -i apparmor</command> コマンドの出力"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:356
 msgid "The command <command>dmesg -T</command>"
-msgstr ""
+msgstr "<command>dmesg -T</command> コマンドの出力"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:360
@@ -471,7 +485,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:378
 msgid "Updating Your Profiles"
-msgstr ""
+msgstr "プロファイルの更新"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:380

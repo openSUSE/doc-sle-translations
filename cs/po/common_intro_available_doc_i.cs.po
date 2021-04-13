@@ -2,19 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:24+0200\n"
-"PO-Revision-Date: 2018-09-30 01:24+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-03-12 17:56+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/common_intro_available_doc_i-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: sect1/title
 #: xml/common_intro_available_doc_i.xml:12
@@ -63,6 +67,11 @@ msgid ""
 "\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></"
 "phrase>."
 msgstr ""
+"Tento Rychlý start Vás krok za krokem provede instalací <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\"sles\""
+">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
+"Enterprise Desktop</phrase></phrase> <phrase role=\"productnumber\"><phrase "
+"os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
 
 #. (itstool) path: listitem/para
 #: xml/common_intro_available_doc_i.xml:58
@@ -90,6 +99,8 @@ msgid ""
 "Covers system administration tasks like maintaining, monitoring and "
 "customizing an initially installed system."
 msgstr ""
+"Pokrývá úkoly správy systému, jako je údržba, monitorování a přizpůsobení "
+"dříve nainstalovaného systému."
 
 #. (itstool) path: listitem/para
 #: xml/common_intro_available_doc_i.xml:87
@@ -126,6 +137,11 @@ msgid ""
 "software like <phrase>AppArmor</phrase> or the auditing system that reliably "
 "collects information about any security-relevant events."
 msgstr ""
+"Představuje základní koncepty zabezpečení systému, které pokrývají místní i "
+"síťové bezpečnostní aspekty. Ukazuje, jak používat vlastní bezpečnostní "
+"software k produktu, jako je <phrase>AppArmor</phrase> nebo auditovací "
+"systém, který spolehlivě shromažďuje informace o všech událostech "
+"souvisejících s bezpečností."
 
 #. (itstool) path: listitem/para
 #: xml/common_intro_available_doc_i.xml:123
@@ -164,3 +180,9 @@ msgid ""
 "you perform key tasks. It is intended mainly for end users who want to make "
 "efficient use of GNOME as their default desktop."
 msgstr ""
+"Představujeme pracovní plochu GNOME <phrase role=\"productname\"><phrase os="
+"\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase>. Provede vás používáním a konfigurací plochy a "
+"pomůže vám provádět klíčové úkoly. Je určen hlavně koncovým uživatelům, "
+"kteří chtějí efektivně využívat GNOME jako výchozí plochu."

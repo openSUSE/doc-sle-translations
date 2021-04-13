@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:49+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_profiles-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_profiles.xml:9
 msgid "Profile Components and Syntax"
-msgstr ""
+msgstr "プロファイルのコンポーネントと文法"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles.xml:15
@@ -54,7 +56,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:37
 msgid "Include Files"
-msgstr ""
+msgstr "ファイル取り込み"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:39
@@ -67,19 +69,19 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:46 xml/apparmor_profiles.xml:590
 msgid "Abstractions"
-msgstr ""
+msgstr "抽象"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:48
 msgid ""
 "Abstractions are include statements grouped by common application tasks."
-msgstr ""
+msgstr "抽象機能は、一般的なアプリケーションの処理をまとめて取り込む機能を提供します。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:55 xml/apparmor_profiles.xml:604
 msgid "Program Chunks"
-msgstr ""
+msgstr "プログラムチャンク"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:57
@@ -87,11 +89,12 @@ msgid ""
 "Program chunks are include statements that contain chunks of profiles that "
 "are specific to program suites."
 msgstr ""
+"プログラムチャンクとはファイル取り込み機能の一部で、特定のプログラムスイートに固有として設定されているプロファイルの一部を、取り込むことができる機能です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:64
 msgid "Capability Entries"
-msgstr ""
+msgstr "ケーパビリティ項目"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:66
@@ -101,50 +104,53 @@ msgid ""
 "allowing a fine-grained control over what a confined process is allowed to "
 "do through system calls that require privileges."
 msgstr ""
+"ケーパビリティ項目とは、 POSIX.1e (<link xlink:href=\"http://ja.wikipedia.org/wiki/"
+"POSIX\"/>) として定められている Linux "
+"ケーパビリティ向けのプロファイル項目で、制限されたプロセスが権限の必要なシステムコールを行なう際、より細かい制御を行なうことのできる仕組みを指します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:75
 msgid "Network Access Control Entries"
-msgstr ""
+msgstr "ネットワークアクセス制御項目"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:77
 msgid ""
 "Network Access Control Entries mediate network access based on the address "
 "type and family."
-msgstr ""
+msgstr "ネットワークアクセス制御項目とは、アドレスの種類とファミリをベースにして、ネットワークへのアクセスを制御するための項目です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:84
 msgid "Local Variable Definitions"
-msgstr ""
+msgstr "ローカル変数定義"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:86
 msgid "Local variables define shortcuts for paths."
-msgstr ""
+msgstr "ローカル変数を定義することで、パスのショートカットを設定することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:92
 msgid "File Access Control Entries"
-msgstr ""
+msgstr "ファイルアクセス制御項目"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:94
 msgid ""
 "File Access Control Entries specify the set of files an application can "
 "access."
-msgstr ""
+msgstr "ファイルアクセス制御項目とは、アプリケーション側からのアクセスを許可するファイルの一覧を表わす項目です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:101
 msgid "rlimit Entries"
-msgstr ""
+msgstr "rlimit 項目"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:103
 msgid "rlimit entries set and control an application's resource limits."
-msgstr ""
+msgstr "rlimit 項目は、アプリケーションに対するリソース制限を設定し、制御するための項目です。"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_profiles.xml:109
@@ -230,12 +236,12 @@ msgstr ""
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:178
 msgid "This loads a file containing variable definitions."
-msgstr ""
+msgstr "ここでは、変数定義を含むファイルを読み込んでいます。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:183
 msgid "The normalized path to the program that is confined."
-msgstr ""
+msgstr "制限対象となるプログラムに対して、正規化されたパスを指定しています。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:188
@@ -258,6 +264,8 @@ msgid ""
 "Capability entry statements enable each of the 29 POSIX.1e draft "
 "capabilities."
 msgstr ""
+"capability (ケーパビリティ) 項目のステートメントでは、 <!-- NOTE: what is \"29\"? --> POSIX.1e "
+"ドラフトで規定されたケーパビリティを有効化しています。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:207
@@ -300,7 +308,7 @@ msgstr ""
 msgid ""
 "This variable expands to a value that can be changed without changing the "
 "entire profile."
-msgstr ""
+msgstr "この変数は、プロファイル本体を変更することなく内容を変更したい場合に使用するものです。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:247
@@ -330,7 +338,7 @@ msgstr ""
 msgid ""
 "The local profile <literal>/usr/bin/foobar</literal> is defined in this "
 "section."
-msgstr ""
+msgstr "ここでは、ローカルプロファイル <literal>/usr/bin/foobar</literal> を定義しています。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:276
@@ -347,11 +355,13 @@ msgid ""
 "files, modes, and POSIX capabilities specified in the profile. These "
 "restrictions are in addition to the native Linux access controls."
 msgstr ""
+"プログラムに対してプロファイルを作成する際、プログラムはプロファイル内に指定されたファイルやモード、 POSIX "
+"ケーパビリティにのみアクセスが許可されます。これらの制限は、 Linux の標準的なアクセス制御に付加する形で動作します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apparmor_profiles.xml:291
 msgid "Example:"
-msgstr ""
+msgstr "例:"
 
 #. (itstool) path: formalpara/para
 #: xml/apparmor_profiles.xml:292
@@ -383,7 +393,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:317
 msgid "Profile Types"
-msgstr ""
+msgstr "プロファイルの種類"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:319
@@ -399,7 +409,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:329
 msgid "Standard Profiles"
-msgstr ""
+msgstr "標準プロファイル"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:330
@@ -417,6 +427,9 @@ msgid ""
 "...\n"
 "}\n"
 msgstr ""
+"/usr/bin/foo {\n"
+"...\n"
+"}\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:338
@@ -428,7 +441,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:345
 msgid "Unattached Profiles"
-msgstr ""
+msgstr "未接続プロファイル"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:346
@@ -454,6 +467,12 @@ msgid ""
 "...\n"
 "}"
 msgstr ""
+"profile /usr/bin/foo {\n"
+"...\n"
+"}\n"
+"/usr/bin/foo {\n"
+"...\n"
+"}"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:363
@@ -478,7 +497,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:380
 msgid "Local Profiles"
-msgstr ""
+msgstr "ローカルプロファイル"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:381
@@ -488,6 +507,9 @@ msgid ""
 "like standard profiles, except that they are embedded in a parent profile "
 "and begin with the <literal>profile</literal> keyword:"
 msgstr ""
+"ローカルプロファイルは、制限を受けているアプリケーションがユーティリティプログラムを起動する際、そのユーティリティに対する特殊な制限を設定する際に便利な機"
+"能です。この種類のプロファイルは標準プロファイルと同様に指定することができますが、親プロファイル内に組み込まれて使用され、かつ "
+"<literal>profile</literal> キーワードで始める点が異なります。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:388
@@ -500,6 +522,12 @@ msgid ""
 "   }\n"
 "}"
 msgstr ""
+"/parent/profile {\n"
+"   ...\n"
+"   profile /local/profile {\n"
+"      ...\n"
+"   }\n"
+"}"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:394
@@ -512,7 +540,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:403
 msgid "Hats"
-msgstr ""
+msgstr "ハット"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:404
@@ -526,7 +554,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:413
 msgid "Change rules"
-msgstr ""
+msgstr "ルール変更"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:414
@@ -542,7 +570,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:422
 #, no-wrap
 msgid "change_profile -&gt; /usr/bin/foobar,"
-msgstr ""
+msgstr "change_profile -&gt; /usr/bin/foobar,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:423
@@ -556,6 +584,11 @@ msgid ""
 "hat profile and if it provides the correct secret key return to the parent "
 "profile at a later time."
 msgstr ""
+"<literal>change_hat</literal> と <literal>change_profile</literal> "
+"のいずれも、個別のアプリケーションを起動することなく、アプリケーション内でのプロファイル遷移を実現します。 "
+"<literal>change_profile</literal> は一般に、読み込まれたプロファイル間で一方向の遷移を行ないます。それに対して、 "
+"<literal>change_hat</literal> "
+"は戻ってくることを前提とした遷移となり、後から正しい機密鍵を指定することで、親プロファイルに戻ってくることができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:433
@@ -569,6 +602,11 @@ msgid ""
 "available while capability and file resources (as long as they are not "
 "memory mapped) can be limited."
 msgstr ""
+"<literal>change_profile</literal> は、アプリケーションが特定の設定フェーズを経由して起動し、後から権限レベルを落とすよう"
+"な仕組みである場合に、最適な仕組みです。起動フェーズ内でマッピングしたり開いたりしたリソースについては、プロファイルが変更されてもアクセスが許可され続けま"
+"すが、新しいプロファイルでは新しいリソースを開く処理が制限されたり、リソースによっては切り替え前よりも制限を厳しくしたりするような動作に適切な仕組みです。"
+"特に、ケーパビリティやファイルのリソースについては制限ができる (ただしメモリマップされていなければ) "
+"ものの、メモリについては以前と同じく利用できるようになります。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:443
@@ -588,7 +626,7 @@ msgstr ""
 #. (itstool) path: warning/title
 #: xml/apparmor_profiles.xml:458
 msgid "Safety of Domain Transitions"
-msgstr ""
+msgstr "ドメイン遷移の安全性について"
 
 #. (itstool) path: warning/para
 #: xml/apparmor_profiles.xml:459
@@ -598,11 +636,14 @@ msgid ""
 "exec because they do not affect a process's memory mappings, nor do they "
 "close resources that have already been opened."
 msgstr ""
+"<literal>change_hat</literal> や <literal>change_profile</literal> "
+"によるドメイン遷移は、プロセスのメモリマッピングに影響を与えることができませんし、既に開いているリソースを閉じることもしませんので、 exec "
+"によるドメイン遷移よりはずっと安全性が低いことに注意してください。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:469
 msgid "Include Statements"
-msgstr ""
+msgstr "include ステートメント"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:471
@@ -636,23 +677,23 @@ msgstr ""
 #: xml/apparmor_profiles.xml:494
 #, no-wrap
 msgid "include \"/etc/apparmor.d/abstractions/foo\""
-msgstr ""
+msgstr "include \"/etc/apparmor.d/abstractions/foo\""
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:496
 msgid "is the same as using"
-msgstr ""
+msgstr "上記は、下記と同じ意味になります:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:500
 #, no-wrap
 msgid "#include \"/etc/apparmor.d/abstractions/foo\""
-msgstr ""
+msgstr "#include \"/etc/apparmor.d/abstractions/foo\""
 
 #. (itstool) path: note/title
 #: xml/apparmor_profiles.xml:503
 msgid "No Trailing ','"
-msgstr ""
+msgstr "末尾に ',' を付けてはならない件について"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:504
@@ -677,6 +718,8 @@ msgid ""
 "include \"/etc/apparmor.d/abstractions/foo\"   # absolute path\n"
 "include \"abstractions/foo\"   # relative path to the directory of current file"
 msgstr ""
+"include \"/etc/apparmor.d/abstractions/foo\"   # 絶対パス表記\n"
+"include \"abstractions/foo\"   # 現在のディレクトリからの相対パス表記"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:520
@@ -685,12 +728,14 @@ msgid ""
 "is considered the new current file for its includes. For example, suppose "
 "you are in the <filename>/etc/apparmor.d/bar</filename> file, then"
 msgstr ""
+"なお相対パス表記の場合、現在読み込んでいるファイルからの相対パスとして扱われることに注意してください。たとえば現在のプロファイルが <filename>/"
+"etc/apparmor.d/bar</filename> である場合、下記のように include を記述したとします:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:527
 #, no-wrap
 msgid "include \"abstractions/foo\""
-msgstr ""
+msgstr "include \"abstractions/foo\""
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:529
@@ -703,7 +748,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:534
 #, no-wrap
 msgid "include \"example\""
-msgstr ""
+msgstr "include \"example\""
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:536
@@ -724,18 +769,18 @@ msgstr ""
 #: xml/apparmor_profiles.xml:548
 #, no-wrap
 msgid "-I /etc/apparmor.d/ -I /usr/share/apparmor/"
-msgstr ""
+msgstr "-I /etc/apparmor.d/ -I /usr/share/apparmor/"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:550
 msgid "then the include statement"
-msgstr ""
+msgstr "この場合、下記のような include ステートメントを実行したとします:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:554
 #, no-wrap
 msgid "include &lt;abstractions/foo&gt;"
-msgstr ""
+msgstr "include &lt;abstractions/foo&gt;"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:556
@@ -760,6 +805,8 @@ msgid ""
 "Include /usr/share/apparmor/\n"
 "Include /etc/apparmor.d/"
 msgstr ""
+"Include /usr/share/apparmor/\n"
+"Include /etc/apparmor.d/"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles.xml:571
@@ -768,6 +815,9 @@ msgid ""
 "they are when using <option>-I</option> or <option>--Include</option> from "
 "the <command>apparmor_parser</command> command line."
 msgstr ""
+"このファイル内でも複数の項目を設定することができます。ただし、複数の項目を設定した場合は、 "
+"<command>apparmor_parser</command> に対して、順序通りに <option>-I</option> や "
+"<option>--Include</option> を指定したものとして扱われます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:579
@@ -775,6 +825,7 @@ msgid ""
 "If an include ends with '/', this is considered a directory include, and all "
 "files within the directory are included."
 msgstr ""
+"include ステートメントのパス指定が '/' で終わるものであった場合、これはディレクトリ内にある全てのファイルを取り込むものとして処理されます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:584
@@ -811,7 +862,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:617
 msgid "Tunables"
-msgstr ""
+msgstr "チューナブル"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:618
@@ -826,7 +877,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:629
 msgid "Capability Entries (POSIX.1e)"
-msgstr ""
+msgstr "ケーパビリティ項目 (POSIX.1e)"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:631
@@ -846,11 +897,14 @@ msgid ""
 "capability dac_override sys_admin,   # multiple capabilities\n"
 "capability,                          # grant all capabilities\n"
 msgstr ""
+"\n"
+"capability dac_override sys_admin,   # 複数のケーパビリティ\n"
+"capability,                          # 全てのケーパビリティ\n"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:645
 msgid "Network Access Control"
-msgstr ""
+msgstr "ネットワークアクセス制御"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:647
@@ -935,37 +989,37 @@ msgstr ""
 msgid ""
 "Allow all networking. No restrictions applied with regard to domain, type, "
 "or protocol."
-msgstr ""
+msgstr "全てのネットワーク処理を許可します。ドメインや種類、プロトコルでの制限を適用しません。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:722
 msgid "Allow general use of IPv4 networking."
-msgstr ""
+msgstr "IPv4 のネットワーク処理を許可します。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:727
 msgid "Allow general use of IPv6 networking."
-msgstr ""
+msgstr "IPv6 のネットワーク処理を許可します。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:732
 msgid "Allow the use of IPv4 TCP networking."
-msgstr ""
+msgstr "IPv4 TCP のネットワーク処理を許可します。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:737
 msgid "Allow the use of IPv4 TCP networking, paraphrasing the rule above."
-msgstr ""
+msgstr "IPv4 TCP のネットワーク処理を許可します (1 行上のルールと同じ意味です) 。"
 
 #. (itstool) path: callout/para
 #: xml/apparmor_profiles.xml:742
 msgid "Allow the use of both IPv4 and IPv6 TCP networking."
-msgstr ""
+msgstr "IPv4 と IPv6 の TCP ネットワーク処理を許可します。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:749
 msgid "Profile Names, Flags, Paths, and Globbing"
-msgstr ""
+msgstr "プロファイル名／フラグ／パス／グロブ"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:751
@@ -980,7 +1034,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:758
 #, no-wrap
 msgid "/usr/bin/foo { ... }"
-msgstr ""
+msgstr "/usr/bin/foo { ... }"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:760
@@ -989,6 +1043,8 @@ msgid ""
 "applied when naming a profile or putting a profile in the context of other "
 "existing ones, or specifying file paths."
 msgstr ""
+"下記では、プロファイルの命名の際や他の既存のコンテキスト内にプロファイルを配置する際、そして単純にファイルパスを指定する際に、便利なテクニックを紹介してい"
+"ます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:766
@@ -1001,29 +1057,29 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:774
 msgid "<filename>/some/random/example/* r</filename>"
-msgstr ""
+msgstr "<filename>/some/random/example/* r</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:777
 msgid ""
 "Allow read access to files in the <filename>/some/random/example</filename> "
 "directory."
-msgstr ""
+msgstr "<filename>/some/random/example</filename> 内のファイルに対して、読み込みアクセスを許可します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:784
 msgid "<filename>/some/random/example/ r</filename>"
-msgstr ""
+msgstr "<filename>/some/random/example/ r</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:787
 msgid "Allow read access to the directory only."
-msgstr ""
+msgstr "ディレクトリにのみ読み込みアクセスを許可します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:793
 msgid "<filename>/some/**/ r</filename>"
-msgstr ""
+msgstr "<filename>/some/**/ r</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:796
@@ -1031,11 +1087,13 @@ msgid ""
 "Give read access to any directories below <filename>/some</filename> (but "
 "not /some/ itself)."
 msgstr ""
+"<filename>/some</filename> 以下の任意のディレクトリに対して、読み込みアクセスを許可します (ただし <filename>/"
+"some/</filename> 自身には許可しません) 。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:803
 msgid "<filename>/some/random/example/** r</filename>"
-msgstr ""
+msgstr "<filename>/some/random/example/** r</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:806
@@ -1043,11 +1101,13 @@ msgid ""
 "Give read access to files and directories under <filename>/some/random/"
 "example</filename> (but not /some/random/example/ itself)."
 msgstr ""
+"<filename>/some/random/example</filename> 以下の任意のファイルとディレクトリに対して、"
+"読み込みアクセスを許可します (ただし <filename>/some/random/example/</filename> 自身には許可しません) 。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:814
 msgid "<filename>/some/random/example/**[^/] r</filename>"
-msgstr ""
+msgstr "<filename>/some/random/example/**[^/] r</filename>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:817
@@ -1064,11 +1124,13 @@ msgid ""
 "resources can be specified with a globbing syntax similar to that used by "
 "popular shells, such as csh, Bash, and zsh."
 msgstr ""
+"グロブ (もしくは正規表現マッチング) はワイルドカードなどを利用して、ファイルやサブディレクトリをまとめて指定するための仕組みです。一般的なシェル、"
+"たとえば csh, Bash, zsh などで使用されるグロブ書式を利用して指定することができます。"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:838
 msgid "<literal>*</literal>"
-msgstr ""
+msgstr "<literal>*</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:843
@@ -1079,12 +1141,12 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:847
 msgid "Example: An arbitrary number of file path elements."
-msgstr ""
+msgstr "例: 複数のファイルの一括指定。"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:854
 msgid "<literal>**</literal>"
-msgstr ""
+msgstr "<literal>**</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:859
@@ -1096,12 +1158,12 @@ msgstr ""
 #: xml/apparmor_profiles.xml:863
 msgid ""
 "Example: An arbitrary number of path elements, including entire directories."
-msgstr ""
+msgstr "例: サブディレクトリを含む全ファイルの一括指定。"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:871
 msgid "<literal>?</literal>"
-msgstr ""
+msgstr "<literal>?</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:876
@@ -1111,7 +1173,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:883
 msgid "<literal>[abc]</literal>"
-msgstr ""
+msgstr "<literal>[abc]</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:888 xml/apparmor_profiles.xml:907
@@ -1131,12 +1193,12 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:902
 msgid "<literal>[a-c]</literal>"
-msgstr ""
+msgstr "<literal>[a-c]</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:915
 msgid "<literal>{ab,cd}</literal>"
-msgstr ""
+msgstr "<literal>{ab,cd}</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:920
@@ -1156,7 +1218,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:933
 msgid "<literal>[^a]</literal>"
-msgstr ""
+msgstr "<literal>[^a]</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:938
@@ -1166,7 +1228,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:948
 msgid "Profile Flags"
-msgstr ""
+msgstr "プロファイルフラグ"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:949
@@ -1175,6 +1237,8 @@ msgid ""
 "profile flags to the profile definition by editing it manually, see the "
 "following syntax:"
 msgstr ""
+"プロファイルフラグは、対応するプロファイルの動作を制御するためのものです。プロファイルの定義内に手作業で指定することで、フラグを追加することができます。プ"
+"ロファイルフラグは下記の書式で設定します:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:954
@@ -1184,6 +1248,9 @@ msgid ""
 "  [...]\n"
 "}"
 msgstr ""
+"/path/to/profiled/binary flags=(フラグ) {\n"
+"  [...]\n"
+"}"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:957
@@ -1191,6 +1258,8 @@ msgid ""
 "You can use multiple flags separated by a comma ',' or space ' '. There are "
 "three basic types of profile flags: mode, relative, and attach flags."
 msgstr ""
+"複数のフラグを指定したい場合は、カンマ ',' またはスペース ' ' で区切って指定します。プロファイルフラグには 3 "
+"種類のものがあります。モードフラグ、相対フラグ、接続フラグです。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:962
@@ -1199,6 +1268,9 @@ msgid ""
 "accesses are allowed and logged). If it is omitted, the profile is in "
 "<literal>enforce</literal> mode (enforces the policy)."
 msgstr ""
+"<emphasis>モード</emphasis> フラグには <literal>complain</literal> フラグ "
+"(不正なアクセスが記録されるだけで、拒否はされない) があります。このフラグを指定しない場合、プロファイルは "
+"<literal>enforce</literal> フラグ (実際にポリシーを強制する) が指定されたものとして扱われます。"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles.xml:968
@@ -1207,12 +1279,14 @@ msgid ""
 "create a symbolic link from the profile file inside the <filename>/etc/"
 "apparmor.d/force-complain/</filename> directory."
 msgstr ""
+"プロファイル全体を complain (不平) モードに設定する場合、より柔軟な方法として、 <filename>/etc/apparmor.d/"
+"force-complain/</filename> ディレクトリ内にシンボリックリンクを作成する方法があります。"
 
 #. (itstool) path: tip/screen
 #: xml/apparmor_profiles.xml:973
 #, no-wrap
 msgid "ln -s /etc/apparmor.d/bin.ping /etc/apparmor.d/force-complain/bin.ping"
-msgstr ""
+msgstr "ln -s /etc/apparmor.d/bin.ping /etc/apparmor.d/force-complain/bin.ping"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:975
@@ -1222,6 +1296,9 @@ msgid ""
 "<literal>namespace_relative</literal> (the default, with the path being "
 "relative to outside the chroot). They are mutually exclusive."
 msgstr ""
+"<emphasis>相対</emphasis> フラグには <literal>chroot_relative</literal> フラグ ("
+"ネームスペースではなく chroot に対する相対として扱う) のほか、 <literal>namespace_relative</literal> "
+"フラグ (こちらが既定値で、 chroot の外側で相対として扱う) があります。これらは相互排他です。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:982
@@ -1235,11 +1312,17 @@ msgid ""
 "generation when in a chroot environment while a file is accessed that is "
 "external to the chroot but within the namespace)."
 msgstr ""
+"<emphasis>接続</emphasis> フラグには相互排他関係にある 2 対のフラグがあります。 "
+"<literal>attach_disconnected</literal> フラグと "
+"<literal>no_attach_disconnected</literal> フラグ (パス名がネームスペース外に解決された場合、"
+"ルートに割り当てるかどうか (つまり、冒頭に '/' があるかどうか)) と、 <literal>chroot_attach</literal> "
+"フラグと <literal>chroot_no_attach</literal> フラグ (chroot "
+"環境外に存在していて、同じネームスペース内に存在するファイルに対して、 chroot 環境内からのパス名生成の制御) があります。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:995
 msgid "Using Variables in Profiles"
-msgstr ""
+msgstr "プロファイル内での変数の使用"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:996
@@ -1268,6 +1351,8 @@ msgid ""
 "Local variables are defined at the head of a profile. This is useful to "
 "provide the base of for a chrooted path, for example:"
 msgstr ""
+"一方のローカル変数は、プロファイルの冒頭部に記述します。これは chroot "
+"されたパスのベースディレクトリを指定するような場合に有用です。たとえば下記のようになります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1016
@@ -1282,6 +1367,14 @@ msgid ""
 "...\n"
 "}"
 msgstr ""
+"@{CHROOT_BASE}=/tmp/foo\n"
+"/sbin/rsyslogd {\n"
+"...\n"
+"# chrooted applications\n"
+"@{CHROOT_BASE}/var/lib/*/dev/log w,\n"
+"@{CHROOT_BASE}/var/log/** w,\n"
+"...\n"
+"}"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1024
@@ -1291,6 +1384,8 @@ msgid ""
 "directories. Later on, @{HOMEDIRS} is expanded by two new specific places "
 "where user home directories are stored."
 msgstr ""
+"下記の例では、 @{HOMEDIRS} でユーザのホームディレクトリが存在するディレクトリを設定し、 @{HOME} "
+"ではホームディレクトリの一覧を設定しています。その後、 @{HOMEDIRS} に対して、ホームディレクトリとして使用するディレクトリを追加しています。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1030
@@ -1301,6 +1396,10 @@ msgid ""
 "[...]\n"
 "@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/"
 msgstr ""
+"@{HOMEDIRS}=/home/\n"
+"@{HOME}=@{HOMEDIRS}/*/ /root/\n"
+"[...]\n"
+"@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1035
@@ -1312,14 +1411,14 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1043
 msgid "Pattern Matching"
-msgstr ""
+msgstr "パターンマッチ"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1044
 msgid ""
 "Profile names can contain globbing expressions allowing the profile to match "
 "against multiple binaries."
-msgstr ""
+msgstr "プロファイル名にグロブ表記を使用することで、複数のバイナリにマッチするプロファイルを作成することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1048
@@ -1333,7 +1432,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1053
 #, no-wrap
 msgid "/{usr/,}bin/foo { ... }"
-msgstr ""
+msgstr "/{usr/,}bin/foo { ... }"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1054
@@ -1357,6 +1456,12 @@ msgid ""
 "\n"
 "/bin/**  { ... }\n"
 msgstr ""
+"\n"
+"/bin/foo { ... }\n"
+"\n"
+"/bin/f*  { ... }\n"
+"\n"
+"/bin/**  { ... }\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1070
@@ -1369,7 +1474,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1078
 msgid "Namespaces"
-msgstr ""
+msgstr "ネームスペース"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1079
@@ -1386,20 +1491,20 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1088
 #, no-wrap
 msgid ":childNameSpace://"
-msgstr ""
+msgstr ":childNameSpace://"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1089
 msgid ""
 "Profiles loaded to a child namespace will be prefixed with their namespace "
 "name (viewed from a parent's perspective):"
-msgstr ""
+msgstr "子ネームスペースに読み込まれたプロファイルには、ネームスペースの指定が冒頭に付与されます (親側からの見た目):"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1093
 #, no-wrap
 msgid ":childNameSpace://apache"
-msgstr ""
+msgstr ":childNameSpace://apache"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1094
@@ -1407,17 +1512,18 @@ msgid ""
 "Namespaces can be entered via the <literal>change_profile</literal> API, or "
 "named profile transitions:"
 msgstr ""
+"ネームスペースは <literal>change_profile</literal>　API のほか、名前付きプロファイル遷移でも指定することができます:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1098
 #, no-wrap
 msgid "/path/to/executable px -&gt; :childNameSpace://apache"
-msgstr ""
+msgstr "/path/to/executable px -&gt; :childNameSpace://apache"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1102
 msgid "Profile Naming and Attachment Specification"
-msgstr ""
+msgstr "プロファイル名と接続仕様"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1103
@@ -1433,23 +1539,23 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1110
 #, no-wrap
 msgid "/** { ... }"
-msgstr ""
+msgstr "/** { ... }"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1111 xml/apparmor_profiles.xml:1119
 msgid "can be named"
-msgstr ""
+msgstr "上記のようなプロファイルに対して、下記のように名前を設定することができます:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1114
 #, no-wrap
 msgid "profile default /** { ... }"
-msgstr ""
+msgstr "profile default /** { ... }"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1115
 msgid "Also, a profile with pattern matching can be named. For example:"
-msgstr ""
+msgstr "パターンマッチングに対しても名前を設定することができます。たとえば:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1118
@@ -1466,7 +1572,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1126
 msgid "Alias Rules"
-msgstr ""
+msgstr "別名ルール"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1127
@@ -1477,12 +1583,15 @@ msgid ""
 "to treat rules that have the same source prefix as if the rules are at "
 "target prefix."
 msgstr ""
+"別名ルールは、プロファイルパスのマッピングをサイト固有のレイアウトに変換するためのもう 1 つの方法です。これらは変数を利用してパスを書き換える方式の代替"
+"となるものであるほか、変数解決よりも後に動作する仕組みです。別名ルールでは、ルールがターゲットのプレフィクス内に存在するかのように、同じソースプレフィクス"
+"を持つルールを扱うよう指定することができます。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1134
 #, no-wrap
 msgid "alias /home/ -&gt; /usr/home/"
-msgstr ""
+msgstr "alias /home/ -&gt; /usr/home/"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1135
@@ -1495,18 +1604,18 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1139
 #, no-wrap
 msgid "/home/username/** r,"
-msgstr ""
+msgstr "/home/username/** r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1140
 msgid "allows as well access to"
-msgstr ""
+msgstr "上記のような設定が存在すると、下記の意味として使用されるようになります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1143
 #, no-wrap
 msgid "/usr/home/username/** r,"
-msgstr ""
+msgstr "/usr/home/username/** r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1144
@@ -1521,7 +1630,7 @@ msgstr ""
 msgid ""
 "With the <literal>alias</literal> rule, you can point to multiple targets at "
 "the same time."
-msgstr ""
+msgstr "また <literal>alias</literal> ルールを複数指定することで、同時に複数のターゲットを指定することもできます。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1154
@@ -1530,6 +1639,8 @@ msgid ""
 "alias /home/ -&gt; /usr/home/\n"
 "alias /home/ -&gt; /mnt/home/"
 msgstr ""
+"alias /home/ -&gt; /usr/home/\n"
+"alias /home/ -&gt; /mnt/home/"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1157
@@ -1548,28 +1659,28 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1171
 msgid "File Permission Access Modes"
-msgstr ""
+msgstr "ファイルアクセス許可のアクセスモード"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1173
 msgid ""
 "File permission access modes consist of combinations of the following modes:"
-msgstr ""
+msgstr "ファイルのアクセス許可モードを指定する場合、下記の中から組み合わせて指定してください:"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1183
 msgid "<literal>r</literal>"
-msgstr ""
+msgstr "<literal>r</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1188
 msgid "Read mode"
-msgstr ""
+msgstr "読み込みモード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1195
 msgid "<literal>w</literal>"
-msgstr ""
+msgstr "<literal>w</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1200
@@ -1579,7 +1690,7 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1207
 msgid "<literal>a</literal>"
-msgstr ""
+msgstr "<literal>a</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1212
@@ -1589,22 +1700,22 @@ msgstr ""
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1219
 msgid "<literal>k</literal>"
-msgstr ""
+msgstr "<literal>k</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1224
 msgid "File locking mode"
-msgstr ""
+msgstr "ファイル施錠 (ロック) モード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1231
 msgid "<literal>l</literal>"
-msgstr ""
+msgstr "<literal>l</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1236
 msgid "Link mode"
-msgstr ""
+msgstr "リンクモード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1243
@@ -1612,16 +1723,18 @@ msgid ""
 "<literal>link <replaceable>FILE</replaceable> -&gt; <replaceable>TARGET</"
 "replaceable></literal>"
 msgstr ""
+"<literal>link <replaceable>ファイル</replaceable> -&gt; "
+"<replaceable>ターゲット</replaceable></literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1249
 msgid "Link pair rule (cannot be combined with other access modes)"
-msgstr ""
+msgstr "リンク対ルール (他のアクセスモードとは共存不可)"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1259
 msgid "Read Mode (r)"
-msgstr ""
+msgstr "読み込みモード (r)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1260
@@ -1630,11 +1743,13 @@ msgid ""
 "required for shell scripts and other interpreted content and determines if "
 "an executing process can core dump."
 msgstr ""
+"指定したリソースに対して、プログラムからの読み込みアクセスを許可します。読み込みアクセスはシェルスクリプトなどのインタプリタ型のコンテンツで必要となるほか"
+"、コアダンプを実施できるかどうかの判断としても使われます。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1268
 msgid "Write Mode (w)"
-msgstr ""
+msgstr "書き込みモード (w)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1269
@@ -1642,11 +1757,12 @@ msgid ""
 "Allows the program to have write access to the resource. Files must have "
 "this permission if they are to be unlinked (removed)."
 msgstr ""
+"指定したリソースに対して、プログラムからの書き込みアクセスを許可します。ファイルを削除する (アンリンクする) ような場合にも、この許可が必要となります。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1276
 msgid "Append Mode (a)"
-msgstr ""
+msgstr "追記モード (a)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1277
@@ -1660,11 +1776,16 @@ msgid ""
 "with the write mode, the <literal>w</literal> and <literal>a</literal> "
 "permission flags cannot be used together and are mutually exclusive."
 msgstr ""
+"指定したリソースに対して、プログラムからファイルの末尾への書き込みを許可します。 <literal>w</literal> モードとは異なり、追記モードで"
+"はファイル内容の上書きが許可されないほか、ファイル名の変更や削除なども行なうことができなくなります。追記の許可は通常、アプリケーション側からログファイルへ"
+"の書き込みを行なうような場合に指定すべきもので、これにより既に記録されているログコンテンツの上書きを禁止することができます。追記の許可は書き込みモードのサ"
+"ブセットとして規定されているため、 <literal>w</literal> と <literal>a</literal> "
+"のフラグの両方を指定することはできませんし、相互に排他関係にあるフラグとなります。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1291
 msgid "File Locking Mode (k)"
-msgstr ""
+msgstr "ファイル施錠 (ロック) モード (k)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1292
@@ -1680,7 +1801,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1302
 msgid "Link Mode (l)"
-msgstr ""
+msgstr "リンクモード (l)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1303
@@ -1689,11 +1810,13 @@ msgid ""
 "target file must have the same access permissions as the link created (but "
 "the destination does not need link access)."
 msgstr ""
+"リンクモードはハードリンクに対するアクセスを許可します。リンクを作成すると、ターゲットとなるファイルと元のファイルは同じアクセス許可になります "
+"(ただしリンク先のファイルにはリンクモードの指定は不要です) 。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1311
 msgid "Link Pair"
-msgstr ""
+msgstr "リンク対"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1312
@@ -1702,12 +1825,14 @@ msgid ""
 "link has a subset of the permissions granted by the target (subset "
 "permission test)."
 msgstr ""
+"リンクモードでは任意のファイルに対してリンクを作成する許可を与えますが、"
+"これはリンクがターゲットによって付与された許可のサブセットを持っている場合に限られます (サブセット許可テストと呼びます) 。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1317
 #, no-wrap
 msgid "/srv/www/htdocs/index.html rl,"
-msgstr ""
+msgstr "/srv/www/htdocs/index.html rl,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1318
@@ -1717,12 +1842,14 @@ msgid ""
 "enforce the link subset permission test that the standard rules link "
 "permission requires."
 msgstr ""
+"リンク元とリンク先を指定することで、リンク対ルールはハードリンクの作成方法に関して、より広い制御を提供します。リンク対ルールは、既定では標準ルールのリンク"
+"許可が必要とする、リンクのサブセット許可テストを強制しません。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1324
 #, no-wrap
 msgid "link /srv/www/htdocs/index.html -&gt; /var/www/index.html"
-msgstr ""
+msgstr "link /srv/www/htdocs/index.html -&gt; /var/www/index.html"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1325
@@ -1730,6 +1857,8 @@ msgid ""
 "To force the rule to require the test, the <literal>subset</literal> keyword "
 "is used. The following rules are equivalent:"
 msgstr ""
+"テストを必要とするようルールを強制するには、 <literal>subset</literal> キーワードを指定します。下記の 2 "
+"つのルールは同じ意味になります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1329
@@ -1738,6 +1867,8 @@ msgid ""
 "/var/www/index.html l,\n"
 "link subset /var/www/index.html -&gt; /**,"
 msgstr ""
+"/var/www/index.html l,\n"
+"link subset /var/www/index.html -&gt; /**,"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1332
@@ -1750,7 +1881,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1342
 msgid "Optional <literal>allow</literal> and <literal>file</literal> Rules"
-msgstr ""
+msgstr "任意指定の <literal>allow</literal> および <literal>file</literal> ルール"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1343
@@ -1769,6 +1900,10 @@ msgid ""
 "allow /example r,\n"
 "allow network,\n"
 msgstr ""
+"\n"
+"allow file /example r,\n"
+"allow /example r,\n"
+"allow network,\n"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1353
@@ -1783,40 +1918,40 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1359
 #, no-wrap
 msgid "file /example/rule r,"
-msgstr ""
+msgstr "file /example/rule r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1360
 msgid "is equivalent to"
-msgstr ""
+msgstr "上記は、下記と同じ意味になります。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1363
 #, no-wrap
 msgid "/example/rule r,"
-msgstr ""
+msgstr "/example/rule r,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1364
 msgid "The following rule grants access to all files:"
-msgstr ""
+msgstr "下記のルールは全てのファイルに対するアクセスを許可します:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1367
 #, no-wrap
 msgid "file,"
-msgstr ""
+msgstr "file,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1368
 msgid "which is equal to"
-msgstr ""
+msgstr "上記は、下記と同じ意味になります。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1371
 #, no-wrap
 msgid "/** rwmlk,"
-msgstr ""
+msgstr "/** rwmlk,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1372
@@ -1826,6 +1961,8 @@ msgid ""
 "the rule. This is important in that it makes file rules behave like any "
 "other rule types."
 msgstr ""
+"ファイルルールの場合、アクセス許可を先に記述することもできますが、基本的にはこれを使用すべきではありません。もしもこの方式を使用する場合は、ルールの冒頭で"
+"記述してください。これは特に、他の種類のルールと混在させるような場合に重要です。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1378
@@ -1837,11 +1974,16 @@ msgid ""
 "file rw /path,       # with explicit 'file' keyword\n"
 "allow file rw /path, # optional 'allow' keyword added\n"
 msgstr ""
+"\n"
+"/path rw,            # 古い形式\n"
+"rw /path,            # 許可を先に記述した例\n"
+"file rw /path,       # 明示的に 'file' キーワードを指定した例\n"
+"allow file rw /path, # 明示的に 'allow' キーワードを指定した例\n"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1387
 msgid "Owner Conditional Rules"
-msgstr ""
+msgstr "所有者条件ルール"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1388
@@ -1851,12 +1993,15 @@ msgid ""
 "this purpose the <literal>owner</literal> keyword is put in front of the "
 "rule. Owner conditional rules accumulate like regular file rules do."
 msgstr ""
+"ファイルルールでは、ファイルの所有者であった場合の特例を設定することができます (fsuid がファイルの uid と一致している必要があります) "
+"。所有者である場合のルールを設定するには、ルールの前に <literal>owner</literal> "
+"キーワードを指定します。所有者条件ルールでも、通常のファイルルールと同様に設定を行なうことができます。"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1395
 #, no-wrap
 msgid "owner /home/*/** rw"
-msgstr ""
+msgstr "owner /home/*/** rw"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1396
@@ -1865,11 +2010,13 @@ msgid ""
 "done against the target file so the user must own the file to be able to "
 "link to it."
 msgstr ""
+"所有者条件ルールとリンクルールの両方を使用した場合、テストはターゲットのファイルに対して行なわれ、リンクができるようになるためには、ユーザがファイルを所有"
+"していなければならなくなります。"
 
 #. (itstool) path: note/title
 #: xml/apparmor_profiles.xml:1402
 msgid "Precedence of Regular File Rules"
-msgstr ""
+msgstr "通常のファイルルールの優先順位について"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1403
@@ -1878,6 +2025,8 @@ msgid ""
 "regular file rule overlaps with an owner conditional file rule, the rules "
 "are merged. Consider the following example."
 msgstr ""
+"所有者条件ルールは通常のファイルルールに対するサブセットとして扱われます。通常のファイルルールと所有者条件ルールが重複した場合、それらは一括で扱われます。"
+"たとえば下記のようなルールが存在したものとします:"
 
 #. (itstool) path: note/screen
 #: xml/apparmor_profiles.xml:1408
@@ -1886,6 +2035,8 @@ msgid ""
 "/foo r,\n"
 "owner /foo rw,  # or w,"
 msgstr ""
+"/foo r,\n"
+"owner /foo rw,  # もしくは単に \"w,\""
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1410
@@ -1908,11 +2059,13 @@ msgid ""
 "owner /foo rw,\n"
 "other /foo r,"
 msgstr ""
+"owner /foo rw,\n"
+"other /foo r,"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1426
 msgid "Deny Rules"
-msgstr ""
+msgstr "拒否ルール"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1427
@@ -1923,6 +2076,9 @@ msgid ""
 "the log files lean. If this is not desired, put the keyword <literal>audit</"
 "literal> in front of the deny entry."
 msgstr ""
+"拒否ルールは既知のオブジェクトに対して明示的な禁止を設定するための仕組みです。プロファイル生成ツールでは、拒否ルールによる既知の拒否については問い合わせを"
+"行ないません。また、監査ログにもこの拒否は記録されなくなりますので、ログファイル内に不要な出力を行なわないようにすることができます。なお、拒否ルールで拒否"
+"された内容も監査ログに出力したい場合は、拒否ルールの指定の前に <literal>audit</literal> を指定してください。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1435
@@ -1934,6 +2090,10 @@ msgid ""
 "write access to everything in a users directory except write access to the "
 "<filename>.ssh/</filename> files:"
 msgstr ""
+"拒否ルールと許可ルールを混在させることもできます。この場合、幅広く許可ルールを設定しておいて、特定のファイルにのみ明示的な拒否を設定することができるように"
+"なります。拒否ルールは所有者条件ルールと組み合わせることもできます。この場合、ユーザが所有するファイルへのアクセスを拒否することができます。下記の例では、"
+"ユーザのディレクトリ内にある全てに対して許可を与えるものの、 <filename>.ssh/</filename> "
+"以下のファイルについては書き込みを禁止しています:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1443
@@ -1942,6 +2102,8 @@ msgid ""
 "deny /home/*/.ssh/** w,\n"
 "owner /home/*/** rw,"
 msgstr ""
+"deny /home/*/.ssh/** w,\n"
+"owner /home/*/** rw,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1445
@@ -1954,11 +2116,15 @@ msgid ""
 "profiles using the tools is safe, because the deny entries will not be "
 "touched."
 msgstr ""
+"ただし、拒否ルールを数多く設定してしまうようなことは避けてください。これは、プロファイルの可読性を損なうことになってしまうためです。しかしながら、拒否ルー"
+"ルを賢く使用することで、プロファイルを単純化することができます。そのため、ツールでは特定のファイルのみを生成し、グロブを伴う拒否ルールは作成しないようにな"
+"っています。グロブを利用した拒否ルールを作成したい場合は、手作業でプロファイルを編集してください。ツール側では拒否ルールを操作することはありませんので、そ"
+"れらを含むプロファイルをツールで操作しても問題はありません。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1458
 msgid "Mount Rules"
-msgstr ""
+msgstr "マウントルール"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1459
@@ -1984,19 +2150,19 @@ msgstr ""
 msgid ""
 "<literal>options=</literal> specifies conditionals that have to be met "
 "exactly. The rule"
-msgstr ""
+msgstr "<literal>options=</literal> では、厳密に一致すべきオプションを指定します。"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1476
 #, no-wrap
 msgid "mount options=ro /dev/foo -E /mnt/,"
-msgstr ""
+msgstr "mount options=ro /dev/foo -E /mnt/,"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1477 xml/apparmor_profiles.xml:1491
 #: xml/apparmor_profiles.xml:1510
 msgid "matches"
-msgstr ""
+msgstr "上記は下記にマッチします:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1480
@@ -2008,7 +2174,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1481 xml/apparmor_profiles.xml:1497
 #: xml/apparmor_profiles.xml:1515
 msgid "but does not match"
-msgstr ""
+msgstr "ただし、下記にはマッチしません:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1484
@@ -2024,12 +2190,14 @@ msgid ""
 "<literal>options in</literal> requires that at least one of the listed mount "
 "options is used. The rule"
 msgstr ""
+"<literal>options in</literal> "
+"では、使用されているマウントオプションが、ルール内で指定された値のうちのいずれかにマッチすることを求めます。"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1490
 #, no-wrap
 msgid "mount options in (ro,atime) /dev/foo -&gt; /mnt/,"
-msgstr ""
+msgstr "mount options in (ro,atime) /dev/foo -&gt; /mnt/,"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1494
@@ -2056,13 +2224,13 @@ msgstr ""
 msgid ""
 "With multiple conditionals, the rule grants permission for each set of "
 "options. The rule"
-msgstr ""
+msgstr "複数の条件を設定したい場合は、 <literal>options</literal> を複数並べて記述してください。"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1509
 #, no-wrap
 msgid "mount options=ro options=atime"
-msgstr ""
+msgstr "mount options=ro options=atime"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1513
@@ -2083,7 +2251,7 @@ msgstr ""
 msgid ""
 "Separate mount rules are distinct and the options do not accumulate. The "
 "rules"
-msgstr ""
+msgstr "複数の指定を行なった場合、それらは個別に扱われます。"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1523
@@ -2092,11 +2260,13 @@ msgid ""
 "mount options=ro,\n"
 "mount options=atime,"
 msgstr ""
+"mount options=ro,\n"
+"mount options=atime,"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1525
 msgid "are not equivalent to"
-msgstr ""
+msgstr "上記は下記とは異なります:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1528
@@ -2105,6 +2275,8 @@ msgid ""
 "mount options=(ro,atime),\n"
 "mount options in (ro,atime),"
 msgstr ""
+"mount options=(ro,atime),\n"
+"mount options in (ro,atime),"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1530
@@ -2114,17 +2286,21 @@ msgid ""
 "mounting <filename>/dev/foo</filename> on <filename>/mnt/</filename> with "
 "some combination of 'nodev' and 'user'."
 msgstr ""
+"下記のルールでは、 <filename>/dev/foo</filename> デバイスを <filename>/mnt/</filename> "
+"にマウントすることを許可し、その際に読み込み専用か、 inode のアクセス日時のオプションの指定を許すと共に、 'nodev' と 'user' "
+"のオプションの指定も許可しています:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1537
 #, no-wrap
 msgid "mount options=(ro, atime) options in (nodev, user) /dev/foo -&gt; /mnt/,"
 msgstr ""
+"mount options=(ro, atime) options in (nodev, user) /dev/foo -&gt; /mnt/,"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1538
 msgid "allows"
-msgstr ""
+msgstr "上記を指定すると、下記が許可されるようになります:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1541
@@ -2139,7 +2315,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1548
 msgid "Pivot Root Rules"
-msgstr ""
+msgstr "ピボットルートルール"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1549
@@ -2153,13 +2329,15 @@ msgstr ""
 #, no-wrap
 msgid "pivot_root [oldroot=<replaceable>OLD_ROOT</replaceable>] <replaceable>NEW_ROOT</replaceable>"
 msgstr ""
+"pivot_root [oldroot=<replaceable>古いルート</replaceable>] "
+"<replaceable>新しいルート</replaceable>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1553
 msgid ""
 "The paths specified in 'pivot_root' rules must end with '/' since they are "
 "directories."
-msgstr ""
+msgstr "'pivot_root' 内で指定するパスはディレクトリであるため、 '/' で終わらなければなりません。"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1557
@@ -2183,11 +2361,29 @@ msgid ""
 "# /mnt/root/old/ and transition to the /mnt/root/sbin/init profile\n"
 "pivot_root oldroot=/mnt/root/old/ /mnt/root/ -&gt; /mnt/root/sbin/init,"
 msgstr ""
+"# 任意のルートディレクトリを許可する\n"
+"pivot_root,\n"
+"\n"
+"# 新しいルートディレクトリは任意で、古いルートディレクトリのみ\n"
+"# /mnt/root/old/ に制限する\n"
+"pivot_root oldroot=/mnt/root/old/,\n"
+"\n"
+"# 新しいルートディレクトリのみ /mnt/root/ に制限する\n"
+"pivot_root /mnt/root/,\n"
+"\n"
+"# 古いルートディレクトリを /mnt/root/old/ に、\n"
+"# 新しいルートディレクトリを /mnt/root/ に制限する\n"
+"pivot_root oldroot=/mnt/root/old/ /mnt/root/,\n"
+"\n"
+"# 古いルートディレクトリを /mnt/root/old/ に、\n"
+"# 新しいルートディレクトリを /mnt/root/ に制限し、\n"
+"# /mnt/root/sbin/init のプロファイルに遷移する\n"
+"pivot_root oldroot=/mnt/root/old/ /mnt/root/ -&gt; /mnt/root/sbin/init,"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1577
 msgid "PTrace Rules"
-msgstr ""
+msgstr "PTrace ルール"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1578
@@ -2206,6 +2402,10 @@ msgid ""
 "control proc(5) file system access, kcmp(2), futexes (get_robust_list(2)) "
 "and perf trace events."
 msgstr ""
+" <literal>trace</literal> および <literal>tracedby</literal> の許可では ptrace(2) "
+"の制御を、 <literal>read</literal> および <literal>readby</literal> の許可では proc(5) "
+"ファイルシステムへのアクセスや kcmp(2), futexes (get_robust_list(2)), "
+"パフォーマンストレースイベントの制御を、それぞれ行なうことができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1590
@@ -2215,11 +2415,14 @@ msgid ""
 "<literal>trace</literal> permission and the traced process needs the "
 "<literal>tracedby</literal> permission."
 msgstr ""
+"ptrace が許可されるようにするには、 ptrace する側とされる側の両方のプロセスに対して、必要な許可を設定する必要があります。つまり、 "
+"ptrace する側のプロセスには <literal>trace</literal> の許可が、 ptrace される側のプロセスには "
+"<literal>tracedby</literal> の許可が必要となります。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1596
 msgid "Example AppArmor PTrace rules:"
-msgstr ""
+msgstr "&aa; における PTrace ルールの例:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1599
@@ -2240,11 +2443,25 @@ msgid ""
 "# Allow ptrace of a process running under the /usr/bin/foo profile\n"
 "ptrace (trace) peer=/usr/bin/foo,"
 msgstr ""
+"# 全ての ptrace アクセスを許可する\n"
+"ptrace,\n"
+"\n"
+"# 明示的に全ての ptrace アクセスを許可する\n"
+"ptrace (read, readby, trace, tracedby),\n"
+"\n"
+"# ptrace(2) の使用を明示的に禁止する\n"
+"deny ptrace (trace),\n"
+"\n"
+"# 無制限のプロセス (例: デバッガ) から自身に対する ptrace を許可する\n"
+"ptrace (readby, tracedby) peer=unconfined,\n"
+"\n"
+"# /usr/bin/foo 以下のプロファイルを利用している実行中プロセスに対して、 ptrace を許可する\n"
+"ptrace (trace) peer=/usr/bin/foo,"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1616
 msgid "Signal Rules"
-msgstr ""
+msgstr "シグナルルール"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1617
@@ -2260,12 +2477,12 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1623
 msgid ""
 "The sending and receiving process must both have the correct permissions."
-msgstr ""
+msgstr "なお、シグナルの送信側と受信側のプロセスは、両方とも必要な許可を得る必要があります。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1627
 msgid "Example signal rules:"
-msgstr ""
+msgstr "signal ルールの例:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:1630
@@ -2293,74 +2510,95 @@ msgid ""
 "# Allow two real-time signals\n"
 "signal set=(rtmin+0 rtmin+32),"
 msgstr ""
+"# 全てのシグナルへのアクセスを許可する\n"
+"signal,\n"
+"\n"
+"# HUP と INT のシグナルのみ明示的に禁止する\n"
+"deny signal (send) set=(hup, int),\n"
+"\n"
+"# 無制限プロセスから自分自身へのシグナルを許可する\n"
+"signal (receive) peer=unconfined,\n"
+"\n"
+"# /usr/bin/foo 以下のプロファイルで動作するプロセスに対して、\n"
+"# シグナルの送信を許可する\n"
+"signal (send) peer=/usr/bin/foo,\n"
+"\n"
+"# PID の存在チェックを許可する\n"
+"signal (receive, send) set=(\"exists\"),\n"
+"\n"
+"# 組み込みの @{profile_name} 変数を使用して、自分自身へのシグナル送信を許可する\n"
+"signal peer=@{profile_name},\n"
+"\n"
+"# 2 種類のリアルタイムシグナルを許可する\n"
+"signal set=(rtmin+0 rtmin+32),"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:1654
 msgid "Execute Modes"
-msgstr ""
+msgstr "実行モード"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:1656
 msgid ""
 "Execute modes, also named profile transitions, consist of the following "
 "modes:"
-msgstr ""
+msgstr "実行モードとは名前付きプロファイル遷移とも呼ばれ、下記のモードが用意されています:"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1666
 msgid "<literal>Px</literal>"
-msgstr ""
+msgstr "<literal>Px</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1671
 msgid "Discrete profile execute mode"
-msgstr ""
+msgstr "専用プロファイル実行モード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1678
 msgid "<literal>Cx</literal>"
-msgstr ""
+msgstr "<literal>Cx</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1683
 msgid "Discrete local profile execute mode"
-msgstr ""
+msgstr "専用ローカルプロファイル実行モード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1690
 msgid "<literal>Ux</literal>"
-msgstr ""
+msgstr "<literal>Ux</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1695
 msgid "Unconfined execute mode"
-msgstr ""
+msgstr "無制限実行モード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1702
 msgid "<literal>ix</literal>"
-msgstr ""
+msgstr "<literal>ix</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1707
 msgid "Inherit execute mode"
-msgstr ""
+msgstr "継承実行モード"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1714
 msgid "<literal>m</literal>"
-msgstr ""
+msgstr "<literal>m</literal>"
 
 #. (itstool) path: entry/para
 #: xml/apparmor_profiles.xml:1719
 msgid ""
 "Allow <literal>PROT_EXEC</literal> with <command>mmap(2)</command> calls"
-msgstr ""
+msgstr "<command>mmap(2)</command> コールによる <literal>PROT_EXEC</literal> の許可"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1730
 msgid "Discrete Profile Execute Mode (Px)"
-msgstr ""
+msgstr "専用プロファイル実行モード (Px)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1731
@@ -2380,7 +2618,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1743
 msgid "Discrete Local Profile Execute Mode (Cx)"
-msgstr ""
+msgstr "専用ローカルプロファイル実行モード (Cx)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1744
@@ -2394,7 +2632,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apparmor_profiles.xml:1751
 msgid "Limitations of the Discrete Local Profile Execute Mode (Cx)"
-msgstr ""
+msgstr "専用ローカルプロファイル実行モード (Cx) の制限について"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1752
@@ -2403,6 +2641,7 @@ msgid ""
 "used in hats and children profiles. This restriction will be removed in the "
 "future."
 msgstr ""
+"現時点では Cx による遷移はトップレベルのプロファイルに限定され、ハットや子プロファイル内では使用できません。この制限は将来的に撤廃される予定です。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1758
@@ -2415,7 +2654,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1766
 msgid "Unconfined Execute Mode (Ux)"
-msgstr ""
+msgstr "無制限実行モード (Ux)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1767
@@ -2441,7 +2680,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1785
 msgid "Unsafe Exec Modes"
-msgstr ""
+msgstr "安全ではない実行モード"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1786
@@ -2459,7 +2698,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1801
 msgid "Inherit Execute Mode (ix)"
-msgstr ""
+msgstr "継承実行モード (ix)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1802
@@ -2479,6 +2718,9 @@ msgid ""
 "environment because <literal>ix</literal> executions do not change "
 "privileges."
 msgstr ""
+"このモードは、制限を受けているプログラムが他の制限付きのプログラムを呼び出していて、そのプログラム側で追加の許可を設定して欲しくない場合や、現在持っている"
+"許可を失いたくない場合に指定します。なお、 <literal>ix</literal> "
+"の実行モードでは権限を変更しないため、環境変数の洗浄を行なう版はありません。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1815
@@ -2490,7 +2732,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1822
 msgid "Allow Executable Mapping (m)"
-msgstr ""
+msgstr "実行可能なマッピング許可 (m)"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1823
@@ -2509,7 +2751,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1838
 msgid "Named Profile Transitions"
-msgstr ""
+msgstr "名前付きプロファイル遷移"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1839
@@ -2530,7 +2772,7 @@ msgstr ""
 msgid ""
 "Named profile transitions use <literal>-&gt;</literal> to indicate the name "
 "of the profile that needs to be transitioned to:"
-msgstr ""
+msgstr "名前付きプロファイル遷移では、 <literal>-&gt;</literal> 記号を利用して、遷移先のプロファイル名を指定します:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1855
@@ -2548,11 +2790,22 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"/usr/bin/foo\n"
+"{\n"
+"  /bin/** px -&gt; shared_profile,\n"
+"  ...\n"
+"  /usr/*bash cx -&gt; local_profile,\n"
+"  ...\n"
+"  profile local_profile\n"
+"  {\n"
+"    ...\n"
+"  }\n"
+"}\n"
 
 #. (itstool) path: note/title
 #: xml/apparmor_profiles.xml:1868
 msgid "Difference Between Normal and Named Transitions"
-msgstr ""
+msgstr "通常の遷移と名前付き遷移の違いについて"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:1869
@@ -2582,7 +2835,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1889
 msgid "Fallback Modes for Profile Transitions"
-msgstr ""
+msgstr "プロファイル遷移に対するフォールバックモード"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1890
@@ -2600,23 +2853,23 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1900
 #, no-wrap
 msgid "/path Cix -&gt; profile_name,"
-msgstr ""
+msgstr "/path Cix -&gt; プロファイル名,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1901 xml/apparmor_profiles.xml:1916
 msgid "or"
-msgstr ""
+msgstr "もしくは、下記のように指定してもかまいません:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1904
 #, no-wrap
 msgid "Cix /path -&gt; profile_name,"
-msgstr ""
+msgstr "Cix /path -&gt; プロファイル名,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1905 xml/apparmor_profiles.xml:1920
 msgid "where <literal>-&gt; profile_name</literal> is optional."
-msgstr ""
+msgstr "なお、 <literal>-&gt; プロファイル名</literal> の指定は任意です。"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1908
@@ -2631,23 +2884,23 @@ msgstr ""
 #: xml/apparmor_profiles.xml:1915
 #, no-wrap
 msgid "/path PUx -&gt; profile_name,"
-msgstr ""
+msgstr "/path PUx -&gt; プロファイル名,"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:1919
 #, no-wrap
 msgid "PUx /path -&gt; profile_name,"
-msgstr ""
+msgstr "PUx /path -&gt; profile_name,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1923
 msgid "The fallback modes can be used with named profile transitions, too."
-msgstr ""
+msgstr "フォールバックモードは、名前付きプロファイル遷移でも使用することができます。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:1929
 msgid "Variable Settings in Execution Modes"
-msgstr ""
+msgstr "実行モード内での変数設定"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:1930
@@ -2658,116 +2911,119 @@ msgid ""
 "processes relying on any of these variables do not work anymore if the "
 "profile applied to them carries Px, Cx or Ux flags:"
 msgstr ""
+"Px, Cx, Ux の実行モードのうちのいずれかを選択した場合、子プロセスが継承する環境変数のうち、下記の変数の内容が削除されることに注意してください。"
+"そのため、これらの変数に依存して動作するアプリケーションやプロセスが存在した場合、 Px, Cx, Ux "
+"のフラグを指定すると、正しく動作しなくなってしまいます:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1939
 msgid "<envar>GCONV_PATH</envar>"
-msgstr ""
+msgstr "<envar>GCONV_PATH</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1944
 msgid "<envar>GETCONF_DIR</envar>"
-msgstr ""
+msgstr "<envar>GETCONF_DIR</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1949
 msgid "<envar>HOSTALIASES</envar>"
-msgstr ""
+msgstr "<envar>HOSTALIASES</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1954
 msgid "<envar>LD_AUDIT</envar>"
-msgstr ""
+msgstr "<envar>LD_AUDIT</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1959
 msgid "<envar>LD_DEBUG</envar>"
-msgstr ""
+msgstr "<envar>LD_DEBUG</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1964
 msgid "<envar>LD_DEBUG_OUTPUT</envar>"
-msgstr ""
+msgstr "<envar>LD_DEBUG_OUTPUT</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1969
 msgid "<envar>LD_DYNAMIC_WEAK</envar>"
-msgstr ""
+msgstr "<envar>LD_DYNAMIC_WEAK</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1974
 msgid "<envar>LD_LIBRARY_PATH</envar>"
-msgstr ""
+msgstr "<envar>LD_LIBRARY_PATH</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1979
 msgid "<envar>LD_ORIGIN_PATH</envar>"
-msgstr ""
+msgstr "<envar>LD_ORIGIN_PATH</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1984
 msgid "<envar>LD_PRELOAD</envar>"
-msgstr ""
+msgstr "<envar>LD_PRELOAD</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1989
 msgid "<envar>LD_PROFILE</envar>"
-msgstr ""
+msgstr "<envar>LD_PROFILE</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1994
 msgid "<envar>LD_SHOW_AUXV</envar>"
-msgstr ""
+msgstr "<envar>LD_SHOW_AUXV</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:1999
 msgid "<envar>LD_USE_LOAD_BIAS</envar>"
-msgstr ""
+msgstr "<envar>LD_USE_LOAD_BIAS</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2004
 msgid "<envar>LOCALDOMAIN</envar>"
-msgstr ""
+msgstr "<envar>LOCALDOMAIN</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2009
 msgid "<envar>LOCPATH</envar>"
-msgstr ""
+msgstr "<envar>LOCPATH</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2014
 msgid "<envar>MALLOC_TRACE</envar>"
-msgstr ""
+msgstr "<envar>MALLOC_TRACE</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2019
 msgid "<envar>NLSPATH</envar>"
-msgstr ""
+msgstr "<envar>NLSPATH</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2024
 msgid "<envar>RESOLV_HOST_CONF</envar>"
-msgstr ""
+msgstr "<envar>RESOLV_HOST_CONF</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2029
 msgid "<envar>RES_OPTIONS</envar>"
-msgstr ""
+msgstr "<envar>RES_OPTIONS</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2034
 msgid "<envar>TMPDIR</envar>"
-msgstr ""
+msgstr "<envar>TMPDIR</envar>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2039
 msgid "<envar>TZDIR</envar>"
-msgstr ""
+msgstr "<envar>TZDIR</envar>"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles.xml:2047
 msgid "<literal>safe</literal> and <literal>unsafe</literal> Keywords"
-msgstr ""
+msgstr "<literal>safe</literal> および <literal>unsafe</literal> キーワード"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:2048
@@ -2776,17 +3032,19 @@ msgid ""
 "keywords for rules instead of using the case modifier of execution modes. "
 "For example"
 msgstr ""
+"実行モードの修飾子を使用する代わりに、 <literal>safe</literal> や <literal>unsafe</literal> "
+"のキーワードを使用することもできます。たとえば、"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:2053
 #, no-wrap
 msgid "/example_rule Px,"
-msgstr ""
+msgstr "/example_rule Px,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:2054
 msgid "is the same as any of the following"
-msgstr ""
+msgstr "上記は下記のいずれかと同じ意味になります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:2057
@@ -2797,22 +3055,26 @@ msgid ""
 "safe px /example_rule,\n"
 "safe Px /example_rule,"
 msgstr ""
+"safe /example_rule px,\n"
+"safe /example_rule Px,\n"
+"safe px /example_rule,\n"
+"safe Px /example_rule,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:2061
 msgid "and the rule"
-msgstr ""
+msgstr "また、"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:2064
 #, no-wrap
 msgid "/example_rule px,"
-msgstr ""
+msgstr "/example_rule px,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:2065
 msgid "is the same as any of"
-msgstr ""
+msgstr "上記は、下記のいずれかと同じ意味になります:"
 
 #. (itstool) path: sect2/screen
 #: xml/apparmor_profiles.xml:2068
@@ -2823,6 +3085,10 @@ msgid ""
 "unsafe px /example_rule,\n"
 "unsafe Px /example_rule,"
 msgstr ""
+"unsafe /example_rule px,\n"
+"unsafe /example_rule Px,\n"
+"unsafe px /example_rule,\n"
+"unsafe Px /example_rule,"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles.xml:2072
@@ -2836,12 +3102,12 @@ msgstr ""
 #: xml/apparmor_profiles.xml:2077
 #, no-wrap
 msgid "[audit] [deny] [owner] [safe|unsafe] file_rule"
-msgstr ""
+msgstr "[audit] [deny] [owner] [safe|unsafe] ファイルルール"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:2081
 msgid "Resource Limit Control"
-msgstr ""
+msgstr "リソース制限制御"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2083
@@ -2872,6 +3138,9 @@ msgid ""
 "unconfined. So when an application transitions to a new profile, that "
 "profile can further reduce the application's rlimits."
 msgstr ""
+"設定された値は子プロセスに対しても引き継がれ、新しいプロファイルに遷移した場合であっても、アプリケーションの制限がなくなった場合でも、制限が残ります。その"
+"ため、アプリケーションが新しいプロファイルに遷移した場合、遷移先のプロファイルではアプリケーションの rlimits "
+"をさらに減らすことしかできなくなります。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2107
@@ -2902,6 +3171,8 @@ msgstr ""
 #, no-wrap
 msgid "set rlimit <replaceable>RESOURCE</replaceable> &lt;= <replaceable>value</replaceable>,"
 msgstr ""
+"set rlimit <replaceable>リソース</replaceable> &lt;= "
+"<replaceable>値</replaceable>,"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2128
@@ -2909,16 +3180,18 @@ msgid ""
 "where <replaceable>RESOURCE</replaceable> and <replaceable>VALUE</"
 "replaceable> are to be replaced with the following values:"
 msgstr ""
+"<replaceable>リソース</replaceable> と <replaceable>値</replaceable> "
+"には、それぞれ下記のものを指定することができます:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:2136
 msgid "<literal>cpu</literal>"
-msgstr ""
+msgstr "<literal>cpu</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2139
 msgid "CPU time limit in seconds."
-msgstr ""
+msgstr "CPU 時間の制限 (秒単位) 。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:2145
@@ -2934,12 +3207,14 @@ msgid ""
 "a number in bytes, or a number with a suffix where the suffix can be K/KB "
 "(kilobytes), M/MB (megabytes), G/GB (gigabytes), for example"
 msgstr ""
+"バイト単位での数値、もしくは K/KB (キロバイト), M/MB (メガバイト), G/GB (ギガバイト) "
+"の接尾辞付きの数値を指定することができます。例:"
 
 #. (itstool) path: listitem/screen
 #: xml/apparmor_profiles.xml:2154
 #, no-wrap
 msgid "rlimit data &lt;= 100M,"
-msgstr ""
+msgstr "rlimit data &lt;= 100M,"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:2158
@@ -2952,17 +3227,17 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2163
 msgid "a number greater or equal to 0"
-msgstr ""
+msgstr "0 以上の数値を指定することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles.xml:2169
 msgid "<literal>nice</literal>"
-msgstr ""
+msgstr "<literal>nice</literal>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles.xml:2172
 msgid "a value between -20 and 19"
-msgstr ""
+msgstr "-20 から 19 までの数値を指定することができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2179
@@ -2984,11 +3259,14 @@ msgid ""
 "rules and will not remove them, so it is safe to use the tools to update "
 "profiles containing them."
 msgstr ""
+"現時点では、ツールを利用してプロファイル内に rlimit のルールを追加することはできません。 rlimit "
+"の制御を追加する唯一の方法は、手作業でテキストファイルを利用してプロファイルを編集する方法です。なお、 rlimit "
+"を含むプロファイルをツールで編集しても、 rlimit の項目を削除することはありませんので安全です。"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles.xml:2199
 msgid "Auditing Rules"
-msgstr ""
+msgstr "監査ルール"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2201
@@ -3003,7 +3281,7 @@ msgstr ""
 #: xml/apparmor_profiles.xml:2208
 #, no-wrap
 msgid "audit /etc/foo/*        rw,"
-msgstr ""
+msgstr "audit /etc/foo/*        rw,"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2210
@@ -3012,6 +3290,8 @@ msgid ""
 "into two rules. The following example will result in audit messages when "
 "files are opened for writing, but not when they are opened for reading:"
 msgstr ""
+"特定の処理時にのみ監査メッセージを出力させたい場合は、ルールを 2 "
+"つに分割することをお勧めします。下記の例では、ファイルを書き込み用に開いた場合は監査メッセージを出力するものの、読み込み用に開いた場合は出力しません:"
 
 #. (itstool) path: sect1/screen
 #: xml/apparmor_profiles.xml:2216
@@ -3020,13 +3300,15 @@ msgid ""
 "audit /etc/foo/*  w,\n"
 "/etc/foo/*        r,"
 msgstr ""
+"audit /etc/foo/*  w,\n"
+"/etc/foo/*        r,"
 
 #. (itstool) path: note/para
 #: xml/apparmor_profiles.xml:2220
 msgid ""
 "Audit messages are not generated for every read or write of a file but only "
 "when a file is opened for reading or writing."
-msgstr ""
+msgstr "監査メッセージはそれぞれの読み込みや書き込み処理で生成されるのではなく、ファイルが読み込み用や書き込み用に開いた際に出力されます。"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles.xml:2226
@@ -3043,3 +3325,5 @@ msgid ""
 "audit owner /home/*/.ssh/**       rw,\n"
 "audit other /home/*/.ssh/**       r,"
 msgstr ""
+"audit owner /home/*/.ssh/**       rw,\n"
+"audit other /home/*/.ssh/**       r,"

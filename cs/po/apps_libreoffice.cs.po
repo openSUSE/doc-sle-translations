@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_libreoffice-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_libreoffice.xml:17
 msgid "LibreOffice: The Office Suite"
-msgstr ""
+msgstr "LibreOffice: Sada kancelářských programů"
 
 #. (itstool) path: abstract/para
 #: xml/apps_libreoffice.xml:20
@@ -32,16 +36,23 @@ msgid ""
 "to this format, if needed. This chapter contains information that applies to "
 "all LibreOffice modules."
 msgstr ""
+"LibreOffice je kancelářská sada s otevřeným zdrojovým kódem, která poskytuje "
+"nástroje pro všechny typy kancelářských úkolů, jako je psaní textů, práce s "
+"tabulkami nebo vytváření grafiky a prezentací. S LibreOffice můžete používat "
+"stejná data napříč různými výpočetními platformami. Můžete také otevírat a "
+"upravovat soubory v jiných formátech, včetně formátů Microsoft* Office*, a "
+"pak je v případě potřeby uložit zpět do tohoto formátu. Tato kapitola "
+"obsahuje informace, které se vztahují na všechny moduly LibreOffice."
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_libreoffice.xml:32
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:36
 msgid "LibreOffice Modules"
-msgstr ""
+msgstr "Moduly LibreOffice"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:38
@@ -53,6 +64,12 @@ msgid ""
 "description and where each module is described in <xref linkend=\"tab.oo."
 "oview.module\"/>."
 msgstr ""
+"LibreOffice se skládá z několika aplikačních modulů (podprogramů), které "
+"jsou navrženy tak, aby se vzájemně integrovaly. Zatímco tato kapitola "
+"obsahuje informace, které se vztahují na všechny moduly LibreOffice, "
+"následující kapitoly a oddíly obsahují informace o jednotlivých modulech. "
+"Najděte krátký popis a odkaz na popis každého modulu v <xref linkend=\""
+"tab.oo.oview.module\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:46
@@ -60,92 +77,94 @@ msgid ""
 "A full description of each module is available in the application help, "
 "described in <xref linkend=\"sec.oo.oview.help\"/>."
 msgstr ""
+"Úplný popis každého modulu je k dispozici v nápovědě k aplikaci, popsané v <"
+"xref linkend=\"sec.oo.oview.help\"/>."
 
 #. (itstool) path: table/title
 #: xml/apps_libreoffice.xml:52
 msgid "The LibreOffice Application Modules"
-msgstr ""
+msgstr "Aplikační moduly LibreOffice"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:60 xml/apps_libreoffice.xml:954
 msgid "Module"
-msgstr ""
+msgstr "Modul"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:65
 msgid "Purpose"
-msgstr ""
+msgstr "Účel"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:70
 msgid "Described in"
-msgstr ""
+msgstr "Popsán v"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:79 xml/apps_libreoffice.xml:1031
 #: xml/apps_libreoffice.xml:1048
 msgid "Writer"
-msgstr ""
+msgstr "Writer"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:84
 msgid "Word processor module"
-msgstr ""
+msgstr "Modul textového procesoru"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:96 xml/apps_libreoffice.xml:1066
 msgid "Calc"
-msgstr ""
+msgstr "Calc"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:101
 msgid "Spreadsheet module"
-msgstr ""
+msgstr "Modul tabulkového procesoru"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:113 xml/apps_libreoffice.xml:1084
 msgid "Impress"
-msgstr ""
+msgstr "Impress"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:118
 msgid "Presentation module"
-msgstr ""
+msgstr "Modul pro presentace"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:130 xml/apps_libreoffice.xml:1119
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:135
 msgid "Database module"
-msgstr ""
+msgstr "Modul databáze"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:147 xml/apps_libreoffice.xml:1101
 msgid "Draw"
-msgstr ""
+msgstr "Draw"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:152
 msgid "Module for drawing vector graphics"
-msgstr ""
+msgstr "Modul pro kreslení ve vektorové grafice"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:164
 msgid "Math"
-msgstr ""
+msgstr "Math"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:169
 msgid "Module for generating mathematical formulas"
-msgstr ""
+msgstr "Modul pro generování matematických vzorců"
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:185
 msgid "Starting LibreOffice"
-msgstr ""
+msgstr "Spuštění LibreOffice"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:187
@@ -154,12 +173,16 @@ msgid ""
 "<guimenu>Office</guimenu> <guimenu>LibreOffice</guimenu></menuchoice>. In "
 "the LibreOffice start center, choose the type of document you want to create."
 msgstr ""
+"Chcete-li spustit LibreOffice, klikněte na <menuchoice> "
+"<guimenu>Aplikace</guimenu> <guimenu>Office</guimenu> "
+"<guimenu>LibreOffice</guimenu> </menuchoice>. V počátečním centru "
+"LibreOffice vyberte typ dokumentu, který chcete vytvořit."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:194
 msgid ""
 "There are multiple methods to directly start one of the LibreOffice modules:"
-msgstr ""
+msgstr "Existuje několik metod pro přímé spuštění jednoho z modulů LibreOffice:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:199
@@ -169,6 +192,10 @@ msgid ""
 "menuchoice> in the LibreOffice module and then selecting the type of "
 "document you want to create."
 msgstr ""
+"Pokud je otevřen jakýkoli modul LibreOffice, můžete spustit kterýkoli z "
+"ostatních modulů kliknutím na <menuchoice> <guimenu>Soubor</guimenu> "
+"<guimenu>Nový</guimenu> </menuchoice> v modulu LibreOffice; pak vyberte typ "
+"dokumentu, který chcete vytvořit."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:207
@@ -176,6 +203,8 @@ msgid ""
 "To start individual LibreOffice modules open the Activities Overview by "
 "pressing <keycap function=\"meta\"/> and search for <literal>libre</literal>."
 msgstr ""
+"Chcete-li spustit jednotlivé moduly LibreOffice, otevřete Přehled činností "
+"stisknutím <keycap function=\"meta\"/> a vyhledejte <literal>libre</literal>."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:214
@@ -185,6 +214,10 @@ msgid ""
 "impress</option>, <option>--draw</option>, or <option>--base</option> to "
 "start the respective module."
 msgstr ""
+"Alternativně použijte příkaz <command>libreoffice</command> a jednu z "
+"možností <option>--writer</option>, <option>--calc</option>, "
+"<option>--impress</option>, <option>--draw</option> nebo "
+"<option>--base</option> pro spuštění příslušného modulu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:221
@@ -194,6 +227,10 @@ msgid ""
 "see <command>libreoffice --help</command> or the man page of LibreOffice "
 "(<command>man libreoffice(1)</command>)."
 msgstr ""
+"LibreOffice má mnoho možností příkazového řádku, zejména pro povolení "
+"převodu dokumentů. Další informace o možnostech příkazového řádku "
+"LibreOffice najdete v <command>libreoffice --help</command> nebo na "
+"manuálové stránce LibreOffice (<command>man libreoffice (1)</command>)."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:230
@@ -203,6 +240,10 @@ msgid ""
 "guimenu> <guimenu>Options</guimenu> </menuchoice> to open it. The most "
 "important ones are:"
 msgstr ""
+"Než začnete pracovat s LibreOffice, možná vás bude zajímat změna některých "
+"možností v dialogu předvoleb. Kliknutím na ikonu <menuchoice> "
+"<guimenu>Nástroje</guimenu> <guimenu>Možnosti</guimenu> </menuchoice> ji "
+"otevřete. Nejdůležitější jsou:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:239
@@ -210,6 +251,8 @@ msgid ""
 "<menuchoice><guimenu>LibreOffice</guimenu><guimenu>User Data</guimenu></"
 "menuchoice>"
 msgstr ""
+"<menuchoice><guimenu>LibreOffice</guimenu><guimenu>Údaje o "
+"uživateli</guimenu></menuchoice>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:242
@@ -219,6 +262,10 @@ msgid ""
 "comment functions of Writer and Calc, for authorship information in PDF "
 "documents, and for serial letters in Writer."
 msgstr ""
+"Zadejte své uživatelské údaje, jako společnost, jméno a příjmení, ulice, "
+"město a další užitečné informace. Tyto údaje mají mnoho použití: v "
+"komentářích funkcí Writer a Calc, pro informace o autorství v dokumentech "
+"PDF a pro hromadnou poštu ve Writeru."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:251
@@ -226,6 +273,8 @@ msgid ""
 "<menuchoice><guimenu>LibreOffice</guimenu><guimenu>Fonts</guimenu></"
 "menuchoice>"
 msgstr ""
+"<menuchoice><guimenu>LibreOffice</guimenu><guimenu>Písma</guimenu></menuchoic"
+"e>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:254
@@ -234,6 +283,9 @@ msgid ""
 "documents with others and the document you received contains fonts that are "
 "not available on your system."
 msgstr ""
+"Namapujte názvy písem na nainstalovaná písma. To může být užitečné, pokud si "
+"vyměňujete dokumenty s ostatními a dokument, který jste obdrželi, obsahuje "
+"písma, která nejsou ve vašem systému dostupná."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:262
@@ -241,6 +293,8 @@ msgid ""
 "<menuchoice><guimenu>Load/Save</guimenu><guimenu>General</guimenu></"
 "menuchoice>"
 msgstr ""
+"<menuchoice><guimenu>Otevřít/"
+"Uložit</guimenu><guimenu>Obecné</guimenu></menuchoice>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:265
@@ -249,6 +303,9 @@ msgid ""
 "whether to always create a backup copy and which file format LibreOffice "
 "should use by default."
 msgstr ""
+"Obsahuje načítání a ukládání specifických možností. Můžete například zvolit, "
+"zda chcete vždy vytvořit záložní kopii a jaký formát souboru by měl "
+"LibreOffice ve výchozím nastavení používat."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:274
@@ -256,22 +313,24 @@ msgid ""
 "To learn more about configuring LibreOffice, see <xref linkend=\"sec.oo."
 "oview.global\"/>."
 msgstr ""
+"Více o konfiguraci LibreOffice viz <xref linkend=\"sec.oo.oview.global\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:281
 msgid "The LibreOffice User Interface"
-msgstr ""
+msgstr "Uživatelské rozhraní LibreOffice"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:283
 msgid ""
 "The user interface of most of LibreOffice is very similar across its modules:"
 msgstr ""
+"Uživatelské rozhraní většiny LibreOffice je velmi podobné ve všech modulech:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:288
 msgid "Menu Bar"
-msgstr ""
+msgstr "Panel hlavního menu"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:290
@@ -280,11 +339,14 @@ msgid ""
 "almost all functionality of LibreOffice. The menu bar can be customized to "
 "include more or fewer functions. You can also add and remove menus."
 msgstr ""
+"V horní části aplikace je panel nabídek (menu), který umožňuje přístup téměř "
+"ke všem funkcím LibreOffice. Panel nabídek lze přizpůsobit tak, aby "
+"obsahoval více nebo méně funkcí. Můžete také přidávat a odebírat nabídky."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:298
 msgid "Toolbars"
-msgstr ""
+msgstr "Panely nástrojů"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:300
@@ -292,6 +354,9 @@ msgid ""
 "By default, the toolbars are positioned directly below the menu bar. The "
 "toolbars comprise the most used and most important items of the module."
 msgstr ""
+"Ve výchozím nastavení jsou panely nástrojů umístěny přímo pod panelem "
+"nabídek. Panely nástrojů obsahují nejpoužívanější a nejdůležitější funkce "
+"modulu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:305
@@ -301,11 +366,15 @@ msgid ""
 "They can be customized to include more or fewer functions. You can also add "
 "and remove toolbars."
 msgstr ""
+"Chcete-li ukotvit panel nástrojů na kteroukoli jinou stranu okna, přetáhněte "
+"jej na správné místo. Chcete-li, aby měl panel nástrojů plovoucí umístění, "
+"přetáhněte jej do středu okna. Panely nástrojů lze přizpůsobit tak, aby "
+"obsahovaly více či méně funkcí. Můžete je také přidat a odebrat."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:314
 msgid "Side Bar"
-msgstr ""
+msgstr "Postranní panel"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:316
@@ -316,6 +385,11 @@ msgid ""
 "elements. Click the icon again to close the panel. Similarly to the "
 "toolbars, the side bar comprises the most important functions."
 msgstr ""
+"Ve výchozím nastavení je postranní panel umístěn na pravé straně okna "
+"LibreOffice. Při prvním spuštění LibreOffice je viditelný pouze jako několik "
+"ikon seskládaných svisle. Kliknutím na jednu z ikon se otevře panel s více "
+"prvky. Opětovným kliknutím na ikonu panel zavřete. Podobně jako panely "
+"nástrojů obsahuje boční lišta nejdůležitější funkce."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:323
@@ -325,6 +399,10 @@ msgid ""
 "window. To hide the side bar, click the vertical arrowhead button on the "
 "document-facing side of the side bar."
 msgstr ""
+"Chcete-li ukotvit postranní lištu vlevo nebo vpravo od okna, přetáhněte ji "
+"do správné polohy. Chcete-li mít postranní panel plovoucí, přetáhněte ho do "
+"středu okna. Chcete-li skrýt postranní panel, klikněte na tlačítko svislé "
+"šipky na straně postranní lišty směřující k dokumentu."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:329
@@ -332,11 +410,13 @@ msgid ""
 "You can hide or show side bar panels but cannot customize their "
 "functionality."
 msgstr ""
+"Boční panely můžete skrýt nebo zobrazit, ale nemůžete přizpůsobit jejich "
+"funkce."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:336
 msgid "Statusbar"
-msgstr ""
+msgstr "Stavový řádek"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:338
@@ -347,6 +427,11 @@ msgid ""
 "to change the zoom or language settings. Many elements open additional menus "
 "or dialogs on left click, right click, or double click."
 msgstr ""
+"Stavová lišta se zobrazuje v dolní části okna. Obsahuje hlavně informace o "
+"dokumentu, například počet slov (ve Writeru) nebo součet hodnot vybraných "
+"buněk (v Calc). Lze ji však také použít ke změně nastavení zoomu nebo "
+"jazyka. Mnoho prvků otevírá další nabídky nebo dialogy levým kliknutím, "
+"pravým kliknutím nebo dvojitým kliknutím."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:348
@@ -354,11 +439,13 @@ msgid ""
 "For more information on customizing LibreOffice, see <xref linkend=\"sec.oo."
 "oview.cust\"/>."
 msgstr ""
+"Více informací o přizpůsobení LibreOffice viz <xref linkend=\"sec.oo.oview."
+"cust\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:355
 msgid "Compatibility with Other Office Applications"
-msgstr ""
+msgstr "Kompatibilita s jinými kancelářskými aplikacemi"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:357
@@ -370,11 +457,17 @@ msgid ""
 "Microsoft Office formats. Files in Microsoft Office formats can be opened "
 "and saved back normally."
 msgstr ""
+"Nativní formát souboru LibreOffice je formát OpenDocument (.odt). "
+"OpenDocument je standardizovaný formát ISO pro kancelářské dokumenty, "
+"založený na XML. LibreOffice však může také pracovat s dokumenty, tabulkami, "
+"prezentacemi a databázemi v mnoha jiných formátech, včetně formátů Microsoft "
+"Office. Soubory ve formátech sady Microsoft Office lze normálně otevírat a "
+"ukládat zpět."
 
 #. (itstool) path: sect2/title
 #: xml/apps_libreoffice.xml:367
 msgid "Opening Documents from Other Office Suites"
-msgstr ""
+msgstr "Otevírání dokumentů z jiných kancelářských kolekcí programů"
 
 #. (itstool) path: sect2/para
 #: xml/apps_libreoffice.xml:368
@@ -386,18 +479,24 @@ msgid ""
 "complicated tables, Microsoft Office macros, or unusual fonts, formatting, "
 "or graphical objects."
 msgstr ""
+"Používáte-li LibreOffice v prostředí, kde potřebujete sdílet dokumenty s "
+"uživateli aplikace Microsoft Word, měli byste mít malé nebo žádné potíže s "
+"výměnou souborů dokumentů. Velmi složité dokumenty však mohou po otevření "
+"vyžadovat úpravy. Složité dokumenty jsou dokumenty obsahující například "
+"složité tabulky, makra Microsoft Office nebo neobvyklá písma, formátování, "
+"či grafické objekty."
 
 #. (itstool) path: sect2/para
 #: xml/apps_libreoffice.xml:376
 msgid ""
 "In case there should ever be issues with opening documents, try the "
 "following strategies:"
-msgstr ""
+msgstr "V případě problémů s otevíráním dokumentů zkuste tyto přístupy:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_libreoffice.xml:383
 msgid "Text Documents"
-msgstr ""
+msgstr "Textové dokumenty"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_libreoffice.xml:384
@@ -406,11 +505,14 @@ msgid ""
 "as RTF or plain text (TXT). However, saving as plain text means that all "
 "formatting will be lost."
 msgstr ""
+"Zvažte otevření textových dokumentů v původní aplikaci a jejich uložení jako "
+"RTF nebo prostý text (TXT). Uložení jako prostý text však znamená, že dojde "
+"ke ztrátě veškerého formátování."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_libreoffice.xml:393
 msgid "Spreadsheets"
-msgstr ""
+msgstr "Tabulkové procesory"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_libreoffice.xml:394
@@ -420,11 +522,14 @@ msgid ""
 "CSV means that all formatting, cell type definitions, formulas, and macros "
 "will be lost."
 msgstr ""
+"Zvažte otevření tabulek v původní aplikaci a uložení jako soubory Excel. "
+"Pokud to nepomůže, zkuste formát CSV. Uložení jako CSV však znamená, že "
+"dojde ke ztrátě veškerého formátování, definic typů buněk, vzorců a maker."
 
 #. (itstool) path: sect2/title
 #: xml/apps_libreoffice.xml:406
 msgid "Converting Documents to the OpenDocument Format"
-msgstr ""
+msgstr "Převod dokumentů do formátu OpenDocument (ODT)"
 
 #. (itstool) path: sect2/para
 #: xml/apps_libreoffice.xml:407
@@ -435,6 +540,11 @@ msgid ""
 "files, you can do so. To convert several documents, such as when first "
 "switching to LibreOffice, do the following:"
 msgstr ""
+"LibreOffice umí číst, upravovat a ukládat dokumenty v několika formátech. "
+"Není nutné převádět soubory z těchto formátů do formátu OpenDocument, který "
+"používá LibreOffice k použití těchto souborů. Pokud však chcete soubory "
+"převést, můžete. Chcete-li převést několik dokumentů, například při jejich "
+"prvním převodu pro LibreOffice, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:416
@@ -442,16 +552,18 @@ msgid ""
 "Select <menuchoice> <guimenu>File</guimenu> <guimenu>Wizards</guimenu> "
 "<guimenu>Document Converter</guimenu> </menuchoice>."
 msgstr ""
+"Zvolte <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Průvodci</guimenu> "
+"<guimenu>Konvertor dokumentů</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:422
 msgid "Choose the file format from which to convert."
-msgstr ""
+msgstr "Vyberte formát souboru, ze kterého chcete převést."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:427
 msgid "Click <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:432
@@ -459,6 +571,8 @@ msgid ""
 "Specify where LibreOffice should look for templates and documents to convert "
 "and in which directory the converted files should be placed."
 msgstr ""
+"Určete, kde má LibreOffice hledat šablony a dokumenty, které mají být "
+"převedeny, a do kterého adresáře mají být převedené soubory umístěny."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:436
@@ -466,6 +580,8 @@ msgid ""
 "Documents retrieved from a Windows partition are usually in a subdirectory "
 "of <filename>/windows</filename>."
 msgstr ""
+"Dokumenty načtené z oddílu Windows jsou obvykle v podadresáři "
+"<filename>/windows</filename>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:442
@@ -473,6 +589,8 @@ msgid ""
 "Make sure that all other settings are correct, then click <guimenu>Next</"
 "guimenu>."
 msgstr ""
+"Ujistěte se, že jsou všechna ostatní nastavení správná, a potom klikněte "
+"<guimenu>Další</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:448
@@ -480,6 +598,8 @@ msgid ""
 "Review the summary of the actions to perform, then start the conversion by "
 "clicking <guimenu>Convert</guimenu>."
 msgstr ""
+"Projděte si souhrn akcí, které chcete provést, a poté spusťte převod "
+"kliknutím na <guimenu>Konvertovat</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:452
@@ -487,16 +607,18 @@ msgid ""
 "The amount of time needed for the conversion depends on the number of files "
 "and their complexity. For most documents, conversion does not take long."
 msgstr ""
+"Čas potřebný pro převod závisí na počtu souborů a jejich složitosti. U "
+"většiny dokumentů netrvá převod dlouho."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:459
 msgid "When everything is done, close the Wizard."
-msgstr ""
+msgstr "Když je vše hotovo, zavřete průvodce."
 
 #. (itstool) path: sect2/title
 #: xml/apps_libreoffice.xml:467
 msgid "Sharing Files with Users of Other Office Suites"
-msgstr ""
+msgstr "Sdílení souborů s uživateli jiných kancelářských sad"
 
 #. (itstool) path: sect2/para
 #: xml/apps_libreoffice.xml:468
@@ -505,16 +627,19 @@ msgid ""
 "excellent tool when a group of users frequently need to share files and do "
 "not use the same system on their computers."
 msgstr ""
+"LibreOffice je k dispozici pro několik operačních systémů. Díky tomu je "
+"vynikajícím nástrojem, když skupina uživatelů potřebuje často sdílet soubory "
+"a na svých počítačích nepoužívají všichni stejný systém."
 
 #. (itstool) path: sect2/para
 #: xml/apps_libreoffice.xml:473
 msgid "When sharing documents with others, you have several options:"
-msgstr ""
+msgstr "Při sdílení dokumentů s ostatními máte několik možností:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:478
 msgid "If the recipient needs to be able to edit the file"
-msgstr ""
+msgstr "Pokud příjemce musí být schopen soubor upravit"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:480
@@ -524,11 +649,16 @@ msgid ""
 "<guimenu>Save As</guimenu> </menuchoice>, then select the Microsoft Word "
 "file type for the version of Word the other user needs."
 msgstr ""
+"Uložte dokument ve formátu, který jiný uživatel potřebuje. Chcete-li ho "
+"například uložit jako soubor aplikace Microsoft Word, klikněte na možnost "
+"<menuchoice> <guimenu>Soubor</guimenu> <guimenu>Uložit jako</guimenu> "
+"</menuchoice> a poté vyberte typ souboru aplikace Microsoft Word pro verzi "
+"aplikace Word, kterou jiní uživatelé potřebují."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:490
 msgid "If the recipient only needs to read the document"
-msgstr ""
+msgstr "Potřebuje-li příjemce dokument pouze přečíst"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:492
@@ -537,11 +667,15 @@ msgid ""
 "<guimenu>Export as PDF</guimenu> </menuchoice>. PDF files can be read on any "
 "platform using a PDF viewer."
 msgstr ""
+"Exportujte dokument do souboru PDF pomocí <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Exportovat jako -> Exportovat do "
+"PDF</guimenu> </menuchoice>. Soubory PDF lze číst na jakékoli platformě "
+"prohlížečem PDF."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:506
 msgid "Sharing a document for editing"
-msgstr ""
+msgstr "Sdílení dokumentu pro úpravy"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:508
@@ -550,11 +684,14 @@ msgid ""
 "formats, although limited in formatting, can be a good option for text "
 "documents."
 msgstr ""
+"Dohodněte se na společném formátu výměny, který funguje pro všechny. Formáty "
+"TXT a RTF, i když mají omezené formátování, mohou být dobrou volbou pro "
+"textové dokumenty."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:516
 msgid "E-mailing a document as a PDF"
-msgstr ""
+msgstr "Odeslání dokumentu e-mailem ve formátu PDF"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:518
@@ -563,11 +700,14 @@ msgid ""
 "<guimenu>E-mail as PDF</guimenu> </menuchoice>. Your default e-mail program "
 "opens with the file attached."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Odeslat</guimenu>"
+" <guimenu>E-mailem jako PDF</guimenu> </menuchoice>. Váš výchozí e-mailový "
+"program se otevře s připojeným souborem."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:526
 msgid "E-mailing a document to a Microsoft Word user"
-msgstr ""
+msgstr "Odeslání dokumentu e-mailem uživateli Microsoft Word"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:528
@@ -576,11 +716,14 @@ msgid ""
 "<guimenu>E-mail as Microsoft Word</guimenu> </menuchoice>. Your default e-"
 "mail program opens with the file attached."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Odeslat</guimenu> "
+"<guimenu>E-mailem jako Microsoft Word</guimenu> </menuchoice>. Otevře se váš "
+"výchozí e-mailový program s připojeným souborem."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:539
 msgid "Saving Files with a Password"
-msgstr ""
+msgstr "Ukládání souborů s heslem"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:541
@@ -592,6 +735,12 @@ msgid ""
 "important to you, see the alternate encryption methods described in <xref "
 "linkend=\"cha.security.cryptofs\"/>."
 msgstr ""
+"Můžete ukládat soubory pomocí hesla, a to v kterémkoli formátu LibreOffice. "
+"Na rozdíl od starších verzí LibreOffice je šifrování použité na dokument "
+"nedávnými verzemi LibreOffice velmi silné. Toto šifrování však nechrání "
+"názvy souborů a velikosti šifrovaných souborů. Pokud je to pro vás důležité, "
+"podívejte se na alternativní metody šifrování popsané v <xref linkend=\""
+"cha.security.cryptofs\"/>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:552
@@ -600,6 +749,10 @@ msgid ""
 "<guimenu>Save</guimenu> </menuchoice> or <menuchoice> <guimenu>File</"
 "guimenu> <guimenu>Save As</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li soubor uložit pomocí hesla, vyberte <menuchoice> "
+"<guimenu>Soubor</guimenu> <guimenu>Uložit</guimenu> </menuchoice> nebo "
+"<menuchoice> <guimenu>Soubor</guimenu> <guimenu>Uložit jako</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:560
@@ -607,21 +760,23 @@ msgid ""
 "In the dialog that opens, activate the check box <guimenu>Save with "
 "password</guimenu> at the bottom and click <guimenu>Save</guimenu>."
 msgstr ""
+"V otevřeném dialogovém okně zaškrtněte políčko <guimenu>Uložit s "
+"heslem</guimenu> (vespod) a klikněte <guimenu>Uložit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:566
 msgid "Type and confirm your password, then click <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Zadejte a potvrďte své heslo a potom klikněte <guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:571
 msgid "The next time you open the file, you will be prompted for the password."
-msgstr ""
+msgstr "Při příštím otevření souboru budete vyzváni k zadání hesla."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:575
 msgid "To change the password, do either of the following:"
-msgstr ""
+msgstr "Chcete-li změnit heslo, proveďte jednu z těchto akcí:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:580
@@ -630,6 +785,9 @@ msgid ""
 "guimenu><guimenu>Save As</guimenu></menuchoice>. Make sure <guimenu>Save "
 "with Password</guimenu> is deactivated."
 msgstr ""
+"Stejný soubor přepište výběrem položky <menuchoice><guimenu>Soubor</guimenu> "
+"<guimenu>Uložit jako</guimenu> </menuchoice>. Ujistěte se, že není "
+"zaškrtnuto <guimenu>Uložit pomocí hesla</guimenu>."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:587
@@ -638,11 +796,14 @@ msgid ""
 "menuchoice> and click <guimenu>Change Password</guimenu> to access the "
 "password dialog."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Vlastnosti</guimenu> "
+"</menuchoice> a kliknutím na <guimenu>Změnit heslo</guimenu> otevřete "
+"dialogové okno hesla."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:598
 msgid "Signing Documents"
-msgstr ""
+msgstr "Podepisování dokumentů"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:635
@@ -652,6 +813,10 @@ msgid ""
 "a self-signed certificate or choose to obtain one from a Certificate "
 "Authority."
 msgstr ""
+"Dokumenty můžete digitálně podepisovat, abyste je chránili. K tomu "
+"potřebujete osobní certifikát podobný certifikátu HTTPS. Můžete buď vytvořit "
+"certifikát podepsaný sám sebou, nebo se rozhodnout pro získání certifikátu "
+"od certifikační autority."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:642
@@ -660,6 +825,9 @@ msgid ""
 "created from the document's content and your personal key. The checksum is "
 "stored together with the document."
 msgstr ""
+"Při použití digitálního podpisu dokumentu je vytvořen určitý druh "
+"kontrolního součtu z obsahu dokumentu a vašeho osobního klíče. Kontrolní "
+"součet je uložen společně s dokumentem."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:648
@@ -669,11 +837,15 @@ msgid ""
 "are equal, the application will signal that the document has not been "
 "changed in the meantime."
 msgstr ""
+"Když dokument otevře jiná osoba, bude kontrolní součet vygenerován znovu. "
+"Nový kontrolní součet je poté porovnán s původním kontrolním součtem. Pokud "
+"jsou oba stejné, aplikace signalizuje, že se dokument od svého podepsání "
+"nezměnil."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:655
 msgid "To add a certificate to LibreOffice, you need to use Firefox:"
-msgstr ""
+msgstr "Chcete-li přidat certifikát do LibreOffice, musíte použít Firefox:"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:660
@@ -681,6 +853,8 @@ msgid ""
 "To start Firefox, open the Activities Overview by pressing <keycap function="
 "\"meta\"/> and search for <literal>fire</literal>."
 msgstr ""
+"Chcete-li spustit Firefox, otevřete Přehled aktivit stisknutím <keycap "
+"function=\"meta\"/> a vyhledejte <literal>fire</literal>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -690,7 +864,7 @@ msgstr ""
 #: xml/apps_libreoffice.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -700,7 +874,7 @@ msgstr ""
 #: xml/apps_libreoffice.xml:0
 msgctxt "_"
 msgid "external ref='hamburger_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='hamburger_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:666
@@ -715,6 +889,15 @@ msgid ""
 "guimenu><guimenu>Advanced</guimenu> <guimenu>Certificates</"
 "guimenu><guimenu>View Certificates</guimenu> </menuchoice>."
 msgstr ""
+"Najděte předvolby certifikátů v menu (<inlinemediaobject><textobject role=\""
+"description\"><phrase>Tlačítko \"3 řádky\"</phrase></textobject><imageobject "
+"role=\"fo\"><imagedata fileref=\"hamburger_button.svg\" width=\"0.8em\" "
+"format=\"SVG\"/></imageobject><imageobject role=\"html\"><imagedata fileref"
+"=\"hamburger_button-fallback.png\" width=\"1em\" format=\"PNG\""
+"/></imageobject></inlinemediaobject>), pak zvolte "
+"<menuchoice><guimenu>Předvolby</guimenu><guimenu>Upřesnit</guimenu> "
+"<guimenu>Certifikáty</guimenu><guimenu>Zobrazit certifikáty</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:675
@@ -722,6 +905,8 @@ msgid ""
 "Add your certificate by selecting <guimenu>Your Certificates</guimenu> and "
 "clicking <guimenu>Import</guimenu> and then locate your certificate."
 msgstr ""
+"Přidejte svůj certifikát výběrem <guimenu>Vaše certifikáty</guimenu>, "
+"kliknutím na <guimenu>Importovat</guimenu> a vyhledejte svůj certifikát."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:681
@@ -731,6 +916,11 @@ msgid ""
 "<guimenu>Sign Document</guimenu></menuchoice>. Select the certificate you "
 "want to use for signing, then click <guimenu>OK</guimenu>."
 msgstr ""
+"Chcete-li dokument podepsat, nejprve jej otevřete v LibreOffice. Poté "
+"vyberte <menuchoice><guimenu>Soubor</guimenu> <guimenu>Digitální "
+"podpisy</guimenu> <guimenu>Podepsat dokument</guimenu> </menuchoice>. "
+"Vyberte certifikát, který chcete použít pro podepisování, a poté klikněte "
+"<guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:688
@@ -741,11 +931,16 @@ msgid ""
 "access certificates from the certificate store. For more information, refer "
 "to <xref linkend=\"cha.certstore\"/>."
 msgstr ""
+"<phrase role=\"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><"
+"phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">"
+"SUSE Linux Enterprise Desktop</phrase></phrase> Vám umožňuje pracovat s "
+"certifikáty v jejich úložišti. Další informace viz <xref linkend=\"cha."
+"certstore\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:695
 msgid "Customizing LibreOffice"
-msgstr ""
+msgstr "Přizpůsobení LibreOffice"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:697
@@ -754,6 +949,10 @@ msgid ""
 "Toolbars, menus, and key combinations can all be reconfigured to help you "
 "more quickly access the features you use the most."
 msgstr ""
+"LibreOffice si můžete přizpůsobit tak, aby co nejlépe vyhovoval vašim "
+"potřebám a pracovnímu stylu. Panely nástrojů, nabídky (menu) a kombinace "
+"kláves lze všechny překonfigurovat, aby vám pomohly rychleji získat přístup "
+"k nejpoužívanějším funkcím."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:702
@@ -764,6 +963,10 @@ msgid ""
 "spreadsheet and assign the macro to the <guimenu>Start Application</guimenu> "
 "event."
 msgstr ""
+"Makra můžete také přiřadit událostem aplikace, chcete-li, aby se při jejich "
+"výskytu vyskytly určité akce. Pokud například vždy pracujete s konkrétní "
+"tabulkou, můžete vytvořit makro, které otevře tabulku a přiřadit makro "
+"události <guimenu>Start Application</guimenu> (spuštění aplikace)."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:710
@@ -773,6 +976,10 @@ msgid ""
 "can see if the changes are what you wanted and go back and modify them if "
 "they are not. See the LibreOffice help files for detailed instructions."
 msgstr ""
+"Tato část obsahuje jednoduché obecné pokyny pro přizpůsobení prostředí. "
+"Změny, které provedete, jsou účinné okamžitě. To znamená, že můžete zjistit, "
+"zda jsou Vaše změny takové, jaké jste chtěli, a nejsou-li, vrátit se a "
+"upravit je. Podrobné pokyny najdete v souborech nápovědy LibreOffice."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:717
@@ -781,11 +988,14 @@ msgid ""
 "<menuchoice> <guimenu>Tools</guimenu> <guimenu>Customize</guimenu> </"
 "menuchoice>."
 msgstr ""
+"Chcete-li otevřít dialog přizpůsobení v kterémkoli otevřeném modulu "
+"LibreOffice, vyberte <menuchoice> <guimenu>Nástroje</guimenu> "
+"<guimenu>Přizpůsobit</guimenu> </menuchoice>."
 
 #. (itstool) path: figure/title
 #: xml/apps_libreoffice.xml:724
 msgid "Customization Dialog in Writer"
-msgstr ""
+msgstr "Přizpůsobení dialogu Writeru"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -795,12 +1005,12 @@ msgstr ""
 #: xml/apps_libreoffice.xml:727 xml/apps_libreoffice.xml:730
 msgctxt "_"
 msgid "external ref='oo_customize_main.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo_customize_main.png' md5='__failed__'"
 
 #. (itstool) path: note/title
 #: xml/apps_libreoffice.xml:736
 msgid "Further Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: note/para
 #: xml/apps_libreoffice.xml:737
@@ -808,16 +1018,20 @@ msgid ""
 "Click <guimenu>Help</guimenu> for more information about the options in the "
 "<guimenu>Customize</guimenu> dialog."
 msgstr ""
+"Kliknutím na <guimenu>Nápověda</guimenu> zobrazíte další informace o "
+"možnostech v dialogu <guimenu>Přizpůsobit</guimenu>."
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:744
 msgid "Customizing Toolbars"
-msgstr ""
+msgstr "Přizpůsobení nástrojových lišt"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:746
 msgid "In the customization dialog, click the tab <guimenu>Toolbars</guimenu>."
 msgstr ""
+"V dialogu přizpůsobení klikněte na kartu <guimenu>Nástrojové lišty</guimenu> "
+"(panely nástrojů)."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:751
@@ -826,6 +1040,10 @@ msgid ""
 "customize. By default, it is set to <guimenu>Standard</guimenu>. To create a "
 "new toolbar, click the plus sign."
 msgstr ""
+"Z rozbalovacího seznamu v pravém sloupci vyberte panel nástrojů, který "
+"chcete přizpůsobit. Ve výchozím zobrazení je nastaven na "
+"<guimenu>Standardní</guimenu>. Chcete-li vytvořit nový panel nástrojů, "
+"klikněte na znaménko plus."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:758
@@ -834,11 +1052,14 @@ msgid ""
 "toolbar, and deactivate the check boxes next to the commands you do not want "
 "to appear."
 msgstr ""
+"Aktivujte zaškrtávací políčka vedle příkazů, které chcete zobrazit na panelu "
+"nástrojů, a deaktivujte zaškrtávací políčka vedle příkazů, které nechcete "
+"zobrazovat."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:765
 msgid "Repeat to customize additional toolbars."
-msgstr ""
+msgstr "Opakováním upravíte další panely nástrojů."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:770 xml/apps_libreoffice.xml:821
@@ -846,18 +1067,20 @@ msgid ""
 "To switch back to the original settings, click <guimenu>Defaults</guimenu> "
 "and confirm with <guimenu>Yes</guimenu>."
 msgstr ""
+"Chcete-li přepnout zpět na původní nastavení, klikněte na "
+"<guimenu>Výchozí</guimenu> a potvrďte kliknutím na <guimenu>Ano</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:776 xml/apps_libreoffice.xml:827
 #: xml/apps_libreoffice.xml:864 xml/apps_libreoffice.xml:894
 #: xml/apps_libreoffice.xml:1249
 msgid "Click <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Klikněte <guimenu>OK</guimenu>."
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:783
 msgid "Customizing Menus"
-msgstr ""
+msgstr "Přizpůsobení nabídek"
 
 #. (itstool) path: procedure/para
 #: xml/apps_libreoffice.xml:784
@@ -865,6 +1088,8 @@ msgid ""
 "You can add or delete items from current menus, reorganize menus, and even "
 "create new menus."
 msgstr ""
+"Můžete přidávat nebo mazat položky z aktuálních nabídek, reorganizovat "
+"nabídky a dokonce vytvářet nové nabídky."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:789
@@ -872,6 +1097,8 @@ msgid ""
 "Click <menuchoice> <guimenu>Tools</guimenu> <guimenu>Customize</guimenu> "
 "<guimenu>Menus</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Nástroje</guimenu> "
+"<guimenu>Přizpůsobit</guimenu> <guimenu>Nabídky</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:795
@@ -880,6 +1107,10 @@ msgid ""
 "customize. By default, it is set to <guimenu>File</guimenu>. To create a new "
 "menu, click the plus sign."
 msgstr ""
+"Z rozbalovacího seznamu v pravém sloupci vyberte panel nástrojů, který "
+"chcete přizpůsobit. Ve výchozím nastavení je nastaven "
+"<guimenu>Soubor</guimenu>. Chcete-li vytvořit novou nabídku, klikněte na "
+"znaménko plus."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:802
@@ -888,6 +1119,10 @@ msgid ""
 "and add it by clicking the right arrow. To remove an item, select it in the "
 "menu box and delete it by clicking the left arrow."
 msgstr ""
+"Chcete-li přidat položky nabídky, vyberte položku z pole "
+"<guimenu>Funkce</guimenu> a přidejte ji kliknutím na šipku doprava. Chcete-"
+"li odebrat položku, vyberte ji v poli nabídky a smažte ji kliknutím na šipku "
+"vlevo."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:809
@@ -895,17 +1130,21 @@ msgid ""
 "To rearrange the order of items in the menu, select an item and drag it to "
 "the desired position."
 msgstr ""
+"Chcete-li změnit pořadí položek v nabídce, vyberte položku a přetáhněte ji "
+"na požadované místo."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:815
 msgid ""
 "To insert separators or submenus, use the <guimenu>Insert</guimenu> button."
 msgstr ""
+"Chcete-li vložit oddělovače nebo podnabídky, použijte tlačítko "
+"<guimenu>Vložit</guimenu>."
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:834
 msgid "Customizing Key Combinations"
-msgstr ""
+msgstr "Přizpůsobení klávesových kombinací"
 
 #. (itstool) path: procedure/para
 #: xml/apps_libreoffice.xml:835
@@ -913,6 +1152,8 @@ msgid ""
 "You can reassign currently assigned key combinations and assign new ones to "
 "frequently used functions."
 msgstr ""
+"Můžete znovu přiřadit aktuálně přiřazené kombinace kláves a přiřadit nové k "
+"často používaným funkcím."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:840
@@ -920,6 +1161,9 @@ msgid ""
 "Click <menuchoice> <guimenu>Tools</guimenu> <guimenu>Customize</guimenu> "
 "<guimenu>Keyboard</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Nástroje</guimenu> "
+"<guimenu>Přizpůsobit</guimenu> <guimenu>Klávesnice</guimenu> </menuchoice>. "
+"Musí být otevřený dokument."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:846
@@ -927,6 +1171,8 @@ msgid ""
 "Select the key or key combination you want to assign a command to from the "
 "<guimenu>Shortcut Keys</guimenu> box."
 msgstr ""
+"V poli <guimenu>Klávesové zkratky</guimenu> vyberte klávesu nebo kombinaci "
+"kláves, které chcete přiřadit příkaz."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:852
@@ -934,6 +1180,7 @@ msgid ""
 "Select a <guimenu>Category</guimenu> and an appropriate <guimenu>function</"
 "guimenu>."
 msgstr ""
+"Vyberte <guimenu>Kategorie</guimenu> a příslušná <guimenu>Funkce</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:858
@@ -941,11 +1188,13 @@ msgid ""
 "Click <guimenu>Modify</guimenu> to assign the function to the key or "
 "<guimenu>Delete</guimenu> to remove an existing assignment."
 msgstr ""
+"Klepnutím na <guimenu>Změnit</guimenu> přidělte funkci ke klávese nebo "
+"<guimenu>Smazat</guimenu> odstraňte existující přiřazení."
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:871
 msgid "Customizing Events"
-msgstr ""
+msgstr "Přizpůsobení událostí"
 
 #. (itstool) path: procedure/para
 #: xml/apps_libreoffice.xml:872
@@ -954,6 +1203,9 @@ msgid ""
 "application start-up or the saving of a document. The assigned macro runs "
 "automatically whenever the selected event occurs."
 msgstr ""
+"LibreOffice také poskytuje způsoby, jak přiřadit makra k událostem, jako je "
+"spuštění aplikace nebo uložení dokumentu. Přiřazené makro se spustí "
+"automaticky vždy, když nastane vybraná událost."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:878
@@ -961,21 +1213,23 @@ msgid ""
 "Click <menuchoice> <guimenu>Tools</guimenu> <guimenu>Customize</guimenu> "
 "<guimenu>Events</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Nástroje</guimenu> "
+"<guimenu>Přizpůsobit</guimenu> <guimenu>Události</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:884
 msgid "Select the event you want to change."
-msgstr ""
+msgstr "Vyberte událost, kterou chcete změnit."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:889
 msgid "Assign or remove macros for the selected event."
-msgstr ""
+msgstr "Přiřaďte nebo odeberte makra pro vybranou událost."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:901
 msgid "Changing the Global Settings"
-msgstr ""
+msgstr "Změny globálního nastavení"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:903
@@ -985,11 +1239,15 @@ msgid ""
 "menuchoice> on the menu bar. This opens the window shown in the figure "
 "below. A tree structure is used to display categories of settings."
 msgstr ""
+"Globální nastavení lze změnit v kterémkoli modulu LibreOffice kliknutím na "
+"<menuchoice> <guimenu>Nástroje</guimenu> <guimenu>Možnosti</guimenu> "
+"</menuchoice> na panelu nabídek. Otevře se okno zobrazené na obrázku níže. "
+"Stromová struktura se používá k zobrazení kategorií nastavení."
 
 #. (itstool) path: figure/title
 #: xml/apps_libreoffice.xml:911
 msgid "The Options Window"
-msgstr ""
+msgstr "Okno Možnosti"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -999,7 +1257,7 @@ msgstr ""
 #: xml/apps_libreoffice.xml:914 xml/apps_libreoffice.xml:917
 msgctxt "_"
 msgid "external ref='oo_options.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='oo_options.png' md5='__failed__'"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:922
@@ -1010,6 +1268,11 @@ msgid ""
 "Base category appears in both Calc and Writer. The Module column in the "
 "table shows where each setting category is available."
 msgstr ""
+"Kategorie nastavení, které se objeví, závisí na modulu, ve kterém pracujete. "
+"Například, pokud jste v aplikaci Writer, objeví se v seznamu kategorie "
+"Writer LibreOffice, ale kategorie Calc LibreOffice tam není. Kategorie "
+"LibreOffice Base se objeví v Calc i Writer. Sloupec Modul v tabulce ukazuje, "
+"kde je k dispozici každá kategorie nastavení."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:930
@@ -1017,26 +1280,28 @@ msgid ""
 "The following table lists the settings categories along with a brief "
 "description of each category:"
 msgstr ""
+"V následující tabulce jsou uvedeny kategorie nastavení spolu se stručným "
+"popisem každé kategorie:"
 
 #. (itstool) path: table/title
 #: xml/apps_libreoffice.xml:936
 msgid "Global Setting Categories"
-msgstr ""
+msgstr "Kategorie globálního nastavení"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:944
 msgid "Settings Category"
-msgstr ""
+msgstr "Kategorie nastavení"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:949
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:963
 msgid "<guimenu>LibreOffice</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:968
@@ -1044,18 +1309,20 @@ msgid ""
 "Basic settings, including your user data (such as your address and e-mail), "
 "important paths, and settings for printers and external programs."
 msgstr ""
+"Základní nastavení, včetně uživatelských údajů (např. adresa a e-mail), "
+"důležité cesty a nastavení pro tiskárny a externí programy."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:975 xml/apps_libreoffice.xml:994
 #: xml/apps_libreoffice.xml:1013 xml/apps_libreoffice.xml:1136
 #: xml/apps_libreoffice.xml:1153
 msgid "All"
-msgstr ""
+msgstr "Vše"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:982
 msgid "<guimenu>Load/Save</guimenu>"
-msgstr ""
+msgstr "<guimenu>Zavést/Uložit</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:987
@@ -1064,11 +1331,14 @@ msgid ""
 "dialog for general settings and several special dialogs to define how "
 "external formats should be handled."
 msgstr ""
+"Nastavení týkající se otevření a uložení několika typů souborů. Zde je "
+"dialog pro obecná nastavení a několik speciálních dialogů, které definují, "
+"jak by se mělo nakládat s externími formáty."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1001
 msgid "<guimenu>Language Settings</guimenu>"
-msgstr ""
+msgstr "<guimenu>Jazyková nastavení</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1006
@@ -1077,11 +1347,14 @@ msgid ""
 "spell checker settings. This is also the place to enable support for Asian "
 "languages."
 msgstr ""
+"Nastavení týkající se jazyků a pomůcek psaní, například nastavení národního "
+"prostředí a kontroly pravopisu. To je také místo, kde lze zapnout podporu "
+"asijských jazyků."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1020
 msgid "<guimenu> LibreOffice Writer</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Writer</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1025
@@ -1089,21 +1362,23 @@ msgid ""
 "Settings related to word processing, such as the basic units, fonts and "
 "layout that Writer should use."
 msgstr ""
+"Nastavení týkající se zpracování textu, jako jsou základní jednotky, písma a "
+"rozvržení, které by měl program Writer použít."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1038
 msgid "<guimenu>LibreOffice Writer/Web</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Writer/web</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1043
 msgid "Settings related to the HTML authoring features of LibreOffice."
-msgstr ""
+msgstr "Nastavení související s funkcemi publikování v HTML LibreOffice."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1055
 msgid "<guimenu>LibreOffice Calc</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Calc</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1060
@@ -1111,11 +1386,13 @@ msgid ""
 "Settings related to spreadsheets, such as spreadsheet appearance, Microsoft "
 "Excel compatibility options, and calculation options."
 msgstr ""
+"Nastavení související s tabulkovým procesorem, například vzhled tabulek, "
+"možnosti kompatibility s Microsoft Excel a možnosti výpočtu."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1073
 msgid "<guimenu>LibreOffice Impress</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Impress</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1078
@@ -1123,52 +1400,55 @@ msgid ""
 "Settings related to presentations, such as enabling the smartphone remote "
 "control and the grid of the page to use."
 msgstr ""
+"Nastavení týkající se prezentací, například zapnutí dálkového ovládání "
+"smartphonem a použití mřížky stránky."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1091
 msgid "<guimenu>LibreOffice Draw</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Draw</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1096
 msgid "Settings related to drawings, such as the grid of the page to use."
-msgstr ""
+msgstr "Nastavení související s výkresy, jako je mřížka použití stránky."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1108
 msgid "<guimenu>LibreOffice Base</guimenu>"
-msgstr ""
+msgstr "<guimenu>LibreOffice Base</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1113
 msgid ""
 "Allows setting and editing database connections and registered databases."
 msgstr ""
+"Umožňuje nastavení a úpravy napojení databází a registrovaných databází."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1126
 msgid "<guimenu>Charts</guimenu>"
-msgstr ""
+msgstr "<guimenu>Diagramy</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1131
 msgid "Allows defining the default colors used for newly created charts."
-msgstr ""
+msgstr "Umožňuje definovat výchozí barvy použité pro nově vytvořené diagramy."
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1143
 msgid "<guimenu>Internet</guimenu>"
-msgstr ""
+msgstr "<guimenu>Internet</guimenu>"
 
 #. (itstool) path: entry/para
 #: xml/apps_libreoffice.xml:1148
 msgid "Allows configuring a proxy and the e-mail software to use."
-msgstr ""
+msgstr "Umožňuje konfiguraci proxy serveru a použití e-mailového softwaru."
 
 #. (itstool) path: important/title
 #: xml/apps_libreoffice.xml:1163
 msgid "Settings Apply Globally"
-msgstr ""
+msgstr "Globálně platná nastavení"
 
 #. (itstool) path: important/para
 #: xml/apps_libreoffice.xml:1164
@@ -1177,11 +1457,14 @@ msgid ""
 "specified modules. That means, they are used as defaults for every new "
 "document you create."
 msgstr ""
+"Všechna nastavení uvedená v tabulce platí pro zadané moduly "
+"<emphasis>globálně</emphasis>. To znamená, že se používají jako výchozí "
+"hodnoty pro každý nový dokument, který vytvoříte."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:1172
 msgid "Using Templates"
-msgstr ""
+msgstr "Použití šablon"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1174
@@ -1192,6 +1475,11 @@ msgid ""
 "document. Templates greatly enhance the use of LibreOffice by simplifying "
 "formatting tasks for a variety of different types of documents."
 msgstr ""
+"Šablona je dokument obsahující pouze styly - a obsah -, které chcete "
+"zobrazit v každém dokumentu tohoto typu. Když je dokument vytvořen nebo "
+"otevřen pomocí šablony, styly jsou na tento dokument aplikovány automaticky. "
+"Šablony značně vylepšují použití LibreOffice tím, že zjednodušují úlohy "
+"formátování pro různé typy dokumentů."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1183
@@ -1203,6 +1491,11 @@ msgid ""
 "document types, the styles you need for each document are always readily "
 "available."
 msgstr ""
+"Například v textovém procesoru můžete psát písmena, poznámky a zprávy, které "
+"vypadají jinak a vyžadují různé styly. Pro tabulkový procesor můžete použít "
+"různé styly buněk nebo nadpisy pro určité typy tabulek. Používáte-li šablony "
+"pro každý z typů dokumentů, jsou styly, které potřebujete pro každý "
+"dokument, vždy snadno dostupné."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1192
@@ -1212,6 +1505,10 @@ msgid ""
 "\"http://templates.libreoffice.org\"/>. For details, see <xref linkend=\"sec."
 "oo.oview.help\"/>."
 msgstr ""
+"LibreOffice přichází se sadou předdefinovaných šablon. Další šablony najdete "
+"také na internetu, například na <link xlink:href=\""
+"http://templates.libreoffice.org\"/>. Podrobnosti viz <xref linkend=\""
+"sec.oo.oview.help\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1198
@@ -1220,6 +1517,9 @@ msgid ""
 "how you want the document to look, so you can create the styles you need in "
 "that template."
 msgstr ""
+"Vytvoření vlastních šablon vyžaduje určité plánování. Musíte určit, jak má "
+"dokument vypadat, abyste v této šabloně mohli vytvořit styly, které "
+"potřebujete."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1204
@@ -1228,11 +1528,14 @@ msgid ""
 "<xref linkend=\"pro.oo.oview.templates\"/> only shows how to generate a "
 "template from an existing document."
 msgstr ""
+"Podrobné vysvětlení šablon je nad rámec tohoto oddílu; <xref linkend=\""
+"pro.oo.oview.templates\"/> pouze ukazuje, jak vygenerovat šablonu z "
+"existujícího dokumentu."
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:1211
 msgid "Creating LibreOffice Templates"
-msgstr ""
+msgstr "Vytváření šablon LibreOffice"
 
 #. (itstool) path: procedure/para
 #: xml/apps_libreoffice.xml:1212
@@ -1240,6 +1543,8 @@ msgid ""
 "For text documents, spreadsheets, presentations, and drawings, you can "
 "create a template from an existing document as follows:"
 msgstr ""
+"Pro textové dokumenty, tabulky, prezentace a výkresy můžete vytvořit šablonu "
+"z existujícího dokumentu tímto způsobem:"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1217
@@ -1247,6 +1552,8 @@ msgid ""
 "Start LibreOffice and open or create a document that contains the styles and "
 "content that you want to re-use for other documents of that type."
 msgstr ""
+"Spusťte LibreOffice a otevřete nebo vytvořte dokument, který obsahuje styly "
+"a obsah, který chcete znovu použít pro jiné dokumenty tohoto typu."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1223
@@ -1254,6 +1561,8 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>Templates</guimenu> "
 "<guimenu>Save as Template</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Šablony</guimenu> "
+"<guimenu>Uložit jako šablonu</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1229
@@ -1261,6 +1570,8 @@ msgid ""
 "Choose a directory to save the image in by double-clicking one of the "
 "directory icons."
 msgstr ""
+"Dvojitým kliknutím na jednu z ikon adresáře vyberte adresář, do kterého "
+"chcete šablonu uložit."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1233
@@ -1268,21 +1579,23 @@ msgid ""
 "If you are in a subdirectory and want to go up again, use the path bar "
 "displayed above the directories."
 msgstr ""
+"Pokud jste v podadresáři a chcete jít znovu nahoru, použijte lištu cesty "
+"zobrazenou nad adresáři."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1239
 msgid "From the toolbar, choose <guimenu>Save</guimenu>."
-msgstr ""
+msgstr "Na panelu nástrojů zvolte <guimenu>Uložit</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1244
 msgid "Specify a name for the template."
-msgstr ""
+msgstr "Zadejte název šablony."
 
 #. (itstool) path: note/title
 #: xml/apps_libreoffice.xml:1256
 msgid "Converting Microsoft Word Templates"
-msgstr ""
+msgstr "Konverze šablon z MS Word"
 
 #. (itstool) path: note/para
 #: xml/apps_libreoffice.xml:1257
@@ -1291,11 +1604,14 @@ msgid ""
 "Word document. For more information, see <xref linkend=\"sec.oo.oview."
 "migration.convert\"/>."
 msgstr ""
+"Můžete převádět šablony aplikace Microsoft Word, jako byste převáděli "
+"jakýkoli jiný dokument aplikace Word. Další informace viz <xref linkend=\""
+"sec.oo.oview.migration.convert\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:1265
 msgid "Setting Metadata and Properties"
-msgstr ""
+msgstr "Nastavení metadat a vlastností"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1267
@@ -1307,36 +1623,44 @@ msgid ""
 "This feature is also the basis for later sorting, searching and retrieving "
 "your documents based on metadata."
 msgstr ""
+"Při výměně dokumentů s jinými lidmi je někdy užitečné ukládat metadata, jako "
+"je vlastník souboru, od koho byl přijat a adresu URL. LibreOffice vám umožní "
+"připojit takové údaje k souboru. To vám pomůže uchovávat metadata, která "
+"nechcete nebo nemůžete uložit do obsahu souboru. Tato funkce je také "
+"základem pro pozdější třídění, vyhledávání a vyhledávání dokumentů podle "
+"metadat."
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1283
 msgid "As an example, we assume you want to set these properties to your file:"
 msgstr ""
+"Jako příklad předpokládejme, že chcete do svého souboru nastavit tyto "
+"vlastnosti:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1289
 msgid "A title, subject, and some keywords"
-msgstr ""
+msgstr "Název, předmět a některá klíčová slova"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1294
 msgid "The owner of the file"
-msgstr ""
+msgstr "Vlastník souboru"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1299
 msgid "Who sent you the file"
-msgstr ""
+msgstr "Kdo vám soubor poslal"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1305
 msgid "To attach such metadata to your document, proceed as follows:"
-msgstr ""
+msgstr "Chcete-li k dokumentu připojit tato metadata, postupujte takto:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_libreoffice.xml:1310
 msgid "Setting Properties"
-msgstr ""
+msgstr "Nastavení vlastností"
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1312
@@ -1344,6 +1668,8 @@ msgid ""
 "Click <menuchoice> <guimenu>File</guimenu> <guimenu>Properties</guimenu> </"
 "menuchoice>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Soubor</guimenu> <guimenu>Vlastnosti</guimenu>"
+" </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1402
@@ -1351,6 +1677,8 @@ msgid ""
 "Change to the <guimenu>Description</guimenu> tab and insert title, subject, "
 "and your keywords."
 msgstr ""
+"Přejděte na kartu <guimenu>Popis</guimenu> a vložte název, předmět a klíčová "
+"slova."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1408
@@ -1358,11 +1686,13 @@ msgid ""
 "In case you want to add additional data to your document, switch to the "
 "<guimenu>Custom Properties</guimenu> tab."
 msgstr ""
+"Chcete-li do dokumentu přidat další data, přepněte se na kartu <guimenu>"
+"Vlastní vlastnosti</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1414
 msgid "To add a property, click <guimenu>Add</guimenu>."
-msgstr ""
+msgstr "Chcete-li přidat vlastnost, klikněte <guimenu>Přidat</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1419
@@ -1371,11 +1701,14 @@ msgid ""
 "entry. A list of properties appears. Choose, for example, <guimenu>Owner</"
 "guimenu>."
 msgstr ""
+"Ve sloupci <guimenu>Název</guimenu> klikněte na rozbalovací pole pro "
+"položku. Zobrazí se seznam vlastností. Vyberte například "
+"<guimenu>Majitel</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1426
 msgid "Insert the name of the owner in the <guimenu>Value</guimenu> column."
-msgstr ""
+msgstr "Do sloupce <guimenu>Hodnota</guimenu> vložte jméno majitele."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1431
@@ -1383,6 +1716,8 @@ msgid ""
 "Repeat from <xref linkend=\"st.oo.property.add\"/> for more custom "
 "properties."
 msgstr ""
+"Opakujte podle <xref linkend=\"st.oo.property.add\"/> a přidejte další "
+"vlastní vlastnosti."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1435
@@ -1390,21 +1725,23 @@ msgid ""
 "To remove a custom property, click the red icon at the end of the "
 "corresponding row."
 msgstr ""
+"Chcete-li odebrat vlastní vlastnost, klikněte na červenou ikonu na konci "
+"odpovídajícího řádku."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1441
 msgid "Leave the dialog with <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Dialog opustíte tlačítkem <guimenu>OK</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_libreoffice.xml:1446
 msgid "Save the file."
-msgstr ""
+msgstr "Uložte soubor."
 
 #. (itstool) path: sect1/title
 #: xml/apps_libreoffice.xml:1454
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: sect1/para
 #: xml/apps_libreoffice.xml:1456
@@ -1413,6 +1750,9 @@ msgid ""
 "of users and developers support it. The following list shows some places "
 "where you can go for additional information."
 msgstr ""
+"LibreOffice obsahuje rozsáhlou online nápovědu. Kromě toho jej podporuje "
+"velká komunita uživatelů a vývojářů. V následujícím seznamu jsou uvedena "
+"některá místa, kde můžete získat další informace."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_libreoffice.xml:1464
@@ -1420,38 +1760,40 @@ msgid ""
 "LibreOffice Application Help (<menuchoice><guimenu>Help</guimenu> "
 "<guimenu>LibreOffice Help</guimenu></menuchoice>)"
 msgstr ""
+"Nápověda aplikace LibreOffice (<menuchoice><guimenu>Help</guimenu> <guimenu>"
+"LibreOffice Help</guimenu></menuchoice>)"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1469
 msgid "Extensive help on performing any task in LibreOffice."
-msgstr ""
+msgstr "Rozsáhlá pomoc při provádění jakýchkoli úkolů v LibreOffice."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1478
 msgid "Home page of LibreOffice"
-msgstr ""
+msgstr "Domovská stránka LibreOffice"
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1487
 msgid "Official question and answer page for LibreOffice."
-msgstr ""
+msgstr "Oficiální stránka otázek a odpovědí pro LibreOffice."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1496
 msgid "Taming LibreOffice: books, news, tips and tricks."
-msgstr ""
+msgstr "Zkrocení LibreOffice: knihy, zprávy, tipy a triky."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1505
 msgid "Extensive information about creating and using macros."
-msgstr ""
+msgstr "Rozsáhlé informace o vytváření a používání maker."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1514
 msgid "Extension and template directory for LibreOffice."
-msgstr ""
+msgstr "Adresář rozšíření a šablon pro LibreOffice."
 
 #. (itstool) path: listitem/para
 #: xml/apps_libreoffice.xml:1523
 msgid "Templates for creating labels with LibreOffice."
-msgstr ""
+msgstr "Šablony pro vytváření štítků pomocí LibreOffice."

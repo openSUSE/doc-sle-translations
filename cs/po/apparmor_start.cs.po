@@ -2,24 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:16+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_start-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_start.xml:9
 msgid "Getting Started"
-msgstr ""
+msgstr "Začínáme"
 
 #. (itstool) path: chapter/para
 #: xml/apparmor_start.xml:16
@@ -27,6 +31,8 @@ msgid ""
 "Prepare a successful deployment of <phrase>AppArmor</phrase> on your system "
 "by carefully considering the following items:"
 msgstr ""
+"Připravte úspěšné nasazení aplikace <phrase>AppArmor</phrase> do vašeho "
+"systému pečlivým zvážením těchto položek:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:22
@@ -34,6 +40,8 @@ msgid ""
 "Determine the applications to profile. Read more on this in <xref linkend="
 "\"sec.apparmor.start.choose\"/>."
 msgstr ""
+"Určete aplikace, jimž vytvoříte profil. Více k tomu najdete na <xref linkend="
+"\"sec.apparmor.start.choose\"/>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:28
@@ -42,6 +50,9 @@ msgid ""
 "apparmor.start.build\"/>. Check the results and adjust the profiles when "
 "necessary."
 msgstr ""
+"Vytvořte potřebné profily, jak je načrtnuto v <xref linkend=\""
+"sec.apparmor.start.build\"/>. Zkontrolujte výsledky a podle potřeby upravte "
+"profily."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:35
@@ -50,11 +61,14 @@ msgid ""
 "to security events logged by the reporting tool of <phrase>AppArmor</"
 "phrase>. Refer to <xref linkend=\"sec.apparmor.start.update\"/>."
 msgstr ""
+"Aktualizujte profily, kdykoli se změní prostředí nebo musíte reagovat na "
+"bezpečnostní události zapsané nástrojem ohlašování <phrase>AppArmor</phrase>"
+". Viz <xref linkend=\"sec.apparmor.start.update\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:43
 msgid "Installing <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Instalace <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:45
@@ -66,46 +80,52 @@ msgid ""
 "regardless of what patterns are installed. The packages listed below are "
 "needed for a fully-functional instance of <phrase>AppArmor</phrase>:"
 msgstr ""
+"<phrase>AppArmor</phrase> je instalován a standardně běží na kterékoli "
+"instalaci <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE® "
+"Leap</phrase><phrase os=\"sles\">SUSE® Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE® Linux Enterprise Desktop</phrase></phrase>, ať jsou "
+"instalační šablony jakékoli. Pro plně funkční instanci "
+"<phrase>AppArmor</phrase> jsou potřebné tyto balíčky:"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:54
 msgid "<systemitem class=\"resource\">apparmor-docs</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-docs</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:59
 msgid "<systemitem class=\"resource\">apparmor-parser</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-parser</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:64
 msgid "<systemitem class=\"resource\">apparmor-profiles</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-profiles</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:69
 msgid "<systemitem class=\"resource\">apparmor-utils</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">apparmor-utils</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:74
 msgid "<systemitem class=\"resource\">audit</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">audit</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:79
 msgid "<systemitem class=\"resource\">libapparmor1</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">libapparmor1</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:84
 msgid "<systemitem class=\"resource\">perl-libapparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">perl-libapparmor</systemitem>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:89
 msgid "<systemitem class=\"resource\">yast2-apparmor</systemitem>"
-msgstr ""
+msgstr "<systemitem class=\"resource\">yast2-apparmor</systemitem>"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_start.xml:96
@@ -115,17 +135,23 @@ msgid ""
 "<phrase>AppArmor</phrase> installation. Either use the YaST Software "
 "Management module for installation, or use Zypper on the command line:"
 msgstr ""
+"Není-li <phrase>AppArmor</phrase> na Vašem systému instalován, instalujte "
+"úplnou sestavu <phrase>AppArmor</phrase> dle šablony <systemitem class=\""
+"resource\">apparmor</systemitem>. Použijte buď modul YaST Software "
+"Management (správa softwaru YaST), nebo Zypper z příkazového řádku:"
 
 #. (itstool) path: tip/screen
 #: xml/apparmor_start.xml:102
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> zypper in -t pattern apparmor"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> zypper in -t pattern "
+"apparmor"
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:106
 msgid "Enabling and Disabling <phrase>AppArmor</phrase>"
-msgstr ""
+msgstr "Zapnutí a vypnutí <phrase>AppArmor</phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:108
@@ -136,11 +162,16 @@ msgid ""
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. "
 "There are two ways of toggling the status of <phrase>AppArmor</phrase>:"
 msgstr ""
+"<phrase>AppArmor</phrase> je standardně konfigurován, aby běžel na jakékoli "
+"čerstvé instalaci <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Přepnout "
+"stav <phrase>AppArmor</phrase> lze dvěma způsoby:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_start.xml:116
 msgid "Using YaST Services Manager"
-msgstr ""
+msgstr "Použít Správce služeb YaST"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:118
@@ -149,11 +180,14 @@ msgid ""
 "script to the sequence of scripts executed on system boot. Status changes "
 "are applied on reboot."
 msgstr ""
+"Zakažte nebo povolte <phrase>AppArmor</phrase> odebráním nebo přidáním "
+"spouštěcího skriptu do sekvence skriptů prováděných při spouštění systému. "
+"Změny stavu se použijí při restartu."
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_start.xml:126
 msgid "Using <phrase>AppArmor</phrase> Configuration Window"
-msgstr ""
+msgstr "Použití konfiguračního okna <phrase>AppArmor</phrase>"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_start.xml:128
@@ -164,6 +198,11 @@ msgid ""
 "triggers a stop or start event for <phrase>AppArmor</phrase> and removes or "
 "adds its boot script in the system's boot sequence."
 msgstr ""
+"Změňte stav <phrase>AppArmor</phrase> v běžícím systému jeho vypnutím nebo "
+"zapnutím na ovládacím panelu YaST <phrase>AppArmor</phrase>. Změny provedené "
+"zde se projeví okamžitě. Ovládací panel spustí událost zastavení nebo "
+"spuštění aplikace <phrase>AppArmor</phrase> a odebere nebo přidá jeho "
+"spouštěcí skript do spouštěcí sekvence systému."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:139
@@ -171,11 +210,13 @@ msgid ""
 "To disable <phrase>AppArmor</phrase> permanently (by removing it from the "
 "sequence of scripts executed on system boot) proceed as follows:"
 msgstr ""
+"Chcete-li trvale zakázat aplikaci <phrase>AppArmor</phrase> (odstraněním ze "
+"sekvence skriptů provedených při spuštění systému), postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:146
 msgid "Start YaST."
-msgstr ""
+msgstr "Spusťte YaST."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:151
@@ -183,6 +224,8 @@ msgid ""
 "Select <menuchoice> <guimenu>System</guimenu> <guimenu>Services Manager</"
 "guimenu> </menuchoice>."
 msgstr ""
+"Zvolte <menuchoice> <guimenu>Systém</guimenu> <guimenu>Správce "
+"služeb</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:157
@@ -192,11 +235,15 @@ msgid ""
 "the window. Check that <guimenu>Enabled</guimenu> changed to "
 "<guimenu>Disabled</guimenu> in the <literal>apparmor</literal> row."
 msgstr ""
+"Označte <literal>apparmor</literal> kliknutím na jeho řádek v seznamu služeb "
+"a poté v dolní části okna klikněte na <guimenu>Povolit|Zakázat</guimenu>. "
+"Zkontrolujte, zda se v řádku <literal>apparmor</literal> změnil parametr "
+"<guimenu>Povoleno</guimenu> na <guimenu>Zakázáno</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:165
 msgid "Confirm with <guimenu>OK</guimenu>."
-msgstr ""
+msgstr "Potvrďte kliknutím <guimenu>OK</guimenu>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:171
@@ -205,6 +252,9 @@ msgid ""
 "inactive until you re-enable it. Re-enabling a service using the YaST "
 "<guimenu>Services Manager</guimenu> tool is similar to disabling it."
 msgstr ""
+"<phrase>AppArmor</phrase> nebude při restartu inicializován a zůstane "
+"neaktivní, dokud ho znovu neaktivujete. Opětovné povolení služby pomocí "
+"nástroje YaST <guimenu>Správce služeb</guimenu> je podobné deaktivaci."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:177
@@ -214,6 +264,10 @@ msgid ""
 "effect when you apply them and survive a reboot of the system. To toggle the "
 "status of <phrase>AppArmor</phrase>, proceed as follows:"
 msgstr ""
+"Pomocí konfiguračního okna <phrase>AppArmor</phrase> v běžícím systému "
+"přepněte stav aplikace <phrase>AppArmor</phrase>. Tyto změny se projeví, "
+"když je použijete a přežijete restartování systému. Chcete-li přepnout stav "
+"aplikace <phrase>AppArmor</phrase>, postupujte takto:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:186
@@ -221,6 +275,9 @@ msgid ""
 "Start YaST, select <guimenu><phrase>AppArmor</phrase> Configuration</"
 "guimenu>, and click <guimenu>Settings</guimenu> in the main window."
 msgstr ""
+"Spusťte YaST, vyberte <guimenu><phrase>AppArmor</phrase> "
+"Konfigurace</guimenu> a v hlavním okně klikněte na "
+"<guimenu>Nastavení</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:192
@@ -229,6 +286,9 @@ msgid ""
 "<phrase>AppArmor</phrase></guimenu> or disable <phrase>AppArmor</phrase> by "
 "deselecting it."
 msgstr ""
+"Povolte <phrase>AppArmor</phrase> zaškrtnutím <guimenu>Povolte "
+"<phrase>AppArmor</phrase></guimenu> nebo deaktivujte "
+"<phrase>AppArmor</phrase> zrušením jeho výběru."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:198
@@ -236,11 +296,13 @@ msgid ""
 "Click <guimenu>Done</guimenu> in the <guimenu><phrase>AppArmor</phrase> "
 "Configuration</guimenu> window."
 msgstr ""
+"V okně <guimenu>Konfigurace</guimenu> <phrase>AppArmor</phrase> klikněte "
+"<guimenu>Hotovo</guimenu>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:206
 msgid "Choosing Applications to Profile"
-msgstr ""
+msgstr "Volba aplikací pro profil"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:208
@@ -249,21 +311,24 @@ msgid ""
 "particular setup, so only use profiles for those applications you actually "
 "run. Use the following list to determine the most likely candidates:"
 msgstr ""
+"Potřebujete chránit jen ty programy, které jsou vystaveny útokům při Vašem "
+"konkrétním nastavení, takže profily používejte pouze pro ty aplikace, které "
+"skutečně spouštíte. K určení nejpravděpodobnějších kandidátů použijte seznam:"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:216
 msgid "Network Agents"
-msgstr ""
+msgstr "Síťové agenty"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:217
 msgid "Web Applications"
-msgstr ""
+msgstr "Webové aplikace"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:218
 msgid "Cron Jobs"
-msgstr ""
+msgstr "Úlohy spouštěné přes Cron"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:221
@@ -272,11 +337,15 @@ msgid ""
 "and might need a profile to confine them, run <command>aa-unconfined</"
 "command> as <systemitem class=\"username\">root</systemitem>."
 msgstr ""
+"Chcete-li zjistit, které procesy jsou právě spuštěny s otevřenými síťovými "
+"porty a mohou potřebovat profil, který je omezuje, spusťte <command>aa-"
+"unconfined</command> jako uživatel <systemitem class=\"username\""
+">root</systemitem>."
 
 #. (itstool) path: example/title
 #: xml/apparmor_start.xml:228
 msgid "Output of <command>aa-unconfined</command>"
-msgstr ""
+msgstr "Příklad výstupu příkazu <command>aa-unconfined</command>"
 
 #. (itstool) path: example/screen
 #: xml/apparmor_start.xml:229
@@ -287,6 +356,10 @@ msgid ""
 "19947 /usr/lib/postfix/master not confined\n"
 "1328 /usr/sbin/smbd confined by '/usr/sbin/smbd (enforce)'"
 msgstr ""
+"19848 /usr/sbin/cupsd not confined [neomezen]\n"
+"19887 /usr/sbin/sshd not confined [neomezen]\n"
+"19947 /usr/lib/postfix/master not confined [neomezen]\n"
+"1328 /usr/sbin/smbd confined [omezen] by '/usr/sbin/smbd (enforce) [vynuceno]"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:235
@@ -296,11 +369,15 @@ msgid ""
 "<literal>confined by</literal> are already protected by <phrase>AppArmor</"
 "phrase>."
 msgstr ""
+"Každý z procesů ve výše uvedeném příkladu, označený "
+"<literal>neomezen</literal>, může vyžadovat uživatelský profil, aby jej "
+"omezil. Ty, které jsou označeny <literal>omezen</literal>, jsou již chráněny "
+"programem <phrase>AppArmor</phrase>."
 
 #. (itstool) path: tip/title
 #: xml/apparmor_start.xml:242 xml/apparmor_start.xml:368
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_start.xml:243
@@ -308,11 +385,13 @@ msgid ""
 "For more information about choosing the right applications to profile, refer "
 "to <xref linkend=\"sec.apparmor.concept.determine\"/>."
 msgstr ""
+"Další informace o správné volbě aplikace pro profil najdete na <xref linkend="
+"\"sec.apparmor.concept.determine\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:250
 msgid "Building and Modifying Profiles"
-msgstr ""
+msgstr "Vytváření a úpravy profilů"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:252
@@ -324,6 +403,13 @@ msgid ""
 "applications. In addition, you can use <phrase>AppArmor</phrase> to create "
 "your own profiles for any application you want."
 msgstr ""
+"<phrase>AppArmor</phrase> na <phrase role=\"productname\"><phrase os=\""
+"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise "
+"Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> se dodává s předkonfigurovanou sadou profilů pro "
+"nejdůležitější aplikace. Kromě toho můžete pomocí aplikace "
+"<phrase>AppArmor</phrase> vytvořit své vlastní profily pro jakoukoli "
+"aplikaci, kterou chcete omezit."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:258
@@ -335,11 +421,18 @@ msgid ""
 "functionality for <phrase>AppArmor</phrase> profiles, while the command line "
 "tools let you update/tune the profiles in a more fine-grained way."
 msgstr ""
+"Existují dva způsoby správy profilů. První je použití grafického rozhraní "
+"poskytovaného moduly YaST <phrase>AppArmor</phrase> a druhý je použití "
+"nástrojů příkazového řádku poskytovaných samotnou sadou "
+"<phrase>AppArmor</phrase>. Hlavní rozdíl spočívá v tom, že YaST podporuje "
+"pouze základní funkce profilů <phrase>AppArmor</phrase>, zatímco nástroje "
+"příkazového řádku umožňují aktualizovat či vyladit profily jemnějším "
+"způsobem."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:267
 msgid "For each application, perform the following steps to create a profile:"
-msgstr ""
+msgstr "Pro každou aplikaci vytvořte profil tímto postupem:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:273
@@ -348,11 +441,14 @@ msgid ""
 "phrase> create a rough outline of the application's profile by running "
 "<command>aa-genprof</command> <replaceable>PROGRAM_NAME</replaceable>."
 msgstr ""
+"Jako uživatel <systemitem class=\"username\">root</systemitem> nechte "
+"<phrase>AppArmor</phrase> vytvořit první nárys profilu aplikace příkazem "
+"<command>aa-genprof</command> <replaceable>NÁZEV_PROGRAMU</replaceable>."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:278
 msgid "<emphasis>or</emphasis>"
-msgstr ""
+msgstr "<emphasis>nebo</emphasis>"
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:281
@@ -363,6 +459,10 @@ msgid ""
 "menuchoice> and specifying the complete path to the application you want to "
 "profile."
 msgstr ""
+"Navrhněte základ profilu pomocí <menuchoice> <guimenu>YaST</guimenu> "
+"<guimenu>Security and Users</guimenu> <guimenu><phrase>AppArmor</phrase> "
+"Konfigurace</guimenu> <guimenu>Přidat profil ručně</guimenu> </menuchoice> a "
+"zadat úplnou cestu k aplikaci, k níž chcete profil vytvořit."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:289
@@ -371,6 +471,9 @@ msgid ""
 "it logs any activity of the program you are executing, but does not yet "
 "restrict it."
 msgstr ""
+"Tím je nový základní profil připraven a spuštěn v režimu učení, což znamená, "
+"že zaznamenává jakoukoli aktivitu programu, který provádíte, ale ještě jej "
+"neomezuje."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:296
@@ -378,6 +481,8 @@ msgid ""
 "Run the full range of the application's actions to let <phrase>AppArmor</"
 "phrase> get a very specific picture of its activities."
 msgstr ""
+"Spusťte úplný sortiment akcí aplikace a nechte program "
+"<phrase>AppArmor</phrase> získat velmi konkrétní obrázek o jejích činnostech."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:302
@@ -385,6 +490,8 @@ msgid ""
 "Let <phrase>AppArmor</phrase> analyze the log files generated in <xref "
 "linkend=\"st.genprof2\"/> by typing <keycap>S</keycap> in aa-genprof."
 msgstr ""
+"Nechte <phrase>AppArmor</phrase> analyzovat soubory protokolů vytvořené v <"
+"xref linkend=\"st.genprof2\"/> zadáním <keycap>S</keycap> do aa-genprof."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:307
@@ -393,6 +500,9 @@ msgid ""
 "application's run and asks you to set the access rights for each event that "
 "was logged. Either set them for each file or use globbing."
 msgstr ""
+"<phrase>AppArmor</phrase> prohledá protokoly zaznamenané při běhu aplikace a "
+"požádá vás o nastavení přístupových práv pro každou zaznamenanou událost. "
+"Buď práva nastavte pro každý soubor, nebo použijte globbing."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:314
@@ -404,6 +514,11 @@ msgid ""
 "application's capabilities, you might be required to repeat this procedure "
 "often."
 msgstr ""
+"V závislosti na složitosti vaší aplikace může být nutné opakovat <xref "
+"linkend=\"st.genprof2\"/> a <xref linkend=\"st.genprof3\"/>. Omezte "
+"aplikaci, spusťte ji za omezujících podmínek a zpracujte všechny nové "
+"události protokolu. Chcete-li správně omezit celý sortiment možností "
+"aplikace, může být potřebné tento postup často opakovat."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:324
@@ -412,6 +527,9 @@ msgid ""
 "enforce mode. The profile is applied and <phrase>AppArmor</phrase> restricts "
 "the application according to it."
 msgstr ""
+"Po dokončení <command>aa-genprof</command> je váš profil nastaven na "
+"vynucený režim. Profil je použit a aplikace <phrase>AppArmor</phrase> "
+"omezuje aplikaci podle něj."
 
 #. (itstool) path: step/para
 #: xml/apparmor_start.xml:329
@@ -423,6 +541,12 @@ msgid ""
 "profiling.summary.complain\"/> and <xref linkend=\"sec.apparmor.commandline."
 "profiling.summary.enforce\"/>."
 msgstr ""
+"Spustíte-li <command>aa-genprof</command> na aplikaci, která měla existující "
+"profil, který byl v režimu stížnosti, zůstává tento profil v režimu učení až "
+"do konce tohoto cyklu učení. Další informace o změně režimu profilu "
+"naleznete na stránkách <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.complain\"/> a <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.enforce\"/>."
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:341
@@ -435,21 +559,29 @@ msgid ""
 "Depending on the log mechanism used on your system, there are several places "
 "to look for <phrase>AppArmor</phrase> log entries:"
 msgstr ""
+"Otestujte nastavení svého profilu provedením všech úkolů, které potřebujete, "
+"s aplikací, kterou jste omezili. Normálně je omezený program spuštěn hladce "
+"a aktivit <phrase>AppArmor</phrase> si ani nevšimnete. Pokud si však v "
+"aplikaci všimnete určitého nesprávného chování, zkontrolujte systémové "
+"protokoly a zjistěte, zda aplikace <phrase>AppArmor</phrase> vaši aplikaci "
+"příliš neomezuje. V závislosti na mechanismu protokolování, používaném ve "
+"vašem systému, existuje několik míst, kde můžete vyhledat položky protokolu "
+"<phrase>AppArmor</phrase>:"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:352
 msgid "<filename>/var/log/audit/audit.log</filename>"
-msgstr ""
+msgstr "<filename>/var/log/audit/audit.log</filename>"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:354
 msgid "The command <command>journalctl | grep -i apparmor</command>"
-msgstr ""
+msgstr "Příkaz <command>journalctl | grep -i apparmor</command>"
 
 #. (itstool) path: simplelist/member
 #: xml/apparmor_start.xml:356
 msgid "The command <command>dmesg -T</command>"
-msgstr ""
+msgstr "Příkaz <command>dmesg -T</command>"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:360
@@ -459,6 +591,10 @@ msgid ""
 "summary.logprof\"/>. Determine the access rights or restrictions when "
 "prompted."
 msgstr ""
+"Chcete-li upravit profil, analyzujte zprávy protokolu týkajícího se této "
+"aplikace znovu, jak je popsáno v <xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.logprof\"/>. Po vyzvání určete "
+"přístupová práva nebo omezení."
 
 #. (itstool) path: tip/para
 #: xml/apparmor_start.xml:369
@@ -467,11 +603,14 @@ msgid ""
 "linkend=\"cha.apparmor.profiles\"/>, <xref linkend=\"cha.apparmor.yast\"/>, "
 "and <xref linkend=\"cha.apparmor.commandline\"/>."
 msgstr ""
+"Více informací o tvorbě a úpravách profilu najdete na <xref linkend=\""
+"cha.apparmor.profiles\"/>, <xref linkend=\"cha.apparmor.yast\"/> a <xref "
+"linkend=\"cha.apparmor.commandline\"/>."
 
 #. (itstool) path: sect1/title
 #: xml/apparmor_start.xml:378
 msgid "Updating Your Profiles"
-msgstr ""
+msgstr "Úpravy Vašich profilů"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_start.xml:380
@@ -485,3 +624,11 @@ msgid ""
 "For more information, see <xref linkend=\"sec.apparmor.commandline.profiling."
 "summary.logprof\"/>."
 msgstr ""
+"Konfigurace softwaru a systému se v průběhu času mění. Výsledkem je, že "
+"nastavení vašeho profilu pro <phrase>AppArmor</phrase> bude občas vyžadovat "
+"jemné doladění. <phrase>AppArmor</phrase> zkontroluje, zda v systémovém "
+"protokolu není porušení zásad nebo jiné události <phrase>AppArmor</phrase> a "
+"umožní odpovídajícím způsobem upravit nastavení vašeho profilu. Každé "
+"chování aplikace, které je mimo definici profilu, lze vyřešit pomocí <command"
+">aa-logprof</command>. Další informace viz<xref linkend=\""
+"sec.apparmor.commandline.profiling.summary.logprof\"/>."

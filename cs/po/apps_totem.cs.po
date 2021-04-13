@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:17+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_totem-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_totem.xml:12
 msgid "GNOME Videos"
-msgstr ""
+msgstr "GNOME Videos"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_totem.xml:16
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: chapter/para
 #: xml/apps_totem.xml:21
@@ -32,31 +36,33 @@ msgid ""
 "GNOME Videos is the default movie player. GNOME Videos provides the "
 "following multimedia features:"
 msgstr ""
+"GNOME Videos je výchozí přehrávač filmů. GNOME Videos nabízí následující "
+"multimediální funkce:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:27
 msgid "Support for a variety of video and audio files"
-msgstr ""
+msgstr "Podpora různých video a zvukových souborů"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:32
 msgid "A variety of zoom levels and aspect ratios, and a full screen view"
-msgstr ""
+msgstr "Různé úrovně přiblížení a poměry stran; zobrazení na celé obrazovce"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:37
 msgid "Seek and volume controls"
-msgstr ""
+msgstr "Ovládání hledání a hlasitosti"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:42
 msgid "Playlists"
-msgstr ""
+msgstr "Přehrávací seznamy"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:47
 msgid "Complete keyboard navigation"
-msgstr ""
+msgstr "Úplná navigace klávesnicí"
 
 #. (itstool) path: chapter/para
 #: xml/apps_totem.xml:65
@@ -64,21 +70,23 @@ msgid ""
 "To start GNOME Videos, open the Activities Overview by pressing <keycap "
 "function=\"meta\"/> and search for <literal>video</literal>."
 msgstr ""
+"Chcete-li spustit GNOME Videos, otevřete Přehled aktivit stisknutím <keycap "
+"function=\"meta\"/> a najděte <literal>video</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_totem.xml:70
 msgid "Using GNOME Videos"
-msgstr ""
+msgstr "Použití GNOME Videos"
 
 #. (itstool) path: sect1/para
 #: xml/apps_totem.xml:72
 msgid "When you start GNOME Videos, the following window is displayed."
-msgstr ""
+msgstr "Po spuštění GNOME Videos se zobrazí následující okno."
 
 #. (itstool) path: figure/title
 #: xml/apps_totem.xml:77
 msgid "GNOME Videos Start-Up Window"
-msgstr ""
+msgstr "Spouštěcí okno GNOME Videos"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -88,12 +96,12 @@ msgstr ""
 #: xml/apps_totem.xml:80 xml/apps_totem.xml:83
 msgctxt "_"
 msgid "external ref='totem_a.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_a.png' md5='__failed__'"
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:89
 msgid "Opening a Video or Audio File"
-msgstr ""
+msgstr "Otevření video nebo audio souboru"
 
 #. (itstool) path: step/para
 #: xml/apps_totem.xml:92
@@ -101,11 +109,15 @@ msgid ""
 "Click <menuchoice><guimenu>Videos</guimenu><guimenu>Open</guimenu></"
 "menuchoice>."
 msgstr ""
+"Klikněte "
+"<menuchoice><guimenu>Videa</guimenu><guimenu>Otevřít</guimenu></menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_totem.xml:98
 msgid "Select the files you want to open, then click <guimenu>Add</guimenu>"
 msgstr ""
+"Vyberte soubory, které chcete otevřít, a klikněte na "
+"<guimenu>Přidat</guimenu>"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:103
@@ -115,11 +127,15 @@ msgid ""
 "or song. GNOME Videos displays the title of the movie or song beneath the "
 "display area and in the titlebar of the window."
 msgstr ""
+"Můžete také přetáhnout soubor z jiné aplikace (např. Správce souborů) do "
+"okna GNOME Videos. GNOME otevře soubor a přehraje film nebo skladbu. GNOME "
+"Videos zobrazuje název filmu nebo skladby pod zobrazenou oblastí a v záhlaví "
+"okna."
 
 #. (itstool) path: note/title
 #: xml/apps_totem.xml:110
 msgid "Unrecognized File Format"
-msgstr ""
+msgstr "Nerozpoznaný formát souboru"
 
 #. (itstool) path: note/para
 #: xml/apps_totem.xml:111
@@ -127,6 +143,8 @@ msgid ""
 "If you try to open a file format that GNOME Videos does not recognize, the "
 "application displays an error message and recommends a suitable codec."
 msgstr ""
+"Pokusíte-li se otevřít soubor formátu, který GNOME Videos nerozpozná, "
+"aplikace zobrazí chybovou zprávu a doporučí vhodný kodek."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:116
@@ -134,11 +152,13 @@ msgid ""
 "You can double-click a video or audio file in GNOME Files to open it in the "
 "GNOME Videos window by default."
 msgstr ""
+"Můžete poklepat na video nebo zvukový soubor v souborech GNOME a ve výchozím "
+"nastavení jej otevřít v okně GNOME Videos."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:123
 msgid "Opening a Video or Audio File By URI Location"
-msgstr ""
+msgstr "Otevření video nebo audio souboru podle umístění URI"
 
 #. (itstool) path: step/para
 #: xml/apps_totem.xml:126
@@ -146,6 +166,8 @@ msgid ""
 "Click <menuchoice><guimenu>Videos</guimenu><guimenu>Open Location</guimenu> "
 "</menuchoice>."
 msgstr ""
+"Klikněte <menuchoice><guimenu>Videa</guimenu><guimenu>Otevřít "
+"umístění</guimenu> </menuchoice>."
 
 #. (itstool) path: step/para
 #: xml/apps_totem.xml:132
@@ -153,11 +175,13 @@ msgid ""
 "Specify the URI location of the file you want to open, then click "
 "<guimenu>Open</guimenu>."
 msgstr ""
+"Určete URI umístění souboru, který chcete otevřít, a klikněte na "
+"<guimenu>Otevřít</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:141
 msgid "Playing a DVD, VCD, or CD"
-msgstr ""
+msgstr "Přehrávat DVD, VCD nebo CD"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:142
@@ -166,6 +190,9 @@ msgid ""
 "computer, then click <menuchoice> <guimenu>Movie</guimenu> <guimenu>Play "
 "Disc</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li přehrát disk DVD, VCD nebo CD, vložte disk do optické jednotky "
+"počítače a poté klikněte na <menuchoice> <guimenu>Film</guimenu> <guimenu>"
+"Přehrát disk</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:147
@@ -173,6 +200,8 @@ msgid ""
 "To eject a DVD, VCD, or CD, click <menuchoice> <guimenu>Movie</guimenu> "
 "<guimenu>Eject</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li vysunout disk DVD, VCD nebo CD, klikněte na <menuchoice> "
+"<guimenu>Film</guimenu> <guimenu>Vysunout</guimenu> </menuchoice>."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -182,7 +211,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_pause_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_pause_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -192,7 +221,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_pause_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_pause_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:151
@@ -208,6 +237,16 @@ msgid ""
 "you pause a movie or song, the statusbar displays <guimenu>Paused</guimenu> "
 "and the time elapsed on the current movie or song."
 msgstr ""
+"Chcete-li pozastavit přehrávaný film nebo skladbu, klikněte na "
+"<inlinemediaobject> <textobject role=\"description\"> <phrase>GNOME Videos "
+"Pause</phrase> </textobject> <imageobject role=\"fo\"> <imagedata fileref=\""
+"totem_pause_button.svg\" width=\"0.8em\" format=\"SVG\"/> </imageobject> <"
+"imageobject role=\"html\"> <imagedata fileref=\"totem_pause_button-fallback."
+"png\" width=\"1em\" format=\"PNG\"/> </imageobject> </inlinemediaobject> "
+"nebo klikněte na <menuchoice> <guimenu>Film</guimenu> <guimenu>Přehrát/"
+"pozastavit</guimenu> </menuchoice>. Při pozastavení filmu nebo skladby se na "
+"stavovém řádku zobrazí <guimenu>Pozastaveno</guimenu> a čas, který uplynul "
+"od aktuálního filmu nebo skladby."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -217,7 +256,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_play_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_play_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -227,7 +266,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_play_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_play_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:158
@@ -241,11 +280,21 @@ msgid ""
 "<menuchoice> <guimenu>Movie</guimenu> <guimenu>Play/Pause</guimenu></"
 "menuchoice>."
 msgstr ""
+"Chcete-li pokračovat v přehrávání filmu nebo skladby, klikněte na "
+"<inlinemediaobject> <textobject role=\"description\"> <phrase>GNOME Videos "
+"Přehrát</phrase> </textobject> <imageobject role=\"fo\"> <imagedata fileref="
+"\"totem_play_button.svg\" width=\"0.8em\" format=\"SVG\"/> </imageobject> <"
+"imageobject role=\"html\"> <imagedata fileref=\"totem_play_button-fallback."
+"png\" width=\"1em\" format=\"PNG\"/> </imageobject> </inlinemediaobject> "
+"nebo klikněte na <menuchoice> <guimenu>Film</guimenu> <guimenu>Přehrát/"
+"Pauza</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:163
 msgid "To play or pause a movie, you can also press <keycap>P</keycap>."
 msgstr ""
+"Chcete-li přehrát nebo pozastavit film, můžete také stisknout klávesu "
+"<keycap>P</keycap>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:166
@@ -255,21 +304,28 @@ msgid ""
 "appear. The dialog contains the title, artist, year, and duration of movie "
 "or song, video dimensions, codec, frame rate, and the audio bit rate."
 msgstr ""
+"Chcete-li zobrazit vlastnosti filmu nebo skladby, klikněte na <menuchoice> "
+"<guimenu>Zobrazit</guimenu> <guimenu>Postranní panel</guimenu> </menuchoice> "
+"a zobrazte postranní panel. Dialog obsahuje název, interpreta, rok a trvání "
+"filmu nebo písně, rozměry videa, kodek, obnovovací kmitočet a přenosovou "
+"rychlost zvuku."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:176
 msgid "Seeking Through Movies or Songs"
-msgstr ""
+msgstr "Hledání filmů nebo písní"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:177
 msgid "To seek through movies or songs, use any of the following methods:"
 msgstr ""
+"Chcete-li vyhledávat filmy nebo písně, použijte některou z následujících "
+"metod:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:182
 msgid "To skip forward"
-msgstr ""
+msgstr "Přeskočit dopředu"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:184
@@ -277,11 +333,13 @@ msgid ""
 "Click <menuchoice> <guimenu>Go</guimenu> <guimenu>Skip Forward</guimenu> </"
 "menuchoice>. Alternatively, use <keycap function=\"left\"/>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Přejít</guimenu> <guimenu>Skok vpřed</guimenu>"
+" </menuchoice>. Alternativně použijte <keycap function=\"left\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:191
 msgid "To skip backward"
-msgstr ""
+msgstr "Přeskočit zpět"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:193
@@ -289,11 +347,13 @@ msgid ""
 "Click <menuchoice> <guimenu>Go</guimenu> <guimenu>Skip Backward</guimenu> </"
 "menuchoice>. Alternatively, use <keycap function=\"right\"/>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Přejít</guimenu> <guimenu>Skok zpět</guimenu> "
+"</menuchoice>. Alternativně použijte <keycap function=\"right\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:201
 msgid "To move to next movie or song"
-msgstr ""
+msgstr "Přechod na další film nebo skladbu"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -303,7 +363,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_next_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_next_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -313,7 +373,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_next_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_next_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:203
@@ -326,11 +386,18 @@ msgid ""
 "\"totem_next_button-fallback.png\" width=\"1em\" format=\"PNG\"/></"
 "imageobject></inlinemediaobject> button."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Přejít</guimenu> na <guimenu>Další "
+"kapitolu/film</guimenu> </menuchoice> nebo klikněte na <inlinemediaobject> <"
+"textobject role=\"description\"> <phrase>GNOME Videos Další</phrase> "
+"</textobject> <imageobject role=\"fo\"> <imagedata fileref=\""
+"totem_next_button.svg\" width=\"0.8em\" format=\"SVG\"/> </imageobject> <"
+"imageobject role=\"html\"> <imagedata fileref=\"totem_next_button-fallback."
+"png\" width=\"1em\" format=\"PNG\"/> </imageobject> </inlinemediaobject>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:210
 msgid "To move to previous movie or song"
-msgstr ""
+msgstr "Přechod na předchozí film nebo skladbu"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -340,7 +407,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_previous_button.svg' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_previous_button.svg' md5='__failed__'"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -350,7 +417,7 @@ msgstr ""
 #: xml/apps_totem.xml:0
 msgctxt "_"
 msgid "external ref='totem_previous_button-fallback.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_previous_button-fallback.png' md5='__failed__'"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:212
@@ -364,11 +431,19 @@ msgid ""
 "\"totem_previous_button-fallback.png\" width=\"1em\" format=\"PNG\"/></"
 "imageobject></inlinemediaobject> button."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu> Přejít </guimenu> na <guimenu>Předchozí "
+"kapitola/film</guimenu> </menuchoice> nebo klikněte na <inlinemediaobject> <"
+"textobject role=\"description\"> <phrase>GNOME Videos Předchozí</phrase> "
+"</textobject> <imageobject role=\"fo\"> <imagedata fileref=\""
+"totem_previous_button.svg\" width=\"0.8em\" format=\"SVG\"/> </imageobject> <"
+"imageobject role=\"html\"> <imagedata fileref=\"totem_previous_button-"
+"fallback.png\" width=\"1em\" format=\"PNG\"/> </imageobject> "
+"</inlinemediaobject>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:223
 msgid "Changing the Zoom Factor"
-msgstr ""
+msgstr "Změna faktoru zvětšení"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:224
@@ -376,11 +451,13 @@ msgid ""
 "To change the zoom factor of the display area, use any of the following "
 "methods:"
 msgstr ""
+"Chcete-li změnit faktor zvětšení oblasti zobrazení, použijte některou z "
+"následujících metod:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:230
 msgid "To zoom to full screen mode"
-msgstr ""
+msgstr "Přiblížení do režimu celé obrazovky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:232
@@ -388,6 +465,9 @@ msgid ""
 "Click <menuchoice> <guimenu>View</guimenu> <guimenu>Fullscreen</guimenu> </"
 "menuchoice>. Alternatively, press <keycap>F</keycap>."
 msgstr ""
+"Klikněte <menuchoice> <guimenu>Zobrazení</guimenu> <guimenu>Celá "
+"obrazovka</guimenu> </menuchoice>. Případně stiskněte klávesu "
+"<keycap>F</keycap>."
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:236
@@ -395,11 +475,13 @@ msgid ""
 "To exit fullscreen mode, click <guimenu>Leave Fullscreen</guimenu> or press "
 "<keycap function=\"escape\"/>."
 msgstr ""
+"Chcete-li ukončit režim celé obrazovky, klikněte na <guimenu>Opustit celou "
+"obrazovku</guimenu> nebo stiskněte <keycap function=\"escape\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:243
 msgid "To zoom to half size (50%) of the original movie or visualization"
-msgstr ""
+msgstr "Přiblížení na poloviční velikost (50%) původního filmu nebo vizualizace"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:245
@@ -407,11 +489,14 @@ msgid ""
 "Click <menuchoice> <guimenu>View</guimenu> <guimenu>Fit Window to Movie</"
 "guimenu> <guimenu>Resize 1:2</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Zobrazení</guimenu> <guimenu>Přizpůsobit "
+"okno filmu</guimenu> <guimenu>Změnit velikost na 1:2 </guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:252
 msgid "To zoom to size (100%) of the original movie or visualization"
-msgstr ""
+msgstr "Změnit na velikost (100%) původního filmu nebo vizualizace"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:254
@@ -419,11 +504,15 @@ msgid ""
 "Click <menuchoice> <guimenu>View</guimenu> <guimenu>Fit Window to Movie</"
 "guimenu> <guimenu>Resize 1:1</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na možnost <menuchoice> <guimenu>Zobrazení</guimenu> <guimenu>"
+"Přizpůsobit okno filmu</guimenu> <guimenu>Změnit velikost na 1:1</guimenu> "
+"</menuchoice>."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:261
 msgid "To zoom to double size (200%) of the original movie or visualization"
 msgstr ""
+"Zvětšit na dvojnásobnou velikost (200%) původního filmu nebo vizualizace"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:263
@@ -431,6 +520,8 @@ msgid ""
 "Click <menuchoice> <guimenu>View</guimenu> <guimenu>Fit Window to Movie </"
 "guimenu> <guimenu>Resize 2:1</guimenu> </menuchoice>."
 msgstr ""
+"Klikněte na <menuchoice> <guimenu>Zobrazení</guimenu> <guimenu>Přizpůsobit "
+"okno filmu</guimenu> <guimenu>Změnit velikost na 2:1</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:270
@@ -438,16 +529,18 @@ msgid ""
 "To switch between different aspect ratios, click <menuchoice> <guimenu>View</"
 "guimenu> <guimenu>Aspect Ratio</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li přepínat mezi různými poměry stran, klikněte na <menuchoice> "
+"<guimenu>Zobrazení</guimenu> <guimenu>Poměr stran</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:274
 msgid "The default aspect ratio is <guimenu>Auto</guimenu>."
-msgstr ""
+msgstr "Výchozí poměr stran je <guimenu>Auto</guimenu>."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:280
 msgid "Showing or Hiding Controls"
-msgstr ""
+msgstr "Zobrazení nebo skrytí ovládacích prvků"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:281
@@ -461,11 +554,20 @@ msgid ""
 "the Show Controls option is not selected, the application hides these "
 "controls and shows only the display area."
 msgstr ""
+"Chcete-li skrýt ovládací prvky okna GNOME Videos, klikněte na <menuchoice> "
+"<guimenu>Zobrazení</guimenu> <guimenu>Zobrazit ovládací prvky</guimenu> "
+"</menuchoice> a zrušte výběr možnosti. Chcete-li zobrazit ovládací prvky v "
+"okně GNOME Videos, klepněte pravým tlačítkem myši na okno a vyberte příkaz "
+"<guimenu>Zobrazit ovládací prvky</guimenu>. Pokud je vybrána možnost "
+"Zobrazit ovládací prvky, GNOME Videos zobrazují v okně menu, posuvník "
+"uplynulého času, tlačítka posunu, posuvník hlasitosti a stavový řádek. Pokud "
+"není vybrána možnost Zobrazit ovládací prvky, aplikace tyto ovládací prvky "
+"skryje a zobrazí pouze oblast zobrazení."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:294
 msgid "Choosing Subtitles"
-msgstr ""
+msgstr "Výběr titulků"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:295
@@ -475,6 +577,10 @@ msgid ""
 "guimenu> </menuchoice>, then select the subtitles language (DVD) or subtitle "
 "file (AVI etc.) you want to display."
 msgstr ""
+"Chcete-li zvolit jazyk titulků, klikněte na <menuchoice> "
+"<guimenu>Zobrazení</guimenu> <guimenu>Titulky</guimenu> <guimenu>Vyberte "
+"textové titulky</guimenu> </menuchoice> a vyberte jazyk titulků (DVD) ) nebo "
+"soubor titulků (AVI atd.), který chcete zobrazit."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:301
@@ -482,6 +588,9 @@ msgid ""
 "To disable the display of subtitles, click <menuchoice> <guimenu>View</"
 "guimenu> <guimenu>Subtitles</guimenu> <guimenu>None</guimenu> </menuchoice>."
 msgstr ""
+"Chcete-li zakázat zobrazení titulků, klikněte na <menuchoice> "
+"<guimenu>Zobrazení</guimenu> <guimenu>Titulky</guimenu> "
+"<guimenu>Žádné</guimenu> </menuchoice>."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:306
@@ -489,6 +598,8 @@ msgid ""
 "By default, GNOME Videos chooses the same language for the subtitles that "
 "you use on your computer."
 msgstr ""
+"Ve výchozím nastavení vybere GNOME Videos stejný jazyk titulků, jaký "
+"používáte v počítači."
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:310
@@ -499,11 +610,16 @@ msgid ""
 "filename>, <filename>txt</filename>, <filename>sub</filename>, "
 "<filename>smi</filename>, or <filename>ssa</filename>."
 msgstr ""
+"GNOME Videos automaticky načte a zobrazí titulky, pokud soubor, který je "
+"obsahuje, má stejný název jako video soubor. Podporuje tyto typy souborů s "
+"titulky (dle přípon): <filename>srt</filename>, <filename>asc</filename>, "
+"<filename>txt</filename>, <filename>sub</filename>, <filename>smi</filename> "
+"a <filename>ssa</filename>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_totem.xml:321
 msgid "Modifying GNOME Videos Preferences"
-msgstr ""
+msgstr "Úprava předvoleb GNOME Videos"
 
 #. (itstool) path: sect1/para
 #: xml/apps_totem.xml:323
@@ -511,11 +627,14 @@ msgid ""
 "To modify GNOME Videos preferences, click <menuchoice> <guimenu>Videos</"
 "guimenu><guimenu>Preferences</guimenu></menuchoice> in the Activities bar.."
 msgstr ""
+"Chcete-li upravit předvolby GNOME Videos, klikněte na <menuchoice> "
+"<guimenu>Videa</guimenu><guimenu>Předvolby</guimenu> </menuchoice> na panelu "
+"Činnosti."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:330
 msgid "General Preferences"
-msgstr ""
+msgstr "Obecné předvolby"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:331
@@ -524,11 +643,14 @@ msgid ""
 "if media files should be played from the last used position, and change the "
 "font and encoding used to display subtitles."
 msgstr ""
+"Obecné předvolby umožňují vybrat rychlost síťového připojení, určit, zda se "
+"mají multimediální soubory přehrávat z poslední použité pozice, a měnit "
+"písmo a kódování používané k zobrazení titulků."
 
 #. (itstool) path: figure/title
 #: xml/apps_totem.xml:337
 msgid "GNOME Videos General Preferences"
-msgstr ""
+msgstr "Obecné předvolby GNOME Videos"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -538,39 +660,40 @@ msgstr ""
 #: xml/apps_totem.xml:340 xml/apps_totem.xml:343
 msgctxt "_"
 msgid "external ref='totem_general.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_general.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:347
 msgid "General Preferences include the following:"
-msgstr ""
+msgstr "Obecné preference obsahují:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:352
 msgid "Playback"
-msgstr ""
+msgstr "Přehrávání"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:354
 msgid ""
 "Lets you specify whether to start playing the movie from the last position."
-msgstr ""
+msgstr "Umožňuje určit, zda se má zahájit přehrávání filmu z poslední pozice."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:361
 msgid "Networking"
-msgstr ""
+msgstr "Síť"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:363
 msgid ""
 "Select network connection speed from the Connection speed drop-down box."
 msgstr ""
+"Z rozbalovací nabídky Rychlost připojení vyberte rychlost síťového připojení."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:369
 msgid "Text Subtitles"
-msgstr ""
+msgstr "Textové titulky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:371
@@ -578,11 +701,13 @@ msgid ""
 "Lets you specify whether to load the subtitles automatically, and change the "
 "font and encoding used to display the subtitles."
 msgstr ""
+"Umožňuje určit, zda se mají titulky načítat automaticky, a změnit písmo a "
+"kódování použité k zobrazení titulků."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:381
 msgid "Display Preferences"
-msgstr ""
+msgstr "Předvolby zobrazení"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:382
@@ -591,11 +716,14 @@ msgid ""
 "when a new video is loaded, change the color balance, and configure visual "
 "effects when an audio file is played."
 msgstr ""
+"Předvolby zobrazení vám umožní automaticky změnit velikost okna při načtení "
+"nového videa, změnit vyvážení barev a konfigurovat vizuální efekty při "
+"přehrávání zvukového souboru."
 
 #. (itstool) path: figure/title
 #: xml/apps_totem.xml:388
 msgid "GNOME Videos Display Preferences"
-msgstr ""
+msgstr "Předvolby zobrazení GNOME Videos"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -605,17 +733,17 @@ msgstr ""
 #: xml/apps_totem.xml:391 xml/apps_totem.xml:394
 msgctxt "_"
 msgid "external ref='totem_display.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_display.png' md5='__failed__'"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:398
 msgid "Display Preferences include the following:"
-msgstr ""
+msgstr "Předvolby zobrazení obsahují:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:403
 msgid "Automatically resize the window when a new video is loaded"
-msgstr ""
+msgstr "Automaticky změnit velikost okna při načtení nového videa"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:405
@@ -623,11 +751,13 @@ msgid ""
 "Select this option if you want GNOME Videos to automatically resize the "
 "window when a new video is loaded."
 msgstr ""
+"Tuto možnost vyberte, pokud chcete, aby GNOME Videos při načítání nového "
+"videa automaticky změnil velikost okna."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:412
 msgid "Disable the screen saver when playing video or audio"
-msgstr ""
+msgstr "Při přehrávání videa nebo zvuku deaktivujte spořič obrazovky"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:414
@@ -635,11 +765,13 @@ msgid ""
 "Select this option if you want GNOME Videos to automatically disable the "
 "desktop screen saver while an audio file is playing."
 msgstr ""
+"Tuto možnost vyberte, chcete-li, aby GNOME Videos automaticky vypnul spořič "
+"obrazovky během přehrávání zvukového souboru."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:421
 msgid "Visual Effects"
-msgstr ""
+msgstr "Vizuální efekty"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:423
@@ -647,31 +779,33 @@ msgid ""
 "You can choose to show visual effects when an audio file is playing, select "
 "the type of visualization you want to show, and the visualization size."
 msgstr ""
+"Při přehrávání zvukového souboru si můžete vybrat, zda chcete zobrazit "
+"vizuální efekty; když ano, zvolte typ a velikost vizualizace."
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_totem.xml:431
 msgid "Color Balance"
-msgstr ""
+msgstr "Vyvážení barev"
 
 #. (itstool) path: listitem/para
 #: xml/apps_totem.xml:433
 msgid "Specify the level of color brightness, contrast, saturation, and hue."
-msgstr ""
+msgstr "Určete úroveň jasu, kontrastu, sytosti a odstínu barev."
 
 #. (itstool) path: sect2/title
 #: xml/apps_totem.xml:442
 msgid "Audio Preferences"
-msgstr ""
+msgstr "Předvolby zvuku"
 
 #. (itstool) path: sect2/para
 #: xml/apps_totem.xml:443
 msgid "The Audio Preferences dialog lets you select the audio output type."
-msgstr ""
+msgstr "Dialog Předvolby zvuku umožňuje vybrat typ zvukového výstupu."
 
 #. (itstool) path: figure/title
 #: xml/apps_totem.xml:447
 msgid "GNOME Videos Audio Preferences"
-msgstr ""
+msgstr "Předvolby zvuku GNOME Videos"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -681,4 +815,4 @@ msgstr ""
 #: xml/apps_totem.xml:450 xml/apps_totem.xml:453
 msgctxt "_"
 msgid "external ref='totem_audio.png' md5='__failed__'"
-msgstr ""
+msgstr "external ref='totem_audio.png' md5='__failed__'"

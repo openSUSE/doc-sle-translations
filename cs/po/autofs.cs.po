@@ -2,29 +2,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-09 18:18+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/autofs-master/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"překladatelské kredity\n"
+"alkas alkas@volny.cz, 2016, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/autofs.xml:9
 msgid "On-Demand Mounting with Autofs"
-msgstr ""
+msgstr "Připojení na žádost s Autofs"
 
 #. (itstool) path: docmanager/translation
 #: xml/autofs.xml:13
 msgid "yes"
-msgstr ""
+msgstr "ano"
 
 #. (itstool) path: abstract/para
 #: xml/autofs.xml:16
@@ -39,11 +43,21 @@ msgid ""
 "systemitem> is a control script, <command>automount</command> is the command "
 "(daemon) that does the actual auto-mounting."
 msgstr ""
+"<systemitem>autofs</systemitem> je program, který automaticky připojuje "
+"zadané adresáře podle potřeby. Je založen na modulu jádra pro vysokou "
+"účinnost a může spravovat místní adresáře i sdílené síťové položky. Tyto "
+"automatické připojovací body jsou připojeny pouze tehdy, je-li přístup k nim "
+"právě potřebný a odpojeny po určité době nečinnosti. Toto připojení \"na "
+"vyžádání\" šetří šířku pásma a vede k lepšímu výkonu než statické připojení "
+"spravované pomocí <filename>/etc/fstab</filename>. Zatímco "
+"<systemitem>autofs</systemitem> je ovládací skript, "
+"<command>automount</command> je příkaz (démon), který provede vlastní "
+"automatické připojení."
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:31
 msgid "Installation"
-msgstr ""
+msgstr "Instalace"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:33
@@ -54,17 +68,23 @@ msgid ""
 "Enterprise Desktop</phrase></phrase> by default. To use its auto-mounting "
 "capabilities, first install it with"
 msgstr ""
+"<systemitem>autofs</systemitem> není standardně instalován na <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>. Chcete-li používat jeho funkce, "
+"nejprve jej nainstalujte příkazem"
 
 #. (itstool) path: sect1/screen
 #: xml/autofs.xml:38
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> sudo zypper install autofs"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> sudo zypper install autofs"
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:41
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurace"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:43
@@ -74,11 +94,16 @@ msgid ""
 "There are two basic steps to configure <systemitem>autofs</systemitem>—the "
 "<emphasis>master</emphasis> map file, and specific map files."
 msgstr ""
+"Je třeba nakonfigurovat <systemitem>autofs</systemitem> ručně úpravou jeho "
+"konfiguračních souborů textovým editorem, například <command>vim</command>. "
+"Pro konfiguraci <systemitem>autofs</systemitem> - "
+"<emphasis>hlavního</emphasis> mapového souboru (master) a konkrétních "
+"mapových souborů se používají dva základní kroky."
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:52
 msgid "The Master Map File"
-msgstr ""
+msgstr "Hlavní mapový soubor"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:53
@@ -91,6 +116,13 @@ msgid ""
 "Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</"
 "phrase><phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>:"
 msgstr ""
+"Výchozí hlavní konfigurační soubor pro <systemitem>autofs</systemitem> je "
+"<filename>/etc/auto.master</filename>. Jeho umístění můžete změnit změnou "
+"hodnoty <option>DEFAULT_MASTER_MAP_NAME</option> v <filename>/etc/sysconfig/"
+"autofs</filename>. Zde je obsah výchozího nastavení pro <phrase role=\""
+"productname\"><phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">"
+"SUSE Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux "
+"Enterprise Desktop</phrase></phrase>:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:60
@@ -119,6 +151,28 @@ msgid ""
 "#\n"
 "+auto.master<co xml:id=\"co.autofs.plus\"/>"
 msgstr ""
+"#\n"
+"# Příklad souboru auto.master\n"
+"# Toto je mapa automounter, má následující formát\n"
+"# klíč [ -volby-mount-oddělené-čárkami ] location\n"
+"# Detaily o formátu: autofs(5).<co xml:id=\"co.autofs.manpage\"/>\n"
+"#\n"
+"#/misc  /etc/auto.misc<co xml:id=\"co.autofs.map\"/>\n"
+"#/net -hosts\n"
+"#\n"
+"# Include /etc/auto.master.d/*.autofs<co xml:id=\"co.autofs.include\"/>\n"
+"#\n"
+"#+dir:/etc/auto.master.d\n"
+"#\n"
+"# Vložit centrální hlavní mapu, dá-li se najít použitím\n"
+"# prostředků nsswitch.\n"
+"#\n"
+"# Existují-li položky pro /net nebo /misc (jako výše)\n"
+"# ve vložené hlavní mapě, pak klíče, které jsou stejné,\n"
+"# nebudou vidět, neboť zobrazení prvního čteného klíče\n"
+"# má přednost.\n"
+"#\n"
+"+auto.master<co xml:id=\"co.autofs.plus\"/>"
 
 #. (itstool) path: callout/para
 #: xml/autofs.xml:84
@@ -127,6 +181,8 @@ msgid ""
 "command>) offers a lot of valuable information on the format of the "
 "automounter maps."
 msgstr ""
+"Stránka manuálu <systemitem>autofs</systemitem> (<command>man 5 "
+"autofs</command>) nabízí mnoho cenných informací o formátu map automounteru."
 
 #. (itstool) path: callout/para
 #: xml/autofs.xml:91
@@ -134,6 +190,8 @@ msgid ""
 "Although commented out (#) by default, this is an example of a simple "
 "automounter mapping syntax."
 msgstr ""
+"Je to příklad jednoduché syntaxe mapování automounteru, i když je ve "
+"výchozím nastavení zakomentován (#)."
 
 #. (itstool) path: callout/para
 #: xml/autofs.xml:97
@@ -142,6 +200,9 @@ msgid ""
 "line, and put the mappings (suffixed with <literal>.autofs</literal>) in the "
 "<filename>/etc/auto.master.d/</filename> directory."
 msgstr ""
+"V případě, že potřebujete rozdělit hlavní mapu na několik souborů, "
+"odkomentujte řádek a vložte mapování (s příponou <literal>.autofs</literal>) "
+"do  adresáře <filename>/etc/auto.master.d/</filename>."
 
 #. (itstool) path: callout/para
 #: xml/autofs.xml:104
@@ -150,6 +211,9 @@ msgid ""
 "\"sles;osuse\">(see <xref linkend=\"sec.nis.server\"/> for more information "
 "on NIS)</phrase> will still find their master map."
 msgstr ""
+"<literal>+auto.master</literal> zajišťuje, že uživatelé používající NIS <"
+"phrase os=\"sles;osuse\"> (další informace o NIS najdete na <xref linkend=\""
+"sec.nis.server\"/>) </phrase> také najdou svou hlavní mapu."
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:111
@@ -157,17 +221,19 @@ msgid ""
 "Entries in <filename>auto.master</filename> have three fields with the "
 "following syntax:"
 msgstr ""
+"Položky ve <filename>auto.master</filename> mají tři pole s následující "
+"syntaxí:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:115
 #, no-wrap
 msgid "mount point      map name      options"
-msgstr ""
+msgstr "přípojný bod      název mapy      možnosti"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:118 xml/autofs.xml:209
 msgid "mount point"
-msgstr ""
+msgstr "přípojný bod (mount point)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:120
@@ -175,11 +241,13 @@ msgid ""
 "The base location where to mount the <systemitem>autofs</systemitem> file "
 "system, such as <literal>/home</literal>."
 msgstr ""
+"Základní umístění, kam se má připojit souborový systém "
+"<systemitem>autofs</systemitem>, například <literal>/home</literal>."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:127
 msgid "map name"
-msgstr ""
+msgstr "název mapy (map name)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:129
@@ -187,11 +255,13 @@ msgid ""
 "The name of a map source to use for mounting. For the syntax of the maps "
 "files, see <xref linkend=\"sec.autofs.mapfiles\"/>."
 msgstr ""
+"Název zdroje mapy, který se má použít pro připojení. Syntaxi souborů map "
+"najdete v <xref linkend=\"sec.autofs.mapfiles\"/>."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:136 xml/autofs.xml:221
 msgid "options"
-msgstr ""
+msgstr "možnosti (options)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:138
@@ -199,11 +269,13 @@ msgid ""
 "These options (if specified) will apply as defaults to all entries in the "
 "given map."
 msgstr ""
+"Tyto možnosti (jsou-li zadány) budou platit jako výchozí pro všechny položky "
+"dané mapy."
 
 #. (itstool) path: tip/title
 #: xml/autofs.xml:146
 msgid "For More Information"
-msgstr ""
+msgstr "Další informace"
 
 #. (itstool) path: tip/para
 #: xml/autofs.xml:147
@@ -213,6 +285,10 @@ msgid ""
 "<literal>options</literal>, see the <guimenu>auto.master</guimenu> manual "
 "page (<command>man 5 auto.master</command>)."
 msgstr ""
+"Podrobnější informace o konkrétních hodnotách volitelného <literal>typu "
+"mapy</literal>, <literal>formátu</literal> a <literal>možnostech</literal> "
+"najdete v <guimenu>auto.master</guimenu> stránka manuálu (<command>man 5 "
+"auto.master</command>)."
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:154
@@ -222,17 +298,21 @@ msgid ""
 "filename>, and create mount points in the <filename>/smb</filename> "
 "directory."
 msgstr ""
+"Následující položka v <filename>auto.master</filename> říká "
+"<systemitem>autofs</systemitem>, aby se podíval do <filename>/etc/"
+"auto.smb</filename> a vytvořil připojovací body v <filename>/smb</filename> "
+"adresář."
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:160
 #, no-wrap
 msgid "/smb   /etc/auto.smb"
-msgstr ""
+msgstr "/smb   /etc/auto.smb"
 
 #. (itstool) path: sect3/title
 #: xml/autofs.xml:162
 msgid "Direct Mounts"
-msgstr ""
+msgstr "Přímé připojení"
 
 #. (itstool) path: sect3/para
 #: xml/autofs.xml:163
@@ -243,17 +323,22 @@ msgid ""
 "example, the following line tells <systemitem>autofs</systemitem> to create "
 "a mount point at the place specified in <filename>auto.smb</filename>:"
 msgstr ""
+"Přímé přípoje vytvářejí přípojný bod na cestě zadané v příslušném souboru "
+"mapy. Místo určení bodu připojení v <filename>auto.master</filename> "
+"nahraďte pole bodu připojení <literal>/-</literal>. Například následující "
+"řádek říká systému <systemitem>autofs</systemitem>, aby vytvořil přípojný "
+"bod na místě uvedeném v <filename>auto.smb</filename>:"
 
 #. (itstool) path: sect3/screen
 #: xml/autofs.xml:171
 #, no-wrap
 msgid "/-        /etc/auto.smb"
-msgstr ""
+msgstr "/-        /etc/auto.smb"
 
 #. (itstool) path: tip/title
 #: xml/autofs.xml:173
 msgid "Maps without Full Path"
-msgstr ""
+msgstr "Mapy bez úplné cesty"
 
 #. (itstool) path: tip/para
 #: xml/autofs.xml:174
@@ -261,22 +346,24 @@ msgid ""
 "If the map file is not specified with its full local or network path, it is "
 "located using the Name Service Switch (NSS) configuration:"
 msgstr ""
+"Není-li soubor mapy zadán s úplnou místní nebo síťovou cestou, je vyhledán "
+"použitím konfigurace přepínače názvové služby (Name Service Switch, NSS):"
 
 #. (itstool) path: tip/screen
 #: xml/autofs.xml:178
 #, no-wrap
 msgid "/-        auto.smb"
-msgstr ""
+msgstr "/-        auto.smb"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:184
 msgid "Map Files"
-msgstr ""
+msgstr "Mapové soubory"
 
 #. (itstool) path: important/title
 #: xml/autofs.xml:186
 msgid "Other Types of Maps"
-msgstr ""
+msgstr "Další typy map"
 
 #. (itstool) path: important/para
 #: xml/autofs.xml:187
@@ -287,6 +374,11 @@ msgid ""
 "query in LDAP or database. For more detailed information on map types, see "
 "the manual page <command>man 5 auto.master</command>."
 msgstr ""
+"Ačkoli <emphasis>soubory</emphasis> jsou nejběžnější typy map pro "
+"automatické připevňování pomocí <systemitem>autofs</systemitem>, existují i "
+"jiné typy. Specifikace mapy může být výstupem příkazu nebo výsledkem dotazu "
+"v LDAP nebo databázi. Podrobnější informace o typech map najdete na stránce "
+"manuálu <command>man 5 auto.master</command>."
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:195
@@ -297,12 +389,16 @@ msgid ""
 "emphasis> appear between the mount point and the location instead of at the "
 "end of the entry:"
 msgstr ""
+"Soubory s mapami určují umístění zdroje (lokálního nebo síťového) a bod "
+"připojení, kam se má zdroj připojit lokálně. Obecný formát map je podobný "
+"hlavní mapě. Rozdíl je v tom, že <emphasis>možnosti</emphasis> se uvádějí "
+"mezi bodem připojení a umístěním místo na konci položky:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:202
 #, no-wrap
 msgid "mount point      options      location"
-msgstr ""
+msgstr "přípojný bod      možnosti      umístění"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:203
@@ -311,6 +407,9 @@ msgid ""
 "executable bits by executing <command>chmod -x <replaceable>MAP_FILE</"
 "replaceable></command>."
 msgstr ""
+"Ujistěte se, že mapové soubory nejsou označeny jako spustitelné. Příznaky "
+"spustitelnosti můžete odebrat spuštěním příkazu <command>chmod "
+"-x<replaceable>MAPOVÝ_SOUBOR</replaceable> </command>."
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:211
@@ -321,6 +420,11 @@ msgid ""
 "the full path of the mount point (direct mount, see <xref linkend=\"sec."
 "autofs.directmount\"/>)."
 msgstr ""
+"Určuje, kam se připojí umístění zdroje. Může to být buď pouhý název adresáře "
+"(takzvané <emphasis>nepřímé</emphasis> připojení), který má být přidán k "
+"základnímu bodu připojení uvedenému ve <filename>auto.master</filename>, "
+"nebo úplná cesta k přípojnému bodu (přímé připojení, viz <xref linkend=\""
+"sec.autofs.directmount\"/>)."
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:223
@@ -329,11 +433,14 @@ msgid ""
 "entries. If <filename>auto.master</filename> contains options for this map "
 "file as well, theses are appended."
 msgstr ""
+"Určuje volitelný seznam možností připojení pro příslušné položky, oddělených "
+"čárkami. Pokud <filename>auto.master</filename> obsahuje také možnosti pro "
+"tento soubor mapy, jsou připojeny."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:231
 msgid "location"
-msgstr ""
+msgstr "umístění"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:233
@@ -344,11 +451,17 @@ msgid ""
 "dev</filename> entries or smbfs shares), a colon symbol ':' needs to be "
 "prefixed, such as <literal>:/dev/sda1</literal>."
 msgstr ""
+"Určuje, odkud má být systém souborů připojen. Obvykle jde o svazek NFS nebo "
+"SMB v obvyklém zápisu <literal>název_hostitele: cesta_ název</literal>. "
+"Začíná-li souborový systém, který má být připojen, znakem „/“ (například "
+"místní položky <filename>/dev</filename> nebo sdílené položky smbfs), je "
+"třeba přidat symbol dvojtečky ':' jako předponu, například <literal>:/dev/"
+"sda1</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:247
 msgid "Operation and Debugging"
-msgstr ""
+msgstr "Provoz a ladění"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:249
@@ -357,11 +470,14 @@ msgid ""
 "<systemitem>autofs</systemitem> service operation, and how to view more "
 "debugging information when tuning the automounter operation."
 msgstr ""
+"V této části jsou uvedeny informace o tom, jak řídit provoz služby "
+"<systemitem>autofs</systemitem> a jak zobrazit více ladicích informací při "
+"ladění provozu automountera."
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:256
 msgid "Controlling the <systemitem>autofs</systemitem> Service"
-msgstr ""
+msgstr "Ovládání služby <systemitem>autofs</systemitem>"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:257
@@ -371,53 +487,59 @@ msgid ""
 "the <command>systemctl</command> command for <systemitem>autofs</systemitem> "
 "is"
 msgstr ""
+"Provoz služby <systemitem>autofs</systemitem> je řízen <systemitem class=\""
+"daemon\">systemd</systemitem>. Obecná syntaxe příkazu "
+"<command>systemctl</command> pro <systemitem>autofs</systemitem> je"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:262
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl <replaceable>SUB_COMMAND</replaceable> autofs"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl "
+"<replaceable>PODPŘÍKAZ</replaceable> autofs"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:263
 msgid "where <replaceable>SUB_COMMAND</replaceable> is one of:"
-msgstr ""
+msgstr "kde <replaceable>PODPŘÍKAZ</replaceable> může být:"
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:268
 msgid "enable"
-msgstr ""
+msgstr "enable (povolit; zapnout; aktivovat)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:270
 msgid "Starts the automounter daemon at boot."
-msgstr ""
+msgstr "Spustí démona automounteru při spuštění systému."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:276
 msgid "start"
-msgstr ""
+msgstr "start"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:278
 msgid "Starts the automounter daemon."
-msgstr ""
+msgstr "Spustí démona automounter."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:284
 msgid "stop"
-msgstr ""
+msgstr "stop"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:286
 msgid ""
 "Stops the automounter daemon. Automatic mount points are not accessible."
 msgstr ""
+"Zastaví démona automounteru. Automatické body připojení nebudou přístupné."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:292
 msgid "status"
-msgstr ""
+msgstr "status (stav)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:294
@@ -425,11 +547,13 @@ msgid ""
 "Prints the current status of the <systemitem>autofs</systemitem> service "
 "together with a part of a relevant log file."
 msgstr ""
+"Vypíše aktuální stav služby <systemitem>autofs</systemitem> společně s částí "
+"příslušného souboru protokolu."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:301
 msgid "restart"
-msgstr ""
+msgstr "restart"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:303
@@ -437,11 +561,12 @@ msgid ""
 "Stops and starts the automounter, terminating all running daemons and "
 "starting new ones."
 msgstr ""
+"Zastaví a spustí automounter, ukončí všechny spuštěné démony a spustí nové."
 
 #. (itstool) path: varlistentry/term
 #: xml/autofs.xml:310
 msgid "reload"
-msgstr ""
+msgstr "reload (znovu zavést)"
 
 #. (itstool) path: listitem/para
 #: xml/autofs.xml:312
@@ -449,11 +574,13 @@ msgid ""
 "Checks the current <filename>auto.master</filename> map, restarts those "
 "daemons whose entries have changed, and starts new ones for new entries."
 msgstr ""
+"Zkontroluje aktuální mapu <filename>auto.master</filename>, restartuje ty "
+"démony, jejichž položky se změnily, a spustí nové pro nové položky."
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:322
 msgid "Debugging the Automounter Problems"
-msgstr ""
+msgstr "Ladění problémů s Automounterem"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:323
@@ -462,17 +589,20 @@ msgid ""
 "<systemitem>autofs</systemitem>, it is useful to run the <command>automount</"
 "command> daemon manually and watch its output messages:"
 msgstr ""
+"Narazíte-li na problémy s připojováním adresářů pomocí "
+"<systemitem>autofs</systemitem>, je užitečné ručně spustit démona "
+"<command>automount</command> a sledovat jeho výstupní zprávy:"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:330
 msgid "Stop <systemitem>autofs</systemitem>."
-msgstr ""
+msgstr "Zastavit <systemitem>autofs</systemitem>."
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:333
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl stop autofs"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> systemctl stop autofs"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:336
@@ -480,12 +610,14 @@ msgid ""
 "From one terminal, run <command>automount</command> manually in the "
 "foreground, producing verbose output."
 msgstr ""
+"Z jednoho terminálu spusťte <command>automount</command> ručně v popředí a "
+"vytvořte podrobný výstup."
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:340
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> automount -f -v"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> automount -f -v"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:343
@@ -494,6 +626,9 @@ msgid ""
 "accessing the mount points (for example by <command>cd</command> or "
 "<command>ls</command>)."
 msgstr ""
+"Z jiného terminálu zkuste připojit systémy automatického připojování souborů "
+"přístupem k přípojným bodům (například <command>cd</command> nebo "
+"<command>ls</command>)."
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:350
@@ -501,11 +636,14 @@ msgid ""
 "Check the output of <command>automount</command> from the first terminal for "
 "more information why the mount failed, or why it was not even attempted."
 msgstr ""
+"Zkontrolujte výstup příkazu <command>automount</command> z prvního "
+"terminálu, kde najdete další informace, proč připojení selhalo nebo proč "
+"nedošlo ani k pokusu o ně."
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:360
 msgid "Auto-Mounting an NFS Share"
-msgstr ""
+msgstr "Automatické připojení sdílené složky NFS"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:362
@@ -515,17 +653,21 @@ msgid ""
 "the information mentioned above, and assumes you are familiar with NFS "
 "exports. For more information on NFS, see <xref linkend=\"cha.nfs\"/>."
 msgstr ""
+"Následující postup ukazuje, jak konfigurovat <systemitem>autofs</systemitem> "
+"pro automatické připojení sdílené složky NFS dostupné ve vaší síti. Využívá "
+"výše zmíněné informace a předpokládá, že jste obeznámeni s exportem NFS. "
+"Další informace o NFS najdete v <xref linkend=\"cha.nfs\"/>."
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:372
 msgid "Edit the master map file <filename>/etc/auto.master</filename>:"
-msgstr ""
+msgstr "Upravte hlavní soubor mapy <filename>/etc/auto.master</filename>:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:375
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/auto.master"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/auto.master"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:376
@@ -533,12 +675,14 @@ msgid ""
 "Add a new entry for the new NFS mount at the end of <filename>/etc/auto."
 "master</filename>:"
 msgstr ""
+"Na konec souboru <filename>/etc/auto.master</filename> přidejte položku "
+"nového připojení NFS:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:380
 #, no-wrap
 msgid "/nfs      /etc/auto.nfs      --timeout=10"
-msgstr ""
+msgstr "/nfs      /etc/auto.nfs      --timeout=10"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:381
@@ -548,17 +692,21 @@ msgid ""
 "etc/auto.nfs</filename> map, and that all shares in this map will be "
 "automatically unmounted after 10 seconds of inactivity."
 msgstr ""
+"Ta říká démonu <systemitem>autofs</systemitem>, že základní bod připojení je "
+"<filename>/nfs</filename>, že sdílené složky NFS jsou uvedeny v mapě "
+"<filename>/etc/auto.nfs</filename> a že všechny sdílené položky na této mapě "
+"budou automaticky odpojeny po 10 sekundách nečinnosti."
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:389
 msgid "Create a new map file for NFS shares:"
-msgstr ""
+msgstr "Vytvořte nový mapový soubor pro sdílení NFS:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:392
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/auto.nfs"
-msgstr ""
+msgstr "<prompt>tux &gt; </prompt><command>sudo</command> vim /etc/auto.nfs"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:393
@@ -568,12 +716,16 @@ msgid ""
 "mapfiles\"/>. Add the line describing the mount point and the NFS share "
 "network address:"
 msgstr ""
+"Soubor <filename>/etc/auto.nfs</filename> obvykle obsahuje samostatný řádek "
+"pro každou sdílenou složku NFS. Jeho formát je popsán v <xref linkend=\""
+"sec.autofs.mapfiles\"/>. Přidejte řádek popisující přípojný bod a síťovou "
+"adresu sdílení NFS:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:399
 #, no-wrap
 msgid "export      jupiter.com:/home/geeko/doc/export"
-msgstr ""
+msgstr "export      jupiter.com:/home/geeko/doc/export"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:400
@@ -585,6 +737,13 @@ msgid ""
 "requested. The <filename>/nfs/export</filename> directory will be created "
 "automatically by <systemitem>autofs</systemitem>."
 msgstr ""
+"Výše uvedený řádek znamená, že adresář <filename>/home/geeko/doc/"
+"export</filename> na hostiteli <literal>jupiter.com</literal> bude "
+"automaticky připojen k adresáři <filename>/nfs/export</filename> na místním "
+"hostiteli adresář (<filename>/nfs</filename> je převzat z mapy "
+"<filename>auto.master</filename>), je-li třeba. Adresář <filename>/nfs/"
+"export</filename> bude automaticky vytvořen démonem "
+"<systemitem>autofs</systemitem>."
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:411
@@ -593,17 +752,21 @@ msgid ""
 "if you previously mounted the same NFS share statically. The line should "
 "look similar to this:"
 msgstr ""
+"Jestliže jste dříve staticky připojili stejnou sdílenou složku NFS, můžete "
+"případně zakomentovat související řádek ve <filename>/etc/fstab</filename>. "
+"Řádek by měl vypadat podobně jako tento:"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:416
 #, no-wrap
 msgid "#jupiter.com:/home/geeko/doc/export /nfs/export nfs defaults 0 0"
-msgstr ""
+msgstr "#jupiter.com:/home/geeko/doc/export /nfs/export nfs defaults 0 0"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:419
 msgid "Reload <systemitem>autofs</systemitem> and check if it works:"
 msgstr ""
+"Znovu načtěte <systemitem>autofs</systemitem> a zkontrolujte, zda funguje:"
 
 #. (itstool) path: step/screen
 #. (itstool) path: sect2/screen
@@ -611,6 +774,7 @@ msgstr ""
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart autofs"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> systemctl restart autofs"
 
 #. (itstool) path: step/screen
 #: xml/autofs.xml:423
@@ -623,6 +787,12 @@ msgid ""
 "drwxr-xr-x  3 1001 users 4096 Aug 30  2017 .tmp/\n"
 "drwxr-xr-x  4 1001 users 4096 Apr 25 08:56 manual/"
 msgstr ""
+"# ls -l /nfs/export  [zkouška]\n"
+"total 20\n"
+"drwxr-xr-x  5 1001 users 4096 Jan 14  2017 .images/\n"
+"drwxr-xr-x 10 1001 users 4096 Aug 16  2017 .profiled/\n"
+"drwxr-xr-x  3 1001 users 4096 Aug 30  2017 .tmp/\n"
+"drwxr-xr-x  4 1001 users 4096 Apr 25 08:56 manual/"
 
 #. (itstool) path: step/para
 #: xml/autofs.xml:429
@@ -630,11 +800,13 @@ msgid ""
 "If you can see the list of files on the remote share, then "
 "<systemitem>autofs</systemitem> is functioning."
 msgstr ""
+"Vypíše-li se seznam souborů ve vzdálené sdílené složce, pak <systemitem> "
+"autofs </systemitem> funguje."
 
 #. (itstool) path: sect1/title
 #: xml/autofs.xml:437
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Pokročilá témata"
 
 #. (itstool) path: sect1/para
 #: xml/autofs.xml:439
@@ -644,11 +816,15 @@ msgid ""
 "available on your network, using wild cards in map files, and information "
 "specific to the CIFS file system."
 msgstr ""
+"Tato část popisuje témata, která přesahují základní úvod k "
+"<systemitem>autofs</systemitem>, tj.: automatické připojení sdílených složek "
+"NFS, které jsou k dispozici ve vaší síti, použití zástupných znaků v "
+"mapových souborech a informace specifické pro systém souborů CIFS."
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:447
 msgid "<filename>/net</filename> Mount Point"
-msgstr ""
+msgstr "<filename>/net</filename> Přípojný bod"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:448
@@ -659,12 +835,17 @@ msgid ""
 "so all you need to do is uncomment it and restart <systemitem>autofs</"
 "systemitem>:"
 msgstr ""
+"Tento pomocný bod připojení je užitečný, když používáte mnoho sdílených "
+"složek NFS. <filename>/net</filename> na požádání automaticky připojí "
+"všechny sdílené položky NFS ve vaší místní síti. Záznam je již v souboru "
+"<filename>auto.master</filename>, takže ho musíte pouze odkomentovat a "
+"restartovat <systemitem>autofs</systemitem>:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:455
 #, no-wrap
 msgid "/net      -hosts"
-msgstr ""
+msgstr "/net      -hosts"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:457
@@ -672,22 +853,25 @@ msgid ""
 "For example, if you have a server named <literal>jupiter</literal> with an "
 "NFS share called <filename>/export</filename>, you can mount it by typing"
 msgstr ""
+"Máte-li například server s názvem <literal>jupiter</literal> se sdílenou "
+"složkou NFS s názvem <filename>/export</filename>, můžete ji připojit zadáním"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:461
 #, no-wrap
 msgid "<prompt>tux &gt; </prompt><command>sudo</command> cd /net/jupiter/export"
 msgstr ""
+"<prompt>tux &gt; </prompt><command>sudo</command> cd /net/jupiter/export"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:462
 msgid "on the command line."
-msgstr ""
+msgstr "na příkazovém řádku."
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:468
 msgid "Using Wild Cards to Auto-Mount Subdirectories"
-msgstr ""
+msgstr "Použití zástupných znaků k automatickému připojení podadresářů"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:469
@@ -697,6 +881,10 @@ msgid ""
 "with individual users' home directories inside— <systemitem>autofs</"
 "systemitem> offers a clever solution for that."
 msgstr ""
+"Máte-li adresář s podadresáři, které je třeba připojit automaticky "
+"jednotlivě - typickým případem je adresář <filename>/home</filename> s "
+"domovskými adresáři jednotlivých uživatelů -, pak "
+"<systemitem>autofs</systemitem> nabízí chytré řešení."
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:475
@@ -704,12 +892,14 @@ msgid ""
 "In case of home directories, add the following line in <filename>auto."
 "master</filename>:"
 msgstr ""
+"V případě domovských adresářů přidejte do <filename>auto.master</filename> "
+"následující řádek:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:479
 #, no-wrap
 msgid "/home      /etc/auto.home"
-msgstr ""
+msgstr "/home      /etc/auto.home"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:480
@@ -718,6 +908,9 @@ msgid ""
 "filename> file, so that the users' home directories are mounted "
 "automatically. One solution is to create separate entries for each directory:"
 msgstr ""
+"Teď musíte do souboru <filename>/etc/auto.home</filename> přidat správné "
+"mapování, aby se domácí adresáře uživatelů připojovaly automaticky. Jedním "
+"řešením je vytvořit samostatné záznamy pro každý adresář:"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:486
@@ -728,6 +921,10 @@ msgid ""
 "tux      jupiter.com:/home/tux\n"
 "[...]"
 msgstr ""
+"wilber      jupiter.com:/home/wilber\n"
+"penguin      jupiter.com:/home/penguin\n"
+"tux      jupiter.com:/home/tux\n"
+"[atd.]"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:490
@@ -737,17 +934,20 @@ msgid ""
 "mount point, and the ampersand '&amp;' instead of the directory to be "
 "mounted:"
 msgstr ""
+"To je velmi nepříjemné, protože potřebujete spravovat seznam uživatelů "
+"uvnitř <filename>auto.home</filename>. Avšak místo připojovacího bodu můžete "
+"použít hvězdičku '*' a místo připojovaného adresáře ampersand '&amp;':"
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:496
 #, no-wrap
 msgid "*      jupiter:/home/&amp;"
-msgstr ""
+msgstr "*      jupiter:/home/&amp;"
 
 #. (itstool) path: sect2/title
 #: xml/autofs.xml:500
 msgid "Auto-Mounting CIFS File System"
-msgstr ""
+msgstr "Automatická instalace systému souborů CIFS"
 
 #. (itstool) path: sect2/para
 #: xml/autofs.xml:501
@@ -757,9 +957,13 @@ msgid ""
 "syntax of the map file. Add <option>-fstype=cifs</option> in the option "
 "field, and prefix the share location with a colon ':'."
 msgstr ""
+"Chcete-li automaticky připojit sdílenou složku SMB/CIFS (další informace o "
+"protokolu SMB/CIFS viz <xref linkend=\"cha.samba\"/>), musíte upravit "
+"syntaxi souboru mapy. Do pole možností přidejte <option>-fstype=cifs</option>"
+" a před místo sdílení vložte dvojtečku ':'."
 
 #. (itstool) path: sect2/screen
 #: xml/autofs.xml:508
 #, no-wrap
 msgid "mount point      -fstype=cifs      ://jupiter.com/export"
-msgstr ""
+msgstr "mount point      -fstype=cifs      ://jupiter.com/export"

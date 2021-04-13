@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_evolution-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_evolution.xml:9
 msgid "Evolution: E-Mailing and Calendaring"
-msgstr ""
+msgstr "Evolution: 電子メールとカレンダー管理"
 
 #. (itstool) path: docmanager/translation
 #: xml/apps_evolution.xml:13
@@ -43,6 +45,8 @@ msgid ""
 "computers, connected directly or over a network, for one person or for large "
 "groups."
 msgstr ""
+"Evolution では電子メールや連絡先、そして 1 つ以上のカレンダーを管理する機能により、集団内での作業を容易にします。個人用のコンピュータから集団"
+"内の共有コンピュータまで幅広く対応し、インターネットに直接接続されている環境でも間接的に接続されているような状況でも、簡単に作業を行なうことができます。"
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:31
@@ -53,6 +57,9 @@ msgid ""
 "you can use advanced features like search folders, which let you save "
 "searches as though they were ordinary e-mail folders."
 msgstr ""
+"Evolution では日々の作業をより素早く行なうことができます。たとえば電子メールで送信された情報を利用して、予定や連絡先を作成することができますし、"
+"逆に連絡先や予定から電子メールを作成することもできます。多数のメールを受信するような環境でも、検索フォルダなどの機能を利用することで、通常の電子メールフォ"
+"ルダよりも素早く目的のものを見つけることができるようになっています。"
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:38
@@ -60,11 +67,13 @@ msgid ""
 "This chapter introduces you to Evolution and helps you get started. For more "
 "details, refer to the Evolution application help."
 msgstr ""
+"本章では、 Evolution の概要説明と使い始めの方法を説明しています。詳しい説明をご希望の場合は、 Evolution "
+"のアプリケーションヘルプをお読みください。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:43
 msgid "Starting Evolution"
-msgstr ""
+msgstr "Evolution の起動"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:45
@@ -76,7 +85,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:58
 msgid "Setup Assistant"
-msgstr ""
+msgstr "セットアップアシスタント"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:60
@@ -84,6 +93,7 @@ msgid ""
 "The first time you start Evolution, it opens an assistant to help you set up "
 "e-mail accounts and import data from other applications."
 msgstr ""
+"Evolution をはじめて起動すると、電子メールアカウントの設定や他のアプリケーションからのデータ取り込みなどを支援する、アシスタントが起動します。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:65
@@ -91,11 +101,12 @@ msgid ""
 "The <guimenu>Evolution Account Assistant</guimenu> helps you provide all the "
 "required information."
 msgstr ""
+"<guimenu>Evolution アカウントアシスタント</guimenu> では、設定に必要な全ての情報を入力するための支援を行ないます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:71
 msgid "Restoring from a Backup File"
-msgstr ""
+msgstr "バックアップファイルからの復元"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:72
@@ -106,6 +117,9 @@ msgid ""
 "activate the restoration option and select the backup file in the file "
 "chooser dialog."
 msgstr ""
+"アシスタントが起動すると、まず <guimenu>ようこそ</guimenu> ページが表示されます。そのまま "
+"<guimenu>バックアップからのリストア</guimenu> ページに進んでください。以前に Evolution "
+"の設定ファイルをバックアップしていて、それを復元したい場合は、対応する復元オプションを設定してファイルボタンを押し、復元するファイルを選択してください。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:79
@@ -115,49 +129,49 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:85
 msgid "Defining Your Identity"
-msgstr ""
+msgstr "識別情報の設定"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:86
 msgid "The <guimenu>Identity</guimenu> page is the next step in the assistant."
-msgstr ""
+msgstr "次は <guimenu>身元情報</guimenu> のページになります。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:91
 msgid "Type your full name in the <guimenu>Full Name</guimenu> field."
-msgstr ""
+msgstr "<guimenu>氏名</guimenu> の欄には、利用者の名前をフルネームで入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:96
 msgid ""
 "Type your e-mail address in the <guimenu>E-mail Address</guimenu> field."
-msgstr ""
+msgstr "<guimenu>メールアドレス</guimenu> の欄には、電子メールアドレスを入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:101
 msgid "(Optional) Type an address in the <guimenu>Reply-To</guimenu> field."
-msgstr ""
+msgstr "(必要であれば) <guimenu>返信先</guimenu> の欄には、返信先として伝えるアドレスを入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:104
 msgid ""
 "Only use this field if you want replies to e-mails from you to be sent to a "
 "different e-mail address."
-msgstr ""
+msgstr "なお、この項目は送信した電子メールに対して相手側が応答を返す際、別のアドレス宛に返信してもらいたい場合に設定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:110
 msgid ""
 "(Optional) Type your organization name in the <guimenu>Organization</"
 "guimenu> field."
-msgstr ""
+msgstr "(必要であれば) <guimenu>組織</guimenu> の欄には、組織名を入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:114
 msgid ""
 "This is the company where you work, or the organization you represent when "
 "you send e-mails."
-msgstr ""
+msgstr "企業名や組織名をこの欄に入力すると、電子メールを送信する際に企業名や組織名が入力された形で送信が行なわれます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:120 xml/apps_evolution.xml:262
@@ -167,19 +181,19 @@ msgstr ""
 #: xml/apps_evolution.xml:708 xml/apps_evolution.xml:734
 #: xml/apps_evolution.xml:766 xml/apps_evolution.xml:858
 msgid "Proceed to the next page."
-msgstr ""
+msgstr "次のページに進みます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:128
 msgid "Receiving Mail"
-msgstr ""
+msgstr "電子メールの受信"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:129
 msgid ""
 "The <guimenu>Receiving E-mail</guimenu> page lets you determine the server "
 "that you want to use to receive e-mail."
-msgstr ""
+msgstr "<guimenu>メールの受信</guimenu> ページでは、電子メールを受信する際に使用するサーバに関する設定を行ないます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:133
@@ -188,18 +202,20 @@ msgid ""
 "are not sure about the type of server, contact your <phrase os=\"sles;sled"
 "\">system administrator or</phrase> e-mail provider."
 msgstr ""
+"まずはメールを受信する際のサーバの種類を選択する必要があります。サーバの種類について詳しくわからない場合は、 <phrase os=\"sles;"
+"sled\">システム管理者もしくは</phrase> 電子メールサービスの提供元にお尋ねください。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:138
 msgid ""
 "Select a server type in the <guimenu>Server Type</guimenu> list. The "
 "following is a list of available server types:"
-msgstr ""
+msgstr "<guimenu>サーバ種別</guimenu> でサーバの種類を選択します。下記は選択可能なサーバ種別の一覧です:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:143
 msgid "Exchange Web Services:"
-msgstr ""
+msgstr "Exchange Web Services:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:144
@@ -213,7 +229,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:154
 msgid "IMAP+:"
-msgstr ""
+msgstr "IMAP+:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:155
@@ -225,7 +241,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:166
 msgid "POP:"
-msgstr ""
+msgstr "POP:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:167
@@ -233,22 +249,24 @@ msgid ""
 "Downloads your e-mail to your hard disk for permanent storage, freeing up "
 "space on the e-mail server."
 msgstr ""
+"電子メールをダウンロードして、お使いのコンピュータのハードディスクに保存するための仕組みです。この場合は、電子メールサーバのディスク領域を占有せずに済むよ"
+"うになっています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:173
 msgid "USENET News:"
-msgstr ""
+msgstr "USENET ニュース:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:174
 msgid ""
 "Connects to a news server and downloads a list of available news digests."
-msgstr ""
+msgstr "ニュースサーバに接続して、利用可能なニュース情報をダウンロードするための仕組みです。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:179
 msgid "Local Delivery:"
-msgstr ""
+msgstr "ローカルの配信:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:180
@@ -258,11 +276,14 @@ msgid ""
 "If you want to leave mail in your system’s spool files, select "
 "<guimenu>Standard Unix Mbox Spool File</guimenu> instead."
 msgstr ""
+"お使いのコンピュータ内のスプールファイルから、電子メールをホームディレクトリ内に移動したい場合は、これを選択してスプールファイルを選択します。コンピュータ"
+"内のスプールファイル内にもメールを残しておきたい場合は、こちらではなく <guimenu>標準的な UNIX の mbox "
+"形式のスプールファイル</guimenu> を選択してください。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:188
 msgid "MH Format Mail Directories:"
-msgstr ""
+msgstr "MH 形式のメールフォルダー:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:189
@@ -275,7 +296,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:196
 msgid "Maildir Format Mail Directories:"
-msgstr ""
+msgstr "Maildir 形式のメールフォルダー:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:197
@@ -284,11 +305,13 @@ msgid ""
 "select this option. You need to provide the path to the mail directory you "
 "want to use."
 msgstr ""
+"Qmail やその他の Maildir "
+"形式のプログラムを利用して電子メールをダウンロードしている場合は、こちらを選択します。こちらの場合も、メールのディレクトリを指定する必要があります。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:204
 msgid "Standard Unix Mbox Spool File or Directory:"
-msgstr ""
+msgstr "標準的な UNIX の mbox 形式のスプールファイル／フォルダー:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:205
@@ -296,30 +319,32 @@ msgid ""
 "To read and store e-mail in the mail spool on your local system, select this "
 "option. You need to provide the path to the mail spool you want to use."
 msgstr ""
+"お使いのコンピュータ内にあるメールスプールファイルを読み書きしたい場合は、このオプションを選択します。こちらの場合も、メールのファイルもしくはディレクトリ"
+"を指定する必要があります。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:212
 msgid "None:"
-msgstr ""
+msgstr "なし:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:213
 msgid ""
 "If you do not plan to check e-mail with this account, select this option. "
 "There are no configuration options."
-msgstr ""
+msgstr "このアカウントでは電子メールをチェックしない場合、このオプションを選択します。こちらについては設定オプションはありません。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:219
 msgid "Configuration Options for IMAP+, POP, and USENET"
-msgstr ""
+msgstr "IMAP+, POP, USENET の設定オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:220
 msgid ""
 "If you selected IMAP+, POP, or USENET News as the server type, you need to "
 "specify additional information."
-msgstr ""
+msgstr "サーバの種類に IMAP+, POP, USENET News を選択している場合は、下記の追加情報を設定する必要があります。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:224 xml/apps_evolution.xml:274
@@ -328,6 +353,8 @@ msgid ""
 "setting, contact your <phrase os=\"sles;sled\">system administrator or</"
 "phrase> e-mail provider."
 msgstr ""
+"サーバのアドレスやユーザ名、セキュリティ設定などがよくわからない場合は、 <phrase os=\"sles;sled\""
+">システム管理者もしくは</phrase> 電子メールサービスの提供元にお尋ねください。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:231
@@ -366,18 +393,20 @@ msgid ""
 "Therefore clicking this button is not a guarantee that the shown mechanisms "
 "actually work."
 msgstr ""
+"サーバによっては、どのような認証方式に対応しているのかを通知しないサーバもあります。そのため、このボタンを押して選択しても、その認証方式がうまく動作しない"
+"場合がありますので、あらかじめご了承ください。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:269
 msgid "Configuration Options for Exchange Web Services"
-msgstr ""
+msgstr "Exchange Web Services の設定オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:270
 msgid ""
 "If you selected Exchange Web Services as the server type, you need to "
 "specify additional information."
-msgstr ""
+msgstr "サーバの種類に Exchange Web Services を選択している場合は、下記の追加情報を設定する必要があります。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:287
@@ -413,7 +442,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:322
 msgid "Local Configuration Options"
-msgstr ""
+msgstr "ローカル配信の設定オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:323
@@ -427,38 +456,38 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:333
 msgid "Receiving Options"
-msgstr ""
+msgstr "受信オプション"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:334
 msgid ""
 "After you have selected a mail delivery mechanism, you can set some "
 "preferences for its behavior."
-msgstr ""
+msgstr "メールの受信方法を選択したら、あとは必要に応じてその他のオプションを設定します。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:339
 msgid "IMAP+ Receiving Options"
-msgstr ""
+msgstr "IMAP+ の受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:340
 msgid ""
 "If you selected IMAP+ as the receiving server type, you will now see a page "
 "of options to specify the behavior of Evolution."
-msgstr ""
+msgstr "サーバの種類に IMAP+ を選択している場合は、 Evolution の動作を設定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:346 xml/apps_evolution.xml:460
 #: xml/apps_evolution.xml:513 xml/apps_evolution.xml:575
 msgid "You can choose from the following options:"
-msgstr ""
+msgstr "下記のオプションを設定することができます:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:351 xml/apps_evolution.xml:465
 #: xml/apps_evolution.xml:518 xml/apps_evolution.xml:580
 msgid "<guimenu>Check for new messages every ... minutes</guimenu>"
-msgstr ""
+msgstr "<guimenu>新着メールをチェックする周期</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:354 xml/apps_evolution.xml:468
@@ -466,44 +495,44 @@ msgstr ""
 msgid ""
 "Select if you want Evolution to automatically check for new mail. Set how "
 "often to check."
-msgstr ""
+msgstr "Evolution が新しいメールをチェックする間隔 (頻度) を指定します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:361 xml/apps_evolution.xml:590
 msgid "<guimenu>Check for new message in all folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>すべてのフォルダーで新しいメッセージがないかチェックする</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:364 xml/apps_evolution.xml:593
 msgid "Select if you want to check for new messages in all folders."
-msgstr ""
+msgstr "全てのフォルダに対して新しいメッセージをチェックしたい場合は、こちらを選択します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:370
 msgid "<guimenu>Check for new message in subscribed folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>購読しているフォルダーの新着メールをチェックする</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:373
 msgid "Select if you want to check for new messages in subscribed folders."
-msgstr ""
+msgstr "購読しているフォルダ内の新着メッセージをチェックしたい場合は、これを選択します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:379
 msgid "<guimenu>Use Quick Resync if the server supports it</guimenu>"
-msgstr ""
+msgstr "<guimenu>サーバーがサポートするときは Quick Resync を使用する</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:382
 msgid ""
 "Select to use Quick Resync which makes browsing mail faster on supported "
 "servers."
-msgstr ""
+msgstr "対応しているサーバでメールを素早く参照するため、 Quick Resync を使用する場合は、こちらを選択します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:389 xml/apps_evolution.xml:599
 msgid "<guimenu>Listen for server change notifications</guimenu>"
-msgstr ""
+msgstr "<guimenu>Listen for server change notifications</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:392 xml/apps_evolution.xml:602
@@ -517,12 +546,12 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:401
 msgid "<guimenu>Show only subscribed folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>購読しているフォルダーだけ表示する</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:404
 msgid "Select if you want Evolution to show only subscribed folders."
-msgstr ""
+msgstr "Evolution に対して購読しているフォルダのみを表示させたい場合は、こちらを選択します。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:407
@@ -531,12 +560,14 @@ msgid ""
 "folders shown in Evolution and to reduce the amount of mail that is "
 "downloaded."
 msgstr ""
+"フォルダの購読を解除することで、 Evolution "
+"内に多くの不要なフォルダが表示されてしまう問題を解決することができるほか、メールのダウンロード量を減らすことにもなります。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:415 xml/apps_evolution.xml:528
 #: xml/apps_evolution.xml:611
 msgid "<guimenu>Apply filters to new messages in all folders</guimenu>"
-msgstr ""
+msgstr "<guimenu>すべてのフォルダーの新着メッセージにフィルターを適用する</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:418
@@ -544,11 +575,13 @@ msgid ""
 "Select if you want to apply filters to new messages, and whether to do so in "
 "all folders or only in the Inbox folder."
 msgstr ""
+"新しいメッセージに対してフィルタを適用したい場合や、全てのフォルダに対してフィルタを適用したい場合、もしくは受信箱フォルダのみにフィルタを適用したい場合は"
+"、それぞれ対応するオプションを選択します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:425 xml/apps_evolution.xml:620
 msgid "<guimenu>Check new messages for Junk contents</guimenu>"
-msgstr ""
+msgstr "<guimenu>新着メールにスパムが含まれているかチェックする</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:428 xml/apps_evolution.xml:623
@@ -556,33 +589,35 @@ msgid ""
 "Select if you want to check new messages for junk content, and whether to do "
 "so in all folders or only in the Inbox folder."
 msgstr ""
+"全てのフォルダに対して、もしくは受信箱内のみに対して、新着メッセージがスパム (迷惑メール) "
+"であるかどうかをチェックしたい場合は、こちらにチェックを入れます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:435 xml/apps_evolution.xml:630
 msgid "<guimenu>Automatically synchronize remote mail locally</guimenu>"
-msgstr ""
+msgstr "<guimenu>Automatically synchronize remote mail locally</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:438 xml/apps_evolution.xml:633
 msgid "Select this to download all your mail, so you can read it offline."
-msgstr ""
+msgstr "全てのメールをダウンロードしたい場合は、こちらを選択します。これにより、オフラインでも読むことができるようになります。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:453
 msgid "POP Receiving Options"
-msgstr ""
+msgstr "POP の受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:454
 msgid ""
 "If you selected POP as the receiving server type, you will now see a page of "
 "options to specify the behavior of Evolution."
-msgstr ""
+msgstr "サーバの種類に POP を選択している場合は、 Evolution の動作を設定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:475
 msgid "<guimenu>Leave messages on server</guimenu>"
-msgstr ""
+msgstr "<guimenu>サーバーにメッセージを残す</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:478
@@ -591,11 +626,13 @@ msgid ""
 "when you download it to your computer. You can also set a period of time for "
 "which the messages will be kept on the server after they were downloaded."
 msgstr ""
+"サーバ内に全ての電子メールを残しておきたい場合や、コンピュータにダウンロードした後、一定期間の経過を待って削除したい場合は、こちらを選択します。こちらでは"
+"期間を指定することができるほか、 Evolution 側で削除したメールについて、サーバ側でも削除するよう指定することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:487
 msgid "<guimenu>Disable support for all POP3 extensions</guimenu>"
-msgstr ""
+msgstr "<guimenu>すべての POP3 拡張サポートを無効にする</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:490
@@ -603,11 +640,12 @@ msgid ""
 "Disabling POP3 extensions can help with old or misconfigured servers. Select "
 "if you have trouble receiving mail."
 msgstr ""
+"POP3 拡張を無効化することで、古いサーバや設定の誤っているサーバで正しく動作するようになります。メールの受信がうまくいかない場合にお試しください。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:506
 msgid "USENET News Receiving Options"
-msgstr ""
+msgstr "USENET News の受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:507
@@ -615,16 +653,17 @@ msgid ""
 "If you selected USENET News as the receiving server type, you will now see a "
 "page of options to specify the behavior of Evolution."
 msgstr ""
+"サーバの種類に USENET News を選択している場合は、 Evolution の動作を設定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:531 xml/apps_evolution.xml:614
 msgid "Select if you want to apply filters to new messages."
-msgstr ""
+msgstr "新しいメッセージに対してフィルタを適用したい場合は、こちらを選択します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:537
 msgid "<guimenu>Show folders in short notations</guimenu>"
-msgstr ""
+msgstr "<guimenu>フォルダー名を短く表記する</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:540
@@ -637,7 +676,7 @@ msgstr ""
 #: xml/apps_evolution.xml:548
 msgid ""
 "<guimenu>In the subscription dialog, show relative folder names</guimenu>"
-msgstr ""
+msgstr "<guimenu>関連するフォルダー名を購読ダイアログに表示する</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:551
@@ -650,7 +689,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:568
 msgid "Exchange Web Services Receiving Options"
-msgstr ""
+msgstr "Exchange Web Services の受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:569
@@ -658,21 +697,23 @@ msgid ""
 "If you selected Exchange Web Services as the receiving server type, you will "
 "now see a page of options to specify the behavior of Evolution."
 msgstr ""
+"サーバの種類に Exchange Web Services を選択している場合は、 Evolution "
+"の動作を設定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:639
 msgid "<guimenu>Connection timeout (in seconds)</guimenu>"
-msgstr ""
+msgstr "<guimenu>接続タイムアウト (秒単位)</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:642
 msgid "Set maximum time to wait for an answer from the server."
-msgstr ""
+msgstr "サーバからの応答を待つ際の最大時間を指定します。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:648
 msgid "<guimenu>Cache offline address book</guimenu>"
-msgstr ""
+msgstr "<guimenu>オフラインアドレス帳をキャッシュ</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:651
@@ -680,11 +721,13 @@ msgid ""
 "If you provided an OAB URL in the prior step, you can select caching an "
 "address book. This will make the address book available when offline."
 msgstr ""
+"以前の手順で OAB URL を指定している場合は、アドレス帳をキャッシュするかどうかを選択することができます。こちらを選択することで、オフライン時にもア"
+"ドレス帳を利用できるようになります。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:668
 msgid "Local Delivery Receiving Options"
-msgstr ""
+msgstr "ローカル配信の受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:669
@@ -692,6 +735,7 @@ msgid ""
 "If you selected that you want to receive mail through Local Delivery, you "
 "will now see a page of options to specify the behavior of Evolution."
 msgstr ""
+"ローカルの配信を通じて電子メールを受信するように選択している場合は、 Evolution の動作を指定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:675 xml/apps_evolution.xml:697
@@ -700,11 +744,12 @@ msgid ""
 "Select <guimenu>Check for new messages every ... minutes</guimenu> if you "
 "want Evolution to automatically check for new mail. Set how often to check."
 msgstr ""
+"<guimenu>新着メールをチェックする周期</guimenu> では、 Evolution が新しいメールをチェックする間隔 (頻度) を指定します。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:689
 msgid "MH-Format Mail Directories Receiving Options"
-msgstr ""
+msgstr "MH 形式のメールフォルダの受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:690
@@ -713,6 +758,8 @@ msgid ""
 "Directories, you will now see a page of options to specify the behavior of "
 "Evolution."
 msgstr ""
+"MH 形式のメールディレクトリを通じて電子メールを受信するように選択している場合は、 Evolution "
+"の動作を指定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:702
@@ -720,11 +767,13 @@ msgid ""
 "Select <guimenu>Use the .folders summary file</guimenu> to use the "
 "<filename>.folders</filename> summary file."
 msgstr ""
+"<filename>.folders</filename> ファイルにある概要情報を使用したい場合は、 <guimenu>Use the "
+".folders summary file</guimenu> を選択します。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:715
 msgid "Maildir-Format Mail Directories Receiving Options"
-msgstr ""
+msgstr "Maildir 形式のメールフォルダの受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:716
@@ -733,6 +782,8 @@ msgid ""
 "Directories, you will now see a page of options to specify the behavior of "
 "Evolution."
 msgstr ""
+"Maildir 形式のメールディレクトリを通じて電子メールを受信するように選択している場合は、 Evolution "
+"の動作を指定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:728 xml/apps_evolution.xml:754
@@ -740,11 +791,12 @@ msgid ""
 "Select <guimenu>Apply filters to new messages in Inbox</guimenu> if you want "
 "to apply filters to new messages."
 msgstr ""
+"新しいメッセージに対してフィルタを適用したい場合は、 <guimenu>受信箱にある新着メールにフィルターを適用する</guimenu> を選択します。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:741
 msgid "Standard Unix Mbox Spool or Directory Receiving Options"
-msgstr ""
+msgstr "標準的な UNIX の mbox 形式のスプールファイル／ディレクトリの受信オプション"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:742
@@ -753,6 +805,8 @@ msgid ""
 "or Directories, you will now see a page of options to specify the behavior "
 "of Evolution."
 msgstr ""
+"Unix mbox スプールファイルもしくはディレクトリを通じて電子メールを受信するように選択している場合は、 Evolution "
+"の動作を指定するための下記のオプションページが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:760
@@ -760,11 +814,13 @@ msgid ""
 "Select <guimenu>Store status headers in Elm/Pine/Mutt format</guimenu> to "
 "store status headers in a way compatible with Elm, Pine, and Mutt."
 msgstr ""
+"Elm, Pine, Mutt などとの互換性があるステータスヘッダを書き込みたい場合は、 <guimenu>ステータスヘッダーを Elm/Pine/"
+"Mutt 形式で格納する</guimenu> を選択します。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:775
 msgid "Sending Mail"
-msgstr ""
+msgstr "メールの送信"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:776
@@ -778,17 +834,17 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:783
 msgid "Select a server type from the <guimenu>Server Type</guimenu> list."
-msgstr ""
+msgstr "<guimenu>サーバ種別</guimenu> でサーバの種類を選択します。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:786
 msgid "The following server types are available:"
-msgstr ""
+msgstr "下記は選択可能なサーバ種別の一覧です:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:790
 msgid "Sendmail:"
-msgstr ""
+msgstr "Sendmail:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:791
@@ -797,11 +853,13 @@ msgid ""
 "flexible, but is not as easy to configure, so you should select this option "
 "only if you know how to set up a Sendmail service."
 msgstr ""
+"sendmail プログラムを利用して、お使いのコンピュータから電子メールを送信します。 sendmail "
+"は非常に柔軟なプログラムですが、設定は容易ではありません。そのためこのオプションは、 sendmail の設定方法をご存じの場合にのみ選択すべきです。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:798
 msgid "SMTP:"
-msgstr ""
+msgstr "SMTP:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:799
@@ -809,16 +867,18 @@ msgid ""
 "Sends mail using a separate mail server. This is the most common choice for "
 "sending mail. If you choose SMTP, there are additional configuration options."
 msgstr ""
+"指定したメールサーバ経由で電子メールを送信します。通常はこちらを選択するのが最適です。また、 SMTP "
+"を指定した場合、追加のオプションを設定することができます。"
 
 #. (itstool) path: procedure/title
 #: xml/apps_evolution.xml:806
 msgid "SMTP Configuration"
-msgstr ""
+msgstr "SMTP の設定"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:808
 msgid "Type the host address in the <guimenu>Server</guimenu> field."
-msgstr ""
+msgstr "<guimenu>サーバー</guimenu> 欄には、サーバのホスト名を入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:811
@@ -826,30 +886,35 @@ msgid ""
 "If you are not sure what your host address is, contact your <phrase os="
 "\"sles;sled\">system administrator or</phrase> e-mail provider."
 msgstr ""
+"サーバのホスト名がわからない場合は、 <phrase os=\"sles;sled\">システム管理者もしくは</phrase> "
+"電子メールサービスの提供元にお尋ねください。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:817
 msgid "Select if your server requires authentication."
-msgstr ""
+msgstr "サーバに対して認証を行なうかどうかを選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:820
 msgid ""
 "If you selected that your server requires authentication, you need to "
 "provide the following information:"
-msgstr ""
+msgstr "お使いのサーバで認証が必要な場合は、下記の情報についても設定する必要があります:"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:832
 msgid ""
 "Select your authentication type in the <guimenu>Authentication</guimenu> "
 "list."
-msgstr ""
+msgstr "<guimenu>認証</guimenu> には認証方法を指定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:836
 msgid "or"
 msgstr ""
+"\"\n"
+"  <!-- nothing to be translated -->\n"
+"\""
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:839
@@ -857,6 +922,8 @@ msgid ""
 "Click <guimenu>Check for Supported Types</guimenu> to have Evolution check "
 "for supported types. Then choose one of the options without a strikeout."
 msgstr ""
+"どのような方式に対応しているのかを Evolution 側で調べたい場合は、 <guimenu>サポートしているかチェック</guimenu> "
+"を押します。対応していないものには取消線が書かれますので、取消線のないものの中から選択してください。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:844
@@ -865,16 +932,18 @@ msgid ""
 "Therefore, clicking this button is not a guarantee that the shown mechanisms "
 "actually work."
 msgstr ""
+"サーバによっては、どのような認証方式に対応しているのかを通知しないサーバもあります。そのため、このボタンを押して選択しても、その認証方式がうまく動作しない"
+"場合がありますので、あらかじめご了承ください。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:851
 msgid "Type your user name in the <guimenu>Username</guimenu> field."
-msgstr ""
+msgstr "<guimenu>ユーザー名</guimenu> には、利用するユーザ名を入力します。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:866
 msgid "Final Steps"
-msgstr ""
+msgstr "最終ステップ"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:867
@@ -884,6 +953,8 @@ msgid ""
 "account name on the <guimenu>Name</guimenu> field. Proceed to the next page "
 "and confirm your changes."
 msgstr ""
+"これで電子メールの設定作業が完了します。最後にアカウントに対する名前を <guimenu>名前</guimenu> "
+"欄に入力してください。ここにはお好きな名前を入力していただいてかまいません。次のページに進むと、設定を完了することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:873
@@ -892,16 +963,18 @@ msgid ""
 "passwords and whether you want to save them or want to always enter them "
 "when starting Evolution."
 msgstr ""
+"なお、設定の内容にもよりますが、何らかのサーバに接続するよう設定している場合は、サーバに対するパスワードの入力を求められ、そのパスワードを "
+"Evolution 側に保存しておくかどうか、もしくは毎回 Evolution の起動時に入力するようにするのかを選択することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:878
 msgid "The Evolution main window will then open for the first time."
-msgstr ""
+msgstr "これで Evolution のメインウインドウが表示されるようになります。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:884
 msgid "Using Evolution"
-msgstr ""
+msgstr "Evolution の使用"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:886
@@ -910,11 +983,12 @@ msgid ""
 "using Evolution. This section sums up the most important parts of the user "
 "interface."
 msgstr ""
+"初回起動時の設定作業が完了すると、 Evolution をお使いいただけるようになります。本章では、ユーザインターフェイスのうち主なものを紹介しています。"
 
 #. (itstool) path: figure/title
 #: xml/apps_evolution.xml:893
 msgid "Evolution Window"
-msgstr ""
+msgstr "Evolution のウインドウ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -929,18 +1003,18 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:906
 msgid "Menu Bar"
-msgstr ""
+msgstr "メニューバー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:908
 msgid ""
 "The menu bar gives you access to nearly all of the features of Evolution."
-msgstr ""
+msgstr "メニューバーを利用することで、 Evolution に含まれているほぼ全ての機能を使用することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:914
 msgid "Folder List"
-msgstr ""
+msgstr "フォルダリスト"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:916
@@ -949,23 +1023,25 @@ msgid ""
 "To see the contents of a folder, click the folder name. The contents are "
 "displayed in the e-mail list."
 msgstr ""
+"フォルダリストには、それぞれのアカウントで利用できるフォルダが一覧表示されます。フォルダの内容を表示したい場合は、フォルダ名の箇所をマウスの左ボタンで選択"
+"してください。すると、右側のメッセージリスト内に内容が表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:924
 msgid "Toolbar"
-msgstr ""
+msgstr "ツールバー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:926
 msgid ""
 "The toolbar gives you fast and easy access to the frequently used features "
 "in each component."
-msgstr ""
+msgstr "ツールバーには、各コンポーネントでよく使用される機能が用意されています。これにより、機能を素早く簡単に使用することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:933
 msgid "Search Bar"
-msgstr ""
+msgstr "検索バー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:935
@@ -975,11 +1051,13 @@ msgid ""
 "a search term, and an account or folder. The Search bar can also save "
 "frequently used searches to a search folder."
 msgstr ""
+"検索バーは電子メールを検索するための手段です。ラベルや検索語句、アカウントやフォルダなどを条件に指定して電子メールや連絡先、予定表の項目をフィルタすること"
+"ができます。また検索バーには、よく使用する検索を検索フォルダとして保存する機能も用意されています。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:944 xml/apps_evolution.xml:1188
 msgid "Message List"
-msgstr ""
+msgstr "メッセージリスト"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:946
@@ -987,30 +1065,32 @@ msgid ""
 "The message list displays a list of e-mails that you have received. To view "
 "an e-mail in the preview pane, select the e-mail."
 msgstr ""
+"メッセージリストには、現在までに受信している電子メールの一覧が表示されます。プレビューペイン内に電子メールの内容を表示したい場合は、マウスの左ボタンで選択"
+"してください。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:953
 msgid "Shortcut Bar"
-msgstr ""
+msgstr "ショートカットバー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:955
 msgid ""
 "The shortcut bar at the left lets you switch between folders and program "
 "components."
-msgstr ""
+msgstr "左側にあるショートカットバーを利用することで、フォルダとコンポーネントを切り替えることができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:962
 msgid "Statusbar"
-msgstr ""
+msgstr "ステータスバー"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:964
 msgid ""
 "The statusbar periodically displays a message, or informs you about the "
 "progress of a task, such as sending e-mail."
-msgstr ""
+msgstr "ステータスバーは定期的にメッセージを表示するためのもので、たとえばメールの送信など、処理の進捗状況を表示します。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:968
@@ -1019,35 +1099,37 @@ msgid ""
 "Online/Offline indicator to switch between being using Evolution in online "
 "or offline mode."
 msgstr ""
+"いちばん左にはオンライン／オフラインインジケータが用意されています。このインジケータのアイコンを押すことで、オンラインモードとオフラインモードを切り替える"
+"ことができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:976 xml/apps_evolution.xml:1200
 msgid "Preview Pane"
-msgstr ""
+msgstr "プレビューペイン"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:978
 msgid ""
 "The preview pane displays the contents of the e-mails that are selected in "
 "the e-mail list."
-msgstr ""
+msgstr "プレビューペインには、メッセージリスト内で選択した電子メールの内容が表示されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:987
 msgid "The Menu Bar"
-msgstr ""
+msgstr "メニューバー"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:988
 msgid ""
 "The menu bar’s contents always provide all the possible actions for any view "
 "of your data."
-msgstr ""
+msgstr "メニューバーの項目には、その時点で利用可能な全てのアクションが含まれています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:993
 msgid "File:"
-msgstr ""
+msgstr "ファイル:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:994
@@ -1056,73 +1138,75 @@ msgid ""
 "falls under this menu, such as creating things, saving them to disk, "
 "printing them, and quitting the program itself."
 msgstr ""
+"ファイルに関連する処理や、アプリケーション全体に関する処理が含まれています。たとえば電子メールなどの作成やそれらのディスクへの保存、印刷やプログラムの終了"
+"などの機能が提供されています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1001
 msgid "Edit:"
-msgstr ""
+msgstr "編集:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1002
 msgid "Contains tools to edit text and most configuration options."
-msgstr ""
+msgstr "テキストを編集するためのツールと、ほとんどの設定オプションが提供されています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1007
 msgid "View:"
-msgstr ""
+msgstr "表示:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1008
 msgid "Allows configuring the appearance of Evolution."
-msgstr ""
+msgstr "Evolution の外観を設定することができます。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1013
 msgid "Message:"
-msgstr ""
+msgstr "メッセージ:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1014
 msgid "Contains actions that can be applied to a message."
-msgstr ""
+msgstr "メッセージに対して適用可能な処理が含まれています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1019
 msgid "Folder:"
-msgstr ""
+msgstr "フォルダー:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1020
 msgid "Contains actions that can be performed on folders."
-msgstr ""
+msgstr "フォルダに対して適用可能な処理が含まれています。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1025
 msgid "Search:"
-msgstr ""
+msgstr "検索:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1026
 msgid ""
 "Lets you search for messages, or phrases within a message. You can also see "
 "previous searches you have made."
-msgstr ""
+msgstr "メッセージに対する検索だけでなく、メッセージ内の語句検索も行なうことができます。また、以前に行なった検索項目も表示されます。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1032
 msgid "Help:"
-msgstr ""
+msgstr "ヘルプ:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1033
 msgid "Opens the Evolution application help."
-msgstr ""
+msgstr "Evolution のアプリケーションヘルプを表示します。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1040
 msgid "The Shortcut Bar"
-msgstr ""
+msgstr "ショートカットバー"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1041
@@ -1132,6 +1216,8 @@ msgid ""
 "buttons at the bottom are shortcuts to the individual components, such as "
 "Mail and Contacts."
 msgstr ""
+"ショートカットバーはメインウインドウの左側に表示されています。上部には選択したコンポーネント内のフォルダの一覧が表示され、その下にはメールや連絡先など、そ"
+"れぞれのコンポーネントのボタンが用意されています。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1047
@@ -1151,16 +1237,18 @@ msgid ""
 "it. In Evolution, you can create own e-mail folders, address books, "
 "calendars, task lists, or memo lists."
 msgstr ""
+"多数の電子メールを受信するような環境の場合、それらをうまくまとめておく手段が必要となります。 Evolution "
+"では、電子メールのフォルダやアドレス帳、カレンダーやタスクリスト、メモリストなどを作成してまとめることができます。"
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:1062
 msgid "Creating a folder"
-msgstr ""
+msgstr "フォルダの作成"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1063
 msgid "To create a new folder:"
-msgstr ""
+msgstr "新しいフォルダを作成するには、下記の手順を実施します:"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1068
@@ -1173,12 +1261,12 @@ msgstr ""
 #: xml/apps_evolution.xml:1074
 msgid ""
 "Type the name of the folder in the <guimenu>Folder Name</guimenu> field."
-msgstr ""
+msgstr "<guimenu>フォルダー名</guimenu> の欄にフォルダの名前を入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1079
 msgid "Select the location of the new folder."
-msgstr ""
+msgstr "新しいフォルダの配置場所を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:1084
@@ -1188,14 +1276,14 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:1091
 msgid "Folder Management"
-msgstr ""
+msgstr "フォルダの管理"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1092
 msgid ""
 "Right-click a folder or subfolder to display a menu with the following "
 "options:"
-msgstr ""
+msgstr "フォルダもしくはサブフォルダをマウスの右ボタンで選択すると、下記のオプションが含まれるメニューが表示されます:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1097
@@ -1205,7 +1293,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1098
 msgid "Marks all the messages in the folder as read."
-msgstr ""
+msgstr "対象のフォルダ内にある全てのメッセージを読んだことにします。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1103
@@ -1215,7 +1303,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1104
 msgid "Creates a new folder or subfolder in the same location."
-msgstr ""
+msgstr "指定した場所に新しいフォルダもしくはサブフォルダを作成します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1109
@@ -1227,7 +1315,7 @@ msgstr ""
 msgid ""
 "Copies the folder to a different location. When you select this item, "
 "Evolution offers a choice of locations to copy the folder to."
-msgstr ""
+msgstr "フォルダを別の場所にコピーします。この項目を選択した場合は、 Evolution はコピー先のフォルダを選択するように促します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1116
@@ -1237,7 +1325,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1117
 msgid "Moves the folder to another location."
-msgstr ""
+msgstr "フォルダを別の場所に移動します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1122
@@ -1247,7 +1335,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1123
 msgid "Deletes the folder and all contents."
-msgstr ""
+msgstr "フォルダとその全ての中身を削除します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1128
@@ -1257,33 +1345,35 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1129
 msgid "Lets you change the name of the folder."
-msgstr ""
+msgstr "フォルダの名前を変更することができます。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1134
 msgid "Refresh:"
-msgstr ""
+msgstr "更新:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1135
 msgid "Refreshes the folder."
-msgstr ""
+msgstr "フォルダの表示を更新します。"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:1140
 msgid "Properties:"
-msgstr ""
+msgstr "プロパティ:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:1141
 msgid "Shows the number of total and unread messages in a folder."
-msgstr ""
+msgstr "フォルダ内の全メッセージ数と、まだ読んでいないメッセージ数を表示します。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1145
 msgid ""
 "You can also rearrange folders and messages by dragging and dropping them."
 msgstr ""
+"フォルダやメッセージをマウスの左ボタンで選択し、ボタンを押したまま別の場所まで移動させる (ドラッグ＆ドロップ) "
+"ことで、フォルダやメッセージの並べ替えを行なうことができます。"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:1148
@@ -1291,41 +1381,42 @@ msgid ""
 "Any time new e-mail arrives in an e-mail folder, that folder label is "
 "displayed in bold text, along with the number of new messages in that folder."
 msgstr ""
+"電子メールフォルダ内に新しいメールが到着すると、対象のフォルダのラベルが太文字で表示されるようになります。また、未読メッセージの数も表示されます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1157
 msgid "Using E-Mail"
-msgstr ""
+msgstr "電子メールの使用"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1158
 msgid "The e-mail component of Evolution has the following standout features:"
-msgstr ""
+msgstr "Evolution の電子メールコンポーネントには、下記のような特長があります:"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1163
 msgid "It supports multiple e-mail sources from many protocols."
-msgstr ""
+msgstr "多数のプロトコルに対応し、複数の電子メールサービスにアクセスすることができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1168
 msgid "It lets you guard your privacy with encryption."
-msgstr ""
+msgstr "暗号化によって、プライバシーの保護を行なうことができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1173
 msgid "It can speedily handle large amounts of e-mail."
-msgstr ""
+msgstr "多数の電子メールを素早く処理することができます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1178
 msgid "Search folders allow you to come back to often-used searches."
-msgstr ""
+msgstr "検索フォルダの仕組みにより、よく使用する検索をすぐに実施することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1183
 msgid "Below is a summary of the user interface elements of the e-mail window."
-msgstr ""
+msgstr "下記には、電子メールウインドウ内のユーザインターフェイス要素の概要説明を記しています。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1190
@@ -1335,11 +1426,14 @@ msgid ""
 "the <guimenu>Show</guimenu> drop-down box above the message you can filter "
 "the message list view using predefined and custom labels."
 msgstr ""
+"メッセージリストには全ての電子メールが表示されます。未読のもののほか、既読のものも、削除するよう選択したものも表示されます。メッセージの上部にある "
+"<guimenu>表示</guimenu> "
+"ドロップダウンボックスを利用することで、あらかじめ設定されたラベルや独自のラベルを利用して一覧をフィルタすることもできます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1202
 msgid "This is where your e-mail is displayed."
-msgstr ""
+msgstr "ここには電子メールの内容が表示されます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1205
@@ -1349,6 +1443,9 @@ msgid ""
 "open in a new window. To change the size of a pane, drag the divider between "
 "the two panes."
 msgstr ""
+"プレビューペインが小さく表示されすぎている場合は、ペインをサイズ変更することができるほか、ウインドウ全体に広げたりすることもできます。また、メッセージリス"
+"ト内で電子メールをダブルクリックすると、新しいウインドウ内に電子メールが表示されるようになります。なお、ペインのサイズを変更するには、ペインの境界線部分を"
+"ドラッグしてください。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1211
@@ -1357,6 +1454,8 @@ msgid ""
 "menu of possible actions. This includes moving or deleting them, creating "
 "filters or search folders based on them, and marking them as junk mail."
 msgstr ""
+"フォルダと同様にメッセージリスト内でも、電子メールを選んでマウスの右ボタンを押すことで、適用可能なアクションの一覧を表示することができます。これには移動や"
+"削除のほか、新しいフィルタの作成やそれらをベースにした検索フォルダの作成、ジャンク (迷惑メール) としてのマーキングなどの機能が含まれます。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1217
@@ -1369,7 +1468,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1225
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1227
@@ -1377,11 +1476,12 @@ msgid ""
 "Evolution allows you to create and edit message templates that you can use "
 "at any time to send mail with the same pattern."
 msgstr ""
+"Evolution には、同じパターンで電子メールを送信することのできるテンプレート機能が用意されています。ここでは作成や編集を行なうことができます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1237
 msgid "Calendaring"
-msgstr ""
+msgstr "カレンダー"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1238
@@ -1392,21 +1492,25 @@ msgid ""
 "where you can keep a list of tasks separate from your calendar appointments. "
 "Below that, there is a list for memos."
 msgstr ""
+"カレンダーを使い始めるには、ショートカットバーで <guimenu>カレンダー</guimenu> "
+"を選択します。既定では、カレンダーには今日のスケジュールが表示され、右上には <guimenu>タスク</guimenu> "
+"リストが表示されます。タスクリストは、予定とは関係のない <quote>やるべきこと</quote> のリストです。 <!-- NOTE: "
+"provided separatedly --> <!-- その下にはメモもあります。 -->"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1247
 msgid "Appointment List"
-msgstr ""
+msgstr "予定リスト"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1249
 msgid "The appointment list displays all your scheduled appointments."
-msgstr ""
+msgstr "予定リストには、全ての予定情報が表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1255
 msgid "Month Pane"
-msgstr ""
+msgstr "月ペイン"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1257
@@ -1414,12 +1518,12 @@ msgid ""
 "The month pane is a small view of a calendar month. You can also select a "
 "range of days in the month pane to display a custom range of days in the "
 "appointment list."
-msgstr ""
+msgstr "月ペインはカレンダーの月を表示する小さなビューです。月ペイン内で日付や週、月などを選択すると、対応する範囲の予定一覧を表示することができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1265
 msgid "Tasks"
-msgstr ""
+msgstr "タスク"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1267
@@ -1428,11 +1532,13 @@ msgid ""
 "times associated with them. You can see a larger view of your task list by "
 "clicking <guimenu>Tasks</guimenu> in the shortcut bar."
 msgstr ""
+"タスクとは、予定のように時間に縛られていない作業項目のことです。ショートカットバー内の <guimenu>タスク</guimenu> "
+"を選択すると、より広い画面でタスクを表示させることができます。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_evolution.xml:1275
 msgid "Memos"
-msgstr ""
+msgstr "メモ"
 
 #. (itstool) path: listitem/para
 #: xml/apps_evolution.xml:1277
@@ -1441,11 +1547,13 @@ msgid ""
 "larger view of your Memo list by clicking <guimenu>Memos</guimenu> in the "
 "shortcut bar."
 msgstr ""
+"メモはタスクと同様、時間に縛られていない項目を表わします。ショートカットバー内の <guimenu>メモ</guimenu> "
+"を選択すると、より広い画面でメモを表示させることができます。"
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1288
 msgid "Managing Contacts"
-msgstr ""
+msgstr "連絡先の管理"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1289
@@ -1454,6 +1562,8 @@ msgid ""
 "shortcut bar. The Evolution contacts component can handle all of the "
 "functions of an address book or phone book."
 msgstr ""
+"連絡先コンポーネントを使用するには、ショートカットバーで <guimenu>連絡先</guimenu> を選択します。 Evolution "
+"の連絡先コンポーネントでは、アドレス帳や電話帳に存在する全ての機能を利用することができます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1294
@@ -1463,6 +1573,9 @@ msgid ""
 "right-click an e-mail address or double-click an empty space in the right "
 "pane. You can also search contacts using the search bar."
 msgstr ""
+"さらに、紙のアドレス帳よりも便利な機能を提供します。ネットワーク内でアドレス帳を共有したい場合は、 LDAP のディレクトリをお使いいただくことができます"
+"。新しい連絡先を作成するには、電子メールアドレスの箇所でマウスの右ボタンを押すか、右側のペイン内の何もない場所でダブルクリックしてください。検索バーでは、"
+"連絡先の検索を行なうこともできます。"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1300
@@ -1471,11 +1584,12 @@ msgid ""
 "card-based view. You can select other views from the <guimenu>View</guimenu> "
 "menu."
 msgstr ""
+"既定では、連絡先はアルファベット順に表示します。一覧で表示したい場合は、 <guimenu>表示</guimenu> 内で表示方法を選択してください。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:1308
 msgid "For More Information"
-msgstr ""
+msgstr "さらなる情報"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:1310

@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:50+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_librecalc-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apps_librecalc.xml:8
@@ -49,7 +51,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apps_librecalc.xml:30
 msgid "VBA Macros"
-msgstr ""
+msgstr "VBA マクロについて"
 
 #. (itstool) path: note/para
 #: xml/apps_librecalc.xml:31
@@ -58,21 +60,23 @@ msgid ""
 "VBA macros is not complete. When opening an Excel spreadsheet that makes "
 "heavy use of macros, you might discover that some do not work."
 msgstr ""
+"Calc では Excel 文書内にある多数の VBA マクロを処理することができます。ただし、 VBA マクロへの対応は完全ではありません。"
+"マクロを多用した Excel 表計算文書を開く場合は、その内容によって修正を行なう必要に迫られることがあります。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:38
 msgid "Creating a New Document"
-msgstr ""
+msgstr "新規文書の作成"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:40
 msgid "There are two ways to create a new Calc document:"
-msgstr ""
+msgstr "新規に Calc の文書を作成する際は、下記のいずれかを行ないます:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_librecalc.xml:47
 msgid "From Scratch"
-msgstr ""
+msgstr "何もない状態からの作成"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librecalc.xml:48
@@ -84,7 +88,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_librecalc.xml:57
 msgid "From a Template"
-msgstr ""
+msgstr "テンプレートを利用した作成"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_librecalc.xml:58
@@ -101,7 +105,7 @@ msgstr ""
 msgid ""
 "Access the individual sheets by clicking their respective tabs at the bottom "
 "of the window."
-msgstr ""
+msgstr "ウインドウの下部にあるタブを押すことで、それぞれのシートを表示させることができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:75
@@ -116,7 +120,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:84
 msgid "Using Formatting and Styles in Calc"
-msgstr ""
+msgstr "Calc での書式とスタイルの使用"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:86
@@ -126,11 +130,13 @@ msgid ""
 "are adequate for many uses, you will probably find it useful to create "
 "styles for your own frequently used formatting preferences."
 msgstr ""
+"Calc には表計算文書やレポートの外観を改善するための内蔵セルスタイルおよび内蔵ページスタイルがいくつか用意されています。これらの内蔵スタイルはほとんど"
+"の用途で十分なものですが、よく使用するような書式設定があるような場合は、独自にスタイルを作成してもかまいません。"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:94
 msgid "Creating a Style"
-msgstr ""
+msgstr "スタイルの作成"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:96
@@ -160,7 +166,7 @@ msgstr ""
 msgid ""
 "Specify a name for the style and use the various tabs to set the desired "
 "formatting options."
-msgstr ""
+msgstr "スタイルに設定する名前を指定し、様々なタブ内にある書式オプションを設定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:122 xml/apps_librecalc.xml:155
@@ -170,7 +176,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:129
 msgid "Modifying a Style"
-msgstr ""
+msgstr "スタイルの編集"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:131
@@ -189,7 +195,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:150
 msgid "Change the desired formatting options."
-msgstr ""
+msgstr "あとは必要な変更作業を実施します。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:161
@@ -198,11 +204,13 @@ msgid ""
 "Then double-click the style you want to apply in the <guimenu>Styles and "
 "Formatting</guimenu> window."
 msgstr ""
+"特定のセルに対してスタイルを適用するには、まず適用先のセルを選択します。あとは <guimenu>スタイルと書式</guimenu> "
+"ウインドウ内でいずれかのスタイルを選んで、ダブルクリックします。"
 
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:168
 msgid "Working With Sheets"
-msgstr ""
+msgstr "シートでの作業"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:170
@@ -211,25 +219,27 @@ msgid ""
 "have a business, accounting might be much clearer if you create a sheet for "
 "each month."
 msgstr ""
+"シートは計算情報をまとめるための適切な方法です。たとえば仕事で利用している場合、月ごとにシートを分けて保存しておくことで、利益や費用などをよりわかりやすく"
+"管理することができます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:176
 msgid ""
 "To insert a new sheet after the last sheet, click the button <guimenu>+</"
 "guimenu> next to the sheet tabs."
-msgstr ""
+msgstr "末尾のシートの後ろに新しいシートを挿入するには、シートタブの隣にある <guimenu>+</guimenu> ボタンを押します。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:181
 msgid ""
 "To insert one or more new sheets into your spreadsheet from a file or at a "
 "specific position at once, do the following:"
-msgstr ""
+msgstr "複数の新しいシートを一括で挿入したり、もしくはファイルからシートを挿入したり、もしくは特定の場所に挿入したりしたい場合は、下記を実施します:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:187
 msgid "Inserting New Sheets"
-msgstr ""
+msgstr "新しいシートの挿入"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:189
@@ -243,7 +253,7 @@ msgstr ""
 msgid ""
 "Decide whether the new sheet should be positioned before or after the "
 "selected sheet."
-msgstr ""
+msgstr "まずは新しいシートの配置場所 (選択したシートの前に追加するのか、後ろに追加するのか) を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:201
@@ -252,11 +262,13 @@ msgid ""
 "button is activated. Enter the number of sheets and the sheet name. Skip the "
 "rest of this step."
 msgstr ""
+"新しいシートを作成する場合は、 <guimenu>新しく作成</guimenu> "
+"のラジオボタンが選択されていることを確認します。また、作成するシート数とシート名をそれぞれ設定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:206
 msgid "Alternatively, to import a sheet from another file, do the following:"
-msgstr ""
+msgstr "他のファイルからシートを取り込む場合は、下記のようにして行ないます:"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:211
@@ -277,6 +289,8 @@ msgid ""
 "Select the sheet names you want to import by holding the <keycap function="
 "\"shift\"/> key and clicking them."
 msgstr ""
+"取り込みたいシートを選択します。選択の際、 <keycap function=\"shift\"/> "
+"を押しながら選択すると、複数のシートを選択することができます。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:230
@@ -304,7 +318,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:251
 msgid "Conditional Formatting"
-msgstr ""
+msgstr "条件付き書式"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:253
@@ -318,7 +332,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: xml/apps_librecalc.xml:261
 msgid "Enable AutoCalculate"
-msgstr ""
+msgstr "自動計算の有効化について"
 
 #. (itstool) path: note/para
 #: xml/apps_librecalc.xml:262
@@ -332,7 +346,7 @@ msgstr ""
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:271
 msgid "Using Conditional Formatting"
-msgstr ""
+msgstr "条件付き書式の使用"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:273
@@ -347,7 +361,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:283
 msgid "Select the cell range where you want to apply your condition."
-msgstr ""
+msgstr "条件付き書式を適用するセルの範囲を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:288
@@ -356,18 +370,20 @@ msgid ""
 "Formatting</guimenu> <guimenu>Condition</guimenu> </menuchoice> from the "
 "menu. A dialog opens."
 msgstr ""
+"メニューから、 <menuchoice> <guimenu>書式</guimenu> <guimenu>条件付き</guimenu> "
+"<guimenu>条件</guimenu> </menuchoice> を選択します。すると、ダイアログが表示されます。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:295
 msgid ""
 "You now see a template for a new condition. Conditions can operate in "
 "multiple modes:"
-msgstr ""
+msgstr "新しい条件に対するテンプレートが表示されます。条件として設定可能な選択肢は下記の通りです:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:301
 msgid "<guimenu>Cell value is</guimenu>"
-msgstr ""
+msgstr "<guimenu>セルの値が</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:304
@@ -380,7 +396,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:313
 msgid "<guimenu>Formula is</guimenu>"
-msgstr ""
+msgstr "<guimenu>数式が</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:316
@@ -391,17 +407,17 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:323
 msgid "<guimenu>Date is</guimenu>"
-msgstr ""
+msgstr "<guimenu>日付が</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:326
 msgid "The condition tests if a certain date value is reached."
-msgstr ""
+msgstr "特定の日付に到達しているかどうかをテストする条件です。"
 
 #. (itstool) path: varlistentry/term
 #: xml/apps_librecalc.xml:332
 msgid "<guimenu>All Cells</guimenu>"
-msgstr ""
+msgstr "<guimenu>すべてのセルが</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:335
@@ -419,6 +435,8 @@ msgid ""
 "color), data bars (bars with changing width in the cell) and icon sets (an "
 "icon in the cell)."
 msgstr ""
+"使用できるスタイルの種類には、カラースケール (セルの背景色) やデータバー (セル内で幅の異なるバー) 、アイコンセット (セル内のアイコン) "
+"があります。"
 
 #. (itstool) path: listitem/para
 #: xml/apps_librecalc.xml:346
@@ -428,6 +446,9 @@ msgid ""
 "between are calculated automatically. For example, <literal>50</literal> "
 "receives a dark green background."
 msgstr ""
+"カラースケールとは、たとえば <literal>0</literal> に対しては黒い背景色を、 <literal>100</literal> "
+"に対しては緑色の背景色を設定したりすることができます。その間の値に対しては自動的に計算され、たとえば <literal>50</literal> "
+"であれば暗い緑色の背景が割り当てられます。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:357
@@ -437,7 +458,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:362
 msgid "Select an operator and the value of the cell you want to test for."
-msgstr ""
+msgstr "演算子を選択し、比較対象の値を入力します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:367
@@ -445,6 +466,8 @@ msgid ""
 "Choose the style you want to apply when this condition is <literal>true</"
 "literal> or click <guimenu>New Style</guimenu> to define a new appearance."
 msgstr ""
+"その条件に合致する (<literal>true</literal>) 場合に適用したいスタイルを選択するか、 "
+"<guimenu>新しいスタイル</guimenu> を選択して新しい外観を指定します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:374
@@ -462,7 +485,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:393
 msgid "Grouping and Ungrouping Cells"
-msgstr ""
+msgstr "セルのグループ化とグループ化解除"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:395
@@ -472,21 +495,23 @@ msgid ""
 "currently interested in. It is possible to group rows or columns and nest "
 "groups in other groups."
 msgstr ""
+"セルの範囲をグループ化することで、表計算内の一部を隠蔽することができます。これにより、注目して欲しい箇所以外を隠すことができますので、表計算文書が読みやす"
+"くなります。行や列をグループ化することができるほか、他のグループ内に別のグループを入れ子にすることもできます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:402
 msgid "To group a range, proceed as follows:"
-msgstr ""
+msgstr "範囲をグループ化するには、下記の手順を行ないます:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:407
 msgid "Grouping a Selected Cell Range"
-msgstr ""
+msgstr "選択した範囲のセルに対するグループ化"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:409
 msgid "Select a cell range in your spreadsheet."
-msgstr ""
+msgstr "表計算文書内で、セルの範囲を選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:414
@@ -510,6 +535,9 @@ msgid ""
 "<guimenu>+</guimenu> and <guimenu>–</guimenu> icons. The numbers at the top "
 "left of the margins display the depth of your groups and can be clicked too."
 msgstr ""
+"セルをグループ化すると、左もしくは上の余白にグループ化されたことを示す線が表示されるようになります。また、 <guimenu>+</guimenu> や "
+"<guimenu>–</guimenu> のアイコンを押すことで、展開や集約を行なうことができます。さらに、左上の余白に表示された数字により、特定のレベル"
+"まで展開もしくは集約を行なうこともできます。"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:435
@@ -523,7 +551,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_librecalc.xml:443
 msgid "Freezing Rows or Columns as Headers"
-msgstr ""
+msgstr "ヘッダとしての列もしくは行の固定化"
 
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:445
@@ -536,12 +564,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:451
 msgid "To freeze a single row or a single column, proceed as follows:"
-msgstr ""
+msgstr "行だけ、もしくは列だけを固定したい場合は、下記のようにして行ないます:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:456
 msgid "Freezing a Single Row or Column"
-msgstr ""
+msgstr "行もしくは列の固定"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:458
@@ -569,12 +597,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: xml/apps_librecalc.xml:477
 msgid "It is also possible to freeze both rows and columns:"
-msgstr ""
+msgstr "行と列の両方を固定することもできます:"
 
 #. (itstool) path: procedure/title
 #: xml/apps_librecalc.xml:482
 msgid "Freezing Row and Column"
-msgstr ""
+msgstr "行と列の固定"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:484
@@ -583,6 +611,8 @@ msgid ""
 "frozen. For example, if your header occupies the space from A1 to B3, click "
 "cell C4."
 msgstr ""
+"固定したい行の下、かつ固定したい列の右側のセルを選択します。たとえばヘッダが A1 から B3 までの範囲に書かれている場合は、 C4 "
+"のセルを選択します。"
 
 #. (itstool) path: step/para
 #: xml/apps_librecalc.xml:491

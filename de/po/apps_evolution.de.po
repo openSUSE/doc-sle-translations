@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:28+0200\n"
-"PO-Revision-Date: 2018-09-30 01:28+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-13 13:47+0000\n"
+"Last-Translator: Jens Maucher <jens.maucher@gmx.de>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apps_evolution-master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Übersetzer-Credits"
 
 #. (itstool) path: chapter/title
 #: xml/apps_evolution.xml:9
@@ -24,7 +26,7 @@ msgstr ""
 #. (itstool) path: docmanager/translation
 #: xml/apps_evolution.xml:13
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:16
@@ -34,6 +36,10 @@ msgid ""
 "others. It is a professional groupware program and an important part of the "
 "Internet-connected desktop."
 msgstr ""
+"Die Evolution macht das Speichern, Organisieren und Abrufen Ihrer "
+"persönlichen Daten einfach, so dass Sie effektiver arbeiten und mit anderen "
+"kommunizieren können. Es ist ein professionelles Groupware-Programm und ein "
+"wichtiger Teil des mit dem Internet verbundenen Desktops."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:25
@@ -43,6 +49,10 @@ msgid ""
 "computers, connected directly or over a network, for one person or for large "
 "groups."
 msgstr ""
+"Evolution kann Ihnen bei der Arbeit in einer Gruppe helfen, indem es E-Mail, "
+"Kontaktinformationen und einen oder mehrere Kalender verwaltet. Dies kann "
+"auf einem oder mehreren Computern geschehen, die direkt oder über ein "
+"Netzwerk verbunden sind, für eine Person oder für große Gruppen."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:31
@@ -53,6 +63,12 @@ msgid ""
 "you can use advanced features like search folders, which let you save "
 "searches as though they were ordinary e-mail folders."
 msgstr ""
+"Evolution hilft Ihnen, gängige tägliche Aufgaben schnell zu erledigen. So "
+"können Sie z.B. Termin- oder Kontaktinformationen, die Ihnen per E-Mail "
+"zugeschickt wurden, einfach wiederverwenden oder E-Mails an einen Kontakt "
+"oder Termin senden. Wenn Sie viele E-Mails erhalten, können Sie erweiterte "
+"Funktionen wie Suchordner verwenden, mit denen Sie Suchvorgänge speichern "
+"können, als wären es gewöhnliche E-Mail-Ordner."
 
 #. (itstool) path: chapter/para
 #: xml/apps_evolution.xml:38
@@ -60,11 +76,13 @@ msgid ""
 "This chapter introduces you to Evolution and helps you get started. For more "
 "details, refer to the Evolution application help."
 msgstr ""
+"Dieses Kapitel führt Sie in Evolution ein und hilft Ihnen beim Einstieg. "
+"Weitere Einzelheiten finden Sie in der Hilfe zur Anwendung von Evolution."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:43
 msgid "Starting Evolution"
-msgstr ""
+msgstr "Evolution starten"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:45
@@ -72,11 +90,14 @@ msgid ""
 "To start Evolution, , open the Activities Overview by pressing <keycap "
 "function=\"meta\"/> and search for <literal>evol</literal>."
 msgstr ""
+"Um Evolution zu starten, öffnen Sie die Übersicht der Aktivitäten durch "
+"Drücken von <keycap function=\"meta\"/> und suchen Sie nach "
+"<literal>evol</literal>."
 
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:58
 msgid "Setup Assistant"
-msgstr ""
+msgstr "Einrichtungs-Assistent"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:60
@@ -84,6 +105,9 @@ msgid ""
 "The first time you start Evolution, it opens an assistant to help you set up "
 "e-mail accounts and import data from other applications."
 msgstr ""
+"Wenn Sie Evolution zum ersten Mal starten, wird ein Assistent geöffnet, der "
+"Sie beim Einrichten von E-Mail-Konten und beim Import von Daten aus anderen "
+"Anwendungen unterstützt."
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:65
@@ -95,7 +119,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:71
 msgid "Restoring from a Backup File"
-msgstr ""
+msgstr "Wiederherstellen aus einer Sicherungsdatei"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:72
@@ -106,11 +130,17 @@ msgid ""
 "activate the restoration option and select the backup file in the file "
 "chooser dialog."
 msgstr ""
+"Wenn der Assistent startet, wird die Seite <guimenu>Willkommen</guimenu> "
+"angezeigt. Fahren Sie mit der Seite <guimenu>Wiederherstellen aus "
+"Sicherung</guimenu> fort. Wenn Sie zuvor eine Sicherungskopie Ihrer "
+"Evolution-Konfiguration erstellt haben und diese wiederherstellen möchten, "
+"aktivieren Sie die Wiederherstellungsoption und wählen Sie die "
+"Sicherungsdatei im Dateiauswahldialog aus."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:79
 msgid "Otherwise, proceed to <guimenu>Identity</guimenu>."
-msgstr ""
+msgstr "Andernfalls fahren Sie mit <guimenu>Identität</guimenu> fort."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:85
@@ -121,22 +151,30 @@ msgstr ""
 #: xml/apps_evolution.xml:86
 msgid "The <guimenu>Identity</guimenu> page is the next step in the assistant."
 msgstr ""
+"Die Seite <guimenu>Identität</guimenu> ist der nächste Schritt des "
+"Assistenten."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:91
 msgid "Type your full name in the <guimenu>Full Name</guimenu> field."
 msgstr ""
+"Geben Sie Ihren vollständigen Namen in das Feld <guimenu>Vollständiger "
+"Name</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:96
 msgid ""
 "Type your e-mail address in the <guimenu>E-mail Address</guimenu> field."
 msgstr ""
+"Geben Sie Ihre E-Mail-Adresse in das Feld <guimenu>E-Mail-Adresse</guimenu> "
+"ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:101
 msgid "(Optional) Type an address in the <guimenu>Reply-To</guimenu> field."
 msgstr ""
+"(Optional) Geben Sie eine Adresse in das Feld <guimenu>Antworten an</guimenu>"
+" ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:104
@@ -144,6 +182,8 @@ msgid ""
 "Only use this field if you want replies to e-mails from you to be sent to a "
 "different e-mail address."
 msgstr ""
+"Verwenden Sie dieses Feld nur, wenn Sie möchten, dass Antworten auf E-Mails "
+"von Ihnen an eine andere E-Mail-Adresse gesendet werden."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:110
@@ -158,6 +198,8 @@ msgid ""
 "This is the company where you work, or the organization you represent when "
 "you send e-mails."
 msgstr ""
+"Dies ist das Unternehmen, in dem Sie arbeiten, oder die Organisation, die "
+"Sie vertreten, wenn Sie E-Mails versenden."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:120 xml/apps_evolution.xml:262
@@ -167,12 +209,12 @@ msgstr ""
 #: xml/apps_evolution.xml:708 xml/apps_evolution.xml:734
 #: xml/apps_evolution.xml:766 xml/apps_evolution.xml:858
 msgid "Proceed to the next page."
-msgstr ""
+msgstr "Weiter zur nächsten Seite."
 
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:128
 msgid "Receiving Mail"
-msgstr ""
+msgstr "Mail erhalten"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:129
@@ -180,6 +222,8 @@ msgid ""
 "The <guimenu>Receiving E-mail</guimenu> page lets you determine the server "
 "that you want to use to receive e-mail."
 msgstr ""
+"Auf der Seite <guimenu>E-Mail-Empfang</guimenu> können Sie den Server "
+"bestimmen, den Sie für den Empfang von E-Mails verwenden möchten."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:133
@@ -188,6 +232,10 @@ msgid ""
 "are not sure about the type of server, contact your <phrase os=\"sles;sled"
 "\">system administrator or</phrase> e-mail provider."
 msgstr ""
+"Sie müssen den Typ des Servers angeben, von dem Sie E-Mails empfangen "
+"möchten. Wenn Sie sich über die Art des Servers nicht sicher sind, wenden "
+"Sie sich an Ihren <phrase os=\"sles;sled\">Systemadministrator oder</phrase> "
+"E-Mail-Provider."
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:138
@@ -195,6 +243,8 @@ msgid ""
 "Select a server type in the <guimenu>Server Type</guimenu> list. The "
 "following is a list of available server types:"
 msgstr ""
+"Wählen Sie einen Servertyp in der Liste <guimenu>Servertyp</guimenu>. Im "
+"Folgenden finden Sie eine Liste der verfügbaren Servertypen:"
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:143
@@ -213,7 +263,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:154
 msgid "IMAP+:"
-msgstr ""
+msgstr "IMAP+:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:155
@@ -221,11 +271,13 @@ msgid ""
 "Keeps the e-mail on your server, so you can access your e-mail from multiple "
 "systems."
 msgstr ""
+"Bewahrt die E-Mail auf Ihrem Server auf, so dass Sie von mehreren Systemen "
+"aus auf Ihre E-Mails zugreifen können."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:166
 msgid "POP:"
-msgstr ""
+msgstr "POP:"
 
 #. (itstool) path: formalpara/para
 #: xml/apps_evolution.xml:167
@@ -233,6 +285,8 @@ msgid ""
 "Downloads your e-mail to your hard disk for permanent storage, freeing up "
 "space on the e-mail server."
 msgstr ""
+"Lädt Ihre E-Mails zur dauerhaften Speicherung auf Ihre Festplatte herunter, "
+"wodurch Speicherplatz auf dem E-Mail-Server frei wird."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:173
@@ -271,6 +325,9 @@ msgid ""
 "command>-style program, you need to provide the path to the mail directory "
 "you want to use."
 msgstr ""
+"Um Ihre E-Mail mit <command>mh</command> oder einem Programm im Stil von "
+"<command>mh</command> herunterzuladen, müssen Sie den Pfad zu dem Mail-"
+"Verzeichnis angeben, das Sie verwenden möchten."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:196
@@ -284,6 +341,9 @@ msgid ""
 "select this option. You need to provide the path to the mail directory you "
 "want to use."
 msgstr ""
+"Wenn Sie Ihre E-Mail mit Qmail oder einem anderen Programm im Maildir-Stil "
+"herunterladen, wählen Sie diese Option. Sie müssen den Pfad zu dem Mail-"
+"Verzeichnis angeben, das Sie verwenden möchten."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:204
@@ -296,6 +356,9 @@ msgid ""
 "To read and store e-mail in the mail spool on your local system, select this "
 "option. You need to provide the path to the mail spool you want to use."
 msgstr ""
+"Um E-Mails im Mail-Spool auf Ihrem lokalen System zu lesen und zu speichern, "
+"wählen Sie diese Option. Sie müssen den Pfad zu dem Mail-Spool angeben, den "
+"Sie verwenden möchten."
 
 #. (itstool) path: formalpara/title
 #: xml/apps_evolution.xml:212
@@ -308,11 +371,13 @@ msgid ""
 "If you do not plan to check e-mail with this account, select this option. "
 "There are no configuration options."
 msgstr ""
+"Wenn Sie nicht vorhaben, E-Mails mit diesem Konto zu prüfen, wählen Sie "
+"diese Option. Es gibt keine Konfigurationsoptionen."
 
 #. (itstool) path: sect3/title
 #: xml/apps_evolution.xml:219
 msgid "Configuration Options for IMAP+, POP, and USENET"
-msgstr ""
+msgstr "Konfigurationsoptionen für IMAP+, POP und USENET"
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:220
@@ -320,6 +385,8 @@ msgid ""
 "If you selected IMAP+, POP, or USENET News as the server type, you need to "
 "specify additional information."
 msgstr ""
+"Wenn Sie IMAP+, POP oder USENET News als Servertyp gewählt haben, müssen Sie "
+"zusätzliche Informationen angeben."
 
 #. (itstool) path: sect3/para
 #: xml/apps_evolution.xml:224 xml/apps_evolution.xml:274
@@ -328,6 +395,9 @@ msgid ""
 "setting, contact your <phrase os=\"sles;sled\">system administrator or</"
 "phrase> e-mail provider."
 msgstr ""
+"Wenn Sie sich über die korrekte Serveradresse, den Benutzernamen oder die "
+"Sicherheitseinstellung nicht sicher sind, wenden Sie sich an Ihren <phrase "
+"os=\"sles;sled\">Systemadministrator oder</phrase> E-Mail-Provider."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:231
@@ -335,6 +405,8 @@ msgid ""
 "Type the host name of your e-mail server into the text box <guimenu>Server</"
 "guimenu>."
 msgstr ""
+"Geben Sie den Hostnamen Ihres E-Mail-Servers in das Textfeld "
+"<guimenu>Server</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:237 xml/apps_evolution.xml:281
@@ -342,6 +414,8 @@ msgid ""
 "Type your user name for the account into the text box <guimenu>Username</"
 "guimenu>."
 msgstr ""
+"Geben Sie Ihren Benutzernamen für das Konto in das Textfeld "
+"<guimenu>Benutzername</guimenu> ein."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:243 xml/apps_evolution.xml:826
@@ -349,6 +423,9 @@ msgid ""
 "Choose a security setting supported by your mail server. For security "
 "reasons, avoid using <guimenu>No Encryption</guimenu>."
 msgstr ""
+"Wählen Sie eine Sicherheitseinstellung, die von Ihrem Mail-Server "
+"unterstützt wird. Vermeiden Sie aus Sicherheitsgründen die Verwendung von "
+"<guimenu>Keine Verschlüsselung</guimenu>."
 
 #. (itstool) path: step/para
 #: xml/apps_evolution.xml:249
@@ -1445,7 +1522,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apps_evolution.xml:1288
 msgid "Managing Contacts"
-msgstr ""
+msgstr "Kontakte verwalten"
 
 #. (itstool) path: sect2/para
 #: xml/apps_evolution.xml:1289
@@ -1475,7 +1552,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apps_evolution.xml:1308
 msgid "For More Information"
-msgstr ""
+msgstr "Für mehr Informationen"
 
 #. (itstool) path: sect1/para
 #: xml/apps_evolution.xml:1310

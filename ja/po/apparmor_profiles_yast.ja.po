@@ -2,19 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:29+0200\n"
-"PO-Revision-Date: 2018-09-30 01:29+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-27 01:49+0000\n"
+"Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/apparmor_profiles_yast-master/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
+msgstr "Yasuhiko Kamata <belphegor@belbel.or.jp>, 2020"
 
 #. (itstool) path: chapter/title
 #: xml/apparmor_profiles_yast.xml:9
@@ -57,7 +59,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_yast.xml:39
 msgid "Manually Adding a Profile"
-msgstr ""
+msgstr "プロファイルの手動追加"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_yast.xml:41
@@ -79,7 +81,7 @@ msgstr ""
 #: xml/apparmor_profiles_yast.xml:55
 msgid ""
 "Browse your system to find the application for which to create a profile."
-msgstr ""
+msgstr "プロファイルを作成するアプリケーションを、システム内で選択します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:61
@@ -108,7 +110,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_yast.xml:86
 msgid "Editing Profiles"
-msgstr ""
+msgstr "プロファイルの編集"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_yast.xml:89
@@ -171,7 +173,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:131
 msgid "From the list of profiled applications, select the profile to edit."
-msgstr ""
+msgstr "プロファイルの一覧から、編集したいプロファイルを選択します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:136
@@ -241,7 +243,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_yast.xml:189
 msgid "Adding an Entry"
-msgstr ""
+msgstr "項目の追加"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:190
@@ -254,12 +256,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:195
 msgid "From the list, select one of the following:"
-msgstr ""
+msgstr "追加できる項目の種類は下記のとおりです:"
 
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:200
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:202
@@ -301,7 +303,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:228
 msgid "Directory"
-msgstr ""
+msgstr "ディレクトリ"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:230
@@ -333,7 +335,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:257
 msgid "Network Rule"
-msgstr ""
+msgstr "ネットワークルール"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:259
@@ -366,7 +368,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:279
 msgid "Capability"
-msgstr ""
+msgstr "機能 (ケーパビリティ)"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:281
@@ -401,7 +403,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:303
 msgid "Include File"
-msgstr ""
+msgstr "インクルード"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:305
@@ -415,7 +417,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/apparmor_profiles_yast.xml:314
 msgid "Hat"
-msgstr ""
+msgstr "ハット"
 
 #. (itstool) path: listitem/para
 #: xml/apparmor_profiles_yast.xml:316
@@ -439,7 +441,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_yast.xml:338
 msgid "Editing an Entry"
-msgstr ""
+msgstr "項目の編集"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:339
@@ -466,7 +468,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_yast.xml:355
 msgid "Deleting an Entry"
-msgstr ""
+msgstr "項目の削除"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:356
@@ -478,7 +480,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: xml/apparmor_profiles_yast.xml:363
 msgid "Deleting a Profile"
-msgstr ""
+msgstr "プロファイルの削除"
 
 #. (itstool) path: sect1/para
 #: xml/apparmor_profiles_yast.xml:365
@@ -491,7 +493,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:378
 msgid "Select the profile to delete."
-msgstr ""
+msgstr "削除するプロファイルを選びます。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:383
@@ -590,12 +592,12 @@ msgstr ""
 #: xml/apparmor_profiles_yast.xml:456
 msgid ""
 "You always need to restart running programs to apply the profiles to them."
-msgstr ""
+msgstr "プロファイルを適用するには、動作中のプログラムを再起動する必要があります。"
 
 #. (itstool) path: sect2/title
 #: xml/apparmor_profiles_yast.xml:464
 msgid "Changing the Mode of Individual Profiles"
-msgstr ""
+msgstr "個別のプロファイルに対するモード変更"
 
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:465
@@ -628,7 +630,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: xml/apparmor_profiles_yast.xml:488
 msgid "To edit an application's profile mode, proceed as follows:"
-msgstr ""
+msgstr "アプリケーションのプロファイルモードを編集するには、下記の手順を実施します:"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:499
@@ -640,7 +642,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:505
 msgid "Select the profile for which to change the mode."
-msgstr ""
+msgstr "モードを変更したいプロファイルを選択します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:510
@@ -648,6 +650,8 @@ msgid ""
 "Select <guimenu>Toggle Mode</guimenu> to set this profile to "
 "<emphasis>complain</emphasis> mode or to <emphasis>enforce</emphasis> mode."
 msgstr ""
+"<emphasis>不平</emphasis> (complain) モードと <emphasis>強制</emphasis> (enforce) "
+"モードを切り替えたい場合は、 <guimenu>モード切替</guimenu> ボタンを押します。"
 
 #. (itstool) path: step/para
 #: xml/apparmor_profiles_yast.xml:517
@@ -664,7 +668,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/apparmor_profiles_yast.xml:527
 msgid "Listing the Profiles Available"
-msgstr ""
+msgstr "利用可能なプロファイルの一覧表示"
 
 #. (itstool) path: tip/para
 #: xml/apparmor_profiles_yast.xml:528
@@ -674,3 +678,6 @@ msgid ""
 "the respective application, click <guimenu>Show All Profiles</guimenu> and "
 "select the profile to configure from the list that appears."
 msgstr ""
+"既定では、有効なプロファイル (対応するアプリケーションがシステム内にインストールされているプロファイル) "
+"のみが表示されます。対応するアプリケーションをインストールする前にプロファイルを設定しておきたい場合は、 "
+"<guimenu>すべてのプロファイルを表示</guimenu> を押して、表じれたプロファイルの中から必要な設定を行なってください。"

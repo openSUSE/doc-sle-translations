@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-09-30 01:27+0200\n"
-"PO-Revision-Date: 2018-09-30 01:27+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-04-12 10:57+0000\n"
+"Last-Translator: Lucie Charrier <c.chalu@free.fr>\n"
+"Language-Team: French <https://l10n.opensuse.org/projects/"
+"doc-sle-translations/art_sle_install_quick-master/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -19,7 +21,7 @@ msgstr ""
 #. (itstool) path: article/title
 #: xml/art_sle_install_quick.xml:14
 msgid "<citetitle>Installation Quick Start</citetitle>"
-msgstr ""
+msgstr "<citetitle>Installation démarrage rapide</citetitle>"
 
 #. (itstool) path: article/subtitle
 #: xml/art_sle_install_quick.xml:15
@@ -56,11 +58,16 @@ msgid ""
 "\"><phrase os=\"osuse\">15.0</phrase><phrase os=\"sles;sled\">15</phrase></"
 "phrase>."
 msgstr ""
+"Ce démarrage rapide vous guide pas à pas dans l'installation de <phrase role="
+"\"productname\"><phrase os=\"osuse\">openSUSE® Leap</phrase><phrase os=\""
+"sles\">SUSE® Linux Enterprise Server</phrase><phrase os=\"sled\">SUSE® Linux "
+"Enterprise Desktop</phrase></phrase> <phrase role=\"productnumber\"><phrase "
+"os=\"osuse\">15. 0</phrase><phrase os=\"sles;sled\">15</phrase></phrase>."
 
 #. (itstool) path: docmanager/translation
 #: xml/art_sle_install_quick.xml:26
 msgid "yes"
-msgstr ""
+msgstr "yes (oui)"
 
 #. (itstool) path: sect1/title
 #: xml/art_sle_install_quick.xml:31
@@ -69,6 +76,9 @@ msgid ""
 "phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><phrase os="
 "\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 msgstr ""
+"Bienvenue sur <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>"
 
 #. (itstool) path: sect1/para
 #: xml/art_sle_install_quick.xml:33
@@ -83,11 +93,21 @@ msgid ""
 "\">For preparations required to boot into the installation system, refer to "
 "<xref linkend=\"cha.x86\"/>.</phrase>"
 msgstr ""
+"Utilisez les procédures suivantes pour installer le produit sur toutes les "
+"plates-formes matérielles prises en charge. Elles supposent que vous avez "
+"réussi à démarrer<phrase os=\"sles\">/IPLed</phrase> dans le système "
+"d'installation. Pour des instructions d'installation plus détaillées et des "
+"stratégies de déploiement, consultez le <xref linkend=\"book.sle.deployment\""
+"/>. <phrase os=\"sles\">Pour les préparations spécifiques à la plate-forme "
+"requises pour démarrer ou IPLer dans le système d'installation, reportez-"
+"vous aux parties suivantes du guide susmentionné :</phrase><phrase os=\""
+"sled\">Pour les préparations requises pour démarrer dans le système "
+"d'installation, reportez-vous au <xref linkend=\"cha.x86\"/>.</phrase>"
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_install_quick.xml:68
 msgid "The Default Installation Procedure"
-msgstr ""
+msgstr "La procédure d'installation par défaut"
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:69
@@ -102,6 +122,16 @@ msgid ""
 "Enterprise Desktop</phrase></phrase>. During the installation you can add "
 "functionality by selecting modules to be installed on top of the Installer."
 msgstr ""
+"À partir de <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase> 15, le "
+"support d'installation se compose uniquement de l'installateur, un système "
+"minimal basé sur la ligne de commande pour installer, mettre à jour et "
+"enregistrer <phrase role=\"productname\"><phrase os=\"osuse\">openSUSE "
+"Leap</phrase><phrase os=\"sles\">SUSE Linux Enterprise Server</phrase><"
+"phrase os=\"sled\">SUSE Linux Enterprise Desktop</phrase></phrase>. Au cours "
+"de l'installation, vous pouvez ajouter des fonctionnalités en sélectionnant "
+"des modules à installer au-dessus de l'installateur."
 
 #. (itstool) path: sect2/para
 #: xml/art_sle_install_quick.xml:76
@@ -157,6 +187,12 @@ msgid ""
 "here, if necessary. Use the <guimenu>Keyboard Test</guimenu> text box to "
 "test the layout."
 msgstr ""
+"Les paramètres <guimenu>Language</guimenu> et <guimenu>Keyboard "
+"Layout</guimenu> sont initialisés avec la langue que vous avez choisie sur "
+"l'écran de démarrage. Si vous n'avez pas modifié la valeur par défaut, il "
+"s'agit de l'anglais (US). Modifiez les paramètres ici, si nécessaire. "
+"Utilisez la zone de texte <guimenu>Test du clavier</guimenu> pour tester la "
+"disposition."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:172
@@ -243,7 +279,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:234
 msgid "Network Settings"
-msgstr ""
+msgstr "Paramètres réseau"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -263,6 +299,11 @@ msgid ""
 "automatically configured via DHCP during the start of the installation, you "
 "will be taken to the registration step."
 msgstr ""
+"Une analyse du système est effectuée, au cours de laquelle le programme "
+"d'installation recherche les périphériques de stockage et essaie de trouver "
+"d'autres systèmes installés. Si le réseau a été automatiquement configuré "
+"via DHCP au début de l'installation, vous serez dirigé vers l'étape "
+"d'enregistrement."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:251
@@ -275,6 +316,14 @@ msgid ""
 "prefer to do an installation without network access, skip this step without "
 "making any changes and proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Si le réseau n'est pas encore configuré, la boîte de dialogue <guimenu>"
+"Network Settings</guimenu> s'ouvre. Choisissez une interface réseau dans la "
+"liste et configurez-la avec <guimenu>Edit</guimenu>. Vous pouvez également "
+"<guimenu>Add</guimenu> une interface manuellement. Voir <xref linkend=\""
+"sec.yast_install.network\"/> et <xref linkend=\"sec.network.yast\"/> pour "
+"plus d'informations. Si vous préférez effectuer une installation sans accès "
+"au réseau, sautez cette étape sans apporter de modifications et passez à "
+"<guimenu>Next</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:263
@@ -843,7 +892,7 @@ msgstr ""
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:471 xml/art_sle_install_quick.xml:532
 msgid "Release Notes"
-msgstr ""
+msgstr "Notes de publication"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:472 xml/art_sle_install_quick.xml:533
@@ -851,11 +900,14 @@ msgid ""
 "From this point on, the Release Notes can be viewed from any screen during "
 "the installation process by selecting <guimenu>Release Notes</guimenu>."
 msgstr ""
+"À partir de là, les notes de version peuvent être consultées à partir de "
+"n'importe quel écran pendant le processus d'installation en sélectionnant "
+"<guimenu>Release Notes</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:480
 msgid "Suggested Partitioning"
-msgstr ""
+msgstr "Partitionnement suggéré"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -888,6 +940,12 @@ msgid ""
 "root partition. If the disk(s) already contain partitions, decide whether to "
 "remove or resize them."
 msgstr ""
+"Démarre un assistant qui vous permet d'affiner la proposition de "
+"partitionnement. Les options disponibles ici dépendent de la configuration "
+"de votre système. S'il contient plus d'un seul disque dur, vous pouvez "
+"choisir le ou les disques à utiliser et l'endroit où placer la partition "
+"racine. Si le ou les disques contiennent déjà des partitions, décidez de les "
+"supprimer ou de les redimensionner."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:507
@@ -896,6 +954,10 @@ msgid ""
 "can change the file system for the root partition and decide whether to have "
 "a separate home partition or not."
 msgstr ""
+"Dans les étapes suivantes, vous pouvez également ajouter la prise en charge "
+"de LVM et le chiffrement des disques. Vous pouvez modifier le système de "
+"fichiers de la partition racine et décider d'avoir ou non une partition home "
+"séparée."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:515
@@ -910,6 +972,10 @@ msgid ""
 "partitioning setup and lets you create a custom setup. This option is "
 "intended for experts."
 msgstr ""
+"Ouvre le <guimenu>Expert Partitioner</guimenu> décrit dans <xref linkend=\""
+"sec.expert_partitioner\"/>. Cela vous donne un contrôle total sur la "
+"configuration du partitionnement et vous permet de créer une configuration "
+"personnalisée. Cette option est destinée aux experts."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:527
@@ -917,6 +983,8 @@ msgid ""
 "To accept the proposed setup without any changes, choose <guimenu>Next</"
 "guimenu> to proceed."
 msgstr ""
+"Pour accepter la configuration proposée sans aucune modification, choisissez "
+"<guimenu>Suivant</guimenu> pour continuer."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:541
@@ -941,6 +1009,11 @@ msgid ""
 "<guimenu>Other Settings</guimenu>. See <xref linkend=\"sec.yast_install."
 "timezone\"/> for detailed information. Proceed with <guimenu>Next</guimenu>."
 msgstr ""
+"Sélectionnez l'horloge et le fuseau horaire à utiliser dans votre système. "
+"Pour régler manuellement l'heure ou pour configurer un serveur NTP pour la "
+"synchronisation de l'heure, choisissez <guimenu>Autres paramètres</guimenu>. "
+"Voir <xref linkend=\"sec.yast_install.timezone\"/> pour des informations "
+"détaillées. Poursuivez avec <guimenu>Suivant</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:562
@@ -964,6 +1037,10 @@ msgid ""
 "Full Name</guimenu> field, the login name in the <guimenu>Username</guimenu> "
 "field, and the password in the <guimenu>Password</guimenu> field."
 msgstr ""
+"Pour créer un utilisateur local, tapez le nom et le prénom dans le champ "
+"<guimenu>User’s Full Name</guimenu>, le nom de connexion dans le champ "
+"<guimenu>Username</guimenu> et le mot de passe dans le champ "
+"<guimenu>Password</guimenu>."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:579
@@ -972,6 +1049,10 @@ msgid ""
 "both uppercase and lowercase letters and numbers. The maximum length for "
 "passwords is 72 characters, and passwords are case-sensitive."
 msgstr ""
+"Le mot de passe doit comporter au moins huit caractères et doit contenir des "
+"lettres majuscules et minuscules ainsi que des chiffres. La longueur "
+"maximale des mots de passe est de 72 caractères, et les mots de passe sont "
+"sensibles à la casse."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:584
@@ -982,33 +1063,50 @@ msgid ""
 "Administrator</guimenu> but rather provide a separate <systemitem class="
 "\"username\">root</systemitem> password in the next installation step."
 msgstr ""
+"Pour des raisons de sécurité, il est également fortement recommandé "
+"<emphasis>de ne pas</emphasis> activer la <guimenu>connexion "
+"automatique</guimenu>. Vous devriez également <emphasis>ne pas</emphasis> "
+"<guimenu>utiliser ce mot de passe pour l'administrateur système</guimenu> "
+"mais plutôt fournir un mot de passe distinct <systemitem class=\"username\""
+">root</systemitem> à l'étape suivante de l'installation."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:591
+#, fuzzy
 msgid ""
 "If you install on a system where a previous Linux installation was found, "
 "you may <guimenu>Import User Data from a Previous Installation</guimenu>. "
 "Click <guimenu>Choose User</guimenu> for a list of available user accounts. "
 "Select one or more user."
 msgstr ""
+"Si vous effectuez l'installation sur un système où une installation Linux "
+"précédente a été trouvée, vous pouvez <guimenu>Importer les données "
+"utilisateur d'une installation précédente</guimenu>. Cliquez sur <guimenu>"
+"Choisir un utilisateur</guimenu> pour obtenir une liste des comptes "
+"d'utilisateur disponibles. Sélectionnez un ou plusieurs utilisateurs."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:597
+#, fuzzy
 msgid ""
 "In an environment where users are centrally managed (for example by NIS or "
 "LDAP) you may want to skip the creation of local users. Select <guimenu>Skip "
 "User Creation</guimenu> in this case."
 msgstr ""
+"Dans un environnement où les utilisateurs sont gérés de manière centralisée ("
+"par exemple par NIS ou LDAP), vous pouvez vouloir ignorer la création "
+"d'utilisateurs locaux. Sélectionnez <guimenu>Skip User Creation</guimenu> "
+"dans ce cas."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:602
 msgid "Proceed with <guimenu>Next</guimenu>."
-msgstr ""
+msgstr "Continuez avec <guimenu>Suivant</guimenu>."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:607
 msgid "Password for the System Administrator <quote>root</quote>"
-msgstr ""
+msgstr "Mot de passe pour l'administrateur du système <quote>root</quote>"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1035,11 +1133,15 @@ msgid ""
 "<xref linkend=\"sec.yast_install.user.root\"/> for more information. Proceed "
 "with <guimenu>Next</guimenu>."
 msgstr ""
+"Vous ne devez jamais oublier le mot de passe <systemitem class=\"username\""
+">root</systemitem> ! Après l'avoir saisi ici, le mot de passe ne peut pas "
+"être récupéré. Voir <xref linkend=\"sec.yast_install.user.root\"/> pour plus "
+"d'informations. Continuez avec <guimenu>Suivant</guimenu>."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:629
 msgid "Passwords and Keyboard Layout"
-msgstr ""
+msgstr "Mots de passe et disposition du clavier"
 
 #. (itstool) path: tip/para
 #: xml/art_sle_install_quick.xml:630
@@ -1048,11 +1150,16 @@ msgid ""
 "keyboard. In case of a system error or when you need to start your system in "
 "rescue mode a localized keyboard might not be available."
 msgstr ""
+"Il est recommandé d'utiliser uniquement les caractères disponibles sur un "
+"clavier anglais. En cas d'erreur système ou lorsque vous devez démarrer "
+"votre système en mode de secours, un clavier localisé peut ne pas être "
+"disponible."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:639
+#, fuzzy
 msgid "Installation Settings"
-msgstr ""
+msgstr "Paramètres de l'installation"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1076,6 +1183,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:652
+#, fuzzy
 msgid ""
 "Use the <guimenu>Installation Settings</guimenu> screen to review and—if "
 "necessary—change several proposed installation settings. The current "
@@ -1083,6 +1191,12 @@ msgid ""
 "Some settings, such as firewall or SSH can directly be changed by clicking "
 "the respective links."
 msgstr ""
+"Utilisez l'écran <guimenu>Paramètres de l'installation</guimenu> pour "
+"examiner et - si nécessaire - modifier plusieurs paramètres de "
+"l'installation proposée. La configuration actuelle est indiquée pour chaque "
+"paramètre. Pour la modifier, cliquez sur le titre. Certains paramètres, "
+"comme le pare-feu ou le protocole SSH, peuvent être directement modifiés en "
+"cliquant sur les liens respectifs."
 
 #. (itstool) path: tip/title
 #: xml/art_sle_install_quick.xml:660
@@ -1100,8 +1214,9 @@ msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:670
+#, fuzzy
 msgid "<guimenu>Software</guimenu>"
-msgstr ""
+msgstr "<guimenu>Logiciel</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:673
@@ -1127,7 +1242,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:693
 msgid "<guimenu>Booting</guimenu>"
-msgstr ""
+msgstr "<guimenu>Démarrage</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:696
@@ -1136,11 +1251,16 @@ msgid ""
 "only recommended if really needed. Refer to <xref linkend=\"cha.grub2\"/> "
 "for details."
 msgstr ""
+"Cette section montre la configuration du chargeur de démarrage. La "
+"modification des valeurs par défaut n'est recommandée que si elle est "
+"vraiment nécessaire. Reportez-vous à <xref linkend=\"cha.grub2\"/> pour plus "
+"de détails."
 
 #. (itstool) path: varlistentry/term
 #: xml/art_sle_install_quick.xml:704
+#, fuzzy
 msgid "<guimenu>Firewall and SSH</guimenu>"
-msgstr ""
+msgstr "<guimenu>Pare-feu et SSH</guimenu>"
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:711
@@ -1149,6 +1269,9 @@ msgid ""
 "for the public zone. See <xref linkend=\"sec.security.firewall.firewalld\"/> "
 "for configuration details."
 msgstr ""
+"Par défaut, le pare-feu est activé avec toutes les interfaces réseau "
+"configurées pour la zone publique. Voir <xref linkend=\""
+"sec.security.firewall.firewalld\"/> pour les détails de configuration."
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:717
@@ -1204,17 +1327,22 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: xml/art_sle_install_quick.xml:759
+#, fuzzy
 msgid ""
 "View detailed hardware information by clicking <guimenu>System</guimenu>. In "
 "the resulting screen you can also change <guimenu>Kernel Settings</guimenu>—"
 "see <xref linkend=\"sec.yast_install.proposal.system\"/> for more "
 "information."
 msgstr ""
+"Affichez des informations matérielles détaillées en cliquant sur "
+"<guimenu>System</guimenu>. Dans l'écran résultant, vous pouvez également "
+"modifier les <guimenu>Paramètres du noyau</guimenu>-voir <xref linkend=\""
+"sec.yast_install.proposal.system\"/> pour plus d'informations."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:771
 msgid "Start the Installation"
-msgstr ""
+msgstr "Démarrer l'installation"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1238,6 +1366,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:784
+#, fuzzy
 msgid ""
 "After you have finalized the system configuration on the "
 "<guimenu>Installation Settings</guimenu> screen, click <guimenu>Install</"
@@ -1246,11 +1375,18 @@ msgid ""
 "to this point no changes have been made to your system. After you click "
 "<guimenu>Install</guimenu> a second time, the installation process starts."
 msgstr ""
+"Après avoir finalisé la configuration du système sur l'écran <guimenu>"
+"Paramètres d'installation</guimenu>, cliquez sur <guimenu>Install</guimenu>. "
+"Selon votre sélection de logiciels, vous devrez peut-être accepter les "
+"accords de licence avant que l'écran de confirmation de l'installation ne "
+"s'affiche. Jusqu'à ce stade, aucune modification n'a été apportée à votre "
+"système. Après avoir cliqué une deuxième fois sur <guimenu>Install</guimenu>"
+", le processus d'installation commence."
 
 #. (itstool) path: sect3/title
 #: xml/art_sle_install_quick.xml:796
 msgid "The Installation Process"
-msgstr ""
+msgstr "Le processus d'installation"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -1274,6 +1410,7 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:809
+#, fuzzy
 msgid ""
 "During the installation, the progress is shown in detail on the "
 "<guimenu>Details</guimenu> tab. The <guimenu><phrase role=\"productname"
@@ -1282,6 +1419,12 @@ msgid ""
 "phrase></phrase> Release Notes</guimenu> tab shows important information; "
 "reading them is recommended."
 msgstr ""
+"Pendant l'installation, la progression est indiquée en détail dans l'onglet "
+"<guimenu>Details</guimenu>. L'onglet <guimenu><phrase role=\"productname\"><"
+"phrase os=\"osuse\">openSUSE Leap</phrase><phrase os=\"sles\">SUSE Linux "
+"Enterprise Server</phrase><phrase os=\"sled\">SUSE Linux Enterprise "
+"Desktop</phrase></phrase> Release Notes</guimenu> présente des informations "
+"importantes ; leur lecture est recommandée."
 
 #. (itstool) path: sect3/para
 #: xml/art_sle_install_quick.xml:815
@@ -1291,6 +1434,11 @@ msgid ""
 "are not using a graphical desktop or are working from remote, refer to <xref "
 "linkend=\"cha.yast.text\"/> for information on using YaST from a terminal."
 msgstr ""
+"Une fois la séquence d'installation terminée, l'ordinateur est redémarré "
+"dans le système installé. Connectez-vous et lancez YaST pour régler le "
+"système avec précision. Si vous n'utilisez pas un bureau graphique ou si "
+"vous travaillez à distance, reportez-vous à <xref linkend=\"cha.yast.text\"/>"
+" pour obtenir des informations sur l'utilisation de YaST depuis un terminal."
 
 #. (itstool) path: sect2/title
 #: xml/art_sle_install_quick.xml:826
